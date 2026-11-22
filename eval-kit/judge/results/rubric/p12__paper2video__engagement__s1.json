@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:38.615Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00-0:17: Opens with a dry title slide.\n0:18: Mentions a hook as a bullet point, but lacks engaging delivery.\n0:36-3:38: The entire video consists of static slides with text, equations, and tables read by a synthetic voice, lacking visual variety or momentum.",
+    "score_reason": "The lesson is dull throughout and reads exactly like a slide presentation, fully meeting Level 1.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 64074,
+    "candidatesTokenCount": 117,
+    "totalTokenCount": 65151,
+    "cachedContentTokenCount": 63341,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63429
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56026
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6976
+      }
+    ],
+    "thoughtsTokenCount": 960,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 67602
+  }
+}

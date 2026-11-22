@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:21:06.984Z",
+  "seconds": 303,
+  "result": {
+    "evidence": "An 'Anchor panel' introduces symbols early (0:02). The lesson follows a highly structured progression from basic understanding to far transfer (Parts 1-6). However, dense interactive tables appear all at once rather than building up (1:34, 12:10). 'Predict first' tasks ask the user to deduce answers before a full explanation is provided (0:53).",
+    "score_reason": "The lesson fully meets Level 4. It has a sensible, logical order and introduces terms before use. It is kept from Level 5 because the sudden appearance of dense interactive elements and the pedagogical choice to have the user deduce steps create small gaps that require a moment's thought, rather than a perfectly smooth step-by-step explanation.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 378210,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 380757,
+    "cachedContentTokenCount": 385013,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 377520
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 384670
+      }
+    ],
+    "thoughtsTokenCount": 2370,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 388696
+  }
+}

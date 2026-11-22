@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:19:31.723Z",
+  "seconds": 361,
+  "result": {
+    "evidence": "The lesson uses a highly effective road network analogy to introduce edge graphs (0:01). It features excellent visual animations, such as morphing the original graph into the edge graph (7:30), which makes the abstract concept concrete. The mathematical components (incidence, degree, adjacency matrices) are broken down step-by-step (6:06-13:26). The inclusion of near-transfer (bike lanes, 13:27) and far-transfer (research collaborations, 15:27) tasks, along with a section on common mistakes (17:21), provides a comprehensive and engaging learning experience.",
+    "score_reason": "The lesson fully meets the top level. It is an exceptional, model lesson that is clear, correct, highly engaging, and uses excellent visuals and interactive elements to teach the core idea thoroughly. (Score compressed per instructions).",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 357124,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 358685,
+    "cachedContentTokenCount": 363492,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 356400
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 363150
+      }
+    ],
+    "thoughtsTokenCount": 1356,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 367050
+  }
+}

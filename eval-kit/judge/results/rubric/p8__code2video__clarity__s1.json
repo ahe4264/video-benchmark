@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:21:30.927Z",
+  "seconds": 34,
+  "result": {
+    "evidence": "0:00-0:30: The hook clearly establishes the goal of getting useful work from hydrogen. 0:30-1:26: Components (anode, membrane, cathode) are introduced one by one with their functions clearly stated. 1:26-2:12: The animation steps through the fuel cell cycle slowly, showing H2 splitting, protons crossing, electrons taking the wire, and water forming. 2:12-2:54: The relationship between H2 feed and current is demonstrated. The introduction of Faraday's constant (F) and the formula I = 2F * n(H2) is a bit rushed, and 'Utilization' is introduced quickly. 2:54-3:39: The transition to a simplified schematic is clear. 3:39-4:19: The final summary and prediction question logically follow the previous explanations.",
+    "score_reason": "The lesson is highly logical and builds step-by-step for the most part, fully meeting the criteria for a logical progression. However, the introduction of the mathematical formula for current and Faraday's constant is a briefly rushed step that might require a moment's thought, keeping it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 69330,
+    "candidatesTokenCount": 280,
+    "totalTokenCount": 71395,
+    "cachedContentTokenCount": 70283,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68640
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69940
+      }
+    ],
+    "thoughtsTokenCount": 1785,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71626
+  }
+}

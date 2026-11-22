@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:01.214Z",
+  "seconds": 116,
+  "result": {
+    "evidence": "The lesson is a continuous video. The narrator poses rhetorical questions, such as asking the viewer to imagine two grandfather clocks with different weights (1:23), but immediately provides the answer (1:45). There are no interactive elements or prompts requiring learner input.",
+    "score_reason": "The lesson fully meets Level 2 because it only contains rhetorical questions and does not require any active participation or input from the learner.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 177320,
+    "candidatesTokenCount": 104,
+    "totalTokenCount": 178726,
+    "cachedContentTokenCount": 184250,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 176590
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164359
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19552
+      }
+    ],
+    "thoughtsTokenCount": 1302,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 186357
+  }
+}

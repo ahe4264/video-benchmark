@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:49.565Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:00-0:30: Slides contain only text. 0:31: A static image of a textbook diagram is shown. 0:46: Another static image of a circle and triangle is displayed. 1:00-3:22: The remainder of the video consists entirely of text slides and a table of values (2:05), despite describing dynamic visual elements like a slider.",
+    "score_reason": "The lesson contains a couple of relevant static diagrams, but it is overwhelmingly text-heavy. The core concept is described through text and tables rather than shown visually. It meets the criteria for a lower level, but the score is compressed toward the center.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 59835,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 61724,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 765
+      }
+    ],
+    "thoughtsTokenCount": 1726,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63154
+  }
+}

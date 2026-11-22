@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:15.035Z",
+  "seconds": 147,
+  "result": {
+    "evidence": "The lesson introduces the problem of changing pressure with depth (0:26). It defines the physical setup and variables like density, depth, and width (1:14-2:19). The derivation follows a logical progression: slicing the surface, approximating force on a single strip, building a Riemann sum, and taking the limit (2:20-5:35). The final integral formula is explained verbally piece-by-piece but not shown as a single, complete equation on screen.",
+    "score_reason": "The lesson teaches the core idea well with a clear, step-by-step structure, fully meeting the 'Good' level. It is kept from the 'Strong' level by minor visual inconsistencies (mixing generic animations with textbook figures) and the lack of a final, consolidated formula on screen.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 115161,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 117024,
+    "cachedContentTokenCount": 119538,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114437
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 106524
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12672
+      }
+    ],
+    "thoughtsTokenCount": 1677,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 121181
+  }
+}

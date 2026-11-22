@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:23:07.933Z",
+  "seconds": 79,
+  "result": {
+    "evidence": "0:21: Hands-on exploration firing probes into a box.\n0:45: Learner predicts where particles will land.\n0:59: Learner explains reasoning for their prediction.\n2:38: Learner explores a simulation to collect data.\n3:55: Learner rebuilds the chain of reasoning.\n9:26: Learner applies concepts to a near transfer task (silver foil).\n15:45: Error diagnosis table provides specific feedback based on potential wrong answers.\n15:54: Learner applies concepts to a far transfer task (server latency).\n18:06: Dedicated section on misconceptions requires the learner to commit to beliefs before revealing specific refutations.",
+    "score_reason": "The lesson fully meets the top level. The learner performs key reasoning (predicting, exploring, applying) at all main steps. Feedback addresses specific answers via detailed error diagnosis tables, and checks are explicitly placed to catch and refute common misconceptions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 436332,
+    "candidatesTokenCount": 227,
+    "totalTokenCount": 438749,
+    "cachedContentTokenCount": 444191,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 435600
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 443850
+      }
+    ],
+    "thoughtsTokenCount": 2190,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 448358
+  }
+}

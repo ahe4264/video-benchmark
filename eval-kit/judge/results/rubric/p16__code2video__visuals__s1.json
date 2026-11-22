@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:17.012Z",
+  "seconds": 73,
+  "result": {
+    "evidence": "0:00-0:30: Visual metaphor of a robot navigating a crowd introduces steric hindrance. 0:31-1:02: 3D to 2D projection explains wedge/dash notation. 1:42-2:55: Dynamic cone visualizes the narrowing backside window as substituent bulk increases. 2:56-3:35: Animation of transition state and 'umbrella flip' clearly depicts inversion. Visuals are clean, uncluttered, and central to the explanation.",
+    "score_reason": "The lesson fully meets the top level. The visuals carry the explanation, are crisp, consistent, and allow a student to follow the core concepts almost entirely without text.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 70724,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 72254,
+    "cachedContentTokenCount": 71631,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69960
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71285
+      }
+    ],
+    "thoughtsTokenCount": 1364,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73055
+  }
+}

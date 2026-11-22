@@ -1,0 +1,61 @@
+Produce a narrated lesson on this figure contains five panels (a)–(e) tracing the
+execution of the Bellman-Ford algorithm on a directed weighted graph with five vertices
+s, t, x, y, and z and ten directed edges with weights 6, 7, 5, 8, −4, −2, −3, 9, 7, and
+2.
+Source: Introduction to Algorithms, Figure 24.4 (figure `24.4`, cs/2d)
+Target length: 4 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand the Bellman-Ford algorithm's iterative
+relaxation process, showing how negative-weight edges cause distance estimates to
+decrease over successive passes until convergence.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure contains five panels (a)–(e) tracing the execution of the Bellman-Ford
+algorithm on a directed weighted graph with five vertices s, t, x, y, and z and ten
+directed edges with weights 6, 7, 5, 8, −4, −2, −3, 9, 7, and 2. The same graph layout
+is used in all five panels: vertex s appears at the left, t and y in the center-left
+region, and x and z at the right; each vertex circle displays the current shortest-path
+estimate d[v] inside it. Panel (a) shows the initial state with d[s] = 0 and d[v] = ∞
+for all other vertices, and all edges drawn as thin black arrows labeled with their
+weights. Panels (b) through (e) each show the graph after one additional relaxation
+pass; bold gray arrows highlight the edges whose relaxation improved a distance estimate
+in that pass, and updated d[v] values appear inside the affected vertex circles. After
+pass 1 (panel b), d[t] = 6 and d[y] = 7. After pass 2 (panel c), d[x] = 4 and d[z] = 2.
+After pass 3 (panel d), d[t] = 2 and d[z] = −2. Panel (e) shows the final shortest-path
+estimates d[s] = 0, d[t] = 2, d[x] = 4, d[y] = 7, d[z] = −2, with bold arrows forming
+the shortest-path tree along the path s → y → x → t → z. This figure demonstrates the
+Bellman-Ford algorithm's iterative relaxation process, showing how negative-weight edges
+cause distance estimates to decrease over successive passes until convergence.
+3. Demonstration — code editing: learner implements relax(u, v, w) that sets dist[v] =
+dist[u] + w when dist[u] + w < dist[v], using the provided dist object (dist.s=0, all
+others Infinity) and pred object; running calls relax on each edge across 4 passes in
+the order shown, animating updated distance labels inside vertex circles and shading
+newly relaxed edges in gray, driving the graph from panel (a) to (e); a counter shows
+how many distances changed each pass
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: The execution of the Bellman-Ford algorithm. The source is vertex s.
+The d values appear within the vertices, and shaded edges indicate predecessor values:
+if edge .u; _x0017_/ is shaded, then _x0017_:_x0019_ D u. In this particular example,
+each pass relaxes the edges in the order .t; x/; .t; y/; .t; ´/; .x; t /; .y; x/; .y;
+´/; .´; x/; .´; s/; .s; t /; .s; y/. (a) The situation just before the first pass over
+the edges. (b)–(e) The situation after each successive pass over the edges. The d and
+_x0019_ values in part (e) are the final values. The Bellman-Ford algorithm returns TRUE
+in this example.
+CONSTRAINTS
+- Render in 2D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.

@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:36.327Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "The video is mostly passive. At 4:11, it poses a 'Prediction Challenge' ('window lowered 1 m. What changes?'). At 4:24, it asks 'h, w, or both?' with a 5-second countdown (4:24-4:29) before showing the answer. No interactive input is collected.",
+    "score_reason": "Meets Level 2 by including a 'pause and think' prompt (countdown timer). It lacks genuine interactive checks with feedback, preventing a higher score.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 74917,
+    "candidatesTokenCount": 132,
+    "totalTokenCount": 77217,
+    "cachedContentTokenCount": 75931,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74184
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75589
+      }
+    ],
+    "thoughtsTokenCount": 2168,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77360
+  }
+}

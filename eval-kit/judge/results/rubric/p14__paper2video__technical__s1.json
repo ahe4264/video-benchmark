@@ -1,0 +1,54 @@
+{
+  "topic": "p14",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:14.307Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "Watched full video. Slides and narration are synchronized. No layout, rendering, playback, or audio issues found.",
+    "issues": [],
+    "score_reason": "Meets top level criteria as no technical problems were observed, but score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74013,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 74727,
+    "cachedContentTokenCount": 72882,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73043
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64507
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8032
+      }
+    ],
+    "thoughtsTokenCount": 645,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78188
+  }
+}

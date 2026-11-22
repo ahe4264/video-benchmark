@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:08:56.607Z",
+  "seconds": 128,
+  "result": {
+    "evidence": "0:59 Predicts force estimate.\n1:16 Sorts relevant/irrelevant info.\n1:49 Explores axis placement interactively.\n2:14 Self-test on depth function with specific feedback.\n3:17 Chooses strip orientation.\n4:13 Fills in inequalities for one strip.\n6:50 Sets up the exact integral.\n7:11 Near transfer task: applies steps to a circular porthole.\n10:42 Diagnoses errors from wrong answers.\n10:58 Far transfer task: applies method to population density.\n14:18 Debug mode: diagnoses specific student errors using a checklist.\n18:41 Rebuilds the roadmap and predicts effects of a design change.",
+    "score_reason": "The learner does the key reasoning throughout, predicting, applying to new scenarios, and exploring at the main steps. Feedback addresses specific answers, and checks are explicitly placed where misconceptions arise.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 320437,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 322407,
+    "cachedContentTokenCount": 326101,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 319704
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 325759
+      }
+    ],
+    "thoughtsTokenCount": 1745,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 329390
+  }
+}

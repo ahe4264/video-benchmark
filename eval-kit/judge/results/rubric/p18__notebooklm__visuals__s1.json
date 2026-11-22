@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:04.798Z",
+  "seconds": 62,
+  "result": {
+    "evidence": "1:55: Clear diagram showing how a pinhole inverts an image. 2:58, 4:45, 7:02: The screen displays illegible walls of text while the narrator explains key concepts like the room camera and the math of similar triangles. 5:52: Good conceptual visual comparing perspective and orthographic projection. 6:22: Clear step-by-step diagram of the straw camera.",
+    "score_reason": "The lesson meets Level 4. It features clean visuals that explain parts of the idea (pinhole mechanism, straw camera), but it relies on illegible text documents for other crucial explanations, preventing it from reaching Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 149306,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 151477,
+    "cachedContentTokenCount": 155063,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 767
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148539
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138266
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16448
+      }
+    ],
+    "thoughtsTokenCount": 2007,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156978
+  }
+}

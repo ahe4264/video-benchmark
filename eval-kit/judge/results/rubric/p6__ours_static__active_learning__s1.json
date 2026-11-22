@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:18.908Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "0:34 - Question asks to predict force change when plate is lowered; feedback explains the reasoning (pressure doubles, area stays same).\n0:55 - Question asks to compare estimated force to true force; feedback explains why it's too small.\n2:14 - Interactive task to drag level to widest point.\n2:56 - Question asks if strips of same height have same area; feedback explains different widths.\n3:59 - Question asks to compare estimated force of one strip to true force; feedback explains depth relationship.\n4:56 - Question asks to predict which strip carries most force; feedback explains interplay of depth and width.\n5:45 - Question asks to predict sum behavior as n grows.\n6:17 - Interactive task to drag n to reach 1% accuracy.\n7:03 - Question asks to predict force accumulation halfway down; feedback explains curve shape.\n8:26 - Question asks to predict force when plate is lowered 1m; feedback provides mathematical reasoning.\n9:05 - Interactive task to drag plate until force doubles; feedback explains the calculation.",
+    "score_reason": "The lesson fully meets the top level by having the learner do the key reasoning (predicting, applying, exploring) at almost every main step, with feedback that explains the 'why' for their specific answers. The score is compressed from 7 to 6 per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 170374,
+    "candidatesTokenCount": 315,
+    "totalTokenCount": 172154,
+    "cachedContentTokenCount": 177029,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 169641
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 157903
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18784
+      }
+    ],
+    "thoughtsTokenCount": 1465,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 179068
+  }
+}

@@ -1,0 +1,1304 @@
+{
+ "lesson": "p14",
+ "offset": 0,
+ "actions": 128,
+ "noVisibleChange": 3,
+ "withPageError": 0,
+ "deadOrError": 3,
+ "loadErrors": 1,
+ "recorderCouldNotUse": 0,
+ "deadByOffset": {
+  "0": 3,
+  "-3": 15,
+  "-2.5": 15,
+  "-2": 8,
+  "-1.5": 7,
+  "-1": 6,
+  "-0.5": 5
+ },
+ "loadErrorMessages": [
+  "missing ) after argument list"
+ ],
+ "items": [
+  {
+   "t": 15,
+   "part": 1,
+   "kind": "range",
+   "label": "1000",
+   "change": 0.0174,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 28.1,
+   "part": 1,
+   "kind": "button",
+   "label": "Student",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 29.5,
+   "part": 1,
+   "kind": "button",
+   "label": "Class 10s",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 30.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Video 2s",
+   "change": 0.1544,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 42.1,
+   "part": 1,
+   "kind": "button",
+   "label": "Show t = 0",
+   "change": 0.0074,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 43.5,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Sweep 1000 → 1",
+   "change": 0.0264,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 49.5,
+   "part": 1,
+   "kind": "button",
+   "label": "t = 1000",
+   "change": 0.0129,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 50.9,
+   "part": 1,
+   "kind": "button",
+   "label": "t = 500",
+   "change": 0.0122,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 52.4,
+   "part": 1,
+   "kind": "button",
+   "label": "t = 10 (near-clean)",
+   "change": 0.1414,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 63.5,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 68.6,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0091,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 72.8,
+   "part": 1,
+   "kind": "text",
+   "label": "one reason…",
+   "change": 0.0049,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 77.7,
+   "part": 1,
+   "kind": "radio",
+   "label": "image",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 79.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Start pause timer",
+   "change": 0.0417,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 82.6,
+   "part": 1,
+   "kind": "button",
+   "label": "Submit prediction & unlock",
+   "change": 0.1243,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 93.8,
+   "part": 1,
+   "kind": "button",
+   "label": "Step 1 · F",
+   "change": 0.0734,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 95.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Step 2 · O",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 96.7,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 101.5,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 106.5,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0018,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 111.1,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0018,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 115.5,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 120.1,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0137,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 124.5,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 129.5,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 134.3,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 139,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 154.1,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 159.2,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 164.4,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 165.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Step decoder ▶",
+   "change": 0.1299,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 176.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Labels & numbers ▾",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 178.3,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 179.8,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 181.3,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0208,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 182.7,
+   "part": 1,
+   "kind": "button",
+   "label": "Arrows & colours ▾",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 184.1,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 185.5,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0122,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 187,
+   "part": 1,
+   "kind": "button",
+   "label": "Captions ▾",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 188.4,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 189.9,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 201,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 202.4,
+   "part": 1,
+   "kind": "range",
+   "label": "6",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 369.3,
+   "part": 2,
+   "kind": "button",
+   "label": "Level names",
+   "change": 0.0849,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 370.6,
+   "part": 2,
+   "kind": "button",
+   "label": "Symbols",
+   "change": 0.0518,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 372,
+   "part": 2,
+   "kind": "button",
+   "label": "Notation bridge",
+   "change": 0.1085,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 383.2,
+   "part": 2,
+   "kind": "button",
+   "label": "Step ▸",
+   "change": 0.0056,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 384.6,
+   "part": 2,
+   "kind": "button",
+   "label": "Step ▸",
+   "change": 0.0075,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 386,
+   "part": 2,
+   "kind": "button",
+   "label": "Step ▸",
+   "change": 0.0084,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 387.5,
+   "part": 2,
+   "kind": "button",
+   "label": "Step ▸",
+   "change": 0.0056,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 388.9,
+   "part": 2,
+   "kind": "button",
+   "label": "Step ▸",
+   "change": 0.0075,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 390.3,
+   "part": 2,
+   "kind": "button",
+   "label": "Step ▸",
+   "change": 0.0059,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 391.7,
+   "part": 2,
+   "kind": "button",
+   "label": "D4",
+   "change": 0.0058,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 393.1,
+   "part": 2,
+   "kind": "button",
+   "label": "D3",
+   "change": 0.0039,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 394.5,
+   "part": 2,
+   "kind": "button",
+   "label": "D2",
+   "change": 0.1766,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 405.7,
+   "part": 2,
+   "kind": "range",
+   "label": "4",
+   "change": 0.0116,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 414.8,
+   "part": 2,
+   "kind": "button",
+   "label": "Autoplay",
+   "change": 0.0046,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 419.3,
+   "part": 2,
+   "kind": "button",
+   "label": "both",
+   "change": 0.0029,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 420.8,
+   "part": 2,
+   "kind": "button",
+   "label": "binary",
+   "change": 0.0026,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 422.2,
+   "part": 2,
+   "kind": "button",
+   "label": "decimal",
+   "change": 0.2123,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 725.6,
+   "part": 3,
+   "kind": "button",
+   "label": "3",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 727,
+   "part": 3,
+   "kind": "button",
+   "label": "2",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 728.4,
+   "part": 3,
+   "kind": "button",
+   "label": "1",
+   "change": 0.1142,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 739.5,
+   "part": 3,
+   "kind": "number",
+   "label": "?",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 740.9,
+   "part": 3,
+   "kind": "button",
+   "label": "Map",
+   "change": 0.0083,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 742.3,
+   "part": 3,
+   "kind": "button",
+   "label": "Legend",
+   "change": 0.0093,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 743.6,
+   "part": 3,
+   "kind": "button",
+   "label": "Symbols",
+   "change": 0.1112,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 754.6,
+   "part": 3,
+   "kind": "button",
+   "label": "Check map",
+   "change": 0.0028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 756.2,
+   "part": 3,
+   "kind": "button",
+   "label": "Unlock questions anyway",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 757.6,
+   "part": 3,
+   "kind": "button",
+   "label": "✏️ recompute",
+   "change": 0.014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 759,
+   "part": 3,
+   "kind": "button",
+   "label": "— reuse",
+   "change": 0.0083,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 760.4,
+   "part": 3,
+   "kind": "button",
+   "label": "Rules",
+   "change": 0.138,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 771.4,
+   "part": 3,
+   "kind": "text",
+   "label": "e.g. 64 x 64 x 3",
+   "change": 0.0027,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 775.3,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 776.8,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 778.2,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 779.7,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0018,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 781.1,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 782.6,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0139,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 784,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 785.5,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 786.9,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 788.4,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 789.9,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0986,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 800.9,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 802.4,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 804,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 805.6,
+   "part": 3,
+   "kind": "number",
+   "label": "#",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 807.3,
+   "part": 3,
+   "kind": "number",
+   "label": "px",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 808.9,
+   "part": 3,
+   "kind": "text",
+   "label": "resolutions, e.g. 128,64,…",
+   "change": 0.0047,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 813.8,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0135,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 815.2,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 816.6,
+   "part": 3,
+   "kind": "range",
+   "label": "1",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 825.6,
+   "part": 3,
+   "kind": "range",
+   "label": "1",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 834.5,
+   "part": 3,
+   "kind": "range",
+   "label": "4",
+   "change": 0.0096,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1185.5,
+   "part": 4,
+   "kind": "button",
+   "label": "Start 3-minute noticing",
+   "change": 0.1941,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1196.5,
+   "part": 4,
+   "kind": "text",
+   "label": "e.g. …",
+   "change": 0.014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1200.1,
+   "part": 4,
+   "kind": "text",
+   "label": "same as the image case…",
+   "change": 0.0081,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1204.1,
+   "part": 4,
+   "kind": "text",
+   "label": "different…",
+   "change": 0.0048,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1208.1,
+   "part": 4,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1209.5,
+   "part": 4,
+   "kind": "button",
+   "label": "Submit & lock card",
+   "change": 0.1609,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1220.4,
+   "part": 4,
+   "kind": "text",
+   "label": "16384",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1224.5,
+   "part": 4,
+   "kind": "text",
+   "label": "3",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1229.2,
+   "part": 4,
+   "kind": "text",
+   "label": "163.84",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1265.8,
+   "part": 5,
+   "kind": "text",
+   "label": "Why? (one line)",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1271.8,
+   "part": 5,
+   "kind": "text",
+   "label": "Why? (one line)",
+   "change": 0.0212,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1280.6,
+   "part": 5,
+   "kind": "text",
+   "label": "Why? (one line)",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1287,
+   "part": 5,
+   "kind": "text",
+   "label": "Why? (one line)",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1292.3,
+   "part": 5,
+   "kind": "text",
+   "label": "Why? (one line)",
+   "change": 0.0164,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1296.4,
+   "part": 5,
+   "kind": "text",
+   "label": "Why? (one line)",
+   "change": 0.0047,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1301.3,
+   "part": 5,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1302.7,
+   "part": 5,
+   "kind": "radio",
+   "label": "T",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1304.1,
+   "part": 5,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0166,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1305.5,
+   "part": 5,
+   "kind": "radio",
+   "label": "T",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1307,
+   "part": 5,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1308.6,
+   "part": 5,
+   "kind": "radio",
+   "label": "T",
+   "change": 0.1745,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1352.8,
+   "part": 6,
+   "kind": "button",
+   "label": "○ 1 Rebuild F.O.P.S.",
+   "change": 0.0222,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1354.1,
+   "part": 6,
+   "kind": "text",
+   "label": "The U-Net predicts …",
+   "change": 0.0125,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1358,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1362.1,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1365.9,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1369.9,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1374,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0029,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1378.1,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0039,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1382.2,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1386,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1390.4,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.0033,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1395.3,
+   "part": 6,
+   "kind": "text",
+   "label": "fill by rule",
+   "change": 0.149,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

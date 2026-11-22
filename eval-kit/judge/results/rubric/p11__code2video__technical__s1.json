@@ -1,0 +1,61 @@
+{
+  "topic": "p11",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:20.416Z",
+  "seconds": 44,
+  "result": {
+    "evidence": "Observed a missing border on a dashed box at 1:06. Noticed overlapping text during the toggle interaction starting at 1:34.",
+    "issues": [
+      {
+        "timestamp": "1:06",
+        "description": "Bottom border of dashed box is missing.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:34",
+        "description": "Overlapping text when toggling models.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "Meets the criteria for one or two minor glitches, as content remains readable.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 51133,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 53748,
+    "cachedContentTokenCount": 51456,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50160
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 973
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51110
+      }
+    ],
+    "thoughtsTokenCount": 2455,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53117
+  }
+}

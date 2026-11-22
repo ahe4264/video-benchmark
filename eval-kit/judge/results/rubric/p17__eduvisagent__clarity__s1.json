@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:31:05.774Z",
+  "seconds": 116,
+  "result": {
+    "evidence": "At 0:14-1:30, the core concept of mapping two dials to a 2D loss landscape is introduced rapidly using a complex 3-panel interactive tool. From 1:30-7:30, the video scrolls quickly through dense text sections (background, strategy, worksheets) without narration. At 7:32-8:12, the mathematical decomposition of the loss function is presented as a dense block of equations and text rather than being built up step-by-step.",
+    "score_reason": "The lesson meets the criteria for the second level because the main ideas are present, but the screen consistently shows too much information at once, and the rapid scrolling makes it difficult to follow.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 327262,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 329538,
+    "cachedContentTokenCount": 333100,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 326568
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332753
+      }
+    ],
+    "thoughtsTokenCount": 2106,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336397
+  }
+}

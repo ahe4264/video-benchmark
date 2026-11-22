@@ -1,0 +1,81 @@
+{
+  "topic": "p19",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:56:38.639Z",
+  "seconds": 65,
+  "result": {
+    "evidence": "At 1:07 and 1:30, text labels in the diagram overlap with the legend box. Starting at 2:38, a persistent layout issue appears where wide content (tables, text blocks) is cut off on the right side of the screen. This affects Table 1C.2 (2:38), Table 1C.3 (3:05), Table 1F (3:38), the text in section 1I (3:49), and continues to affect content throughout the rest of the lesson.",
+    "issues": [
+      {
+        "timestamp": "01:07",
+        "description": "Text 'rays CONVERGE - image flipped' overlaps with the legend box.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "01:30",
+        "description": "Text 'rays PARALLEL ⊥ plane - no foreshortening' overlaps with the legend box.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:38",
+        "description": "Table 1C.2 is cut off on the right side, hiding the last column.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:05",
+        "description": "Table 1C.3 is cut off on the right side, hiding input fields.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:38",
+        "description": "Table 1F is cut off on the right side, hiding the last column.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:49",
+        "description": "Text in section 1I runs off the right edge of the screen.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has major layout problems throughout, with content consistently running off the right edge of the screen.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 341268,
+    "candidatesTokenCount": 469,
+    "totalTokenCount": 344168,
+    "cachedContentTokenCount": 347086,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 972
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 340296
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346741
+      }
+    ],
+    "thoughtsTokenCount": 2431,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350945
+  }
+}

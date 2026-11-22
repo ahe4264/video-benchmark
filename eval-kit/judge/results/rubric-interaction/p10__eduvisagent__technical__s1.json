@@ -1,0 +1,101 @@
+{
+  "topic": "p10",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:07:04.038Z",
+  "seconds": 105,
+  "result": {
+    "evidence": "The lesson suffers from a systemic rendering failure starting in Part 3 and continuing through the end. Dozens of formulas and variables are shown as raw LaTeX code (e.g., `\\lambda \\approx \\dfrac{1.00\\text{ nm}}{...}` at 09:15, `\\tan \\theta` at 15:56, `\\psi` at 18:26). This occurs in almost every text box, question, and sidebar in the later halves of the lesson, making the content significantly harder to read. Additionally, there is a minor interaction issue where clicking a locked tab provides no feedback (19:29).",
+    "issues": [
+      {
+        "timestamp": "09:15",
+        "description": "Unrendered LaTeX code `\\lambda \\approx \\dfrac{1.00\\text{ nm}}{...}` is visible in the Wavelength box.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "09:18",
+        "description": "Unrendered LaTeX code `\\lambda / d` appears multiple times in the Checkpoint section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "09:19",
+        "description": "Unrendered LaTeX code `\\Delta y \\approx \\dfrac{\\lambda L}{d}` and other formulas appear in the Fringe spacing section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "09:31",
+        "description": "Unrendered LaTeX code `\\Delta y`, `\\lambda`, and `d \\times 2 \\rightarrow \\lambda \\times ...` appear in the 'Change d' section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "09:40",
+        "description": "Unrendered LaTeX code `\\lambda / d`, `L`, and `\\Delta y` appear in the 'The transfer at a glance' section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "15:56",
+        "description": "Unrendered LaTeX code `\\tan \\theta` and `\\Delta y / w` appear in the 'Fringe spacing vs. the detector' section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "16:05",
+        "description": "Unrendered LaTeX code `\\Delta y =`, `L =`, `v =`, and `d_{max} = \\frac{\\lambda L}{\\Delta y_{min}} =` appear in the 'Respond to the reviewer' section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "16:08",
+        "description": "Unrendered LaTeX code for various values (e.g., `\\lambda \\approx 4 \\times 10^{-38} m`) appears in the Error-diagnosis section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "16:12",
+        "description": "Unrendered LaTeX code `\\lambda`, `d/\\lambda`, `\\Delta y`, and `\\approx 51^\\circ` appear in the 'The whole lesson at a glance' section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "18:26",
+        "description": "Unrendered LaTeX code `\\psi`, `\\Delta y \\approx \\lambda L / d`, `d`, `\\lambda`, and `\\lambda = h / (mv)` appear in the Two-tier diagnostic section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "19:06",
+        "description": "Unrendered LaTeX code for variables and formulas (e.g., `\\lambda / d < 1?`, `\\Delta y \\approx \\lambda L / d`) appears extensively in the F.O.P.S. sidebar.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "19:29",
+        "description": "The user clicks the '3 Build' tab, but there is no visible change or feedback indicating why it cannot be operated.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has major rendering problems throughout, with unrendered LaTeX code appearing in dozens of places across multiple sections, making the content hard to read.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 350075,
+    "candidatesTokenCount": 1018,
+    "totalTokenCount": 358130,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347424
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2651
+      }
+    ],
+    "thoughtsTokenCount": 7037,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 359766
+  }
+}

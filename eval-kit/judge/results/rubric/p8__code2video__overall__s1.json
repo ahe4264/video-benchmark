@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:30.285Z",
+  "seconds": 51,
+  "result": {
+    "evidence": "0:00-0:30: Hook contrasts burning H2 with using a fuel cell.\n0:30-1:26: Builds the cell, defining anode, cathode, and membrane.\n1:26-2:12: Animates a single cycle, clearly tracking protons and electrons.\n2:12-2:54: Sweeps H2 feed rate to show proportional effects on current and water.\n3:39-4:19: Summarizes with equations and a prediction quiz.",
+    "score_reason": "Meets 'Good'. It teaches the core idea well with excellent visual animations and logical structure. It is kept from 'Strong' because the lack of audio narration requires constant reading, which can slightly reduce engagement, and to adhere to scoring compression guidelines.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 69365,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 71202,
+    "cachedContentTokenCount": 70283,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68640
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69940
+      }
+    ],
+    "thoughtsTokenCount": 1650,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71661
+  }
+}

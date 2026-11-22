@@ -1,0 +1,150 @@
+Interaction log: 146 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 20 of 146 inputs produced no visible change; 0 raised a page error.
+
+0:16  part 1  clicked button "1 · Hook" -> screen changed
+0:30  part 1  typed a written answer into the box "e.g. its size, its shape, its charge…" -> screen changed
+0:36  part 1  selected choice "fixed" -> screen changed
+0:40  part 1  dragged a slider (starting at "3") through its whole range -> screen changed
+0:51  part 1  clicked button "▶ Run random collisions" -> screen changed
+1:12  part 1  typed a written answer into the box "Name the evidence that would prove you wrong." -> screen changed
+1:21  part 1  selected choice "able to change" -> screen changed
+1:26  part 1  clicked button "🔒 Lock my prediction" -> screen changed
+1:42  part 1  clicked button "🔎 Apply the Counterexample Test to “Size”" -> screen changed
+1:55  part 1  clicked button "Next scene ▶" -> screen changed
+2:05  part 1  clicked button "Next element ▶" -> screen changed
+2:15  part 1  clicked button "Next element ▶" -> screen changed
+2:25  part 1  clicked button "Next element ▶" -> screen changed
+2:35  part 1  clicked button "Next element ▶" -> screen changed
+2:44  part 1  clicked button "Next element ▶" -> screen changed
+2:54  part 1  clicked button "Next element ▶" -> screen changed
+3:04  part 1  clicked button "2 · Construction" -> no visible change
+3:14  part 1  clicked button "Show all" -> screen changed
+3:18  part 1  dragged a slider (starting at "1.2") through its whole range -> screen changed
+3:51  part 2  picked an option in a drop-down -> screen changed
+3:54  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+4:09  part 2  clicked button "Next step ▶▶" -> screen changed
+4:19  part 2  clicked button "Next step ▶▶" -> screen changed
+4:29  part 2  clicked button "Next step ▶▶" -> screen changed
+4:39  part 2  selected choice "Size" -> screen changed
+4:43  part 2  selected choice "fixed" -> screen changed
+4:48  part 2  clicked button "Next step ▶▶" -> screen changed
+4:49  part 2  clicked button "Next step ▶▶" -> screen changed
+4:51  part 2  clicked button "Next step ▶▶" -> screen changed
+4:52  part 2  clicked button "▶ Watch & Interact" -> no visible change
+4:54  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> screen changed
+5:04  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:05  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:07  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:08  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:10  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:11  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> screen changed
+5:12  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> screen changed
+5:14  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:15  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:16  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:18  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> no visible change
+5:19  part 2  clicked button "O 2. Construction 0:55–2:25 · 9 steps" -> screen changed
+5:34  part 3  typed a written answer into the box "" -> screen changed
+5:37  part 3  typed a written answer into the box "" -> screen changed
+5:41  part 3  typed a written answer into the box "" -> screen changed
+5:45  part 3  typed a written answer into the box "" -> screen changed
+5:49  part 3  ticked a checkbox -> screen changed
+5:51  part 3  ticked a checkbox -> screen changed
+5:52  part 3  ticked a checkbox -> screen changed
+5:53  part 3  ticked a checkbox -> screen changed
+5:55  part 3  ticked a checkbox -> screen changed
+5:56  part 3  clicked button "2 Commit" -> screen changed
+5:57  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+6:06  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+6:24  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+9:19  part 4  picked an option in a drop-down -> screen changed
+9:20  part 4  typed a written answer into the box "match quality / where it breaks" -> screen changed
+9:25  part 4  typed a written answer into the box "match quality / where it breaks" -> screen changed
+9:29  part 4  typed a written answer into the box "match quality / where it breaks" -> screen changed
+9:34  part 4  typed a written answer into the box "match quality / where it breaks" -> screen changed
+9:38  part 4  typed a written answer into the box "match quality / where it breaks" -> screen changed
+9:42  part 4  typed a written answer into the box "match quality / where it breaks" -> screen changed
+9:46  part 4  typed a written answer into the box "match quality / where it breaks" -> screen changed
+9:51  part 4  picked an option in a drop-down -> screen changed
+9:52  part 4  picked an option in a drop-down -> screen changed
+9:53  part 4  picked an option in a drop-down -> screen changed
+9:54  part 4  picked an option in a drop-down -> screen changed
+10:05  part 4  picked an option in a drop-down -> screen changed
+10:07  part 4  picked an option in a drop-down -> screen changed
+10:08  part 4  picked an option in a drop-down -> screen changed
+10:09  part 4  picked an option in a drop-down -> screen changed
+10:11  part 4  picked an option in a drop-down -> screen changed
+10:12  part 4  ticked a checkbox -> screen changed
+10:13  part 4  ticked a checkbox -> screen changed
+10:15  part 4  ticked a checkbox -> screen changed
+10:16  part 4  ticked a checkbox -> screen changed
+10:17  part 4  ticked a checkbox -> no visible change
+10:19  part 4  ticked a checkbox -> screen changed
+10:20  part 4  ticked a checkbox -> screen changed
+10:35  part 5  dragged a slider (starting at "0") through its whole range -> screen changed
+10:44  part 5  clicked button "Before we start" -> screen changed
+10:45  part 5  clicked button "▶ Sweep s: 0 → 1" -> screen changed
+10:49  part 5  clicked button "Save my first answers" -> screen changed
+10:51  part 5  clicked button "Clinic (4 stages)" -> screen changed
+10:52  part 5  clicked button "Next step of the think-aloud" -> screen changed
+10:53  part 5  clicked button "Next step of the think-aloud" -> screen changed
+10:55  part 5  clicked button "Next step of the think-aloud" -> screen changed
+10:56  part 5  clicked button "Next step of the think-aloud" -> screen changed
+11:00  part 5  clicked button "Next step of the think-aloud" -> screen changed
+11:02  part 5  clicked button "Quick-checks QC1–QC3" -> screen changed
+11:06  part 5  typed a written answer into the box "I know because…" -> screen changed
+11:25  part 5  typed a written answer into the box "" -> screen changed
+11:31  part 5  typed a written answer into the box "" -> screen changed
+11:38  part 5  clicked button "Check" -> screen changed
+11:39  part 5  clicked button "start outlines" -> screen changed
+11:40  part 5  clicked button "overlay model traces" -> screen changed
+11:42  part 5  clicked button "Freeze the viewer for QC2" -> screen changed
+11:43  part 5  clicked button "Release coda (A1)" -> screen changed
+11:47  part 5  clicked button "End-state toggle" -> screen changed
+12:00  part 5  clicked button "random collision paths" -> screen changed
+12:04  part 5  clicked button "Open a row for every “Maybe” I marked" -> screen changed
+12:08  part 5  clicked button "none" -> screen changed
+15:34  part 6  ticked a checkbox -> screen changed
+15:38  part 6  clicked button "8. Next step" -> screen changed
+15:42  part 6  typed a written answer into the box "e.g. I can sketch all three traces and name when the shape c" -> screen changed
+15:48  part 6  picked an option in a drop-down -> no visible change
+15:52  part 6  selected choice "secure" -> screen changed
+15:55  part 6  clicked button "Save my next step" -> screen changed
+15:59  part 6  clicked button "✓ 8. Next step" -> no visible change
+16:03  part 6  clicked button "Save my next step" -> no visible change
+16:07  part 6  clicked button "✓ 8. Next step" -> no visible change
+16:10  part 6  clicked button "Save my next step" -> no visible change
+16:14  part 6  clicked button "✓ 8. Next step" -> no visible change
+16:18  part 6  clicked button "Save my next step" -> screen changed
+16:31  part 6  ticked a checkbox -> the control could not be operated; no visible change
+16:37  part 6  clicked button "go to step 2" -> screen changed
+16:40  part 6  picked an option in a drop-down -> screen changed
+16:44  part 6  picked an option in a drop-down -> screen changed
+16:48  part 6  picked an option in a drop-down -> screen changed
+16:51  part 6  picked an option in a drop-down -> screen changed
+16:55  part 6  picked an option in a drop-down -> screen changed
+16:59  part 6  picked an option in a drop-down -> screen changed
+17:03  part 6  picked an option in a drop-down -> screen changed
+17:06  part 6  picked an option in a drop-down -> screen changed
+17:10  part 6  picked an option in a drop-down -> screen changed
+17:13  part 6  picked an option in a drop-down -> screen changed
+17:27  part 6  picked an option in a drop-down -> screen changed
+17:31  part 6  picked an option in a drop-down -> screen changed
+17:34  part 6  ticked a checkbox -> screen changed
+17:38  part 6  typed a written answer into the box "" -> screen changed
+17:45  part 6  clicked button "Reveal next tier" -> screen changed
+17:49  part 6  clicked button "Reveal next tier" -> screen changed
+17:53  part 6  clicked button "Reveal next tier" -> screen changed
+17:56  part 6  clicked button "Reveal next tier" -> screen changed
+18:00  part 6  clicked button "Reveal next tier" -> screen changed
+18:04  part 6  clicked button "Check my skeleton" -> screen changed
+18:08  part 6  clicked button "Check wording" -> screen changed
+18:21  part 6  typed a written answer into the box "One thing missing…" -> screen changed
+18:28  part 6  ticked a checkbox -> screen changed
+18:31  part 6  ticked a checkbox -> screen changed
+18:35  part 6  ticked a checkbox -> screen changed
+18:38  part 6  clicked button "Play the three moves" -> screen changed
+18:48  part 6  clicked button "Swap" -> screen changed
+19:01  part 6  ticked a checkbox -> the control could not be operated; no visible change
+19:17  part 6  typed a written answer into the box "Planned change for next time…" -> screen changed

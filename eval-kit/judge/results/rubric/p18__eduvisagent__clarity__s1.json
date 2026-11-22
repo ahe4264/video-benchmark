@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:04:12.811Z",
+  "seconds": 526,
+  "result": {
+    "evidence": "0:00-3:30: The hook introduces the problem visually and interactively.\n3:34: The 'Construction' phase builds the geometric model step-by-step.\nSymbols (Y, Z, f, d) are defined in a persistent side panel before use.\n11:58: The summary explicitly asks the user to reconstruct the logical chain.",
+    "score_reason": "The lesson follows a highly logical, step-by-step progression, building from a visual hook to a geometric model. It fully meets Level 6. It misses the top level because the dense interface and reliance on side panels might make independent reconstruction slightly difficult for a newcomer.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 330960,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 332737,
+    "cachedContentTokenCount": 336868,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 330264
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 696
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 336519
+      }
+    ],
+    "thoughtsTokenCount": 1617,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 340193
+  }
+}

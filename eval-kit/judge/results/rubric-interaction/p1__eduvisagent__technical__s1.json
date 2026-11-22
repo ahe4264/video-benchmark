@@ -1,0 +1,56 @@
+{
+  "topic": "p1",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:28.415Z",
+  "seconds": 70,
+  "result": {
+    "evidence": "The title briefly shows raw LaTeX at 0:02. In Part 4, Checkpoints 7 (13:05) and 8 (13:07) display raw LaTeX instead of formatted math formulas. Logged interaction issues correspond to self-rating boxes or controls that respond normally.",
+    "issues": [
+      {
+        "timestamp": "0:02",
+        "description": "Title briefly shows raw LaTeX before rendering.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "13:05",
+        "description": "Checkpoint 7 shows raw LaTeX instead of a math formula.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "13:07",
+        "description": "Checkpoint 8 shows raw LaTeX instead of math formulas.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has several major rendering problems (raw LaTeX shown instead of formulas) and one minor glitch.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 337850,
+    "candidatesTokenCount": 243,
+    "totalTokenCount": 343024,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5210
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332640
+      }
+    ],
+    "thoughtsTokenCount": 4931,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 347325
+  }
+}

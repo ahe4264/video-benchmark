@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:46:26.096Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "1:09: Interactive slider to change aperture size.\n1:55: Interactive dragging of the pinhole.\n2:40: Interactive clicking on the wall to see rays.\n3:38: Multiple choice question asking to predict the effect of moving the barrier.",
+    "score_reason": "The lesson features hands-on explorations and a prediction question at key steps. Feedback includes visual confirmation but lacks specific explanations for incorrect choices, meeting Level 5.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 63836,
+    "candidatesTokenCount": 115,
+    "totalTokenCount": 65340,
+    "cachedContentTokenCount": 64640,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 740
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64291
+      }
+    ],
+    "thoughtsTokenCount": 1389,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 65985
+  }
+}

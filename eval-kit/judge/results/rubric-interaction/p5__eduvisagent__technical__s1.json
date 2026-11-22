@@ -1,0 +1,66 @@
+{
+  "topic": "p5",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:36.186Z",
+  "seconds": 77,
+  "result": {
+    "evidence": "The lesson has a few interaction issues where buttons or dropdowns do not respond when clicked, particularly in Part 5 where multiple 'Show healthy' buttons fail to update the bench. There is also a layout issue in Part 4 where text labels overlap heavily on a timeline graphic.",
+    "issues": [
+      {
+        "timestamp": "0:12",
+        "description": "The d[u] dropdown is clicked but does not open or respond.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "11:26",
+        "description": "In the 'Picture it first' panel, the labels on the timeline ('Lighting x1', 'Sound x2', etc.) overlap each other and the axis numbers, making them unreadable.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "12:58",
+        "description": "The 'Show healthy' button for Amber edges is clicked, but the bench panel does not update to show this content.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "13:00",
+        "description": "The 'Show healthy' button for Counter bars is clicked, but the bench panel does not update.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "13:03",
+        "description": "The small play button next to the order strip in the Specimen Bench is clicked but does not respond.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has several major problems, including unreadable overlapping text and multiple broken buttons that fail to display intended content. This fully meets the description for level 3.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 328467,
+    "candidatesTokenCount": 400,
+    "totalTokenCount": 333542,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 322344
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 6123
+      }
+    ],
+    "thoughtsTokenCount": 4675,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 337493
+  }
+}

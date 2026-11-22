@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:13.060Z",
+  "seconds": 34,
+  "result": {
+    "evidence": "0:00 The lesson opens with the question 'How Do You See Inside an Atom?'. 0:31-1:18 The apparatus is built visually piece by piece. 1:18-1:52 A time-lapse animation shows particles hitting the screen, providing visual interest. 1:52-2:43 A simulated slider interaction demonstrates the effect of foil thickness. 2:44-3:48 A self-quiz section adds variety. The entire lesson is silent, relying on on-screen text.",
+    "score_reason": "The lesson meets Level 4. It opens with a clear question that provides pull, and the visual animations and simulated interactive segments hold attention. However, the silent, text-heavy format creates flat stretches, keeping it from the consistently good pace of Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 73247,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 75139,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1699,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75648
+  }
+}

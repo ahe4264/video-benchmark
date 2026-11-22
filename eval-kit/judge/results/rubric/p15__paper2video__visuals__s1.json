@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:04.188Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "0:00-1:32: Text and equations only. 1:33: Static textbook diagram showing edge graph construction. 1:48: Static diagram of a toy graph. 2:00-3:45: Text and tables, describing an animation that is not shown.",
+    "score_reason": "Meets Level 3. The lesson includes clean, readable static visuals that depict the main concept, but it is mostly text-heavy and static. It does not meet Level 4 because the visuals do not change to show steps dynamically.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 66516,
+    "candidatesTokenCount": 137,
+    "totalTokenCount": 67914,
+    "cachedContentTokenCount": 65656,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65756
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58082
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7232
+      }
+    ],
+    "thoughtsTokenCount": 1261,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 70156
+  }
+}

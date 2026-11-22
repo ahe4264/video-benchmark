@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:57.072Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:00: Hook asks an intriguing question ('Why isn't there a picture on the wall?'). 0:26: Visual construction of rays builds to a clear insight at 1:02 when the inverted image appears. 1:08 & 1:55: Interactive sliders (aperture sweep, pinhole drag) provide dynamic variety. 2:39: The 'Two Worlds' section is slightly repetitive, creating a brief lull. 3:38: Ends with an engaging prediction question.",
+    "score_reason": "The lesson features a strong opening question, maintains good visual momentum with interactive elements, and delivers clear moments of insight, with only brief lulls. This aligns with level 6, compressed toward the center scale.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 63751,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 65326,
+    "cachedContentTokenCount": 64640,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63096
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 655
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64291
+      }
+    ],
+    "thoughtsTokenCount": 1397,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 65900
+  }
+}

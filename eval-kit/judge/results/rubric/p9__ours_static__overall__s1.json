@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:25:52.891Z",
+  "seconds": 339,
+  "result": {
+    "evidence": "The lesson uses interactive questions to guide the learner through the plum pudding model (0:42), the experimental setup (1:47), and the results (3:23). The visual simulation of 100,000 particles (3:54) effectively demonstrates the rarity of large deflections. The explanation of the nuclear model (4:58) is clear and directly tied to the experimental evidence. The final section on the log scale (7:45) deepens understanding. The narration and visuals are high quality throughout.",
+    "score_reason": "The lesson is clear, correct, and well-made, with excellent interactive elements and visual explanations. It strongly supports understanding of the core idea.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 155922,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 157059,
+    "cachedContentTokenCount": 161978,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155199
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144453
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17184
+      }
+    ],
+    "thoughtsTokenCount": 970,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 163923
+  }
+}

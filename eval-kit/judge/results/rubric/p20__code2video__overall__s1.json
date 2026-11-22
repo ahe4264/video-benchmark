@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:06.924Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:00-0:25: Hook establishes the goal of magnifying a small angle.\n0:25-1:22: Visually derives the magnification formula M = f1/|f2| using thin-lens rules.\n1:22-3:46: Demonstrations effectively show the impact of changing focal lengths, input angles, and lens separation.\n3:46-4:34: Concludes with a relevant prediction challenge.\nThe silent, text-heavy format requires pausing to digest the math.",
+    "score_reason": "The lesson covers the core idea correctly with excellent visual demonstrations. The lack of audio and fast-paced text are noticeable weaknesses that require extra effort to follow, keeping it from the Strong level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 73323,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 74829,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1330,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75724
+  }
+}

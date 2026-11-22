@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:47.938Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "0:19: 3x3 convolution window shown on image. 0:40: Window widens dynamically to show receptive field growth. 1:33: Downsampling visualized by shrinking image and larger grid cells. 2:08: Encoder blocks show halving grid and doubling channels. 3:35: Skip connections visually copy encoder maps to decoder. 4:57: Cutting top skip connection visually demonstrates loss of fine detail. 6:07: Time embedding vector visually shifts as t changes. 7:19: Self-attention visualized with lines connecting positions, darkness indicating strength. 8:59: Frames fill in during the sampling loop.",
+    "score_reason": "The visuals carry the explanation, allowing a student to follow the core ideas largely from the graphics alone. They are crisp, dynamic, and consistent throughout.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 167224,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 168587,
+    "cachedContentTokenCount": 173719,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 166463
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154944
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18432
+      }
+    ],
+    "thoughtsTokenCount": 1165,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 175764
+  }
+}

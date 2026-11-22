@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:14.264Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "0:00-3:15: The video consists of text-heavy presentation slides. 0:36: A static image of a textbook graph is displayed. 2:18, 2:35: Tables are used to present data. No visual tracing or animation of the algorithm on a graph is shown.",
+    "score_reason": "The lesson meets Level 2. It includes some relevant visuals like a static graph and tables, but it is overwhelmingly text-heavy, and the core concept of tracing the algorithm is not depicted visually.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 57504,
+    "candidatesTokenCount": 133,
+    "totalTokenCount": 59523,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56744
+      }
+    ],
+    "thoughtsTokenCount": 1886,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 60711
+  }
+}

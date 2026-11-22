@@ -1,0 +1,50 @@
+{
+  "topic": "p8",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:05:22.173Z",
+  "seconds": 137,
+  "result": {
+    "evidence": "00:00-21:26: The interactive lesson plays through smoothly from start to finish.\n00:42, 11:10, 11:16: Mathematical formulas and chemical equations render correctly without any raw LaTeX visible.\n01:28, 11:19, 12:12: Text inputs accept typing and display text properly without overflow or clipping.\n11:14, 12:12: Sliders move smoothly and update associated graphs and values correctly.\n11:17, 15:35: Checkboxes and radio buttons respond to clicks as expected.\n17:22-20:20: Interactive error maps load correctly, and pins respond to clicks by displaying the appropriate popups.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level description, as there are no visible technical problems and all elements render and respond as intended. The score is compressed from 7 to 6 as instructed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 340738,
+    "candidatesTokenCount": 241,
+    "totalTokenCount": 343678,
+    "cachedContentTokenCount": 346546,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 339768
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346203
+      }
+    ],
+    "thoughtsTokenCount": 2699,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350401
+  }
+}

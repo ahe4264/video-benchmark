@@ -1,0 +1,51 @@
+{
+  "topic": "p3",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:22.518Z",
+  "seconds": 64,
+  "result": {
+    "evidence": "The lesson renders correctly overall, but the interaction log and video show unresponsive controls. At 0:43, clicking the '2C' tab produces no change. From 1:01 to 1:09, clicking the 'Next' button fails to advance the animation, forcing reliance on the 'Auto-build' feature.",
+    "issues": [
+      {
+        "timestamp": "0:43",
+        "description": "The '2C' tab button does not respond when clicked.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:01",
+        "description": "The 'Next' button fails to advance the animation steps.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has one major interaction problem (broken 'Next' button) and one minor problem (unresponsive tab), fitting the description for Level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 153278,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 156162,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3062
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 150216
+      }
+    ],
+    "thoughtsTokenCount": 2663,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 157916
+  }
+}

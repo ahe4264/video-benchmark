@@ -1,0 +1,44 @@
+{
+  "topic": "p3",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:00:15.795Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "The video plays smoothly except for one instance at 2:17 where internal system prompt text is displayed on screen.",
+    "issues": [
+      {
+        "timestamp": "2:17",
+        "description": "System prompt text displayed on screen.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "One major problem (unintended text).",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 108763,
+    "candidatesTokenCount": 104,
+    "totalTokenCount": 111039,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 107795
+      }
+    ],
+    "thoughtsTokenCount": 2172,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 114647
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:49.951Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00-0:34: 3D animation of a wrench shows vectors r, F, and torque perpendicular to both.\n0:35-1:21: 2D animations dynamically show dot product, length, and sine as the angle changes.\n1:22-1:43: The determinant formula expands with color-coding.\n1:44-2:45: 3D construction of vectors, their cross product, and a parallelogram, visually linking area to cross product length.\n2:46-3:34: Sweeping the angle shows the cross product vector changing length alongside a sine graph.\n3:35-4:00: Stretching a vector shows proportional growth of the cross product alongside a linear graph.\n4:01-4:36: Swapping vectors flips the cross product, visually tied back to the wrench tightening/loosening.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation throughout. A student could follow much of the concept from the dynamic animations alone. It fully meets the top level, but is scored a 6 to adhere to the compression constraint.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 82072,
+    "candidatesTokenCount": 266,
+    "totalTokenCount": 83473,
+    "cachedContentTokenCount": 83194,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 81312
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82852
+      }
+    ],
+    "thoughtsTokenCount": 1135,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 84704
+  }
+}

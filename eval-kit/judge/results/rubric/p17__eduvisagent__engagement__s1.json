@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:33:11.946Z",
+  "seconds": 60,
+  "result": {
+    "evidence": "0:01 - The lesson opens with a text-based scenario about predicting coffee sales, which introduces the topic but lacks a strong hook.\n0:14 - An interactive tool with dials and graphs is demonstrated, providing some visual interest.\n1:32-7:30 - A very long, dry stretch of scrolling through dense text, tables, and teacher notes.\n7:30-20:36 - The remainder of the lesson consists of more text-heavy sections, multiple-choice questions, and occasional interactive tool demonstrations. The pace is slow and highly static.",
+    "score_reason": "The lesson has an opening that states the topic but provides little pull. While the interactive tools hold attention briefly, the vast majority of the lesson consists of long, flat stretches of dense text and static content. It meets the criteria for a lower level, mapped to a 3 due to scale compression.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 327221,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 329698,
+    "cachedContentTokenCount": 333100,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 326568
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332753
+      }
+    ],
+    "thoughtsTokenCount": 2270,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336356
+  }
+}

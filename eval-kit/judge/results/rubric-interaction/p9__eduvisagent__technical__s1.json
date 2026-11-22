@@ -1,0 +1,76 @@
+{
+  "topic": "p9",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:51.115Z",
+  "seconds": 92,
+  "result": {
+    "evidence": "The lesson contains pervasive rendering issues with unrendered LaTeX code appearing in text, constants panels, and equations throughout the video (e.g., 0:05, 0:35, 3:40, 17:33). Additionally, several interactive elements fail to respond, such as the 'Add next element' button at 1:09, data table inputs at 3:15, and arrow buttons at 10:12.",
+    "issues": [
+      {
+        "timestamp": "0:05",
+        "description": "Unrendered LaTeX code in the learning objective and constants panel.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "0:35",
+        "description": "Unrendered LaTeX code in the probe properties section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "1:09",
+        "description": "The 'Add next element' button does not respond to clicks.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "3:15",
+        "description": "Data table input boxes do not accept typed text.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:40",
+        "description": "Unrendered LaTeX code in the equations.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "10:12",
+        "description": "Up/down arrow buttons do not respond to clicks.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "17:33",
+        "description": "Unrendered LaTeX code in the math formulas.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has major rendering problems throughout due to pervasive unrendered LaTeX, along with several interaction failures.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 438758,
+    "candidatesTokenCount": 444,
+    "totalTokenCount": 442870,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 435600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 3158
+      }
+    ],
+    "thoughtsTokenCount": 3668,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 450963
+  }
+}

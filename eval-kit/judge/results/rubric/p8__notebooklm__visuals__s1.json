@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:37.129Z",
+  "seconds": 86,
+  "result": {
+    "evidence": "0:47 - Text definition with a generic icon. 1:30 - A detailed, static diagram of the fuel cell showing all key components. 1:51 - A static flowchart explaining the anode process with simple icons. 2:08 - A basic animation of a circuit. 2:26 - The detailed diagram returns to illustrate proton movement. 2:40 - Another static flowchart for the cathode process. 3:30 - Generic icons are used to illustrate the benefits of fuel cell vehicles.",
+    "score_reason": "The lesson features clean, readable visuals of the main objects (the fuel cell diagram) that change for some steps (using flowcharts to break down the process). However, it relies on static flowcharts to explain the dynamic process and uses generic icons for the final section, meaning it explains parts of the idea but only illustrates others.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 82841,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 84820,
+    "cachedContentTokenCount": 85827,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82080
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 76396
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9088
+      }
+    ],
+    "thoughtsTokenCount": 1779,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 87300
+  }
+}

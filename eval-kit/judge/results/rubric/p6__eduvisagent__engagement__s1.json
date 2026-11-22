@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:06:48.406Z",
+  "seconds": 70,
+  "result": {
+    "evidence": "0:02: Opening poses a clear stake (window failing vs. cost). 1:33: Interactive slider explores pressure vs. depth. 6:23: Animation shows approximation converging. 10:58: Far transfer task (population density) provides a moment of insight. 14:18: Error clinic introduces a puzzle element.",
+    "score_reason": "The lesson fully meets Level 5. It opens with a clear stake and moves at a good pace with variety, including interactive sliders and different scenarios. There are a few lulls during the data entry portions, which keeps it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 320352,
+    "candidatesTokenCount": 150,
+    "totalTokenCount": 323119,
+    "cachedContentTokenCount": 326101,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 319704
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 325759
+      }
+    ],
+    "thoughtsTokenCount": 2617,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 329305
+  }
+}

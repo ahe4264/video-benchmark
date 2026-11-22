@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:28.491Z",
+  "seconds": 65,
+  "result": {
+    "evidence": "1:40: A diagram introduces the U-Net's V-shape. 2:45: Graphics clearly depict resolution halving and channel doubling. 3:13: A textbook diagram is shown; it is somewhat cluttered, but callouts help focus attention. 3:38, 7:27: These sections rely on text-heavy slides with illustrative icons rather than explanatory visuals. 4:31: A sculptor metaphor effectively explains the iterative denoising process. 5:42: Visuals clearly contrast local and global attention. 8:06: A diagram effectively shows latent space compression.",
+    "score_reason": "The lesson fully meets Level 5. The visuals are clear, well-made, and actively explain key concepts like the architecture and denoising process. However, it has a few weaknesses, such as uneven sections that revert to text-heavy slides for certain concepts and a slightly cluttered textbook diagram, keeping it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 175610,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 177846,
+    "cachedContentTokenCount": 182448,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 174849
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162745
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19360
+      }
+    ],
+    "thoughtsTokenCount": 2014,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 184563
+  }
+}

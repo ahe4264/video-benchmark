@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:29:10.092Z",
+  "seconds": 241,
+  "result": {
+    "evidence": "0:14-1:32: An interactive explorer links parameter sliders to a data plot, loss gauge, and contour map, dynamically showing their relationships. 1:32-7:32: A long section relies heavily on text and tables with minimal visuals. 7:32-8:12: An automated player clearly demonstrates the concepts visually. 9:55-10:10: Visual highlights link directly to components of the formula. 15:43-16:14: A new interactive explorer applies the same visual method to a 2D location problem.",
+    "score_reason": "The interactive visuals are exceptionally clear and well-made, dynamically showing the key objects and their relationships to explain the core concepts. However, the presence of very long, text-heavy sections with minimal visual support constitutes a weakness that keeps it from higher levels.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 327333,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 329774,
+    "cachedContentTokenCount": 333100,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 326568
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 765
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332753
+      }
+    ],
+    "thoughtsTokenCount": 2236,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336468
+  }
+}

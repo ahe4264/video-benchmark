@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:02:00.086Z",
+  "seconds": 73,
+  "result": {
+    "evidence": "The lesson uses a clear scenario (aquarium window) to motivate the problem (0:02). It visually demonstrates how pressure increases with depth using arrows and a pressure graph (0:27). It carefully sets up the coordinate system and defines variables (1:50). It builds the integral conceptually using Riemann sums, showing the exact force vs. the rectangular approximation (3:17). It includes a near-transfer task (circular porthole) to apply the same concept to a different shape (7:12) and a far-transfer task (population density) to show the broader applicability of the mathematical structure (10:58). It features an 'Error Clinic' to help students identify and understand common mistakes (14:19). The interactive elements and visual representations are highly effective.",
+    "score_reason": "The lesson is exceptional, clear, correct, well-made, and engaging. It goes beyond just teaching the formula by ensuring the student understands the underlying concepts and can apply them to different situations. It would normally receive the top score, but is adjusted down per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 320428,
+    "candidatesTokenCount": 244,
+    "totalTokenCount": 321514,
+    "cachedContentTokenCount": 326101,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 319704
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 325759
+      }
+    ],
+    "thoughtsTokenCount": 842,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 329381
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:46.551Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "The lesson includes numerous interactive checks and explorations: applying 3D orthogonality (0:17), exploring angles with a probe (0:45), calculating a cross product component (2:06), verifying orthogonality with a dot product (2:48), predicting the result of swapping vectors (3:14), exploring the angle for maximum length (4:15), identifying the parallelogram area (5:40), predicting the effect of stretching a vector (5:58), exploring scaling (6:38), applying the right-hand rule (7:12, 7:40), and predicting a combined swap and scale (8:08).",
+    "score_reason": "The lesson fully meets the top level by having the learner do the key reasoning (predicting, applying, exploring) at all main steps, with responsive feedback. The score is compressed from 7 to 6 per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 156223,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 158159,
+    "cachedContentTokenCount": 162280,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155490
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144722
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17216
+      }
+    ],
+    "thoughtsTokenCount": 1726,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 164238
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:45.730Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "0:00: Title slide indicates a presentation by a 'Lesson Design Team'.\n0:17-0:55: Discusses motivation and related work for a lesson design.\n0:56-2:01: Describes the 'Method' of the lesson (e.g., scenes, learner tasks) without actually showing or teaching it.\n2:02-3:12: Covers experimental methods, results, and future research.",
+    "score_reason": "The video is a meta-presentation about how to teach the algorithm, not an actual educational lesson. It is entirely off-topic for a learner, failing to teach the core idea. This matches Level 1, compressed to 3 per instructions.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 57468,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 58874,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56744
+      }
+    ],
+    "thoughtsTokenCount": 1235,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 60675
+  }
+}

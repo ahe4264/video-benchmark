@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:31.468Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:24: The lesson opens with a puzzle, asking which of four molecules will stay on the enzyme. 2:09, 7:01: Interactive dragging tasks provide variety. 3:30: The introduction of the 'gap' metric offers a novel perspective. 4:49: A side-by-side animation with a live graph creates a moment of insight comparing the two models. 6:41: The 'wrong key' scenario introduces a final puzzle to test understanding.",
+    "score_reason": "The lesson starts with a clear puzzle that creates pull. It maintains momentum through a mix of interactive elements, questions, and animations, offering moments of insight like the live gap graph. It fully meets the description for level 6, but the score is compressed toward the center of the scale per instructions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 136773,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 137911,
+    "cachedContentTokenCount": 142117,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136121
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 126699
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15072
+      }
+    ],
+    "thoughtsTokenCount": 947,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 143850
+  }
+}

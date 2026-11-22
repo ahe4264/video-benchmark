@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:40.265Z",
+  "seconds": 56,
+  "result": {
+    "evidence": "0:26: The core problem is motivated by explaining that pressure changes with depth.\n0:59: A clear 5-step roadmap is presented.\n1:46: Variables (rho, h(x), w(x)) are defined before being used in calculations.\n2:45: The rationale for slicing the object into thin strips is clearly explained (to approximate constant pressure).\n3:46: The force on a single strip is derived step-by-step (Force = Pressure * Area).\n4:21: The Riemann sum is built logically from the individual strip forces.\n5:35: The transition from the discrete sum to the continuous definite integral is explained.",
+    "score_reason": "The lesson is highly logical and step-by-step throughout. Every step is motivated, builds on the last, and introduces terms before they are used. It fully meets the criteria for the highest levels, but is scored slightly below the maximum to adhere to the instruction to compress extreme scores.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 115126,
+    "candidatesTokenCount": 230,
+    "totalTokenCount": 116985,
+    "cachedContentTokenCount": 119538,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114437
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 106524
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12672
+      }
+    ],
+    "thoughtsTokenCount": 1629,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 121146
+  }
+}

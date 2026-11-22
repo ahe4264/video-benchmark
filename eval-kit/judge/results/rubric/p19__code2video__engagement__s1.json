@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:46:47.992Z",
+  "seconds": 22,
+  "result": {
+    "evidence": "0:00: The lesson opens with a clear question and visual puzzle about robots at different depths.\n0:30-3:23: The lesson relies on silent text and animations. While the visuals are clear, sections like the box rotation (1:09-1:55) and depth guides (2:46-3:23) are repetitive and slow.\n1:55: The comparison to perspective projection provides a good moment of insight.",
+    "score_reason": "The lesson fully meets Level 4. It has an opening with pull and holds attention overall, but the repetitive demonstrations and silent, text-heavy format create flat stretches, preventing it from having the good pace required for Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 60843,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 62287,
+    "cachedContentTokenCount": 61677,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60192
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 651
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61332
+      }
+    ],
+    "thoughtsTokenCount": 1273,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62915
+  }
+}

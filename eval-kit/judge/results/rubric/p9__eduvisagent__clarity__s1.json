@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:11:48.654Z",
+  "seconds": 55,
+  "result": {
+    "evidence": "The lesson uses a clear 'F.O.P.S.' structure (0:05). It begins with an intuitive 'mystery box' analogy (0:21) before introducing the historical context and the plum pudding model (0:35). The apparatus is built element by element (1:33), and scales are explicitly explained (1:44). The mathematical proof (3:40) is broken down into logical, sequential steps (force, time, push, substitute). The lesson explicitly constructs a 'chain of reasoning' (3:55) linking observations to conclusions.",
+    "score_reason": "The lesson fully meets the top level. It is exceptionally logical and step-by-step. Every new element is motivated by the previous one, symbols are defined before use, and the explicit structuring makes the argument easy to reconstruct.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 436288,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 437658,
+    "cachedContentTokenCount": 444191,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 435600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 443850
+      }
+    ],
+    "thoughtsTokenCount": 1175,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 448314
+  }
+}

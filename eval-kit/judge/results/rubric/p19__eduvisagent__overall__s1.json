@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:54:04.512Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "The lesson employs a highly structured, multi-part approach (Parts 1-6) to teach the concept. It utilizes interactive diagrams (e.g., 03:58) and requires the learner to make predictions before revealing outcomes (e.g., 04:21), which actively engages them in the learning process. The inclusion of near and far transfer tasks, such as applying the projection concepts to an X-ray scenario (11:43), demonstrates deep instructional design. The lesson relies entirely on text and interactive elements without audio narration.",
+    "score_reason": "The lesson fully meets the 'Strong' level. It is clear, correct, and uses excellent interactive scaffolding and transfer tasks to ensure a student understands the core idea. The heavy reliance on text reading without audio support is a minor weakness that keeps it from the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 341023,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 342861,
+    "cachedContentTokenCount": 347086,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 340296
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 727
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346741
+      }
+    ],
+    "thoughtsTokenCount": 1643,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350522
+  }
+}

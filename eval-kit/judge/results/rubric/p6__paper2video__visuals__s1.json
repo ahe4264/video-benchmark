@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:42.245Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:17 introduces three static textbook diagrams. 0:53-1:33 repeats these static diagrams individually alongside dense text. 2:48 describes dynamic sliders and animations, but only shows the same static diagrams. 2:10 and 3:06 are entirely text tables.",
+    "score_reason": "The lesson includes clean, relevant static figures depicting the main objects, but is heavily text-based and repetitive. The dynamic concepts described are not visualized, keeping it at Level 3.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 70301,
+    "candidatesTokenCount": 125,
+    "totalTokenCount": 72167,
+    "cachedContentTokenCount": 69413,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69541
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61423
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7648
+      }
+    ],
+    "thoughtsTokenCount": 1741,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74123
+  }
+}

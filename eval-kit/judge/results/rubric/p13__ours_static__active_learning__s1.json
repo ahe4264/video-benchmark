@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:51.463Z",
+  "seconds": 60,
+  "result": {
+    "evidence": "0:47: Learner calculates capacitance (application).\n1:14: Learner predicts the effect of doubling voltage on charge and capacitance.\n2:15: Learner applies knowledge to predict where charge settles on the shell.\n3:17: Learner applies Gauss's law to compare electric field strength at different radii.\n4:25: Learner predicts the effect of narrowing the gap on the charge held.\n5:00: Hands-on exploration dragging the inner cylinder to double the charge.\n5:30: Learner predicts the limit case as R1 approaches R2.\n6:18: Learner predicts the effect of doubling length on charge.\n7:38: Learner predicts the effect of increasing both radii while keeping the gap constant.\n8:30: Hands-on exploration using a graph to find the radii ratio for a specific capacitance.\nFeedback consistently explains the reasoning (e.g., 2:26, 3:35, 4:40).",
+    "score_reason": "The lesson consistently requires the learner to predict, apply, or explore at almost every key step, and provides feedback that explains the reasoning behind the correct answer. It fully meets Level 6. It is kept from Level 7 because the recording does not demonstrate whether the feedback adapts specifically to address misconceptions in incorrect answers.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 163443,
+    "candidatesTokenCount": 308,
+    "totalTokenCount": 166218,
+    "cachedContentTokenCount": 169802,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162713
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 151447
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18016
+      }
+    ],
+    "thoughtsTokenCount": 2467,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 171807
+  }
+}

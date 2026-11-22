@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:34.498Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "The video is a presentation about lesson design rather than a lesson for students (0:00-4:02). It discusses 'rendering constraints' (2:16), 'experimental results' (2:34), and 'ablation' (2:53). While it briefly shows a derivation of magnification (1:13), the content is aimed at researchers, making it highly confusing for a student learner.",
+    "score_reason": "The lesson has significant problems for a student learner, as it is a meta-presentation rather than a direct lesson. A student would learn only fragments, keeping it from the Mixed level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 71424,
+    "candidatesTokenCount": 149,
+    "totalTokenCount": 73115,
+    "cachedContentTokenCount": 70568,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 70701
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 62451
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7776
+      }
+    ],
+    "thoughtsTokenCount": 1542,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75302
+  }
+}

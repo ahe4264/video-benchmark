@@ -1,0 +1,59 @@
+{
+  "topic": "p1",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:01.724Z",
+  "seconds": 114,
+  "result": {
+    "evidence": "Observed several brief text rendering glitches during animations where characters overlap before resolving.",
+    "issues": [
+      {
+        "timestamp": "01:17",
+        "description": "Numbers in the inequality overlap briefly.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:02",
+        "description": "Text 'cos x' overlaps briefly.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:21",
+        "description": "Text 'sector' overlaps briefly.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:45",
+        "description": "Text in thought bubble is squished briefly.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson contains several minor text rendering glitches, but content remains readable.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 78062,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 81899,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 974
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77088
+      }
+    ],
+    "thoughtsTokenCount": 3616,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 80761
+  }
+}

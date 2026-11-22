@@ -1,0 +1,38 @@
+{
+  "topic": "p5",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:53.879Z",
+  "seconds": 37,
+  "result": {
+    "evidence": "I watched the entire video from 0:00 to 6:55. The video playback is smooth, and the audio is clear and well-synchronized with the on-screen visuals. All text and graphics are fully rendered, properly aligned, and fit within the screen boundaries. There are no instances of raw code, placeholder text, missing images, or overlapping elements.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level because there are no visible technical problems; everything renders, loads, and responds as intended.",
+    "score": 7
+  },
+  "usage": {
+    "promptTokenCount": 120902,
+    "candidatesTokenCount": 131,
+    "totalTokenCount": 121267,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119933
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "thoughtsTokenCount": 234,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127374
+  }
+}

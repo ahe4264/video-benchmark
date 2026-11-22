@@ -1,0 +1,61 @@
+{
+  "topic": "p2",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:04:55.250Z",
+  "seconds": 122,
+  "result": {
+    "evidence": "Interactive elements (sliders, 3D views, inputs) function correctly. However, inline math delimited by \\( and \\) fails to render in text blocks throughout the lesson, exposing raw LaTeX commands. Additionally, math in the legend renders with a slight delay upon loading.",
+    "issues": [
+      {
+        "timestamp": "0:02",
+        "description": "Math in the Colour legend briefly shows raw LaTeX before rendering.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "0:02",
+        "description": "Raw LaTeX code is shown instead of rendered math in the subtitle. This systemic issue repeats throughout the lesson (e.g., at 3:30 and 10:48).",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has one major systemic rendering problem and a minor loading glitch, which aligns with Level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 258898,
+    "candidatesTokenCount": 223,
+    "totalTokenCount": 265641,
+    "cachedContentTokenCount": 263156,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 257928
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 262813
+      }
+    ],
+    "thoughtsTokenCount": 6520,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 266391
+  }
+}

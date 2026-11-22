@@ -1,0 +1,53 @@
+{
+  "topic": "p16",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:01.721Z",
+  "seconds": 37,
+  "result": {
+    "evidence": "0:00-1:45: Opens with a meta-narrative about a textbook error, creating a mild puzzle but delaying the core topic.\n1:46-2:49: Introduces a crowded room analogy, then slowly builds a molecule on screen.\n2:50-4:10: Visualizes increasing mass and shrinking attack angles effectively.\n4:11-4:49: Employs an umbrella analogy to explain inversion.\n4:50-6:00: Returns to the meta-narrative about the prompt's constraints.",
+    "score_reason": "The lesson has a clear opening with a unique hook that provides some pull. It holds attention through clear analogies, but contains flat stretches due to the extended meta-narrative and a somewhat slow visual pace. It fully meets Level 4. It misses Level 5 because the pace is uneven and the meta-narrative creates more than just a few lulls.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 105844,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 108047,
+    "cachedContentTokenCount": 109910,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105192
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 97916
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 11648
+      }
+    ],
+    "thoughtsTokenCount": 1981,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 111416
+  }
+}

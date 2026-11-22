@@ -1,0 +1,195 @@
+Interaction log: 188 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 2x: "missing ) after argument list"; "Cannot access 'log' before initialization". Whatever that code was meant to do may be missing or inert.
+Summary: 10 of 188 inputs produced no visible change; 0 raised a page error.
+
+0:13  part 1  clicked button "O" -> screen changed
+0:14  part 1  clicked button "Fill in the real sweep lengths" -> screen changed
+0:25  part 1  typed a written answer into the box "e.g. [5]" -> screen changed
+0:31  part 1  typed a written answer into the box "" -> screen changed
+0:37  part 1  typed a written answer into the box "" -> screen changed
+0:43  part 1  typed a written answer into the box "e.g. [5]" -> screen changed
+0:47  part 1  typed a written answer into the box "" -> screen changed
+0:52  part 1  typed a written answer into the box "" -> screen changed
+0:57  part 1  typed a written answer into the box "e.g. [5]" -> screen changed
+1:05  part 1  typed a written answer into the box "" -> screen changed
+1:11  part 1  typed a written answer into the box "" -> screen changed
+1:17  part 1  typed a written answer into the box "e.g. [5]" -> screen changed
+1:23  part 1  typed a written answer into the box "" -> screen changed
+1:27  part 1  typed a written answer into the box "" -> screen changed
+1:40  part 1  ticked a checkbox -> no visible change
+1:42  part 1  ticked a checkbox -> screen changed
+1:43  part 1  clicked button "Run A" -> screen changed
+1:44  part 1  clicked button "Run B" -> screen changed
+1:46  part 1  clicked button "Run C" -> screen changed
+1:57  part 1  selected choice "A" -> no visible change
+1:58  part 1  dragged a slider (starting at "0") through its whole range -> screen changed
+2:09  part 1  clicked button "Step ▶" -> screen changed
+2:10  part 1  clicked button "Step ▶" -> screen changed
+2:12  part 1  clicked button "Step ▶" -> screen changed
+2:14  part 1  clicked button "Step ▶" -> screen changed
+2:15  part 1  clicked button "Step ▶" -> screen changed
+2:17  part 1  clicked button "Step ▶" -> screen changed
+2:18  part 1  clicked button "⏯ Play" -> screen changed
+2:20  part 1  clicked button "1 · I do (a)" -> screen changed
+2:21  part 1  clicked button "2 · We do (b, c)" -> screen changed
+2:23  part 1  typed a written answer into the box "" -> screen changed
+2:38  part 1  typed a written answer into the box "" -> screen changed
+2:42  part 1  typed a written answer into the box "" -> screen changed
+2:49  part 1  typed a written answer into the box "" -> screen changed
+2:55  part 1  typed a written answer into the box "" -> screen changed
+3:00  part 1  typed a written answer into the box "" -> screen changed
+3:04  part 1  typed a written answer into the box "" -> screen changed
+3:09  part 1  selected choice "A" -> screen changed
+3:11  part 1  clicked button "Submit" -> screen changed
+3:53  part 2  ticked a checkbox -> screen changed
+4:04  part 2  typed a written answer into the box "My one-sentence answer (at least 5 words)…" -> screen changed
+4:08  part 2  typed a written answer into the box "My one-sentence answer…" -> screen changed
+4:15  part 2  typed a written answer into the box "My one-sentence answer…" -> screen changed
+4:19  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+4:28  part 2  clicked button "Step →" -> screen changed
+4:29  part 2  clicked button "Step →" -> screen changed
+4:31  part 2  clicked button "Step →" -> screen changed
+4:32  part 2  clicked button "Step →" -> no visible change
+4:33  part 2  clicked button "Step →" -> no visible change
+4:35  part 2  clicked button "Step →" -> no visible change
+4:36  part 2  clicked button "▶ Play" -> screen changed
+4:38  part 2  clicked button "← Step" -> screen changed
+4:58  part 2  typed a written answer into the box "" -> screen changed
+5:02  part 2  typed a written answer into the box "" -> screen changed
+5:06  part 2  typed a written answer into the box "" -> screen changed
+5:11  part 2  typed a written answer into the box "" -> screen changed
+5:17  part 2  typed a written answer into the box "" -> screen changed
+5:21  part 2  typed a written answer into the box "" -> screen changed
+5:25  part 2  typed a written answer into the box "" -> screen changed
+5:29  part 2  typed a written answer into the box "" -> screen changed
+5:33  part 2  typed a written answer into the box "" -> screen changed
+5:37  part 2  clicked button "Next step" -> screen changed
+5:39  part 2  clicked button "Next step" -> screen changed
+5:40  part 2  clicked button "Next step" -> screen changed
+5:51  part 2  ticked a checkbox -> screen changed
+5:52  part 2  clicked button "Frame →" -> screen changed
+5:53  part 2  clicked button "Frame →" -> screen changed
+5:55  part 2  clicked button "Frame →" -> no visible change
+5:56  part 2  clicked button "Frame →" -> no visible change
+5:58  part 2  clicked button "Frame →" -> no visible change
+5:59  part 2  clicked button "Frame →" -> no visible change
+6:01  part 2  clicked button "← Frame" -> screen changed
+6:02  part 2  clicked button "(A) [2, 4, 5, 1, 6, 3]" -> screen changed
+6:03  part 2  clicked button "(B) [2, 4, 1, 5, 6, 3]" -> screen changed
+6:14  part 2  typed a written answer into the box "variable" -> screen changed
+6:19  part 2  typed a written answer into the box "condition 1" -> screen changed
+6:23  part 2  typed a written answer into the box "condition 2" -> screen changed
+6:30  part 2  typed a written answer into the box "action 1" -> screen changed
+6:39  part 2  typed a written answer into the box "action 2" -> screen changed
+6:46  part 2  typed a written answer into the box "stop 1 … or stop 2" -> screen changed
+6:53  part 2  clicked button "(C) [2, 4, 5, 5, 6, 3]" -> screen changed
+6:55  part 2  clicked button "(D) [1, 2, 4, 5, 6, 3]" -> screen changed
+7:31  part 3  clicked button "1 · Predict O·P" -> screen changed
+7:33  part 3  clicked button "2 · Trace S" -> screen changed
+7:34  part 3  clicked button "Checks" -> screen changed
+7:36  part 3  clicked button "Hints" -> screen changed
+7:37  part 3  clicked button "Next hint" -> screen changed
+7:38  part 3  clicked button "Next hint" -> screen changed
+7:40  part 3  clicked button "Next hint" -> screen changed
+7:41  part 3  clicked button "Next hint" -> screen changed
+7:43  part 3  clicked button "0 · Find F" -> screen changed
+7:44  part 3  clicked button "Trace each key against the current gray prefix" -> screen changed
+7:45  part 3  clicked button "Count inversions to predict 𝑆 S" -> screen changed
+7:47  part 3  clicked button "Sort the array mentally and copy the answer" -> screen changed
+7:58  part 3  typed a written answer into the box "How would I know?" -> screen changed
+8:01  part 3  typed a written answer into the box "How would I know?" -> screen changed
+8:05  part 3  typed a written answer into the box "How would I know?" -> screen changed
+8:10  part 3  typed a written answer into the box "I expect ... to be different because ..." -> screen changed
+8:14  part 3  clicked button "Start timer" -> screen changed
+8:18  part 3  clicked button "Same answer" -> screen changed
+8:22  part 3  clicked button "Same answer" -> screen changed
+8:27  part 3  clicked button "Same answer" -> screen changed
+8:31  part 3  clicked button "3 · Reconcile" -> screen changed
+8:37  part 3  typed a written answer into the box "" -> screen changed
+8:44  part 3  typed a written answer into the box "" -> screen changed
+8:48  part 3  typed a written answer into the box "" -> screen changed
+9:02  part 3  clicked button "4 · Errors" -> no visible change
+9:03  part 3  typed a written answer into the box "They used ..." -> screen changed
+9:08  part 3  typed a written answer into the box "A gray prefix must be ..." -> screen changed
+9:12  part 3  clicked button "Check A ( 𝑠 𝑗 ≤ 𝑐 𝑗 ≤ 𝑠 𝑗 + 1 s j ​ ≤c j ​ ≤s j ​ +1)" -> screen changed
+9:13  part 3  clicked button "Check B ( 𝑐 𝑗 ≤ 𝑗 − 1 c j ​ ≤j−1)" -> screen changed
+9:15  part 3  clicked button "Check D (prefix sorted)" -> screen changed
+9:16  part 3  clicked button "The inversion check ( 𝑆 = 𝑘 S=k)" -> screen changed
+9:18  part 3  clicked button "5 · Line-up" -> screen changed
+9:19  part 3  clicked button "6 · Exit" -> screen changed
+9:21  part 3  typed a written answer into the box "" -> screen changed
+9:26  part 3  typed a written answer into the box "" -> screen changed
+9:31  part 3  typed a written answer into the box "" -> screen changed
+10:57  part 4  ticked a checkbox -> screen changed
+10:59  part 4  ticked a checkbox -> screen changed
+11:02  part 4  clicked button "I recognise this" -> screen changed
+11:07  part 4  closed a pop-up (escape) -> pop-up closed
+11:07  part 4  closed a pop-up (close button) -> pop-up closed
+11:17  part 4  typed a written answer into the box "" -> screen changed
+11:23  part 4  typed a written answer into the box "" -> screen changed
+11:29  part 4  typed a written answer into the box "" -> screen changed
+11:34  part 4  clicked button "Save version" -> screen changed
+11:36  part 4  clicked button "Save version" -> screen changed
+11:47  part 4  typed a written answer into the box "" -> screen changed
+11:53  part 4  typed a written answer into the box "describe" -> screen changed
+12:00  part 4  typed a written answer into the box "" -> screen changed
+12:09  part 4  typed a written answer into the box "" -> screen changed
+12:16  part 4  ticked a checkbox "trial" -> screen changed
+12:18  part 4  ticked a checkbox "numbers" -> screen changed
+12:19  part 4  ticked a checkbox "counted" -> screen changed
+12:21  part 4  ticked a checkbox "other" -> screen changed
+12:23  part 4  clicked button "Start 4-minute attempt" -> screen changed
+12:24  part 4  clicked button "Submit my first attempt" -> screen changed
+12:26  part 4  clicked button "Save version" -> screen changed
+12:30  part 4  clicked button "Save version" -> screen changed
+12:41  part 4  selected choice "A" -> screen changed
+12:43  part 4  clicked button "Next step of the think-aloud" -> screen changed
+12:45  part 4  clicked button "Next step of the think-aloud" -> screen changed
+12:49  part 4  clicked button "Next step of the think-aloud" -> screen changed
+12:50  part 4  clicked button "Next step of the think-aloud" -> screen changed
+13:02  part 4  typed a written answer into the box "What would you do instead?" -> screen changed
+13:07  part 4  selected choice "B" -> screen changed
+13:09  part 4  clicked button "Play the three swaps" -> screen changed
+13:14  part 4  clicked button "Check" -> screen changed
+13:16  part 4  clicked button "yes" -> screen changed
+13:19  part 4  clicked button "no" -> screen changed
+13:31  part 4  typed a written answer into the box "" -> screen changed
+13:37  part 4  ticked a checkbox -> screen changed
+13:38  part 4  clicked button "Check my judgments" -> screen changed
+13:41  part 4  clicked button "✓" -> screen changed
+13:43  part 4  clicked button "✗" -> screen changed
+13:45  part 4  clicked button "✓" -> screen changed
+15:02  part 5  clicked button "A1" -> screen changed
+15:04  part 5  clicked button "A6, 5, 4, 2, then ⊘" -> screen changed
+15:06  part 5  clicked button "B2" -> screen changed
+15:18  part 5  clicked button "1" -> screen changed
+15:19  part 5  clicked button "2" -> screen changed
+15:21  part 5  clicked button "3" -> screen changed
+15:33  part 5  clicked button "Next step of the think-aloud →" -> screen changed
+15:35  part 5  clicked button "Next step of the think-aloud →" -> screen changed
+15:37  part 5  clicked button "Next step of the think-aloud →" -> screen changed
+15:39  part 5  clicked button "Next step of the think-aloud →" -> screen changed
+15:41  part 5  clicked button "Next step of the think-aloud →" -> screen changed
+15:54  part 5  clicked button "ASmaller inputs run faster." -> screen changed
+15:55  part 5  clicked button "BA new input checks whether the hypothesis predicts behaviou" -> screen changed
+15:57  part 5  clicked button "compared with the whole array" -> screen changed
+15:59  part 5  clicked button "compared with the whole array" -> screen changed
+16:01  part 5  clicked button "C[3, 2, 1] is the worst case." -> screen changed
+16:03  part 5  clicked button "phantom comparison at cell 0" -> screen changed
+16:05  part 5  clicked button "phantom comparison at cell 0" -> screen changed
+16:17  part 5  clicked button "compared with the whole array" -> screen changed
+16:18  part 5  clicked button "compared with the whole array" -> screen changed
+16:20  part 5  clicked button "compared with the whole array" -> screen changed
+16:22  part 5  clicked button "phantom comparison at cell 0" -> screen changed
+16:24  part 5  clicked button "phantom comparison at cell 0" -> screen changed
+19:04  part 6  typed a written answer into the box "cloze blank 1" -> screen changed
+19:10  part 6  typed a written answer into the box "cloze blank 2" -> screen changed
+19:19  part 6  typed a written answer into the box "cloze blank 3" -> screen changed
+19:24  part 6  typed a written answer into the box "cloze blank 4" -> screen changed
+19:29  part 6  typed a written answer into the box "cloze blank 5" -> screen changed
+19:33  part 6  typed a written answer into the box "cloze blank 6" -> screen changed
+19:38  part 6  typed a written answer into the box "cloze blank 7" -> screen changed
+19:42  part 6  typed a written answer into the box "cloze blank 8" -> screen changed
+19:47  part 6  typed a written answer into the box "cloze blank 9" -> screen changed
+19:52  part 6  typed a written answer into the box "cloze blank 10" -> screen changed

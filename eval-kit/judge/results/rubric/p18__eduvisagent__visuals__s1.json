@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:55:26.455Z",
+  "seconds": 67,
+  "result": {
+    "evidence": "The lesson relies heavily on interactive and dynamic visuals. At 0:21, an interactive 3D scene allows the user to move a point on a tree and see the corresponding ray and point on a wall, directly visualizing the core concept. At 3:34, a multi-view interface (3D, side, plan, wall detail) provides a comprehensive geometric representation. The visuals dynamically update to show the effects of changing parameters, such as removing the barrier (4:27), altering the hole size to show blur (4:48), and sweeping the object distance (10:30). At 14:45, a storyboard uses clean, simple diagrams to summarize the logical chain of the explanation.",
+    "score_reason": "The lesson fully meets the criteria for the second-highest level. The visuals are clear, well-made, and show the key objects and relationships (rays, points, inversion). They change dynamically as the explanation proceeds and are central to understanding the concept. To meet the top level, the visuals would need to carry the explanation almost entirely on their own, which they nearly do, but the text remains a necessary component for full comprehension.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 331031,
+    "candidatesTokenCount": 262,
+    "totalTokenCount": 332783,
+    "cachedContentTokenCount": 336868,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 330264
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 767
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 336519
+      }
+    ],
+    "thoughtsTokenCount": 1490,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 340264
+  }
+}

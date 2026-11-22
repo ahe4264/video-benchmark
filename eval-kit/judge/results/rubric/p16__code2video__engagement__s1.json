@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:05.635Z",
+  "seconds": 70,
+  "result": {
+    "evidence": "0:00 The hook uses a visual analogy (robot/people) to explain crowding but lacks a strong question or puzzle. 0:31-1:02 The prerequisites section is static and reads like slides. 1:42-2:55 The demonstration of steric bulk uses a helpful visual (shrinking green cone) to show the backside window closing, but the pace is slow and repetitive as it goes through each substituent. 2:56-3:35 The inversion demonstration shows the 'umbrella flip' which is a nice visual, but the presentation remains text-heavy and slow. The entire lesson is silent, relying entirely on reading text on screen.",
+    "score_reason": "The lesson fully meets Level 3. The opening states the topic with a mild analogy but gives no real pull. Attention holds in parts during the visual animations, but there are several flat and repetitive stretches due to the slow pace and text-heavy, slide-like format. It does not meet Level 4 because the opening lacks clear pull and it struggles to hold attention consistently.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 70612,
+    "candidatesTokenCount": 241,
+    "totalTokenCount": 72282,
+    "cachedContentTokenCount": 71631,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69960
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71285
+      }
+    ],
+    "thoughtsTokenCount": 1429,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 72943
+  }
+}

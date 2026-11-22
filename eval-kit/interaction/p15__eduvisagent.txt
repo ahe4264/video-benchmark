@@ -1,0 +1,132 @@
+Interaction log: 128 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 1 of 128 inputs produced no visible change; 0 raised a page error.
+
+0:13  part 1  clicked button "🎬 Producer notes" -> screen changed
+0:14  part 1  clicked button "Visuals" -> screen changed
+0:16  part 1  clicked button "Notation" -> screen changed
+0:27  part 1  clicked button "Next step ⏭" -> screen changed
+0:28  part 1  clicked button "Next step ⏭" -> screen changed
+0:30  part 1  clicked button "Next step ⏭" -> screen changed
+0:31  part 1  clicked button "Next step ⏭" -> screen changed
+0:33  part 1  clicked button "Why is the diamond the only one? ▾" -> screen changed
+0:44  part 1  ticked a checkbox -> screen changed
+0:45  part 1  ticked a checkbox -> screen changed
+0:47  part 1  ticked a checkbox -> screen changed
+0:58  part 1  ticked a checkbox -> screen changed
+0:59  part 1  clicked button "Reveal" -> screen changed
+1:01  part 1  clicked button "Check" -> screen changed
+1:02  part 1  clicked button "Student mode (fill in)" -> screen changed
+1:04  part 1  typed a written answer into the box "…" -> screen changed
+1:08  part 1  typed a written answer into the box "…" -> screen changed
+1:12  part 1  typed a written answer into the box "…" -> screen changed
+6:15  part 2  ticked a checkbox -> screen changed
+6:17  part 2  clicked button "Check" -> screen changed
+6:18  part 2  typed a written answer into the box "predicted pairs at A" -> screen changed
+6:22  part 2  clicked button "Commit" -> screen changed
+6:23  part 2  clicked button "Elimination · Sanity check" -> screen changed
+6:25  part 2  clicked button "A" -> screen changed
+6:26  part 2  clicked button "B" -> screen changed
+6:28  part 2  clicked button "C" -> screen changed
+6:39  part 2  ticked a checkbox -> screen changed
+6:40  part 2  clicked button "Vertex loop · Method" -> screen changed
+6:41  part 2  clicked button "Compare columns AB and AC" -> screen changed
+6:43  part 2  clicked button "Matrix · Implementation" -> screen changed
+6:44  part 2  clicked button "M" -> screen changed
+6:55  part 2  typed a written answer into the box "predicted degree of AC" -> screen changed
+6:59  part 2  clicked button "Commit & unlock AC" -> screen changed
+7:01  part 2  clicked button "AB" -> screen changed
+7:02  part 2  clicked button "BC" -> screen changed
+7:04  part 2  clicked button "CD" -> screen changed
+7:15  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+7:26  part 2  clicked button "▶ Play 0→1→0→1" -> screen changed
+7:43  part 2  clicked button "Cluster evidence" -> screen changed
+7:54  part 2  clicked button "AB" -> screen changed
+7:55  part 2  clicked button "BC" -> screen changed
+7:57  part 2  clicked button "CD" -> screen changed
+13:35  part 3  ticked a checkbox -> screen changed
+13:36  part 3  ticked a checkbox -> screen changed
+13:38  part 3  clicked button "⟲ sweep all 6 lanes" -> screen changed
+13:39  part 3  clicked button "Student" -> screen changed
+13:41  part 3  clicked button "Producer" -> screen changed
+13:43  part 3  clicked button "Original" -> screen changed
+13:54  part 3  picked an option in a drop-down -> no visible change
+13:55  part 3  selected choice "up" -> screen changed
+13:57  part 3  clicked button "Commit" -> screen changed
+13:58  part 3  clicked button "house" -> screen changed
+14:00  part 3  clicked button "▶ run loop" -> screen changed
+14:01  part 3  clicked button "− AB" -> screen changed
+14:02  part 3  clicked button "+ CE" -> screen changed
+14:13  part 3  typed a written answer into the box "Your plan…" -> screen changed
+14:18  part 3  typed a written answer into the box "Your results and checks…" -> screen changed
+14:24  part 3  clicked button "Next question" -> screen changed
+14:25  part 3  clicked button "Next question" -> screen changed
+14:27  part 3  clicked button "Next question" -> screen changed
+14:28  part 3  clicked button "Next question" -> screen changed
+14:29  part 3  clicked button "Next question" -> screen changed
+14:31  part 3  clicked button "place all" -> screen changed
+14:32  part 3  clicked button "Model vertex E on the workbench" -> screen changed
+14:34  part 3  picked an option in a drop-down -> screen changed
+14:45  part 3  typed a written answer into the box "" -> screen changed
+14:54  part 3  typed a written answer into the box "" -> screen changed
+15:37  part 4  selected choice "res" -> screen changed
+15:39  part 4  clicked button "Commit" -> screen changed
+15:40  part 4  clicked button "⤢ enlarge" -> screen changed
+15:42  part 4  clicked button "Sketch (G)" -> screen changed
+15:43  part 4  clicked button "Clash graph L(G)" -> screen changed
+15:54  part 4  clicked button "Lab" -> screen changed
+16:05  part 4  typed a written answer into the box "What has exactly two ends?" -> screen changed
+16:09  part 4  typed a written answer into the box "Where does the data live?" -> screen changed
+16:14  part 4  typed a written answer into the box "When do two data-carrying things interact?" -> screen changed
+16:17  part 4  picked an option in a drop-down -> screen changed
+16:19  part 4  picked an option in a drop-down -> screen changed
+16:20  part 4  picked an option in a drop-down -> screen changed
+16:21  part 4  ticked a checkbox -> screen changed
+16:23  part 4  typed a written answer into the box "Challenger: why aren't projects the nodes of the original gr" -> screen changed
+16:26  part 4  clicked button "▶ build all clashes" -> screen changed
+16:28  part 4  clicked button "R1" -> screen changed
+16:29  part 4  clicked button "R2" -> screen changed
+16:31  part 4  clicked button "R3" -> screen changed
+16:42  part 4  picked an option in a drop-down -> screen changed
+16:44  part 4  picked an option in a drop-down -> screen changed
+16:45  part 4  clicked button "Lock predictions" -> screen changed
+16:56  part 4  typed a written answer into the box "your words" -> screen changed
+17:31  part 5  picked an option in a drop-down -> screen changed
+17:32  part 5  picked an option in a drop-down -> screen changed
+17:33  part 5  picked an option in a drop-down -> screen changed
+17:35  part 5  clicked button "P · Plan Wrong pair count, a check that isn’t independent L7" -> screen changed
+17:36  part 5  clicked button "F · Find (L1–L3)" -> screen changed
+17:38  part 5  clicked button "O · Organize (L4–L6)" -> screen changed
+17:39  part 5  clicked button "P · Plan (L7–L11)" -> screen changed
+17:50  part 5  typed a written answer into the box "quantity" -> screen changed
+17:54  part 5  typed a written answer into the box "" -> screen changed
+17:58  part 5  typed a written answer into the box "check" -> screen changed
+18:02  part 5  typed a written answer into the box "" -> screen changed
+18:06  part 5  typed a written answer into the box "" -> screen changed
+18:10  part 5  typed a written answer into the box "" -> screen changed
+18:15  part 5  typed a written answer into the box "" -> screen changed
+18:19  part 5  typed a written answer into the box "" -> screen changed
+18:23  part 5  typed a written answer into the box "" -> screen changed
+18:27  part 5  clicked button "Assemble" -> screen changed
+20:53  part 6  picked an option in a drop-down -> screen changed
+20:54  part 6  picked an option in a drop-down -> screen changed
+20:55  part 6  picked an option in a drop-down -> screen changed
+20:57  part 6  picked an option in a drop-down -> screen changed
+20:58  part 6  picked an option in a drop-down -> screen changed
+20:59  part 6  picked an option in a drop-down -> screen changed
+21:01  part 6  picked an option in a drop-down -> screen changed
+21:02  part 6  picked an option in a drop-down -> screen changed
+21:04  part 6  picked an option in a drop-down -> screen changed
+21:05  part 6  picked an option in a drop-down -> screen changed
+21:06  part 6  picked an option in a drop-down -> screen changed
+21:08  part 6  picked an option in a drop-down -> screen changed
+21:18  part 6  ticked a checkbox -> screen changed
+21:20  part 6  ticked a checkbox -> screen changed
+21:21  part 6  ticked a checkbox -> screen changed
+21:23  part 6  ticked a checkbox -> screen changed
+21:24  part 6  ticked a checkbox -> screen changed
+21:25  part 6  ticked a checkbox -> screen changed
+21:27  part 6  clicked button "Check my sort" -> screen changed
+21:28  part 6  clicked button "1 · The picture" -> screen changed
+21:30  part 6  clicked button "2 · Rule 2" -> screen changed
+21:31  part 6  clicked button "3 · Degree rule" -> screen changed

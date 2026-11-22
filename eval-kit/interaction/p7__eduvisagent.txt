@@ -1,0 +1,146 @@
+Interaction log: 141 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 5 of 141 inputs produced no visible change; 0 raised a page error.
+
+0:24  part 1  dragged a slider (starting at "60") through its whole range -> screen changed
+0:44  part 1  ticked a checkbox -> screen changed
+0:45  part 1  ticked a checkbox -> screen changed
+0:47  part 1  ticked a checkbox -> screen changed
+0:49  part 1  ticked a checkbox -> screen changed
+0:50  part 1  ticked a checkbox -> screen changed
+0:52  part 1  ticked a checkbox -> screen changed
+0:54  part 1  clicked button "1" -> screen changed
+0:55  part 1  clicked button "2" -> screen changed
+0:57  part 1  clicked button "3" -> screen changed
+1:08  part 1  picked an option in a drop-down -> no visible change
+1:10  part 1  picked an option in a drop-down -> no visible change
+1:11  part 1  picked an option in a drop-down -> no visible change
+1:13  part 1  clicked button "Check & reveal organizer" -> screen changed
+1:14  part 1  clicked button "Check" -> screen changed
+1:16  part 1  clicked button "1" -> screen changed
+1:18  part 1  clicked button "2" -> screen changed
+1:19  part 1  clicked button "3" -> screen changed
+1:31  part 1  typed a written answer into the box "Your prediction" -> screen changed
+1:40  part 1  typed a written answer into the box "Your prediction" -> screen changed
+1:47  part 1  typed a written answer into the box "Your prediction" -> screen changed
+1:53  part 1  clicked button "Commit prediction" -> screen changed
+1:54  part 1  clicked button "Commit prediction" -> screen changed
+1:56  part 1  clicked button "Commit prediction" -> screen changed
+1:57  part 1  clicked button "sure" -> screen changed
+2:00  part 1  clicked button "guess" -> screen changed
+2:01  part 1  clicked button "no idea" -> screen changed
+2:13  part 1  typed a written answer into the box "Your prediction" -> screen changed
+2:20  part 1  typed a written answer into the box "Your prediction" -> screen changed
+2:26  part 1  clicked button "Commit prediction" -> screen changed
+2:28  part 1  clicked button "Commit prediction" -> screen changed
+2:29  part 1  clicked button "🔒 Reveal answer key" -> screen changed
+2:31  part 1  clicked button "sure" -> screen changed
+2:33  part 1  clicked button "guess" -> screen changed
+2:35  part 1  clicked button "no idea" -> screen changed
+2:46  part 1  clicked button "✏️ Sketch it yourself" -> screen changed
+2:51  part 1  closed a pop-up (escape) -> pop-up closed
+3:00  part 1  clicked button "A · Construct" -> no visible change
+3:02  part 1  clicked button "B · Sweep angle" -> screen changed
+3:04  part 1  dragged a slider (starting at "60") through its whole range -> screen changed
+3:16  part 1  clicked button "▶ Play sweep" -> screen changed
+3:57  part 2  ticked a checkbox -> screen changed
+3:59  part 2  clicked button "FFind" -> screen changed
+4:01  part 2  clicked button "OOrganize" -> screen changed
+4:02  part 2  clicked button "PPlan" -> screen changed
+4:13  part 2  typed a written answer into the box "Your answer…" -> the control could not be operated; screen changed
+4:17  part 2  typed a written answer into the box "Your answer…" -> the control could not be operated; screen changed
+4:20  part 2  typed a written answer into the box "Your answer…" -> the control could not be operated; screen changed
+4:23  part 2  typed a written answer into the box "Your answer…" -> the control could not be operated; screen changed
+4:27  part 2  typed a written answer into the box "Your answer…" -> the control could not be operated; screen changed
+4:30  part 2  typed a written answer into the box "Your answer…" -> the control could not be operated; screen changed
+4:33  part 2  typed a written answer into the box "Your answer…" -> the control could not be operated; screen changed
+4:37  part 2  clicked button "STEP 2" -> the control could not be operated; screen changed
+4:40  part 2  clicked button "S Step 7 · The length sweep" -> screen changed
+4:42  part 2  clicked button "Next step →" -> screen changed
+4:43  part 2  clicked button "Next step →" -> no visible change
+4:45  part 2  clicked button "Next step →" -> screen changed
+4:56  part 2  picked an option in a drop-down -> screen changed
+4:57  part 2  ticked a checkbox -> screen changed
+4:58  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+5:09  part 2  clicked button "▶ Play" -> screen changed
+5:19  part 2  clicked button "Construction" -> screen changed
+5:21  part 2  clicked button "Length sweep" -> screen changed
+5:22  part 2  clicked button "STEP 7" -> screen changed
+5:24  part 2  clicked button "Next step →" -> screen changed
+5:26  part 2  clicked button "Next step →" -> screen changed
+5:27  part 2  clicked button "Next step →" -> screen changed
+5:29  part 2  clicked button "P Plan · Predict before computing" -> screen changed
+5:30  part 2  clicked button "S Step 6 · Spot checks across the sweep" -> screen changed
+5:42  part 2  clicked button "STEP 1" -> screen changed
+5:43  part 2  dragged a slider (starting at "90") through its whole range -> screen changed
+8:35  part 3  ticked a checkbox -> screen changed
+8:46  part 3  typed a written answer into the box "?" -> screen changed
+8:51  part 3  clicked button "Check" -> screen changed
+8:53  part 3  clicked button "✅" -> screen changed
+8:55  part 3  clicked button "🧭 dir. only" -> screen changed
+8:56  part 3  clicked button "❌" -> screen changed
+9:07  part 3  typed a written answer into the box "?" -> screen changed
+9:12  part 3  typed a written answer into the box "?" -> screen changed
+9:17  part 3  typed a written answer into the box "Write your prediction..." -> screen changed
+9:22  part 3  typed a written answer into the box "?" -> screen changed
+9:28  part 3  typed a written answer into the box "?" -> screen changed
+9:33  part 3  typed a written answer into the box "?" -> screen changed
+9:38  part 3  clicked button "Check structure map" -> screen changed
+9:40  part 3  clicked button "Check & pin box" -> screen changed
+9:41  part 3  clicked button "Same" -> screen changed
+9:43  part 3  clicked button "Changed" -> screen changed
+9:44  part 3  clicked button "New" -> screen changed
+9:55  part 3  dragged a slider (starting at "30") through its whole range -> screen changed
+10:05  part 3  clicked button "▶ Slide F back to the bolt" -> screen changed
+10:06  part 3  clicked button "Physics view (at the grip)" -> screen changed
+10:07  part 3  clicked button "Math view (parallelogram)" -> screen changed
+10:18  part 3  typed a written answer into the box "?" -> screen changed
+10:23  part 3  typed a written answer into the box "?" -> screen changed
+10:27  part 3  clicked button "Start 2-min timer" -> screen changed
+10:29  part 3  clicked button "larger" -> screen changed
+10:31  part 3  clicked button "smaller" -> screen changed
+10:33  part 3  clicked button "equal" -> screen changed
+10:44  part 3  ticked a checkbox -> screen changed
+10:46  part 3  ticked a checkbox -> screen changed
+10:48  part 3  clicked button "Commit predictions & unlock §3.3" -> screen changed
+10:50  part 3  clicked button "Check 1: Units" -> screen changed
+10:52  part 3  clicked button "Check 2: Three checks" -> screen changed
+10:54  part 3  typed a written answer into the box "What does equality tell me?" -> screen changed
+10:59  part 3  ticked a checkbox -> screen changed
+19:27  part 4  typed a written answer into the box "…" -> screen changed
+19:32  part 4  typed a written answer into the box "…" -> screen changed
+19:36  part 4  typed a written answer into the box "…" -> screen changed
+19:39  part 4  typed a written answer into the box "…" -> screen changed
+19:44  part 4  clicked button "▶ 1" -> screen changed
+19:46  part 4  clicked button "▶ 2" -> screen changed
+19:48  part 4  clicked button "▶ 3" -> screen changed
+19:53  part 4  clicked button "▶ 4" -> screen changed
+19:59  part 4  clicked button "⊥" -> screen changed
+20:00  part 4  clicked button "·" -> screen changed
+20:03  part 4  clicked button "×" -> screen changed
+20:14  part 4  typed a written answer into the box "F = …" -> screen changed
+20:32  part 5  typed a written answer into the box "…" -> screen changed
+20:36  part 5  typed a written answer into the box "…" -> screen changed
+20:39  part 5  typed a written answer into the box "Write in your own words…" -> screen changed
+20:44  part 5  ticked a checkbox -> screen changed
+20:45  part 5  ticked a checkbox -> screen changed
+20:46  part 5  ticked a checkbox -> screen changed
+20:48  part 5  ticked a checkbox -> screen changed
+20:49  part 5  ticked a checkbox -> screen changed
+20:51  part 5  clicked button "Commit my predictions & reveal the catalogue" -> screen changed
+20:52  part 5  clicked button "A · Direction · ③" -> screen changed
+20:54  part 5  clicked button "B · Size · ②" -> screen changed
+20:55  part 5  clicked button "C · Nature of the output · ① + type" -> screen changed
+21:06  part 5  clicked button "M" -> screen changed
+21:08  part 5  clicked button "R" -> screen changed
+21:09  part 5  clicked button "S" -> screen changed
+21:11  part 5  typed a written answer into the box "One sentence: why am I safe from this? (an S you can't justi" -> screen changed
+22:06  part 6  typed a written answer into the box "Everything you know about u × v …" -> screen changed
+22:13  part 6  clicked button "Start 4-minute timer" -> screen changed
+22:15  part 6  clicked button "arrow u (blue)" -> screen changed
+22:17  part 6  clicked button "arrow v (orange)" -> screen changed
+22:19  part 6  clicked button "stamp ⊙" -> screen changed
+22:31  part 6  clicked button "Commit my recall & unlock the summary" -> screen changed
+22:34  part 6  clicked button "Place with current tool" -> screen changed
+22:36  part 6  clicked button "✓" -> screen changed
+22:38  part 6  clicked button "~" -> screen changed

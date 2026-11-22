@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:04.955Z",
+  "seconds": 169,
+  "result": {
+    "evidence": "0:00: Opens with a visual puzzle (circle and heart). 2:17: Visualizing the radial strip provides a moment of insight for setting bounds. 3:43-4:58: The step-by-step calculation is a flat stretch. 5:46: Concludes with an engaging thought experiment.",
+    "score_reason": "Fully meets Level 5. The opening poses a clear question, and the lesson maintains a good pace with visual variety. The lengthy calculation section acts as a lull, keeping it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 108442,
+    "candidatesTokenCount": 136,
+    "totalTokenCount": 109808,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 107795
+      }
+    ],
+    "thoughtsTokenCount": 1230,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 114148
+  }
+}

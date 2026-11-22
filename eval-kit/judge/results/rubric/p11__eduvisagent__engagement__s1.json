@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:22:03.233Z",
+  "seconds": 67,
+  "result": {
+    "evidence": "0:00: Hook compares enzymes to finding a friend blindfolded.\n0:20: Prediction task engages before answers.\n1:56: Interactive simulations add variety.\n5:23-9:08: Near-transfer task is repetitive clicking.\n9:08: Factory analogy offers insight.\n12:15-19:26: Summary is long and text-heavy, losing momentum.",
+    "score_reason": "Meets Level 4. Has a clear opening with pull and holds attention initially with interactive elements, but contains significant flat stretches (the long near-transfer task and the extensive final summary).",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 308740,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 311132,
+    "cachedContentTokenCount": 314269,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 308088
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 313923
+      }
+    ],
+    "thoughtsTokenCount": 2237,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 317385
+  }
+}

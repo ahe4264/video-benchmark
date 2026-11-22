@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:14:17.155Z",
+  "seconds": 94,
+  "result": {
+    "evidence": "0:05: Objectives and idealized model are defined upfront.\n1:07: Interactive model explores forces and components step-by-step.\n2:38: Derivation ladder breaks down the math logically from Newton's 2nd law to the period formula.\n3:41: F.O.P.S. framework structures the problem-solving process clearly.\n9:42: SHM Detector provides a step-by-step protocol for applying concepts to new situations.",
+    "score_reason": "The lesson is highly logical and step-by-step. Elements build on each other, symbols are defined before use, and structured frameworks allow a newcomer to easily follow and reconstruct the arguments. It fully meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 348638,
+    "candidatesTokenCount": 174,
+    "totalTokenCount": 350872,
+    "cachedContentTokenCount": 354881,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347952
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354542
+      }
+    ],
+    "thoughtsTokenCount": 2060,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 358340
+  }
+}

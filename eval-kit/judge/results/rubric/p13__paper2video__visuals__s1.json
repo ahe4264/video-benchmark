@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:33.559Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "The lesson is a slide presentation consisting almost entirely of text and equations (0:00-4:17). A single static diagram of a cylindrical capacitor is reused on several slides (0:16, 0:56, 2:01, 3:45). The presentation describes animations that will demonstrate the concept (2:01), but these are not actually shown.",
+    "score_reason": "The lesson has a relevant visual, but it is extremely text-heavy. The key concept of how changing geometry affects capacitance is not shown visually, only described in text, meeting the second level. This score is compressed toward the center of the scale.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 75827,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 77307,
+    "cachedContentTokenCount": 74901,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66306
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8256
+      }
+    ],
+    "thoughtsTokenCount": 1323,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 79915
+  }
+}

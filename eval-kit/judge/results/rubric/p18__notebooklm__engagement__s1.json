@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:21.630Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "0:27 poses a strong opening question about why blank walls don't reflect images. 1:18 provides a clear insight into the 'cacophony of light'. 2:47 introduces the engaging concept of 'accidental cameras'. 3:59-5:45 is a slightly dry math section. 2:58 and 4:45 feature text-heavy slides that briefly stall momentum.",
+    "score_reason": "The lesson fully meets Level 6. It has a strong opening question, good pace, and clear moments of insight. Brief lulls during the math and text slides keep it from the top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 149194,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 150426,
+    "cachedContentTokenCount": 155063,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 655
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148539
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138266
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16448
+      }
+    ],
+    "thoughtsTokenCount": 1078,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156866
+  }
+}

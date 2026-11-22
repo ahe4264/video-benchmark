@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:56:59.745Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "The video is a presentation about lesson design, not a lesson for students (0:00-2:52). It includes sections like \"Related Work\" (0:33), \"Experimental Method\" (1:47), and \"Ablation\" (2:18). While some math is shown (2:06), the framing is entirely meta-instructional.",
+    "score_reason": "The content is mostly off-topic for a student learning the math concept, as it discusses pedagogy rather than teaching the math directly. It fits the lowest level, adjusted for scale compression.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 51060,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 52376,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50336
+      }
+    ],
+    "thoughtsTokenCount": 1174,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53959
+  }
+}

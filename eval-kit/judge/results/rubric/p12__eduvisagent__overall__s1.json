@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:11:31.704Z",
+  "seconds": 88,
+  "result": {
+    "evidence": "The lesson is a highly interactive, comprehensive module on the simple pendulum. It is divided into six logical sections, covering problem analysis, step-by-step derivation, interactive demos, near and far transfer tasks, and common misconceptions. The visual design is clean and functional, and the content is accurate and detailed. The interactive elements, such as the pendulum simulations and misconception maps, strongly support learning.",
+    "score_reason": "The lesson is clear, correct, and well-made, providing a deep understanding of the topic. It fully meets the 'Strong' level, with only minor potential for cognitive overload due to its density.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 348673,
+    "candidatesTokenCount": 144,
+    "totalTokenCount": 349637,
+    "cachedContentTokenCount": 354881,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 721
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347952
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354542
+      }
+    ],
+    "thoughtsTokenCount": 820,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 358375
+  }
+}

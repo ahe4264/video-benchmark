@@ -1,0 +1,76 @@
+{
+  "topic": "p15",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:41:12.348Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "Observed multiple instances of text overlapping throughout the lesson, which sometimes makes the content difficult to read.",
+    "issues": [
+      {
+        "timestamp": "01:50",
+        "description": "Text '#nodes(edge graph)' overlaps with '= #edges(original) = 5'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:31",
+        "description": "Text 'C(3, 2)' overlaps with '+ C(2, 2)' in the equation.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:56",
+        "description": "New text 'e2 (BC)...' is written over the previous text 'e1 (AB)...' without clearing it, causing an unreadable overlap.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:20",
+        "description": "Text 'agg[e5]...' overlaps with previous text on the screen.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:43",
+        "description": "Text '(4 nodes, 5 edges)' overlaps with '(5 nodes, 8 edges)'.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson contains several major text overlap issues.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 72777,
+    "candidatesTokenCount": 334,
+    "totalTokenCount": 75062,
+    "cachedContentTokenCount": 73510,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71808
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73168
+      }
+    ],
+    "thoughtsTokenCount": 1951,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75335
+  }
+}

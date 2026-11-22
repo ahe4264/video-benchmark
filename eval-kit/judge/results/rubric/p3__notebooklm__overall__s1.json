@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:15.245Z",
+  "seconds": 82,
+  "result": {
+    "evidence": "0:37: Clear roadmap provided.\n1:26: Good visual representation of the region bounded by the circle and cardioid.\n2:17: Effective use of a sweeping radial line to explain inner and outer bounds for r.\n3:11: Clear setup of the double integral with r dr dtheta.\n4:32: Skips the step-by-step integration of the trigonometric function, which is a minor weakness.\n5:46: Good concluding question to test understanding.",
+    "score_reason": "The lesson is clear, correct, and well-made, effectively teaching the setup with strong visuals. A minor weakness is skipping the final integration steps. It meets the Strong level, compressed toward the center.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 108518,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 109939,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 107795
+      }
+    ],
+    "thoughtsTokenCount": 1248,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 114224
+  }
+}

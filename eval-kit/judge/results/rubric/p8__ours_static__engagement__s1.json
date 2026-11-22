@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:22.331Z",
+  "seconds": 73,
+  "result": {
+    "evidence": "0:00-0:55: Opens by showing gases reacting to make heat, then poses a stake: phones need electricity, asking how to route electrons through a wire. 1:04-3:24: Interactive cell building maintains momentum. 3:25-5:06: Molecule tracing is slightly repetitive. 5:07-6:37: Interactive graph adds variety but explaining it slows the pace. 6:38-7:57: Short circuit visual provides a moment of insight.",
+    "score_reason": "Fully meets Level 5. The opening poses a clear question, and the lesson moves at a good pace with varied interactive elements. Minor lulls during the equation balancing and graph explanation keep it from the next level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 164511,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 166120,
+    "cachedContentTokenCount": 171010,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 163862
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152523
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18144
+      }
+    ],
+    "thoughtsTokenCount": 1429,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 172925
+  }
+}

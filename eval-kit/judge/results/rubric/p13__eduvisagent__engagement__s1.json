@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:21:53.656Z",
+  "seconds": 68,
+  "result": {
+    "evidence": "The lesson opens at 0:21 with a driving question: 'if a cylindrical capacitor is just two metal tubes, what decides how much charge it holds? Can we predict it from its shape alone?' At 1:33, there is a moment of insight where the logarithmic formula is visually linked to the area under a 1/r curve. From 2:26 onwards, momentum is maintained through interactive parameter sweeps that require predictions before revealing outcomes. The 'Diagnosis Lab' at 18:36 adds variety to error correction. The pace is steady due to frequent interactive prompts, though the detailed scaffolding in the transfer tasks creates brief lulls.",
+    "score_reason": "The lesson fully meets Level 6. It features an opening that poses a real question, maintains good pace and high variety through interactive elements, and delivers clear moments of insight. It falls short of Level 7 because the opening hook is a standard physics question rather than one that generates intense curiosity, and the heavy scaffolding in later sections introduces minor lulls.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 317709,
+    "candidatesTokenCount": 231,
+    "totalTokenCount": 319555,
+    "cachedContentTokenCount": 323408,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 317064
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323069
+      }
+    ],
+    "thoughtsTokenCount": 1615,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 326592
+  }
+}

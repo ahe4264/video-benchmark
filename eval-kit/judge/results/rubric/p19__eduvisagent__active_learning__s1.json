@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:58:57.997Z",
+  "seconds": 41,
+  "result": {
+    "evidence": "0:28 (Prediction log on ray behavior); 1:34 (Hands-on shadow test); 2:38 (Coordinate calculation table); 3:47 (Feedback table mapping specific wrong answers to likely errors); 4:21 & 4:43 (Predicting simulation outcomes before they run); 5:03 (Prompt to explain the concept to a carpenter); 7:34 & 11:43 (Near and far transfer tasks requiring application); 17:31 & 17:52 (Dedicated misconception diagnosis and repair section with specific feedback for different student drawings).",
+    "score_reason": "The lesson fully meets the top level. The learner performs key reasoning (predicting, applying, explaining) at all main steps. Feedback explicitly addresses specific wrong answers (e.g., diagnosing coordinate errors), and checks target known misconceptions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 341032,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 343234,
+    "cachedContentTokenCount": 347086,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 736
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 340296
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346741
+      }
+    ],
+    "thoughtsTokenCount": 1997,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350531
+  }
+}

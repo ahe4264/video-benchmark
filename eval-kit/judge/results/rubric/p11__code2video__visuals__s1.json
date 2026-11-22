@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:16.790Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "0:00-0:40: Visuals introduce molecules, enzymes, and activation energy graphs clearly.\n0:41-1:21: Schematic building of enzyme and substrates, showing lock-and-key vs induced fit with clear labels and readouts.\n1:22-2:11: Interactive toggle demonstrates rigid vs flexible active sites and rejection of wrong substrates.\n2:12-3:09: Animation of docking with a corresponding graph of pocket deformation vs distance, clearly contrasting the two models.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation entirely; a student could understand the core concepts from the graphics and animations alone. Meets top level, compressed to 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 50924,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 52071,
+    "cachedContentTokenCount": 51456,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50160
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51110
+      }
+    ],
+    "thoughtsTokenCount": 975,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 52730
+  }
+}

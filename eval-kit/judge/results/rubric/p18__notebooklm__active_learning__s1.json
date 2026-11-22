@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:47.649Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "The video uses rhetorical questions to frame the content, such as 'Why doesn't a blank wall reflect an image?' (0:27) and 'Can we build a camera where objects don't shrink?' (5:52). It concludes with a rhetorical prompt to look for accidental cameras in the real world (7:58). The lesson contains no interactive questions, quizzes, or hands-on activities.",
+    "score_reason": "The lesson fully meets level 2 by utilizing rhetorical questions to engage the viewer. It does not reach level 3 because it lacks any genuine checks for understanding, recall questions, or interactive feedback mechanisms.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 149279,
+    "candidatesTokenCount": 150,
+    "totalTokenCount": 150772,
+    "cachedContentTokenCount": 155063,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148539
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138266
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16448
+      }
+    ],
+    "thoughtsTokenCount": 1343,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156951
+  }
+}

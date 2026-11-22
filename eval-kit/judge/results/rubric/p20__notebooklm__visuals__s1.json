@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:49:32.723Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:00-0:53: Clean title and menu screens.\n1:01: Static drawing illustrates planets but lacks details mentioned in audio.\n1:46: Static diagram of telescope and rays.\n2:09: Focal length brackets appear, showing alignment.\n2:44: Static 3-part diagram explains light ray paths.\n3:24: Static comparison of ray angles explains magnification.\n4:27: Static formula text.\n4:56: Static exploded view of a telescope.",
+    "score_reason": "Meets Level 4. Visuals are clean and explain parts of the idea (ray tracing, angles) while illustrating others (planets, telescope build). It misses Level 5 because visuals are mostly static and do not dynamically change as the explanation proceeds.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 114054,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 116247,
+    "cachedContentTokenCount": 118333,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 113295
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105448
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12544
+      }
+    ],
+    "thoughtsTokenCount": 2003,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 120025
+  }
+}

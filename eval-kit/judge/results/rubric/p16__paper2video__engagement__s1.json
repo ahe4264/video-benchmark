@@ -1,0 +1,53 @@
+{
+  "topic": "p16",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:48.674Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:00: Opens with a dry statement about presenting a lesson design. 0:19-4:05: Entire video is a synthetic voice reading bullet points from static slides about a proposed lesson, rather than teaching the topic itself.",
+    "score_reason": "The video is dull throughout and consists entirely of reading slides, meeting Level 1.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 73121,
+    "candidatesTokenCount": 92,
+    "totalTokenCount": 74259,
+    "cachedContentTokenCount": 72307,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72469
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63993
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7968
+      }
+    ],
+    "thoughtsTokenCount": 1046,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77090
+  }
+}

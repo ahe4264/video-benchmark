@@ -1,0 +1,108 @@
+Interaction log: 103 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 1x: "Math.log10c is not a function". Whatever that code was meant to do may be missing or inert.
+Summary: 3 of 103 inputs produced no visible change; 0 raised a page error.
+
+0:14  part 1  clicked button "▶ Turn the cable into a capacitor" -> screen changed
+0:16  part 1  clicked button "Legend ▾" -> screen changed
+0:18  part 1  clicked button "F" -> screen changed
+0:20  part 1  clicked button "O" -> screen changed
+0:31  part 1  typed a written answer into the box "Area is like… / the gap is like…" -> screen changed
+0:36  part 1  clicked button "Save my guess" -> screen changed
+0:47  part 1  clicked button "2 · The field is radial, points + → −, and weakens as 1 / 𝑟" -> screen changed
+0:48  part 1  clicked button "1 · Charge lives only on the surfaces that face the gap ▾" -> screen changed
+1:00  part 1  dragged a slider (starting at "1.4") through its whole range -> screen changed
+1:09  part 1  clicked button "3 · Edge effects are ignored (valid when ℓ ≫ 𝑅 2 ℓ≫R 2 ​ ) " -> screen changed
+1:11  part 1  clicked button "Step 1 Assume ± 𝑄 ±Q ± glyphs" -> screen changed
+1:12  part 1  clicked button "Step 2 Gauss: 𝐸 ( 𝑟 ) E(r) dashed circle" -> screen changed
+1:24  part 1  clicked button "Next step ▸" -> screen changed
+1:25  part 1  clicked button "Next step ▸" -> screen changed
+1:27  part 1  clicked button "Next step ▸" -> screen changed
+1:28  part 1  clicked button "Next step ▸" -> screen changed
+1:30  part 1  clicked button "Step 3 Integrate: 𝑉 V shaded area" -> screen changed
+1:31  part 1  clicked button "Step 4 𝐶 = 𝑄 / 𝑉 C=Q/V green readout" -> screen changed
+1:43  part 1  dragged a slider (starting at "1") through its whole range -> screen changed
+1:53  part 1  clicked button "Next step ▸" -> no visible change
+1:56  part 1  clicked button "Next step ▸" -> the control could not be operated; screen changed
+2:00  part 1  clicked button "1 · Units check ▾" -> screen changed
+2:02  part 1  clicked button "Why a log?" -> screen changed
+2:05  part 1  clicked button "Ratio vs ln" -> screen changed
+2:06  part 1  clicked button "Ratio, not gap" -> screen changed
+2:18  part 1  typed a number into "" -> screen changed
+2:20  part 1  typed a number into "" -> screen changed
+2:22  part 1  selected choice "A" -> screen changed
+2:23  part 1  clicked button "2 · Limiting-case check (your §1A guess returns) ▾" -> screen changed
+2:25  part 1  clicked button "3 · Magnitude check ▾" -> screen changed
+2:36  part 1  selected choice "B" -> screen changed
+2:38  part 1  clicked button "1" -> screen changed
+2:39  part 1  clicked button "🔒 Lock in prediction" -> screen changed
+2:41  part 1  typed a written answer into the box "" -> screen changed
+2:46  part 1  dragged a slider (starting at "1") through its whole range -> screen changed
+2:57  part 1  clicked button "1 guess" -> screen changed
+2:58  part 1  clicked button "🔒 Lock in prediction" -> screen changed
+3:00  part 1  typed a written answer into the box "I was right/wrong about…" -> screen changed
+6:52  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+7:02  part 2  clicked button "▶ Play" -> screen changed
+7:12  part 2  clicked button "2 · Gauss: 𝐸 ( 𝑟 ) E(r)" -> screen changed
+7:16  part 2  clicked button "▶ Watch 16–26 s" -> screen changed
+7:26  part 2  clicked button "3 · Integrate: 𝑉 V" -> screen changed
+7:31  part 2  clicked button "4 · 𝐶 = 𝑄 / 𝑉 C=Q/V" -> screen changed
+7:45  part 2  clicked button "Show pairing ticks" -> screen changed
+7:50  part 2  clicked button "▶ Watch 26–36 s" -> screen changed
+8:00  part 2  clicked button "1 · Assume ±Q" -> screen changed
+8:05  part 2  clicked button "0 Hook" -> screen changed
+8:10  part 2  clicked button "16 Step 1" -> screen changed
+8:25  part 2  clicked button "▸ Think-aloud" -> screen changed
+8:29  part 2  clicked button "E = 0" -> screen changed
+8:34  part 2  clicked button "E ≠ 0" -> screen changed
+8:49  part 2  dragged a slider (starting at "1.5") through its whole range -> screen changed
+8:59  part 2  clicked button "▸ Reveal" -> screen changed
+9:01  part 2  clicked button "▶ Watch 36–46 s" -> screen changed
+9:02  part 2  clicked button "26 Step 2" -> screen changed
+9:04  part 2  clicked button "36 Step 3" -> screen changed
+9:06  part 2  clicked button "46 Step 4" -> screen changed
+9:17  part 2  clicked button "Gaussian surface" -> screen changed
+9:18  part 2  clicked button "Why 1/r" -> screen changed
+9:20  part 2  clicked button "Unrolled strip" -> screen changed
+10:01  part 3  clicked button "📋 Problem" -> screen changed
+10:02  part 3  typed a written answer into the box "Same device as Part 2, so…" -> screen changed
+10:06  part 3  typed a written answer into the box "" -> screen changed
+10:10  part 3  typed a written answer into the box "" -> screen changed
+10:15  part 3  picked an option in a drop-down -> screen changed
+10:16  part 3  picked an option in a drop-down -> screen changed
+10:17  part 3  selected choice "reuse" -> screen changed
+10:18  part 3  clicked button "R₂ = 3.0 cm" -> no visible change
+13:20  part 4  typed a written answer into the box "in pipe language…" -> screen changed
+13:24  part 4  typed a written answer into the box "in pipe language…" -> screen changed
+13:29  part 4  typed a written answer into the box "in pipe language…" -> screen changed
+13:33  part 4  typed a written answer into the box "…" -> screen changed
+13:37  part 4  typed a written answer into the box "…" -> screen changed
+13:41  part 4  typed a written answer into the box "" -> screen changed
+13:45  part 4  typed a written answer into the box "" -> screen changed
+13:50  part 4  typed a written answer into the box "" -> screen changed
+18:47  part 5  ticked a checkbox -> screen changed
+18:49  part 5  clicked button "① Error Detective" -> screen changed
+18:50  part 5  clicked button "② Reference" -> screen changed
+18:52  part 5  typed a written answer into the box "search catalog" -> screen changed
+18:56  part 5  ticked a checkbox -> screen changed
+18:57  part 5  clicked button "③ My Error Log 🔒" -> screen changed
+19:12  part 6  clicked button "Reveal next line" -> screen changed
+19:13  part 6  clicked button "sort →" -> screen changed
+19:15  part 6  clicked button "sort →" -> screen changed
+19:16  part 6  clicked button "Reveal next line" -> screen changed
+19:18  part 6  clicked button "Reveal next line" -> screen changed
+19:19  part 6  clicked button "O · 🟩 · 7′ 2. Build" -> screen changed
+19:20  part 6  typed a written answer into the box "How is C obtained?" -> screen changed
+19:24  part 6  typed a written answer into the box "The formula and what it depends on" -> screen changed
+19:28  part 6  typed a written answer into the box "When is it valid?" -> screen changed
+19:32  part 6  clicked button "Submit Stage 2 & unlock the summary card" -> screen changed
+19:33  part 6  clicked button "F · 🟦 · 3′ 1. Retrieve" -> screen changed
+19:34  part 6  clicked button "sort →" -> screen changed
+19:45  part 6  typed a written answer into the box "one line" -> screen changed
+19:49  part 6  picked an option in a drop-down -> screen changed
+19:50  part 6  selected choice "poe" -> screen changed
+19:52  part 6  clicked button "sort →" -> screen changed
+19:53  part 6  clicked button "Go to Stage 2 · Build →" -> no visible change
+19:55  part 6  clicked button "O · 🔒 3. Summary card" -> screen changed
+19:56  part 6  clicked button "P · 🟨 · 10′ 4. Exit quiz" -> screen changed
+19:58  part 6  clicked button "S · 🟥 · 8′ 5. Choose a cable" -> screen changed

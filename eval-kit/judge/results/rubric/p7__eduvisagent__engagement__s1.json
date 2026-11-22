@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:12:24.161Z",
+  "seconds": 90,
+  "result": {
+    "evidence": "The lesson opens with a practical wrench scenario (0:14) and a clear puzzle about finding a perpendicular direction (0:35). However, momentum is lost during long, repetitive tasks, such as filling out self-explanation prompts (4:04-8:07) and a large 'Structure map' table (8:37-9:46). Interactive 3D models (2:51) provide some visual variety.",
+    "score_reason": "The lesson has an opening with some pull, but attention holds only in parts due to several long, repetitive stretches.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 370512,
+    "candidatesTokenCount": 141,
+    "totalTokenCount": 372895,
+    "cachedContentTokenCount": 377211,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 369864
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 376869
+      }
+    ],
+    "thoughtsTokenCount": 2242,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 380795
+  }
+}

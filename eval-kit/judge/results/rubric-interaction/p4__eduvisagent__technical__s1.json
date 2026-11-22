@@ -1,0 +1,56 @@
+{
+  "topic": "p4",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:07:28.452Z",
+  "seconds": 130,
+  "result": {
+    "evidence": "The lesson renders well overall, but there are a few minor interaction issues where inputs are ignored or delayed.",
+    "issues": [
+      {
+        "timestamp": "1:40",
+        "description": "Checkbox click ignored on first attempt.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:57",
+        "description": "Radio button click ignored.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "9:02",
+        "description": "Tab click response delayed.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "Several minor glitches; content stays usable.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 332752,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 336486,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5656
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 327096
+      }
+    ],
+    "thoughtsTokenCount": 3562,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 342080
+  }
+}

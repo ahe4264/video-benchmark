@@ -1,0 +1,71 @@
+{
+  "topic": "p13",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:20:45.567Z",
+  "seconds": 418,
+  "result": {
+    "evidence": "Observed multiple instances of unrendered LaTeX code throughout the lesson.",
+    "issues": [
+      {
+        "timestamp": "00:47",
+        "description": "Unrendered LaTeX block '$$E(r)=...$$' shown instead of formula.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "01:14",
+        "description": "Unrendered inline LaTeX '\\(\\R_1' in table.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "07:35",
+        "description": "Unrendered LaTeX block '$$E(2\\pi r\\ell)=...$$' shown instead of formula.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "12:48",
+        "description": "Unrendered LaTeX commands (e.g., '\\log_{10}', '\\emptyset') in table.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "Meets Level 3 due to several major rendering issues with raw LaTeX code. Score compressed to 4 per instructions.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 318030,
+    "candidatesTokenCount": 273,
+    "totalTokenCount": 322163,
+    "cachedContentTokenCount": 323408,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 966
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 317064
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323069
+      }
+    ],
+    "thoughtsTokenCount": 3860,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 327091
+  }
+}

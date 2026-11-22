@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:19.891Z",
+  "seconds": 76,
+  "result": {
+    "evidence": "0:19 poses a puzzle about a 3x3 pixel window. 1:07 asks a question to demonstrate the need for downsampling. 4:57 asks a 'what if' question about cutting a skip connection, leading to an insight. 6:24 uses an interactive slider. The pace is maintained through frequent questions.",
+    "score_reason": "The lesson opens with a real puzzle and maintains momentum through interactive questions and varied visuals. It provides clear moments of insight, such as the role of skip connections. It fully meets Level 6. It misses Level 7 because the initial curiosity could be slightly more compelling.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 167112,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 168900,
+    "cachedContentTokenCount": 173719,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 166463
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154944
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18432
+      }
+    ],
+    "thoughtsTokenCount": 1637,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 175652
+  }
+}

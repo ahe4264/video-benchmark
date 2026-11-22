@@ -1,0 +1,49 @@
+{
+  "topic": "p2",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:02:06.798Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "The lesson relies on interactive 3D and 2D models to represent the tetrahedron and its base (0:02). The concept of integration is visualized by building columns on floor patches (1:02). The inner integral is explained by sweeping a 2D strip and showing the corresponding 3D slice (2:52). The outer integral is visualized by graphing the slice area A(x) as the slice sweeps across the volume (3:42). Color coding links algebraic terms to geometric features (e.g., red for the strip/slice). The visuals dynamically change to show different perspectives, like looking down the z-axis (7:04).",
+    "score_reason": "The visuals are clear, well-made, and consistently show the key objects and relationships. They dynamically change to explain the concepts (like sweeping slices) and carry the explanation to the point where the core idea is understandable from the graphics alone.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 258689,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 260200,
+    "cachedContentTokenCount": 263156,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 257928
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 262813
+      }
+    ],
+    "thoughtsTokenCount": 1298,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 266004
+  }
+}

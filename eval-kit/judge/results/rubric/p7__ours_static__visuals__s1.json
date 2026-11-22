@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:24:08.147Z",
+  "seconds": 208,
+  "result": {
+    "evidence": "0:03: Wrench graphic introduces vectors.\n0:47: Interactive probe rotates to show angles dynamically.\n1:21: Clean transition to 3D coordinate system.\n3:49: View rotates to align the plane horizontally.\n4:32: Vector swings, dynamically generating a sine wave plot of the cross product's length.\n6:12: Vector stretches, showing real-time changes to parallelogram area and cross product length.\n7:00: Animated hand demonstrates the right-hand rule.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation. A student could follow the geometric concepts largely from the dynamic animations and interactive plots alone. It fully meets the top level, but the score is compressed to avoid the maximum.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 156250,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 158514,
+    "cachedContentTokenCount": 162280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155490
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144722
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17216
+      }
+    ],
+    "thoughtsTokenCount": 2080,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 164265
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:24:26.673Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00-1:51: The lesson establishes a clear baseline by comparing classical particles (balls) and waves (ripples) passing through two slits.\n1:52-3:15: It introduces electrons and the de Broglie wavelength, showing they create wave-like interference bands.\n3:16-6:08: The core concept of wave-particle duality is effectively demonstrated by firing electrons one at a time. The visual of discrete dots building up a wave pattern over time clearly illustrates probability.\n6:09-8:02: The relationship between slit spacing and fringe spacing is explored visually and quantitatively.\n8:03-9:30: A strong summary contrasts the two-slit pattern with a one-slit pattern, solidifying the necessity of both slits for interference.",
+    "score_reason": "The lesson is exceptionally clear, correct, and well-constructed. The visual progression perfectly builds the counter-intuitive concept of wave-particle duality, and the interactive questions effectively engage the learner. It fully meets the criteria for an exceptional model lesson, but following the instruction to compress scores away from the extremes, it receives a strong rating.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 165465,
+    "candidatesTokenCount": 263,
+    "totalTokenCount": 166769,
+    "cachedContentTokenCount": 171913,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 1041,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173928
+  }
+}

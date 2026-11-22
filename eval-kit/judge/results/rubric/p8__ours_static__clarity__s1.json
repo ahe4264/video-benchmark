@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:25:36.354Z",
+  "seconds": 111,
+  "result": {
+    "evidence": "0:03: Introduces basic H2/O2 reaction. 1:04: Builds cell step-by-step (barrier, wire). 1:46: Introduces formal terms (membrane, anode, cathode). 3:25: Traces a single reaction cycle with clear animation. 5:07: Introduces flow rates. 6:38: Reviews paths without labels. 7:58: Tests system dependencies.",
+    "score_reason": "The lesson is logical and step-by-step throughout, with no gaps a newcomer would trip on, fully meeting level 6. It falls just short of the top level because the quantitative flow rate section might require a brief pause for a newcomer to fully reconstruct later.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 164552,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 166793,
+    "cachedContentTokenCount": 171010,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 163862
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152523
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18144
+      }
+    ],
+    "thoughtsTokenCount": 2065,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 172966
+  }
+}

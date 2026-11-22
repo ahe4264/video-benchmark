@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:57.766Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "0:00-4:15: The video is a slide presentation dominated by text bullet points.\n0:20, 1:06, 2:06, 3:03: A static diagram of a fuel cell appears on several slides.\n1:46: Text describes dynamic visual changes (sliders, arrow thickness), but these are not shown visually.",
+    "score_reason": "The lesson includes a clean, relevant diagram depicting the main objects, but it is static and repetitive. The lesson relies heavily on text to explain the concepts, with the visuals merely illustrating the text. It fully meets Level 3.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 74975,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 77351,
+    "cachedContentTokenCount": 74038,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74214
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65535
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8160
+      }
+    ],
+    "thoughtsTokenCount": 2224,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 79028
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:36.445Z",
+  "seconds": 20,
+  "result": {
+    "evidence": "0:00: Hook introduces enzyme specificity and activation energy.\n0:40: Construction systematically builds the enzyme, active site, and substrates, defining terms.\n1:11: Readouts for mismatch and deformation are introduced before use.\n1:21: Demo 1 compares models qualitatively, showing a wrong substrate failing in both.\n2:11: Demo 2 graphs deformation during docking, reinforcing the difference.",
+    "score_reason": "The lesson is highly logical and step-by-step. Every element is introduced before use, and the progression from context to components to comparison is clear. It meets the top level, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 50853,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 52301,
+    "cachedContentTokenCount": 51456,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50160
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51110
+      }
+    ],
+    "thoughtsTokenCount": 1291,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 52659
+  }
+}

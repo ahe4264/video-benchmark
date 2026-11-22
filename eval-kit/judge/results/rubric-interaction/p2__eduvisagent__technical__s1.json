@@ -1,0 +1,66 @@
+{
+  "topic": "p2",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:16.163Z",
+  "seconds": 57,
+  "result": {
+    "evidence": "At 5:33, unrendered LaTeX code (\\int -2y dy = -y^2 and \\frac{1}{2}) is visible in the text under Step 1. At 7:13, the interaction log indicates a checkbox is clicked, but there is no visible response; it is clicked again at 7:15 and successfully checks. At 7:38, option (B) is clicked but fails to highlight or select. At 8:37, the 'false' button is clicked but does not respond. At 9:05 and 9:07, the 'needed' and 'not needed' buttons are clicked with no visible response, before a click at 9:08 finally works.",
+    "issues": [
+      {
+        "timestamp": "5:33",
+        "description": "Unrendered LaTeX code is visible in the text instead of formatted math.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "7:13",
+        "description": "A checkbox is clicked but fails to respond. It works on a subsequent attempt at 7:15.",
+        "severity": "blocking"
+      },
+      {
+        "timestamp": "7:38",
+        "description": "Option (B) is clicked but fails to visually select or respond.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "8:37",
+        "description": "The 'false' button is clicked but fails to visually select or respond.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "9:05",
+        "description": "Buttons ('needed' and 'not needed') are clicked but fail to respond until a subsequent attempt at 9:08.",
+        "severity": "blocking"
+      }
+    ],
+    "score_reason": "The lesson contains controls that fail to respond and then work on subsequent attempts (recoverable blocking problems), as well as unrendered raw code and other unresponsive buttons. This fully meets the criteria for Level 2.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 263003,
+    "candidatesTokenCount": 480,
+    "totalTokenCount": 267098,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 257928
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 5075
+      }
+    ],
+    "thoughtsTokenCount": 3615,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 270321
+  }
+}

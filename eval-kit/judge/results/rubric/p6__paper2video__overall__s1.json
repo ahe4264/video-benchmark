@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:06.550Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:00: Introduces a presentation on lesson design. 0:53-2:09: Covers the core math derivation (geometry, Riemann sums). 2:10-3:47: Shifts to off-topic experimental methods and ablation studies.",
+    "score_reason": "Meets Level 3. It teaches the math derivation but has a significant problem: the research presentation format makes large sections off-topic and confusing. This keeps it from Level 4.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 70265,
+    "candidatesTokenCount": 119,
+    "totalTokenCount": 72780,
+    "cachedContentTokenCount": 69413,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69541
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61423
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7648
+      }
+    ],
+    "thoughtsTokenCount": 2396,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74087
+  }
+}

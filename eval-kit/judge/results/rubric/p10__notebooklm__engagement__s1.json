@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:33.564Z",
+  "seconds": 55,
+  "result": {
+    "evidence": "0:16 - The lesson opens with a clear, engaging question: 'Is an electron a particle or a wave?'\n3:47 - A strong moment of insight occurs when showing how individual particle hits build up an interference pattern over time.\n5:30 - The pace begins to slow during the explanation of the Uncertainty Principle.\n7:32 - A noticeable lull occurs as the lesson lists the four quantum numbers, which feels dry compared to the earlier conceptual explanations.",
+    "score_reason": "The lesson fully meets Level 5. It features an opening that poses a clear question and maintains a generally good pace with a notable moment of insight. It falls short of Level 6 because the visual variety is limited by the static slide format, and the later sections on uncertainty and quantum numbers introduce noticeable lulls.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 159298,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 161229,
+    "cachedContentTokenCount": 165592,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158649
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 147681
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17568
+      }
+    ],
+    "thoughtsTokenCount": 1744,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167460
+  }
+}

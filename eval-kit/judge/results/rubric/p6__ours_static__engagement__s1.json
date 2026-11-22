@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:33.908Z",
+  "seconds": 63,
+  "result": {
+    "evidence": "0:34: Asks what happens to force when the plate is lowered. 0:55: Asks what happens when the plate is stood up. 3:19-3:58: Flat stretch defining variables for the k-th strip. 5:57: Visual of Riemann sum converging. 6:49: Insight showing the force curve.",
+    "score_reason": "The lesson opens with clear questions that provide some pull. It holds attention with visual insights and interactive elements, but contains some flat stretches, particularly when detailing mathematical notation, keeping it from a higher level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 170289,
+    "candidatesTokenCount": 144,
+    "totalTokenCount": 172458,
+    "cachedContentTokenCount": 177029,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 169641
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 157903
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18784
+      }
+    ],
+    "thoughtsTokenCount": 2025,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 178983
+  }
+}

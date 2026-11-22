@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:03:34.280Z",
+  "seconds": 98,
+  "result": {
+    "evidence": "0:01: Opens with a historical anecdote and a real-world observation (craters blurring) to pose a question. 0:18-1:37: Interactive diagrams (changing focal length, angle, lens position) provide visual insight. 1:46-5:40: A long, text-heavy derivation section that feels flat despite interactive elements. 5:42-11:22: Transfer sections are essentially long problem sets, slowing momentum. 11:23: Misconceptions section is interesting but relies heavily on reading and forms.",
+    "score_reason": "Meets Level 4. The opening has some pull, and interactive diagrams hold attention. It misses Level 5 due to long, flat stretches of text-heavy derivation and repetitive problem sets that slow the pace.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 303983,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 305802,
+    "cachedContentTokenCount": 309422,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 303336
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 309081
+      }
+    ],
+    "thoughtsTokenCount": 1628,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 312502
+  }
+}

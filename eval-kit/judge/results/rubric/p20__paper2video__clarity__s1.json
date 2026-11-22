@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:49:46.492Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "0:21: The formula M = f1/f2 is introduced before defining the variables.\n1:03: Telescope construction is presented on a static slide with rapid narration, lacking step-by-step visual build-up.\n1:13: The magnification derivation uses a dense static diagram with multiple variables appearing simultaneously; the explanation is highly compressed.\n1:35: Interactive demonstrations are described but not shown.",
+    "score_reason": "The video is a presentation about lesson design rather than an actual lesson. It assumes prior knowledge and presents information too rapidly for a newcomer, who would be lost from early on, matching the lowest level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 71389,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 73189,
+    "cachedContentTokenCount": 70568,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 70701
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 62451
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7776
+      }
+    ],
+    "thoughtsTokenCount": 1646,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75267
+  }
+}

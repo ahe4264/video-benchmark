@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:19.023Z",
+  "seconds": 237,
+  "result": {
+    "evidence": "0:16-0:31: Visualizes polar area element dA growing. 0:35-1:12: Step-by-step construction of region R with circle and cardioid. 1:13-1:29: Radial strip visually demonstrates inner/outer r limits. 1:47-2:39: Dynamic parameter 'a' changes show region and limit adjustments. 2:44-3:30: Sweeping angle theta builds region with running integral graph.",
+    "score_reason": "The visuals carry the explanation and are crisp and consistent throughout, allowing a student to follow much of the idea from the graphics alone. Meets top level, compressed to 5.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 67551,
+    "candidatesTokenCount": 169,
+    "totalTokenCount": 69072,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66792
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      }
+    ],
+    "thoughtsTokenCount": 1352,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 69799
+  }
+}

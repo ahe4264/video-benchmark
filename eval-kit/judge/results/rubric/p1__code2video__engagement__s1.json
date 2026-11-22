@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:36.276Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:00-0:35: The opening poses a clear question ('Why Doesn't sin x / x Just Give 0/0?') and uses a table to create some pull. 0:35-1:25: The geometric construction is slow and reads like static slides. 1:25-2:09: The slider demonstration provides a visual change but becomes repetitive. 2:10-2:53: The bar chart visualization offers a moment of insight, though the pacing remains slow. 2:54-4:51: The remainder of the lesson relies heavily on static text and formulas, feeling flat and textbook-like.",
+    "score_reason": "The lesson has a clear opening with some pull, but the silent, text-heavy format and slow pacing result in several flat and repetitive stretches. It holds attention in parts but lacks the momentum required for higher levels.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 77741,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 79487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77088
+      }
+    ],
+    "thoughtsTokenCount": 1536,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 80262
+  }
+}

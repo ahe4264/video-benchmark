@@ -1,0 +1,131 @@
+Interaction log: 127 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 1 of 127 inputs produced no visible change; 0 raised a page error.
+
+0:12  part 1  ticked a checkbox -> screen changed
+0:14  part 1  clicked button "2 · Construction" -> screen changed
+0:15  part 1  clicked button "1 · Hook" -> screen changed
+0:17  part 1  clicked button "3 · Vary f₁, |f₂|" -> screen changed
+0:18  part 1  selected choice "double" -> screen changed
+0:19  part 1  dragged a slider (starting at "500") through its whole range -> screen changed
+0:28  part 1  clicked button "Lock prediction" -> screen changed
+0:30  part 1  clicked button "4 · Vary δᵢ" -> screen changed
+0:31  part 1  selected choice "const" -> screen changed
+0:32  part 1  dragged a slider (starting at "0.5") through its whole range -> screen changed
+0:41  part 1  clicked button "Lock prediction" -> screen changed
+0:43  part 1  clicked button "▶ Sweep δᵢ (0 → 1.5°)" -> screen changed
+1:00  part 1  typed a written answer into the box "" -> screen changed
+1:05  part 1  clicked button "5 · Move lens 2" -> screen changed
+1:07  part 1  typed a written answer into the box "Contradiction sentence" -> screen changed
+1:11  part 1  selected choice "par" -> screen changed
+1:12  part 1  dragged a slider (starting at "0") through its whole range -> screen changed
+1:21  part 1  clicked button "Lock prediction" -> screen changed
+1:23  part 1  clicked button "▶ Sweep ΔL through its range" -> screen changed
+1:32  part 1  typed a written answer into the box "" -> screen changed
+1:36  part 1  clicked button "6 · Consolidate" -> screen changed
+1:37  part 1  typed a number into "predicted f2" -> screen changed
+1:39  part 1  typed a number into "predicted L" -> screen changed
+1:40  part 1  ticked a checkbox -> screen changed
+1:55  part 2  ticked a checkbox -> screen changed
+1:57  part 2  ticked a checkbox -> screen changed
+1:58  part 2  clicked button "Legend" -> screen changed
+2:09  part 2  clicked button "Check order" -> screen changed
+2:10  part 2  clicked button "▲" -> screen changed
+2:12  part 2  clicked button "▼" -> screen changed
+2:13  part 2  clicked button "▲" -> screen changed
+4:10  part 2  typed a written answer into the box "Type your reasoning..." -> screen changed
+4:14  part 2  typed a written answer into the box "rad" -> screen changed
+4:18  part 2  typed a written answer into the box "mm" -> screen changed
+4:22  part 2  clicked button "Show on figure ↑" -> screen changed
+4:23  part 2  clicked button "Show on figure ↑" -> no visible change
+4:25  part 2  clicked button "Check" -> screen changed
+4:36  part 2  typed a written answer into the box "Type your reasoning..." -> screen changed
+4:41  part 2  typed a written answer into the box "..." -> screen changed
+4:47  part 2  typed a written answer into the box "..." -> screen changed
+4:52  part 2  selected choice "A" -> screen changed
+4:53  part 2  clicked button "Show on figure ↑" -> screen changed
+4:55  part 2  clicked button "Check" -> screen changed
+4:57  part 2  clicked button "Show on figure ↑" -> screen changed
+4:58  part 2  clicked button "▶ Slide the two d segments together" -> screen changed
+5:09  part 2  typed a written answer into the box "" -> screen changed
+5:14  part 2  typed a written answer into the box "" -> screen changed
+5:18  part 2  clicked button "Show on figure ↑" -> screen changed
+5:20  part 2  clicked button "Galilean (concave eyepiece)" -> screen changed
+5:22  part 2  clicked button "Keplerian (convex eyepiece)" -> screen changed
+5:51  part 3  typed a written answer into the box "…" -> screen changed
+5:55  part 3  typed a written answer into the box "…" -> screen changed
+10:12  part 4  typed a written answer into the box "Describe or plan your diagram here…" -> screen changed
+10:16  part 4  clicked button "Start" -> screen changed
+10:27  part 4  typed a written answer into the box "" -> screen changed
+10:31  part 4  typed a written answer into the box "" -> screen changed
+10:36  part 4  typed a written answer into the box "" -> screen changed
+10:39  part 4  typed a written answer into the box "value" -> screen changed
+10:43  part 4  typed a written answer into the box "value" -> screen changed
+10:47  part 4  selected choice "yes" -> screen changed
+10:49  part 4  dragged a slider (starting at "3") through its whole range -> screen changed
+10:58  part 4  clicked button "Submit attempt" -> screen changed
+11:00  part 4  clicked button "I'm stuck — open support" -> screen changed
+11:01  part 4  clicked button "Open next rung" -> screen changed
+11:02  part 4  clicked button "Check my marks" -> screen changed
+11:04  part 4  clicked button "R" -> screen changed
+11:14  part 4  clicked button "N" -> screen changed
+11:16  part 4  clicked button "R" -> screen changed
+11:17  part 4  clicked button "N" -> screen changed
+11:32  part 5  typed a written answer into the box "e.g. \"930\", \"zoom\", \"upside down\"" -> screen changed
+11:40  part 5  typed a written answer into the box "" -> screen changed
+11:44  part 5  typed a written answer into the box "" -> screen changed
+11:49  part 5  typed a written answer into the box "" -> screen changed
+11:53  part 5  picked an option in a drop-down -> screen changed
+11:54  part 5  clicked button "U‑L‑S‑S quick check" -> screen changed
+11:56  part 5  clicked button "Student" -> screen changed
+11:57  part 5  clicked button "Production" -> screen changed
+13:53  part 5  clicked button "C · Picture → equation (P · 3)" -> screen changed
+13:55  part 5  clicked button "A5" -> screen changed
+13:57  part 5  clicked button "Recognise" -> screen changed
+13:58  part 5  clicked button "Diagnose" -> screen changed
+14:00  part 5  picked an option in a drop-down -> screen changed
+14:01  part 5  clicked button "Commit drawing" -> screen changed
+14:02  part 5  typed a written answer into the box "Now explain what you see in your drawing." -> screen changed
+14:07  part 5  clicked button "Release the expected answer" -> screen changed
+14:18  part 5  dragged a slider (starting at "100") through its whole range -> screen changed
+14:27  part 5  dragged a slider (starting at "0") through its whole range -> screen changed
+14:37  part 5  clicked button "Log this distance to the screen-test table" -> screen changed
+14:38  part 5  clicked button "▶ Sweep the card 5 → 300 mm" -> screen changed
+14:41  part 5  clicked button "Open the full log ▸" -> screen changed
+14:42  part 5  clicked button "B" -> screen changed
+14:44  part 5  clicked button "B" -> screen changed
+14:55  part 5  typed a written answer into the box "" -> screen changed
+14:59  part 5  picked an option in a drop-down -> screen changed
+15:00  part 5  ticked a checkbox -> screen changed
+15:02  part 5  ticked a checkbox -> screen changed
+15:03  part 5  ticked a checkbox -> screen changed
+15:04  part 5  ticked a checkbox -> screen changed
+15:06  part 5  ticked a checkbox -> screen changed
+15:07  part 5  clicked button "Unseal my pre-probe (needs the quiz committed)" -> screen changed
+15:09  part 5  clicked button "Save to my log" -> screen changed
+17:23  part 6  typed a written answer into the box "It enlarges the …" -> screen changed
+17:27  part 6  typed a written answer into the box "" -> screen changed
+17:31  part 6  typed a written answer into the box "" -> screen changed
+17:35  part 6  typed a written answer into the box "" -> screen changed
+17:39  part 6  typed a written answer into the box "" -> screen changed
+17:44  part 6  typed a written answer into the box "" -> screen changed
+17:48  part 6  typed a written answer into the box "" -> screen changed
+17:52  part 6  typed a written answer into the box "" -> screen changed
+17:56  part 6  clicked button "δᵢ red" -> screen changed
+17:57  part 6  clicked button "δₒ green" -> screen changed
+17:59  part 6  clicked button "p, d blue" -> screen changed
+18:09  part 6  typed a written answer into the box "" -> screen changed
+18:13  part 6  typed a written answer into the box "" -> screen changed
+18:17  part 6  typed a written answer into the box "" -> screen changed
+18:22  part 6  typed a written answer into the box "" -> screen changed
+18:25  part 6  typed a written answer into the box "" -> screen changed
+18:29  part 6  typed a written answer into the box "" -> screen changed
+18:34  part 6  typed a written answer into the box "" -> screen changed
+18:39  part 6  typed a written answer into the box "" -> screen changed
+18:43  part 6  typed a written answer into the box "One-line reason why that statement is false…" -> screen changed
+18:46  part 6  clicked button "Commit Step 1 & 2" -> screen changed
+18:48  part 6  clicked button "p₀ grey" -> screen changed
+18:49  part 6  clicked button "black" -> screen changed
+19:00  part 6  clicked button "1" -> screen changed
+19:01  part 6  clicked button "2" -> screen changed
+19:03  part 6  clicked button "3" -> screen changed

@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:09.654Z",
+  "seconds": 168,
+  "result": {
+    "evidence": "The lesson opens with a clear hook and question about how one architecture handles multiple scales and noise levels (0:30). Visual variety is high, using animations to build the network (1:18), demonstrate skip connections carrying detail (3:11, a strong moment of insight), and visualize self-attention across pixels (4:40). A brief lull occurs during the repetitive countdown of timesteps (3:15-4:05).",
+    "score_reason": "The lesson features an opening that poses a real question, maintains good pace and variety with clear moments of insight, and has only brief lulls, aligning with a level 6. The score is compressed toward the center.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 91201,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 92329,
+    "cachedContentTokenCount": 92610,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 90552
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 92267
+      }
+    ],
+    "thoughtsTokenCount": 965,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 94078
+  }
+}

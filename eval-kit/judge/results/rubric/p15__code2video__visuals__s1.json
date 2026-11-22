@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:00.265Z",
+  "seconds": 241,
+  "result": {
+    "evidence": "0:00-0:28: Visualizes a network where data lives on edges, then shows edges shrinking to nodes.\n0:28-0:57: Illustrates prerequisites like adjacent edges and shared vertices with simple diagrams.\n1:16-1:56: Animates the first rule: each original edge becomes a node in the new graph, using color coding.\n1:57-2:48: Animates the second rule: connects new nodes if their original edges share a vertex, highlighting relevant parts of both graphs.\n2:49-3:24: Demo highlights an edge and its neighbors in both representations.\n3:25-3:59: A toggle animation smoothly morphs the original graph into the edge graph.\n4:00-4:31: A visual quiz constructs the edge graph of a simple path.",
+    "score_reason": "The lesson fully meets the top level. The visuals are crisp, consistent, and carry the explanation entirely; a student could understand the core concept of constructing an edge graph just by watching the animations.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 72568,
+    "candidatesTokenCount": 252,
+    "totalTokenCount": 74098,
+    "cachedContentTokenCount": 73510,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71808
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73168
+      }
+    ],
+    "thoughtsTokenCount": 1278,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74948
+  }
+}

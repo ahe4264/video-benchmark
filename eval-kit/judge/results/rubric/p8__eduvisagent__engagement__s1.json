@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:11:15.579Z",
+  "seconds": 353,
+  "result": {
+    "evidence": "0:01: The lesson opens with a strong 'black box' puzzle about a car. 1:35: An interactive graph provides a moment of insight comparing energy release paths. 13:14: A near-transfer task (glucose meter) introduces variety. 11:10, 17:22: The pace slows significantly during the detailed particle bookkeeping and dense error map sections, creating lulls.",
+    "score_reason": "The lesson fully meets Level 5. It features an opening that poses a clear puzzle, moves with variety, and offers moments of insight. However, the dense, text-heavy interactive sections create more than just brief lulls, keeping it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 340417,
+    "candidatesTokenCount": 168,
+    "totalTokenCount": 341938,
+    "cachedContentTokenCount": 346546,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 339768
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346203
+      }
+    ],
+    "thoughtsTokenCount": 1353,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 349902
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:35.442Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "The video is a continuous narrated explanation. It includes rhetorical questions (0:03, 0:44, 7:03) but no interactive checks, quizzes, or prompts for the learner to actively solve problems or predict steps.",
+    "score_reason": "Meets Level 2 as it only uses rhetorical questions without requiring active learner participation or providing genuine checks.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 129340,
+    "candidatesTokenCount": 95,
+    "totalTokenCount": 130958,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 128606
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "thoughtsTokenCount": 1523,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 136054
+  }
+}

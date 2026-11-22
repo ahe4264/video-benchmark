@@ -1,0 +1,49 @@
+{
+  "topic": "p3",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:01:56.496Z",
+  "seconds": 55,
+  "result": {
+    "evidence": "0:02: Scenario and F.O.P.S framework introduced clearly. 0:30-1:20: Integral built piece-by-piece, linking visual elements to mathematical symbols using a color legend. 1:53: 'What changed' table forces step-by-step comparison for near transfer. 2:53: Scaling factor explained thoroughly by breaking down lengths and area elements.",
+    "score_reason": "Meets Level 7. Every step is motivated and builds logically on the last. Symbols and concepts are introduced before use, allowing a newcomer to easily follow and reconstruct the argument.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 150905,
+    "candidatesTokenCount": 148,
+    "totalTokenCount": 152812,
+    "cachedContentTokenCount": 153403,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 150216
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153061
+      }
+    ],
+    "thoughtsTokenCount": 1759,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 155364
+  }
+}

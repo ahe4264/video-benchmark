@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:35.436Z",
+  "seconds": 125,
+  "result": {
+    "evidence": "0:03-1:24: Introduces the limit problem and Squeeze Theorem concept.\n1:25-2:24: Builds the geometric figure step-by-step, explaining coordinates and heights.\n2:25-5:39: Identifies three regions, comparing areas visually and by overlaying.\n5:40-7:05: Derives area formulas for each region clearly.\n7:06-7:55: Sets up and manipulates the inequality step-by-step.\n8:16-8:52: Applies the Squeeze Theorem to conclude the proof.",
+    "score_reason": "The lesson is logical and step-by-step throughout. Each new element follows from the last, with no gaps a newcomer would trip on.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 154731,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 156328,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154037
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      }
+    ],
+    "thoughtsTokenCount": 1408,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 162670
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:53.067Z",
+  "seconds": 187,
+  "result": {
+    "evidence": "1:11: The lesson establishes a clear visual glossary.\n2:03: A thorough, step-by-step simulation of the insertion sort algorithm is presented.\n5:17: The visual steps are effectively mapped to code primitives.\n6:00: The concept of a loop invariant is introduced to solidify understanding.",
+    "score_reason": "The lesson is exceptionally clear, well-structured, and easy to follow, making it an excellent model for teaching this topic. It fully meets the criteria for the top level, but the score is compressed to avoid the highest possible rating.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 129331,
+    "candidatesTokenCount": 141,
+    "totalTokenCount": 130390,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 128606
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "thoughtsTokenCount": 918,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 136045
+  }
+}

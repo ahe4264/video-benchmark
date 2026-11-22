@@ -1,0 +1,38 @@
+{
+  "topic": "p17",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "at": "2026-11-17T03:42:43.081Z",
+  "seconds": 51,
+  "result": {
+    "evidence": "The video is a continuous presentation without interactive elements. The narrator asks rhetorical questions like 'How does a machine actually learn?' (0:35) and 'Why exactly is SGD the ultimate navigational tool?' (5:26), immediately answering them.",
+    "score_reason": "The lesson contains only rhetorical questions, meeting the second level. It lacks genuine checks or interactive tasks needed for higher levels.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 119803,
+    "candidatesTokenCount": 99,
+    "totalTokenCount": 121664,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119066
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      }
+    ],
+    "thoughtsTokenCount": 1762,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126055
+  }
+}

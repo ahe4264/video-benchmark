@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:51:54.287Z",
+  "seconds": 59,
+  "result": {
+    "evidence": "0:21: A rhetorical question is posed ('How can just two lenses in a tube make a distant object look larger?').\n3:28: A 'Prediction question' is displayed with its answer already provided, rather than prompting the viewer to solve it.\nThe video consists entirely of a passive slide presentation.",
+    "score_reason": "The lesson fully meets the level for containing only rhetorical questions. It lacks genuine checks, interactive elements, or prompts for the learner to actively predict or apply concepts, which prevents it from reaching higher levels.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 71433,
+    "candidatesTokenCount": 130,
+    "totalTokenCount": 72974,
+    "cachedContentTokenCount": 70568,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 70701
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 62451
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7776
+      }
+    ],
+    "thoughtsTokenCount": 1411,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75311
+  }
+}

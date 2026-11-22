@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:17.616Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "0:45: Roadmap provided. 1:46: Visual analogies for aggregation. 4:09: Clear step-by-step edge graph construction. 5:34: Update types summary table.",
+    "score_reason": "Teaches the core idea well with clear structure and visuals. Minor pacing issues in denser sections keep it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 120956,
+    "candidatesTokenCount": 95,
+    "totalTokenCount": 121878,
+    "cachedContentTokenCount": 125558,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120232
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 111904
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13312
+      }
+    ],
+    "thoughtsTokenCount": 827,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127263
+  }
+}

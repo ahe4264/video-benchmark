@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:00:18.289Z",
+  "seconds": 18,
+  "result": {
+    "evidence": "0:00 Title slide is formal and academic. 0:15 The 'hook' is a meta-discussion about lesson design ('Pose the problem first'). 0:33 Discusses 'Related Work' and textbook treatments. 0:50-1:47 Describes teaching methods rather than teaching the concepts directly. 1:47 Discusses 'Experimental Method'. The entire video is an academic presentation about a lesson, reading bullet points, rather than a lesson for a student.",
+    "score_reason": "The video is a meta-presentation reading directly from slides, offering no engagement for a student trying to learn the math topic. It meets the lowest level description, but the score is adjusted toward the center per instructions.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 50984,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 52351,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50336
+      }
+    ],
+    "thoughtsTokenCount": 1197,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53883
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p1",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:04:16.907Z",
+  "seconds": 76,
+  "result": {
+    "evidence": "0:00-1:36: Hook explores the ratio numerically and graphically. 1:37-2:59: Identifies the problem as a squeeze-type limit. 3:00-4:08: Builds the unit circle, identifies three regions, and explicitly explains their bases and heights. 4:09-5:15: Overlays shapes to show containment and translates this to an algebraic inequality. 5:16-5:32: Solves the inequality step-by-step. 19:07-end: The lesson concludes by having the user reconstruct the entire proof from memory.",
+    "score_reason": "The lesson is highly methodical, building the proof step-by-step without skipping logic. Every element is introduced before use, and the visual-to-algebra translation is explicit, allowing a newcomer to reconstruct the argument. It meets the top level, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 333335,
+    "candidatesTokenCount": 217,
+    "totalTokenCount": 335085,
+    "cachedContentTokenCount": 339288,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332640
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 695
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 338940
+      }
+    ],
+    "thoughtsTokenCount": 1533,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 342631
+  }
+}

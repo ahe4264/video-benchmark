@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:48.019Z",
+  "seconds": 41,
+  "result": {
+    "evidence": "0:24 introduces coaxial cables as an example. 1:14 visually breaks down the construction of a cylindrical capacitor. 2:04 and 2:34 intuitively explain how changing the gap and length affects capacitance. 4:16 introduces the mathematical formula and connects it back to the physical intuition. 4:45 applies the concept to a biological cell membrane.",
+    "score_reason": "The lesson teaches the core idea well, using excellent visuals to build physical intuition before introducing the math. It fully meets the 'Good' level. It is kept from the 'Strong' level due to the slightly late introduction of the formula and a somewhat abrupt transition to the biological example.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 110533,
+    "candidatesTokenCount": 161,
+    "totalTokenCount": 111809,
+    "cachedContentTokenCount": 114719,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 109812
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 721
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102220
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12160
+      }
+    ],
+    "thoughtsTokenCount": 1115,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 116329
+  }
+}

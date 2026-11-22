@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:46.426Z",
+  "seconds": 44,
+  "result": {
+    "evidence": "The lesson consists almost entirely of text slides, equations, and tables. A single static textbook diagram of a pendulum is shown at 0:18 and 0:54. No animations or dynamic visuals are used to explain the concepts.",
+    "score_reason": "The lesson is essentially text on screen with visuals mostly absent, meeting the lowest level description.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 64186,
+    "candidatesTokenCount": 91,
+    "totalTokenCount": 65424,
+    "cachedContentTokenCount": 63341,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63429
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56026
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6976
+      }
+    ],
+    "thoughtsTokenCount": 1147,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 67714
+  }
+}

@@ -1,0 +1,1610 @@
+{
+ "lesson": "p2",
+ "offset": -1.5,
+ "actions": 155,
+ "noVisibleChange": 6,
+ "withPageError": 9,
+ "deadOrError": 11,
+ "loadErrors": 0,
+ "recorderCouldNotUse": 0,
+ "deadByOffset": {
+  "0": 8,
+  "-3": 14,
+  "-2.5": 8,
+  "-2": 6,
+  "-1.5": 6,
+  "-1": 6,
+  "-0.5": 7
+ },
+ "loadErrorMessages": [],
+ "items": [
+  {
+   "t": 17.3,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 19.3,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 20.8,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 22.7,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 24.5,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0129,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 26.4,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0051,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 28.1,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 29.9,
+   "part": 1,
+   "kind": "range",
+   "label": "0.5",
+   "change": 0.0092,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 44,
+   "part": 1,
+   "kind": "range",
+   "label": "35",
+   "change": 0.0207,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 55.7,
+   "part": 1,
+   "kind": "button",
+   "label": "Next build step ▸",
+   "change": 0.066,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 57.5,
+   "part": 1,
+   "kind": "button",
+   "label": "Next build step ▸",
+   "change": 0.0053,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 59.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Next build step ▸",
+   "change": 0.1276,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 71.1,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 72.8,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 74.5,
+   "part": 1,
+   "kind": "range",
+   "label": "2",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 83.6,
+   "part": 1,
+   "kind": "button",
+   "label": "↻ Sweep",
+   "change": 0.0334,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 92.2,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Sweep 0→1",
+   "change": 0.0119,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 99.7,
+   "part": 1,
+   "kind": "button",
+   "label": "Lock in my guess",
+   "change": 0.0913,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 130.3,
+   "part": 1,
+   "kind": "text",
+   "label": "edge value for (1,1)",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 135.6,
+   "part": 1,
+   "kind": "text",
+   "label": "height at (1,1)",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 140.5,
+   "part": 1,
+   "kind": "text",
+   "label": "edge value for (0.8,0.8)",
+   "change": 0.0119,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 145.4,
+   "part": 1,
+   "kind": "text",
+   "label": "height at (0.8,0.8)",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 150.5,
+   "part": 1,
+   "kind": "text",
+   "label": "edge value for (0.25,1.5)",
+   "change": 0.0143,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 154.7,
+   "part": 1,
+   "kind": "text",
+   "label": "height at (0.25,1.5)",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 158.9,
+   "part": 1,
+   "kind": "select",
+   "label": "— Yes No (outside) On boundary",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 160.3,
+   "part": 1,
+   "kind": "select",
+   "label": "— Yes No (outside) On boundary",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 161.7,
+   "part": 1,
+   "kind": "select",
+   "label": "— Yes No (outside) On boundary",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 163.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Replay the column animation on the stage",
+   "change": 0.038,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 166.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Check & plot",
+   "change": 0.0296,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 169.1,
+   "part": 1,
+   "kind": "button",
+   "label": "Plot example",
+   "change": 0.0643,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 180.8,
+   "part": 1,
+   "kind": "text",
+   "label": "top of strip at x 0",
+   "change": 0.0033,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 192,
+   "part": 1,
+   "kind": "text",
+   "label": "top of strip at x 0.25",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 231.6,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 233.2,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 234.6,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 236.1,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 237.7,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 239.2,
+   "part": 2,
+   "kind": "range",
+   "label": "0.4",
+   "change": 0.1401,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 253.4,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0688,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 255.2,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0848,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 257,
+   "part": 2,
+   "kind": "button",
+   "label": "▶ Play",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 258.6,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0664,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 262.6,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.055,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 264.3,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.1795,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 275.5,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0314,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 277,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0316,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 278.6,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal",
+   "change": 0.0494,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 280.1,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal",
+   "change": 0.1906,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 291.2,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0041,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 292.7,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 294.3,
+   "part": 2,
+   "kind": "range",
+   "label": "0",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 306.9,
+   "part": 2,
+   "kind": "range",
+   "label": "1",
+   "change": 0.0059,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 320.4,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal the slice on the figure",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 321.9,
+   "part": 2,
+   "kind": "button",
+   "label": "Expanded form?",
+   "change": 0.0812,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 323.4,
+   "part": 2,
+   "kind": "button",
+   "label": "Set",
+   "change": 0.1914,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 325,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.2075,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 326.6,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0336,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 328.3,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0315,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 329.9,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.0316,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 331.4,
+   "part": 2,
+   "kind": "button",
+   "label": "go to beat",
+   "change": 0.1947,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 352.1,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal the 𝐴 ( 𝑥 ) A(x) graph",
+   "change": 0.0129,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 353.7,
+   "part": 2,
+   "kind": "button",
+   "label": "Set",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 355.2,
+   "part": 2,
+   "kind": "button",
+   "label": "Set",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 357,
+   "part": 2,
+   "kind": "button",
+   "label": "Set",
+   "change": 0.1334,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 368.3,
+   "part": 2,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 372.4,
+   "part": 2,
+   "kind": "text",
+   "label": "?",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 377,
+   "part": 2,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0184,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 382.2,
+   "part": 2,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 387.6,
+   "part": 2,
+   "kind": "text",
+   "label": "lower",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 393.8,
+   "part": 2,
+   "kind": "text",
+   "label": "upper",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 404.2,
+   "part": 2,
+   "kind": "text",
+   "label": "? m³",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 410.5,
+   "part": 2,
+   "kind": "text",
+   "label": "?",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 433.7,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 435.3,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 436.8,
+   "part": 3,
+   "kind": "range",
+   "label": "0.5",
+   "change": 0.01,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 451.1,
+   "part": 3,
+   "kind": "button",
+   "label": "3 · 📏 Drag 𝑥 0 x 0 ​",
+   "change": 0.1293,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 452.6,
+   "part": 3,
+   "kind": "text",
+   "label": "Both the strip length and the slice height carry the factor ",
+   "change": 0.0049,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 456.8,
+   "part": 3,
+   "kind": "button",
+   "label": "(A) straight line 4 → 0",
+   "change": 0.0027,
+   "responded": true,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 458.2,
+   "part": 3,
+   "kind": "button",
+   "label": "(B) drops steeply, then flattens",
+   "change": 0,
+   "responded": false,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 459.6,
+   "part": 3,
+   "kind": "button",
+   "label": "(C) stays high, then drops suddenly",
+   "change": 0.1473,
+   "responded": true,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 470.6,
+   "part": 3,
+   "kind": "text",
+   "label": "______",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 474.8,
+   "part": 3,
+   "kind": "text",
+   "label": "______",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 479.2,
+   "part": 3,
+   "kind": "text",
+   "label": "z = ...",
+   "change": 0.0027,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 483.2,
+   "part": 3,
+   "kind": "text",
+   "label": "z = ...",
+   "change": 0.0028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 487.4,
+   "part": 3,
+   "kind": "text",
+   "label": "a curved ribbon / a line",
+   "change": 0.0033,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 492.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Check",
+   "change": 0.1078,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 494.4,
+   "part": 3,
+   "kind": "button",
+   "label": "Test on figure",
+   "change": 0.1442,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 506,
+   "part": 3,
+   "kind": "button",
+   "label": "Toggle integrand → 1",
+   "change": 0.0166,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 508.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Lock & go to view",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 512.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Lock & go to view",
+   "change": 0.0197,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 515.6,
+   "part": 3,
+   "kind": "button",
+   "label": "✅ true",
+   "change": 0.0085,
+   "responded": true,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 517.7,
+   "part": 3,
+   "kind": "button",
+   "label": "❌ false",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 519.2,
+   "part": 3,
+   "kind": "button",
+   "label": "✅ true",
+   "change": 0.1572,
+   "responded": true,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 530.4,
+   "part": 3,
+   "kind": "text",
+   "label": "y = ...",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 534.8,
+   "part": 3,
+   "kind": "text",
+   "label": "e.g. vertices, edges, R, volume",
+   "change": 0.0264,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 538.8,
+   "part": 3,
+   "kind": "button",
+   "label": "Lock & go to view",
+   "change": 0.0059,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 540.3,
+   "part": 3,
+   "kind": "button",
+   "label": "Lock & go to view",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 542.2,
+   "part": 3,
+   "kind": "button",
+   "label": "Lock & reveal",
+   "change": 0.1153,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 544,
+   "part": 3,
+   "kind": "button",
+   "label": "Check it on the live figure",
+   "change": 0.0834,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 545.7,
+   "part": 3,
+   "kind": "button",
+   "label": "needed",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 547.2,
+   "part": 3,
+   "kind": "button",
+   "label": "not needed",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 548.8,
+   "part": 3,
+   "kind": "button",
+   "label": "needed",
+   "change": 0.1599,
+   "responded": true,
+   "errors": [
+    "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."
+   ],
+   "failed": null
+  },
+  {
+   "t": 559.8,
+   "part": 3,
+   "kind": "text",
+   "label": "y = ?",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 565.1,
+   "part": 3,
+   "kind": "text",
+   "label": "R is what remains when z is set to 0, so it keeps x and y on",
+   "change": 0.0044,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 571.4,
+   "part": 3,
+   "kind": "text",
+   "label": "V = ? m³",
+   "change": 0.0029,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 658,
+   "part": 4,
+   "kind": "text",
+   "label": "…",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 663.9,
+   "part": 4,
+   "kind": "text",
+   "label": "…",
+   "change": 0.013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 669,
+   "part": 4,
+   "kind": "text",
+   "label": "…",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 674.6,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 679.4,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 685,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0126,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 691.3,
+   "part": 4,
+   "kind": "text",
+   "label": "( , )",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 697.6,
+   "part": 4,
+   "kind": "text",
+   "label": "( , )",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 704,
+   "part": 4,
+   "kind": "text",
+   "label": "( , )",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 709.7,
+   "part": 4,
+   "kind": "text",
+   "label": "x=?",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 715.7,
+   "part": 4,
+   "kind": "text",
+   "label": "y=?",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 723.4,
+   "part": 4,
+   "kind": "text",
+   "label": "y=?",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 742.9,
+   "part": 4,
+   "kind": "text",
+   "label": "y=?",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 748.2,
+   "part": 4,
+   "kind": "text",
+   "label": "y=?",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 753.6,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 760.1,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0152,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 765.4,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 773.3,
+   "part": 4,
+   "kind": "text",
+   "label": "more/less",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 778.8,
+   "part": 4,
+   "kind": "text",
+   "label": "…",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 784.4,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… stays \\(\\tfrac43\\) doubles quadruples",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 785.8,
+   "part": 4,
+   "kind": "radio",
+   "label": "A",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 787.4,
+   "part": 4,
+   "kind": "radio",
+   "label": "a",
+   "change": 0.0001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 788.8,
+   "part": 4,
+   "kind": "button",
+   "label": "Reveal next ▸",
+   "change": 0.0785,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 790.8,
+   "part": 4,
+   "kind": "button",
+   "label": "Reveal next ▸",
+   "change": 0.1486,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 802.6,
+   "part": 4,
+   "kind": "text",
+   "label": "…",
+   "change": 0.0433,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 813.9,
+   "part": 4,
+   "kind": "text",
+   "label": "…",
+   "change": 0.0158,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 828.2,
+   "part": 4,
+   "kind": "text",
+   "label": "…",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 863.5,
+   "part": 5,
+   "kind": "text",
+   "label": "e.g. volume under a surface over a floor region…",
+   "change": 0.0853,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 867.6,
+   "part": 5,
+   "kind": "text",
+   "label": "Same: … Different: …",
+   "change": 0.0065,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 872,
+   "part": 5,
+   "kind": "text",
+   "label": "Reuse: … Must re-derive: …",
+   "change": 0.0065,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 877.3,
+   "part": 5,
+   "kind": "text",
+   "label": "e.g. 6",
+   "change": 0.0052,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 882.1,
+   "part": 5,
+   "kind": "button",
+   "label": "5C · Map old → new 🔒",
+   "change": 0.0095,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 883.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Save plan & estimate → unlock 5C",
+   "change": 0.006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 885.2,
+   "part": 5,
+   "kind": "button",
+   "label": "5B · Problem",
+   "change": 0.1789,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 887.4,
+   "part": 5,
+   "kind": "button",
+   "label": "Show me the steps (Tier B)",
+   "change": 0.013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 888.9,
+   "part": 5,
+   "kind": "button",
+   "label": "5D · Solve it 🔒",
+   "change": 0.0054,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 890.5,
+   "part": 5,
+   "kind": "button",
+   "label": "5E · Verify on the figure 🔒",
+   "change": 0.1905,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 915,
+   "part": 6,
+   "kind": "button",
+   "label": "6C Recognize F→O",
+   "change": 0.0557,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 916.6,
+   "part": 6,
+   "kind": "button",
+   "label": "6D Region O→P",
+   "change": 0.0032,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 918.2,
+   "part": 6,
+   "kind": "button",
+   "label": "6E Compute P→S",
+   "change": 0.0338,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 919.8,
+   "part": 6,
+   "kind": "button",
+   "label": "Card on (hint)",
+   "change": 0.0378,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 921.4,
+   "part": 6,
+   "kind": "button",
+   "label": "6F Checks S",
+   "change": 0.0664,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 923,
+   "part": 6,
+   "kind": "button",
+   "label": "dots",
+   "change": 0.0081,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 924.4,
+   "part": 6,
+   "kind": "button",
+   "label": "contours",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 925.9,
+   "part": 6,
+   "kind": "button",
+   "label": "both",
+   "change": 0.1184,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 937.1,
+   "part": 6,
+   "kind": "button",
+   "label": "Test my limits",
+   "change": 0.038,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 938.8,
+   "part": 6,
+   "kind": "button",
+   "label": "See density as height (3D bridge)",
+   "change": 0.8354,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 943.6,
+   "part": 6,
+   "kind": "close-popup",
+   "label": "escape",
+   "change": 0.8343,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 944.8,
+   "part": 6,
+   "kind": "close-popup",
+   "label": "close button",
+   "change": 0.0427,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 955.1,
+   "part": 6,
+   "kind": "text",
+   "label": "Test the region, not only the number: …",
+   "change": 0.0186,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 960,
+   "part": 6,
+   "kind": "button",
+   "label": "Save & unlock the 6C row",
+   "change": 0.0086,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 961.6,
+   "part": 6,
+   "kind": "button",
+   "label": "Watch the mirror map ( 𝑥 , 𝑦 ) ↦ ( 2 𝑦 , 𝑥 2 ) (x,y)↦(2y",
+   "change": 0.065,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

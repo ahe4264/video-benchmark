@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:04.207Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "From 1:39 to 3:15, the physical setup of the lenses and the path of the light rays are explained clearly with step-by-step diagrams that match the narration. However, from 3:55 to 4:26, the narrator derives the magnification formula by referring to geometry, angles, and a 'focal point offset, labeled as D'. During this time, the screen only displays a title card with no diagrams, making it impossible to visually follow the derivation. At 4:50, the resulting formula is clearly applied to a practical example.",
+    "score_reason": "The lesson follows a sensible order and is mostly clear, fully meeting Level 4. The missing diagram during the mathematical derivation is a noticeable gap that requires the viewer to accept the formula without visual support, keeping it from Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 113983,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 115841,
+    "cachedContentTokenCount": 118333,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 113295
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105448
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12544
+      }
+    ],
+    "thoughtsTokenCount": 1663,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 119954
+  }
+}

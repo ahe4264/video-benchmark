@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:58.739Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "- 1:16-4:50: Logical setup, clearly showing 2D boundary derivation (2:58) and limit setting via a sweeping strip (4:18).\n- 6:02: Algebraic simplification after substituting inner limits is skipped.\n- 6:40: Evaluation of the outer integral is skipped, jumping to the final answer.",
+    "score_reason": "Meets Level 4. The order is sensible and setup is clear, but multiple skipped calculation steps require a moment's thought, preventing a Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 133630,
+    "candidatesTokenCount": 136,
+    "totalTokenCount": 136319,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 132941
+      }
+    ],
+    "thoughtsTokenCount": 2553,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 140554
+  }
+}

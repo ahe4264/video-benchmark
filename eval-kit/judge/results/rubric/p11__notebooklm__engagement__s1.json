@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:02.971Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:22: Opening asks how vital reactions happen fast enough, establishing a survival stake.\n0:47: Uses a car's catalytic converter as an analogy.\n2:42: Asks how enzymes know which substrate to grab, maintaining curiosity.\n3:44: Uses a glove analogy for induced fit.\n4:54: Discusses G6PD deficiency to illustrate the real-world consequences of enzyme failure.",
+    "score_reason": "The lesson poses a real stake initially, maintains a good pace with varied analogies, and offers insight via a medical example. It meets Level 6, missing Level 7 as the initial curiosity isn't profound.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 121451,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 123877,
+    "cachedContentTokenCount": 126164,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120799
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 112442
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13376
+      }
+    ],
+    "thoughtsTokenCount": 2266,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127779
+  }
+}

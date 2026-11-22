@@ -1,0 +1,49 @@
+{
+  "topic": "p3",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:00:09.547Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "The lesson introduces a structured F.O.P.S. routine for polar double integrals (0:21). It uses a concrete microphone scenario (0:02) and builds the geometric figure step-by-step, using color-coding to link algebraic components to visual features (0:30-1:20). Interactive elements, such as sliders, effectively demonstrate the effects of scaling in the Near Transfer section (1:20-6:10). The Far Transfer section tests application to a new context (6:10-7:53), and a Common Mistakes section provides valuable metacognitive support (7:53-8:22).",
+    "score_reason": "The lesson is exceptionally clear, correct, and well-structured, utilizing strong interactive visuals to build deep understanding. It would normally be considered a model lesson, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 150940,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 151875,
+    "cachedContentTokenCount": 153403,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 150216
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153061
+      }
+    ],
+    "thoughtsTokenCount": 730,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 155399
+  }
+}

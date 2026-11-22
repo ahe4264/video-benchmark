@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:33.563Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "0:00: Opens with a dry title slide and the statement, 'I will present our lesson design.'\n0:20-4:16: The video consists entirely of static slides with bullet points and a single static diagram. The narration reads the slide text almost verbatim.\nThe content is a meta-presentation about lesson design rather than an actual engaging lesson for a student.",
+    "score_reason": "Fully meets level 1. It is dull throughout, reads directly from slides, and lacks any engaging elements, though the score is compressed toward the center.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 74863,
+    "candidatesTokenCount": 135,
+    "totalTokenCount": 76286,
+    "cachedContentTokenCount": 74038,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74214
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65535
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8160
+      }
+    ],
+    "thoughtsTokenCount": 1288,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78916
+  }
+}

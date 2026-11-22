@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:24.873Z",
+  "seconds": 116,
+  "result": {
+    "evidence": "The lesson opens with a practical hook about a wrench and a bolt (0:00), posing a clear question about direction. This is paid off later when discussing anticommutativity (4:28). The visual demonstrations, such as sweeping the angle (2:45) and stretching a vector (3:34), provide good variety and moments of insight. There is a brief lull during the step-by-step determinant calculation (1:22-1:43) and the prerequisite review (0:34).",
+    "score_reason": "The lesson fully meets the level of having an opening with a real stake, good pace and variety, and moments of insight, with only brief lulls. It falls short of the highest level because the momentum dips slightly during the prerequisite and calculation sections.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 81960,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 83220,
+    "cachedContentTokenCount": 83194,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 81312
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82852
+      }
+    ],
+    "thoughtsTokenCount": 1074,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 84592
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:57.885Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "0:00: Opening asks a question via text but lacks a compelling hook. 0:32-1:44: Slow construction of the region and integral with long pauses. 1:44-2:39: Demo 1 repetitively changes a parameter. 2:39-3:30: Demo 2 slowly sweeps an angle, feeling repetitive. 3:30-4:12: Consolidation relies on static text.",
+    "score_reason": "Meets Level 2 due to a flat opening and long stretches of repetitive, slow-moving content. It lacks the partial attention-holding required for Level 3.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 67439,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 68773,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66792
+      }
+    ],
+    "thoughtsTokenCount": 1177,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 69687
+  }
+}

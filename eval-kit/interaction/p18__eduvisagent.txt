@@ -1,0 +1,142 @@
+Interaction log: 137 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 1x: "Missing } in template expression". Whatever that code was meant to do may be missing or inert.
+Summary: 4 of 137 inputs produced no visible change; 0 raised a page error.
+
+0:12  part 1  clicked button "3 · Reveal" -> screen changed
+2:24  part 1  clicked button "5 · Checkpoint" -> no visible change
+2:25  part 1  clicked button "Glossary" -> screen changed
+2:27  part 1  clicked button "F Find" -> screen changed
+2:28  part 1  clicked button "O Organize" -> screen changed
+2:39  part 1  typed a written answer into the box "My explanation…" -> screen changed
+2:43  part 1  typed a written answer into the box "I would…" -> screen changed
+2:47  part 1  typed a written answer into the box "Describe your sketch…" -> screen changed
+2:51  part 1  dragged a slider (starting at "3") through its whole range -> screen changed
+3:00  part 1  clicked button "Lock in my prediction" -> screen changed
+3:01  part 1  clicked button "P Plan" -> screen changed
+3:03  part 1  clicked button "S Solve" -> screen changed
+3:04  part 1  clicked button "🆘 I’m stuck" -> screen changed
+3:15  part 1  typed a number into "f" -> screen changed
+3:16  part 1  typed a number into "Y_B" -> screen changed
+3:18  part 1  typed a number into "y_B" -> screen changed
+3:19  part 1  typed a number into "m" -> screen changed
+3:43  part 2  ticked a checkbox -> screen changed
+3:44  part 2  ticked a checkbox -> screen changed
+3:45  part 2  clicked button "Next ▶" -> screen changed
+3:47  part 2  clicked button "Next ▶" -> screen changed
+3:48  part 2  clicked button "Next ▶" -> screen changed
+3:50  part 2  clicked button "Next ▶" -> screen changed
+3:51  part 2  typed a written answer into the box "m" -> screen changed
+3:56  part 2  typed a written answer into the box "a number (or 'all')" -> screen changed
+4:02  part 2  typed a written answer into the box "stayed the same…" -> screen changed
+4:07  part 2  typed a written answer into the box "changed…" -> screen changed
+4:14  part 2  picked an option in a drop-down -> screen changed
+4:16  part 2  dragged a slider (starting at "3") through its whole range -> screen changed
+4:34  part 2  ticked a checkbox -> no visible change
+4:36  part 2  ticked a checkbox -> screen changed
+4:37  part 2  ticked a checkbox -> screen changed
+4:39  part 2  ticked a checkbox -> screen changed
+4:40  part 2  ticked a checkbox -> screen changed
+4:42  part 2  ticked a checkbox -> screen changed
+4:43  part 2  ticked a checkbox -> screen changed
+4:44  part 2  clicked button "Reveal the invariant" -> screen changed
+4:46  part 2  clicked button "Try it" -> screen changed
+4:47  part 2  typed a written answer into the box "stayed the same…" -> screen changed
+4:53  part 2  typed a written answer into the box "changed…" -> screen changed
+4:58  part 2  clicked button "Reveal the invariant" -> screen changed
+5:09  part 2  ticked a checkbox -> screen changed
+5:10  part 2  ticked a checkbox -> screen changed
+5:11  part 2  ticked a checkbox -> screen changed
+5:13  part 2  ticked a checkbox -> screen changed
+5:14  part 2  clicked button "Try it" -> screen changed
+5:16  part 2  clicked button "go to the scene that disproves it" -> screen changed
+5:17  part 2  clicked button "Try it" -> screen changed
+5:19  part 2  clicked button "go to the scene that disproves it" -> screen changed
+5:20  part 2  clicked button "Try it" -> screen changed
+5:22  part 2  clicked button "go to the scene that disproves it" -> screen changed
+5:23  part 2  clicked button "go to the scene that disproves it" -> screen changed
+5:25  part 2  clicked button "go to the scene that disproves it" -> screen changed
+5:35  part 2  clicked button "Can explain" -> no visible change
+5:37  part 2  clicked button "Can recognise" -> screen changed
+5:38  part 2  clicked button "Not yet" -> screen changed
+5:49  part 2  clicked button "jump" -> screen changed
+5:50  part 2  clicked button "Can explain" -> screen changed
+5:52  part 2  clicked button "Can recognise" -> screen changed
+6:07  part 3  ticked a checkbox -> screen changed
+6:08  part 3  ticked a checkbox -> screen changed
+6:10  part 3  ticked a checkbox -> screen changed
+6:11  part 3  ticked a checkbox -> screen changed
+6:13  part 3  clicked button "Reveal all" -> screen changed
+6:14  part 3  clicked button "S Solve & check: units · sign · magnitude · limits" -> screen changed
+6:16  part 3  clicked button "4 · Variants HOMEWORK" -> screen changed
+6:17  part 3  typed a number into "value" -> screen changed
+6:18  part 3  typed a written answer into the box "…because (one clause)" -> screen changed
+6:22  part 3  picked an option in a drop-down -> screen changed
+6:24  part 3  picked an option in a drop-down -> screen changed
+6:25  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+6:44  part 3  typed a number into "value" -> screen changed
+6:45  part 3  typed a written answer into the box "…because (one clause)" -> screen changed
+6:49  part 3  typed a number into "value" -> screen changed
+6:51  part 3  typed a written answer into the box "…because (one clause)" -> screen changed
+6:55  part 3  typed a written answer into the box "add…" -> screen changed
+6:59  part 3  typed a written answer into the box "add…" -> screen changed
+7:03  part 3  picked an option in a drop-down -> screen changed
+7:04  part 3  picked an option in a drop-down -> screen changed
+7:05  part 3  picked an option in a drop-down -> screen changed
+7:07  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+7:16  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+7:25  part 3  clicked button "Commit" -> screen changed
+7:36  part 3  typed a written answer into the box "×?" -> screen changed
+7:39  part 3  typed a written answer into the box "?" -> screen changed
+7:43  part 3  typed a written answer into the box "×?" -> screen changed
+10:07  part 4  typed a written answer into the box "verb…" -> screen changed
+10:13  part 4  typed a written answer into the box "…" -> screen changed
+10:20  part 4  typed a written answer into the box "…" -> screen changed
+10:27  part 4  clicked button "Opener" -> screen changed
+10:28  part 4  typed a number into "" -> screen changed
+10:30  part 4  typed a number into "" -> screen changed
+10:31  part 4  ticked a checkbox -> screen changed
+10:33  part 4  ticked a checkbox -> screen changed
+10:34  part 4  dragged a slider (starting at "10") through its whole range -> screen changed
+10:43  part 4  clicked button "Compare with the box" -> screen changed
+10:44  part 4  clicked button "▶ sweep" -> screen changed
+10:51  part 4  clicked button "Card 4 · for Q5 🔒 write your prediction first" -> screen changed
+11:02  part 4  clicked button "Card 1 · for Q1–Q2 🔒 write your attempt at Q1 first" -> screen changed
+11:03  part 4  clicked button "Card 2 · for Q3 🔒 attempt Q3 first" -> screen changed
+11:05  part 4  clicked button "Card 3 · for Q4 🔒 attempt Q4a first" -> screen changed
+11:19  part 5  ticked a checkbox -> screen changed
+11:21  part 5  clicked button "📋 My Log (0)" -> screen changed
+11:31  part 5  typed a written answer into the box "Find a misconception… (“inverted”, “d squared”)" -> screen changed
+11:35  part 5  clicked button "Exit check" -> screen changed
+11:37  part 5  clicked button "Case files" -> screen changed
+11:38  part 5  clicked button "Clinic examples" -> no visible change
+11:39  part 5  clicked button "Misconception log" -> screen changed
+11:50  part 5  typed a written answer into the box "When I use a shortcut, I ask…" -> screen changed
+12:07  part 6  clicked button "Start segment 1 →" -> screen changed
+12:09  part 6  typed a written answer into the box "one sentence…" -> screen changed
+14:05  part 6  typed a written answer into the box "one sentence…" -> screen changed
+14:11  part 6  typed a written answer into the box "one sentence…" -> screen changed
+14:17  part 6  typed a written answer into the box "one sentence…" -> screen changed
+14:25  part 6  typed a written answer into the box "one sentence…" -> screen changed
+14:32  part 6  typed a written answer into the box "one sentence…" -> screen changed
+14:42  part 6  clicked button "▶ Start 2:00" -> screen changed
+14:43  part 6  clicked button "Submit chain → reveal storyboard" -> screen changed
+14:45  part 6  ticked a checkbox -> screen changed
+14:48  part 6  clicked button "→" -> screen changed
+14:50  part 6  clicked button "→" -> screen changed
+15:02  part 6  typed a written answer into the box "Name that link and say what justification is missing…" -> screen changed
+15:07  part 6  clicked button "✓" -> screen changed
+15:09  part 6  clicked button "~" -> screen changed
+15:11  part 6  typed a written answer into the box "rewrite…" -> screen changed
+15:16  part 6  clicked button "✗" -> screen changed
+15:28  part 6  typed a written answer into the box "true when…" -> screen changed
+15:35  part 6  typed a written answer into the box "needs correction when… (and where I met it)" -> screen changed
+15:42  part 6  typed a written answer into the box "true when…" -> screen changed
+15:49  part 6  typed a written answer into the box "needs correction when… (and where I met it)" -> screen changed
+19:28  part 6  selected choice "0" -> screen changed
+19:30  part 6  clicked button "Continue to §6.2 →" -> screen changed
+19:31  part 6  typed a written answer into the box "true when…" -> screen changed
+19:37  part 6  typed a written answer into the box "needs correction when… (and where I met it)" -> screen changed
+19:43  part 6  typed a written answer into the box "true when…" -> screen changed
+19:49  part 6  typed a written answer into the box "needs correction when… (and where I met it)" -> screen changed
+19:57  part 6  typed a written answer into the box "true when…" -> screen changed

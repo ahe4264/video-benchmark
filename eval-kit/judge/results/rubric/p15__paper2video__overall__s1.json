@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:40.639Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "0:17: Clear motivation.\n0:36-1:32: Dense, unexplained math formulas for GNN layers presented too quickly.\n1:33-2:00: Clear, step-by-step definition and construction of an edge graph.\n2:00-3:23: Shifts to off-topic meta-presentation about an 'Experimental Method' and 'Demonstration Design'.",
+    "score_reason": "Meets Mixed. It teaches the core construction well, but suffers from significant problems: dense, rushed math and a large off-topic section about an experiment.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 66480,
+    "candidatesTokenCount": 146,
+    "totalTokenCount": 68398,
+    "cachedContentTokenCount": 65656,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65756
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58082
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7232
+      }
+    ],
+    "thoughtsTokenCount": 1772,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 70120
+  }
+}

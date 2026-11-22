@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:30.251Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00 Hook defines array and sorted. 0:36 Construction visually demonstrates comparisons and shifts step-by-step. 1:52 Demonstration incrementally builds code matching the visuals. 3:25 Consolidation applies the logic to a worst-case scenario.",
+    "score_reason": "The lesson is logical and builds step-by-step throughout, with no gaps a newcomer would trip on. It fully meets level 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 68802,
+    "candidatesTokenCount": 110,
+    "totalTokenCount": 70456,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68112
+      }
+    ],
+    "thoughtsTokenCount": 1544,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71085
+  }
+}

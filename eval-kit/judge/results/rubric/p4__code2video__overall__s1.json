@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:30.549Z",
+  "seconds": 48,
+  "result": {
+    "evidence": "0:00: Card sorting analogy introduced.\n0:36: Step-by-step visual trace alongside pseudocode.\n1:52: Simulated interactive coding section reinforces the mechanics of comparing and shifting.\n3:25: Summary of the algorithm and introduction to best/worst case scenarios.\nThe lesson is entirely silent, requiring the learner to simultaneously read explanatory text, follow pseudocode, and watch array animations.",
+    "score_reason": "Fully meets 'Good'. It teaches the core idea well with clear, logical visual progressions. The lack of audio narration increases cognitive load, which keeps it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 68837,
+    "candidatesTokenCount": 147,
+    "totalTokenCount": 70412,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68112
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "thoughtsTokenCount": 1428,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71120
+  }
+}

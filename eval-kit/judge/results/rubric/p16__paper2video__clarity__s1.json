@@ -1,0 +1,53 @@
+{
+  "topic": "p16",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:57.671Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00: Video is a presentation about a lesson plan, not the lesson itself.\n0:19: Discusses pedagogical goals instead of teaching concepts.\n1:14: Describes scenes (e.g., \"3D model... rotates\") without showing them or explaining the chemistry.\n1:35: Lists R-groups and angles, assuming prior knowledge.\n1:54: Mentions \"Walden inversion\" without explanation.",
+    "score_reason": "The video is a meta-presentation that assumes the viewer already understands the chemistry concepts. A newcomer would be lost immediately. It meets the criteria for the lowest level, which is compressed toward the center of the scale.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 73162,
+    "candidatesTokenCount": 162,
+    "totalTokenCount": 74990,
+    "cachedContentTokenCount": 72307,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72469
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63993
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7968
+      }
+    ],
+    "thoughtsTokenCount": 1666,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77131
+  }
+}

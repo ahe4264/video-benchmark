@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:45.638Z",
+  "seconds": 217,
+  "result": {
+    "evidence": "0:03 Wrench example introduces vectors. 0:31 'Orthogonal' defined. 1:05 Cross product introduced as third direction. 1:48 Formula presented. 2:29 Dot product verifies orthogonality. 3:49 Angle dependence shown. 5:24 Length connected to area. 6:56 Right-hand rule introduced.",
+    "score_reason": "Logical and step-by-step throughout. Concepts are explained when needed, and visuals build clearly. The formula is given without derivation, keeping it from the top level, but there are no confusing gaps. Meets level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 156179,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 158266,
+    "cachedContentTokenCount": 162280,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155490
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144722
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17216
+      }
+    ],
+    "thoughtsTokenCount": 1936,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 164194
+  }
+}

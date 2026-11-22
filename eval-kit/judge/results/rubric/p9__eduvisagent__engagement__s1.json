@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:21:49.389Z",
+  "seconds": 124,
+  "result": {
+    "evidence": "0:05: The lesson opens with a strong 'mystery box' analogy that creates immediate curiosity. 2:38: The interactive simulation and reveal of the backscatter provide a moment of insight. 3:40-9:25: The lesson shifts into a long, text-heavy sequence of calculations. 9:25-15:54: The 'Near Transfer' section repeats the previous calculation structure with new numbers, significantly slowing the pace. 15:54: The 'Far Transfer' introduces an interesting new context (server latency) but remains dense with text and mapping exercises.",
+    "score_reason": "The lesson fully meets Level 4. It features a clear opening with pull and holds attention through early interactive elements, but the extensive, repetitive calculation and transfer sections create significant flat stretches that prevent it from reaching Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 436247,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 438198,
+    "cachedContentTokenCount": 444191,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 435600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 443850
+      }
+    ],
+    "thoughtsTokenCount": 1753,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 448273
+  }
+}

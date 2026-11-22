@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:04.872Z",
+  "seconds": 49,
+  "result": {
+    "evidence": "0:00 Hook asks how grandfather clocks keep time regardless of weight and how skyscrapers survive winds. 3:50 Brief lull during the small angle approximation math. 4:33 Insight: mass doesn't affect the period. 5:42 Relatable coffee mug analogy for physical pendulums. 6:28 Pays off the skyscraper hook with tuned mass dampers (insight).",
+    "score_reason": "Meets Level 6. It has a strong opening with real questions, good variety, and clear moments of insight, with only brief lulls during mathematical derivations. It lacks the relentless momentum required for Level 7.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 177235,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 178669,
+    "cachedContentTokenCount": 184250,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 176590
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164359
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19552
+      }
+    ],
+    "thoughtsTokenCount": 1283,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 186272
+  }
+}

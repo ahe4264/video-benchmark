@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:00.545Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:03: 3D roof and columns shown.\n0:34-1:25: Tetrahedron built from intercepts; base R and limits visualized.\n1:26-2:25: Animation sweeps strip across base, showing 2D slice in 3D solid and plotting area.\n2:26-3:08: Alternate camera angles show geometry views.\n3:09-4:00: Solid projected onto base R.\n4:01-4:43: Visual summary links 2D base, 3D solid, and formula.",
+    "score_reason": "Meets the top level. Visuals are crisp, consistent, and carry the explanation; the concept can be followed from animations alone. Score compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 75736,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 77410,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74976
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "thoughtsTokenCount": 1490,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78201
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:24.812Z",
+  "seconds": 110,
+  "result": {
+    "evidence": "1:15-2:38: Interactive toggles for wave/particle views and electron count. 2:38-3:47: Interactive sliders for slit separation and electron energy. 4:03-4:10: A 'Prediction Challenge' appears with a 5-second countdown timer, followed by the answer (4:13), requiring no actual input from the learner.",
+    "score_reason": "The lesson includes interactive simulations and a pause-and-think prompt, which aligns with Level 2. It lacks genuine checks where the learner submits an answer and receives feedback, preventing it from reaching Level 3.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 71750,
+    "candidatesTokenCount": 153,
+    "totalTokenCount": 74211,
+    "cachedContentTokenCount": 72704,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71016
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72361
+      }
+    ],
+    "thoughtsTokenCount": 2308,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74109
+  }
+}

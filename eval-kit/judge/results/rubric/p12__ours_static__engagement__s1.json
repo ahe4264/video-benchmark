@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:54.700Z",
+  "seconds": 62,
+  "result": {
+    "evidence": "0:24: Opens with a puzzle about 10kg vs 100kg pendulums.\n1:08-2:57: Force derivation is slightly slow.\n2:58-4:40: Graph tracing is a bit repetitive.\n7:05: Payoff showing mass canceling out provides insight.",
+    "score_reason": "Meets Level 5. The opening poses a clear question, and the lesson maintains a good pace with varied visuals. It falls short of the next level due to minor lulls during the force derivation and graph tracing, lacking continuous momentum.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 146869,
+    "candidatesTokenCount": 146,
+    "totalTokenCount": 148188,
+    "cachedContentTokenCount": 152645,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 146224
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136114
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16192
+      }
+    ],
+    "thoughtsTokenCount": 1173,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 154429
+  }
+}

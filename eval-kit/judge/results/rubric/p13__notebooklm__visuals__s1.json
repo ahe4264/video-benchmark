@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:56.117Z",
+  "seconds": 68,
+  "result": {
+    "evidence": "At 0:51, a bucket analogy visually explains capacitance. At 1:14, the lesson visually builds a cylindrical capacitor step-by-step (inner cylinder, outer cylinder, charges). At 1:41, a detailed cross-section shows the electric field. At 2:08 and 2:39, clear animations show how changing the radial gap and the length affect the capacitor. At 4:08, the visual directly maps the variables in the capacitance formula to the physical dimensions of the cylinder. At 4:45, a detailed diagram of a cell membrane illustrates the concept at a nanoscale.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation. A student could follow the core concepts—how the capacitor is built, how changing its dimensions affects it, and how the formula relates to the physical object—almost entirely from the graphics alone. The score is compressed slightly from the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 110569,
+    "candidatesTokenCount": 217,
+    "totalTokenCount": 112104,
+    "cachedContentTokenCount": 114719,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 109812
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102220
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12160
+      }
+    ],
+    "thoughtsTokenCount": 1318,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 116365
+  }
+}

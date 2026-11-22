@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:03.030Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:00-0:33: Hook asks a clear question about force on an aquarium window, visually bounding the problem.\n1:28-2:14: Calculates 4 strips, showing how depth and width affect each strip's force.\n2:14-3:11: Animates convergence of the Riemann sum, visually shrinking the error.\n3:11-4:10: Sweeps a strip and graphs the integrand sideways, revealing the peak force is below the center (strong insight).\n4:10-4:40: Concludes with a prediction challenge.",
+    "score_reason": "The lesson opens with a compelling question and maintains strong momentum through varied, dynamic visualizations. It offers multiple moments of insight, particularly the sideways integrand graph. It meets the criteria for the highest level, but the score is compressed to avoid the extreme end of the scale.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74832,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 76912,
+    "cachedContentTokenCount": 75931,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74184
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75589
+      }
+    ],
+    "thoughtsTokenCount": 1873,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77275
+  }
+}

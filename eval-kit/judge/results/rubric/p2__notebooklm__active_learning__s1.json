@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:14.509Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "The video is mostly passive. It asks a rhetorical question at 0:24. At 7:00, it poses a question for the viewer to think about but ends without providing an answer or feedback.",
+    "score_reason": "The lesson meets level 2 because it only contains rhetorical questions and a 'pause and think' prompt with no follow-up.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 133674,
+    "candidatesTokenCount": 94,
+    "totalTokenCount": 135115,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 132941
+      }
+    ],
+    "thoughtsTokenCount": 1347,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 140598
+  }
+}

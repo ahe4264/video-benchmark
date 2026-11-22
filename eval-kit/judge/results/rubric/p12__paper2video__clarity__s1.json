@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:51.070Z",
+  "seconds": 65,
+  "result": {
+    "evidence": "At 0:36, multiple equations for different pendulums appear simultaneously. At 0:54, a rapid derivation begins. At 1:11 and 1:29, dense blocks of equations are displayed all at once. The overall pacing is extremely fast, reading through text-heavy slides.",
+    "score_reason": "The main idea is present, but the screen consistently shows too much information at once and the pacing is too rapid for a newcomer to follow without pausing, which aligns with the second level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 64115,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 65549,
+    "cachedContentTokenCount": 63341,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63429
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56026
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6976
+      }
+    ],
+    "thoughtsTokenCount": 1307,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 67643
+  }
+}

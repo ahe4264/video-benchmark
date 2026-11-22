@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:53.669Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "1:14: Visual glossary introduced before use. 2:06-4:53: Step-by-step simulation with clear narration matching visuals for each insertion. 5:17: Maps visuals to code concepts. 6:03: Explains loop invariant using the established visual intuition.",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated, builds logically, and introduces terms before use, allowing easy reconstruction. Score compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 129296,
+    "candidatesTokenCount": 120,
+    "totalTokenCount": 130696,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 128606
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "thoughtsTokenCount": 1280,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 136010
+  }
+}

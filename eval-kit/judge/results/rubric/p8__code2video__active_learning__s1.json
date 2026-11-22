@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:12.411Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "1:26-2:12: The learner clicks through steps of a cycle (click-to-continue). 2:12-2:54: The learner interacts with a slider to change the H2 feed rate and observes changes, but no question is asked. 2:54-3:39: A toggle switch for labels is used. 4:01-4:14: A prediction question ('what happens to...') is presented, but the answer is revealed automatically, acting as a pause-and-think prompt.",
+    "score_reason": "The lesson relies on click-to-continue navigation, interactive visualizations, and a pause-and-think prompt. It lacks genuine checks where the learner submits an answer and receives feedback, keeping it from the next level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 69374,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 73021,
+    "cachedContentTokenCount": 70283,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68640
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69940
+      }
+    ],
+    "thoughtsTokenCount": 3461,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71670
+  }
+}

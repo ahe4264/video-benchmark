@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:00:17.500Z",
+  "seconds": 274,
+  "result": {
+    "evidence": "0:00-1:46: The lesson begins by introducing the core concepts empirically through an interactive simulation before moving to formal derivation.\n1:46: The derivation is structured using a 'F.O.P.S.' schema, which explicitly motivates the plan before executing it.\n2:16-5:00: The geometric diagram builds up element-by-element in perfect synchronization with the mathematical steps being explained.\n4:28: Necessary assumptions, such as the small-angle approximation, are explicitly stated exactly when they are needed in the derivation.\nThroughout: Consistent color-coding (red for input, green for output, blue for the shared 'bridge') clearly links the algebraic variables to their geometric representations.",
+    "score_reason": "The lesson fully meets the top level. Every step is carefully motivated and builds logically on the previous one. Symbols and concepts are introduced before use, and the explicit structural strategy makes the derivation highly reconstructable for a newcomer.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 304024,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 306029,
+    "cachedContentTokenCount": 309422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 303336
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 309081
+      }
+    ],
+    "thoughtsTokenCount": 1783,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 312543
+  }
+}

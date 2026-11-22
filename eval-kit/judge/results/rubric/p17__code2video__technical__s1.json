@@ -1,0 +1,50 @@
+{
+  "topic": "p17",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:57.335Z",
+  "seconds": 61,
+  "result": {
+    "evidence": "Watched full video. No layout, rendering, playback, or audio issues found. All elements render correctly.",
+    "issues": [],
+    "score_reason": "Top level: No visible technical problems.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74630,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 75529,
+    "cachedContentTokenCount": 75398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 974
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73656
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75051
+      }
+    ],
+    "thoughtsTokenCount": 840,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77237
+  }
+}

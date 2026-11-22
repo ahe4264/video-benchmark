@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:21:21.589Z",
+  "seconds": 110,
+  "result": {
+    "evidence": "0:01 clear initial graphs. 0:35 token visual for handshake lemma. 5:43 animation of cyan dots on midpoints. 6:30 matrix heatmap. 7:05 morphing slider between views. 10:49 synchronized animation. Consistent color coding (cyan for edge nodes).",
+    "score_reason": "Meets Level 6. Visuals are clear, dynamic, and show key relationships well. A minor weakness is the high density of information on some matrix screens (e.g., 7:44), preventing the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 357160,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 359070,
+    "cachedContentTokenCount": 363492,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 356400
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 363150
+      }
+    ],
+    "thoughtsTokenCount": 1768,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 367086
+  }
+}

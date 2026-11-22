@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:41.630Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:03: The opening directly states a textbook problem, lacking a strong hook or puzzle. 0:33, 1:21, 2:14, etc.: Frequent interactive questions require student input, helping to maintain attention. 1:35: Visual comparison of polar vs. Cartesian equations offers a moment of insight. 6:10: Clear visual breakdown of the area element dA. The narration is somewhat monotone, leading to some flat stretches despite the interactive format.",
+    "score_reason": "The lesson fully meets Level 4. The opening is clear but lacks a strong pull. The interactive questions and visual animations hold attention well, though the dry delivery creates some flat stretches. It misses Level 5 because the opening does not pose a compelling question or stake.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 149193,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 150670,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148546
+      }
+    ],
+    "thoughtsTokenCount": 1296,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156866
+  }
+}

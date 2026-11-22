@@ -1,0 +1,65 @@
+Interaction log: 59 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 1 of 59 inputs produced no visible change; 0 raised a page error.
+
+0:18  part 1  ticked a checkbox -> screen changed
+0:21  part 1  clicked button "Next ▸" -> screen changed
+0:24  part 1  clicked button "Next ▸" -> screen changed
+0:27  part 1  clicked button "Next ▸" -> screen changed
+0:30  part 1  clicked button "Next ▸" -> screen changed
+0:33  part 1  clicked button "Next ▸" -> screen changed
+0:38  part 1  clicked button "Next ▸" -> screen changed
+0:41  part 1  clicked button "1.4 Checks" -> screen changed
+0:44  part 1  clicked button "Revisit my ledger" -> screen changed
+0:51  part 1  closed a pop-up (escape) -> pop-up closed
+0:53  part 1  closed a pop-up (close button) -> pop-up closed
+1:05  part 1  typed a written answer into the box "The assumption I would drop is…" -> screen changed
+1:24  part 1  clicked button "Drop one electron" -> screen changed
+1:43  part 2  ticked a checkbox -> screen changed
+1:45  part 2  ticked a checkbox -> screen changed
+1:48  part 2  clicked button "🟦 ② Construction · I Do" -> screen changed
+1:49  part 2  clicked button "🟩 ③ Toggle · We Do" -> screen changed
+1:51  part 2  clicked button "🟩 ④ Time-lapse · We Do" -> screen changed
+1:53  part 2  clicked button "🟨 ⑤ Slider · You Do Together" -> screen changed
+2:05  part 2  ticked a checkbox -> screen changed
+2:08  part 2  clicked button "double" -> screen changed
+2:09  part 2  dragged a slider (starting at "5") through its whole range -> screen changed
+4:09  part 2  clicked button "halve" -> screen changed
+4:12  part 2  clicked button "stay the same" -> screen changed
+4:23  part 2  typed a written answer into the box "" -> screen changed
+4:29  part 2  typed a written answer into the box "" -> screen changed
+4:37  part 2  typed a written answer into the box "" -> screen changed
+4:47  part 2  typed a written answer into the box "" -> screen changed
+4:57  part 2  typed a written answer into the box "" -> screen changed
+5:06  part 2  typed a written answer into the box "" -> screen changed
+5:34  part 3  typed a written answer into the box "value" -> screen changed
+5:39  part 3  typed a written answer into the box "?" -> screen changed
+5:45  part 3  typed a written answer into the box "value" -> screen changed
+5:53  part 3  typed a written answer into the box "?" -> screen changed
+6:02  part 3  typed a written answer into the box "value" -> screen changed
+6:14  part 3  typed a written answer into the box "?" -> screen changed
+6:24  part 3  typed a written answer into the box "value" -> screen changed
+10:04  part 4  clicked button "hide" -> screen changed
+10:06  part 4  clicked button "📋 Specs" -> screen changed
+10:09  part 4  clicked button "🧭 F.O.P.S." -> screen changed
+10:22  part 4  typed a written answer into the box "value" -> screen changed
+10:30  part 4  typed a written answer into the box "" -> screen changed
+10:39  part 4  typed a written answer into the box "" -> screen changed
+10:51  part 4  typed a written answer into the box "" -> screen changed
+11:09  part 4  typed a written answer into the box "" -> screen changed
+11:32  part 4  typed a written answer into the box "" -> screen changed
+11:44  part 4  typed a written answer into the box "" -> screen changed
+11:58  part 4  typed a written answer into the box "" -> screen changed
+12:11  part 4  typed a written answer into the box "Which relationships survive the change of particle and appar" -> screen changed
+12:24  part 4  picked an option in a drop-down -> screen changed
+16:35  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+16:45  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+17:00  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+17:12  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+17:26  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+17:39  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+17:54  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+18:09  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+19:16  part 6  typed a written answer into the box "Brain dump — no notes, no scrolling back..." -> screen changed
+19:26  part 6  ticked a checkbox -> screen changed
+19:29  part 6  clicked button "🟩 3 Build" -> the control could not be operated; no visible change

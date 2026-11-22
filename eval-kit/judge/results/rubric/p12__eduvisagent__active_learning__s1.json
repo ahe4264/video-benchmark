@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:21:55.701Z",
+  "seconds": 42,
+  "result": {
+    "evidence": "0:36: Learner predicts the effect of mass on the period.\n1:07: Learner identifies forces and predicts the effect of length.\n2:58: Learner chooses the next mathematical step in the derivation.\n4:11: Learner diagnoses errors in various formulas.\n5:52: Learner plans a solution for a broken clock by predicting and sorting information.\n9:42: Learner applies an 'SHM detector' to novel scenarios like a skate park and gravity train.\n15:50: Learner commits to answers targeting specific misconceptions before seeing evidence.\n17:08: 'Error-factor fingerprints' provide specific feedback based on calculation mistakes.",
+    "score_reason": "The lesson requires the learner to perform key reasoning at every main step, including predicting, deriving, applying, and transferring knowledge. It provides specific feedback tailored to answers (e.g., error fingerprints) and explicitly places checks where misconceptions arise. It fully meets the top level, but the score is compressed to avoid the extreme.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 348682,
+    "candidatesTokenCount": 240,
+    "totalTokenCount": 350494,
+    "cachedContentTokenCount": 354881,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347952
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354542
+      }
+    ],
+    "thoughtsTokenCount": 1572,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 358384
+  }
+}

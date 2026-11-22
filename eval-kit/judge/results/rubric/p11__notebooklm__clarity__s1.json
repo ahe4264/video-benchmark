@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:51.207Z",
+  "seconds": 43,
+  "result": {
+    "evidence": "0:47: Introduces catalysts with a clear car analogy. 1:50: Transitions to enzymes, defining active site and substrate clearly before using them. 2:50: Explains Lock-and-Key model. 3:44: Explains Induced Fit model. 4:54: The G6PD example introduces NADPH and glutathione quickly, which is slightly rushed, but the main point of cascading failure is clear.",
+    "score_reason": "The lesson is logical and step-by-step throughout, with terms introduced before use. The slightly rushed introduction of specific biochemical terms in the final example keeps it from a higher level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 121492,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 122723,
+    "cachedContentTokenCount": 126164,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120799
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 112442
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13376
+      }
+    ],
+    "thoughtsTokenCount": 1077,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127820
+  }
+}

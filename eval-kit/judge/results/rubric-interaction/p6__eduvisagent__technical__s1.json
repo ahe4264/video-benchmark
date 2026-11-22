@@ -1,0 +1,56 @@
+{
+  "topic": "p6",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:07:11.716Z",
+  "seconds": 113,
+  "result": {
+    "evidence": "The lesson has a few minor interaction bugs where buttons fail to respond to clicks. At 2:08, clicking the 'Surface' button on the origin toggle does nothing, while the other buttons in the toggle work. At 3:59, the 'Step through k = 1...8' play button advances one step and then stops responding to multiple subsequent clicks. At 14:54, several 'Run' buttons in the Error Clinic are unresponsive and only start working after the C1 'Run' button is clicked again. Despite these glitches, the content remains fully readable and the user can still progress through the lesson using alternative controls (like sliders or other buttons).",
+    "issues": [
+      {
+        "timestamp": "2:08",
+        "description": "The 'Surface' button on the Origin toggle does not respond when clicked; the origin remains at 1.0 ft instead of moving to 0.0 ft.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:59",
+        "description": "The '▶ Step through k = 1…8' play button stops responding after advancing only one step, ignoring multiple subsequent clicks.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "14:54",
+        "description": "The 'Run' buttons for checks C2, C3, and C4 do not respond to clicks. They only become responsive after the C1 'Run' button is clicked again at 14:59.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson fully meets the description for level 5 because there are several minor interaction glitches, but the content stays readable and usable throughout. It does not meet level 6 because there are more than two minor glitches.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 325447,
+    "candidatesTokenCount": 417,
+    "totalTokenCount": 331225,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5743
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 319704
+      }
+    ],
+    "thoughtsTokenCount": 5361,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 334403
+  }
+}

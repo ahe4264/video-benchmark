@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:13.077Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00-3:57: The video is a slide presentation describing a lesson design. 0:16, 0:26, 0:54: Rhetorical questions are stated or described as part of the design. 1:56: A prediction question is mentioned as part of the planned lesson, but is not posed to the viewer. No interactive elements, checks, or tasks are asked of the viewer.",
+    "score_reason": "Fully meets level 1 because it is entirely passive and asks nothing of the learner. It lacks direct rhetorical questions or prompts to the viewer to reach level 2.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 69407,
+    "candidatesTokenCount": 149,
+    "totalTokenCount": 70676,
+    "cachedContentTokenCount": 68547,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68673
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60652
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7552
+      }
+    ],
+    "thoughtsTokenCount": 1120,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73187
+  }
+}

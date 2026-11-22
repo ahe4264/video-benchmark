@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:44.524Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:00-0:37: Clear visual setup of the problem and basic geometry.\n0:38: An integral equation is introduced suddenly; terms are defined on screen, but it is a dense mathematical step.\n1:59: The ratio (D+f)/D = 1.25 is shown. The values D=4.0m and f=1.0m were shown earlier (0:55) but are not currently on screen, requiring the viewer to recall them to understand the 1.25 value.\n3:55: The equations x = f · X/Z and y = f · Y/Z are presented, but the variables X, Y, and Z were not explicitly defined in the lesson.",
+    "score_reason": "The lesson follows a sensible order with strong visual demonstrations, but it contains a few small gaps and rushed mathematical steps that require a moment's thought, keeping it from the level above.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 63792,
+    "candidatesTokenCount": 231,
+    "totalTokenCount": 66231,
+    "cachedContentTokenCount": 64640,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63096
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 696
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64291
+      }
+    ],
+    "thoughtsTokenCount": 2208,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 65941
+  }
+}

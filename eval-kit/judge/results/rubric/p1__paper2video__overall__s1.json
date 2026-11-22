@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:02.221Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "The video is a presentation about a lesson design, not a lesson for students. 0:14 discusses learning objectives and differences from textbooks. 1:34 details a 'Six-Scene Lesson Design'. 1:50 lists rendering constraints. 2:20 presents an ablation study. The actual math is briefly shown (0:46-1:33) but framed as a methodology overview rather than instructional content.",
+    "score_reason": "Meets Level 1. The content is mostly off-topic for a student trying to learn the mathematical proof, focusing instead on pedagogical research and experimental design, meaning a student would learn very little about the actual topic.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 59799,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 61127,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      }
+    ],
+    "thoughtsTokenCount": 1170,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63118
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:13:02.061Z",
+  "seconds": 80,
+  "result": {
+    "evidence": "At 0:20, a dynamic simulation shows random molecule collisions. From 1:56 to 3:37, an interactive diagram builds an enzyme step-by-step, contrasting lock-and-key (exact fit) and induced fit (shape change) using a slider to animate the binding process (2:45). At 3:38, a larger simulation allows toggling between models in a crowded environment. Sections at 5:23 and 9:08 use clear diagrams for transfer tasks, including a factory analogy.",
+    "score_reason": "The visuals are clear, well-made, and carry the explanation. A student could understand the core concepts just by interacting with the diagrams and simulations, especially the side-by-side binding animations. The layout is uncluttered and dynamic. This meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 308852,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 310701,
+    "cachedContentTokenCount": 314269,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 308088
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 313923
+      }
+    ],
+    "thoughtsTokenCount": 1654,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 317497
+  }
+}

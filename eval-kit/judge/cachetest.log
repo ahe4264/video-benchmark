@@ -1,0 +1,10 @@
+
+rubric: 6 calls (6 metrics), 0 already done, running 6
+cache p1/paper2video: 59015 tokens
+done p1__paper2video__overall__s1.json: 2/7 (59800 in, 59015 cached, 31s)
+done p1__paper2video__visuals__s1.json: 3/7 (59836 in, 59015 cached, 26s)
+done p1__paper2video__clarity__s1.json: 2/7 (59765 in, 59015 cached, 47s)
+done p1__paper2video__technical__s1.json: 6/7 (60045 in, 59015 cached, 36s)
+done p1__paper2video__engagement__s1.json: 2/7 (59724 in, 59015 cached, 28s)
+done p1__paper2video__active_learning__s1.json: 2/7 (59809 in, 59015 cached, 18s)
+progress: 6/6 attempted, 0 failed

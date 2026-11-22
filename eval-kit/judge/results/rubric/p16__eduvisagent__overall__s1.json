@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:20:43.900Z",
+  "seconds": 344,
+  "result": {
+    "evidence": "Uses a 'Crowded Doorway' analogy (0:00). Requires predictions before showing data (0:17). Employs interactive 3D models for the R-group sweep (0:32) and step-by-step inversion mechanism (1:27). Includes near-transfer practice with new molecules (10:08) and explicit misconception checks (15:16).",
+    "score_reason": "Highly effective, utilizing strong analogies, clear interactive visuals, and active prediction. Builds logically from basic concepts to complex mechanisms with robust practice. Fully meets the criteria for a strong lesson.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 323864,
+    "candidatesTokenCount": 147,
+    "totalTokenCount": 325212,
+    "cachedContentTokenCount": 329602,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 728
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323136
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 329256
+      }
+    ],
+    "thoughtsTokenCount": 1201,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332908
+  }
+}

@@ -1,0 +1,80 @@
+Interaction log: 75 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 2 of 75 inputs produced no visible change; 0 raised a page error.
+
+0:17  part 1  clicked button "Compare with a gasoline engine" -> screen changed
+0:21  part 1  clicked button "🔍⁴" -> screen changed
+0:25  part 1  ticked a checkbox -> screen changed
+0:29  part 1  ticked a checkbox -> screen changed
+0:33  part 1  ticked a checkbox -> screen changed
+0:37  part 1  ticked a checkbox -> screen changed
+0:52  part 1  clicked button "▸ Self-check: energy direction" -> screen changed
+0:55  part 1  typed a written answer into the box "Your reasoning…" -> screen changed
+1:03  part 1  clicked button "Highlight electrolysis" -> screen changed
+1:07  part 1  clicked button "Compare with expert answer" -> screen changed
+1:11  part 1  clicked button "Highlight recombination" -> screen changed
+1:24  part 1  selected choice "A" -> screen changed
+1:28  part 1  clicked button "Lock in answer" -> screen changed
+1:35  part 1  closed a pop-up (escape) -> pop-up closed
+1:45  part 1  clicked button "▶ Route A" -> screen changed
+1:55  part 1  clicked button "▶ Route B" -> screen changed
+2:05  part 1  clicked button "▶ Both" -> screen changed
+2:15  part 1  clicked button "📌 Pin two-route diagram to sidebar" -> screen changed
+2:28  part 1  typed a written answer into the box "e.g., Something between them lets part of the hydrogen throu" -> screen changed
+2:36  part 1  typed a written answer into the box "" -> screen changed
+2:42  part 1  dragged a slider (starting at "3") through its whole range -> screen changed
+2:54  part 1  clicked button "Save prediction card" -> screen changed
+11:41  part 2  typed a written answer into the box "My idea…" -> the control could not be operated; screen changed
+11:46  part 2  typed a written answer into the box "What would prove me wrong?" -> the control could not be operated; screen changed
+11:52  part 2  selected choice "A" -> screen changed
+11:55  part 2  dragged a slider (starting at "3") through its whole range -> screen changed
+12:07  part 2  clicked button "Save prediction" -> the control could not be operated; screen changed
+12:12  part 2  clicked button "6.ConsolidationTransfer" -> screen changed
+12:16  part 2  typed a written answer into the box "" -> screen changed
+12:22  part 2  typed a written answer into the box "" -> screen changed
+12:28  part 2  typed a written answer into the box "" -> screen changed
+12:35  part 2  typed a written answer into the box "…" -> screen changed
+12:41  part 2  typed a written answer into the box "" -> screen changed
+12:47  part 2  typed a written answer into the box "" -> screen changed
+13:04  part 2  typed a written answer into the box "9.72e-6" -> screen changed
+13:26  part 3  clicked button "Near transfer 近迁移 ⓘ" -> screen changed
+13:30  part 3  clicked button "Learner" -> screen changed
+13:35  part 3  clicked button "⏸ Pause flow" -> screen changed
+13:48  part 3  typed a written answer into the box "device? reactions? relationships?" -> screen changed
+13:54  part 3  typed a written answer into the box "only numbers and story — or something else?" -> screen changed
+14:01  part 3  typed a written answer into the box "why?" -> screen changed
+14:07  part 3  typed a written answer into the box "why?" -> screen changed
+14:14  part 3  typed a written answer into the box "why?" -> screen changed
+14:24  part 3  typed a written answer into the box "why?" -> screen changed
+14:31  part 3  ticked a checkbox -> screen changed
+14:35  part 3  ticked a checkbox -> screen changed
+14:38  part 3  ticked a checkbox -> no visible change
+14:42  part 3  clicked button "Step 0 · plan" -> no visible change
+14:46  part 3  clicked button "(a) 🔒" -> screen changed
+14:51  part 3  clicked button "(b) 🔒" -> screen changed
+15:14  part 4  typed a written answer into the box "One or two sentences…" -> screen changed
+15:20  part 4  picked an option in a drop-down -> screen changed
+15:24  part 4  clicked button "Over the top, through the meter" -> screen changed
+15:27  part 4  clicked button "Straight across the blood" -> screen changed
+15:31  part 4  clicked button "Through the spacer" -> screen changed
+15:45  part 4  typed a written answer into the box "what travels here" -> screen changed
+15:52  part 4  typed a written answer into the box "what travels here" -> screen changed
+15:58  part 4  typed a written answer into the box "what travels here" -> screen changed
+16:05  part 4  ticked a checkbox -> screen changed
+16:08  part 4  ticked a checkbox -> screen changed
+16:12  part 4  ticked a checkbox -> screen changed
+16:16  part 4  ticked a checkbox -> screen changed
+16:19  part 4  ticked a checkbox "particle" -> screen changed
+16:23  part 4  ticked a checkbox "flow" -> screen changed
+16:27  part 4  ticked a checkbox "energy" -> screen changed
+16:30  part 4  dragged a slider (starting at "3") through its whole range -> screen changed
+17:35  part 5  clicked button "Row 5 pin on the chain. Feed used where reacted is needed → " -> the control could not be operated; screen changed
+20:35  part 6  picked an option in a drop-down -> screen changed
+20:38  part 6  ticked a checkbox -> screen changed
+20:42  part 6  clicked button "Continue to 6.1 ▸" -> screen changed
+20:46  part 6  typed a written answer into the box "The problem" -> screen changed
+20:53  part 6  typed a written answer into the box "The solution" -> screen changed
+20:59  part 6  typed a written answer into the box "What the membrane does" -> screen changed
+21:05  part 6  typed a written answer into the box "What stays equal" -> screen changed
+21:11  part 6  typed a written answer into the box "What gets counted" -> screen changed
+21:17  part 6  typed a written answer into the box "Conditions" -> screen changed

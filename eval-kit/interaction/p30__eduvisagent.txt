@@ -1,0 +1,162 @@
+Interaction log: 153 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 7 of 153 inputs produced no visible change; 0 raised a page error.
+
+0:14  part 1  clicked button "1 · Hook" -> screen changed
+0:25  part 1  typed a written answer into the box "e.g. same compound, same mass…" -> screen changed
+0:30  part 1  typed a written answer into the box "A test that gives a different result…" -> screen changed
+0:34  part 1  typed a written answer into the box "Balance, thermometer…" -> screen changed
+0:39  part 1  typed a written answer into the box "" -> screen changed
+0:44  part 1  dragged a slider (starting at "3") through its whole range -> screen changed
+0:53  part 1  clicked button "Save to notebook & start building →" -> screen changed
+0:54  part 1  ticked a checkbox -> screen changed
+0:55  part 1  clicked button "Rebuild from empty" -> screen changed
+0:57  part 1  clicked button "Observer side ✔" -> no visible change
+0:58  part 1  clicked button "Source side ✘" -> screen changed
+0:59  part 1  clicked button "+ Add light source" -> screen changed
+1:10  part 1  selected choice "a" -> screen changed
+1:12  part 1  clicked button "Next scene →" -> screen changed
+1:13  part 1  clicked button "Next scene →" -> no visible change
+1:15  part 1  clicked button "Next scene →" -> no visible change
+1:16  part 1  clicked button "Next scene →" -> no visible change
+1:18  part 1  clicked button "Next scene →" -> no visible change
+1:19  part 1  clicked button "Next scene →" -> screen changed
+1:21  part 1  clicked button "Check" -> screen changed
+1:32  part 1  selected choice "b" -> screen changed
+3:16  part 2  ticked a checkbox -> screen changed
+3:18  part 2  clicked button "Next step ▶" -> screen changed
+3:19  part 2  clicked button "Next scene ⏭" -> screen changed
+3:21  part 2  clicked button "Next step ▶" -> screen changed
+3:22  part 2  clicked button "Next scene ⏭" -> screen changed
+3:23  part 2  clicked button "Next step ▶" -> screen changed
+3:25  part 2  clicked button "Next scene ⏭" -> screen changed
+3:26  part 2  clicked button "Next step ▶" -> screen changed
+3:27  part 2  selected choice "0" -> screen changed
+3:29  part 2  clicked button "Next scene ⏭" -> screen changed
+3:30  part 2  clicked button "Next step ▶" -> screen changed
+3:33  part 2  clicked button "Next scene ⏭" -> screen changed
+3:44  part 2  picked an option in a drop-down -> screen changed
+3:47  part 2  ticked a checkbox -> screen changed
+3:48  part 2  dragged a slider (starting at "2") through its whole range -> screen changed
+3:58  part 2  ticked a checkbox -> screen changed
+3:59  part 2  dragged a slider (starting at "3.82") through its whole range -> screen changed
+4:09  part 2  dragged a slider (starting at "0.25") through its whole range -> screen changed
+4:19  part 2  clicked button "Next step ▶" -> screen changed
+4:20  part 2  clicked button "Next scene ⏭" -> screen changed
+4:21  part 2  typed a written answer into the box "" -> screen changed
+4:25  part 2  typed a written answer into the box "" -> screen changed
+4:28  part 2  typed a written answer into the box "" -> screen changed
+4:32  part 2  typed a written answer into the box "" -> screen changed
+4:46  part 2  clicked button "Check B" -> screen changed
+4:47  part 2  clicked button "Check C" -> screen changed
+4:48  part 2  clicked button "Run QA checks" -> screen changed
+4:50  part 2  clicked button "Jump" -> screen changed
+4:51  part 2  selected choice "0" -> screen changed
+4:52  part 2  clicked button "2 · Construction" -> screen changed
+4:54  part 2  clicked button "▶ Play" -> screen changed
+4:55  part 2  clicked button "1 · Hook" -> screen changed
+4:56  part 2  clicked button "3 · Rotate analyzer" -> screen changed
+4:58  part 2  clicked button "⏸P4 · 2:12 Sweep to −60°" -> screen changed
+4:59  part 2  typed a written answer into the box "" -> screen changed
+6:49  part 3  picked an option in a drop-down -> screen changed
+6:51  part 3  ticked a checkbox -> screen changed
+6:52  part 3  clicked button "3.5 You Do + hints" -> screen changed
+6:55  part 3  typed a written answer into the box "" -> screen changed
+6:58  part 3  typed a written answer into the box "" -> screen changed
+7:02  part 3  typed a written answer into the box "" -> screen changed
+7:05  part 3  typed a written answer into the box "" -> screen changed
+7:09  part 3  typed a written answer into the box "" -> screen changed
+7:13  part 3  typed a written answer into the box "alpha of racemic mixture" -> screen changed
+7:16  part 3  typed a written answer into the box "specific rotation from diluted sample" -> screen changed
+7:20  part 3  typed a written answer into the box "Explain…" -> screen changed
+7:23  part 3  typed a written answer into the box "How do you know?" -> screen changed
+7:37  part 3  typed a written answer into the box "" -> screen changed
+7:40  part 3  typed a written answer into the box "" -> screen changed
+7:43  part 3  typed a written answer into the box "" -> screen changed
+7:47  part 3  typed a written answer into the box "" -> screen changed
+7:50  part 3  typed a written answer into the box "" -> screen changed
+7:54  part 3  typed a written answer into the box "" -> screen changed
+7:57  part 3  ticked a checkbox -> screen changed
+7:59  part 3  ticked a checkbox -> screen changed
+8:00  part 3  dragged a slider (starting at "0") through its whole range -> screen changed
+8:09  part 3  dragged a slider (starting at "0") through its whole range -> screen changed
+8:18  part 3  dragged a slider (starting at "0") through its whole range -> screen changed
+8:27  part 3  clicked button "Check number line" -> screen changed
+8:38  part 3  typed a written answer into the box "" -> screen changed
+8:41  part 3  picked an option in a drop-down -> screen changed
+8:43  part 3  clicked button "Check" -> screen changed
+8:44  part 3  clicked button "A: New tube" -> screen changed
+8:45  part 3  clicked button "B: New unknown" -> screen changed
+8:47  part 3  typed a written answer into the box "" -> screen changed
+8:50  part 3  picked an option in a drop-down -> screen changed
+8:51  part 3  clicked button "Check" -> screen changed
+8:53  part 3  clicked button "C: Error detection" -> screen changed
+8:54  part 3  typed a written answer into the box "" -> screen changed
+8:58  part 3  typed a written answer into the box "" -> screen changed
+11:09  part 4  typed a written answer into the box "This reminds me of" -> screen changed
+11:12  part 4  typed a written answer into the box "because" -> screen changed
+11:16  part 4  typed a written answer into the box "The key quantity being measured is" -> screen changed
+11:20  part 4  selected choice "1" -> screen changed
+11:22  part 4  clicked button "Commit my first thoughts" -> screen changed
+11:23  part 4  typed a written answer into the box "" -> screen changed
+11:27  part 4  clicked button "✉ Card 1 F −½" -> screen changed
+11:32  part 4  closed a pop-up (escape) -> pop-up closed
+11:32  part 4  clicked button "✉ Card 2 O −½" -> screen changed
+11:36  part 4  closed a pop-up (escape) -> pop-up closed
+11:36  part 4  clicked button "✉ Card 3 O −½" -> screen changed
+11:41  part 4  closed a pop-up (escape) -> pop-up closed
+13:15  part 4  dragged a slider (starting at "10") through its whole range -> screen changed
+13:24  part 4  clicked button "✉ Card 4 P free" -> screen changed
+13:29  part 4  closed a pop-up (escape) -> pop-up closed
+13:29  part 4  clicked button "✉ Card 5 S free" -> screen changed
+13:33  part 4  closed a pop-up (escape) -> pop-up closed
+13:33  part 4  clicked button "Add to Trap Log" -> screen changed
+13:44  part 4  dragged a slider (starting at "0") through its whole range -> screen changed
+15:54  part 5  typed a written answer into the box "" -> screen changed
+15:57  part 5  typed a written answer into the box "" -> screen changed
+16:00  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:03  part 5  typed a written answer into the box "" -> screen changed
+16:07  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:10  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:13  part 5  ticked a checkbox -> screen changed
+16:15  part 5  ticked a checkbox -> screen changed
+16:16  part 5  clicked button "Pre Not started" -> screen changed
+16:17  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:20  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:24  part 5  clicked button "Post Not started" -> screen changed
+16:34  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:38  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:41  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:44  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:47  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:51  part 5  typed a written answer into the box "One-sentence reason" -> screen changed
+16:54  part 5  clicked button "(a) none" -> screen changed
+16:55  part 5  clicked button "(b) about 25%" -> screen changed
+16:56  part 5  clicked button "(c) all" -> screen changed
+17:07  part 5  clicked button "Submit this administration" -> screen changed
+17:08  part 5  clicked button "1" -> screen changed
+17:10  part 5  clicked button "2" -> screen changed
+17:11  part 5  clicked button "3" -> screen changed
+17:21  part 5  clicked button "True" -> screen changed
+17:23  part 5  clicked button "False" -> screen changed
+17:24  part 5  clicked button "1" -> screen changed
+17:39  part 6  typed a written answer into the box "The polarizer … the sample tube … the analyzer … the observe" -> screen changed
+17:43  part 6  typed a written answer into the box "Arrow label" -> screen changed
+17:46  part 6  picked an option in a drop-down -> screen changed
+17:47  part 6  picked an option in a drop-down -> no visible change
+17:49  part 6  ticked a checkbox -> screen changed
+17:50  part 6  clicked button "⑤ Compare & mark" -> screen changed
+17:51  part 6  clicked button "Done marking → close the hook" -> screen changed
+17:53  part 6  typed a number into "e.g. 1.00" -> screen changed
+17:54  part 6  picked an option in a drop-down -> screen changed
+17:55  part 6  picked an option in a drop-down -> no visible change
+17:57  part 6  picked an option in a drop-down -> screen changed
+17:58  part 6  ticked a checkbox -> screen changed
+18:09  part 6  typed a written answer into the box "Your written prediction (angle, direction, reason)" -> screen changed
+18:12  part 6  clicked button "Lock prediction" -> screen changed
+18:13  part 6  clicked button "Load this setup into the demo" -> screen changed
+18:15  part 6  clicked button "Fill the table" -> screen changed
+18:19  part 6  clicked button "Reveal answer" -> screen changed
+18:29  part 6  clicked button "Lock" -> screen changed
+18:31  part 6  ticked a checkbox -> screen changed
+18:32  part 6  typed a written answer into the box "observed result" -> screen changed

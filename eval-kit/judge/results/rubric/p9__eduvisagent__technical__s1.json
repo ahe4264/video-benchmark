@@ -1,0 +1,61 @@
+{
+  "topic": "p9",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:19:45.579Z",
+  "seconds": 477,
+  "result": {
+    "evidence": "At 1:33, the apparatus image panel is completely blank and takes approximately 10 seconds to load. Starting at 3:40, unrendered LaTeX macros ('\\cdotpm', '\\cdotpfm') are visible in the constants equation. This specific rendering issue recurs multiple times in subsequent sections (e.g., 5:32, 9:13, 12:16, 18:57).",
+    "issues": [
+      {
+        "timestamp": "1:33",
+        "description": "The apparatus image panel is blank and takes about 10 seconds to load.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "3:40",
+        "description": "Unrendered LaTeX macros ('\\cdotpm', '\\cdotpfm') appear as raw text in the equation.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson meets level 2 because it contains a blocking problem that it recovers from (a blank panel that loads later) and has major problems throughout (recurring unrendered LaTeX).",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 436568,
+    "candidatesTokenCount": 264,
+    "totalTokenCount": 439497,
+    "cachedContentTokenCount": 444191,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 435600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 443850
+      }
+    ],
+    "thoughtsTokenCount": 2665,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 448772
+  }
+}

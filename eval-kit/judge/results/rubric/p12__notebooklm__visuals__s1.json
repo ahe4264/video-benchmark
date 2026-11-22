@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:44.776Z",
+  "seconds": 57,
+  "result": {
+    "evidence": "1:06: Clean illustration of clocks.\n1:52: Detailed static diagram of pendulum forces.\n2:35: Visuals change step-by-step to build the pendulum model.\n4:33: Static slide showing the period equation held for ~45 seconds.\n5:28: Static comparison of simple vs. physical pendulum held for ~50 seconds.\n7:17: Diagram of a tuned mass damper; static arrows indicate motion.\n9:00: Static equation slide for torsion held for 30 seconds.",
+    "score_reason": "The lesson fully meets Level 4. The visuals are clean, readable, and depict the main objects. They change for some steps (like building the pendulum model) and explain parts of the idea (force vectors). However, frequent and long static holds on single images or equations mean they often just illustrate the audio, preventing it from reaching Level 5 where visuals consistently change with the explanation.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 177347,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 179511,
+    "cachedContentTokenCount": 184250,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 176590
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164359
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19552
+      }
+    ],
+    "thoughtsTokenCount": 1943,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 186384
+  }
+}

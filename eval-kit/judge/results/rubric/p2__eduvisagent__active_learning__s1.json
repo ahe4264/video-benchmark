@@ -1,0 +1,49 @@
+{
+  "topic": "p2",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:08:33.021Z",
+  "seconds": 94,
+  "result": {
+    "evidence": "The lesson is highly interactive. At 1:02, the learner is asked to predict the total volume. At 2:01, they apply inequalities to test if points are inside the region. At 3:41, 'Try first' prompts require the learner to attempt integration steps before revealing the answer. At 5:43, they predict the slice area before moving a slider. At 7:33, they predict the shape of a graph. At 10:48, an independent cumulative problem requires setting up the integral from scratch. At 13:14, an 'Error clinic' asks the learner to identify and explain mistakes in hypothetical student work. At 14:13 and 15:05, near and far transfer tasks require applying the concepts to new scenarios.",
+    "score_reason": "The lesson consistently requires the learner to predict, apply, and explain at key conceptual steps, rather than just recalling facts. Interactive models allow for hands-on exploration, and feedback is provided through visual updates and step-by-step reveals. It meets the criteria for the highest levels of active learning, but the score is compressed toward the center as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 258662,
+    "candidatesTokenCount": 267,
+    "totalTokenCount": 260778,
+    "cachedContentTokenCount": 263156,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 257928
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 262813
+      }
+    ],
+    "thoughtsTokenCount": 1849,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 265977
+  }
+}

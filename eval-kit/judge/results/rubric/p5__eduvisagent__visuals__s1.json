@@ -1,0 +1,49 @@
+{
+  "topic": "p5",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:03:00.409Z",
+  "seconds": 107,
+  "result": {
+    "evidence": "0:18: Dynamic graph introduces nodes, edges, and weights.\n0:31-0:56: Number line animates to explain how longer routes with negative weights can cost less.\n1:14: Lock icons visually demonstrate why Dijkstra's greedy approach fails here.\n9:02+: Timeline and constraint graph effectively visualize scheduling constraints and their relation to the algorithm.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation. The dynamic graphs, number lines, and timelines allow students to follow the algorithm's logic and applications primarily through visual transformations. Meets top level criteria, compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 323105,
+    "candidatesTokenCount": 152,
+    "totalTokenCount": 324896,
+    "cachedContentTokenCount": 328792,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 322344
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 328449
+      }
+    ],
+    "thoughtsTokenCount": 1639,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332128
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:41.380Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:00-0:15: The opening simply states the topic and source material without a hook or puzzle. 0:16-4:04: The entire lesson consists of static text slides read aloud by a synthetic voice, offering no visual variety or momentum.",
+    "score_reason": "The lesson meets Level 3. The opening states the topic but provides no pull, and the remainder consists of flat, static stretches of slide-reading. It lacks the clear opening and attention retention required for Level 4.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 73692,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 75487,
+    "cachedContentTokenCount": 72882,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73043
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64507
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8032
+      }
+    ],
+    "thoughtsTokenCount": 1668,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77689
+  }
+}

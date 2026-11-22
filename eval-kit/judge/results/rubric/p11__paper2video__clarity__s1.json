@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:23.928Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "- 0:00: Video introduces a lesson plan, not the lesson itself.\n- 0:16: Models defined briefly as design \"Motivation\".\n- 0:51-1:58: Concepts described in third person (\"Learner observes...\").\n- 2:30: Uses research terminology (\"Ablation\").",
+    "score_reason": "Meets Level 1. The video is a meta-presentation about lesson design. A student would be lost because the biological concepts are fragmented within a pedagogical discussion.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 55387,
+    "candidatesTokenCount": 134,
+    "totalTokenCount": 57929,
+    "cachedContentTokenCount": 54678,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54694
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 48316
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6016
+      }
+    ],
+    "thoughtsTokenCount": 2408,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 58495
+  }
+}

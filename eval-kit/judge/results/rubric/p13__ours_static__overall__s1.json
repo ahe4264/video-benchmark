@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:43.541Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:00-1:13: Introduces coaxial cable and capacitance definition with an interactive calculation.\n1:51-4:11: Derives the electric field and capacitance formula using Gauss's law with clear visuals.\n4:12-7:23: Interactive exploration of changing inner radius and length to build intuition.\n7:24-9:23: Synthesizes concepts with a graph of C/L versus the ratio of radii.",
+    "score_reason": "The lesson is clear, correct, and highly engaging, using interactive visuals to build strong intuition alongside the mathematical derivation. It would normally be considered exceptional, but the score is compressed toward the center.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 163434,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 164411,
+    "cachedContentTokenCount": 169802,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162713
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 721
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 151447
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18016
+      }
+    ],
+    "thoughtsTokenCount": 813,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 171798
+  }
+}

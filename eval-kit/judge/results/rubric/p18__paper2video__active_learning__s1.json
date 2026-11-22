@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:38.304Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "0:20: A hook question ('Why is no image visible?') is asked and immediately answered.\n1:59: A prediction question ('what happens if the hole is enlarged?') is posed and instantly answered by the narrator.\nThe video is a presentation about a lesson plan and contains no interactive elements, pauses for viewer input, or actual knowledge checks.",
+    "score_reason": "The lesson fully meets Level 2 by including only rhetorical questions that are immediately answered. It lacks the genuine checks and feedback required for Level 3.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 59532,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 61086,
+    "cachedContentTokenCount": 58727,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58792
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51914
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6464
+      }
+    ],
+    "thoughtsTokenCount": 1427,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62843
+  }
+}

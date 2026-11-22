@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:30.154Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "The lesson opens with a straightforward explanation of nodes and embeddings (0:00-0:32) before introducing the problem of edge data (0:32). Engagement is primarily driven by frequent interactive questions (e.g., 0:51, 1:57, 3:21, 4:37) that act as mini-puzzles. Visual animations, such as building the edge graph in place (2:45) and the slider between views (5:37), provide variety and moments of insight. However, the narration is somewhat monotonous, leading to some flat stretches between the interactive elements.",
+    "score_reason": "The lesson fully meets level 4. It has a clear opening that eventually provides some pull, and the interactive elements and visuals hold attention. It falls short of level 5 because the opening lacks an immediate, strong hook or question, and the pacing feels a bit slow in parts.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 139379,
+    "candidatesTokenCount": 214,
+    "totalTokenCount": 140977,
+    "cachedContentTokenCount": 144822,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138731
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 129120
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15360
+      }
+    ],
+    "thoughtsTokenCount": 1384,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 146582
+  }
+}

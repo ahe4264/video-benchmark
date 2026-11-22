@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:16.598Z",
+  "seconds": 19,
+  "result": {
+    "evidence": "The video is a continuous presentation (0:00-6:20). The narrator asks rhetorical questions (0:31, 2:19, 2:48) but immediately answers them. There are no interactive elements, quizzes, or prompts for the learner to actively participate.",
+    "score_reason": "The lesson is entirely passive, with nothing asked of the learner, fitting the lowest level description.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 110542,
+    "candidatesTokenCount": 106,
+    "totalTokenCount": 111477,
+    "cachedContentTokenCount": 114719,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 109812
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102220
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12160
+      }
+    ],
+    "thoughtsTokenCount": 829,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 116338
+  }
+}

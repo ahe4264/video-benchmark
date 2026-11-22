@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:22.495Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "1:16: A 3D tetrahedron diagram is introduced.\n1:56: The 3D shape and its 2D base are shown side-by-side.\n2:58: A cluttered, unreadable screenshot of a textbook page is displayed.\n3:47, 4:18: Static diagrams are used to illustrate the integration limits.\n5:09: The double integral is written out as a plain English sentence instead of using proper mathematical notation.\n5:40: The integration steps are presented in a text-heavy table.",
+    "score_reason": "The lesson features clean, relevant visuals for the geometric objects, but they are mostly static and serve to illustrate the narration rather than carry the explanation. The presentation of mathematical formulas is poor and text-heavy, which prevents it from reaching a higher level. It aligns best with Level 3.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 133701,
+    "candidatesTokenCount": 204,
+    "totalTokenCount": 136175,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 132941
+      }
+    ],
+    "thoughtsTokenCount": 2270,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 140625
+  }
+}

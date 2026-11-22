@@ -1,0 +1,66 @@
+{
+  "topic": "p7",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:10:53.713Z",
+  "seconds": 89,
+  "result": {
+    "evidence": "The lesson's interactive elements and layout generally function as intended. However, there are a few rendering failures involving LaTeX. At 08:13, the code '\\pm' is shown as raw text. At 21:28 and 21:34, the raw macro '\\htmlClass' is visible within math formulas, failing to render the intended content.",
+    "issues": [
+      {
+        "timestamp": "08:13",
+        "description": "Unrendered LaTeX code '\\pm' is visible in the hint text.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "21:28",
+        "description": "Raw code '\\htmlClass{...}' is displayed inside the math formula in the C7 card.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "21:34",
+        "description": "Raw code '\\htmlClass' is displayed inside the math formula in the 'A - I do' card.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has a few instances of raw code being displayed instead of rendered math content, which constitutes major rendering problems.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 370833,
+    "candidatesTokenCount": 286,
+    "totalTokenCount": 375146,
+    "cachedContentTokenCount": 377211,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 369864
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 376869
+      }
+    ],
+    "thoughtsTokenCount": 4027,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 381294
+  }
+}

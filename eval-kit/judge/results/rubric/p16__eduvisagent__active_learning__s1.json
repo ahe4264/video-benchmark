@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:30:12.202Z",
+  "seconds": 255,
+  "result": {
+    "evidence": "At 0:17, the learner is asked to commit to predictions before seeing evidence. At 5:10, a relevance sort task requires applying concepts. At 9:17, a 'We Do' section uses dropdowns for scaffolded application. At 10:08 and 12:42, near and far transfer tasks require applying the learned concepts to new molecules and a new domain. At 15:15, a Misconception Clinic asks the learner to diagnose and fix errors, with an error-diagnosis key (16:15) providing specific feedback based on their exact misconception.",
+    "score_reason": "The lesson fully meets the top level by requiring the learner to do the key reasoning (predicting, applying, diagnosing) at all main steps, with highly specific feedback addressing their particular misconceptions. The score is compressed from 7 to 6 as per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 323873,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 325333,
+    "cachedContentTokenCount": 329602,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323136
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 329256
+      }
+    ],
+    "thoughtsTokenCount": 1252,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332917
+  }
+}

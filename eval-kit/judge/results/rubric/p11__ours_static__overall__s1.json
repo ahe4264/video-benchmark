@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:39.570Z",
+  "seconds": 55,
+  "result": {
+    "evidence": "0:00-1:28: Introduces enzymes, substrates, and active sites with clear visuals and an interactive question.\n1:29-3:16: Explains the lock-and-key model step-by-step, showing complementary shapes.\n3:17-4:48: Introduces the induced fit model, showing how the active site changes shape.\n4:49-6:24: Compares both models using a graph of the 'gap' percentage, making the difference very clear.\n6:25-7:51: Demonstrates that induced fit still requires specificity by showing a 'wrong key' failing to bind.",
+    "score_reason": "The lesson fully meets the top level (Exceptional). It is clear, correct, and well-made, using interactive elements and visuals effectively to explain the concepts and address misconceptions. Score compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 136849,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 137783,
+    "cachedContentTokenCount": 142117,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136121
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 728
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 126699
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15072
+      }
+    ],
+    "thoughtsTokenCount": 725,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 143926
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:15.601Z",
+  "seconds": 63,
+  "result": {
+    "evidence": "0:00-0:17: Opens like a conference talk. 0:18: 'Hook' is read as a bullet point. 0:37: Shows an integral equation. 0:55-2:03: Describes scenes rather than showing them. 2:04: Discusses rendering settings. 2:40: Uses academic terms like 'Ablation'.",
+    "score_reason": "The video is a dry presentation about a lesson plan, not a lesson. It reads like slides and is dull throughout, meeting the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59447,
+    "candidatesTokenCount": 141,
+    "totalTokenCount": 60575,
+    "cachedContentTokenCount": 58727,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 655
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58792
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51914
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6464
+      }
+    ],
+    "thoughtsTokenCount": 987,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62758
+  }
+}

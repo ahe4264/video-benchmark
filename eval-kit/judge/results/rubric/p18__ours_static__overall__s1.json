@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:32.075Z",
+  "seconds": 235,
+  "result": {
+    "evidence": "0:00-1:31: Explains why a bare wall shows no picture due to light mixing. 1:59-3:03: Introduces the pinhole, showing how it restricts light to form an upside-down image. 3:04-4:43: Demonstrates the trade-off between hole size, sharpness, and brightness. 4:44-5:55: Shows how moving the hole moves the image. 5:56-7:14: Summarizes the one-to-one correspondence. 7:39-8:17: Shows a second hole creates a second image.",
+    "score_reason": "The lesson is clear, correct, and well-made, building the concept logically with excellent visual support and interactive elements. It fully meets the criteria for an exceptional lesson, but the score is compressed toward the center of the scale per instructions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 144375,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 145347,
+    "cachedContentTokenCount": 149946,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 731
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 143644
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 133693
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15904
+      }
+    ],
+    "thoughtsTokenCount": 759,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 151816
+  }
+}

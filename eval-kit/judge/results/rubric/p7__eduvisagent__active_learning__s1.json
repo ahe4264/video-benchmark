@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:13:53.760Z",
+  "seconds": 90,
+  "result": {
+    "evidence": "0:14-0:35: Interactive slider to explore torque.\n1:21-2:03: Open-ended prediction questions.\n2:51-3:30: Interactive lab with prediction tasks before sweeping angles.\n3:47-4:46: Self-explanation prompts for step-by-step solution.\n8:24-9:46: Near transfer task with structure mapping.\n19:17-20:21: Far transfer task applying concepts to a bending beam.\n20:21-21:47: Section dedicated to diagnosing common mistakes.",
+    "score_reason": "The lesson requires the learner to perform key reasoning through predictions, applications, and hands-on explorations at all main steps. Feedback addresses specific answers, and checks are explicitly designed around common misconceptions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 370597,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 372504,
+    "cachedContentTokenCount": 377211,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 369864
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 376869
+      }
+    ],
+    "thoughtsTokenCount": 1708,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 380880
+  }
+}

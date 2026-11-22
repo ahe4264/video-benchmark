@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:14.919Z",
+  "seconds": 37,
+  "result": {
+    "evidence": "0:13: Poses a clear puzzle about flattening 3D to 2D without changing size. 1:11: Step-by-step visual breakdown. 3:24: Contrast with perspective projection. 5:00: Telephoto lens analogy provides a moment of insight. 6:01: Concluding question reinforces the core concept.",
+    "score_reason": "The lesson fully meets Level 6. It opens with a real question, maintains a good pace with varied visuals, and offers moments of insight with only brief lulls. Score compressed toward the center.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 123189,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 124553,
+    "cachedContentTokenCount": 127969,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 651
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 122538
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114056
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13568
+      }
+    ],
+    "thoughtsTokenCount": 1222,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 129608
+  }
+}

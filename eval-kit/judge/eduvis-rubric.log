@@ -1,0 +1,165 @@
+
+rubric: 102 calls (6 metrics), 0 already done, running 102
+cache p3/eduvisagent: 153403 tokens
+done p3__eduvisagent__overall__s1.json: 6/7 (150940 in, 153403 cached, 27s)
+cache p5/eduvisagent: 328792 tokens
+cache p2/eduvisagent: 263156 tokens
+cache p8/eduvisagent: 346546 tokens
+cache p7/eduvisagent: 377211 tokens
+cache p1/eduvisagent: 339288 tokens
+cache p4/eduvisagent: 333635 tokens
+cache p6/eduvisagent: 326101 tokens
+done p3__eduvisagent__visuals__s1.json: 6/7 (150976 in, 153403 cached, 52s)
+done p8__eduvisagent__overall__s1.json: 6/7 (340493 in, 346546 cached, 51s)
+done p5__eduvisagent__overall__s1.json: 6/7 (323069 in, 328792 cached, 59s)
+done p2__eduvisagent__overall__s1.json: 6/7 (258653 in, 263156 cached, 78s)
+done p3__eduvisagent__clarity__s1.json: 6/7 (150905 in, 153403 cached, 55s)
+done p6__eduvisagent__overall__s1.json: 6/7 (320428 in, 326101 cached, 73s)
+done p1__eduvisagent__overall__s1.json: 5/7 (333370 in, 339288 cached, 95s)
+done p2__eduvisagent__visuals__s1.json: 6/7 (258689 in, 263156 cached, 32s)
+done p4__eduvisagent__overall__s1.json: 6/7 (327822 in, 333635 cached, 95s)
+done p8__eduvisagent__visuals__s1.json: 6/7 (340529 in, 346546 cached, 60s)
+done p7__eduvisagent__overall__s1.json: 6/7 (370588 in, 377211 cached, 116s)
+[p7__eduvisagent__visuals__s1.json] 429; retry 1 in 5s
+done p2__eduvisagent__clarity__s1.json: 5/7 (258618 in, 263156 cached, 46s)
+done p5__eduvisagent__visuals__s1.json: 6/7 (323105 in, 328792 cached, 107s)
+done p1__eduvisagent__visuals__s1.json: 6/7 (333406 in, 339288 cached, 59s)
+done p8__eduvisagent__clarity__s1.json: 6/7 (340458 in, 346546 cached, 54s)
+done p4__eduvisagent__visuals__s1.json: 6/7 (327858 in, 333635 cached, 57s)
+done p3__eduvisagent__technical__s1.json: 5/7 (151185 in, 153403 cached, 92s)
+[p3__eduvisagent__engagement__s1.json] 429; retry 1 in 5s
+[p3__eduvisagent__engagement__s1.json] 429; retry 2 in 10s
+done p6__eduvisagent__visuals__s1.json: 6/7 (320464 in, 326101 cached, 119s)
+done p5__eduvisagent__clarity__s1.json: 4/7 (323034 in, 328792 cached, 64s)
+done p1__eduvisagent__clarity__s1.json: 6/7 (333335 in, 339288 cached, 76s)
+done p3__eduvisagent__engagement__s1.json: 4/7 (150864 in, 153403 cached, 50s)
+done p4__eduvisagent__clarity__s1.json: 4/7 (327787 in, 333635 cached, 96s)
+done p2__eduvisagent__technical__s1.json: 4/7 (258898 in, 263156 cached, 122s)
+done p6__eduvisagent__clarity__s1.json: 6/7 (320393 in, 326101 cached, 69s)
+done p3__eduvisagent__active_learning__s1.json: 6/7 (150949 in, 153403 cached, 52s)
+progress: 26/102 attempted, 0 failed
+done p8__eduvisagent__technical__s1.json: 6/7 (340738 in, 346546 cached, 137s)
+done p1__eduvisagent__technical__s1.json: 4/7 (333615 in, 339288 cached, 80s)
+done p6__eduvisagent__technical__s1.json: 7/7 (320673 in, 326101 cached, 30s)
+done p7__eduvisagent__visuals__s1.json: 5/7 (370624 in, 377211 cached, 236s)
+done p4__eduvisagent__technical__s1.json: 6/7 (328067 in, 333635 cached, 107s)
+cache p9/eduvisagent: 444191 tokens
+done p1__eduvisagent__engagement__s1.json: 5/7 (333294 in, 339288 cached, 55s)
+done p6__eduvisagent__engagement__s1.json: 5/7 (320352 in, 326101 cached, 70s)
+done p5__eduvisagent__technical__s1.json: 6/7 (323314 in, 328792 cached, 173s)
+done p2__eduvisagent__engagement__s1.json: 6/7 (258577 in, 263156 cached, 124s)
+done p1__eduvisagent__active_learning__s1.json: 6/7 (333379 in, 339288 cached, 98s)
+progress: 36/102 attempted, 0 failed
+done p2__eduvisagent__active_learning__s1.json: 6/7 (258662 in, 263156 cached, 94s)
+progress: 37/102 attempted, 0 failed
+done p4__eduvisagent__engagement__s1.json: 4/7 (327746 in, 333635 cached, 128s)
+done p6__eduvisagent__active_learning__s1.json: 6/7 (320437 in, 326101 cached, 128s)
+progress: 39/102 attempted, 0 failed
+done p5__eduvisagent__engagement__s1.json: 5/7 (322993 in, 328792 cached, 129s)
+[p5__eduvisagent__active_learning__s1.json] 503; retry 1 in 5s
+cache p10/eduvisagent: 354347 tokens
+done p7__eduvisagent__clarity__s1.json: 6/7 (370553 in, 377211 cached, 187s)
+[p7__eduvisagent__technical__s1.json] 429; retry 1 in 5s
+cache p11/eduvisagent: 314269 tokens
+done p9__eduvisagent__overall__s1.json: 6/7 (436323 in, 444191 cached, 191s)
+cache p12/eduvisagent: 354881 tokens
+done p4__eduvisagent__active_learning__s1.json: 6/7 (327831 in, 333635 cached, 100s)
+progress: 43/102 attempted, 0 failed
+[p8__eduvisagent__engagement__s1.json] TypeError; retry 1 in 5s
+done p10__eduvisagent__overall__s1.json: 6/7 (348149 in, 354347 cached, 71s)
+done p7__eduvisagent__technical__s1.json: 4/7 (370833 in, 377211 cached, 89s)
+done p9__eduvisagent__visuals__s1.json: 6/7 (436359 in, 444191 cached, 72s)
+done p5__eduvisagent__active_learning__s1.json: 6/7 (323078 in, 328792 cached, 111s)
+progress: 47/102 attempted, 0 failed
+done p8__eduvisagent__engagement__s1.json: 5/7 (340417 in, 346546 cached, 353s)
+cache p13/eduvisagent: 323408 tokens
+[p13__eduvisagent__overall__s1.json] 429; retry 1 in 5s
+done p12__eduvisagent__overall__s1.json: 6/7 (348673 in, 354881 cached, 88s)
+[p12__eduvisagent__visuals__s1.json] 429; retry 1 in 5s
+done p11__eduvisagent__overall__s1.json: 6/7 (308816 in, 314269 cached, 120s)
+done p10__eduvisagent__visuals__s1.json: 6/7 (348185 in, 354347 cached, 72s)
+done p9__eduvisagent__clarity__s1.json: 6/7 (436288 in, 444191 cached, 55s)
+cache p14/eduvisagent: 385013 tokens
+[p14__eduvisagent__overall__s1.json] 429; retry 1 in 5s
+done p13__eduvisagent__overall__s1.json: 6/7 (317785 in, 323408 cached, 52s)
+done p8__eduvisagent__active_learning__s1.json: 6/7 (340502 in, 346546 cached, 66s)
+progress: 54/102 attempted, 0 failed
+done p7__eduvisagent__engagement__s1.json: 3/7 (370512 in, 377211 cached, 90s)
+[p7__eduvisagent__active_learning__s1.json] 429; retry 1 in 5s
+[p7__eduvisagent__active_learning__s1.json] 429; retry 2 in 10s
+[p7__eduvisagent__active_learning__s1.json] 429; retry 3 in 20s
+done p12__eduvisagent__visuals__s1.json: 6/7 (348709 in, 354881 cached, 72s)
+done p11__eduvisagent__visuals__s1.json: 6/7 (308852 in, 314269 cached, 80s)
+done p13__eduvisagent__visuals__s1.json: 6/7 (317821 in, 323408 cached, 53s)
+done p10__eduvisagent__clarity__s1.json: 5/7 (348114 in, 354347 cached, 86s)
+cache p15/eduvisagent: 363492 tokens
+done p14__eduvisagent__overall__s1.json: 5/7 (378245 in, 385013 cached, 91s)
+[p14__eduvisagent__visuals__s1.json] 429; retry 1 in 5s
+done p13__eduvisagent__clarity__s1.json: 6/7 (317750 in, 323408 cached, 45s)
+done p7__eduvisagent__active_learning__s1.json: 5/7 (370597 in, 377211 cached, 90s)
+progress: 62/102 attempted, 0 failed
+done p12__eduvisagent__clarity__s1.json: 6/7 (348638 in, 354881 cached, 94s)
+done p10__eduvisagent__technical__s1.json: 3/7 (348394 in, 354347 cached, 86s)
+done p12__eduvisagent__technical__s1.json: 4/7 (348918 in, 354881 cached, 38s)
+cache p16/eduvisagent: 329602 tokens
+done p11__eduvisagent__clarity__s1.json: 6/7 (308781 in, 314269 cached, 127s)
+done p10__eduvisagent__engagement__s1.json: 5/7 (348073 in, 354347 cached, 90s)
+done p14__eduvisagent__visuals__s1.json: 5/7 (378281 in, 385013 cached, 151s)
+[p9__eduvisagent__technical__s1.json] TypeError; retry 1 in 5s
+[p15__eduvisagent__overall__s1.json] TypeError; retry 1 in 5s
+[p13__eduvisagent__technical__s1.json] TypeError; retry 1 in 5s
+done p15__eduvisagent__overall__s1.json: 6/7 (357124 in, 363492 cached, 361s)
+done p9__eduvisagent__technical__s1.json: 3/7 (436568 in, 444191 cached, 477s)
+[p12__eduvisagent__engagement__s1.json] TypeError; retry 1 in 5s
+[p16__eduvisagent__overall__s1.json] TypeError; retry 1 in 5s
+[p11__eduvisagent__technical__s1.json] TypeError; retry 1 in 5s
+done p16__eduvisagent__overall__s1.json: 6/7 (323864 in, 329602 cached, 344s)
+done p13__eduvisagent__technical__s1.json: 4/7 (318030 in, 323408 cached, 418s)
+done p10__eduvisagent__active_learning__s1.json: 6/7 (348158 in, 354347 cached, 291s)
+progress: 73/102 attempted, 0 failed
+done p11__eduvisagent__technical__s1.json: 4/7 (309061 in, 314269 cached, 346s)
+done p14__eduvisagent__clarity__s1.json: 4/7 (378210 in, 385013 cached, 303s)
+done p12__eduvisagent__engagement__s1.json: 3/7 (348597 in, 354881 cached, 378s)
+done p15__eduvisagent__visuals__s1.json: 6/7 (357160 in, 363492 cached, 110s)
+done p16__eduvisagent__visuals__s1.json: 5/7 (323900 in, 329602 cached, 64s)
+done p9__eduvisagent__engagement__s1.json: 4/7 (436247 in, 444191 cached, 124s)
+done p13__eduvisagent__engagement__s1.json: 5/7 (317709 in, 323408 cached, 68s)
+done p12__eduvisagent__active_learning__s1.json: 6/7 (348682 in, 354881 cached, 42s)
+progress: 81/102 attempted, 0 failed
+done p11__eduvisagent__engagement__s1.json: 4/7 (308740 in, 314269 cached, 67s)
+cache p17/eduvisagent: 333100 tokens
+done p14__eduvisagent__technical__s1.json: 6/7 (378490 in, 385013 cached, 62s)
+[p17__eduvisagent__overall__s1.json] 429; retry 1 in 5s
+[p14__eduvisagent__engagement__s1.json] 429; retry 1 in 5s
+[p14__eduvisagent__engagement__s1.json] 429; retry 2 in 10s
+[p17__eduvisagent__overall__s1.json] 429; retry 2 in 10s
+done p15__eduvisagent__clarity__s1.json: 3/7 (357089 in, 363492 cached, 58s)
+[p17__eduvisagent__overall__s1.json] 429; retry 3 in 20s
+[p14__eduvisagent__engagement__s1.json] 429; retry 3 in 20s
+done p16__eduvisagent__clarity__s1.json: 5/7 (323829 in, 329602 cached, 54s)
+done p9__eduvisagent__active_learning__s1.json: 6/7 (436332 in, 444191 cached, 79s)
+progress: 86/102 attempted, 0 failed
+done p13__eduvisagent__active_learning__s1.json: 6/7 (317794 in, 323408 cached, 106s)
+progress: 87/102 attempted, 0 failed
+done p14__eduvisagent__engagement__s1.json: 4/7 (378169 in, 385013 cached, 110s)
+done p11__eduvisagent__active_learning__s1.json: 6/7 (308825 in, 314269 cached, 116s)
+progress: 89/102 attempted, 0 failed
+done p16__eduvisagent__technical__s1.json: 4/7 (324109 in, 329602 cached, 86s)
+done p15__eduvisagent__technical__s1.json: 5/7 (357369 in, 363492 cached, 117s)
+done p17__eduvisagent__overall__s1.json: 6/7 (327297 in, 333100 cached, 180s)
+[p17__eduvisagent__visuals__s1.json] 503; retry 1 in 5s
+done p15__eduvisagent__engagement__s1.json: 4/7 (357048 in, 363492 cached, 77s)
+done p16__eduvisagent__engagement__s1.json: 4/7 (323788 in, 329602 cached, 109s)
+done p15__eduvisagent__active_learning__s1.json: 6/7 (357133 in, 363492 cached, 162s)
+progress: 95/102 attempted, 0 failed
+[p14__eduvisagent__active_learning__s1.json] TypeError; retry 1 in 5s
+done p17__eduvisagent__visuals__s1.json: 5/7 (327333 in, 333100 cached, 241s)
+done p16__eduvisagent__active_learning__s1.json: 6/7 (323873 in, 329602 cached, 255s)
+progress: 97/102 attempted, 0 failed
+done p17__eduvisagent__clarity__s1.json: 3/7 (327262 in, 333100 cached, 116s)
+done p14__eduvisagent__active_learning__s1.json: 5/7 (378254 in, 385013 cached, 455s)
+progress: 99/102 attempted, 0 failed
+done p17__eduvisagent__technical__s1.json: 6/7 (327542 in, 333100 cached, 66s)
+done p17__eduvisagent__engagement__s1.json: 3/7 (327221 in, 333100 cached, 60s)
+done p17__eduvisagent__active_learning__s1.json: 6/7 (327306 in, 333100 cached, 68s)
+progress: 102/102 attempted, 0 failed

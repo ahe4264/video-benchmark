@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:49:13.627Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "0:03: Opens with a practical problem (builder needing a true-size flat picture). 0:40: Uses the sun to explain parallel rays, creating a moment of insight. 1:28: A slower, drier section setting up the 3D coordinate axes. 3:28: Interactive rotation to observe effects on projection. 4:49: Introduces perspective projection for contrast, adding variety and deepening understanding.",
+    "score_reason": "The lesson opens with a practical question that provides a stake. It maintains a good pace with interactive elements and varied visual models, though setting up the 3D coordinate system creates a brief lull. It fully meets Level 5, but the flat stretch during the axes setup keeps it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 165387,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 166654,
+    "cachedContentTokenCount": 171915,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 651
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164736
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 1089,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173850
+  }
+}

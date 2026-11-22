@@ -1,0 +1,58 @@
+Produce a narrated lesson on this figure contains six panels (a)–(f) illustrating the
+operation of insertion sort on an array of six integers.
+Source: Introduction to Algorithms, Figure 2.2 (figure `2.2`, cs/2d)
+Target length: 4 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand the insertion sort algorithm step by step,
+demonstrating how each key is extracted and inserted into its correct position within
+the growing sorted subarray to its left.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure contains six panels (a)–(f) illustrating the operation of insertion
+sort on an array of six integers. Each panel shows a horizontal array of six cells
+indexed 1 through 6 above the cells. Gray cells to the left of the current key represent
+the already-sorted subarray; the current key is shown in a black cell with white text;
+white cells to the right remain unsorted. Curved arrows below the array indicate element
+movements: a bold black arrow points to the slot where the key will be inserted, while
+lighter gray arrows indicate elements shifting one position to the right to make room.
+Panel (a) shows the initial array [5, 2, 4, 6, 1, 3] with key 2 at position 2 moving
+left past 5. Panel (b) shows key 4 at position 3 being inserted into sorted subarray [2,
+5]. Panel (c) shows key 6 at position 4 requiring no movement as it is already the
+largest element in the sorted prefix. Panel (d) shows key 1 at position 5 shifting four
+elements rightward to reach position 1. Panel (e) shows key 3 at position 6 shifting
+three elements rightward to reach its correct position. Panel (f) shows the final sorted
+array [1, 2, 3, 4, 5, 6] with no black cell and no arrows. This figure illustrates the
+insertion sort algorithm step by step, demonstrating how each key is extracted and
+inserted into its correct position within the growing sorted subarray to its left.
+3. Demonstration — code editing: learner implements insertion sort with primitives
+compare(i, j) (returns true if A[i] > A[j]) and shift(i) (moves element at index i one
+position left); the array [5, 2, 4, 6, 1, 3] is pre-loaded as labeled boxes; running the
+code animates each compare and shift call, highlighting the active element in black and
+the sorted prefix in gray, driving the display from panel (a) to (f); a reference
+solution is revealable after a failed attempt
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: The operation of INSERTION-SORT on the array A D h5; 2; 4; 6; 1; 3i.
+Array indices appear above the rectangles, and values stored in the array positions
+appear within the rectangles. (a)–(e) The iterations of the for loop of lines 1–8. In
+each iteration, the black rectangle holds the key taken from AŒj_x008d_, which is
+compared with the values in shaded rectangles to its left in the test of line 5. Shaded
+arrows show array values moved one position to the right in line 6, and black arrows
+indicate where the key moves to in line 8. (f) The final sorted array
+CONSTRAINTS
+- Render in 2D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.

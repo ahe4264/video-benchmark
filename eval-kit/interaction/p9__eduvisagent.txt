@@ -1,0 +1,88 @@
+Interaction log: 83 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 1x: "missing ) after argument list". Whatever that code was meant to do may be missing or inert.
+Summary: 9 of 83 inputs produced no visible change; 0 raised a page error.
+
+0:19  part 1  clicked button "F · Find" -> screen changed
+0:22  part 1  clicked button "▶ Fire 20 probes" -> screen changed
+0:52  part 1  typed a number into "e.g. 0" -> screen changed
+0:56  part 1  typed a written answer into the box "One sentence…" -> screen changed
+1:05  part 1  clicked button "Save prediction" -> screen changed
+1:09  part 1  clicked button "Add next element ▶" -> no visible change
+1:19  part 1  clicked button "1 guessing" -> screen changed
+1:23  part 1  clicked button "2" -> screen changed
+1:27  part 1  clicked button "3" -> screen changed
+1:51  part 1  typed a written answer into the box "Sketch a 150° path first, then answer…" -> screen changed
+1:58  part 1  typed a written answer into the box "N ≈ …" -> screen changed
+2:05  part 1  clicked button "Commit & reveal" -> screen changed
+2:09  part 1  clicked button "Commit & reveal" -> screen changed
+2:22  part 1  clicked button "Fire 1" -> screen changed
+2:27  part 1  clicked button "Fire 100 (live)" -> screen changed
+2:31  part 1  clicked button "⏩ Fast-forward to 50,000" -> screen changed
+2:47  part 1  typed a written answer into the box "" -> screen changed
+3:15  part 1  typed a written answer into the box "" -> the control could not be operated; screen changed
+3:22  part 1  typed a written answer into the box "" -> the control could not be operated; screen changed
+4:18  part 2  typed a written answer into the box "" -> screen changed
+4:24  part 2  typed a written answer into the box "" -> screen changed
+4:32  part 2  typed a written answer into the box "" -> screen changed
+4:39  part 2  typed a written answer into the box "" -> screen changed
+4:47  part 2  typed a written answer into the box "" -> screen changed
+4:54  part 2  typed a written answer into the box "" -> screen changed
+5:01  part 2  typed a written answer into the box "" -> screen changed
+5:07  part 2  clicked button "Next cue ▸" -> screen changed
+5:11  part 2  clicked button "Next cue ▸" -> screen changed
+5:15  part 2  clicked button "Next cue ▸" -> screen changed
+5:19  part 2  clicked button "Next cue ▸" -> screen changed
+5:23  part 2  typed a written answer into the box "Your prediction…" -> screen changed
+5:39  part 2  typed a written answer into the box "" -> screen changed
+5:47  part 2  typed a written answer into the box "" -> screen changed
+5:54  part 2  typed a written answer into the box "" -> screen changed
+6:01  part 2  typed a written answer into the box "" -> screen changed
+6:08  part 2  typed a written answer into the box "" -> screen changed
+6:16  part 2  typed a written answer into the box "" -> screen changed
+6:23  part 2  typed a written answer into the box "" -> screen changed
+6:29  part 2  typed a written answer into the box "" -> screen changed
+9:36  part 3  clicked button "Q6 cross-check" -> screen changed
+9:40  part 3  clicked button "Q1 classify" -> screen changed
+9:44  part 3  clicked button "Q2 reject pudding" -> screen changed
+9:48  part 3  clicked button "Q3 locate charge" -> screen changed
+10:02  part 3  typed a written answer into the box "effect…" -> screen changed
+10:09  part 3  clicked button "Same" -> screen changed
+10:12  part 3  clicked button "↑" -> no visible change
+10:16  part 3  clicked button "↓" -> no visible change
+10:30  part 3  typed a written answer into the box "effect…" -> screen changed
+10:37  part 3  typed a written answer into the box "effect…" -> screen changed
+10:44  part 3  typed a written answer into the box "effect…" -> screen changed
+10:51  part 3  typed a written answer into the box "effect…" -> screen changed
+10:59  part 3  typed a written answer into the box "effect…" -> screen changed
+11:14  part 3  typed a written answer into the box "layers for silver foil" -> screen changed
+11:24  part 3  typed a written answer into the box "effect…" -> screen changed
+11:32  part 3  typed a written answer into the box "effect…" -> screen changed
+11:39  part 3  clicked button "✅ Reveal" -> screen changed
+11:43  part 3  clicked button "Same" -> screen changed
+11:47  part 3  clicked button "↑" -> no visible change
+11:51  part 3  clicked button "↓" -> no visible change
+16:15  part 4  typed a written answer into the box "" -> screen changed
+16:21  part 4  typed a written answer into the box "" -> screen changed
+16:29  part 4  clicked button "🔒 Commit cold read & reveal" -> screen changed
+16:33  part 4  clicked button "1" -> screen changed
+16:37  part 4  clicked button "2" -> screen changed
+16:41  part 4  clicked button "3" -> screen changed
+16:55  part 4  clicked button "4" -> screen changed
+16:58  part 4  clicked button "5" -> screen changed
+17:02  part 4  clicked button "Yes" -> screen changed
+18:16  part 5  typed a written answer into the box "optional" -> screen changed
+18:28  part 5  clicked button "Go to the audit (5D)" -> screen changed
+18:31  part 5  ticked a checkbox -> screen changed
+18:35  part 5  ticked a checkbox -> screen changed
+18:39  part 5  ticked a checkbox -> screen changed
+18:43  part 5  ticked a checkbox -> screen changed
+18:47  part 5  ticked a checkbox -> screen changed
+18:50  part 5  ticked a checkbox -> screen changed
+21:59  part 6  clicked button "Builder" -> screen changed
+22:09  part 6  typed a written answer into the box "frame timestamp e.g. 04:12" -> the control could not be operated; no visible change
+22:14  part 6  typed a written answer into the box "initials" -> the control could not be operated; no visible change
+22:20  part 6  typed a written answer into the box "frame timestamp e.g. 04:12" -> the control could not be operated; no visible change
+22:25  part 6  typed a written answer into the box "initials" -> the control could not be operated; no visible change
+22:31  part 6  clicked button "Learner" -> screen changed
+22:45  part 6  typed a written answer into the box "Geiger and Rutherford fired …" -> screen changed

@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:46.241Z",
+  "seconds": 53,
+  "result": {
+    "evidence": "0:03: Introduces enzymes and substrates with clear visuals.\n0:24: Uses a question to demonstrate shape matching.\n0:56: Defines 'active site' and 'specificity' after showing the concept.\n1:29: Builds the lock-and-key model step-by-step, introducing 'complementary'.\n2:33: Introduces 'enzyme-substrate complex' after showing it.\n3:17: Clearly defines and visualizes the 'gap' measurement.\n3:45: Introduces the induced fit model, showing the shape change.\n4:49: Compares both models dynamically with a graph.\n5:42: Introduces 'conformational change' using dashed lines for clarity.\n6:25: Tests a misconception with a 'wrong key', clarifying that flexible isn't shapeless.",
+    "score_reason": "The lesson is highly logical and builds step-by-step. Every term is introduced before use, and the pacing is excellent, allowing a newcomer to easily follow and reconstruct the concepts.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 136814,
+    "candidatesTokenCount": 246,
+    "totalTokenCount": 137986,
+    "cachedContentTokenCount": 142117,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136121
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 126699
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15072
+      }
+    ],
+    "thoughtsTokenCount": 926,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 143891
+  }
+}

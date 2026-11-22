@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:43.311Z",
+  "seconds": 57,
+  "result": {
+    "evidence": "0:00-1:37: Motivates the algorithm by showing why a greedy approach fails with negative weights.\n1:59-2:31: Introduces estimates and the 'relax' operation clearly with a concrete example.\n2:32-4:04: Steps through the first pass, introducing predecessors only when needed to track the path.\n4:05-6:21: Shows subsequent passes, explaining how estimates drop multiple times.\n6:22-6:54: Logically motivates the V-1 pass limit based on the maximum edges in a simple path.\n7:32-8:48: Explains convergence and negative cycles as a natural extension of the passes.",
+    "score_reason": "The lesson fully meets Level 7. Every step is motivated and builds logically on the last, introducing terms exactly when needed. A newcomer could easily reconstruct the argument. The score is compressed from 7 to 6 per system instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159628,
+    "candidatesTokenCount": 226,
+    "totalTokenCount": 161361,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158939
+      }
+    ],
+    "thoughtsTokenCount": 1507,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167805
+  }
+}

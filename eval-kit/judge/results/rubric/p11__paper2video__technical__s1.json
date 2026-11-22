@@ -1,0 +1,54 @@
+{
+  "topic": "p11",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:44.387Z",
+  "seconds": 20,
+  "result": {
+    "evidence": "Video plays smoothly from start to finish. Slides and audio are clear and synchronized. No rendering, layout, or playback errors were observed.",
+    "issues": [],
+    "score_reason": "Top level met; no technical issues found.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 55667,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 56671,
+    "cachedContentTokenCount": 54678,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54694
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 973
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 48316
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6016
+      }
+    ],
+    "thoughtsTokenCount": 938,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 58953
+  }
+}

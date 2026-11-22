@@ -1,0 +1,66 @@
+{
+  "topic": "p16",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:24:07.525Z",
+  "seconds": 86,
+  "result": {
+    "evidence": "The lesson plays smoothly and interactions work, but there is a pervasive rendering issue. Unrendered LaTeX code (specifically the \\ce{} macro for chemical formulas) appears as raw text in multiple sections, such as below the animation at 1:27, in the Key Players table at 2:07, and throughout the Near Transfer section starting at 10:08.",
+    "issues": [
+      {
+        "timestamp": "1:27",
+        "description": "Unrendered LaTeX code (\\ce{OH}) is visible in the text below the animation.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "2:07",
+        "description": "Unrendered LaTeX code (\\ce{-CH3}, \\ce{OH}) appears in the Key Players table.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "10:08",
+        "description": "Unrendered LaTeX code (\\ce{-H}, \\ce{Cl}, etc.) is shown throughout the Near Transfer section.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson contains several major rendering problems where raw LaTeX code is displayed instead of formatted chemical formulas, meeting the criteria for Level 3.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 324109,
+    "candidatesTokenCount": 299,
+    "totalTokenCount": 327170,
+    "cachedContentTokenCount": 329602,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323136
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 973
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 329256
+      }
+    ],
+    "thoughtsTokenCount": 2762,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 333331
+  }
+}

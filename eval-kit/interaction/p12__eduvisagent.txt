@@ -1,0 +1,90 @@
+Interaction log: 84 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 1 of 84 inputs produced no visible change; 0 raised a page error.
+
+0:21  part 1  clicked button "F · Find" -> screen changed
+0:25  part 1  clicked button "O · Organize" -> screen changed
+0:30  part 1  clicked button "P · Plan" -> screen changed
+0:44  part 1  selected choice "Faster" -> screen changed
+0:48  part 1  clicked button "Commit my answer" -> screen changed
+0:53  part 1  clicked button "① Model" -> screen changed
+0:57  part 1  clicked button "② Forces" -> screen changed
+1:02  part 1  clicked button "③ Demo 1: θ" -> screen changed
+1:16  part 1  selected choice "2" -> screen changed
+1:20  part 1  ticked a checkbox -> screen changed
+1:25  part 1  ticked a checkbox -> screen changed
+1:29  part 1  ticked a checkbox -> screen changed
+1:33  part 1  ticked a checkbox "restoring" -> screen changed
+1:38  part 1  ticked a checkbox "centripetal" -> screen changed
+1:41  part 1  ticked a checkbox "weight" -> screen changed
+1:45  part 1  dragged a slider (starting at "1") through its whole range -> screen changed
+2:01  part 1  dragged a slider (starting at "15") through its whole range -> screen changed
+2:17  part 1  clicked button "▶ Release" -> screen changed
+2:27  part 1  clicked button "θ: 0° → 15° → −15° → 15°" -> screen changed
+2:32  part 1  clicked button "L: 0.50 → 2.00 m" -> screen changed
+2:47  part 1  ticked a checkbox "tension" -> screen changed
+2:52  part 1  ticked a checkbox "normal" -> screen changed
+2:57  part 1  clicked button "Next step ↓" -> screen changed
+3:01  part 1  selected choice "A" -> screen changed
+3:06  part 1  clicked button "Next step ↓" -> screen changed
+3:11  part 1  clicked button "Next step ↓" -> screen changed
+3:17  part 1  clicked button "Next step ↓" -> screen changed
+3:22  part 1  clicked button "Next step ↓" -> screen changed
+3:54  part 2  clicked button "" -> screen changed
+4:09  part 2  clicked button "④ Check & Practice" -> screen changed
+4:14  part 2  clicked button "① Derivation" -> screen changed
+4:18  part 2  clicked button "▶ Stage" -> screen changed
+4:28  part 2  clicked button "▶ Stage" -> screen changed
+4:38  part 2  clicked button "▶ Stage" -> screen changed
+4:48  part 2  clicked button "② Numbers & Demos" -> screen changed
+4:52  part 2  ticked a checkbox -> screen changed
+4:56  part 2  clicked button "▶ Sweep 0 → 15°" -> screen changed
+5:06  part 2  clicked button "③ Script & Spec" -> screen changed
+5:11  part 2  dragged a slider (starting at "24") through its whole range -> screen changed
+6:04  part 3  typed a written answer into the box "A simple pendulum with small-angle SHM. The system, forces a" -> screen changed
+6:14  part 3  typed a written answer into the box "theta zero in radians" -> screen changed
+6:24  part 3  picked an option in a drop-down -> screen changed
+6:28  part 3  picked an option in a drop-down -> screen changed
+9:07  part 3  picked an option in a drop-down -> screen changed
+9:11  part 3  picked an option in a drop-down -> screen changed
+9:14  part 3  picked an option in a drop-down -> screen changed
+9:18  part 3  selected choice "above" -> screen changed
+9:54  part 4  clicked button "0 · Protocol ●●●●" -> screen changed
+9:59  part 4  clicked button "A · Half-pipe ●●●○" -> screen changed
+10:03  part 4  dragged a slider (starting at "1") through its whole range -> screen changed
+10:20  part 4  clicked button "▶ Play the swing" -> screen changed
+10:31  part 4  clicked button "B · Gravity train ●●○○" -> screen changed
+10:46  part 4  typed a written answer into the box "" -> screen changed
+10:59  part 4  typed a written answer into the box "" -> screen changed
+11:18  part 4  ticked a checkbox -> the control could not be operated; screen changed
+11:25  part 4  dragged a slider (starting at "1") through its whole range -> screen changed
+11:49  part 4  clicked button "▶ Release both trains" -> screen changed
+12:01  part 4  clicked button "Check" -> screen changed
+12:05  part 4  clicked button "▤ Organizer drawer" -> screen changed
+12:19  part 4  closed a pop-up (escape) -> pop-up closed
+12:20  part 4  closed a pop-up (close button) -> pop-up closed
+12:20  part 4  clicked button "London–Sydney" -> screen changed
+16:01  part 5  clicked button "0 · Commit" -> no visible change
+16:07  part 5  clicked button "We do · Freeze frames" -> screen changed
+16:12  part 5  clicked button "The small-angle promise" -> screen changed
+16:17  part 5  dragged a slider (starting at "15") through its whole range -> screen changed
+16:39  part 5  clicked button "I do · Procedural slips" -> screen changed
+16:45  part 5  clicked button "Next thought →" -> screen changed
+16:50  part 5  clicked button "Next thought →" -> screen changed
+16:56  part 5  clicked button "Next thought →" -> screen changed
+17:01  part 5  clicked button "Next thought →" -> screen changed
+17:17  part 5  ticked a checkbox -> screen changed
+17:22  part 5  clicked button "·M1" -> screen changed
+17:28  part 5  clicked button "·M7" -> screen changed
+17:33  part 5  clicked button "·M17" -> screen changed
+17:49  part 5  ticked a checkbox -> screen changed
+18:23  part 6  typed a written answer into the box "restoring force expression" -> screen changed
+18:41  part 6  typed a written answer into the box "small angle coefficient" -> screen changed
+18:57  part 6  picked an option in a drop-down -> screen changed
+19:01  part 6  picked an option in a drop-down -> screen changed
+19:05  part 6  picked an option in a drop-down -> screen changed
+19:09  part 6  picked an option in a drop-down -> screen changed
+19:14  part 6  picked an option in a drop-down -> screen changed
+19:18  part 6  ticked a checkbox -> screen changed
+19:23  part 6  clicked button "0 · Recall" -> screen changed
+19:28  part 6  clicked button "Summary" -> screen changed

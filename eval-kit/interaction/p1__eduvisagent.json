@@ -1,0 +1,1652 @@
+{
+ "lesson": "p1",
+ "offset": -2,
+ "actions": 163,
+ "noVisibleChange": 7,
+ "withPageError": 0,
+ "deadOrError": 7,
+ "loadErrors": 0,
+ "recorderCouldNotUse": 14,
+ "deadByOffset": {
+  "0": 9,
+  "-3": 13,
+  "-2.5": 10,
+  "-2": 7,
+  "-1.5": 8,
+  "-1": 9,
+  "-0.5": 7
+ },
+ "loadErrorMessages": [],
+ "items": [
+  {
+   "t": 13.6,
+   "part": 1,
+   "kind": "button",
+   "label": "F Find",
+   "change": 0.134,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 15.9,
+   "part": 1,
+   "kind": "range",
+   "label": "1.2",
+   "change": 0.0318,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 27,
+   "part": 1,
+   "kind": "button",
+   "label": "Continue to Beat 2 →",
+   "change": 0.1039,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 28.9,
+   "part": 1,
+   "kind": "text",
+   "label": "e.g. a reason, not just more rows…",
+   "change": 0.1017,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 33.3,
+   "part": 1,
+   "kind": "button",
+   "label": "zoom [0.998, 1.000]",
+   "change": 0.0058,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 35.3,
+   "part": 1,
+   "kind": "button",
+   "label": "[0.95, 1.00]",
+   "change": 0.0059,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 37,
+   "part": 1,
+   "kind": "button",
+   "label": "50%",
+   "change": 0.091,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 50.8,
+   "part": 1,
+   "kind": "button",
+   "label": "Plug in 𝑥 = 0 x=0",
+   "change": 0.0726,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 55,
+   "part": 1,
+   "kind": "button",
+   "label": "80%",
+   "change": 0.087,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 59,
+   "part": 1,
+   "kind": "button",
+   "label": "closer to 1",
+   "change": 0.0054,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 61.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Reveal next row",
+   "change": 0.073,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 72.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Yes",
+   "change": 0.0539,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 76.3,
+   "part": 1,
+   "kind": "button",
+   "label": "No",
+   "change": 0.0525,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 79.9,
+   "part": 1,
+   "kind": "button",
+   "label": "RAD",
+   "change": 0.0537,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 92.8,
+   "part": 1,
+   "kind": "button",
+   "label": "DEG",
+   "change": 0.0614,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 105.6,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 107.1,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0294,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 108.8,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0346,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 110.4,
+   "part": 1,
+   "kind": "range",
+   "label": "0.85",
+   "change": 0.0935,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 119.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Send the trap to the corner icon →",
+   "change": 0.1258,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 133,
+   "part": 1,
+   "kind": "button",
+   "label": "Send the trap to the corner icon →",
+   "change": 0.1336,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 146.1,
+   "part": 1,
+   "kind": "button",
+   "label": "Send the trap to the corner icon →",
+   "change": 0.1337,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 159,
+   "part": 1,
+   "kind": "button",
+   "label": "Send the trap to the corner icon →",
+   "change": 0.1336,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 162.3,
+   "part": 1,
+   "kind": "button",
+   "label": "Send the trap to the corner icon →",
+   "change": 0.1171,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 165.8,
+   "part": 1,
+   "kind": "button",
+   "label": "Send the trap to the corner icon →",
+   "change": 0.1171,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 188.7,
+   "part": 1,
+   "kind": "range",
+   "label": "0.6",
+   "change": 0.0162,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 236.2,
+   "part": 2,
+   "kind": "range",
+   "label": "0.8",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 246,
+   "part": 2,
+   "kind": "button",
+   "label": "2 · Construct",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 247.6,
+   "part": 2,
+   "kind": "button",
+   "label": "4 · Overlay",
+   "change": 0.0944,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 249.2,
+   "part": 2,
+   "kind": "button",
+   "label": "Overlay ⇄ side-by-side",
+   "change": 0.1048,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 251,
+   "part": 2,
+   "kind": "button",
+   "label": "3 · Slider",
+   "change": 0.0821,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 253.2,
+   "part": 2,
+   "kind": "button",
+   "label": "5 · Labels",
+   "change": 0.047,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 254.8,
+   "part": 2,
+   "kind": "button",
+   "label": "6 · Squeeze",
+   "change": 0.0405,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 256.6,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal next line",
+   "change": 0.0097,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 258.1,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal next line",
+   "change": 0.0495,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 259.7,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal next line",
+   "change": 0.0539,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 261.2,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal next line",
+   "change": 0.028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 262.8,
+   "part": 2,
+   "kind": "button",
+   "label": "Reveal next line",
+   "change": 0.1759,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 274,
+   "part": 2,
+   "kind": "button",
+   "label": "step ▶",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 275.4,
+   "part": 2,
+   "kind": "button",
+   "label": "step ▶",
+   "change": 0.0001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 276.9,
+   "part": 2,
+   "kind": "button",
+   "label": "step ▶",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 278.3,
+   "part": 2,
+   "kind": "button",
+   "label": "step ▶",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 279.9,
+   "part": 2,
+   "kind": "button",
+   "label": "step ▶",
+   "change": 0.0087,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 281.7,
+   "part": 2,
+   "kind": "button",
+   "label": "step ▶",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 283.1,
+   "part": 2,
+   "kind": "button",
+   "label": "Test it at the test x",
+   "change": 0.1201,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 284.6,
+   "part": 2,
+   "kind": "button",
+   "label": "▶ play scene sweep",
+   "change": 0.0078,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 303.8,
+   "part": 2,
+   "kind": "range",
+   "label": "70",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 314.4,
+   "part": 2,
+   "kind": "button",
+   "label": "containment → Scene 2",
+   "change": 0.2609,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 325.9,
+   "part": 2,
+   "kind": "button",
+   "label": "𝑂 𝑀 = cos ⁡ 𝑥 OM=cosx",
+   "change": 0.0414,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 327.4,
+   "part": 2,
+   "kind": "button",
+   "label": "𝑂 𝐴 = 1 OA=1",
+   "change": 0.0616,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 342.8,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 344.3,
+   "part": 3,
+   "kind": "button",
+   "label": "(a′) gap Very near Prediction from the 𝑥 2 / 2 x 2 /2 rule ",
+   "change": 0.0029,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 345.7,
+   "part": 3,
+   "kind": "button",
+   "label": "(c) tan x/x Near → medium The target ratio changes · 🧭 have",
+   "change": 0.0028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 347.1,
+   "part": 3,
+   "kind": "button",
+   "label": "(a) areas Very near Numbers and radius change · 📐 figure ch",
+   "change": 0.005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 348.5,
+   "part": 3,
+   "kind": "button",
+   "label": "§3.1 Problem",
+   "change": 0.1394,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 349.9,
+   "part": 3,
+   "kind": "button",
+   "label": "Check",
+   "change": 0.1467,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 351.4,
+   "part": 3,
+   "kind": "button",
+   "label": "Dilation slider (b)",
+   "change": 0.1133,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 362.4,
+   "part": 3,
+   "kind": "select",
+   "label": "— Unchanged Needs adapting Same idea, new walls",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 363.8,
+   "part": 3,
+   "kind": "select",
+   "label": "— Unchanged Needs adapting Same idea, new walls",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 365.2,
+   "part": 3,
+   "kind": "select",
+   "label": "— Unchanged Needs adapting Same idea, new walls",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 366.6,
+   "part": 3,
+   "kind": "select",
+   "label": "— Unchanged Needs adapting Same idea, new walls",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 368,
+   "part": 3,
+   "kind": "button",
+   "label": "Check steps",
+   "change": 0.0593,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 369.6,
+   "part": 3,
+   "kind": "button",
+   "label": "1 rad",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 371.1,
+   "part": 3,
+   "kind": "button",
+   "label": "0.2 rad",
+   "change": 0.0039,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 372.6,
+   "part": 3,
+   "kind": "button",
+   "label": "Have / need (c)",
+   "change": 0.1175,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 383.8,
+   "part": 3,
+   "kind": "text",
+   "label": "0.0000",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 390.1,
+   "part": 3,
+   "kind": "text",
+   "label": "0.0000",
+   "change": 0.0039,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 399.4,
+   "part": 3,
+   "kind": "text",
+   "label": "0.0000",
+   "change": 0.0038,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 407.2,
+   "part": 3,
+   "kind": "text",
+   "label": "What do I have? What do I need?",
+   "change": 0.0192,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 414,
+   "part": 3,
+   "kind": "button",
+   "label": "I’m stuck, show the solution",
+   "change": 0.1208,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 415.7,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1076,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 417.5,
+   "part": 3,
+   "kind": "range",
+   "label": "0.61",
+   "change": 0.006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 428.8,
+   "part": 3,
+   "kind": "button",
+   "label": "🧑‍🏫 I Do — (a₀),(a)",
+   "change": 0.0167,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 430.3,
+   "part": 3,
+   "kind": "button",
+   "label": "🤝 We Do — (a′),(b),(c)",
+   "change": 0.093,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 432.1,
+   "part": 3,
+   "kind": "text",
+   "label": "e.g. 2",
+   "change": 0.0031,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 436.8,
+   "part": 3,
+   "kind": "text",
+   "label": "1/2 r^2 x",
+   "change": 0.0046,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 441.9,
+   "part": 3,
+   "kind": "text",
+   "label": "1/2 r^2",
+   "change": 0.0028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 456.4,
+   "part": 3,
+   "kind": "range",
+   "label": "1",
+   "change": 0.0026,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 466.1,
+   "part": 3,
+   "kind": "button",
+   "label": "▶ Sweep 1→3",
+   "change": 0.0131,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 486.3,
+   "part": 3,
+   "kind": "text",
+   "label": "sin x",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 491.7,
+   "part": 3,
+   "kind": "text",
+   "label": "cos x",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 496.4,
+   "part": 3,
+   "kind": "select",
+   "label": "— ≤ ≥",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 497.9,
+   "part": 3,
+   "kind": "button",
+   "label": "Test at 𝑥 = 0.2 x=0.2",
+   "change": 0.0555,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 499.8,
+   "part": 3,
+   "kind": "button",
+   "label": "(A) Divide 𝑥 ≤ tan ⁡ 𝑥 x≤tanx by 𝑥 > 0 x>0",
+   "change": 0.0488,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 501.8,
+   "part": 3,
+   "kind": "button",
+   "label": "(B) Divide 𝑥 ≤ tan ⁡ 𝑥 x≤tanx by tan ⁡ 𝑥 tanx",
+   "change": 0.0514,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 503.8,
+   "part": 3,
+   "kind": "button",
+   "label": "(C) Divide sin ⁡ 𝑥 ≤ 𝑥 sinx≤x by sin ⁡ 𝑥 sinx",
+   "change": 0.1146,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 515.7,
+   "part": 3,
+   "kind": "text",
+   "label": "1.0136",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 520.5,
+   "part": 3,
+   "kind": "text",
+   "label": "1.0203",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 525.9,
+   "part": 3,
+   "kind": "text",
+   "label": "Route 1 hides a reciprocal flip; Route 2 only multiplies by ",
+   "change": 0.0165,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 530,
+   "part": 3,
+   "kind": "select",
+   "label": "match… tan x / x 1 / cos x",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 531.4,
+   "part": 3,
+   "kind": "select",
+   "label": "match… tan x / x 1 / cos x",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 532.8,
+   "part": 3,
+   "kind": "button",
+   "label": "Check",
+   "change": 0.0845,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 534.5,
+   "part": 3,
+   "kind": "button",
+   "label": "Check",
+   "change": 0.0377,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 536,
+   "part": 3,
+   "kind": "button",
+   "label": "Route 1 · area route flips: 1",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 537.4,
+   "part": 3,
+   "kind": "button",
+   "label": "Route 2 · product route flips: 0",
+   "change": 0.1194,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 538.8,
+   "part": 3,
+   "kind": "text",
+   "label": "1.0136",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 543.3,
+   "part": 3,
+   "kind": "text",
+   "label": "1.0203",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 650.8,
+   "part": 4,
+   "kind": "text",
+   "label": "Write one sentence…",
+   "change": 0.005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 655.5,
+   "part": 4,
+   "kind": "text",
+   "label": "write the relation…",
+   "change": 0.0207,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 660.6,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… the constant D (the disk’s area) the polygon areas t",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 662.2,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… inscribed n-gon circumscribed n-gon the disk",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 663.5,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… the disk one wedge the inscribed n-gon",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 664.9,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… circumscribed n-gon inscribed n-gon the disk",
+   "change": 0.0122,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 666.4,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… inscribed ⊂ disk ⊂ circumscribed disk ⊂ inscribed ⊂ ",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 668,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… n → ∞ n → 0 θ → π",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 669.5,
+   "part": 4,
+   "kind": "select",
+   "label": "choose… cos θ → 1 the table says so they never do",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 670.9,
+   "part": 4,
+   "kind": "radio",
+   "label": "deep",
+   "change": 0.0032,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 672.4,
+   "part": 4,
+   "kind": "button",
+   "label": "Commit answer & unlock",
+   "change": 0.1143,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 683.6,
+   "part": 4,
+   "kind": "range",
+   "label": "6",
+   "change": 0.0253,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 696.5,
+   "part": 4,
+   "kind": "button",
+   "label": "▶ Sweep 3→96",
+   "change": 0.0257,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 701.8,
+   "part": 4,
+   "kind": "button",
+   "label": "Save my map",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 703.4,
+   "part": 4,
+   "kind": "button",
+   "label": "True scale",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 704.9,
+   "part": 4,
+   "kind": "button",
+   "label": "Radial stretch ×1000",
+   "change": 0.1102,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 716.1,
+   "part": 4,
+   "kind": "text",
+   "label": "I(n) = … C(n) = …",
+   "change": 0.0033,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 724.3,
+   "part": 4,
+   "kind": "text",
+   "label": "Reason for each containment…",
+   "change": 0.005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 734,
+   "part": 4,
+   "kind": "button",
+   "label": "Submit attempt → unlock hints",
+   "change": 0.126,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 745.7,
+   "part": 4,
+   "kind": "button",
+   "label": "▶ Try to snap onto the lesson figure",
+   "change": 0.064,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 748.7,
+   "part": 4,
+   "kind": "button",
+   "label": "🧑‍🏫 I Do — hexagon",
+   "change": 0.0028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 750.2,
+   "part": 4,
+   "kind": "button",
+   "label": "🤝 We Do — general 𝑛 n",
+   "change": 0.0922,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 752,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 758.4,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 764,
+   "part": 4,
+   "kind": "text",
+   "label": "?",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 771.1,
+   "part": 4,
+   "kind": "select",
+   "label": "— OAP OAQ OMP",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 772.6,
+   "part": 4,
+   "kind": "select",
+   "label": "— θ 2θ",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 774,
+   "part": 4,
+   "kind": "select",
+   "label": "— 1 cos θ sin θ",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 775.5,
+   "part": 4,
+   "kind": "select",
+   "label": "— OAP OAQ OMP",
+   "change": 0.0872,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 813.8,
+   "part": 5,
+   "kind": "text",
+   "label": "number or keyword…",
+   "change": 0.18,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 826.9,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0033,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 828.8,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 830.3,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 831.8,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 833.3,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 834.7,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 836.2,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 837.7,
+   "part": 5,
+   "kind": "button",
+   "label": "D2 Picture check",
+   "change": 0.126,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 839.3,
+   "part": 5,
+   "kind": "button",
+   "label": "D3 Sign check",
+   "change": 0.0061,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 840.9,
+   "part": 5,
+   "kind": "button",
+   "label": "D4 Number & order test",
+   "change": 0.0561,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 842.7,
+   "part": 5,
+   "kind": "button",
+   "label": "D5 Limit check",
+   "change": 0.1812,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 863.8,
+   "part": 5,
+   "kind": "range",
+   "label": "50",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 877.5,
+   "part": 5,
+   "kind": "button",
+   "label": "D2 Picture check",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 879.2,
+   "part": 5,
+   "kind": "button",
+   "label": "D3 Sign check",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 880.8,
+   "part": 5,
+   "kind": "button",
+   "label": "D4 Number & order test",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 882.4,
+   "part": 5,
+   "kind": "button",
+   "label": "D5 Limit check",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 884,
+   "part": 5,
+   "kind": "button",
+   "label": "D1 Units & mode",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 885.5,
+   "part": 5,
+   "kind": "button",
+   "label": "D6 Claim & source audit",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 887.1,
+   "part": 5,
+   "kind": "button",
+   "label": "Save to Thinking Log",
+   "change": 0.1043,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 898.5,
+   "part": 5,
+   "kind": "text",
+   "label": "Search: reciprocal, degree, #17 …",
+   "change": 0.0699,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 908.8,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0027,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 910.2,
+   "part": 5,
+   "kind": "button",
+   "label": "F",
+   "change": 0.0176,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 911.7,
+   "part": 5,
+   "kind": "button",
+   "label": "O",
+   "change": 0.0177,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 913.2,
+   "part": 5,
+   "kind": "button",
+   "label": "P",
+   "change": 0.1012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 924.2,
+   "part": 5,
+   "kind": "range",
+   "label": "0.4",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 935.3,
+   "part": 5,
+   "kind": "button",
+   "label": "▶ Sweep",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 956.1,
+   "part": 5,
+   "kind": "range",
+   "label": "0.5",
+   "change": 0.099,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 980.3,
+   "part": 5,
+   "kind": "range",
+   "label": "0.8",
+   "change": 0.0044,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1159.7,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1165.2,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1170,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1174.6,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0181,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1179.5,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1184.2,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1189,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0062,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1194.1,
+   "part": 6,
+   "kind": "range",
+   "label": "50",
+   "change": 0.019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

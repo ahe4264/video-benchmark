@@ -1,0 +1,782 @@
+{
+ "lesson": "p8",
+ "offset": 0,
+ "actions": 75,
+ "noVisibleChange": 2,
+ "withPageError": 0,
+ "deadOrError": 2,
+ "loadErrors": 0,
+ "recorderCouldNotUse": 4,
+ "deadByOffset": {
+  "0": 2,
+  "-3": 3,
+  "-2.5": 3,
+  "-2": 4,
+  "-1.5": 4,
+  "-1": 4,
+  "-0.5": 5
+ },
+ "loadErrorMessages": [],
+ "items": [
+  {
+   "t": 17.6,
+   "part": 1,
+   "kind": "button",
+   "label": "Compare with a gasoline engine",
+   "change": 0.0175,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 21.7,
+   "part": 1,
+   "kind": "button",
+   "label": "🔍⁴",
+   "change": 0.0132,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 25.9,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0153,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 29.7,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 33.6,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 37.8,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1182,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 52.1,
+   "part": 1,
+   "kind": "button",
+   "label": "▸ Self-check: energy direction",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 55.9,
+   "part": 1,
+   "kind": "text",
+   "label": "Your reasoning…",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 63.3,
+   "part": 1,
+   "kind": "button",
+   "label": "Highlight electrolysis",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 67.1,
+   "part": 1,
+   "kind": "button",
+   "label": "Compare with expert answer",
+   "change": 0.0418,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 71,
+   "part": 1,
+   "kind": "button",
+   "label": "Highlight recombination",
+   "change": 0.0928,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 84.7,
+   "part": 1,
+   "kind": "radio",
+   "label": "A",
+   "change": 0.9502,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 88.4,
+   "part": 1,
+   "kind": "button",
+   "label": "Lock in answer",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 95.8,
+   "part": 1,
+   "kind": "close-popup",
+   "label": "escape",
+   "change": 0.0091,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 105.6,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Route A",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 115.6,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Route B",
+   "change": 0.006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 125.6,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Both",
+   "change": 0.0059,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 135.4,
+   "part": 1,
+   "kind": "button",
+   "label": "📌 Pin two-route diagram to sidebar",
+   "change": 0.1026,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 148.8,
+   "part": 1,
+   "kind": "text",
+   "label": "e.g., Something between them lets part of the hydrogen throu",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 156,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 162.9,
+   "part": 1,
+   "kind": "range",
+   "label": "3",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 174.3,
+   "part": 1,
+   "kind": "button",
+   "label": "Save prediction card",
+   "change": 0.0165,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 701,
+   "part": 2,
+   "kind": "text",
+   "label": "My idea…",
+   "change": 0.2803,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 706.6,
+   "part": 2,
+   "kind": "text",
+   "label": "What would prove me wrong?",
+   "change": 0.2801,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 712.2,
+   "part": 2,
+   "kind": "radio",
+   "label": "A",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 715.9,
+   "part": 2,
+   "kind": "range",
+   "label": "3",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 727.3,
+   "part": 2,
+   "kind": "button",
+   "label": "Save prediction",
+   "change": 0.282,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 732.8,
+   "part": 2,
+   "kind": "button",
+   "label": "6.ConsolidationTransfer",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 736.5,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 742.6,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 748.9,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 755.3,
+   "part": 2,
+   "kind": "text",
+   "label": "…",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 761.8,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0168,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 767.9,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0059,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 784.2,
+   "part": 2,
+   "kind": "text",
+   "label": "9.72e-6",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 806.6,
+   "part": 3,
+   "kind": "button",
+   "label": "Near transfer 近迁移 ⓘ",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 810.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Learner",
+   "change": 0.0231,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 815,
+   "part": 3,
+   "kind": "button",
+   "label": "⏸ Pause flow",
+   "change": 0.2194,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 828.5,
+   "part": 3,
+   "kind": "text",
+   "label": "device? reactions? relationships?",
+   "change": 0.0028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 834.8,
+   "part": 3,
+   "kind": "text",
+   "label": "only numbers and story — or something else?",
+   "change": 0.0028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 841.2,
+   "part": 3,
+   "kind": "text",
+   "label": "why?",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 847.7,
+   "part": 3,
+   "kind": "text",
+   "label": "why?",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 854.3,
+   "part": 3,
+   "kind": "text",
+   "label": "why?",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 864.4,
+   "part": 3,
+   "kind": "text",
+   "label": "why?",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 871.3,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 875.1,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 878.7,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 882.4,
+   "part": 3,
+   "kind": "button",
+   "label": "Step 0 · plan",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 886.8,
+   "part": 3,
+   "kind": "button",
+   "label": "(a) 🔒",
+   "change": 0.0197,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 891.7,
+   "part": 3,
+   "kind": "button",
+   "label": "(b) 🔒",
+   "change": 0.1813,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 914.1,
+   "part": 4,
+   "kind": "text",
+   "label": "One or two sentences…",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 920.4,
+   "part": 4,
+   "kind": "select",
+   "label": "Learner Teacher / Designer",
+   "change": 0.0149,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 924.1,
+   "part": 4,
+   "kind": "button",
+   "label": "Over the top, through the meter",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 927.9,
+   "part": 4,
+   "kind": "button",
+   "label": "Straight across the blood",
+   "change": 0.0018,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 931.7,
+   "part": 4,
+   "kind": "button",
+   "label": "Through the spacer",
+   "change": 0.2224,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 945.5,
+   "part": 4,
+   "kind": "text",
+   "label": "what travels here",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 952.3,
+   "part": 4,
+   "kind": "text",
+   "label": "what travels here",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 958.8,
+   "part": 4,
+   "kind": "text",
+   "label": "what travels here",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 965,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 968.7,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 972.4,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 976.2,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 979.8,
+   "part": 4,
+   "kind": "check",
+   "label": "particle",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 983.5,
+   "part": 4,
+   "kind": "check",
+   "label": "flow",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 987.1,
+   "part": 4,
+   "kind": "check",
+   "label": "energy",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 990.9,
+   "part": 4,
+   "kind": "range",
+   "label": "3",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1055.1,
+   "part": 5,
+   "kind": "button",
+   "label": "Row 5 pin on the chain. Feed used where reacted is needed → ",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1235.1,
+   "part": 6,
+   "kind": "select",
+   "label": "Learner Present Teacher",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1238.9,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1194,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1242.8,
+   "part": 6,
+   "kind": "button",
+   "label": "Continue to 6.1 ▸",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1246.9,
+   "part": 6,
+   "kind": "text",
+   "label": "The problem",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1253.6,
+   "part": 6,
+   "kind": "text",
+   "label": "The solution",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1259.8,
+   "part": 6,
+   "kind": "text",
+   "label": "What the membrane does",
+   "change": 0.0018,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1265.8,
+   "part": 6,
+   "kind": "text",
+   "label": "What stays equal",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1271.9,
+   "part": 6,
+   "kind": "text",
+   "label": "What gets counted",
+   "change": 0.0113,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1277.9,
+   "part": 6,
+   "kind": "text",
+   "label": "Conditions",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

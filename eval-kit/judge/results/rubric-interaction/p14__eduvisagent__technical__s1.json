@@ -1,0 +1,51 @@
+{
+  "topic": "p14",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:56.624Z",
+  "seconds": 98,
+  "result": {
+    "evidence": "At 0:02, the Anchor panel on the right side of the screen displays raw LaTeX code for several symbols (e.g., \\mathbf{x}, \\mathbf{z}_t, \\boldsymbol{\\epsilon}) instead of rendering them. This panel remains visible and broken across multiple parts of the lesson. At 6:12, in the '2.0 - Conventions (final)' section, the text 'If I copied Ho's \\alpha_t into Prince's equation...' displays raw LaTeX code for \\alpha_t. The interaction log notes a few instances of 'no visible change' (e.g., 0:28, 21:42), but these occur when clicking UI elements that are already in the selected state, which is expected behavior.",
+    "issues": [
+      {
+        "timestamp": "0:02",
+        "description": "The Anchor panel displays raw LaTeX code for symbols (e.g., \\mathbf{x}, \\mathbf{z}_t) instead of rendering them. This persists whenever the panel is visible.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "6:12",
+        "description": "The text under '2.0 - Conventions (final)' displays raw LaTeX code '\\alpha_t' instead of the rendered symbol.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has several major problems, specifically raw LaTeX code displayed instead of rendered content in multiple distinct locations (the persistent Anchor panel and the Conventions text).",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 381619,
+    "candidatesTokenCount": 357,
+    "totalTokenCount": 389354,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4099
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 377520
+      }
+    ],
+    "thoughtsTokenCount": 7378,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 392108
+  }
+}

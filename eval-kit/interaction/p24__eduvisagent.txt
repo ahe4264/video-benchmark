@@ -1,0 +1,189 @@
+Interaction log: 181 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 6 of 181 inputs produced no visible change; 0 raised a page error.
+
+0:14  part 1  ticked a checkbox -> screen changed
+0:25  part 1  typed a number into "" -> screen changed
+0:27  part 1  typed a number into "" -> screen changed
+0:28  part 1  clicked button "Isolate block A" -> screen changed
+0:29  part 1  clicked button "Isolate block B" -> screen changed
+0:31  part 1  clicked button "↗" -> screen changed
+0:42  part 1  typed a number into "" -> screen changed
+0:44  part 1  picked an option in a drop-down -> screen changed
+0:45  part 1  picked an option in a drop-down -> screen changed
+0:46  part 1  picked an option in a drop-down -> screen changed
+0:48  part 1  picked an option in a drop-down -> screen changed
+0:49  part 1  dragged a slider (starting at "3") through its whole range -> screen changed
+0:58  part 1  clicked button "🔒 Lock in prediction" -> screen changed
+1:09  part 1  typed a number into "" -> screen changed
+1:10  part 1  picked an option in a drop-down -> screen changed
+1:12  part 1  picked an option in a drop-down -> screen changed
+1:13  part 1  picked an option in a drop-down -> screen changed
+1:14  part 1  clicked button "Check inventory" -> screen changed
+1:25  part 1  clicked button "Check answers" -> screen changed
+1:27  part 1  clicked button "R" -> screen changed
+1:28  part 1  clicked button "I" -> screen changed
+1:30  part 1  clicked button "R" -> screen changed
+1:41  part 1  clicked button "Show both" -> screen changed
+1:42  part 1  clicked button "A’s FBD" -> screen changed
+1:43  part 1  clicked button "A’s FBD" -> screen changed
+1:45  part 1  clicked button "A’s FBD" -> screen changed
+1:55  part 1  dragged a slider (starting at "4") through its whole range -> screen changed
+2:05  part 1  dragged a slider (starting at "-4") through its whole range -> screen changed
+2:14  part 1  clicked button "▶ Sweep" -> screen changed
+2:16  part 1  clicked button "▶ Sweep" -> screen changed
+2:20  part 1  clicked button "◯ Isolate A" -> screen changed
+2:24  part 1  clicked button "◯ Isolate B" -> screen changed
+2:26  part 1  clicked button "⇄ Highlight contact-force pairs" -> screen changed
+4:37  part 2  ticked a checkbox -> screen changed
+4:39  part 2  ticked a checkbox -> screen changed
+4:40  part 2  ticked a checkbox -> screen changed
+4:42  part 2  clicked button "1 · Hook" -> screen changed
+4:43  part 2  clicked button "2A · I Do: A" -> screen changed
+4:45  part 2  clicked button "2B · We Do: B" -> screen changed
+4:56  part 2  typed a number into "Your answer" -> screen changed
+4:57  part 2  clicked button "Next scene ▶" -> screen changed
+4:59  part 2  clicked button "Check" -> screen changed
+5:00  part 2  clicked button "Block A: click to isolate" -> screen changed
+5:02  part 2  clicked button "Block B: click to isolate" -> screen changed
+5:03  part 2  clicked button "Shift the zero of the number line" -> screen changed
+5:14  part 2  typed a written answer into the box "" -> screen changed
+5:18  part 2  typed a written answer into the box "" -> screen changed
+5:22  part 2  clicked button "Next scene ▶" -> screen changed
+5:23  part 2  clicked button "Next scene ▶" -> screen changed
+5:24  part 2  clicked button "Submit" -> screen changed
+5:26  part 2  clicked button "▶ Play cycle" -> screen changed
+5:27  part 2  clicked button "Next ▶" -> screen changed
+5:29  part 2  clicked button "Next ▶" -> screen changed
+5:30  part 2  clicked button "Next ▶" -> screen changed
+5:31  part 2  clicked button "Start selecting" -> screen changed
+5:33  part 2  clicked button "Show examples" -> screen changed
+5:34  part 2  clicked button "■ Normal pair" -> screen changed
+5:45  part 2  clicked button "Next scene ▶" -> the control could not be operated; no visible change
+7:52  part 3  clicked button "0 · F" -> screen changed
+7:54  part 3  typed a written answer into the box "your reason" -> screen changed
+7:58  part 3  typed a written answer into the box "your reason" -> screen changed
+8:02  part 3  typed a number into "" -> screen changed
+8:04  part 3  typed a number into "" -> screen changed
+8:05  part 3  picked an option in a drop-down -> screen changed
+8:06  part 3  picked an option in a drop-down -> screen changed
+8:08  part 3  picked an option in a drop-down -> screen changed
+8:09  part 3  selected choice "1" -> screen changed
+8:10  part 3  clicked button "Same" -> screen changed
+8:12  part 3  clicked button "Yes" -> screen changed
+8:23  part 3  selected choice "2" -> no visible change
+8:24  part 3  clicked button "Check my sort" -> screen changed
+8:25  part 3  clicked button "Show the reasons" -> screen changed
+8:27  part 3  clicked button "Lock in" -> screen changed
+8:28  part 3  clicked button "D" -> screen changed
+8:29  part 3  clicked button "M" -> screen changed
+8:40  part 3  clicked button "I" -> screen changed
+8:41  part 3  clicked button "D" -> screen changed
+8:43  part 3  clicked button "M" -> screen changed
+8:58  part 4  ticked a checkbox -> screen changed
+9:00  part 4  ticked a checkbox -> screen changed
+9:01  part 4  clicked button "2 · O→P→S" -> screen changed
+9:02  part 4  typed a number into "" -> screen changed
+9:04  part 4  typed a number into "" -> screen changed
+9:06  part 4  clicked button "3 · Check 👤→👥" -> screen changed
+9:07  part 4  ticked a checkbox "count" -> screen changed
+9:09  part 4  ticked a checkbox "route" -> screen changed
+9:10  part 4  ticked a checkbox "rel" -> screen changed
+9:11  part 4  ticked a checkbox "receiver" -> screen changed
+9:13  part 4  ticked a checkbox "balance" -> screen changed
+9:14  part 4  clicked button "0 · Demo" -> screen changed
+9:25  part 4  selected choice "1" -> screen changed
+9:26  part 4  selected choice "1" -> screen changed
+9:28  part 4  selected choice "1" -> screen changed
+9:29  part 4  clicked button "Next ▶" -> screen changed
+9:30  part 4  clicked button "→" -> screen changed
+9:32  part 4  clicked button "Next ▶" -> screen changed
+9:33  part 4  clicked button "→" -> screen changed
+9:34  part 4  clicked button "Next ▶" -> screen changed
+9:36  part 4  clicked button "→" -> screen changed
+9:37  part 4  clicked button "Next ▶" -> screen changed
+9:38  part 4  clicked button "→" -> screen changed
+9:40  part 4  clicked button "Next ▶" -> screen changed
+11:23  part 4  selected choice "2" -> screen changed
+11:25  part 4  selected choice "2" -> screen changed
+11:26  part 4  selected choice "2" -> screen changed
+11:27  part 4  clicked button "→" -> no visible change
+11:29  part 4  clicked button "Next ▶" -> screen changed
+11:30  part 4  clicked button "→" -> screen changed
+11:32  part 4  clicked button "Open drawer" -> screen changed
+11:33  part 4  clicked button "▶ Play the yank" -> screen changed
+11:35  part 4  clicked button "Start 10 s timer" -> screen changed
+11:39  part 4  clicked button "🔒 Lock gut check" -> screen changed
+11:43  part 4  clicked button "ⓘ" -> screen changed
+11:46  part 4  clicked button "Add" -> screen changed
+11:58  part 4  selected choice "3" -> no visible change
+11:59  part 4  selected choice "3" -> screen changed
+12:01  part 4  clicked button "up" -> screen changed
+12:02  part 4  clicked button "down" -> screen changed
+12:04  part 4  clicked button "neither" -> screen changed
+12:19  part 5  clicked button "4 Quick-check" -> screen changed
+12:23  part 5  closed a pop-up (escape) -> pop-up closed
+12:24  part 5  closed a pop-up (click outside) -> pop-up closed
+12:25  part 5  closed a pop-up (click outside) -> pop-up closed
+12:25  part 5  closed a pop-up (forced hide) -> pop-up closed
+12:25  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:27  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:28  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:30  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:31  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:32  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:34  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:35  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:37  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:38  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:40  part 5  clicked button "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons" -> screen changed
+12:50  part 5  clicked button "Next ▸" -> screen changed
+12:52  part 5  clicked button "Next ▸" -> screen changed
+12:53  part 5  clicked button "Next ▸" -> screen changed
+12:54  part 5  clicked button "Next ▸" -> screen changed
+12:56  part 5  clicked button "Next ▸" -> screen changed
+12:57  part 5  clicked button "Next ▸" -> screen changed
+12:59  part 5  clicked button "Next ▸" -> screen changed
+13:00  part 5  clicked button "Next ▸" -> screen changed
+13:01  part 5  clicked button "Next ▸" -> screen changed
+13:03  part 5  clicked button "Next ▸" -> screen changed
+13:04  part 5  clicked button "Next ▸" -> screen changed
+13:05  part 5  clicked button "Next ▸" -> screen changed
+14:41  part 5  clicked button "Continue to Stage 2: the gates ▸" -> screen changed
+14:43  part 5  picked an option in a drop-down -> screen changed
+14:44  part 5  ticked a checkbox -> screen changed
+14:45  part 5  ticked a checkbox -> screen changed
+14:47  part 5  ticked a checkbox -> screen changed
+14:48  part 5  ticked a checkbox -> screen changed
+14:49  part 5  ticked a checkbox -> screen changed
+14:51  part 5  clicked button "Run through gates ▾" -> screen changed
+15:03  part 5  clicked button "Recolor by source" -> screen changed
+15:04  part 5  clicked button "◂ Back to the hunt" -> screen changed
+15:05  part 5  clicked button "🧑‍🏫 I Do" -> no visible change
+15:20  part 6  ticked a checkbox -> screen changed
+15:22  part 6  typed a written answer into the box "A rule…" -> screen changed
+15:25  part 6  typed a written answer into the box "A rule…" -> screen changed
+15:29  part 6  typed a written answer into the box "A rule…" -> screen changed
+15:33  part 6  clicked button "1 Rebuild" -> screen changed
+15:34  part 6  clicked button "1D Gap check" -> screen changed
+15:36  part 6  ticked a checkbox "1" -> screen changed
+15:37  part 6  ticked a checkbox "2" -> screen changed
+15:38  part 6  ticked a checkbox "3" -> screen changed
+15:40  part 6  ticked a checkbox "4" -> screen changed
+15:41  part 6  ticked a checkbox "5" -> screen changed
+15:42  part 6  ticked a checkbox "6" -> screen changed
+15:53  part 6  ticked a checkbox "7" -> screen changed
+15:54  part 6  ticked a checkbox "8" -> screen changed
+15:56  part 6  clicked button "Save my gaps" -> screen changed
+15:57  part 6  clicked button "Reveal" -> screen changed
+15:58  part 6  clicked button "Key ideas" -> no visible change
+16:00  part 6  clicked button "Visual sheet" -> screen changed
+16:01  part 6  ticked a checkbox -> screen changed
+16:03  part 6  ticked a checkbox -> screen changed
+16:04  part 6  ticked a checkbox -> screen changed
+16:05  part 6  ticked a checkbox -> screen changed
+16:07  part 6  ticked a checkbox -> screen changed
+16:17  part 6  picked an option in a drop-down -> screen changed
+16:19  part 6  picked an option in a drop-down -> screen changed
+16:20  part 6  ticked a checkbox -> screen changed
+16:21  part 6  clicked button "✨ Highlight structure" -> screen changed

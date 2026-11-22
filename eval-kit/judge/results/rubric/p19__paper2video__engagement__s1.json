@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:50.557Z",
+  "seconds": 22,
+  "result": {
+    "evidence": "0:00: Opens with confusing narration over a title slide. 0:23: Visuals show 'Motivation' but audio discusses 'Related Work'. The entire video (e.g., 1:05, 2:29, 3:03) consists of static slides with bullet points and tables. The narration is a monotonous reading of a script that does not match the visuals and sounds like a research paper, not a lesson. There is no hook or momentum.",
+    "score_reason": "The lesson is dull throughout and reads like slides, meaning a student would stop watching. It meets the lowest level, mapped to 3 per instructions.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 78647,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 79857,
+    "cachedContentTokenCount": 77797,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 651
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77996
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68876
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8576
+      }
+    ],
+    "thoughtsTokenCount": 1054,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 82882
+  }
+}

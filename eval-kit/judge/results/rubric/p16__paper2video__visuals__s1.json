@@ -1,0 +1,53 @@
+{
+  "topic": "p16",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:32.997Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "The video consists entirely of text slides with bullet points and tables (0:00-4:10). The only graphic is a static image of a DNA strand (0:19, 0:58, 1:54), which is unrelated to the topic of SN2 reactions.",
+    "score_reason": "The lesson fully meets Level 1 because visuals are mostly absent or unrelated to the concept, making it essentially text on screen.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 73233,
+    "candidatesTokenCount": 112,
+    "totalTokenCount": 74142,
+    "cachedContentTokenCount": 72307,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72469
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63993
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7968
+      }
+    ],
+    "thoughtsTokenCount": 797,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77202
+  }
+}

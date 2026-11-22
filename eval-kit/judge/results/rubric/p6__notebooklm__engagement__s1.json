@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:25:19.966Z",
+  "seconds": 56,
+  "result": {
+    "evidence": "0:26: The lesson opens by posing a clear question ('How to calculate total force at changing depths?'), creating initial pull.\n1:18: Variables are introduced using static diagrams, slowing the pace.\n2:45: A dense, static textbook page is displayed to explain the slicing strategy, resulting in a flat stretch.\n3:15: The breakdown of a single strip is clear but visually static.\n6:07: The lesson concludes with a thought-provoking question for the viewer.",
+    "score_reason": "The lesson has a clear opening that poses a relevant question, providing some pull. It holds attention overall but includes flat stretches, particularly when relying on static textbook images, which prevents it from achieving the good pace and variety required for the next level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 115085,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 117092,
+    "cachedContentTokenCount": 119538,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114437
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 106524
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12672
+      }
+    ],
+    "thoughtsTokenCount": 1826,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 121105
+  }
+}

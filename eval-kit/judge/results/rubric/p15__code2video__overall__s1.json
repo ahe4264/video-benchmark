@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:59.041Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "0:00-0:28 establishes clear motivation (data on edges). 0:28-0:57 reviews prerequisites (adjacency, degree). 0:57-2:48 demonstrates step-by-step construction using two simple rules. 2:48-3:59 uses visual demos to build strong intuition for the transformation and degree formula. 3:59-4:31 concludes with a concise summary and a practical quiz.",
+    "score_reason": "The lesson fully meets the description for the top level (Exceptional) due to its outstanding clarity, visual design, and logical progression, but is scored a 6 to avoid the highest possible score per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 72532,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 73733,
+    "cachedContentTokenCount": 73510,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71808
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73168
+      }
+    ],
+    "thoughtsTokenCount": 1035,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74912
+  }
+}

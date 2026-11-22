@@ -1,0 +1,35 @@
+Create a narrated educational video that teaches the textbook figure 'OChem_28_04_001'
+(organic chemistry). Target length: 60-120 seconds of narrated animation.
+LEARNING OBJECTIVE
+Analyze how the van der Waals radius of an R-group substituent dictates the steric bulk
+surrounding a chiral center. Visualize the spatial consequences of an SN2 reaction by
+observing the inversion of configuration when a stereochemical wedge is toggled to a
+dash.
+SCENE PLAN
+1. Hook — Observe a 3D molecular model of a chiral bromoalkane rotating to reveal the
+spatial crowding around its reactive center. This crowding dictates the molecule's
+reactivity and mechanism pathway.
+2. Construction — Build a central carbon atom bonded to a bromine atom, a hydrogen atom,
+a methyl group, and a variable R-group initially set to a methyl substituent. The target
+state displays a tetrahedral geometry with the bromine on a solid wedge and the hydrogen
+on a dashed bond.
+3. Demonstration — Change the R-group substituent from a methyl group to an ethyl,
+isopropyl, and finally a tert-butyl group to observe the resulting increase in steric
+bulk. As the carbon count of the R-group increases from one to four, the electron clouds
+of the substituent expand, reducing the available trajectory angle for an incoming
+nucleophile from 109.5 degrees to less than 90 degrees.
+4. Demonstration — Toggle the stereochemical wedge of the bromine atom to a dash to
+visualize the inversion of the chiral center. As the bond changes from a wedge pointing
+out of the plane to a dash pointing into the plane, the absolute configuration of the
+molecule flips from S to R, demonstrating the geometric result of a backside attack.
+5. Consolidation — Review how expanding the R-group from 15 atomic mass units to 57
+atomic mass units increases steric hindrance around the electrophilic carbon. Reiterate
+that toggling the leaving group from a wedge to a dash models the stereochemical
+inversion required in an SN2 mechanism.
+CONSTRAINTS
+- Render in 2D unless the figure is inherently 3D. Keep every axis, label and symbol
+legible at 720p; no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding.
+- Narration must be synchronised to the visual it describes.

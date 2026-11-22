@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:07.408Z",
+  "seconds": 43,
+  "result": {
+    "evidence": "0:00: Hook introduces coaxial cable context.\n0:24: Reviews C=Q/V with a visual analogy.\n0:59: Builds geometry step-by-step.\n1:36: Uses Gauss's law for E, integrates for V.\n2:34: Derives C from Q/V.\n3:11 & 4:02: Demonstrates effects of changing R1 and length.\n4:58: Concludes with a check.",
+    "score_reason": "The lesson is highly logical. Every step is motivated, builds on the previous, and introduces terms before use. Visual demonstrations make the formula easy to reconstruct. It meets the top level, but the score is compressed to avoid the extreme highest value.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 87806,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 89614,
+    "cachedContentTokenCount": 89109,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 87120
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 88770
+      }
+    ],
+    "thoughtsTokenCount": 1627,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 90592
+  }
+}

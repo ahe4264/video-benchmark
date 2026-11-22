@@ -1,0 +1,66 @@
+{
+  "topic": "p19",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:46:25.975Z",
+  "seconds": 44,
+  "result": {
+    "evidence": "The lesson renders mostly as intended, but there are a few minor visual glitches. At 1:01, a stray line appears briefly. At 3:35, the countdown timer skips a number. At 3:40, there is a brief text overlap.",
+    "issues": [
+      {
+        "timestamp": "1:01",
+        "description": "A small horizontal line artifact appears above the equals sign before the rest of the equation renders.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:35",
+        "description": "The countdown timer skips the number 2, going from 3 directly to 1.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:40",
+        "description": "The text '≈ 0.33 m' overlaps with another string briefly before resolving.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has several minor glitches, but the content remains readable and usable throughout.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 61164,
+    "candidatesTokenCount": 254,
+    "totalTokenCount": 66141,
+    "cachedContentTokenCount": 61677,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60192
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 972
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61332
+      }
+    ],
+    "thoughtsTokenCount": 4723,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63414
+  }
+}

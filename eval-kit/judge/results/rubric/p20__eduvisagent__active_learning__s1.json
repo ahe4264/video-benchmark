@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:04:30.037Z",
+  "seconds": 56,
+  "result": {
+    "evidence": "The lesson features numerous interactive elements requiring deep cognitive engagement: Predict-Observe-Explain cycles with simulations (0:18, 0:31, 1:07); a drag-and-drop task to sequence a derivation with specific feedback on incorrect logic (2:01, 2:10); calculation checks with targeted feedback on errors (4:26); error analysis tasks (5:41); transfer tasks mapping structural similarities (9:35); a dedicated section for diagnosing and repairing misconceptions (11:23); and blank-page retrieval practice (17:14).",
+    "score_reason": "The lesson fully meets the top level by consistently requiring the learner to perform key reasoning tasks (predicting, applying, exploring) at main steps, providing specific feedback tailored to their answers, and explicitly placing checks where misconceptions arise.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 304068,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 306177,
+    "cachedContentTokenCount": 309422,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 303336
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 309081
+      }
+    ],
+    "thoughtsTokenCount": 1912,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 312587
+  }
+}

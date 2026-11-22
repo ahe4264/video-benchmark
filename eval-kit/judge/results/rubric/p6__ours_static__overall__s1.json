@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:31.689Z",
+  "seconds": 133,
+  "result": {
+    "evidence": "The lesson builds logically from a horizontal plate (0:19) to a vertical one, breaking it into strips (2:33). It clearly connects the physical strips to a Riemann sum (5:25) and then to an integral (6:34). Interactive questions and draggable elements (e.g., 2:14, 6:17) reinforce learning. Visuals are clean and directly support the math.",
+    "score_reason": "The lesson is strong, clear, and well-made, effectively using interactive visuals to teach the core concept. It fully meets the 'Strong' level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 170365,
+    "candidatesTokenCount": 146,
+    "totalTokenCount": 171279,
+    "cachedContentTokenCount": 177029,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 169641
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 157903
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18784
+      }
+    ],
+    "thoughtsTokenCount": 768,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 179059
+  }
+}

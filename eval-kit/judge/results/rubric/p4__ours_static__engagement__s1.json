@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:50.167Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:03: Opening sets a task, providing a clear goal. 0:19-1:50: Steps through algorithm with blocks; questions (0:46, 1:03) aid engagement. 1:51-4:51: Repeats the same sequence with an array, creating a repetitive stretch. 4:52: Introduces code, adding variety. 6:58: Final summary provides insight into overall behavior.",
+    "score_reason": "Meets Level 4. The opening provides some pull with a clear task. Attention is held via interactivity and varied visuals. However, repeating the same number sequence in the first two scenes creates a flat stretch, preventing it from reaching Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 144848,
+    "candidatesTokenCount": 174,
+    "totalTokenCount": 147032,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144199
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "thoughtsTokenCount": 2010,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 152311
+  }
+}

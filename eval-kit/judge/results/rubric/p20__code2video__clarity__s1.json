@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:06.033Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:25: A dense block of text summarizing the math appears all at once before the visual derivation begins.\n0:28-1:17: The visual derivation builds step-by-step, introducing the optical axis, lenses, focal points, and calculating L, d, and M.\n1:14: The geometric step d = |f2|δo is shown visually but requires a moment to connect the concave lens diagram to the equation.\n1:22-3:46: Demonstrations show variables changing dynamically, requiring the viewer to split attention between the static text on the left and the moving diagrams on the right.",
+    "score_reason": "The lesson follows a sensible, logical order and builds the math step-by-step. However, presenting all the text upfront and the slightly rushed geometric derivation for the second lens require a moment's thought, keeping it from the level above.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 73288,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 76534,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 3037,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75689
+  }
+}

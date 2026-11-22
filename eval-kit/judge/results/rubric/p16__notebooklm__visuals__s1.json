@@ -1,0 +1,53 @@
+{
+  "topic": "p16",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:41.652Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:55: Unrelated DNA diagram used for meta-commentary. 1:49: Crowded room metaphor for steric bulk. 2:20: Step-by-step drawing of a chiral molecule. 3:43: Animation showing expanding clouds blocking a nucleophile. 4:14: Animation of backside attack causing stereochemical inversion.",
+    "score_reason": "The visuals are clean and effectively explain the core concepts through animations. However, the inclusion of meta-commentary with unrelated diagrams creates an uneven visual experience, keeping it from a higher level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 105956,
+    "candidatesTokenCount": 139,
+    "totalTokenCount": 107982,
+    "cachedContentTokenCount": 109910,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105192
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 97916
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 11648
+      }
+    ],
+    "thoughtsTokenCount": 1887,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 111528
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p1",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:02:01.909Z",
+  "seconds": 95,
+  "result": {
+    "evidence": "The lesson uses a structured 'F.O.P.S.' (Find, Organize, Plan, Solve) approach to guide the learner through the proof. It begins with a concrete anchor (0:15) and numerical evidence (0:28) before moving to the formal proof. The geometric construction is highly interactive and visual, clearly showing the relationship between the inner triangle, sector, and outer triangle (3:47-5:33). The lesson includes a 'near transfer' task (5:33-13:35) to apply the logic to a circle with radius 3, testing deep structure understanding. A 'debugging lab' (13:35-19:07) asks the learner to identify errors in flawed proofs, reinforcing the correct steps. Finally, it concludes with a metacognitive exercise to rebuild the proof from memory (19:07). The visuals are clear, and the interactive elements require active participation.",
+    "score_reason": "The lesson is exceptional, offering a highly interactive, visually clear, and pedagogically sound approach to a complex proof. It includes strong elements like transfer tasks and error analysis. The score is compressed from the top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 333370,
+    "candidatesTokenCount": 268,
+    "totalTokenCount": 334504,
+    "cachedContentTokenCount": 339288,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 338940
+      }
+    ],
+    "thoughtsTokenCount": 866,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 342666
+  }
+}

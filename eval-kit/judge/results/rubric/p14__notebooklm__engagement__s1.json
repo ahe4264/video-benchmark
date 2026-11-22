@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:42:50.699Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "0:00: Opening hooks the viewer by describing the U-Net as a 'magic trick'.\n0:58: Introduces a 'profound paradox' regarding micro vs. macro perception, creating a strong question.\n4:31: The sculptor analogy provides a clear moment of insight.\n7:27-8:05: A long, static slide explaining classifier-free guidance creates a noticeable lull.\nThroughout: The script is well-paced and uses good analogies, but the visuals are mostly static drawings, leading to several flat stretches.",
+    "score_reason": "The lesson features an opening that poses a clear question and uses analogies to maintain interest, but the reliance on static visuals creates some flat stretches that prevent it from reaching the next level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 175498,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 177470,
+    "cachedContentTokenCount": 182448,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 174849
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162745
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19360
+      }
+    ],
+    "thoughtsTokenCount": 1794,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 184451
+  }
+}

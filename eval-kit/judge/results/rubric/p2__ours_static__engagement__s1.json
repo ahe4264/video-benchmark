@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:24.053Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:03: The lesson opens by setting up a geometric scenario and asking, 'How much space is inside?' 0:48, 2:16, 3:41: Interactive questions are used to break up the explanation. 1:20, 5:01: Visual variety is introduced by filling the space with columns and rotating the 3D shape. The narration is delivered at a very slow, deliberate pace throughout.",
+    "score_reason": "The lesson fully meets Level 4. It has a clear opening with a question that provides some pull, and the interactive elements and visual changes help hold attention. However, the consistently slow pacing creates flat stretches, preventing it from reaching Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 161032,
+    "candidatesTokenCount": 169,
+    "totalTokenCount": 162063,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 160384
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "thoughtsTokenCount": 862,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 169279
+  }
+}

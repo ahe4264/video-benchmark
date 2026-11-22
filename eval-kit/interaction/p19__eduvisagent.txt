@@ -1,0 +1,97 @@
+Interaction log: 90 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 1x: "Cannot access 'RUNGS' before initialization". Whatever that code was meant to do may be missing or inert.
+Summary: 1 of 90 inputs produced no visible change; 7 raised a page error.
+
+0:15  part 1  ticked a checkbox -> screen changed
+0:19  part 1  clicked button "📓 My Notebook" -> screen changed
+0:25  part 1  closed a pop-up (escape) -> pop-up closed
+0:26  part 1  closed a pop-up (close button) -> pop-up closed
+0:36  part 1  typed a written answer into the box "Because…" -> screen changed
+0:42  part 1  selected choice "a" -> screen changed
+0:46  part 1  selected choice "Just guessing" -> screen changed
+0:50  part 1  clicked button "Save prediction & reveal the rays" -> screen changed
+0:54  part 1  clicked button "stencil (a) converge" -> screen changed
+0:57  part 1  clicked button "stencil (b) parallel" -> screen changed
+1:01  part 1  clicked button "stencil (c) diverge" -> screen changed
+1:15  part 1  clicked button "▶ Animate rays" -> screen changed
+1:25  part 1  clicked button "Perspective" -> screen changed
+1:29  part 1  clicked button "Orthographic" -> screen changed
+1:33  part 1  clicked button "Side by side" -> screen changed
+1:46  part 1  typed a written answer into the box "Our discussion…" -> screen changed
+1:57  part 1  clicked button "🙈 Cover the table" -> screen changed
+2:11  part 1  typed a written answer into the box "" -> screen changed
+2:19  part 1  typed a written answer into the box "" -> screen changed
+2:26  part 1  typed a written answer into the box "" -> screen changed
+2:33  part 1  ticked a checkbox -> screen changed
+2:46  part 1  typed a written answer into the box "x for corner A" -> screen changed
+2:53  part 1  typed a written answer into the box "y for corner A" -> screen changed
+2:59  part 1  ticked a checkbox -> screen changed
+3:13  part 1  typed a written answer into the box "x for corner B" -> screen changed
+3:19  part 1  typed a written answer into the box "y for corner B" -> screen changed
+4:09  part 2  clicked button "2 · Construct O" -> screen changed
+4:19  part 2  clicked button "3 · Rotate O→P" -> screen changed
+4:23  part 2  typed a number into "" -> screen changed
+4:26  part 2  selected choice "0" -> screen changed
+4:30  part 2  selected choice "0" -> screen changed
+4:34  part 2  clicked button "Lock in prediction" -> screen changed
+4:38  part 2  clicked button "4 · Blend P" -> screen changed
+4:42  part 2  clicked button "5 · Rulers S" -> screen changed
+4:45  part 2  typed a number into "" -> screen changed
+4:49  part 2  typed a number into "" -> screen changed
+4:53  part 2  typed a number into "" -> screen changed
+4:57  part 2  typed a number into "" -> screen changed
+5:10  part 2  typed a number into "" -> screen changed
+5:14  part 2  typed a number into "" -> screen changed
+7:46  part 3  typed a written answer into the box "your match…" -> screen changed
+7:53  part 3  typed a written answer into the box "your match…" -> screen changed
+7:59  part 3  typed a written answer into the box "your match…" -> screen changed
+8:06  part 3  typed a written answer into the box "your match…" -> screen changed
+8:11  part 3  typed a written answer into the box "your match…" -> screen changed
+8:18  part 3  typed a written answer into the box "your match…" -> screen changed
+8:25  part 3  typed a written answer into the box "your match…" -> screen changed
+8:33  part 3  clicked button "① Before 5′" -> screen changed
+8:37  part 3  clicked button "② Solve 20′" -> screen changed
+8:41  part 3  ticked a checkbox -> screen changed
+8:45  part 3  clicked button "③ Consolidate 10′" -> page error: "Cannot access 'OVCASES' before initialization"; screen changed
+8:58  part 3  clicked button "Go to stage →" -> page error: "Cannot access 'RUNGS' before initialization"; screen changed
+9:02  part 3  clicked button "Go to stage →" -> screen changed
+9:06  part 3  clicked button "Go to stage →" -> page error: "Cannot access 'RUNGS' before initialization"; screen changed
+9:09  part 3  clicked button "Go to stage →" -> screen changed
+9:13  part 3  clicked button "Go to stage →" -> page error: "Cannot access 'RUNGS' before initialization"; screen changed
+9:16  part 3  clicked button "Go to stage →" -> screen changed
+9:20  part 3  clicked button "Go to stage →" -> page error: "Cannot access 'RUNGS' before initialization"; screen changed
+9:23  part 3  clicked button "Go to stage →" -> screen changed
+9:27  part 3  clicked button "Go to stage →" -> page error: "Cannot access 'RUNGS' before initialization"; screen changed
+9:31  part 3  clicked button "Go to stage →" -> screen changed
+9:34  part 3  clicked button "Go to stage →" -> page error: "Cannot access 'RUNGS' before initialization"; screen changed
+9:38  part 3  clicked button "Go to stage →" -> screen changed
+11:55  part 4  typed a written answer into the box "rays, hospital" -> screen changed
+12:01  part 4  typed a written answer into the box "rays, synchrotron" -> screen changed
+12:08  part 4  typed a written answer into the box "meet, hospital" -> screen changed
+12:17  part 4  typed a written answer into the box "meet, synchrotron" -> screen changed
+12:23  part 4  typed a written answer into the box "plane, hospital" -> screen changed
+12:30  part 4  typed a written answer into the box "plane, synchrotron" -> screen changed
+12:36  part 4  typed a written answer into the box "Z, hospital" -> screen changed
+12:44  part 4  typed a written answer into the box "Z, synchrotron" -> screen changed
+12:51  part 4  selected choice "1" -> screen changed
+13:04  part 4  selected choice "2" -> screen changed
+13:08  part 4  ticked a checkbox -> screen changed
+13:11  part 4  dragged a slider (starting at "0") through its whole range -> screen changed
+13:23  part 4  dragged a slider (starting at "0.2") through its whole range -> screen changed
+17:42  part 5  typed a written answer into the box "search M-number or topic…" -> screen changed
+17:50  part 5  ticked a checkbox -> screen changed
+18:03  part 5  picked an option in a drop-down -> no visible change
+18:07  part 5  ticked a checkbox -> the control could not be operated; screen changed
+18:12  part 5  ticked a checkbox -> the control could not be operated; screen changed
+18:18  part 5  ticked a checkbox -> the control could not be operated; screen changed
+18:24  part 5  typed a written answer into the box "Zooming multiplies both steps by the same factor, so…" -> the control could not be operated; screen changed
+18:29  part 5  clicked button "🔴" -> the control could not be operated; screen changed
+18:35  part 5  clicked button "🟡" -> the control could not be operated; screen changed
+18:40  part 5  clicked button "🟢" -> the control could not be operated; screen changed
+19:02  part 6  ticked a checkbox -> screen changed
+19:06  part 6  ticked a checkbox -> screen changed
+19:09  part 6  clicked button "Check my records are loaded" -> screen changed
+19:13  part 6  typed a written answer into the box "enter by hand (paper users)" -> screen changed
+19:20  part 6  clicked button "③ §6.3 Predict & reveal" -> screen changed
+19:24  part 6  clicked button "▶ Run queue" -> screen changed

@@ -1,0 +1,54 @@
+{
+  "topic": "p6",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:30.747Z",
+  "seconds": 378,
+  "result": {
+    "evidence": "Watched the full lesson. Layout, rendering, interactions, playback, and audio all function flawlessly without any visible or audible glitches.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level description, with no visible technical problems, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 170610,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 172278,
+    "cachedContentTokenCount": 177029,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 169641
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 157903
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18784
+      }
+    ],
+    "thoughtsTokenCount": 1592,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 179482
+  }
+}

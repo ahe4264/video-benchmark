@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:06:54.961Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "The video uses rhetorical questions (0:24). At the end (6:14), it asks a 'thought experiment' question ('What happens to distances if we run a 5th pass?') but provides no mechanism to answer and no follow-up or feedback.",
+    "score_reason": "The lesson only contains rhetorical questions and a thought prompt without follow-up, meeting the criteria for the second level. It lacks genuine checks.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 120666,
+    "candidatesTokenCount": 108,
+    "totalTokenCount": 121716,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119933
+      }
+    ],
+    "thoughtsTokenCount": 942,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126960
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:01:11.002Z",
+  "seconds": 51,
+  "result": {
+    "evidence": "The interactive lesson uses a 'black box' hook (0:01) and connects to prior knowledge of electrolysis (0:42). It embeds active learning via predictions (0:55, 2:18) and energy diagrams (1:14). It extensively tests understanding through near-transfer (bench test, 13:13) and far-transfer (glucose meter, 15:01) tasks. It also features a comprehensive misconception clinic (17:22) and a metacognitive exit ticket (20:21). The structure, visuals, and scaffolding are highly effective.",
+    "score_reason": "The lesson fully meets the 'Strong' level. It is clear, correct, and well-made, utilizing excellent pedagogical strategies like prediction, transfer tasks, and error analysis. It is an exceptional model lesson, but per instructions to compress scores and avoid the highest possible score, it receives a 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 340493,
+    "candidatesTokenCount": 216,
+    "totalTokenCount": 342132,
+    "cachedContentTokenCount": 346546,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 339768
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346203
+      }
+    ],
+    "thoughtsTokenCount": 1423,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 349978
+  }
+}

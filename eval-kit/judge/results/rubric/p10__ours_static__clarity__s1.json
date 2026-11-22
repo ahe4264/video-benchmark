@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:37.826Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:00-1:51: Builds analogies of particles (balls) and waves step-by-step.\n1:52-3:15: Applies wave interference to electrons, clearly showing path differences.\n3:16-6:08: Demonstrates single electrons forming a wave pattern over time, introducing probability.\n6:09-8:02: Introduces the fringe spacing formula (Δy = λL / d) quickly without derivation (6:37), which is a briefly rushed step, though visuals support it.\n8:03-9:29: Clear summary of wave-particle duality.",
+    "score_reason": "The lesson is logical and step-by-step, but has one briefly rushed step when introducing the math formula. This fully meets Level 5.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 165430,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 167201,
+    "cachedContentTokenCount": 171913,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 1579,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173893
+  }
+}

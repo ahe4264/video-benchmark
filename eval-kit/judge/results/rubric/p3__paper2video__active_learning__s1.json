@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:19.356Z",
+  "seconds": 207,
+  "result": {
+    "evidence": "The video is a continuous presentation without any interactive elements or prompts for the viewer. A 'prediction question' is shown on screen at 3:09, but the narrator immediately provides the answer, making it rhetorical rather than an active task for the learner.",
+    "score_reason": "The lesson fully meets the lowest level because it is entirely passive and asks nothing of the learner.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 62710,
+    "candidatesTokenCount": 95,
+    "totalTokenCount": 63678,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61978
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "thoughtsTokenCount": 873,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66169
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:32.047Z",
+  "seconds": 42,
+  "result": {
+    "evidence": "0:46, 1:03, 4:12: Learner predicts movements and shifts. 3:04: Learner applies visual rules. 3:27, 6:25: Learner deduces and explains the loop invariant. 5:20: Learner identifies the stopping condition. 5:45: Learner writes the sorting code. 7:22: Learner predicts behavior for a sorted input. Feedback explains the reasoning (e.g., 0:55, 6:39).",
+    "score_reason": "The lesson consistently requires the learner to predict, apply, and explain at key steps, including a coding exercise, with explanatory feedback. It meets the top level, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 144933,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 147372,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144199
+      }
+    ],
+    "thoughtsTokenCount": 2253,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 152396
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:06:13.345Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "0:33: MC asks to apply concept of sin theta. 1:21: MC asks to explain why polar coordinates are used. 2:14, 2:36: MCs ask to predict intersection and curve positions. 3:14: Interactive prompt to find radius at an angle. 4:06: MC asks to predict intersection if cardioid swells. 4:39: Interactive prompt to rewrite formula. 5:37: MC asks to predict strip length behavior. 6:49: Interactive prompt to find angle for a specific strip length. 7:06: MC asks to explain why the integral share is 0. 7:53: MC asks to predict integral for a mirrored region. Feedback consistently explains reasoning (e.g., 0:46, 2:24, 2:48, 4:55, 8:10).",
+    "score_reason": "The lesson requires the learner to perform key reasoning at main steps through predicting, applying, explaining, and exploring hands-on. Feedback explains the 'why' for specific answers, fully meeting the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 149278,
+    "candidatesTokenCount": 265,
+    "totalTokenCount": 151693,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148546
+      }
+    ],
+    "thoughtsTokenCount": 2150,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156951
+  }
+}

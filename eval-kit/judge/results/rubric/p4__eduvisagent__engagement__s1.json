@@ -1,0 +1,49 @@
+{
+  "topic": "p4",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:08:37.884Z",
+  "seconds": 128,
+  "result": {
+    "evidence": "The lesson opens with a card sorting scenario (0:02). It uses interactive prediction (0:17) and live array tracing (1:49). An insight connects shifts to inversions (3:14). However, long, repetitive sections involve tracing the algorithm step-by-step (3:45-7:22) and repeating this on a new array (7:23-10:48). The 'Far transfer' section (10:49) introduces a new scenario but uses similar repetitive table-filling.",
+    "score_reason": "The lesson has a clear opening with some pull and includes moments of insight. However, the extensive, repetitive tracing exercises create significant flat stretches that hinder momentum, keeping it from Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 327746,
+    "candidatesTokenCount": 179,
+    "totalTokenCount": 330357,
+    "cachedContentTokenCount": 333635,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 327096
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 650
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 333291
+      }
+    ],
+    "thoughtsTokenCount": 2432,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336895
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:50.549Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "At 1:26, a graph displays the region bounded by the circle and cardioid. At 2:17, a small, illegible screenshot of a textbook prompt is used to show a radial line. At 2:42, limits are explained via text boxes. At 3:43, a pie chart appears while the narration discusses integrating r, which is visually disconnected. At 4:11, the integral is shown as plain text. Decorative icons (abacus, magnifying glass) are used throughout.",
+    "score_reason": "The lesson meets Level 2. It includes some relevant visuals like the initial graph, but relies heavily on text, uses a cluttered screenshot for a key step, and employs generic or unrelated graphics for the mathematical processes.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 108554,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 110710,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 107795
+      }
+    ],
+    "thoughtsTokenCount": 1979,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 114260
+  }
+}

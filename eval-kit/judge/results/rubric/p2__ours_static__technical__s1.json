@@ -1,0 +1,38 @@
+{
+  "topic": "p2",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:48.385Z",
+  "seconds": 118,
+  "result": {
+    "evidence": "Watched full lesson. No layout, rendering, interaction, or playback issues observed. All elements rendered correctly and responded as expected.",
+    "issues": [],
+    "score_reason": "Top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 161353,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 162616,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 160384
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "thoughtsTokenCount": 1205,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 169778
+  }
+}

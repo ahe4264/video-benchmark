@@ -1,0 +1,294 @@
+Create a narrated educational video that teaches the textbook figure 'GraphAdjoint'
+(deep learning (cs)). Target length: 60-120 seconds of narrated animation.
+LEARNING OBJECTIVE
+Understand how to construct an edge graph, also known as an adjoint graph, to process
+edge embeddings in graph neural networks. Learn that this transformation maps every
+original edge to a new node and connects these new nodes if their corresponding original
+edges shared a common vertex.
+SCENE PLAN
+1. Hook — While graph neural networks typically process node embeddings, information is
+often stored on the edges connecting them. To process this edge data using standard
+node-based techniques, the network can be transformed into an edge graph.
+2. Construction — Display a simple undirected graph with 4 nodes and 5 edges on the left
+side of the screen, labeled Original Graph. On the right side, create an empty panel
+labeled Edge Graph, setting the target state to a side-by-side comparison of the
+original topology and its fully constructed adjoint representation.
+3. Demonstration — Animate the adjoint graph construction step by step: first place a
+new node at each original edge, then draw edges between new nodes whenever the
+corresponding original edges shared a node. Narrate how the number of new nodes exactly
+matches the 5 original edges and how the new connections emerge as the shared-vertex
+condition is evaluated across the graph.
+4. Demonstration — Click an edge in the original graph to highlight the corresponding
+node in the edge graph and show the shared-node connections it generates. Narrate how
+the local connectivity changes as the selected edge parameter is varied, demonstrating
+that an original edge sharing vertices with 3 other edges produces a node with degree 3
+in the adjoint graph.
+5. Demonstration — Toggle between the Original graph and Edge graph panels to compare
+the structure before and after the adjoint transformation. Narrate how the visual
+representation changes as the graph state parameter is varied between the original node-
+centric view and the complementary edge-centric view.
+6. Consolidation — Summarize that the edge graph converts original edges into nodes and
+original shared vertices into edges. Reiterate that this complementary representation
+allows standard neighbor aggregation methods to be applied directly to edge features.
+CONSTRAINTS
+- Render in 2D unless the figure is inherently 3D. Keep every axis, label and symbol
+legible at 720p; no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding.
+- Narration must be synchronised to the visual it describes.
+=== SOURCE TEXTBOOK PAGE ===
+[Understanding Deep Learning (Prince), around p.274; free at udlbook.github.io]
+258 13
+Graph neural networks
+where
+as before, ne [n] denotes a set containing the indices of the neighbors of the nth
+node. Equation 13.17 can be computed neatly in matrix form by introducing the diago-
+nalN×N degree matrix D. Each non-zero element of this matrix contains the number
+of neighbors for the associated node. It follows that each diagonal element in the
+inverseProblem 13.8
+matrix D−1 contains the denominator that we need to compute the average. The new
+GCN layer can be written as:
+Hk+1 = a
+[
+βk1T + ΩkHk(AD−1 + I)
+]
+. (13.18)
+13.8.4 Kipf normalization
+There are many variations of graph neural networks based on mean aggregation. Some-
+times the current node is included with its neighbors in the mean computation rather
+than treated separately. In Kipf normalization, the sum of the node representations
+isProblem 13.9
+normalized as:
+agg[n] =
+∑
+m∈ne[n]
+hm√
+|ne[n]||ne[m]|
+, (13.19)
+with
+the logic that information coming from nodes with a very large number of neighbors
+should be down-weighted since there are many connections and they provide less unique
+information. This can also be expressed in matrix form using the degree matrix:
+Hk+1 = a
+[
+βk1T + ΩkHk(D−1/2AD−1/2 + I)
+]
+. (13.20)
+13.8.5 Max pooling aggregation
+An alternative operation that is also invariant to permutation is computing the maximum
+of a set of objects. The max pooling aggregation operator is:
+agg[n] = max
+m∈ne[n]
+[
+hm
+]
+, (13.21)
+where the operator max[•] returns the element-wise maximum of the vectors hm that
+are neighbors to the current node n.
+13.8.6 Aggregation by attention
+The aggregation methods discussed so far either weight the contribution of the neighbors
+equally or in a way that depends on the graph topology. Conversely, in graph attention
+layers, the weights depend on the data at the nodes. A linear transform is applied to
+the current node embeddings so that:
+H′
+k =βk1T + ΩkHk. (13.22)
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+13.8
+Layers for graph convolutional networks 259
+Figure
+13.12 Comparison of graph convolutional network, dot product attention,
+and graph attention network. In each case, the mechanism maps N embeddings
+of size D stored in a D×N matrix X to an output of the same size. a) The
+graph convolutional network applies a linear transformation X′ = ΩX to the
+data matrix. It then computes a weighted sum of the transformed data, where
+the weighting is based on the adjacency matrix. A bias β is added, and the result
+is passed through an activation function. b) The outputs of the dot-product self-
+attention mechanism in the transformer are also weighted sums of the transformed
+inputs, but this time the weights depend on the data itself via the attention
+matrix. c) The graph attention network combines both of these mechanisms; the
+weights are both computed from the data and based on the adjacency matrix.
+Draft: please send errata to udlbookmail@gmail.com.
+260 13
+Graph neural networks
+Then
+the similarity smn of each transformed node embedding h′
+m to the transformed
+node embedding h′
+n is computed by concatenating the pairs, taking a dot product with
+a column vector ϕk of learned parameters, and applying an activation function:
+smn = a
+[
+ϕT
+k
+[h′
+m
+h′
+n
+]]
+. (13.23)
+These variables are stored in an N×N matrix S, where each element represents the
+similarity of every node to every other. As in dot-product self-attention, the attention
+weights contributing to each output embedding are normalized to be positive and sum
+to one using the softmax operation. However, only those values corresponding to the
+current node and its neighbors should contribute. The attention weights are applied to
+the transformed embeddings:
+Hk+1 = a
+[
+H′
+k· Softmask[S, A + I]
+]
+, (13.24)
+where a[•] is a second activation function. The function Softmask[•,•] computes the
+attention values by applying softmax operation separately to each column of its first
+argument S, but only after setting values where the second argument A + I is zero to
+negative infinity, so they do not contribute. This ensures that the attention to non-
+neighboring nodes is zero.
+This is very similar to the dot-product self-attention computation in
+transformersNotebook 13.4
+Graph
+attention
+(see figure 13.12), except that (i) The keys, queries, and values are all the same, (ii)
+The
+measure of similarity is different, and (iii) The attentions are masked so that each
+node
+Problem 13.10
+only attends to itself and its neighbors. As in transformers, this system can be
+extended
+to use multiple heads that are run in parallel and recombined.
+13.9 Edge graphs
+Until now, we have focused on processing node embeddings. These evolve as they are
+passed through the network so that by the end of the network, they represent both the
+node and its context in the graph. We now consider the case where the information is
+associated with the edges of the graph.
+It is easy to adapt the machinery for node embeddings to process edge embeddings
+using the edge graph (also known as the adjoint graph or line graph). This is a com-
+plementary graph, in which each edge in the original graph becomes a node, and every
+two edges with a common node in the original graph create an edge in the new graph
+(figure 13.13). In general, a graph can be recovered from its edge graph, so it’s
+possible
+to swap between these two representations.Problems 13.11–13.13
+To process edge embeddings, the graph is translated to its edge graph. Then we
+use exactly the same techniques, aggregating information at each new node from its
+neighbors and combining this with the current representation. When both node and
+edge embeddings are present, we can translate back and forth between the two graphs.
+Now there are four possible updates (nodes update nodes, nodes update edges, edges
+update nodes, and edges update edges), and these can be alternated as desired, or
+withProblem 13.14
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+13.10
+Summary 261
+Figure
+13.13 Edge graph. a) Graph with six nodes. b) To create the edge graph,
+we assign one node for each original edge (cyan circles), and c) connect the new
+nodes if the edges they represent connect to the same node in the original graph.
+minor modifications, nodes can be updated simultaneously from both nodes and edges.
+13.10 Summary
+Graphs consist of a set of nodes, where pairs of these nodes are connected by edges.
+Both
+nodes and edges can have data attached, and these are referred to as node embeddings
+and edge embeddings, respectively. Many real-world problems can be framed in terms of
+graphs, where the goal is to establish a property of the entire graph, properties of
+each
+node or edge, or the presence of additional edges in the graph.
+Graph neural networks are deep learning models that are applied to graphs. Since the
+node order in graphs is arbitrary, the layers of graph neural networks must be
+equivariant
+to permutations of the node indices. Spatial-based convolutional networks are a family
+of graph neural networks that aggregate information from the neighbors of a node and
+then use this to update the node embeddings.
+One challenge of processing graphs is that they often occur in the transductive setting,
+where there is only one partially labeled graph rather than sets of training and test
+graphs. This graph can be extremely large, which adds further challenges in terms of
+training and has led to sampling and partitioning algorithms. The edge graph has a
+node for every edge in the original graph. By converting to this representation, graph
+neural networks can be used to update the edge embeddings.
+Draft: please send errata to udlbookmail@gmail.com.
+262 13
+Graph neural networks
+Notes
+Sanc
+hez-Lengeling et al. (2021) and Daigavane et al. (2021) present good introductory
+articles
+on graph processing using neural networks. Recent surveys of research in graph neural
+networks
+can be found in articles by Zhou et al. (2020a), Wu et al. (2020c), and Veličković
+(2023), and
+the books of Hamilton (2020) and Ma & Tang (2021). GraphEDM (Chami et al., 2020) unifies
+many existing graph algorithms into a single framework. In this chapter, we have related
+graphs
+to convolutional networks following Bruna et al. (2013), but there are also strong
+connections
+with belief propagation (Dai et al., 2016) and graph isomorphism tests (Hamilton et al.,
+2017a).
+Zhang et al. (2019c) provide a review focusing specifically on graph convolutional
+networks.
+Bronstein et al. (2021) provide a general overview of geometric deep learning, including
+learning
+on graphs. Loukas (2020) discusses what types of functions graph neural networks can
+learn.
+Applications: Applications include graph classification (e.g., Zhang et al., 2018b),
+node clas-
+sification (e.g., Kipf & Welling, 2017), edge prediction (e.g., Zhang & Chen, 2018),
+graph clus-
+tering (e.g., Tsitsulin et al., 2020), and recommender systems (e.g., Wu et al., 2023).
+Methods
+for node classification are reviewed by Xiao et al. (2022a), methods for graph
+classification by
+Errica et al. (2019), and methods for edge prediction by Mutlu et al. (2020) and Kumar
+et al.
+(2020a).
+Graph neural networks: Graph neural networks were introduced by Gori et al. (2005) and
+Scarselli et al. (2008), who formulated them as a generalization of recursive neural
+networks.
+The latter model used the iterative update:
+hn← f
+[
+xn, xm∈ne[n], ee∈nee[n], hm∈ne[n],ϕ
+]
+, (13.25)
+in which each node embedding hn is updated from the initial embedding xn, initial embed-
+dings xm∈ne[n] at the adjacent nodes, initial embeddings ee∈nee[n] at the adjacent
+edges, and
+adjacent node embeddings hm∈ne[n]. For convergence, the function f[•,•,•,•,ϕ] must be a
+contraction mapping (see figure 16.9). If we unroll this equation in time for K steps
+and allow
+different parameters ϕk at each time K, then equation 13.25 becomes similar to the graph
+con-
+volutional network. Subsequent work extended graph neural networks to use gated
+recurrent
+units (Li et al., 2016b) and long short-term memory networks (Selsam et al., 2019).
+Spectral methods: Bruna et al. (2013) applied the convolution operation in the Fourier
+domain. The Fourier basis vectors can be found by taking the eigendecomposition of the
+graph
+Laplacian matrix, L = D− A where D is the degree matrix and A is the adjacency matrix.
+This has disadvantages: the filters are not localized, and the decomposition is
+prohibitively
+expensive for large graphs. Henaff et al. (2015) tackled the first problem by forcing
+the Fourier
+representation to be smooth (and hence the spatial domain to be localized). Defferrard
+et al.
+(2016) introduced ChebNet, which approximates the filters eﬀiciently by using the
+recursive
+properties of Chebyshev polynomials. This both provides spatially localized filters and
+reduces
+the computation. Kipf & Welling (2017) simplified this further to construct filters that
+use only
+a 1-hop neighborhood, resulting in a formulation similar to the spatial methods
+described in
+this chapter and providing a bridge between spectral and spatial methods.
+Spatial methods: Spectral methods are ultimately based on the Graph Laplacian, so if the
+graph changes, the model must be retrained. This problem spurred the development of
+spatial
+methods. Duvenaud et al. (2015) defined convolutions in the spatial domain, using a
+different
+weight matrix to combine the adjacent embeddings for each node degree. This has the
+disad-
+vantage that it becomes impractical if some nodes have a very large number of
+connections.
+Diffusion convolutional neural networks (Atwood & Towsley, 2016) use powers of the
+normal-
+ized adjacency matrix to blend features across different scales, sum these, pointwise
+multiply by
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+=== END SOURCE PAGE ===

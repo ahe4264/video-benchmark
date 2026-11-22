@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:47.977Z",
+  "seconds": 145,
+  "result": {
+    "evidence": "0:00 Hook introduces pressure on horizontal strips. 0:34 Construction builds the integral formula step-by-step, defining variables x, w(x), h(x) visually. 1:29 Demo 1 calculates a 4-strip Riemann sum, showing each term. 2:15 Demo 2 increases strips n, visually linking the sum to the exact integral. 3:12 Demo 3 graphs the integrand, showing force as area. 4:11 Consolidation summarizes.",
+    "score_reason": "The lesson is perfectly logical, building every concept step-by-step. All symbols are introduced before use, and the visual pacing allows easy comprehension. It meets the top level, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74873,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 76302,
+    "cachedContentTokenCount": 75931,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74184
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75589
+      }
+    ],
+    "thoughtsTokenCount": 1252,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77316
+  }
+}

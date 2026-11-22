@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:28.925Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:03: Opens with a curious question about why a bare wall doesn't show a picture of the tree in front of it. 0:30, 2:11, 3:23: Interactive questions prompt the student to predict outcomes. 2:53: A moment of insight occurs when the rays cross to form an upside-down image. 4:05, 5:25: Interactive drag tasks add variety to the format. 7:39: The final question about two pinholes effectively tests the core concept.",
+    "score_reason": "The lesson fully meets Level 6. It features a strong opening question, maintains a good pace with varied interactions, and delivers clear moments of insight. It misses the top level because its highly methodical approach lacks continuous, driving momentum.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 144299,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 146447,
+    "cachedContentTokenCount": 149946,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 655
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 143644
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 133693
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15904
+      }
+    ],
+    "thoughtsTokenCount": 1959,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 151740
+  }
+}

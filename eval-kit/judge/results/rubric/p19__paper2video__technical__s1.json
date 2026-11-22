@@ -1,0 +1,60 @@
+{
+  "topic": "p19",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:28.097Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "0:00: Title slide is shown, but the narration discusses the 'third demonstration'.\n0:23: Slide 2 is shown, but the narration discusses 'five steps'.\n4:12: The final slide is shown, but the narration gives the introduction ('Today I present...').\nThe audio and video tracks are completely mismatched for the entire duration of the lesson.",
+    "issues": [
+      {
+        "timestamp": "0:00",
+        "description": "The audio track is completely out of sync with the visual slides for the entire video, making the content impossible to follow.",
+        "severity": "blocking"
+      }
+    ],
+    "score_reason": "The lesson has a blocking problem it does not recover from (the completely scrambled audio track makes the lesson unusable), which matches level 1. The score is compressed toward the center.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 78968,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 82000,
+    "cachedContentTokenCount": 77797,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 972
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77996
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68876
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8576
+      }
+    ],
+    "thoughtsTokenCount": 2826,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 83381
+  }
+}

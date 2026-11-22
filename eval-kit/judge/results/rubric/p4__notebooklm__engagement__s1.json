@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:07.041Z",
+  "seconds": 116,
+  "result": {
+    "evidence": "0:00-1:10: The lesson opens with a relatable analogy (sorting cards) and poses a clear question about how a computer handles this without a 'bird's-eye view'.\n1:11-2:02: A static, text-heavy visual glossary introduces a flat stretch.\n2:03-5:16: The core simulation relies on static panels. The narration is energetic and highlights key moments (e.g., the 'massive disruption' at 3:46), but explaining each step becomes repetitive.\n5:17-7:21: The conclusion summarizes concepts using the same static visual style.",
+    "score_reason": "The lesson fully meets Level 4. It features a clear opening with a good hook. The enthusiastic narration helps hold attention, but the reliance on static visuals and the repetitive nature of the step-by-step walkthrough create flat stretches, preventing it from reaching the good pace and variety described in Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 129255,
+    "candidatesTokenCount": 226,
+    "totalTokenCount": 131099,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 128606
+      }
+    ],
+    "thoughtsTokenCount": 1618,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 135969
+  }
+}

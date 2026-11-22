@@ -1,0 +1,60 @@
+{
+  "topic": "p20",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:18.805Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "0:00: Title slide is shown, but the audio discusses rendering constraints. 0:21: Slide 2 is shown, but the audio discusses experimental results. This complete mismatch between audio and visuals continues for the entire video.",
+    "issues": [
+      {
+        "timestamp": "0:00",
+        "description": "Audio narration is completely mismatched with the visual slides for the entire video.",
+        "severity": "blocking"
+      }
+    ],
+    "score_reason": "The lesson has a blocking problem that makes it unusable, as the audio is completely out of sync with the visuals throughout.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 71669,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 75129,
+    "cachedContentTokenCount": 70568,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 70701
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 62451
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7776
+      }
+    ],
+    "thoughtsTokenCount": 3309,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75725
+  }
+}

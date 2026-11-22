@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:06:59.652Z",
+  "seconds": 61,
+  "result": {
+    "evidence": "0:00-2:48: The algorithm's first four passes are demonstrated without interactive questions. 2:49: A prompt asks 'Pass 5: what will the counter show? ?', requiring a prediction. 2:56-3:06: The learner applies the algorithm by clicking each edge to test for relaxation. Feedback displays the specific calculation for each edge (e.g., 't->x: 2 + 5 = 7, not < 4').",
+    "score_reason": "The lesson meets Level 5 because it asks the learner to predict and apply the algorithm at a key step (the final convergence check) and provides specific feedback. It does not reach Level 6 because the earlier key steps (passes 1-4) are demonstrated rather than interactive.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 54853,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 58281,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54120
+      }
+    ],
+    "thoughtsTokenCount": 3240,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 56765
+  }
+}

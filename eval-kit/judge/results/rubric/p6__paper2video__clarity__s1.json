@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:21:16.009Z",
+  "seconds": 34,
+  "result": {
+    "evidence": "0:17: The video is a presentation about a lesson rather than a direct lesson.\n0:53-2:09: The derivation is compressed into four slides. Full slides of text and equations appear instantly.\n1:13: The force inequality is stated by referencing 'inequalities (4)' without physical explanation.\n1:33: The sample point's existence is quickly justified by linear increase, a jump for newcomers.\n2:10-3:58: The video shifts to discussing experimental methods and lesson design.",
+    "score_reason": "The main idea is present, but the screen shows too much at once with dense slides, and key steps are skipped or rushed. It meets Level 2 (compressed to 3).",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 70230,
+    "candidatesTokenCount": 179,
+    "totalTokenCount": 72600,
+    "cachedContentTokenCount": 69413,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69541
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61423
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7648
+      }
+    ],
+    "thoughtsTokenCount": 2191,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74052
+  }
+}

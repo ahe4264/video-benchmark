@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:23.932Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "Prerequisites (components, arc length, SHM) are reviewed first (0:36). The pendulum model is built step-by-step (1:17), showing forces clearly. The derivation uses torque (2:52), defining tau and I. The small-angle approximation is visually justified (3:11). The spring analogy is used to find the period (3:29). Demonstrations isolate variables like length and mass (3:39).",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated, builds logically, and introduces concepts before use, allowing a newcomer to follow easily. Score compressed from 7 to 6 per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 103382,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 105409,
+    "cachedContentTokenCount": 104980,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102696
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 104641
+      }
+    ],
+    "thoughtsTokenCount": 1864,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 106581
+  }
+}

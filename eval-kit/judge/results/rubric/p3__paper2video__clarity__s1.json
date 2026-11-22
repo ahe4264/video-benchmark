@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:46.529Z",
+  "seconds": 72,
+  "result": {
+    "evidence": "0:21: Problem introduced on a fully populated slide.\n0:38: Irrelevant meta-commentary ('Related Work') begins.\n0:55, 1:09: Math steps appear all at once on static slides.\n1:28: Four equations appear simultaneously; narration summarizes rather than explaining steps.\n1:45-3:33: Remainder of video discusses experimental design and results, not the math topic.",
+    "score_reason": "Meets Level 2 (scored as 3 per compression instructions). The main idea is present, but the screen shows too much at once, steps are rushed, and irrelevant meta-content distracts.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 62666,
+    "candidatesTokenCount": 162,
+    "totalTokenCount": 65828,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61978
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      }
+    ],
+    "thoughtsTokenCount": 3000,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66125
+  }
+}

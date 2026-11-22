@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:44:02.727Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "The lesson provides a clear explanation of why a blank wall doesn't reflect an image (0:27) and introduces the pinhole concept well (1:55). The math section (3:59) and the soda straw camera concept (5:46) are also explained clearly. However, at 2:58, 4:45, and 7:02, the visuals consist of tiny, unformatted text (appearing to be raw markdown source code) that is impossible to read. The narrator ignores this text and continues the explanation.",
+    "score_reason": "The lesson fully meets the 'Competent' level. It covers the core ideas correctly and the audio is easy to follow, but it has clear weaknesses in its visuals, specifically the slides with unformatted, unreadable text dumps.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 149270,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 150808,
+    "cachedContentTokenCount": 155063,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148539
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 731
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138266
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16448
+      }
+    ],
+    "thoughtsTokenCount": 1350,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156942
+  }
+}

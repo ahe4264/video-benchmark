@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:54.578Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:03-1:31: Logically establishes why a bare wall shows no picture by tracing scattered rays. 1:32-3:03: Introduces the pinhole, clearly showing how it isolates single rays to form an inverted image. 3:04-4:43: Explores the effect of hole size on sharpness and brightness. 4:44-5:55: Demonstrates how moving the hole shifts the image, reinforcing the straight-line principle. 5:56-7:14: Re-examines the concept from a single wall point's perspective. 7:15-8:17: Summarizes the core idea of light restriction and tests it with a two-hole scenario.",
+    "score_reason": "The lesson fully meets the top level description, as every step is motivated, builds logically on the last, and introduces nothing before it is needed, allowing a newcomer to reconstruct the argument. Following instructions to avoid extreme scores, it receives a 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 144340,
+    "candidatesTokenCount": 236,
+    "totalTokenCount": 146908,
+    "cachedContentTokenCount": 149946,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 696
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 143644
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 133693
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15904
+      }
+    ],
+    "thoughtsTokenCount": 2332,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 151781
+  }
+}

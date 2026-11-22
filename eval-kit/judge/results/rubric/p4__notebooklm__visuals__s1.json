@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:21.129Z",
+  "seconds": 88,
+  "result": {
+    "evidence": "1:14: A glossary of visual terms is presented as a static text list.\n2:06-5:16: The core sorting simulation is displayed as a single, static image containing six panels (a-f). While the narrator explains each step and a text caption at the bottom updates, the main diagram itself does not animate or change dynamically to illustrate the process.\n5:20: The code mechanics section relies on a static table.",
+    "score_reason": "The lesson fully meets Level 3. The visuals are clean and depict the main objects of the concept (the array and the steps of the sort), but they are mostly static, presenting all steps simultaneously in one image rather than changing as the explanation proceeds.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 129367,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 130756,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 128606
+      }
+    ],
+    "thoughtsTokenCount": 1219,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 136081
+  }
+}

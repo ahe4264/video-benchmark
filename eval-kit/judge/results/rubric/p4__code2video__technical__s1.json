@@ -1,0 +1,64 @@
+{
+  "topic": "p4",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:00:49.628Z",
+  "seconds": 139,
+  "result": {
+    "evidence": "At 00:43, 'shifts: 0' is overlapped by a moving box. At 01:46, the code block turns into garbled symbols. At 02:31, 'boundary guard' overlaps 'i > 1'. At 03:40 and 04:14, text renders with garbled characters during typing animations.",
+    "issues": [
+      {
+        "timestamp": "00:43",
+        "description": "Text 'shifts: 0' is overlapped by the moving box.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "01:46",
+        "description": "Code block turns into unreadable garbled symbols.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "02:31",
+        "description": "Text 'boundary guard' overlaps 'i > 1'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "03:40",
+        "description": "Text 'shifts.' renders with garbled characters.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:14",
+        "description": "Text 'backwards' and 'fix.' render with garbled characters.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one major rendering problem and several minor layout/rendering issues, which meets the criteria for level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 69082,
+    "candidatesTokenCount": 361,
+    "totalTokenCount": 71302,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68112
+      }
+    ],
+    "thoughtsTokenCount": 1859,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71543
+  }
+}

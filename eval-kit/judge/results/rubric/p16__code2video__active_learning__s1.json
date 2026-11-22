@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:45.689Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "- 1:13: Learner checks for stereocenter (apply).\n- 1:30, 3:26: Learner assigns R/S configuration (apply).\n- 1:41: Learner explores R group effects on steric bulk (explore).\n- 2:55: Learner steps through SN2 mechanism phases (explore).\n- 3:53: Learner predicts faster reacting molecule (predict).",
+    "score_reason": "Meets Level 6 by requiring application, prediction, and exploration at most key steps. It misses Level 7 because feedback is limited to basic right/wrong indicators rather than explaining specific misconceptions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 70697,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 73602,
+    "cachedContentTokenCount": 71631,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69960
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71285
+      }
+    ],
+    "thoughtsTokenCount": 2745,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73028
+  }
+}

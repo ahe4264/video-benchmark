@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:54:49.523Z",
+  "seconds": 96,
+  "result": {
+    "evidence": "The lesson is a highly interactive, multi-part module on telescope optics. It employs a robust pedagogical framework, including predict-observe-explain cycles and a structured problem-solving schema (F.O.P.S.) (0:00-19:08). Key features include interactive ray diagrams (0:18), guided step-by-step derivations (1:46), near and far transfer application tasks (5:42, 10:03), targeted misconception diagnosis and repair (11:23), and final retrieval practice (17:13).",
+    "score_reason": "The lesson fully meets the description of an exceptional model lesson. It is highly interactive, meticulously structured, and uses evidence-based pedagogical strategies to ensure deep understanding and ability to transfer knowledge. (Score compressed from 7).",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 304059,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 305218,
+    "cachedContentTokenCount": 309422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 303336
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 309081
+      }
+    ],
+    "thoughtsTokenCount": 964,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 312578
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p1",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:08:09.657Z",
+  "seconds": 98,
+  "result": {
+    "evidence": "0:15: Learner explores a slider to compare arc length and straight height.\n0:28: Learner predicts the next row in an evidence table.\n1:37: Learner applies criteria to identify the problem type.\n3:38: Learner answers conceptual questions (e.g., why radians are needed).\n3:40: Learner predicts gap behavior as x approaches 0.\n6:15: 'Attempt first' prompts ask the learner to try solving before seeing the solution.\n10:42: Learner completes a structure-mapping task to apply concepts to a new problem.\n13:35: An error detection lab requires the learner to evaluate flawed proofs and identify specific misconceptions.\n19:08: Learner reconstructs the proof from memory.",
+    "score_reason": "The lesson fully meets the top level. The learner is required to do the key reasoning at every main step through prediction, application, and hands-on exploration. Feedback is provided, and checks are explicitly placed where misconceptions arise (especially in the error detection lab).",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 333379,
+    "candidatesTokenCount": 250,
+    "totalTokenCount": 335559,
+    "cachedContentTokenCount": 339288,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 739
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 338940
+      }
+    ],
+    "thoughtsTokenCount": 1930,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 342675
+  }
+}

@@ -1,0 +1,133 @@
+Interaction log: 128 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 1x: "missing ) after argument list". Whatever that code was meant to do may be missing or inert.
+Summary: 3 of 128 inputs produced no visible change; 0 raised a page error.
+
+0:15  part 1  dragged a slider (starting at "1000") through its whole range -> screen changed
+0:28  part 1  clicked button "Student" -> no visible change
+0:29  part 1  clicked button "Class 10s" -> screen changed
+0:30  part 1  clicked button "Video 2s" -> screen changed
+0:42  part 1  clicked button "Show t = 0" -> screen changed
+0:43  part 1  clicked button "▶ Sweep 1000 → 1" -> screen changed
+0:49  part 1  clicked button "t = 1000" -> screen changed
+0:50  part 1  clicked button "t = 500" -> screen changed
+0:52  part 1  clicked button "t = 10 (near-clean)" -> screen changed
+1:03  part 1  typed a written answer into the box "" -> screen changed
+1:08  part 1  typed a written answer into the box "" -> screen changed
+1:12  part 1  typed a written answer into the box "one reason…" -> screen changed
+1:17  part 1  selected choice "image" -> screen changed
+1:19  part 1  clicked button "Start pause timer" -> screen changed
+1:22  part 1  clicked button "Submit prediction & unlock" -> screen changed
+1:33  part 1  clicked button "Step 1 · F" -> screen changed
+1:35  part 1  clicked button "Step 2 · O" -> screen changed
+1:36  part 1  typed a written answer into the box "" -> screen changed
+1:41  part 1  typed a written answer into the box "" -> screen changed
+1:46  part 1  typed a written answer into the box "" -> screen changed
+1:51  part 1  typed a written answer into the box "" -> screen changed
+1:55  part 1  typed a written answer into the box "" -> screen changed
+2:00  part 1  typed a written answer into the box "" -> screen changed
+2:04  part 1  typed a written answer into the box "" -> screen changed
+2:09  part 1  typed a written answer into the box "" -> screen changed
+2:14  part 1  typed a written answer into the box "" -> screen changed
+2:19  part 1  typed a written answer into the box "" -> screen changed
+2:34  part 1  typed a written answer into the box "" -> screen changed
+2:39  part 1  typed a written answer into the box "" -> screen changed
+2:44  part 1  ticked a checkbox -> screen changed
+2:45  part 1  clicked button "Step decoder ▶" -> screen changed
+2:56  part 1  clicked button "Labels & numbers ▾" -> screen changed
+2:58  part 1  ticked a checkbox -> screen changed
+2:59  part 1  ticked a checkbox -> screen changed
+3:01  part 1  ticked a checkbox -> screen changed
+3:02  part 1  clicked button "Arrows & colours ▾" -> screen changed
+3:04  part 1  ticked a checkbox -> screen changed
+3:05  part 1  ticked a checkbox -> screen changed
+3:07  part 1  clicked button "Captions ▾" -> screen changed
+3:08  part 1  ticked a checkbox -> screen changed
+3:09  part 1  ticked a checkbox -> screen changed
+3:21  part 1  ticked a checkbox -> screen changed
+3:22  part 1  dragged a slider (starting at "6") through its whole range -> screen changed
+6:09  part 2  clicked button "Level names" -> screen changed
+6:10  part 2  clicked button "Symbols" -> screen changed
+6:12  part 2  clicked button "Notation bridge" -> screen changed
+6:23  part 2  clicked button "Step ▸" -> screen changed
+6:24  part 2  clicked button "Step ▸" -> screen changed
+6:26  part 2  clicked button "Step ▸" -> screen changed
+6:27  part 2  clicked button "Step ▸" -> screen changed
+6:28  part 2  clicked button "Step ▸" -> screen changed
+6:30  part 2  clicked button "Step ▸" -> screen changed
+6:31  part 2  clicked button "D4" -> screen changed
+6:33  part 2  clicked button "D3" -> screen changed
+6:34  part 2  clicked button "D2" -> screen changed
+6:45  part 2  dragged a slider (starting at "4") through its whole range -> screen changed
+6:54  part 2  clicked button "Autoplay" -> screen changed
+6:59  part 2  clicked button "both" -> screen changed
+7:00  part 2  clicked button "binary" -> screen changed
+7:02  part 2  clicked button "decimal" -> screen changed
+12:05  part 3  clicked button "3" -> screen changed
+12:07  part 3  clicked button "2" -> screen changed
+12:08  part 3  clicked button "1" -> screen changed
+12:19  part 3  typed a number into "?" -> screen changed
+12:20  part 3  clicked button "Map" -> screen changed
+12:22  part 3  clicked button "Legend" -> screen changed
+12:23  part 3  clicked button "Symbols" -> screen changed
+12:34  part 3  clicked button "Check map" -> screen changed
+12:36  part 3  clicked button "Unlock questions anyway" -> screen changed
+12:37  part 3  clicked button "✏️ recompute" -> screen changed
+12:39  part 3  clicked button "— reuse" -> screen changed
+12:40  part 3  clicked button "Rules" -> screen changed
+12:51  part 3  typed a written answer into the box "e.g. 64 x 64 x 3" -> screen changed
+12:55  part 3  typed a number into "" -> screen changed
+12:56  part 3  typed a number into "" -> screen changed
+12:58  part 3  typed a number into "" -> screen changed
+12:59  part 3  typed a number into "" -> screen changed
+13:01  part 3  typed a number into "" -> screen changed
+13:02  part 3  typed a number into "" -> screen changed
+13:04  part 3  typed a number into "" -> screen changed
+13:05  part 3  typed a number into "" -> screen changed
+13:06  part 3  typed a number into "" -> screen changed
+13:08  part 3  typed a number into "" -> screen changed
+13:09  part 3  typed a number into "" -> screen changed
+13:20  part 3  typed a number into "" -> screen changed
+13:22  part 3  typed a number into "" -> screen changed
+13:24  part 3  typed a number into "" -> screen changed
+13:25  part 3  typed a number into "#" -> screen changed
+13:27  part 3  typed a number into "px" -> screen changed
+13:28  part 3  typed a written answer into the box "resolutions, e.g. 128,64,…" -> screen changed
+13:33  part 3  ticked a checkbox -> screen changed
+13:35  part 3  ticked a checkbox -> screen changed
+13:36  part 3  dragged a slider (starting at "1") through its whole range -> screen changed
+13:45  part 3  dragged a slider (starting at "1") through its whole range -> screen changed
+13:54  part 3  dragged a slider (starting at "4") through its whole range -> screen changed
+19:45  part 4  clicked button "Start 3-minute noticing" -> screen changed
+19:56  part 4  typed a written answer into the box "e.g. …" -> screen changed
+20:00  part 4  typed a written answer into the box "same as the image case…" -> screen changed
+20:04  part 4  typed a written answer into the box "different…" -> screen changed
+20:08  part 4  selected choice "1" -> screen changed
+20:09  part 4  clicked button "Submit & lock card" -> screen changed
+20:20  part 4  typed a written answer into the box "16384" -> screen changed
+20:24  part 4  typed a written answer into the box "3" -> screen changed
+20:29  part 4  typed a written answer into the box "163.84" -> screen changed
+21:05  part 5  typed a written answer into the box "Why? (one line)" -> screen changed
+21:11  part 5  typed a written answer into the box "Why? (one line)" -> screen changed
+21:20  part 5  typed a written answer into the box "Why? (one line)" -> screen changed
+21:27  part 5  typed a written answer into the box "Why? (one line)" -> screen changed
+21:32  part 5  typed a written answer into the box "Why? (one line)" -> screen changed
+21:36  part 5  typed a written answer into the box "Why? (one line)" -> screen changed
+21:41  part 5  selected choice "1" -> screen changed
+21:42  part 5  selected choice "T" -> no visible change
+21:44  part 5  selected choice "1" -> screen changed
+21:45  part 5  selected choice "T" -> no visible change
+21:47  part 5  selected choice "1" -> screen changed
+21:48  part 5  selected choice "T" -> screen changed
+22:32  part 6  clicked button "○ 1 Rebuild F.O.P.S." -> screen changed
+22:34  part 6  typed a written answer into the box "The U-Net predicts …" -> screen changed
+22:38  part 6  typed a written answer into the box "fill by rule" -> screen changed
+22:42  part 6  typed a written answer into the box "fill by rule" -> screen changed
+22:45  part 6  typed a written answer into the box "fill by rule" -> screen changed
+22:49  part 6  typed a written answer into the box "fill by rule" -> screen changed
+22:54  part 6  typed a written answer into the box "fill by rule" -> screen changed
+22:58  part 6  typed a written answer into the box "fill by rule" -> screen changed
+23:02  part 6  typed a written answer into the box "fill by rule" -> screen changed
+23:06  part 6  typed a written answer into the box "fill by rule" -> screen changed
+23:10  part 6  typed a written answer into the box "fill by rule" -> screen changed
+23:15  part 6  typed a written answer into the box "fill by rule" -> screen changed

@@ -1,0 +1,94 @@
+Produce a narrated lesson on this figure contains three panels, (a), (b), and (c),
+illustrating the derivation of the integral formula for fluid force on a submerged
+vertical surface.
+Source: Anton, Bivens, and Davis. Calculus, 10th Edition, Figure 5.8.4 (figure `5.8.4`,
+math/2d)
+Target length: 6 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand this figure contains three panels, (a), (b),
+and (c), illustrating the derivation of the integral formula for fluid force on a
+submerged vertical surface.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure contains three panels, (a), (b), and (c), illustrating the derivation
+of the integral formula for fluid force on a submerged vertical surface. Panel (a): a
+cross-section of a fluid environment showing a blob-shaped surface submerged vertically,
+with the depth axis pointing downward; depth bounds a and b are marked with dashed red
+lines, depth h(x) is labeled from the fluid surface to the current level x, and width
+w(x) is shown as a horizontal segment across the surface at depth x. Panel (b): the same
+surface divided into n horizontal strips A1, A2, ..., An by partition points a = x0, x1,
+..., x_{n-1}, b = xn along the depth axis. Panel (c): a close-up of the kth strip
+showing the sampling point x*_k between x_{k-1} and xk, with the strip approximated as a
+rectangle of width w(x*_k) and height Delta_xk, and depth h(x*_k) labeled. The figure
+sets up the Riemann sum F approx sum rho h(x*_k) w(x*_k) Delta_xk whose limit yields the
+fluid force integral F = integral from a to b of rho h(x) w(x) dx.
+3. Demonstration — Slider for strip index k: highlight the corresponding strip in the
+partitioned diagram (panel b) and display the depth h(xₖ*) and width w(xₖ*) in the detail
+view (panel c)
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Demonstration — Slider for number of strips n: increase n in panel (b) and watch the
+pressure force approximation refine toward the true integral value
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+5. Demonstration — Toggle the three panels into a single animated panel showing the
+strip construction and accumulated pressure sum
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+6. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: Suppose that a flat surface is immersed vertically in a fluid of
+weight density ρ and that the submerged portion of the surface extends from x = a to x =
+b along an x-axis whose positive direction is down (Figure 5.8.4a). For a ≤ x ≤ b,
+suppose that w(x) is the width of the surface and that h(x) is the depth of the point x.
+Define what is meant by the fluid force F on the surface, and find a formula for
+computing it. The basic idea for solving this problem is to divide the surface into
+horizontal strips whose areas may be approximated by areas of rectangles. These area
+approximations, along with inequalities (4), will allow us to create a Riemann sum that
+approximates the total force on the surface. By taking a limit of Riemann sums we will
+then obtain an integral for F. To implement this idea, we divide the interval [a, b]
+into n subintervals by inserting the points x1, x2,...,xn−1 between a = x0 and b = xn.
+This has the effect of dividing the surface into n strips of area Ak,k = 1, 2,...,n
+(Figure 5.8.4b). It follows from (4) that the force Fk on the kth strip satisfies the
+inequalities ρh(xk−1)Ak ≤ Fk ≤ ρh(xk)Ak or, equivalently, h(xk−1) ≤ Fk ρAk ≤ h(xk) Since
+the depth function h(x) increases linearly, there must exist a point x∗ k between xk−1
+and xk such that h(x∗ k ) = Fk ρAk or, equivalently, Fk = ρh(x∗ k )Ak We now approximate
+the area Ak of the kth strip of the surface by the area of a rectangle of width w(x∗ k )
+and height _x000b_xk = xk − xk−1 (Figure 5.8.4c). It follows that Fk may be approximated
+as Fk = ρh(x∗ k )Ak ≈ ρh(x∗ k ) · w(x∗ k )_x000b_xk Adding these approximations yields
+the following Riemann sum that approximates the total
+force F on the surface:
+F = #n
+k=1
+Fk ≈ #n
+k=1
+ρh(x∗
+k )w(x∗
+k )_x000b_xk
+Taking the limit as n increases and the widths of all the subintervals approach zero
+yields
+the definite integral
+F = lim max _x000b_xk →0
+#n
+k=1
+ρh(x∗
+k )w(x∗
+k )_x000b_xk =
+! b
+a
+ρh(x)w(x) dx
+CONSTRAINTS
+- Render in 2D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.

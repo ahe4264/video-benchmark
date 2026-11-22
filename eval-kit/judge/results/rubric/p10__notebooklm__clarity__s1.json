@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:04.946Z",
+  "seconds": 240,
+  "result": {
+    "evidence": "The lesson begins with a clear contrast between classical particles and waves (0:44). It logically progresses to the double-slit experiment (2:16) and uses a very clear step-by-step explanation of the time-lapse build-up of the interference pattern (3:16) to motivate wave-particle duality (4:24). The uncertainty principle is introduced as a consequence of this wave nature (5:30). The transition to quantum orbitals (6:45) logically follows the need to map electrons given this uncertainty. At 7:32, a complex table of four quantum numbers is presented all at once, though the narration subsequently explains each row.",
+    "score_reason": "The lesson fully meets the criteria for a logical and step-by-step explanation. The progression from classical concepts to quantum models is well-structured and easy to follow. The presentation of the entire quantum number table at once is a briefly rushed step that keeps it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 159339,
+    "candidatesTokenCount": 223,
+    "totalTokenCount": 161528,
+    "cachedContentTokenCount": 165592,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 147681
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17568
+      }
+    ],
+    "thoughtsTokenCount": 1966,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167501
+  }
+}

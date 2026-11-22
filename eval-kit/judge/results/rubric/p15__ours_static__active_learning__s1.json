@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:03.144Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:51: Multiple choice asking which edges a specific edge should gather from (application).\n1:57: Multiple choice asking if a new edge should join two specific nodes (application).\n2:20: Number input predicting the total number of nodes in the new graph.\n3:21: Multiple choice calculating the number of new edges created by a node.\n4:37: Number input calculating the degree of a new node.\n5:17: Interactive task to find and click a node with a specific degree.\n5:49: Multiple choice identifying what a group of nodes in the edge graph corresponds to in the original graph.\n6:37: Interactive slider task to select the correct view for gathering embeddings.\n7:10: Multiple choice synthesizing what an original node becomes in the edge graph.\nFeedback for these questions explains the reasoning (e.g., at 3:35, 'four edges make six pairs'; at 5:27, 'Two plus three, minus two, is three').",
+    "score_reason": "The lesson requires the learner to do the key reasoning at every main step, including predicting, applying, and exploring. The feedback explains the reasoning for the answers. It fully meets the top level, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 139464,
+    "candidatesTokenCount": 290,
+    "totalTokenCount": 141450,
+    "cachedContentTokenCount": 144822,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138731
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 129120
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15360
+      }
+    ],
+    "thoughtsTokenCount": 1696,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 146667
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:44.597Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "0:00-0:35: Clear introduction to angular size and the problem of making the moon look bigger.\n1:00-2:15: Step-by-step explanation of lens placement to ensure light leaves parallel.\n3:10-4:05: Intuitive visual derivation of the magnification formula M = f1/f2 using the ray drop 'd'.\n4:22, 5:21, 7:01: Interactive questions and sliders effectively reinforce the concepts.\n8:34-9:09: Applies the derived formula to a historical example (Galileo's telescope).",
+    "score_reason": "The lesson fully meets the 'Strong' level. It is clear, correct, and well-made, with excellent interactive visuals that build intuition. A minor weakness is the slightly fast pacing during the geometric derivation, keeping it from the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 160245,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 161409,
+    "cachedContentTokenCount": 166493,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 159522
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148488
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17664
+      }
+    ],
+    "thoughtsTokenCount": 951,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 168449
+  }
+}

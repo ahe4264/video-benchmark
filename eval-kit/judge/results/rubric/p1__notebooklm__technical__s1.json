@@ -1,0 +1,38 @@
+{
+  "topic": "p1",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:10.376Z",
+  "seconds": 170,
+  "result": {
+    "evidence": "The video plays smoothly throughout. Audio is clear and synchronized with visuals. All text, formulas, and diagrams render correctly without overlap, cut-offs, or raw code. No playback glitches or missing assets were observed.",
+    "issues": [],
+    "score_reason": "The lesson has no visible technical problems, meeting the criteria for the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 115123,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 115918,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 974
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114149
+      }
+    ],
+    "thoughtsTokenCount": 706,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 121315
+  }
+}

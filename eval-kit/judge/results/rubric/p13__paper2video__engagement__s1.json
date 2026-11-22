@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:54.801Z",
+  "seconds": 65,
+  "result": {
+    "evidence": "0:00-0:15: The opening is a title slide where the narrator states the plan for a video, offering no hook or puzzle. 0:16-4:17: The entire video consists of static slides with bullet points and equations. The narrator reads the text and explains a plan for a future video rather than teaching the concept directly. The visuals lack variety, and the narration is monotone.",
+    "score_reason": "The lesson is dull throughout and consists entirely of reading static slides. A student would quickly stop watching. It fully meets the first level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 75715,
+    "candidatesTokenCount": 138,
+    "totalTokenCount": 76571,
+    "cachedContentTokenCount": 74901,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75070
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66306
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8256
+      }
+    ],
+    "thoughtsTokenCount": 718,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 79803
+  }
+}

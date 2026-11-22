@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:05.382Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "The video is a continuous presentation from start to finish (0:00-3:15). A 'prediction question' appears on a slide at 2:53, but the narrator immediately provides the answer without prompting the viewer to pause or think.",
+    "score_reason": "The lesson fully meets the lowest level because it is entirely passive and asks nothing of the learner.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 57477,
+    "candidatesTokenCount": 97,
+    "totalTokenCount": 58432,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56744
+      }
+    ],
+    "thoughtsTokenCount": 858,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 60684
+  }
+}

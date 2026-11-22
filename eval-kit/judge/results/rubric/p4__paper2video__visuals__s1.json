@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:40.261Z",
+  "seconds": 37,
+  "result": {
+    "evidence": "0:00-3:57: The video consists of text-heavy presentation slides. 0:14, 0:54, 1:32: Small, static multi-panel array diagrams are shown but not animated. 2:49: A static table is displayed.",
+    "score_reason": "The lesson meets Level 2. It includes some relevant visuals, but is extremely text-heavy and relies on static images rather than dynamic visual explanations.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 69727,
+    "candidatesTokenCount": 118,
+    "totalTokenCount": 72695,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68966
+      }
+    ],
+    "thoughtsTokenCount": 2850,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73522
+  }
+}

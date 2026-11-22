@@ -1,0 +1,49 @@
+{
+  "topic": "p5",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:10:58.058Z",
+  "seconds": 111,
+  "result": {
+    "evidence": "The lesson relies on active tasks throughout. Learners choose routes (0:43), sort relevance (1:20), complete code (2:24), and predict changes (2:47). They trace the algorithm in a table (6:13) and diagnose errors (8:45). Parts 3 and 4 (4:55, 8:52) require applying the logic to new domains (drones, theatre). Part 5 (12:46) focuses on diagnosing specific misconceptions.",
+    "score_reason": "The lesson fully meets the top level. The learner performs key reasoning (predicting, applying, explaining) at all main steps, with specific feedback and checks explicitly targeting misconceptions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 323078,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 325410,
+    "cachedContentTokenCount": 328792,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 322344
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 328449
+      }
+    ],
+    "thoughtsTokenCount": 2162,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332101
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "topic": "p11",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:20:55.968Z",
+  "seconds": 346,
+  "result": {
+    "evidence": "The lesson generally functions well with responsive interactions and synced audio. However, unrendered code appears near the end.",
+    "issues": [
+      {
+        "timestamp": "19:08",
+        "description": "Unrendered LaTeX code (\\ce{C12H22O11}) is visible in the text at the bottom of the screen.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has one major problem (raw code shown instead of a rendered formula).",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 309061,
+    "candidatesTokenCount": 134,
+    "totalTokenCount": 310750,
+    "cachedContentTokenCount": 314269,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 973
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 308088
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 313923
+      }
+    ],
+    "thoughtsTokenCount": 1555,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 317884
+  }
+}

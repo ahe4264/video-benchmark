@@ -1,0 +1,90 @@
+Produce a narrated lesson on this figure is part of a worked example asking to evaluate
+the polar double integral of sin theta over the region R in the first quadrant outside
+the circle r = 2 and inside the cardioid r = 2(1 + cos theta).
+Source: Anton, Bivens, and Davis. Calculus, 10th Edition, Figure 14.3.10 (figure
+`14.3.10`, math/2d)
+Target length: 5 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand this figure is part of a worked example asking
+to evaluate the polar double integral of sin theta over the region R in the first
+quadrant outside the circle r = 2 and inside the cardioid r = 2(1 + cos theta).
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure is part of a worked example asking to evaluate the polar double
+integral of sin theta over the region R in the first quadrant outside the circle r = 2
+and inside the cardioid r = 2(1 + cos theta). The figure shows both curves in polar
+coordinates: the circle r = 2 (blue) centered at the origin and the cardioid r = 2(1 +
+cos theta) (purple), which extends further to the right. The shaded region R (light
+blue) lies in the first quadrant between theta = 0 and theta = pi/2, bounded on the
+inside by the circle and on the outside by the cardioid; a red radial line at an
+intermediate angle shows a representative radial strip. The figure establishes the
+geometry of the integration region R needed to set up the polar iterated integral with
+inner limits from r = 2 to r = 2(1 + cos theta) and outer limits from theta = 0 to theta
+= pi/2.
+3. Demonstration — equation input for the cardioid boundary: one field pre-filled with
+"2*(1+cos(theta))"; learner edits r=f(θ) and the curve redraws alongside the fixed
+circle r=2, the shaded integration region updates, and the intersection angle recomputes
+— shows how the curve formula determines where the two boundaries meet and the size of
+the region
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Demonstration — slider for θ from 0 to π/2: sweep the radial line tracing the
+boundary between the two curves and shading the enclosed region
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+5. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: Evaluate !! R sin θ dA where R is the region in the first quadrant
+that is outside the circle r = 2 and inside the cardioid r = 2(1 + cos θ). Solution. The
+region R is sketched in Figure 14.3.10. Following the two steps outlined
+above we obtain
+!!
+R
+sin θ dA =
+! π/2
+0
+! 2(1+cos θ)
+2
+(sin θ )r dr dθ
+=
+! π/2
+0
+1
+2
+r2 sin θ
+_x0010_2(1+cos θ)
+r=2
+dθ
+= 2
+! π/2
+0
+[(1 + cos θ)2 sin θ − sin θ] dθ
+= 2
+−1
+3
+(1 + cos θ)3 + cos θ
+_x0010_π/2
+0
+= 2
+−1
+3 −
+_x000e_
+−5
+3
+3
+_x000f__x0010_ = 8
+CONSTRAINTS
+- Render in 2D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.

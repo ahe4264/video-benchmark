@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:03.970Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "The video is a research presentation about lesson design, not a student lesson. It covers 'Related Work' (0:38), 'Experimental Method' (1:45), and 'Ablation' (2:35). Math steps are briefly shown (0:55-1:44) but delivered as a rapid reading of static equations. Most content is off-topic for learning the math.",
+    "score_reason": "The content is mostly off-topic, focusing on research methodology rather than teaching the math concept. This meets the lowest level (fails to teach), mapped to 3 per instructions.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 62701,
+    "candidatesTokenCount": 146,
+    "totalTokenCount": 64090,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61978
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      }
+    ],
+    "thoughtsTokenCount": 1243,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66160
+  }
+}

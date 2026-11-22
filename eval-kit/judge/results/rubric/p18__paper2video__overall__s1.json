@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:44:10.669Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:00: Introduced as a presentation of a 'lesson plan.'\n0:18: Explains the core concept using static diagrams, framed with meta-labels like 'Hook question.'\n0:37: Uses advanced calculus (Lambertian integration).\n0:55-2:03: Describes planned scenes and animations instead of showing them.\n2:04: Discusses 'Experimental Method' and rendering settings.\n2:40: Uses academic terminology like 'Ablation.'",
+    "score_reason": "The video explains the core concept of ray restriction, teaching parts of the topic. However, it is a meta-presentation about a lesson plan, using academic jargon and describing animations rather than showing them. This significant problem keeps it from a higher level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 59523,
+    "candidatesTokenCount": 183,
+    "totalTokenCount": 61589,
+    "cachedContentTokenCount": 58727,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 731
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58792
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51914
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6464
+      }
+    ],
+    "thoughtsTokenCount": 1883,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62834
+  }
+}

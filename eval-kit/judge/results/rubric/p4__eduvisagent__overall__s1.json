@@ -1,0 +1,49 @@
+{
+  "topic": "p4",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:02:10.136Z",
+  "seconds": 95,
+  "result": {
+    "evidence": "The lesson is a highly interactive, multi-part module that covers insertion sort in extreme depth. It begins with a concrete card-sorting hook (0:02) and progresses to a live array animation with synchronized pseudocode (1:49). It utilizes multiple representations, including visual arcs for inversions (3:14) and real-world transfer tasks like a returns cart (3:27) and a baking contest (10:48). The pedagogy heavily relies on active learning, requiring the user to predict outcomes (0:17), trace the algorithm (7:22), and diagnose specific errors (14:44). The lesson connects the mechanical steps to underlying concepts like inversions and shifts. It is entirely text-based and interactive, with no audio narration.",
+    "score_reason": "The lesson fully meets the description for the top level (Exceptional), as it is an incredibly thorough, well-designed, and highly interactive model for teaching an algorithm. It forces active engagement and deep conceptual understanding. To comply with the instruction to compress extreme scores toward the center, the score is adjusted to the Strong level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 327822,
+    "candidatesTokenCount": 253,
+    "totalTokenCount": 329361,
+    "cachedContentTokenCount": 333635,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 726
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 327096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 333291
+      }
+    ],
+    "thoughtsTokenCount": 1286,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336971
+  }
+}

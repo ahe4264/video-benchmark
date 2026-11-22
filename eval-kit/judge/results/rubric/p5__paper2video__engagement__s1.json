@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:44.700Z",
+  "seconds": 34,
+  "result": {
+    "evidence": "0:00: Opens with a title slide for a presentation about lesson design rather than the lesson itself.\n0:17-3:11: The video consists entirely of static slides with bullet points discussing methodology, related work, and experimental results. It reads like an academic conference talk, lacking any hook, momentum, or variety.",
+    "score_reason": "Fully meets level 1. The video is dull throughout and reads exactly like slides, offering no engaging content or pull for a student, which keeps it from level 2.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 57392,
+    "candidatesTokenCount": 129,
+    "totalTokenCount": 58811,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56744
+      }
+    ],
+    "thoughtsTokenCount": 1290,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 60599
+  }
+}

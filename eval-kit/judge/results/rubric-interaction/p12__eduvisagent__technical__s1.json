@@ -1,0 +1,51 @@
+{
+  "topic": "p12",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:29.021Z",
+  "seconds": 70,
+  "result": {
+    "evidence": "Overall rendering is good. Two minor interaction issues: a checkbox fails at 11:18, and a button does not respond at 16:01.",
+    "issues": [
+      {
+        "timestamp": "11:18",
+        "description": "Checkbox cannot be operated.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "16:01",
+        "description": "Button click produces no response.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "Two minor glitches fit the description for a 6. Compressed to 5.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 351102,
+    "candidatesTokenCount": 159,
+    "totalTokenCount": 353294,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3150
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347952
+      }
+    ],
+    "thoughtsTokenCount": 2033,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 360983
+  }
+}

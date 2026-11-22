@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:07.866Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:00-0:35: Problem introduced, numerical evidence shown, squeeze concept and sector area formula explained.\n0:35-1:25: Geometric figure built step-by-step; heights and areas calculated to establish inequality.\n2:28-2:38: Algebraic manipulation (dividing, reciprocating) clearly shown.\n3:42: Negative x case addressed.\n4:00-4:12: Squeeze theorem applied for final limit.",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated and builds logically on the last, introducing all concepts before use, allowing a newcomer to reconstruct the argument.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 77782,
+    "candidatesTokenCount": 162,
+    "totalTokenCount": 80026,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77088
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      }
+    ],
+    "thoughtsTokenCount": 2082,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 80303
+  }
+}

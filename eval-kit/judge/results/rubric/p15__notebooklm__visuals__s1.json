@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:07.073Z",
+  "seconds": 49,
+  "result": {
+    "evidence": "1:11: node-centric aggregation visual. 2:23: thicker lines show attention. 4:09: step-by-step edge graph transformation. 5:34: icon table for update types. 4:59: slightly cluttered scene.",
+    "score_reason": "Meets Level 6. Visuals clearly show key concepts and change dynamically. Misses Level 7 due to minor clutter and some reliance on narration for abstract metaphors.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 120992,
+    "candidatesTokenCount": 117,
+    "totalTokenCount": 123164,
+    "cachedContentTokenCount": 125558,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120232
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 111904
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13312
+      }
+    ],
+    "thoughtsTokenCount": 2055,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127299
+  }
+}

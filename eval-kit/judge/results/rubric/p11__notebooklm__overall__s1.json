@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:15.269Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "The lesson starts with a clear definition of catalysts (0:47). The catalytic converter example (1:22) is a slight detour but helps explain general catalysis. The core topic is addressed clearly: the lock-and-key model is explained using a rigid lock analogy (2:50), and the induced fit model is explained using a flexible glove analogy (3:44, 4:33). The G6PD deficiency example (5:35) effectively demonstrates the importance of enzyme specificity.",
+    "score_reason": "The lesson fully meets the 'Good' level. It teaches the core concepts clearly using effective analogies and real-world examples. It is kept from the 'Strong' level due to a slightly long introduction that delays the main topic.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 121527,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 122841,
+    "cachedContentTokenCount": 126164,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 728
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120799
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 112442
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13376
+      }
+    ],
+    "thoughtsTokenCount": 1138,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127855
+  }
+}

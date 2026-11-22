@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:51.878Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "0:00: Opens with a title slide for a 'talk' about a lesson. 0:38: 'Related Work' slide discusses textbook challenges, irrelevant to a student. 0:55-1:44: Math is presented on static 'Method' slides with bullet points. 1:45-3:25: Discusses 'Experimental Method', 'Ablation', and 'Future Research', which is meta-commentary.",
+    "score_reason": "The video is a meta-presentation about lesson design rather than an actual lesson. It consists of static slides and dry narration. A student would find it dull and stop watching, meeting Level 1.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 62625,
+    "candidatesTokenCount": 161,
+    "totalTokenCount": 64654,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61978
+      }
+    ],
+    "thoughtsTokenCount": 1868,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66084
+  }
+}

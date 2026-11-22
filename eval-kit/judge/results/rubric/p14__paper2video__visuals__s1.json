@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:09.422Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "0:00-4:11: The lesson consists almost entirely of text-heavy slides containing bullet points, tables, and formulas. 0:16, 0:55: A small, static diagram of a U-Net architecture is displayed, but it is not animated, highlighted, or dynamically linked to the narration.",
+    "score_reason": "The lesson fully meets Level 1 (compressed to 2) because it is essentially text on screen, with visuals being mostly absent aside from a single static diagram.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 73804,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 75487,
+    "cachedContentTokenCount": 72882,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73043
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64507
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8032
+      }
+    ],
+    "thoughtsTokenCount": 1556,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77801
+  }
+}

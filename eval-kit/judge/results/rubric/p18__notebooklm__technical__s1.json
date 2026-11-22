@@ -1,0 +1,70 @@
+{
+  "topic": "p18",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:00.705Z",
+  "seconds": 57,
+  "result": {
+    "evidence": "Observed multiple instances of unrendered markdown and LaTeX tags on screen at 2:58, 4:45, and 7:02.",
+    "issues": [
+      {
+        "timestamp": "2:58",
+        "description": "Unrendered markdown image tags.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "4:45",
+        "description": "Unrendered markdown image tags and LaTeX.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "7:02",
+        "description": "Unrendered markdown image tags and LaTeX.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has several major rendering problems, fitting the level for 'Several major problems'.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 149515,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 151022,
+    "cachedContentTokenCount": 155063,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148539
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 976
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138266
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16448
+      }
+    ],
+    "thoughtsTokenCount": 1308,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 157365
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:08.955Z",
+  "seconds": 133,
+  "result": {
+    "evidence": "0:03: Introduces the 0/0 problem for sin(x)/x.\n1:25: Builds a geometric model using a unit circle.\n2:50: Visually compares the areas of three regions.\n5:40: Calculates the areas of the regions.\n7:06: Derives the algebraic inequality.\n8:16: Applies the Squeeze Theorem visually on a graph.",
+    "score_reason": "The lesson is clear, correct, and well-made. It breaks down the geometric proof into understandable steps with excellent visuals, seamlessly connecting geometry, algebra, and limits. It meets the criteria for an exceptional lesson, but the score is compressed toward the center.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 154766,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 156424,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154037
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      }
+    ],
+    "thoughtsTokenCount": 1491,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 162705
+  }
+}

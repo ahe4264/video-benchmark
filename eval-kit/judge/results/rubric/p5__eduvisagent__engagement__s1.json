@@ -1,0 +1,49 @@
+{
+  "topic": "p5",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:09:07.160Z",
+  "seconds": 129,
+  "result": {
+    "evidence": "0:00 Opens with a practical scenario about electric vans and regenerative braking, asking if a longer route can cost less. 0:18-3:30 Interactive tracing involves repetitive steps across multiple passes. 4:55 Context shifts to cargo drones for variety. 8:52 Shifts to theatre scheduling, showing a novel application of the algorithm.",
+    "score_reason": "The lesson fully meets Level 5. The opening poses a clear stake, and the lesson offers good variety through different scenarios. The repetitive algorithm tracing creates a few lulls, preventing a higher score.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 322993,
+    "candidatesTokenCount": 139,
+    "totalTokenCount": 325338,
+    "cachedContentTokenCount": 328792,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 322344
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 328449
+      }
+    ],
+    "thoughtsTokenCount": 2206,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332016
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:47.020Z",
+  "seconds": 37,
+  "result": {
+    "evidence": "The lesson is a continuous video presentation without interactive elements. It poses rhetorical questions to the viewer, such as at 0:30 ('How can one architecture work at every scale...') and at 05:00/05:38 ('Where would you route text conditioning?'). There are no quizzes, input fields, or opportunities for the learner to actively respond and receive feedback.",
+    "score_reason": "The lesson fully meets Level 2 because it only asks rhetorical questions and does not require any active input from the learner. It does not meet Level 3 because there are no genuine checks or feedback mechanisms.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 91286,
+    "candidatesTokenCount": 145,
+    "totalTokenCount": 92737,
+    "cachedContentTokenCount": 92610,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 90552
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 92267
+      }
+    ],
+    "thoughtsTokenCount": 1306,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 94163
+  }
+}

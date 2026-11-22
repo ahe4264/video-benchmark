@@ -1,0 +1,38 @@
+{
+  "topic": "p4",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:02.888Z",
+  "seconds": 48,
+  "result": {
+    "evidence": "Watched the entire lesson. No layout, rendering, interaction, playback, or audio issues were observed. All text and graphics are clearly visible, animations play smoothly, and the audio is clear and synced with the visuals.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level description as there are no visible technical problems, but the score is compressed away from the extreme highest value.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 145169,
+    "candidatesTokenCount": 102,
+    "totalTokenCount": 146035,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144199
+      }
+    ],
+    "thoughtsTokenCount": 764,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 152810
+  }
+}

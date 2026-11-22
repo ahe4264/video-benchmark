@@ -1,0 +1,60 @@
+{
+  "topic": "p7",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:24:18.816Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "The lesson plays smoothly with no major technical issues. However, at 5:02, there is a minor rendering issue where markdown asterisks are visible in the text instead of formatting the text.",
+    "issues": [
+      {
+        "timestamp": "5:02",
+        "description": "Unrendered markdown asterisks in the text 'Magnitude relies heavily on the *angle* between the **vectors**.'",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one minor glitch (unrendered markdown), keeping it from the top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 131880,
+    "candidatesTokenCount": 146,
+    "totalTokenCount": 132859,
+    "cachedContentTokenCount": 136695,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 130911
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 121857
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 14496
+      }
+    ],
+    "thoughtsTokenCount": 833,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 138876
+  }
+}

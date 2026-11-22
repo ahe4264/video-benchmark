@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:16:04.430Z",
+  "seconds": 151,
+  "result": {
+    "evidence": "0:02: Slider shows image denoising over time.\n2:23: Interactive U-diagram with toggles shows architecture flow.\n7:06: Animated dials visualize time embedding.\n7:09: Storyboard links image, timestep, and network parts.\n14:03: Bar graphs show resolution vs. channels.",
+    "score_reason": "Visuals are clear, dynamic, and explain key relationships (U-diagram, storyboard). They carry much of the explanation. Minor weakness: heavy reliance on dense number tables alongside graphics. Fully meets Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 378281,
+    "candidatesTokenCount": 141,
+    "totalTokenCount": 380827,
+    "cachedContentTokenCount": 385013,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 377520
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 384670
+      }
+    ],
+    "thoughtsTokenCount": 2405,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 388767
+  }
+}

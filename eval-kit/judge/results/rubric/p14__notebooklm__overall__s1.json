@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:23.366Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "The lesson follows a clear 6-part structure (0:24). It sets up the problem of needing to see local noise and global structure simultaneously (0:51). It explains the downsampling path, noting that resolution halves while channels double to extract context (2:45), reaching a bottleneck (3:13). Skip connections are clearly explained as 'rescuing' high-frequency details for the upsampling path (3:38). The role of time embeddings is illustrated with an excellent sculptor analogy (4:31). It effectively contrasts local convolution with global self-attention (5:42). Finally, it covers practical upgrades like classifier-free guidance (7:27) and latent diffusion (8:06).",
+    "score_reason": "The lesson fully meets the 'Strong' level. It is exceptionally clear, well-structured, and uses highly effective analogies to explain a complex deep learning architecture intuitively. It covers a significant amount of material without becoming overwhelming. The only minor weakness is the reliance on mostly static slide visuals, though they are well-designed and informative.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 175574,
+    "candidatesTokenCount": 246,
+    "totalTokenCount": 177144,
+    "cachedContentTokenCount": 182448,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 174849
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162745
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19360
+      }
+    ],
+    "thoughtsTokenCount": 1324,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 184527
+  }
+}

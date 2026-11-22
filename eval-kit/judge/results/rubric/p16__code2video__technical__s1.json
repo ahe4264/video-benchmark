@@ -1,0 +1,56 @@
+{
+  "topic": "p16",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:41:28.435Z",
+  "seconds": 106,
+  "result": {
+    "evidence": "The lesson renders correctly for the most part. There is a single, brief instance of text overlapping during a transition at 01:25.",
+    "issues": [
+      {
+        "timestamp": "01:25",
+        "description": "Text 'four different groups: stereocenter' appears on top of the previous text before it fades out, causing a brief overlap.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one minor glitch (a brief text overlap) but content remains readable and usable, which corresponds to the second-highest level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 70933,
+    "candidatesTokenCount": 150,
+    "totalTokenCount": 72922,
+    "cachedContentTokenCount": 71631,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 973
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69960
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71285
+      }
+    ],
+    "thoughtsTokenCount": 1839,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73442
+  }
+}

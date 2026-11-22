@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:23.442Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:51: Capacitance is clearly defined.\n1:14: The physical structure is built step-by-step visually.\n2:08 & 2:39: The effects of changing the gap and length are explained intuitively before math is introduced.\n4:08: The formula is shown. Variables L, R1, R2 map to previous concepts. Epsilon naught is shown but not explicitly named, though a student with prerequisites would recognize it.",
+    "score_reason": "The lesson is highly logical and builds step-by-step, connecting physical intuition to the mathematical formula without major gaps. It would normally score higher, but the score is compressed toward the center of the scale as requested.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 110498,
+    "candidatesTokenCount": 168,
+    "totalTokenCount": 111428,
+    "cachedContentTokenCount": 114719,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 109812
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102220
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12160
+      }
+    ],
+    "thoughtsTokenCount": 762,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 116294
+  }
+}

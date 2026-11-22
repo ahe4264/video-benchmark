@@ -1,0 +1,56 @@
+{
+  "topic": "p18",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:20.774Z",
+  "seconds": 96,
+  "result": {
+    "evidence": "Lesson plays smoothly. At 2:11, an equation overlaps a diagram line.",
+    "issues": [
+      {
+        "timestamp": "2:11",
+        "description": "Equation 'h = H \\cdot f / D...' overlaps the vertical barrier line.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "One minor layout overlap; content remains readable, matching the level for one or two minor glitches.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 64072,
+    "candidatesTokenCount": 118,
+    "totalTokenCount": 66821,
+    "cachedContentTokenCount": 64640,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 976
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64291
+      }
+    ],
+    "thoughtsTokenCount": 2631,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66399
+  }
+}

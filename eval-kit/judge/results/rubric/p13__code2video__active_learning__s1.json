@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:33.271Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "The video presents information continuously from 0:00 to 5:29. At 5:13, a 'Check Your Understanding' section appears, but it immediately displays the solution without prompting the learner to pause, think, or answer.",
+    "score_reason": "The lesson fully meets Level 1 because it is entirely passive and asks nothing of the learner.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 87850,
+    "candidatesTokenCount": 95,
+    "totalTokenCount": 88974,
+    "cachedContentTokenCount": 89109,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 87120
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 88770
+      }
+    ],
+    "thoughtsTokenCount": 1029,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 90636
+  }
+}

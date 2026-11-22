@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:07.793Z",
+  "seconds": 244,
+  "result": {
+    "evidence": "0:03: Opens with a practical wrench scenario, posing a question about orthogonal directions.\n1:48-3:14: A flat stretch detailing the numerical calculation steps.\n3:49-5:23: Engaging visual showing the cross product length tracing a sine wave as the angle changes.\n5:24-6:55: Visually connects cross product length to parallelogram area.",
+    "score_reason": "The lesson meets Level 5 by opening with a clear question and maintaining a good pace with visual variety and insights. It misses Level 6 because the numerical calculation section creates a noticeable lull, and the opening stake is standard rather than deeply compelling.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 156138,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 158486,
+    "cachedContentTokenCount": 162280,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155490
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144722
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17216
+      }
+    ],
+    "thoughtsTokenCount": 2188,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 164153
+  }
+}

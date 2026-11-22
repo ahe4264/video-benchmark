@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:21.238Z",
+  "seconds": 48,
+  "result": {
+    "evidence": "The lesson is a continuous video presentation. It uses rhetorical questions to guide the narrative, such as 'Is an electron a particle or a wave?' (0:16), 'what happens if we do this same thing with pieces of solid matter?' (2:50), and 'how do we map out atoms...' (6:45). There are no interactive prompts, quizzes, or tasks for the learner to complete.",
+    "score_reason": "The lesson fully meets Level 2 because it relies solely on rhetorical questions to engage the viewer. It does not reach Level 3 as there are no genuine checks for understanding or interactive elements.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 159383,
+    "candidatesTokenCount": 149,
+    "totalTokenCount": 160662,
+    "cachedContentTokenCount": 165592,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 147681
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17568
+      }
+    ],
+    "thoughtsTokenCount": 1130,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167545
+  }
+}

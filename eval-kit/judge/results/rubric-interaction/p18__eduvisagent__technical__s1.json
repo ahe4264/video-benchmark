@@ -1,0 +1,61 @@
+{
+  "topic": "p18",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:10:00.836Z",
+  "seconds": 212,
+  "result": {
+    "evidence": "At 2:24, the automated player clicks the '5 - Checkpoint' tab, but the screen does not change and the tab does not open. At 4:34, the player clicks the first checkbox under the Misconception checklist, but it does not respond or show a checkmark (unlike the second checkbox clicked at 4:36, which works). At 5:35, the player clicks the 'Can explain' button for the first self-assessment item, but it does not highlight (unlike the button clicked at 5:37). At 11:38, the player clicks the 'Clinic examples' tab, but it does not respond or open.",
+    "issues": [
+      {
+        "timestamp": "2:24",
+        "description": "Interaction: The '5 - Checkpoint' tab is clicked but does not respond, leaving its content inaccessible.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "4:34",
+        "description": "Interaction: The first checkbox in the Misconception checklist is clicked but does not become checked.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "5:35",
+        "description": "Interaction: The 'Can explain' button in the self-assessment is clicked but does not respond or highlight.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "11:38",
+        "description": "Interaction: The 'Clinic examples' tab is clicked but does not respond, leaving its content inaccessible.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has two major interaction problems where tabs fail to open (preventing access to their content), along with two minor unresponsive inputs. This matches the level for several major problems.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 334636,
+    "candidatesTokenCount": 424,
+    "totalTokenCount": 340624,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 330264
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 4372
+      }
+    ],
+    "thoughtsTokenCount": 5564,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 343872
+  }
+}

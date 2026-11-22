@@ -1,0 +1,49 @@
+{
+  "topic": "p3",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:05:11.370Z",
+  "seconds": 52,
+  "result": {
+    "evidence": "0:02: Predicts cardioid shape via sketch. 1:20: Explores scaling with a slider. 1:53: Explains changes in a table. 2:15: Sets up and solves new integral. 2:53: Calculates ratios to check prediction. 6:10: Applies routine to a far-transfer problem. 7:53: Assesses mistake risks.",
+    "score_reason": "The learner predicts, explains, applies, and explores at most key steps, with feedback addressing their inputs, meeting Level 6. It misses Level 7 because the feedback shown is primarily correctness checks rather than detailed explanations tailored to specific wrong answers.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 150949,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 153427,
+    "cachedContentTokenCount": 153403,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 150216
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153061
+      }
+    ],
+    "thoughtsTokenCount": 2315,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 155408
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:40.073Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "The video is a continuous presentation without interactive elements. At 6:05, the narrator poses a challenge question ('What do you think happens to the limit of the function (1-cosx)/x...?') but provides no mechanism for the learner to answer or receive feedback.",
+    "score_reason": "The lesson meets Level 2 because it is a passive presentation that only includes a rhetorical 'pause and think' prompt at the end with no follow-up.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 114887,
+    "candidatesTokenCount": 112,
+    "totalTokenCount": 115855,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114149
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 738
+      }
+    ],
+    "thoughtsTokenCount": 856,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 120901
+  }
+}

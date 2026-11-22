@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:47.433Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "0:00-0:58: Engaging hook using clocks and skyscrapers, followed by a clear roadmap.\n0:59-5:19: Clear breakdown of the idealized simple pendulum, forces, small angle approximation, and the period equation.\n5:20-8:07: Smooth transition to physical pendulums and a compelling real-world application (tuned mass dampers in skyscrapers).\n8:08-10:08: Clear explanation of torsional pendulums and their period equation.",
+    "score_reason": "The lesson is exceptionally clear, well-structured, and engaging, with excellent visuals and real-world applications. It effectively teaches the core concepts. Following the instruction to compress extreme scores, it is rated at the Strong level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 177311,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 178448,
+    "cachedContentTokenCount": 184250,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 721
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 176590
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164359
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19552
+      }
+    ],
+    "thoughtsTokenCount": 959,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 186348
+  }
+}

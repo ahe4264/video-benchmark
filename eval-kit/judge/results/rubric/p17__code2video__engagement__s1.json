@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:24.765Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:00 Hook introduces a robot fitting a line, creating a visual stake. 1:04 Visualizing squared residuals is engaging. 1:48 Transition to contour map provides insight. 2:16 Dual view maintains momentum. 2:37 Simultaneous movement to minimum is satisfying. 3:10-4:03 Sweeping individual parameters slows pace slightly.",
+    "score_reason": "Meets Level 6. The opening poses a clear stake, pace is generally good with moments of insight (contour maps, dual view), but the later sweeping sections create brief lulls, keeping it from Level 7. Score compressed towards center.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 74309,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 75889,
+    "cachedContentTokenCount": 75398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73656
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75051
+      }
+    ],
+    "thoughtsTokenCount": 1425,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 76738
+  }
+}

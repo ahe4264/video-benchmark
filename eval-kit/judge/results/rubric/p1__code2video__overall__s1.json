@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:15.650Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "0:00-0:35 introduces the 0/0 problem and Squeeze Theorem. 0:35-1:25 constructs the geometric bounds (inner triangle, sector, outer triangle). 1:25-2:09 visually demonstrates the inequality holding as x varies. 2:09-2:53 shows the algebraic steps to isolate sin(x)/x. 2:53-3:45 clarifies the need for radians and negative x. 3:45-4:51 concludes the proof.",
+    "score_reason": "The lesson is exceptionally clear, correct, and well-structured, providing excellent visual intuition for the geometric proof. It fully meets the criteria for an exceptional model lesson, but the score is compressed from the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 77817,
+    "candidatesTokenCount": 185,
+    "totalTokenCount": 79370,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77088
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      }
+    ],
+    "thoughtsTokenCount": 1368,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 80338
+  }
+}

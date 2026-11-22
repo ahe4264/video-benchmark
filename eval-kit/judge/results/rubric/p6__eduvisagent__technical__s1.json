@@ -1,0 +1,50 @@
+{
+  "topic": "p6",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:05:38.610Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "The lesson was reviewed in its entirety. The layout is clean with no overlapping text or elements running off the screen. All mathematical formulas and symbols render correctly, with no raw LaTeX or HTML tags visible. Interactive elements, including sliders, text inputs, radio buttons, and checkboxes, respond as expected when interacted with by the automated player. Dynamic graphs and figures update smoothly without stuttering or freezing. There are no placeholder values like 'undefined' or 'NaN' visible at any point.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level because there are no visible technical problems: everything renders, loads, and responds as intended.",
+    "score": 7
+  },
+  "usage": {
+    "promptTokenCount": 320673,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 321978,
+    "cachedContentTokenCount": 326101,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 319704
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 325759
+      }
+    ],
+    "thoughtsTokenCount": 1154,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 329804
+  }
+}

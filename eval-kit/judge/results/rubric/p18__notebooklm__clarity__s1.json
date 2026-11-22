@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:46:03.886Z",
+  "seconds": 59,
+  "result": {
+    "evidence": "0:27: The problem of light scattering is explained clearly with visuals. 1:29: The pinhole solution is introduced logically. 2:58, 4:45, 7:02: Dense text documents are used as visual backgrounds; these contain too much information to read while listening. 4:05: Coordinate systems are clearly defined before use. 4:45: The math derivation using similar triangles is logical but proceeds quickly. 5:46: The straw camera concept builds step-by-step.",
+    "score_reason": "The lesson follows a sensible order and builds concepts logically. It fully meets Level 4, but is kept from Level 5 because the dense text backgrounds create visual clutter and the math derivation is slightly rushed, requiring a moment's thought.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 149235,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 150921,
+    "cachedContentTokenCount": 155063,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 696
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148539
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138266
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16448
+      }
+    ],
+    "thoughtsTokenCount": 1498,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156907
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "topic": "p3",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:18.436Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "Observed several technical glitches. At 01:25, an integral limit overlaps the integrand. At 02:18, text briefly garbles during a transition. At 03:23, text in the top right becomes a major, unreadable overlap that persists. At 03:34 and 04:09, text briefly overlaps during animations.",
+    "issues": [
+      {
+        "timestamp": "01:25",
+        "description": "Integral limit overlaps with the integrand.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:18",
+        "description": "Text in top right garbles during transition.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "03:23",
+        "description": "Text in top right is severely overlapping and unreadable.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:34",
+        "description": "Text in yellow box is garbled before resolving.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:09",
+        "description": "Text overlaps during typing animation.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one major problem (unreadable overlapping text) and several minor glitches.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 67760,
+    "candidatesTokenCount": 334,
+    "totalTokenCount": 71834,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66792
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      }
+    ],
+    "thoughtsTokenCount": 3740,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 70186
+  }
+}

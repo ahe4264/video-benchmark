@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:37.584Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "0:45: A clear roadmap outlines the lesson structure. 1:11: The visual of a node receiving data from neighbors aligns perfectly with the narration. 1:46: Aggregation methods are introduced logically, though the visuals (abacus, scale) are somewhat abstract. 3:34: The edge graph concept is introduced with a clear before/after visual. 4:09: The step-by-step visual of the edge graph construction is highly effective and easy to follow. 4:47: The explanation of connecting new nodes based on shared vertices is slightly fast but supported by the visuals. 5:34: The table of update types clearly summarizes the new possibilities.",
+    "score_reason": "The lesson is logical and step-by-step, with a sensible order that builds well. A few slightly rushed explanations, such as the quick overview of aggregation methods and the shared vertex condition, keep it from the highest levels.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 120921,
+    "candidatesTokenCount": 218,
+    "totalTokenCount": 122471,
+    "cachedContentTokenCount": 125558,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120232
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 111904
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13312
+      }
+    ],
+    "thoughtsTokenCount": 1332,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127228
+  }
+}

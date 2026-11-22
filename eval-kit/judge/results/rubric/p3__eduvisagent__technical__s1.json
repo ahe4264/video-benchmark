@@ -1,0 +1,56 @@
+{
+  "topic": "p3",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:03:28.612Z",
+  "seconds": 92,
+  "result": {
+    "evidence": "At 0:02, raw LaTeX markup briefly appears in the side panels before rendering. All other interactive elements, inputs, and animations function smoothly throughout the lesson.",
+    "issues": [
+      {
+        "timestamp": "0:02",
+        "description": "Raw LaTeX markup is briefly visible before rendering.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one minor glitch (brief unrendered LaTeX), keeping content fully usable. This matches level 6, compressed to 5 per instructions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 151185,
+    "candidatesTokenCount": 137,
+    "totalTokenCount": 156773,
+    "cachedContentTokenCount": 153403,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 150216
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153061
+      }
+    ],
+    "thoughtsTokenCount": 5451,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 155822
+  }
+}

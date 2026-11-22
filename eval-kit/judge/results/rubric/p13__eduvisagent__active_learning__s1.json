@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:23:39.227Z",
+  "seconds": 106,
+  "result": {
+    "evidence": "The lesson requires active participation throughout. At 0:22, a prior knowledge prompt asks learners to predict which features act like 'area' and 'gap'. At 2:09 and 2:39, learners predict the outcomes of Demos A and B before interacting with them, and are then asked to explain any gaps in their reasoning. At 3:05, learners explore the relationships hands-on by sweeping parameters. At 6:27, open-ended guiding questions require explanations. Parts 3 (9:51) and 4 (13:02) are extensive far-transfer application tasks where learners must identify problem types, predict outcomes, and diagnose errors. Feedback is highly specific, such as at 2:39 where it explains that a wrong answer of '1x' for Q implies assuming fixed charge instead of fixed voltage, and at 12:48 where an 'Error-diagnosis key' maps specific incorrect numerical answers to the exact misconceptions that caused them.",
+    "score_reason": "The lesson fully meets the top level. The learner performs the key reasoning by predicting, applying, and exploring at all main steps. Feedback explicitly explains the 'why' for specific incorrect answers, and checks are strategically placed to catch common misconceptions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 317794,
+    "candidatesTokenCount": 283,
+    "totalTokenCount": 319955,
+    "cachedContentTokenCount": 323408,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 317064
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323069
+      }
+    ],
+    "thoughtsTokenCount": 1878,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 326677
+  }
+}

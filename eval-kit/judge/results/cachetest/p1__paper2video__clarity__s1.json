@@ -1,0 +1,53 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:15:29.590Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:00: Video is a research presentation about a lesson, not the lesson itself.\n0:46: Geometric setup appears as a static, completed figure.\n1:00: Region areas are stated without derivation.\n1:34: Content shifts to experimental methods and ablation, irrelevant to the math topic.",
+    "score_reason": "The main mathematical idea is briefly shown, but key steps are skipped and figures are shown all at once. The focus on research methodology rather than teaching would confuse a newcomer. It meets Level 2.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59765,
+    "candidatesTokenCount": 132,
+    "totalTokenCount": 62136,
+    "cachedContentTokenCount": 59015,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 695
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 52171
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6496
+      }
+    ],
+    "thoughtsTokenCount": 2239,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63083
+  }
+}

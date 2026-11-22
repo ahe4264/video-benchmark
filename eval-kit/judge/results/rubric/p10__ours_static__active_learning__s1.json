@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:00.278Z",
+  "seconds": 55,
+  "result": {
+    "evidence": "0:34: Predicts ball behavior.\n1:29: Explains wave interference.\n2:06, 3:29, 4:58, 6:25, 8:20: Predicts outcomes before animations play.\n2:53: Explains dark bands.\n4:00, 7:05: Interactive exploration (toggling views, adjusting slit spacing).\n4:21, 5:48, 7:27, 8:49: Applies concepts to specific scenarios.\nFeedback consistently explains the reasoning behind the correct answers.",
+    "score_reason": "The lesson fully meets the top level. The learner does the key reasoning by predicting, applying, and exploring at all main steps, and the feedback explains the underlying concepts.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 165474,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 167777,
+    "cachedContentTokenCount": 171913,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164740
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 2112,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173937
+  }
+}

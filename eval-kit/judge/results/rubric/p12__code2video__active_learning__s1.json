@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:10.744Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "The video uses rhetorical questions (e.g., 'Why?' at 0:00) and a pause-and-think prompt ('On the Moon, would this clock run fast or slow?' at 6:22) followed by the answer. No interactive questions or hands-on activities are present.",
+    "score_reason": "Meets level 2 due to the use of rhetorical questions and a pause-and-think prompt. It lacks the genuine checks required for level 3.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 103426,
+    "candidatesTokenCount": 120,
+    "totalTokenCount": 104929,
+    "cachedContentTokenCount": 104980,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102696
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 104641
+      }
+    ],
+    "thoughtsTokenCount": 1383,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 106625
+  }
+}

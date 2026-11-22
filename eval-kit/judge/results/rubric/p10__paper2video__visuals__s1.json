@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:27.465Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:00-0:15: Text-only title slide.\n0:16-0:34: Text bullets with a static double-slit diagram.\n0:35-1:06: Text and equations.\n1:07-1:22: Text with a static diagram of wave/particle views.\n1:23-2:36: Text, equations, and tables.\n2:37-2:52: Text with the previously shown static diagram.\n2:53-3:56: Text and tables.",
+    "score_reason": "The lesson uses clean, readable slides with static, repetitive diagrams depicting the main concepts. It meets Level 3 but falls short of Level 4 because the visuals do not change to explain steps, remaining mostly text-heavy and illustrative.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 69434,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 71625,
+    "cachedContentTokenCount": 68547,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68673
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60652
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7552
+      }
+    ],
+    "thoughtsTokenCount": 1994,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73214
+  }
+}

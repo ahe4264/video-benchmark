@@ -1,0 +1,86 @@
+{
+  "topic": "p8",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:14.138Z",
+  "seconds": 43,
+  "result": {
+    "evidence": "Observed multiple instances of text overlapping other text or graphics, making it difficult to read. At 0:35, text renders with garbled characters. At 2:00, 2:26, 2:34, 2:47, 3:53, and 4:14, new text blocks appear on top of existing text or graph elements.",
+    "issues": [
+      {
+        "timestamp": "0:35",
+        "description": "Text 'H2 = 2 protons + 2 electrons' renders with overlapping characters.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "2:00",
+        "description": "Text '1 A = 1 C/s...' overlaps 'Charge balance...' text.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "2:26",
+        "description": "'I = 2F·n(H2)' overlaps the equations in the top right.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "2:34",
+        "description": "'Feed 1.0...' text block overlaps the graph axis.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "2:47",
+        "description": "'Current -> H2 consumed...' overlaps the 'Feed 1.0...' text.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "3:53",
+        "description": "'Anode: H2...' text overlaps 'Membrane: passes H+ only'.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "4:14",
+        "description": "'Each H2 gives...' text overlaps the '(a) 1.54 A...' text.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has several major layout problems where text overlaps other elements, making it hard to read. This meets the criteria for 'Several major problems', mapped toward the center of the scale.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 69610,
+    "candidatesTokenCount": 493,
+    "totalTokenCount": 73875,
+    "cachedContentTokenCount": 70283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69940
+      }
+    ],
+    "thoughtsTokenCount": 3772,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 72084
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "topic": "p18",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:05:43.986Z",
+  "seconds": 91,
+  "result": {
+    "evidence": "All text, math formulas, and graphics render correctly (e.g., 03:07). Interactive elements respond as expected (e.g., 02:41). No unrendered code or layout issues are visible.",
+    "issues": [],
+    "score_reason": "The lesson has no visible technical problems, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 331240,
+    "candidatesTokenCount": 93,
+    "totalTokenCount": 335121,
+    "cachedContentTokenCount": 336868,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 976
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 330264
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 336519
+      }
+    ],
+    "thoughtsTokenCount": 3788,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 340651
+  }
+}

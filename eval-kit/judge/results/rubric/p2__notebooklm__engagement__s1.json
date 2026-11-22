@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:46.755Z",
+  "seconds": 136,
+  "result": {
+    "evidence": "0:24: Poses the core question of calculating 3D volume with 2D math. 2:33: Uses a flashlight analogy to explain 2D projection. 3:47: The sweeping strip animation provides a clear moment of insight for setting integration limits. 5:40-6:32: The calculation section is a flat stretch, walking through algebraic steps on a mostly static table.",
+    "score_reason": "The lesson fully meets level 5. It opens with a clear question, uses varied visuals, and offers strong moments of insight. The lengthy, static calculation section creates a noticeable lull, keeping it from level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 133589,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 135635,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 132941
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "thoughtsTokenCount": 1889,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 140513
+  }
+}

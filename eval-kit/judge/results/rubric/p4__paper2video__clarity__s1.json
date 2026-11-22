@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:08.026Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "0:00: Video introduces a 'Lesson Design Presentation' rather than teaching the algorithm.\n0:33: Shows a textbook figure but discusses pedagogical challenges instead of explaining the steps.\n1:51: Presents code as a 'reference solution' without explaining its logic.\n2:49: Uses the term 'inversions' without definition.\n3:06: Discusses lesson ablation, irrelevant to a student learning the algorithm.",
+    "score_reason": "The video is a meta-presentation about lesson design, not a tutorial. It assumes prior knowledge and does not teach the algorithm's steps, leaving a newcomer lost immediately. It meets Level 1.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 69656,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 72163,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68966
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "thoughtsTokenCount": 2349,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73451
+  }
+}

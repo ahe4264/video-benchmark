@@ -1,0 +1,46 @@
+{
+  "topic": "p20",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:07:36.552Z",
+  "seconds": 60,
+  "result": {
+    "evidence": "The lesson renders its text, math, and interactive elements well throughout. At 1:14, the header displays 'undefined', but the text immediately below explains that this is intentional because there is no single output angle when the rays are not parallel, so it is not a technical error. At 4:23, the interaction log records a click on the 'Show on figure ↑' button in the 'P - Plan (view 1)' panel that results in no visible change. Watching the video at this time confirms that the figure does not update with a new highlight, unlike the similar buttons before and after it which work correctly.",
+    "issues": [
+      {
+        "timestamp": "4:23",
+        "description": "Clicking the 'Show on figure ↑' button under 'P - Plan (view 1)' produces no visible change or highlight on the figure above.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one minor interaction glitch where a highlight button fails to update the figure, but otherwise renders and functions perfectly. This matches the description for level 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 307398,
+    "candidatesTokenCount": 258,
+    "totalTokenCount": 310617,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 303336
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 4062
+      }
+    ],
+    "thoughtsTokenCount": 2961,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 315920
+  }
+}

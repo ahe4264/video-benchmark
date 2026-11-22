@@ -1,0 +1,44 @@
+{
+  "topic": "p2",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:31.083Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "At 2:58, the video displays the internal text prompt used to generate the lesson instead of the intended educational graphic.",
+    "issues": [
+      {
+        "timestamp": "2:58",
+        "description": "The screen displays the internal lesson generation prompt instead of the intended visual content.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has one major problem where raw prompt text is shown instead of content, meeting the level 4 description.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 133910,
+    "candidatesTokenCount": 128,
+    "totalTokenCount": 135149,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 132941
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "thoughtsTokenCount": 1111,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 141012
+  }
+}

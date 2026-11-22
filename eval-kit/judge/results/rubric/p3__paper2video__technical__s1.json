@@ -1,0 +1,38 @@
+{
+  "topic": "p3",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:07.263Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "Watched the entire video (0:00-3:33). The lesson consists of narrated slides. All text, math formulas, and graphics render correctly. Audio is clear and synchronized. No layout, rendering, playback, or audio issues observed.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level with no visible technical problems. Score compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 62946,
+    "candidatesTokenCount": 99,
+    "totalTokenCount": 64206,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61978
+      }
+    ],
+    "thoughtsTokenCount": 1161,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66583
+  }
+}

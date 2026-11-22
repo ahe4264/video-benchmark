@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:25.564Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "The video is a presentation about the design of a lesson, not the lesson itself (0:00-4:15). It discusses motivation (0:20), related work (0:41), and describes the scenes of the proposed lesson (1:06-2:26) rather than teaching the topic directly to a student.",
+    "score_reason": "The video fails to teach the topic as it is a meta-presentation about lesson design, not an actual lesson for a student. Mapped from a 1 to a 2 due to scale compression constraints.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 74939,
+    "candidatesTokenCount": 139,
+    "totalTokenCount": 76111,
+    "cachedContentTokenCount": 74038,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74214
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65535
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8160
+      }
+    ],
+    "thoughtsTokenCount": 1033,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78992
+  }
+}

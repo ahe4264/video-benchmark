@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:44:05.408Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:00: The opening is a title slide read aloud, stating the topic with no hook or puzzle. 0:18-2:44: The lesson consists entirely of static slides containing dense text, bullet points, and tables. The narration simply reads the slide content without dynamic visuals or varied pacing.",
+    "score_reason": "The opening states the topic but gives no pull. The reliance on static, text-heavy slides creates continuous flat stretches, keeping it from higher levels of engagement.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 50696,
+    "candidatesTokenCount": 121,
+    "totalTokenCount": 52536,
+    "cachedContentTokenCount": 50055,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50043
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 44204
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 5504
+      }
+    ],
+    "thoughtsTokenCount": 1719,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53580
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "topic": "p20",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:30.044Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "Video plays smoothly (0:00-6:32). Audio is clear and synced. All text and graphics render correctly without overlap or cut-offs.",
+    "issues": [],
+    "score_reason": "Meets top level: no visible technical problems.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 114263,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 115251,
+    "cachedContentTokenCount": 118333,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 113295
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105448
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12544
+      }
+    ],
+    "thoughtsTokenCount": 915,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 120412
+  }
+}

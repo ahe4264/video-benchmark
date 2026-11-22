@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:20.497Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "1:03-3:21: The geometric construction of the three areas is step-by-step and clear.\n3:54-4:35: The algebraic simplification is skipped. The video goes from tan(x)/2 >= x/2 >= sin(x)/2 to cos(x) <= sin(x)/x <= 1/cos(x) without showing the division, simplification of tan/sin, or taking reciprocals.\n5:04: The outer bound is suddenly shown as 1 instead of 1/cos(x) as derived in the previous step, which is an unexplained jump.",
+    "score_reason": "The lesson has a sensible order and strong visual intuition, but skips the algebraic steps to simplify the inequality and has an unexplained jump where the upper bound changes. This meets the criteria for a few small gaps or rushed steps.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 114843,
+    "candidatesTokenCount": 202,
+    "totalTokenCount": 117279,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114149
+      }
+    ],
+    "thoughtsTokenCount": 2234,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 120857
+  }
+}

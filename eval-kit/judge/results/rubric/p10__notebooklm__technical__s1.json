@@ -1,0 +1,54 @@
+{
+  "topic": "p10",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:38.909Z",
+  "seconds": 34,
+  "result": {
+    "evidence": "Watched the full video (0:00-9:08). No layout, rendering, playback, or audio issues were observed.",
+    "issues": [],
+    "score_reason": "Meets the top level description as there are no visible technical problems. Score compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159619,
+    "candidatesTokenCount": 75,
+    "totalTokenCount": 160571,
+    "cachedContentTokenCount": 165592,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 147681
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17568
+      }
+    ],
+    "thoughtsTokenCount": 877,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167959
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p2",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:02:53.294Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "0:00-1:40: Problem introduced with clear 3D visuals. 1:40-2:50: Plane equation derived step-by-step from intercepts. 2:50-3:40: Integral limits explained using a visual 'red strip' sweeping the 2D base. 3:40-7:00: Integral solved methodically, showing inner then outer steps with corresponding graphs. Symbols are introduced before use, and the pace is manageable.",
+    "score_reason": "The lesson fully meets the top level description. Every step is carefully motivated and builds logically on the previous one. Score compressed toward the center per instructions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 258618,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 260266,
+    "cachedContentTokenCount": 263156,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 257928
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 262813
+      }
+    ],
+    "thoughtsTokenCount": 1488,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 265933
+  }
+}

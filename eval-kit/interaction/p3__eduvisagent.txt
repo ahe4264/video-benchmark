@@ -1,0 +1,86 @@
+Interaction log: 81 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 1x: "Unexpected token '-'". Whatever that code was meant to do may be missing or inert.
+Summary: 9 of 81 inputs produced no visible change; 0 raised a page error.
+
+0:13  part 1  ticked a checkbox -> screen changed
+0:15  part 1  ticked a checkbox -> screen changed
+0:17  part 1  clicked button "Save & compare" -> screen changed
+0:19  part 1  clicked button "0 · Conventions" -> screen changed
+0:21  part 1  clicked button "1A · Scenario (Scene 1)" -> screen changed
+0:23  part 1  clicked button "1B · I Do" -> screen changed
+0:39  part 2  ticked a checkbox -> screen changed
+0:41  part 2  clicked button "2A · Scene 2: Construction" -> no visible change
+0:43  part 2  clicked button "2C · Scene 4: Sweeping θ" -> no visible change
+0:45  part 2  clicked button "2D · Evaluation & checks" -> screen changed
+0:47  part 2  clicked button "2B · Scene 3: Pattern switch" -> screen changed
+0:59  part 2  clicked button "Next ▶" -> screen changed
+1:01  part 2  clicked button "Next ▶" -> no visible change
+1:03  part 2  clicked button "Next ▶" -> no visible change
+1:05  part 2  clicked button "Next ▶" -> no visible change
+1:07  part 2  clicked button "Next ▶" -> no visible change
+1:09  part 2  clicked button "Next ▶" -> no visible change
+1:11  part 2  clicked button "▶ Auto-build" -> screen changed
+1:13  part 2  clicked button "▶ Replay the build" -> no visible change
+1:30  part 3  picked an option in a drop-down -> screen changed
+1:31  part 3  dragged a slider (starting at "0") through its whole range -> screen changed
+1:41  part 3  clicked button "3A Predict" -> screen changed
+1:43  part 3  clicked button "F.O.P.S. (run from memory) ▾" -> screen changed
+1:45  part 3  clicked button "▶ Sweep the knob 0 → +3.5 dB" -> screen changed
+1:51  part 3  clicked button "3B Same / different" -> screen changed
+1:53  part 3  typed a written answer into the box "" -> screen changed
+1:57  part 3  typed a written answer into the box "" -> screen changed
+2:02  part 3  typed a written answer into the box "" -> screen changed
+2:08  part 3  typed a written answer into the box "" -> screen changed
+2:13  part 3  clicked button "3C Solve it" -> screen changed
+2:15  part 3  typed a written answer into the box "Set up the iterated integral, then evaluate…" -> screen changed
+2:29  part 3  typed a written answer into the box "e.g. 6" -> screen changed
+2:34  part 3  picked an option in a drop-down -> screen changed
+2:36  part 3  clicked button "▶ Start the hint timer" -> screen changed
+2:46  part 3  clicked button "Submit answer" -> screen changed
+2:50  part 3  clicked button "3D Why k²" -> screen changed
+2:55  part 3  typed a written answer into the box "" -> screen changed
+3:10  part 3  typed a written answer into the box "" -> screen changed
+3:27  part 3  typed a written answer into the box "" -> screen changed
+3:42  part 3  typed a written answer into the box "" -> screen changed
+3:54  part 3  typed a written answer into the box "" -> screen changed
+4:09  part 3  typed a written answer into the box "" -> screen changed
+4:26  part 3  typed a written answer into the box "" -> screen changed
+4:47  part 3  ticked a checkbox -> screen changed
+4:51  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+5:07  part 3  clicked button "show" -> screen changed
+5:10  part 3  clicked button "show" -> screen changed
+5:15  part 3  clicked button "show" -> screen changed
+5:19  part 3  clicked button "1" -> screen changed
+5:23  part 3  clicked button "2" -> screen changed
+5:26  part 3  clicked button "3" -> screen changed
+5:40  part 3  typed a written answer into the box "" -> screen changed
+5:47  part 3  typed a written answer into the box "" -> screen changed
+5:54  part 3  typed a written answer into the box "" -> screen changed
+6:21  part 4  typed a written answer into the box "" -> screen changed
+6:31  part 4  typed a written answer into the box "" -> screen changed
+6:45  part 4  clicked button "🔒 4G · Bridge & checkpoint" -> screen changed
+6:49  part 4  clicked button "4A · First contact" -> screen changed
+6:54  part 4  clicked button "4B · Attempt" -> screen changed
+6:58  part 4  typed a written answer into the box "" -> screen changed
+7:06  part 4  typed a written answer into the box "integrand" -> screen changed
+7:14  part 4  typed a written answer into the box "what in the problem told you?" -> screen changed
+7:22  part 4  typed a written answer into the box "" -> screen changed
+7:31  part 4  typed a written answer into the box "" -> screen changed
+7:38  part 4  typed a written answer into the box "value" -> screen changed
+7:45  part 4  picked an option in a drop-down -> screen changed
+8:05  part 5  clicked button "5.0 Conventions" -> no visible change
+8:08  part 5  clicked button "5A Risk" -> screen changed
+8:13  part 5  clicked button "5B I Do ★" -> screen changed
+8:34  part 6  clicked button "6F Next steps ★" -> screen changed
+8:38  part 6  clicked button "6F Next steps ★" -> screen changed
+8:42  part 6  clicked button "6F Next steps ★" -> screen changed
+8:46  part 6  clicked button "6F Next steps ★" -> screen changed
+8:50  part 6  clicked button "6F Next steps ★" -> screen changed
+8:54  part 6  clicked button "6F Next steps ★" -> screen changed
+8:58  part 6  clicked button "6F Next steps ★" -> screen changed
+9:02  part 6  clicked button "6F Next steps ★" -> screen changed
+9:05  part 6  clicked button "6F Next steps ★" -> screen changed
+9:09  part 6  clicked button "6F Next steps ★" -> screen changed
+9:13  part 6  clicked button "6F Next steps ★" -> screen changed
+9:17  part 6  clicked button "6F Next steps ★" -> screen changed

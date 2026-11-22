@@ -1,0 +1,60 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:16:05.184Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "Video plays smoothly. Text and formulas render correctly. Audio is clear, with one minor TTS anomaly.",
+    "issues": [
+      {
+        "timestamp": "3:04",
+        "description": "TTS spells out 'c o s'.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "One minor glitch; content remains usable.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 60045,
+    "candidatesTokenCount": 102,
+    "totalTokenCount": 62504,
+    "cachedContentTokenCount": 59015,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 975
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 52171
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6496
+      }
+    ],
+    "thoughtsTokenCount": 2357,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63541
+  }
+}

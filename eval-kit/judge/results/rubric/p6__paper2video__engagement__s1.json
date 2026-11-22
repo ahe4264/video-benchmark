@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:15.696Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:00-0:16: Opens with a title slide about lesson design, lacking a topical hook.\n0:17: Poses a question about fluid force but frames it as a pedagogical 'hook'.\n0:34-3:47: The video is a meta-presentation on teaching the topic, using static slides and bullet points. Narration is dry and reads like a conference talk.",
+    "score_reason": "The lesson is dull throughout and reads like slides, acting as a presentation on lesson design rather than teaching the student. It fully meets Level 1, but the score is compressed toward the center.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 70189,
+    "candidatesTokenCount": 151,
+    "totalTokenCount": 71114,
+    "cachedContentTokenCount": 69413,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69541
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61423
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7648
+      }
+    ],
+    "thoughtsTokenCount": 774,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74011
+  }
+}

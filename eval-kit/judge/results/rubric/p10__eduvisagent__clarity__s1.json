@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:13:08.552Z",
+  "seconds": 86,
+  "result": {
+    "evidence": "0:00-1:33: The lesson introduces the core conflict (wave vs. particle) using clear analogies (tennis balls, water waves) and visual predictions for the double-slit experiment.\n1:33-4:15: Variables (d, v, L) are explored systematically using interactive sliders to observe their effect on fringe spacing, building an empirical understanding of the relationships before formalizing them.\n5:15: Calculations with real data are introduced, with necessary formulas provided in a structured format.\n9:55: The transfer task explicitly maps the new scenario (C60 molecules) onto the previously learned electron scenario, ensuring terms are understood in the new context.\nThroughout: The F.O.P.S. strategy provides a consistent, step-by-step framework for problem-solving.",
+    "score_reason": "The lesson is highly logical and builds up step-by-step throughout. The interactive exploration effectively motivates the mathematical relationships, and the consistent framework ensures a structured approach with no significant gaps, though the dense interface requires careful reading.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 348114,
+    "candidatesTokenCount": 242,
+    "totalTokenCount": 350762,
+    "cachedContentTokenCount": 354347,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347424
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354004
+      }
+    ],
+    "thoughtsTokenCount": 2406,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 357802
+  }
+}

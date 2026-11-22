@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:55.981Z",
+  "seconds": 50,
+  "result": {
+    "evidence": "1:37: The wrench analogy clearly motivates the orthogonal vector concept.\n2:20: The narration uses a simple floor/flagpole analogy, but the visual displays a complex 3D plot with specific coordinates, creating a slight disconnect.\n2:53: The right-hand rule is explained clearly and step-by-step.\n4:21: The magnitude formula is broken down logically with a helpful bar chart.\n6:01: The determinant calculation is introduced, but the final step of calculating the 2x2 determinant relies on a visual icon without explicitly stating the formula, which is slightly rushed.",
+    "score_reason": "The lesson is logical and step-by-step overall, but contains a briefly rushed step in the calculation section and a minor visual-audio disconnect, keeping it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 131600,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 133323,
+    "cachedContentTokenCount": 136695,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 130911
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 121857
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 14496
+      }
+    ],
+    "thoughtsTokenCount": 1531,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 138418
+  }
+}

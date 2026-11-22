@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:13:47.249Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "The lesson begins by introducing the physical geometry of the coaxial cable and defining all variables (0:01). It then outlines a clear four-step plan to derive the capacitance (0:37). Each step of the derivation is accompanied by visual aids, such as showing the integration of the electric field as the area under a 1/r curve (1:33). The interactive demonstrations (2:04 onwards) allow for step-by-step verification of the formula's behavior. Later sections, such as the scaffolded practice (9:42), explicitly guide the learner to reconstruct the derivation they just learned. All terms and symbols are clearly defined before they are applied.",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated and builds logically on the previous one, nothing is used before it is introduced, and the lesson is explicitly structured to help a newcomer reconstruct the argument.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 317750,
+    "candidatesTokenCount": 207,
+    "totalTokenCount": 319078,
+    "cachedContentTokenCount": 323408,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 317064
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323069
+      }
+    ],
+    "thoughtsTokenCount": 1121,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 326633
+  }
+}

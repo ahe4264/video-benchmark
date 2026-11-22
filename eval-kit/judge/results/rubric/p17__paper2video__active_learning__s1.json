@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:44:21.919Z",
+  "seconds": 17,
+  "result": {
+    "evidence": "The lesson is a continuous video presentation (0:00-2:52) describing a plan for an educational animation. It contains no interactive elements, questions, or prompts for the viewer to engage actively with the material.",
+    "score_reason": "The lesson fully meets the description for the lowest level because it is entirely passive and asks nothing of the learner.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 50781,
+    "candidatesTokenCount": 92,
+    "totalTokenCount": 51735,
+    "cachedContentTokenCount": 50055,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 738
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50043
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 44204
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 5504
+      }
+    ],
+    "thoughtsTokenCount": 862,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53665
+  }
+}

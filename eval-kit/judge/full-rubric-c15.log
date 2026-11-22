@@ -1,0 +1,442 @@
+p16: no video for ours_static
+
+rubric: 354 calls (6 metrics), 0 already done, running 354
+cache p6/paper2video: 69413 tokens
+cache p6/code2video: 75931 tokens
+cache p7/paper2video: 58720 tokens
+cache p8/code2video: 70283 tokens
+cache p9/code2video: 74316 tokens
+cache p7/code2video: 83194 tokens
+cache p6/notebooklm: 119538 tokens
+cache p8/paper2video: 74038 tokens
+cache p9/notebooklm: 99972 tokens
+cache p7/notebooklm: 136695 tokens
+cache p8/notebooklm: 85827 tokens
+done p6__code2video__overall__s1.json: 6/7 (74908 in, 75931 cached, 28s)
+done p6__paper2video__overall__s1.json: 3/7 (70265 in, 69413 cached, 30s)
+done p7__paper2video__overall__s1.json: 2/7 (59495 in, 58720 cached, 32s)
+cache p9/ours_static: 161978 tokens
+cache p7/ours_static: 162280 tokens
+cache p8/ours_static: 171010 tokens
+cache p6/ours_static: 177029 tokens
+done p9__code2video__overall__s1.json: 5/7 (73323 in, 74316 cached, 40s)
+done p9__notebooklm__overall__s1.json: 6/7 (96394 in, 99972 cached, 31s)
+done p7__code2video__overall__s1.json: 6/7 (82036 in, 83194 cached, 43s)
+done p8__paper2video__overall__s1.json: 2/7 (74939 in, 74038 cached, 35s)
+done p8__code2video__overall__s1.json: 5/7 (69365 in, 70283 cached, 51s)
+done p7__paper2video__visuals__s1.json: 3/7 (59531 in, 58720 cached, 28s)
+done p7__ours_static__overall__s1.json: 6/7 (156214 in, 162280 cached, 26s)
+done p6__paper2video__visuals__s1.json: 3/7 (70301 in, 69413 cached, 36s)
+done p7__code2video__visuals__s1.json: 6/7 (82072 in, 83194 cached, 25s)
+done p8__code2video__visuals__s1.json: 6/7 (69401 in, 70283 cached, 27s)
+done p8__paper2video__visuals__s1.json: 3/7 (74975 in, 74038 cached, 32s)
+done p8__notebooklm__overall__s1.json: 6/7 (82805 in, 85827 cached, 67s)
+done p6__paper2video__clarity__s1.json: 3/7 (70230 in, 69413 cached, 34s)
+done p7__code2video__clarity__s1.json: 5/7 (82001 in, 83194 cached, 39s)
+done p8__paper2video__clarity__s1.json: 2/7 (74904 in, 74038 cached, 33s)
+done p8__code2video__clarity__s1.json: 5/7 (69330 in, 70283 cached, 34s)
+done p6__paper2video__technical__s1.json: 4/7 (70510 in, 69413 cached, 33s)
+[p8__ours_static__overall__s1.json] 503; retry 1 in 5s
+done p7__paper2video__clarity__s1.json: 3/7 (59460 in, 58720 cached, 78s)
+done p8__paper2video__technical__s1.json: 6/7 (75184 in, 74038 cached, 35s)
+done p8__code2video__technical__s1.json: 4/7 (69610 in, 70283 cached, 43s)
+done p6__notebooklm__overall__s1.json: 5/7 (115161 in, 119538 cached, 147s)
+done p6__paper2video__engagement__s1.json: 2/7 (70189 in, 69413 cached, 26s)
+done p7__paper2video__technical__s1.json: 6/7 (59740 in, 58720 cached, 21s)
+done p6__ours_static__overall__s1.json: 6/7 (170365 in, 177029 cached, 133s)
+done p8__paper2video__engagement__s1.json: 3/7 (74863 in, 74038 cached, 29s)
+done p6__paper2video__active_learning__s1.json: 2/7 (70274 in, 69413 cached, 18s)
+done p8__code2video__engagement__s1.json: 6/7 (69289 in, 70283 cached, 20s)
+progress: 30/354 attempted, 0 failed
+done p8__notebooklm__visuals__s1.json: 4/7 (82841 in, 85827 cached, 86s)
+done p7__notebooklm__overall__s1.json: 4/7 (131635 in, 136695 cached, 160s)
+done p7__paper2video__engagement__s1.json: 2/7 (59419 in, 58720 cached, 23s)
+done p9__notebooklm__visuals__s1.json: 6/7 (96430 in, 99972 cached, 135s)
+done p6__notebooklm__visuals__s1.json: 3/7 (115197 in, 119538 cached, 29s)
+done p8__notebooklm__clarity__s1.json: 5/7 (82770 in, 85827 cached, 18s)
+[p8__notebooklm__technical__s1.json] 429; retry 1 in 5s
+cache p9/paper2video: 82995 tokens
+[p9__paper2video__overall__s1.json] 429; retry 1 in 5s
+done p7__paper2video__active_learning__s1.json: 2/7 (59504 in, 58720 cached, 20s)
+done p8__paper2video__active_learning__s1.json: 2/7 (74948 in, 74038 cached, 26s)
+progress: 38/354 attempted, 0 failed
+progress: 38/354 attempted, 0 failed
+[p9__paper2video__overall__s1.json] 429; retry 2 in 10s
+done p7__notebooklm__visuals__s1.json: 4/7 (131671 in, 136695 cached, 27s)
+[p7__notebooklm__clarity__s1.json] 429; retry 1 in 5s
+done p9__notebooklm__clarity__s1.json: 6/7 (96359 in, 99972 cached, 27s)
+[p9__notebooklm__technical__s1.json] 429; retry 1 in 5s
+done p6__ours_static__visuals__s1.json: 6/7 (170401 in, 177029 cached, 36s)
+[p6__ours_static__clarity__s1.json] 429; retry 1 in 5s
+done p8__ours_static__overall__s1.json: 5/7 (164587 in, 171010 cached, 175s)
+[p8__ours_static__visuals__s1.json] 429; retry 1 in 5s
+done p8__code2video__active_learning__s1.json: 3/7 (69374 in, 70283 cached, 38s)
+progress: 43/354 attempted, 0 failed
+cache p10/code2video: 72704 tokens
+done p8__notebooklm__technical__s1.json: 6/7 (83050 in, 85827 cached, 30s)
+done p9__paper2video__overall__s1.json: 2/7 (83944 in, 82995 cached, 39s)
+done p10__code2video__overall__s1.json: 6/7 (71741 in, 72704 cached, 24s)
+cache p10/notebooklm: 165592 tokens
+done p6__notebooklm__clarity__s1.json: 6/7 (115126 in, 119538 cached, 56s)
+done p8__ours_static__visuals__s1.json: 6/7 (164623 in, 171010 cached, 35s)
+done p7__notebooklm__clarity__s1.json: 5/7 (131600 in, 136695 cached, 50s)
+cache p10/ours_static: 171913 tokens
+done p9__paper2video__visuals__s1.json: 3/7 (83980 in, 82995 cached, 32s)
+done p7__ours_static__visuals__s1.json: 6/7 (156250 in, 162280 cached, 208s)
+done p10__code2video__visuals__s1.json: 6/7 (71777 in, 72704 cached, 35s)
+done p7__notebooklm__technical__s1.json: 5/7 (131880 in, 136695 cached, 23s)
+done p6__notebooklm__technical__s1.json: 4/7 (115406 in, 119538 cached, 44s)
+done p10__ours_static__overall__s1.json: 6/7 (165465 in, 171913 cached, 25s)
+[p6__code2video__visuals__s1.json] TypeError; retry 1 in 5s
+done p6__ours_static__clarity__s1.json: 6/7 (170330 in, 177029 cached, 125s)
+done p10__notebooklm__overall__s1.json: 6/7 (159374 in, 165592 cached, 95s)
+[p9__ours_static__overall__s1.json] TypeError; retry 1 in 5s
+done p6__notebooklm__engagement__s1.json: 4/7 (115085 in, 119538 cached, 56s)
+[p9__code2video__visuals__s1.json] TypeError; retry 1 in 5s
+done p8__ours_static__clarity__s1.json: 6/7 (164552 in, 171010 cached, 111s)
+done p9__ours_static__overall__s1.json: 6/7 (155922 in, 161978 cached, 339s)
+done p7__notebooklm__engagement__s1.json: 5/7 (131559 in, 136695 cached, 98s)
+done p8__ours_static__technical__s1.json: 6/7 (164832 in, 171010 cached, 33s)
+[p8__ours_static__engagement__s1.json] 429; retry 1 in 5s
+done p6__notebooklm__active_learning__s1.json: 3/7 (115170 in, 119538 cached, 55s)
+progress: 63/354 attempted, 0 failed
+cache p10/paper2video: 68547 tokens
+[p7__code2video__technical__s1.json] TypeError; retry 1 in 5s
+done p9__ours_static__visuals__s1.json: 6/7 (155958 in, 161978 cached, 47s)
+done p10__ours_static__visuals__s1.json: 6/7 (165501 in, 171913 cached, 144s)
+done p10__paper2video__overall__s1.json: 3/7 (69398 in, 68547 cached, 20s)
+done p10__notebooklm__visuals__s1.json: 4/7 (159410 in, 165592 cached, 110s)
+done p8__ours_static__engagement__s1.json: 5/7 (164511 in, 171010 cached, 73s)
+done p9__code2video__visuals__s1.json: 6/7 (73359 in, 74316 cached, 422s)
+done p6__code2video__visuals__s1.json: 6/7 (74944 in, 75931 cached, 437s)
+done p10__paper2video__visuals__s1.json: 3/7 (69434 in, 68547 cached, 36s)
+done p7__code2video__technical__s1.json: 4/7 (82281 in, 83194 cached, 360s)
+done p7__notebooklm__active_learning__s1.json: 2/7 (131644 in, 136695 cached, 99s)
+progress: 73/354 attempted, 0 failed
+done p10__ours_static__clarity__s1.json: 5/7 (165430 in, 171913 cached, 47s)
+done p8__notebooklm__engagement__s1.json: 5/7 (82729 in, 85827 cached, 256s)
+done p9__ours_static__clarity__s1.json: 6/7 (155887 in, 161978 cached, 62s)
+done p7__ours_static__clarity__s1.json: 5/7 (156179 in, 162280 cached, 217s)
+cache p11/code2video: 51456 tokens
+[p11__code2video__overall__s1.json] 429; retry 1 in 5s
+[p11__code2video__overall__s1.json] 429; retry 2 in 10s
+done p10__paper2video__clarity__s1.json: 2/7 (69363 in, 68547 cached, 29s)
+[p10__paper2video__technical__s1.json] 429; retry 1 in 5s
+done p8__ours_static__active_learning__s1.json: 6/7 (164596 in, 171010 cached, 37s)
+progress: 79/354 attempted, 0 failed
+[p10__paper2video__technical__s1.json] 429; retry 2 in 10s
+done p10__code2video__clarity__s1.json: 5/7 (71706 in, 72704 cached, 229s)
+[p10__code2video__technical__s1.json] 429; retry 1 in 5s
+[p10__code2video__technical__s1.json] 429; retry 2 in 10s
+done p8__notebooklm__active_learning__s1.json: 3/7 (82814 in, 85827 cached, 27s)
+progress: 81/354 attempted, 0 failed
+[p9__notebooklm__technical__s1.json] TypeError; retry 2 in 10s
+done p9__ours_static__technical__s1.json: 6/7 (156167 in, 161978 cached, 46s)
+cache p11/notebooklm: 126164 tokens
+cache p11/ours_static: 142117 tokens
+done p11__code2video__overall__s1.json: 6/7 (50888 in, 51456 cached, 64s)
+done p9__notebooklm__technical__s1.json: 6/7 (96639 in, 99972 cached, 351s)
+done p7__ours_static__technical__s1.json: 6/7 (156459 in, 162280 cached, 79s)
+done p9__ours_static__engagement__s1.json: 5/7 (155846 in, 161978 cached, 40s)
+[p9__paper2video__clarity__s1.json] TypeError; retry 1 in 5s
+done p11__notebooklm__overall__s1.json: 5/7 (121527 in, 126164 cached, 39s)
+done p11__code2video__visuals__s1.json: 6/7 (50924 in, 51456 cached, 21s)
+done p10__ours_static__technical__s1.json: 6/7 (165710 in, 171913 cached, 99s)
+done p7__code2video__engagement__s1.json: 5/7 (81960 in, 83194 cached, 116s)
+done p11__code2video__clarity__s1.json: 6/7 (50853 in, 51456 cached, 20s)
+done p11__ours_static__overall__s1.json: 6/7 (136849 in, 142117 cached, 55s)
+done p6__code2video__clarity__s1.json: 6/7 (74873 in, 75931 cached, 145s)
+done p9__notebooklm__engagement__s1.json: 5/7 (96318 in, 99972 cached, 62s)
+done p7__code2video__active_learning__s1.json: 4/7 (82045 in, 83194 cached, 38s)
+progress: 95/354 attempted, 0 failed
+done p11__notebooklm__visuals__s1.json: 5/7 (121563 in, 126164 cached, 53s)
+done p9__paper2video__clarity__s1.json: 3/7 (83909 in, 82995 cached, 370s)
+[p6__ours_static__technical__s1.json] TypeError; retry 1 in 5s
+done p9__notebooklm__active_learning__s1.json: 3/7 (96403 in, 99972 cached, 19s)
+progress: 98/354 attempted, 0 failed
+cache p11/paper2video: 54678 tokens
+done p11__code2video__technical__s1.json: 5/7 (51133 in, 51456 cached, 44s)
+done p6__code2video__technical__s1.json: 4/7 (75153 in, 75931 cached, 48s)
+cache p12/code2video: 104980 tokens
+done p9__ours_static__active_learning__s1.json: 6/7 (155931 in, 161978 cached, 96s)
+progress: 101/354 attempted, 0 failed
+done p11__code2video__engagement__s1.json: 4/7 (50812 in, 51456 cached, 27s)
+done p11__notebooklm__clarity__s1.json: 5/7 (121492 in, 126164 cached, 43s)
+done p9__paper2video__technical__s1.json: 3/7 (84189 in, 82995 cached, 38s)
+done p6__code2video__engagement__s1.json: 6/7 (74832 in, 75931 cached, 27s)
+done p10__notebooklm__clarity__s1.json: 5/7 (159339 in, 165592 cached, 240s)
+done p12__code2video__overall__s1.json: 6/7 (103417 in, 104980 cached, 36s)
+done p11__notebooklm__technical__s1.json: 6/7 (121772 in, 126164 cached, 25s)
+cache p12/notebooklm: 184250 tokens
+done p6__ours_static__technical__s1.json: 6/7 (170610 in, 177029 cached, 378s)
+done p6__code2video__active_learning__s1.json: 3/7 (74917 in, 75931 cached, 33s)
+progress: 110/354 attempted, 0 failed
+done p10__notebooklm__technical__s1.json: 6/7 (159619 in, 165592 cached, 34s)
+done p12__notebooklm__overall__s1.json: 6/7 (177311 in, 184250 cached, 24s)
+done p11__ours_static__visuals__s1.json: 6/7 (136885 in, 142117 cached, 134s)
+done p9__paper2video__engagement__s1.json: 2/7 (83868 in, 82995 cached, 68s)
+done p11__notebooklm__engagement__s1.json: 5/7 (121451 in, 126164 cached, 47s)
+done p11__code2video__active_learning__s1.json: 3/7 (50897 in, 51456 cached, 86s)
+progress: 116/354 attempted, 0 failed
+cache p12/ours_static: 152645 tokens
+[p9__code2video__clarity__s1.json] TypeError; retry 1 in 5s
+done p9__paper2video__active_learning__s1.json: 2/7 (83953 in, 82995 cached, 30s)
+done p11__notebooklm__active_learning__s1.json: 3/7 (121536 in, 126164 cached, 30s)
+progress: 118/354 attempted, 0 failed
+cache p12/paper2video: 63341 tokens
+progress: 118/354 attempted, 0 failed
+done p10__notebooklm__engagement__s1.json: 5/7 (159298 in, 165592 cached, 55s)
+done p6__ours_static__engagement__s1.json: 4/7 (170289 in, 177029 cached, 63s)
+done p12__code2video__visuals__s1.json: 6/7 (103453 in, 104980 cached, 85s)
+done p12__notebooklm__visuals__s1.json: 4/7 (177347 in, 184250 cached, 57s)
+done p11__ours_static__clarity__s1.json: 5/7 (136814 in, 142117 cached, 53s)
+[p11__ours_static__technical__s1.json] 429; retry 1 in 5s
+cache p13/code2video: 89109 tokens
+[p13__code2video__overall__s1.json] 429; retry 1 in 5s
+done p10__code2video__technical__s1.json: 6/7 (71986 in, 72704 cached, 291s)
+[p10__code2video__engagement__s1.json] 429; retry 1 in 5s
+[p13__code2video__overall__s1.json] 429; retry 2 in 10s
+done p12__paper2video__overall__s1.json: 2/7 (64150 in, 63341 cached, 29s)
+[p12__paper2video__visuals__s1.json] 429; retry 1 in 5s
+done p9__code2video__clarity__s1.json: 6/7 (73288 in, 74316 cached, 340s)
+[p13__code2video__overall__s1.json] 429; retry 3 in 20s
+done p10__ours_static__engagement__s1.json: 6/7 (165389 in, 171913 cached, 228s)
+[p10__ours_static__active_learning__s1.json] 429; retry 1 in 5s
+done p12__ours_static__overall__s1.json: 6/7 (146945 in, 152645 cached, 51s)
+cache p13/notebooklm: 114719 tokens
+[p13__notebooklm__overall__s1.json] 429; retry 1 in 5s
+done p7__ours_static__engagement__s1.json: 5/7 (156138 in, 162280 cached, 244s)
+[p7__ours_static__active_learning__s1.json] 429; retry 1 in 5s
+[p10__ours_static__active_learning__s1.json] 429; retry 2 in 10s
+done p10__paper2video__technical__s1.json: 6/7 (69643 in, 68547 cached, 316s)
+[p10__paper2video__engagement__s1.json] 429; retry 1 in 5s
+done p6__ours_static__active_learning__s1.json: 6/7 (170374 in, 177029 cached, 45s)
+progress: 131/354 attempted, 0 failed
+done p10__notebooklm__active_learning__s1.json: 3/7 (159383 in, 165592 cached, 48s)
+progress: 132/354 attempted, 0 failed
+done p12__code2video__clarity__s1.json: 6/7 (103382 in, 104980 cached, 45s)
+done p11__paper2video__overall__s1.json: 3/7 (55422 in, 54678 cached, 184s)
+done p10__code2video__engagement__s1.json: 5/7 (71665 in, 72704 cached, 41s)
+done p12__ours_static__visuals__s1.json: 6/7 (146981 in, 152645 cached, 31s)
+done p9__code2video__technical__s1.json: 6/7 (73568 in, 74316 cached, 36s)
+done p12__notebooklm__clarity__s1.json: 4/7 (177276 in, 184250 cached, 56s)
+cache p13/paper2video: 74901 tokens
+done p12__paper2video__visuals__s1.json: 3/7 (64186 in, 63341 cached, 44s)
+[p12__paper2video__clarity__s1.json] 429; retry 1 in 5s
+done p7__ours_static__active_learning__s1.json: 6/7 (156223 in, 162280 cached, 39s)
+progress: 140/354 attempted, 0 failed
+done p10__paper2video__engagement__s1.json: 2/7 (69322 in, 68547 cached, 35s)
+[p10__paper2video__active_learning__s1.json] 429; retry 1 in 5s
+done p13__notebooklm__overall__s1.json: 5/7 (110533 in, 114719 cached, 41s)
+[p13__notebooklm__visuals__s1.json] 429; retry 1 in 5s
+done p11__paper2video__visuals__s1.json: 3/7 (55458 in, 54678 cached, 27s)
+[p12__paper2video__clarity__s1.json] 429; retry 2 in 10s
+done p13__code2video__overall__s1.json: 5/7 (87841 in, 89109 cached, 62s)
+[p13__code2video__visuals__s1.json] 429; retry 1 in 5s
+[p13__notebooklm__visuals__s1.json] 429; retry 2 in 10s
+done p10__ours_static__active_learning__s1.json: 6/7 (165474 in, 171913 cached, 55s)
+progress: 145/354 attempted, 0 failed
+done p13__paper2video__overall__s1.json: 2/7 (75791 in, 74901 cached, 20s)
+[p12__paper2video__clarity__s1.json] 429; retry 3 in 20s
+[p13__notebooklm__visuals__s1.json] 429; retry 3 in 20s
+done p11__ours_static__technical__s1.json: 6/7 (137094 in, 142117 cached, 78s)
+done p12__ours_static__clarity__s1.json: 6/7 (146910 in, 152645 cached, 29s)
+[p12__ours_static__technical__s1.json] 429; retry 1 in 5s
+done p12__code2video__technical__s1.json: 3/7 (103662 in, 104980 cached, 43s)
+[p12__code2video__engagement__s1.json] 429; retry 1 in 5s
+cache p14/code2video: 92610 tokens
+[p12__ours_static__technical__s1.json] 429; retry 2 in 10s
+done p9__code2video__engagement__s1.json: 4/7 (73247 in, 74316 cached, 34s)
+done p10__paper2video__active_learning__s1.json: 3/7 (69407 in, 68547 cached, 25s)
+progress: 151/354 attempted, 0 failed
+done p12__notebooklm__technical__s1.json: 6/7 (177556 in, 184250 cached, 35s)
+cache p13/ours_static: 169802 tokens
+[p13__ours_static__overall__s1.json] 429; retry 1 in 5s
+done p11__paper2video__clarity__s1.json: 3/7 (55387 in, 54678 cached, 33s)
+done p13__code2video__visuals__s1.json: 6/7 (87877 in, 89109 cached, 32s)
+done p14__code2video__overall__s1.json: 6/7 (91277 in, 92610 cached, 19s)
+done p11__ours_static__engagement__s1.json: 5/7 (136773 in, 142117 cached, 27s)
+done p13__paper2video__visuals__s1.json: 3/7 (75827 in, 74901 cached, 32s)
+done p12__code2video__engagement__s1.json: 5/7 (103341 in, 104980 cached, 36s)
+done p9__code2video__active_learning__s1.json: 4/7 (73332 in, 74316 cached, 30s)
+progress: 159/354 attempted, 0 failed
+done p13__ours_static__overall__s1.json: 6/7 (163434 in, 169802 cached, 27s)
+done p11__paper2video__technical__s1.json: 5/7 (55667 in, 54678 cached, 20s)
+[p11__paper2video__engagement__s1.json] 429; retry 1 in 5s
+cache p14/notebooklm: 182448 tokens
+done p12__paper2video__clarity__s1.json: 3/7 (64115 in, 63341 cached, 65s)
+done p12__ours_static__technical__s1.json: 5/7 (147190 in, 152645 cached, 47s)
+[p12__ours_static__engagement__s1.json] 429; retry 1 in 5s
+done p14__code2video__visuals__s1.json: 6/7 (91313 in, 92610 cached, 30s)
+[p14__code2video__clarity__s1.json] 429; retry 1 in 5s
+done p13__notebooklm__visuals__s1.json: 6/7 (110569 in, 114719 cached, 68s)
+[p12__ours_static__engagement__s1.json] 429; retry 2 in 10s
+[p14__code2video__clarity__s1.json] 429; retry 2 in 10s
+cache p14/paper2video: 72882 tokens
+[p14__paper2video__overall__s1.json] 429; retry 1 in 5s
+done p12__notebooklm__engagement__s1.json: 5/7 (177235 in, 184250 cached, 49s)
+[p12__notebooklm__active_learning__s1.json] 429; retry 1 in 5s
+done p13__code2video__clarity__s1.json: 6/7 (87806 in, 89109 cached, 43s)
+[p13__code2video__technical__s1.json] 429; retry 1 in 5s
+[p14__paper2video__overall__s1.json] 429; retry 2 in 10s
+[p12__ours_static__engagement__s1.json] 429; retry 3 in 20s
+done p11__paper2video__engagement__s1.json: 2/7 (55346 in, 54678 cached, 25s)
+[p11__paper2video__active_learning__s1.json] 429; retry 1 in 5s
+[p12__notebooklm__active_learning__s1.json] 429; retry 2 in 10s
+cache p14/ours_static: 173719 tokens
+[p14__ours_static__overall__s1.json] 429; retry 1 in 5s
+done p12__code2video__active_learning__s1.json: 2/7 (103426 in, 104980 cached, 28s)
+progress: 169/354 attempted, 0 failed
+done p13__paper2video__clarity__s1.json: 3/7 (75756 in, 74901 cached, 39s)
+done p11__ours_static__active_learning__s1.json: 6/7 (136858 in, 142117 cached, 41s)
+progress: 171/354 attempted, 0 failed
+done p12__paper2video__technical__s1.json: 6/7 (64395 in, 63341 cached, 23s)
+done p13__ours_static__visuals__s1.json: 6/7 (163470 in, 169802 cached, 36s)
+done p14__notebooklm__overall__s1.json: 6/7 (175574 in, 182448 cached, 36s)
+done p13__notebooklm__clarity__s1.json: 5/7 (110498 in, 114719 cached, 27s)
+done p10__code2video__active_learning__s1.json: 3/7 (71750 in, 72704 cached, 110s)
+progress: 176/354 attempted, 0 failed
+cache p15/code2video: 73510 tokens
+done p12__paper2video__engagement__s1.json: 2/7 (64074 in, 63341 cached, 25s)
+done p11__paper2video__active_learning__s1.json: 2/7 (55431 in, 54678 cached, 31s)
+done p14__paper2video__overall__s1.json: 4/7 (73768 in, 72882 cached, 38s)
+progress: 179/354 attempted, 0 failed
+done p14__code2video__clarity__s1.json: 6/7 (91242 in, 92610 cached, 52s)
+done p13__paper2video__technical__s1.json: 6/7 (76036 in, 74901 cached, 38s)
+[p13__paper2video__engagement__s1.json] 429; retry 1 in 5s
+done p13__ours_static__clarity__s1.json: 5/7 (163399 in, 169802 cached, 31s)
+[p13__ours_static__technical__s1.json] 429; retry 1 in 5s
+done p13__code2video__technical__s1.json: 4/7 (88086 in, 89109 cached, 44s)
+done p12__ours_static__engagement__s1.json: 5/7 (146869 in, 152645 cached, 62s)
+[p12__ours_static__active_learning__s1.json] 429; retry 1 in 5s
+cache p15/notebooklm: 125558 tokens
+done p13__notebooklm__technical__s1.json: 6/7 (110778 in, 114719 cached, 32s)
+[p13__notebooklm__engagement__s1.json] 429; retry 1 in 5s
+[p13__paper2video__engagement__s1.json] 429; retry 2 in 10s
+cache p15/paper2video: 65656 tokens
+[p15__paper2video__overall__s1.json] 429; retry 1 in 5s
+[p13__ours_static__technical__s1.json] 429; retry 2 in 10s
+done p15__code2video__overall__s1.json: 6/7 (72532 in, 73510 cached, 21s)
+[p15__code2video__visuals__s1.json] 429; retry 1 in 5s
+[p12__ours_static__active_learning__s1.json] 429; retry 2 in 10s
+[p13__notebooklm__engagement__s1.json] 429; retry 2 in 10s
+[p15__paper2video__overall__s1.json] 429; retry 2 in 10s
+cache p15/ours_static: 144822 tokens
+done p14__ours_static__overall__s1.json: 6/7 (167188 in, 173719 cached, 52s)
+[p15__ours_static__overall__s1.json] 429; retry 1 in 5s
+[p15__code2video__visuals__s1.json] 429; retry 2 in 10s
+[p13__paper2video__engagement__s1.json] 429; retry 3 in 20s
+[p13__ours_static__technical__s1.json] 429; retry 3 in 20s
+done p12__paper2video__active_learning__s1.json: 3/7 (64159 in, 63341 cached, 27s)
+progress: 188/354 attempted, 0 failed
+done p14__paper2video__visuals__s1.json: 2/7 (73804 in, 72882 cached, 29s)
+[p14__paper2video__clarity__s1.json] 429; retry 1 in 5s
+[p12__ours_static__active_learning__s1.json] 429; retry 3 in 20s
+[p13__notebooklm__engagement__s1.json] 429; retry 3 in 20s
+done p15__notebooklm__overall__s1.json: 5/7 (120956 in, 125558 cached, 23s)
+cache p16/code2video: 71631 tokens
+done p14__notebooklm__visuals__s1.json: 5/7 (175610 in, 182448 cached, 65s)
+done p15__paper2video__overall__s1.json: 3/7 (66480 in, 65656 cached, 45s)
+done p14__ours_static__visuals__s1.json: 6/7 (167224 in, 173719 cached, 46s)
+done p13__code2video__engagement__s1.json: 5/7 (87765 in, 89109 cached, 57s)
+done p13__paper2video__engagement__s1.json: 2/7 (75715 in, 74901 cached, 65s)
+done p12__ours_static__active_learning__s1.json: 5/7 (146954 in, 152645 cached, 60s)
+progress: 196/354 attempted, 0 failed
+done p13__notebooklm__engagement__s1.json: 5/7 (110457 in, 114719 cached, 63s)
+done p12__notebooklm__active_learning__s1.json: 3/7 (177320 in, 184250 cached, 116s)
+done p14__notebooklm__clarity__s1.json: 5/7 (175539 in, 182448 cached, 33s)
+[p14__notebooklm__technical__s1.json] 429; retry 1 in 5s
+progress: 199/354 attempted, 0 failed
+done p15__paper2video__visuals__s1.json: 4/7 (66516 in, 65656 cached, 24s)
+[p14__notebooklm__technical__s1.json] 429; retry 2 in 10s
+done p15__notebooklm__visuals__s1.json: 5/7 (120992 in, 125558 cached, 49s)
+[p15__notebooklm__clarity__s1.json] 429; retry 1 in 5s
+cache p16/paper2video: 72307 tokens
+done p13__notebooklm__active_learning__s1.json: 2/7 (110542 in, 114719 cached, 19s)
+progress: 202/354 attempted, 0 failed
+done p14__code2video__technical__s1.json: 4/7 (91522 in, 92610 cached, 94s)
+done p15__ours_static__overall__s1.json: 6/7 (139455 in, 144822 cached, 80s)
+done p13__paper2video__active_learning__s1.json: 2/7 (75800 in, 74901 cached, 30s)
+progress: 205/354 attempted, 0 failed
+cache p17/code2video: 75398 tokens
+done p13__code2video__active_learning__s1.json: 2/7 (87850 in, 89109 cached, 45s)
+progress: 206/354 attempted, 0 failed
+cache p16/notebooklm: 109910 tokens
+done p15__notebooklm__clarity__s1.json: 5/7 (120921 in, 125558 cached, 31s)
+done p15__paper2video__clarity__s1.json: 3/7 (66445 in, 65656 cached, 34s)
+done p14__paper2video__clarity__s1.json: 3/7 (73733 in, 72882 cached, 100s)
+done p15__ours_static__visuals__s1.json: 6/7 (139491 in, 144822 cached, 30s)
+done p17__code2video__overall__s1.json: 6/7 (74385 in, 75398 cached, 23s)
+done p16__code2video__overall__s1.json: 5/7 (70688 in, 71631 cached, 100s)
+cache p17/notebooklm: 124359 tokens
+done p16__notebooklm__overall__s1.json: 4/7 (105920 in, 109910 cached, 33s)
+[p16__notebooklm__visuals__s1.json] 429; retry 1 in 5s
+done p14__paper2video__technical__s1.json: 6/7 (74013 in, 72882 cached, 25s)
+cache p17/ours_static: 159576 tokens
+done p13__ours_static__technical__s1.json: 6/7 (163679 in, 169802 cached, 146s)
+done p15__ours_static__clarity__s1.json: 6/7 (139420 in, 144822 cached, 30s)
+done p17__code2video__visuals__s1.json: 6/7 (74421 in, 75398 cached, 29s)
+done p15__notebooklm__technical__s1.json: 6/7 (121201 in, 125558 cached, 61s)
+done p14__paper2video__engagement__s1.json: 3/7 (73692 in, 72882 cached, 27s)
+done p16__notebooklm__visuals__s1.json: 5/7 (105956 in, 109910 cached, 33s)
+done p14__ours_static__clarity__s1.json: 6/7 (167153 in, 173719 cached, 115s)
+done p17__notebooklm__overall__s1.json: 6/7 (119792 in, 124359 cached, 40s)
+done p17__code2video__clarity__s1.json: 6/7 (74350 in, 75398 cached, 33s)
+done p15__ours_static__technical__s1.json: 6/7 (139700 in, 144822 cached, 35s)
+[p15__ours_static__engagement__s1.json] 429; retry 1 in 5s
+done p14__ours_static__technical__s1.json: 6/7 (167433 in, 173719 cached, 21s)
+[p14__ours_static__engagement__s1.json] 429; retry 1 in 5s
+done p14__paper2video__active_learning__s1.json: 2/7 (73777 in, 72882 cached, 25s)
+progress: 226/354 attempted, 0 failed
+done p17__notebooklm__visuals__s1.json: 4/7 (119828 in, 124359 cached, 23s)
+[p17__notebooklm__clarity__s1.json] 429; retry 1 in 5s
+[p14__ours_static__engagement__s1.json] 429; retry 2 in 10s
+done p15__notebooklm__engagement__s1.json: 4/7 (120880 in, 125558 cached, 33s)
+done p16__paper2video__overall__s1.json: 2/7 (73197 in, 72307 cached, 116s)
+done p16__code2video__visuals__s1.json: 6/7 (70724 in, 71631 cached, 73s)
+cache p17/paper2video: 50055 tokens
+done p15__ours_static__engagement__s1.json: 4/7 (139379 in, 144822 cached, 32s)
+done p16__paper2video__visuals__s1.json: 2/7 (73233 in, 72307 cached, 21s)
+done p17__notebooklm__clarity__s1.json: 6/7 (119757 in, 124359 cached, 33s)
+done p16__code2video__clarity__s1.json: 5/7 (70653 in, 71631 cached, 25s)
+done p17__paper2video__overall__s1.json: 2/7 (50772 in, 50055 cached, 25s)
+done p15__paper2video__technical__s1.json: 6/7 (66725 in, 65656 cached, 133s)
+done p15__notebooklm__active_learning__s1.json: 3/7 (120965 in, 125558 cached, 46s)
+progress: 237/354 attempted, 0 failed
+done p17__code2video__technical__s1.json: 6/7 (74630 in, 75398 cached, 61s)
+done p16__paper2video__clarity__s1.json: 3/7 (73162 in, 72307 cached, 25s)
+done p15__code2video__visuals__s1.json: 6/7 (72568 in, 73510 cached, 241s)
+[p15__code2video__clarity__s1.json] 429; retry 1 in 5s
+done p15__ours_static__active_learning__s1.json: 6/7 (139464 in, 144822 cached, 33s)
+progress: 241/354 attempted, 0 failed
+done p14__code2video__engagement__s1.json: 5/7 (91201 in, 92610 cached, 168s)
+cache p18/code2video: 64640 tokens
+done p17__paper2video__visuals__s1.json: 3/7 (50808 in, 50055 cached, 24s)
+done p16__paper2video__technical__s1.json: 6/7 (73442 in, 72307 cached, 21s)
+done p14__ours_static__engagement__s1.json: 6/7 (167112 in, 173719 cached, 76s)
+done p17__ours_static__overall__s1.json: 6/7 (153607 in, 159576 cached, 129s)
+done p17__code2video__engagement__s1.json: 5/7 (74309 in, 75398 cached, 27s)
+done p17__notebooklm__technical__s1.json: 6/7 (120037 in, 124359 cached, 46s)
+cache p18/notebooklm: 155063 tokens
+done p18__code2video__overall__s1.json: 5/7 (63827 in, 64640 cached, 26s)
+done p15__code2video__clarity__s1.json: 6/7 (72497 in, 73510 cached, 42s)
+done p14__code2video__active_learning__s1.json: 3/7 (91286 in, 92610 cached, 37s)
+progress: 251/354 attempted, 0 failed
+done p16__paper2video__engagement__s1.json: 2/7 (73121 in, 72307 cached, 30s)
+done p14__ours_static__active_learning__s1.json: 5/7 (167197 in, 173719 cached, 32s)
+progress: 253/354 attempted, 0 failed
+done p17__code2video__active_learning__s1.json: 2/7 (74394 in, 75398 cached, 33s)
+progress: 254/354 attempted, 0 failed
+done p17__ours_static__visuals__s1.json: 6/7 (153643 in, 159576 cached, 39s)
+done p17__notebooklm__engagement__s1.json: 5/7 (119716 in, 124359 cached, 36s)
+[p17__notebooklm__active_learning__s1.json] 429; retry 1 in 5s
+done p18__code2video__visuals__s1.json: 6/7 (63863 in, 64640 cached, 26s)
+[p18__code2video__clarity__s1.json] 429; retry 1 in 5s
+cache p18/paper2video: 58727 tokens
+cache p19/code2video: 61677 tokens
+done p15__code2video__technical__s1.json: 4/7 (72777 in, 73510 cached, 30s)
+done p16__notebooklm__clarity__s1.json: 4/7 (105885 in, 109910 cached, 151s)
+done p16__paper2video__active_learning__s1.json: 2/7 (73206 in, 72307 cached, 24s)
+progress: 260/354 attempted, 0 failed
+done p14__notebooklm__technical__s1.json: 6/7 (175819 in, 182448 cached, 257s)
+done p16__code2video__technical__s1.json: 5/7 (70933 in, 71631 cached, 106s)

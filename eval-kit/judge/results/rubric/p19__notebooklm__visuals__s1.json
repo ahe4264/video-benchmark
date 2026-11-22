@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:21.647Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:41: Diagram of parallel rays hitting a plane. 1:11: Step-by-step visual build-up of axes, plane, and rays. 1:39: 3D staircase box projected onto a 2D plane, using color-coded faces and dashed projection lines. 2:56: Visual demonstrating zero foreshortening. 3:24: Side-by-side comparison of orthographic versus perspective projection. 4:24-4:59: A static sketch remains on screen while mathematical equations are explained verbally.",
+    "score_reason": "The lesson fully meets Level 5. The visuals are clear, well-made, and effectively show key objects and relationships, changing as the explanation proceeds. However, the reliance on a static sketch during the math explanation is a missed opportunity for visualization, keeping it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 123301,
+    "candidatesTokenCount": 202,
+    "totalTokenCount": 125229,
+    "cachedContentTokenCount": 127969,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 122538
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 763
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114056
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13568
+      }
+    ],
+    "thoughtsTokenCount": 1726,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 129720
+  }
+}

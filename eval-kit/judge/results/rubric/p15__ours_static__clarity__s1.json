@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:22.949Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:00-0:31: Introduces graph components and node updating clearly.\n0:32-1:10: Explains edge embeddings and neighbor gathering with clear visuals.\n1:11-1:56: Motivates and introduces the edge graph, demonstrating the rule step-by-step.\n1:57-3:31: Builds the edge graph in place, explaining how original nodes form new edges (lines, triangles, complete graphs).\n4:05-5:36: Introduces node degree and provides a clear formula to calculate it for new nodes.\n5:37-6:36: Uses a slider to show the relationship between original nodes and groups in the edge graph.\n6:55-7:59: Concludes by explaining how this allows processing edge embeddings.",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated, builds logically on the last, and introduces terms before use.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 139420,
+    "candidatesTokenCount": 228,
+    "totalTokenCount": 141804,
+    "cachedContentTokenCount": 144822,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138731
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 129120
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15360
+      }
+    ],
+    "thoughtsTokenCount": 2156,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 146623
+  }
+}

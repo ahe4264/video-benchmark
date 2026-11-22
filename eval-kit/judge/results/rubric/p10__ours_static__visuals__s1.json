@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:26:50.955Z",
+  "seconds": 144,
+  "result": {
+    "evidence": "0:16: Particle paths are traced, showing accumulation in two heaps. 0:53: Waves are depicted with ripples and wavelength labeled. 1:17: Interference pattern is graphed on the back wall. 3:03: Path differences are visually calculated to explain dark bands. 3:40: Single electrons are shown landing one by one. 4:39: The screen faces the viewer, accumulating dots into bands over time. 6:37: Slit distance is adjusted, dynamically updating the fringe spacing and values. 8:03: Histograms of hits are overlaid with probability curves for one and two slits.",
+    "score_reason": "The visuals are crisp, uncluttered, and dynamically change to illustrate every step of the concept. They carry the explanation so well that the core ideas can be understood almost entirely from the graphics alone. This meets the top level, mapped to a 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 165501,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 166812,
+    "cachedContentTokenCount": 171913,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 1098,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173964
+  }
+}

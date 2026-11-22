@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:57.712Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00-0:48: The hook effectively demonstrates why greedy algorithms fail with negative edge weights using a drone animation.\n0:49-1:18: Graph setup and initialization are clearly visualized.\n1:19-2:35: A detailed trace of the algorithm over 4 passes is shown, alongside the `relax` function code.\n2:36-3:24: Consolidation summarizes convergence and explains the negative cycle check.\nThe lesson is entirely silent, requiring simultaneous reading of text, parsing of code, and tracking of animations. The pacing during the trace is fast.",
+    "score_reason": "The lesson covers the core idea correctly and provides a detailed trace. It fully meets the Competent level, but the lack of audio narration and fast pacing create a high cognitive load, keeping it from the Good level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 54844,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 56207,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54120
+      }
+    ],
+    "thoughtsTokenCount": 1167,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 56756
+  }
+}

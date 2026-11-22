@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:23:59.247Z",
+  "seconds": 116,
+  "result": {
+    "evidence": "0:20 (Prediction log before instruction); 1:32 (Applying counterexample test); 4:30 (Prediction check during simulation); 5:56 (Near transfer prediction table); 9:20 (Far transfer analogy mapping); 10:25 (Misconception anticipation guide); 11:15 (Testing claims and providing evidence sentences).",
+    "score_reason": "The lesson fully meets the top level by requiring the learner to do the key reasoning (predicting, applying, explaining) at all main steps, including near and far transfer. It explicitly places checks where misconceptions arise and provides feedback through simulation results and structured evaluations.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 308825,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 310762,
+    "cachedContentTokenCount": 314269,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 308088
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 313923
+      }
+    ],
+    "thoughtsTokenCount": 1779,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 317470
+  }
+}

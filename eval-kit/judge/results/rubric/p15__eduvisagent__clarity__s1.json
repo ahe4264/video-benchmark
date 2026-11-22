@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:22:19.794Z",
+  "seconds": 58,
+  "result": {
+    "evidence": "- 0:01: Initial screen is dense with a scenario, data table, canonical diagram, and GNN layer expectations.\n- 0:48: Additional dense text panels (\"Two-view dictionary\", \"F.O.P.S\") appear simultaneously.\n- 6:06: Part 2 introduces a cluttered interface with a convention table, dual-panel diagrams, and a legend all at once.\n- 13:27: Part 3 presents multiple tables and diagrams packed into a single view.",
+    "score_reason": "The main idea is present, but the screen consistently shows too much at once, lacking a guided, step-by-step visual buildup. This keeps it from the level above.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 357089,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 359524,
+    "cachedContentTokenCount": 363492,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 356400
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 363150
+      }
+    ],
+    "thoughtsTokenCount": 2264,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 367015
+  }
+}

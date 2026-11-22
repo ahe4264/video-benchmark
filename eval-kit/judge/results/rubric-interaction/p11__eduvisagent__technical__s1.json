@@ -1,0 +1,86 @@
+{
+  "topic": "p11",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:07:10.346Z",
+  "seconds": 112,
+  "result": {
+    "evidence": "Throughout the lesson, there are several minor interaction issues where clicks or inputs produce no visible response. For example, at 03:04, clicking the '2. Construction' tab in the figure does nothing. At 04:52, clicking the 'Watch & Interact' header yields no response. From 05:04 to 05:18, repeatedly clicking the '2. Construction' button while the animation is playing produces no feedback. At 10:17, a checkbox click is ignored, and at 15:48, a dropdown selection yields no response. From 15:59 to 16:14, clicking the already active '8. Next step' tab does nothing. At 16:31 and 19:01, checkboxes in the self-check rubric cannot be operated. Finally, at 19:08, there is a major rendering issue where unrendered LaTeX code (\\ce{C12H22O11}) is visible in the text of the 'Post-lesson data' section.",
+    "issues": [
+      {
+        "timestamp": "03:04",
+        "description": "Clicking the '2. Construction' tab in the figure produces no visible response.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:52",
+        "description": "Clicking the 'Watch & Interact' header produces no visible response.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "05:04",
+        "description": "Clicking the '2. Construction' button while the animation is playing produces no visible response.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "10:17",
+        "description": "Ticking a checkbox produces no immediate visible response.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "15:48",
+        "description": "Selecting an option in a dropdown produces no visible response.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "15:59",
+        "description": "Clicking the active '8. Next step' tab produces no visible response.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "16:31",
+        "description": "A checkbox in the self-check rubric cannot be operated.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "19:01",
+        "description": "A checkbox in the self-check rubric cannot be operated.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "19:08",
+        "description": "Unrendered LaTeX code (\\ce{C12H22O11}) is displayed in the text.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has one major problem (raw LaTeX code shown instead of a formula) and many minor interaction issues, which fully meets the description for level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 312807,
+    "candidatesTokenCount": 720,
+    "totalTokenCount": 318931,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4719
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 308088
+      }
+    ],
+    "thoughtsTokenCount": 5404,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 321455
+  }
+}

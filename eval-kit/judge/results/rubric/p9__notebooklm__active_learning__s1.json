@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:19.284Z",
+  "seconds": 19,
+  "result": {
+    "evidence": "The lesson is a passive video. At 5:03, the narrator poses a challenge: 'Can you explain why it bounced?' This is a rhetorical thought prompt with no mechanism for the learner to answer or receive feedback.",
+    "score_reason": "The lesson meets Level 2 because it only includes a rhetorical 'pause and think' prompt at the end. It does not reach Level 3 because there are no genuine checks for understanding that provide feedback.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 96403,
+    "candidatesTokenCount": 111,
+    "totalTokenCount": 97512,
+    "cachedContentTokenCount": 99972,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 95671
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 89039
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 10592
+      }
+    ],
+    "thoughtsTokenCount": 998,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 101520
+  }
+}

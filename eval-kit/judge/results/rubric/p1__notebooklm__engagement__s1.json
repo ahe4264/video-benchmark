@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:54.213Z",
+  "seconds": 44,
+  "result": {
+    "evidence": "0:00-0:45: Opens with the '0/0 Paradox' for sin(x)/x, establishing a clear puzzle. 0:46-3:21: Methodical geometric construction; pace is steady though slightly slow. 3:22-3:53: 'Nesting doll' visual provides insight into the area inequality. 3:54-4:35: Algebraic manipulation uses a 'sandwich' analogy. 5:04-6:04: Visualizes the squeeze to 1. 6:05: Ends with a challenge question.",
+    "score_reason": "The lesson fully meets the criteria for a high score by opening with a real puzzle, maintaining a good pace with visual analogies that offer insight, and having only brief lulls during the setup. Score compressed toward the center.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 114802,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 115955,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114149
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      }
+    ],
+    "thoughtsTokenCount": 956,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 120816
+  }
+}

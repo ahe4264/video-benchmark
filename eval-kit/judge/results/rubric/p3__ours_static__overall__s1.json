@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:36.310Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "0:00-1:45: Clear explanation of polar coordinates and why they are used here.\n1:46-3:03: Excellent visual construction of the region R.\n3:04-5:19: Interactive finding of r-limits using a radial strip is highly effective.\n5:20-7:22: Sweeping the strip to find theta-limits is visually intuitive.\n7:23-8:34: Final assembly of the integral and a good follow-up question.",
+    "score_reason": "The lesson is clear, correct, and well-made, with excellent visuals that build intuition step-by-step. It fully meets the 'Strong' level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 149269,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 150264,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148546
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      }
+    ],
+    "thoughtsTokenCount": 824,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156942
+  }
+}

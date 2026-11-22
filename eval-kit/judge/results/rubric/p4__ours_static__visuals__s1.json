@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:41.993Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:03: The lesson introduces the concept using a physical shelf and blocks.\n0:19-1:34: Blocks move dynamically to demonstrate the sorting process visually.\n1:51: The visual metaphor transitions to a formal array representation with indices and values.\n2:20-4:51: Array cells use shading and arrows to clearly show comparisons and shifts step-by-step.\n4:52: A graph is introduced to visualize the number of comparisons and shifts.\n6:58: A summary diagram uses dots and lines to show all keys' walks simultaneously.\n8:01: The visuals effectively demonstrate the worst-case scenario (reversed array).",
+    "score_reason": "The lesson fully meets the top level. The visuals are crisp, consistent, and carry the explanation; a student could follow the concept almost entirely from the visuals alone. Score compressed from 7.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 144960,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 146083,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144199
+      }
+    ],
+    "thoughtsTokenCount": 913,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 152423
+  }
+}

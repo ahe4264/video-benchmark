@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:42.324Z",
+  "seconds": 51,
+  "result": {
+    "evidence": "0:00-0:26: Visual hook establishes the problem of perspective making distant objects smaller.\n0:30-1:08: Step-by-step construction of orthographic projection, showing rays parallel to Z and deriving x=X, y=Y.\n1:24: Formula w(theta) = 2cos(theta) + 1sin(theta) appears. The 2m width was noted earlier, but the 1m depth wasn't, and the trig derivation is skipped.\n1:56-2:08: Perspective formulas (x = fX/Z, x = (Z0/Z)X) and the alpha interpolation formula are introduced rapidly without derivation.\n2:47-3:23: Depth guides clearly visualize scaling differences between orthographic and perspective.",
+    "score_reason": "The lesson follows a sensible order and builds concepts logically. However, it contains a few rushed steps and small gaps, such as introducing the projected width trigonometric formula without derivation and rapidly presenting the perspective and interpolation equations. This requires a moment's thought to follow.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 60884,
+    "candidatesTokenCount": 253,
+    "totalTokenCount": 63270,
+    "cachedContentTokenCount": 61677,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 692
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60192
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61332
+      }
+    ],
+    "thoughtsTokenCount": 2133,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62956
+  }
+}

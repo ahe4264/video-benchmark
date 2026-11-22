@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:22.781Z",
+  "seconds": 422,
+  "result": {
+    "evidence": "0:01-0:31: Clear 2D graphics introduce the Thomson model and alpha particle composition.\n0:32-1:18: The experimental apparatus is built piece-by-piece in a clean schematic.\n1:19-1:52: Dynamic animations show particles firing, deflecting, and hitting the screen, accompanied by live counters.\n1:53-2:43: A slider visualizes how changing foil thickness affects beam spread and backscatter, clearly showing the tiny nucleus.\n3:49-4:34: Visual summary effectively contrasts the plum pudding and nuclear models.",
+    "score_reason": "The lesson fully meets the top level. The visuals are crisp, consistent, and carry the explanation; a student could follow the core concepts from the graphics alone.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 73359,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 75089,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1540,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75760
+  }
+}

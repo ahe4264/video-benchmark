@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:25:12.861Z",
+  "seconds": 125,
+  "result": {
+    "evidence": "0:00-1:38: Introduces pressure and force on a flat plate, then stands it up to show pressure varies, motivating the need to slice it.\n1:39-3:18: Defines axes, depth h(x), width w(x), and slices the plate into strips.\n3:19-4:55: Focuses on one strip, defining delta x_k and x_k*, and approximates force on it.\n5:25-6:48: Sums the forces (Riemann sum) and takes the limit to form the integral, showing notation changes clearly.\n6:49-9:46: Connects the integral to the area under a curve and summarizes the process.",
+    "score_reason": "The lesson is perfectly logical and step-by-step. Every step is motivated, symbols are introduced before use, and the progression from basic pressure to the integral is seamless. It fully meets the top level (7), but the score is compressed as instructed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 170330,
+    "candidatesTokenCount": 236,
+    "totalTokenCount": 171984,
+    "cachedContentTokenCount": 177029,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 169641
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 157903
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18784
+      }
+    ],
+    "thoughtsTokenCount": 1418,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 179024
+  }
+}

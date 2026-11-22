@@ -1,0 +1,122 @@
+Produce a narrated lesson on a two-lens telescope system consisting of a convex
+objective lens (lens 1, on the left) and a concave eyepiece lens (lens 2, on the right),
+with their respective focal lengths f1 and f2 indicated by horizontal brackets beneath
+the optical axis.
+Source: visionbook/lenses.qmd (figure `telescope2`, physics/2d)
+Target length: 6 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand how a Galilean-style telescope achieves angular
+magnification equal to the ratio f1/f2 by manipulating ray angles through the two-lens
+arrangement.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure shows a two-lens telescope system consisting of a convex objective lens
+(lens 1, on the left) and a concave eyepiece lens (lens 2, on the right), with their
+respective focal lengths f1 and f2 indicated by horizontal brackets beneath the optical
+axis. Two parallel input rays enter from the left at a small angle δᵢ relative to the
+optical axis; lens 1 converges them toward an intermediate focal point located between
+the two lenses, and lens 2 then diverges the rays so they exit at a larger angle. The
+geometry shows that the lenses are separated such that the back focal point of lens 1
+coincides with the front focal point of lens 2, causing the output bundle to emerge as
+parallel rays at an amplified angle δₒ. This figure demonstrates how a Galilean-style
+telescope achieves angular magnification equal to the ratio f1/f2 by manipulating ray
+angles through the two-lens arrangement.
+3. Demonstration — Sliders for focal lengths f₁ and f₂: update all ray paths through
+both lenses and display the angular magnification ratio δₒ/δᵢ = f₁/f₂ in real time, with
+the lens separation adjusting to maintain the afocal configuration
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Demonstration — Drag the input ray angle δᵢ to change the angle of the two parallel
+input rays and see the output angle δₒ change proportionally, with ray traces updating
+through both lenses
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+5. Demonstration — Drag lens 2 along the optical axis to deviate from the afocal
+separation (f₁ + f₂), showing the exit beam become converging or diverging and the blue
+intermediate focal point d shift away from the lens
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+6. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: A small change in the input ray angle gives a larger change in the
+output ray angle. The magnification of the telescope is the ratio, $M$, of the angular
+deviation of an output ray, $\delta_o$, to the angular deviation of an input ray,
+$\delta_i$. Writing the focal point offset, $d$, in terms of the rays passing through
+the centers of lenses 1 and 2 gives the relation, $M = f_1/f_2$, where $f_1$ and $f_2$
+are the respective ray focal lengths.
+CONSTRAINTS
+- Render in 2D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.
+=== SOURCE TEXTBOOK PAGE ===
+[Extracted from Alex's lenses.qmd (raw Quarto source)]
+### Lenses in a Telescope
+The properties of convex and concave lenses can be used to make a
+telescope, as Galileo did in the early 1600s @Galileo1610. We can see
+how the telescope magnifies the size of objects from geometric
+considerations. As shown in @fig-telescope-a, we position a convex lens, lens 1, with a
+long focal length, $f_1$, and a concave lens, lens 2, with a shorter
+focal length, $f_2$, such that each are $f_1$ and $f_2$ away from some
+common point, respectively. Under those conditions, the configurations
+of figures @fig-ConcaveLenses-a and @fig-ConcaveLenses-b will cause parallel rays from a
+distant object entering lens 1 to become a compressed set of parallel
+rays leaving lens 2. Referring to @fig-telescope-b, an angular deviation of the input
+rays of $\delta_i$ will become an angular deviation, exiting the convex
+lens of $\delta_o$.
+![](figures/imaging/telescope1.png){#fig-telescope-a}
+![](figures/imaging/telescope2.png){#fig-telescope-b}
+Fig (a) Galilean telescope. The convex lens 1 and the concave lens 2 share the same
+focal point, marked with a dot, resulting in parallel rays in giving parallel rays out.
+(b) A small change in the input ray angle gives a larger change in the output ray angle.
+The magnification of the telescope is the ratio, $M$, of the angular deviation of an
+output ray, $\delta_o$, to the angular deviation of an input ray, $\delta_i$. Writing
+the focal point offset, $d$, in terms of the rays passing through the centers of lenses
+1 and 2 gives the relation, $M = f_1/f_2$, where $f_1$ and $f_2$ are the respective ray
+focal lengths.
+By property 3 of @sec-imagingWithLenses, and the small angle approximation, we have
+$\delta_i f_1 = d$, because the point $p$ is a distance $f_1$ from
+lens 1. Similarly, we have $\delta_o f_2 = d$. Substituting for $d$
+gives $$M = \frac{\delta_o}{\delta_i} = \frac{f_1}{f_2},$$ where we have
+defined the telescope magnification, $M$, to be the amplification of the
+parallel ray bending angles.
+@fig-homemade shows a homemade telescope, inspired by Galileo's. The tube is a 2 in.
+cardboard mailing tube, with a second tube inserted within it to allow
+the interlens distance to be adjusted for focusing. The convex lens at
+the front of the telescope has a focal length of 50 cm, and the convex
+lens eyepiece has a focal length of 18 mm, giving a magnification of 27.
+This is comparable to the 30x magnification of Galileo's telescope.
+![](figures/imaging/telescope4.jpg){#fig-homemade-a}
+![](figures/imaging/telescope3.jpg){#fig-homemade-b}
+Homemade Galilean telescope. (a) The two lenses of the
+telescope are mounted in a cardboard mailing tube, with focusing allowed
+by adjustment of an inserted slightly smaller tube with the eyepiece
+lens. (b) Mailing tube with the lenses removed from the tube ends. The
+rubber bands mount the telescope to a tripod, and tube interior is lined
+with black paper to reduce stray light.
+@fig-moon compares images made from this homemade telescope with drawings Galileo
+made of what he saw through his telescope. He discovered that our moon
+had mountains and craters, and was thus not a perfect sphere, as some
+had thought. While he could not resolve the rings of Saturn, he could
+see that there was something different about its shape. These can all be
+seen from just two lenses within a tube!
+![](figures/imaging/moonaug6b2022.jpg){#fig-moon-a}
+![](figures/imaging/moonGalileo.jpg){#fig-moon-b}
+Fig (a) Moon as viewed through homemade telescope of Galileo’s
+design, photographed at eyepiece with a cell phone camera. The telescope
+magnification is 27x. (b) Drawing by Galileo of the moon, seen through
+his telescope, with 30x magnification.
+With his telescope, Galileo discovered four of the moons of Jupiter. He called them the
+Medician Stars, in honor of the brothers of the Medici family, who were prospective
+patrons.
+=== END SOURCE PAGE ===

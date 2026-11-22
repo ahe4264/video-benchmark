@@ -1,0 +1,54 @@
+{
+  "topic": "p2",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:01.272Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "At 01:21, the text 'Type I region' overlaps with the integral formula. At 01:48, an equation briefly appears garbled during its animation. At 01:52, a fraction appears isolated before the rest of the equation.",
+    "issues": [
+      {
+        "timestamp": "01:21",
+        "description": "The text 'Type I region' overlaps with the integral formula, making it hard to read.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "01:48",
+        "description": "The evaluated integral text briefly appears garbled and overlapping itself during its entrance animation.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "01:52",
+        "description": "The fraction '1/2' appears isolated on screen before the rest of the formula renders.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one major problem (an unreadable overlap) and a few minor rendering glitches, meeting the criteria for this level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 75945,
+    "candidatesTokenCount": 267,
+    "totalTokenCount": 79518,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74976
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "thoughtsTokenCount": 3306,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78588
+  }
+}

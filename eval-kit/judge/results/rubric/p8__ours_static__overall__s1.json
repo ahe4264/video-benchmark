@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:09.679Z",
+  "seconds": 175,
+  "result": {
+    "evidence": "0:14: Visuals show hydrogen and oxygen reacting to form water and heat. 1:04: Introduces the membrane and wire. 1:46: Explains the proton exchange membrane clearly. 3:25: Breaks down a single hydrogen molecule splitting. 5:07: Introduces flow rate and current with an interactive graph. 6:38: Removes labels to focus on particle paths. 8:16: Shows the effect of closing the oxygen valve.",
+    "score_reason": "The lesson is clear, correct, and well-made. Visuals and interactive elements strongly support learning. It teaches the core idea well, fully meeting the Good level. The graph section is slightly complex, keeping it from the top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 164587,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 165396,
+    "cachedContentTokenCount": 171010,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 163862
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152523
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18144
+      }
+    ],
+    "thoughtsTokenCount": 632,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173001
+  }
+}

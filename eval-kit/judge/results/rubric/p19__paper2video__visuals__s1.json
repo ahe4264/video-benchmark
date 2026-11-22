@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:46:30.353Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "The lesson consists almost entirely of text-heavy slides (e.g., 0:45, 1:33, 3:03). Only one small, static diagram is shown twice (0:23, 1:13). Despite narration describing interactive 3D elements, none are displayed.",
+    "score_reason": "The lesson is essentially text on screen with visuals mostly absent, fully meeting the lowest level description.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 78759,
+    "candidatesTokenCount": 110,
+    "totalTokenCount": 79995,
+    "cachedContentTokenCount": 77797,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77996
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 763
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68876
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8576
+      }
+    ],
+    "thoughtsTokenCount": 1126,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 82994
+  }
+}

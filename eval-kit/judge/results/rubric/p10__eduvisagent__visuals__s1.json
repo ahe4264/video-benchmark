@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:11:43.048Z",
+  "seconds": 72,
+  "result": {
+    "evidence": "The lesson relies heavily on interactive, dynamic visuals. At 0:27, an animation clearly shows water wave superposition to explain interference. From 1:33, a 3D simulation of a double-slit apparatus shows electrons building an interference pattern over time. At 1:57, interactive sliders allow the user to change variables like slit separation and immediately see the effect on the visual pattern and corresponding graphs. At 9:24, a histogram effectively compares noisy simulated data with the expected theoretical curve. At 9:56, a 'size ladder' visually grounds the scale of the new problem. Later sections (e.g., 4:15 onwards) feature dense, complex interfaces with many tables and control panels, though they still integrate the core visual simulations.",
+    "score_reason": "The lesson fully meets the level 6 description. The visuals are clear, well-made, and dynamically change to show key relationships (such as the effect of altering variables on the interference pattern). The interactive simulations carry much of the explanation. The high density of the interface in the later problem-solving sections acts as a minor weakness, keeping it from the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 348185,
+    "candidatesTokenCount": 260,
+    "totalTokenCount": 349989,
+    "cachedContentTokenCount": 354347,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347424
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354004
+      }
+    ],
+    "thoughtsTokenCount": 1544,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 357873
+  }
+}

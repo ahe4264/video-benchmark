@@ -1,0 +1,85 @@
+{
+  "topic": "p6",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:21:49.390Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "Visuals render correctly with no layout issues. However, the audio contains numerous text-to-speech rendering errors where math symbols are mispronounced or spelled out letter-by-letter.",
+    "issues": [
+      {
+        "timestamp": "0:20",
+        "description": "TTS mispronounces rho as 'aracho'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "0:49",
+        "description": "TTS mispronounces x_k^* as 'x a ree coy'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:21",
+        "description": "TTS mispronounces A_k as 'A audre k'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:39",
+        "description": "TTS spells out rho as 'R H O'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:49",
+        "description": "TTS mispronounces rho as 'arrow'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:52",
+        "description": "TTS spells out rho h(x) as 'R H O H H X'.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson contains many minor audio rendering glitches throughout, though the visual content remains readable and usable.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 70510,
+    "candidatesTokenCount": 357,
+    "totalTokenCount": 73422,
+    "cachedContentTokenCount": 69413,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69541
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61423
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7648
+      }
+    ],
+    "thoughtsTokenCount": 2555,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74510
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "topic": "p13",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:51.814Z",
+  "seconds": 44,
+  "result": {
+    "evidence": "The lesson plays smoothly for the most part, but there are a few rendering issues. At 01:50, a formula appears completely garbled for a second before correcting itself. A similar issue occurs at 02:41 with another formula. There are also minor text overlaps, such as at 02:14 and 03:45.",
+    "issues": [
+      {
+        "timestamp": "01:50",
+        "description": "The formula for E renders as a garbled mess of overlapping characters before correcting itself.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "02:14",
+        "description": "Characters in the formula for V overlap slightly.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:41",
+        "description": "The formula for C renders as a garbled mess of overlapping characters before correcting itself.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:45",
+        "description": "Text overlaps with the points on the graph.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has a couple of major rendering problems where formulas appear garbled, along with a few minor overlaps. This aligns with having multiple major problems, but since they resolve quickly, it fits best at level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 88086,
+    "candidatesTokenCount": 334,
+    "totalTokenCount": 90818,
+    "cachedContentTokenCount": 89109,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 966
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 87120
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 88770
+      }
+    ],
+    "thoughtsTokenCount": 2398,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 91050
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:24.153Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "0:04-0:23: Coaxial cable stripped to reveal inner and outer conductors.\n0:24-0:58: Capacitor plates shown with a bucket analogy and a Q vs V graph to explain C=Q/V.\n0:59-1:35: Step-by-step visual construction of the cylindrical capacitor in cross-section and side views.\n1:36-2:33: Gaussian surface shown with an E vs r graph; area under the curve represents V.\n3:11-4:01: Animation sweeps the inner radius R1, dynamically updating the cross-section, side view, and a graph showing the non-linear increase in C.\n4:02-4:57: Animation stretches the cylinders lengthwise, with a graph showing the linear increase in C.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation. A student could follow the core concepts (like the dependence of C on radius ratio and length) through the dynamic animations and graphs alone. Meets the top level, but the score is compressed away from the extreme.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 87877,
+    "candidatesTokenCount": 257,
+    "totalTokenCount": 89270,
+    "cachedContentTokenCount": 89109,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 87120
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 88770
+      }
+    ],
+    "thoughtsTokenCount": 1136,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 90663
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:14.934Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "The video is a presentation about a lesson design. It describes interactive elements like prediction questions (0:38) and interactive demos, but the video itself does not ask the viewer to interact or answer questions. A rhetorical question is mentioned at 3:40 (\"We ask, can an image keep object size independent of distance?\") as part of the lesson description.",
+    "score_reason": "The lesson fully meets the description for an entirely passive experience, as it is a continuous presentation that asks nothing of the viewer.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 78732,
+    "candidatesTokenCount": 124,
+    "totalTokenCount": 80490,
+    "cachedContentTokenCount": 77797,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 736
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77996
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68876
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8576
+      }
+    ],
+    "thoughtsTokenCount": 1634,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 82967
+  }
+}

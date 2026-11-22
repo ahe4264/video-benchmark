@@ -1,0 +1,54 @@
+{
+  "topic": "p10",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:17.174Z",
+  "seconds": 99,
+  "result": {
+    "evidence": "Watched the entire lesson. Text and graphics are aligned with no overlaps or cut-offs. Formulas and text render correctly without raw code. Interactive elements respond as expected. Animations are smooth, and audio is clear and synced with visuals.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level description, as there are no visible technical problems and everything functions as intended.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 165710,
+    "candidatesTokenCount": 98,
+    "totalTokenCount": 166894,
+    "cachedContentTokenCount": 171913,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 1086,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 174351
+  }
+}

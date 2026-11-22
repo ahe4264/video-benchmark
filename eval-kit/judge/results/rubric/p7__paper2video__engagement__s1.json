@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:39.205Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "0:00: Opens by introducing a presentation about a lesson. 0:15: Reads bullet points from slides. 1:34: Describes an animation instead of showing it. 3:13: Ends with 'Thank you! Questions?'. Entire video is static slides read aloud.",
+    "score_reason": "Meets Level 1 as it is dull throughout and reads like slides, causing a student to stop watching. Score compressed to 2.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59419,
+    "candidatesTokenCount": 115,
+    "totalTokenCount": 60911,
+    "cachedContentTokenCount": 58720,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58771
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51914
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6464
+      }
+    ],
+    "thoughtsTokenCount": 1377,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62723
+  }
+}

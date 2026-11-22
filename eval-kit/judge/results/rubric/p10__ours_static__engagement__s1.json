@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:05.027Z",
+  "seconds": 228,
+  "result": {
+    "evidence": "0:03 Opens with a clear question: \"Is an electron a tiny ball, or a wave?\"\n0:16-1:28 Contrasts particle and wave behaviors visually.\n3:16 Builds suspense with the single-electron experiment.\n4:39-5:30 Strong moment of insight as random dots build into a wave pattern.\n6:09 Interactive exploration of slit spacing maintains engagement.\n8:49 Final question reveals a counterintuitive result (opening a slit reduces hits), offering another insight.",
+    "score_reason": "The lesson fully meets the top level. It opens with a compelling question, maintains strong momentum through varied interactive elements, and delivers multiple moments of insight without padding.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 165389,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 167413,
+    "cachedContentTokenCount": 171913,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164740
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 1854,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173852
+  }
+}

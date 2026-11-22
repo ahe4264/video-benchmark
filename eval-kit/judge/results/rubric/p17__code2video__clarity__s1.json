@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:56.516Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:00-0:40: Introduces height/tilt knobs, linking to intercept/slope. 0:41-1:04: Formalizes linear model equation incrementally. 1:05-1:47: Visually constructs least-squares loss, matching geometry to the sum-of-squares formula. 1:48-2:15: Derives 2D contour map from a 3D loss bowl. 2:16-4:03: Dual view explicitly connects parameter space movements to data space changes.",
+    "score_reason": "The lesson is highly logical and builds step-by-step. Every element is motivated, and symbols are defined before use, fully meeting the top level description (score compressed per instructions).",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74350,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 75979,
+    "cachedContentTokenCount": 75398,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73656
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75051
+      }
+    ],
+    "thoughtsTokenCount": 1447,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 76779
+  }
+}

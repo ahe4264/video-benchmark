@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:47.846Z",
+  "seconds": 58,
+  "result": {
+    "evidence": "0:00: Opens with a relatable question about sorting cards.\n0:34: Poses a clear stake: translating instinct into computer steps.\n0:36-1:51: Visual algorithm building is neat but gets repetitive.\n1:52-3:23: Code tracing section is very long, repetitive, and lacks momentum.\n3:39: Asks viewer to predict an outcome, adding a moment of engagement.",
+    "score_reason": "Meets Level 4. It has a clear opening with pull, but the long, repetitive code tracing section creates a significant flat stretch, preventing it from reaching Level 5's 'good pace'.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 68761,
+    "candidatesTokenCount": 162,
+    "totalTokenCount": 69871,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68112
+      }
+    ],
+    "thoughtsTokenCount": 948,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71044
+  }
+}

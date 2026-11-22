@@ -1,0 +1,54 @@
+{
+  "topic": "p13",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:50.000Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "The video is a narrated slideshow. All text, formulas, and images render correctly without overlap or truncation. Audio is clear and synchronized. No playback or rendering issues were observed.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level as there are no visible technical problems.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 76036,
+    "candidatesTokenCount": 80,
+    "totalTokenCount": 76768,
+    "cachedContentTokenCount": 74901,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 966
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75070
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66306
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8256
+      }
+    ],
+    "thoughtsTokenCount": 652,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 80302
+  }
+}

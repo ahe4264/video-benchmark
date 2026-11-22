@@ -1,0 +1,66 @@
+{
+  "topic": "p19",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:09:36.494Z",
+  "seconds": 187,
+  "result": {
+    "evidence": "There are a few minor layout issues where text overlaps other elements: at 1:07 ('rays CONVERGE - image flipped' overlaps graph lines), 1:30 ('rays PARALLEL ⊥ plane - no funnel' overlaps graph lines), 3:28 (the y-axis label 'image width (m)' overlaps the text above it), and 3:33 ('zoom adjusted: image size held fixed' overlaps the figure title). At 18:03, there is an interaction problem: the automated student selects an option from the '3 - Surface trap' dropdown, but the selection does not register (the display remains '- choose -'). This failure appears to leave the subsequent controls in that section disabled, preventing the student from completing that specific activity.",
+    "issues": [
+      {
+        "timestamp": "1:07",
+        "description": "Layout: The text 'rays CONVERGE - image flipped' overlaps the lines of the graph.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:30",
+        "description": "Layout: The text 'rays PARALLEL ⊥ plane - no funnel' overlaps the lines of the graph.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:28",
+        "description": "Layout: The y-axis label 'image width (m)' overlaps the text directly above it.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:33",
+        "description": "Layout: The text 'zoom adjusted: image size held fixed' overlaps the title 'Figure 1E'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "18:03",
+        "description": "Interaction: A selection is made in the '3 - Surface trap' dropdown, but the UI does not update (it still shows '- choose -'), which seems to prevent dependent controls below it from enabling.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has one major interaction problem (a dropdown that fails to register a selection) and several minor layout glitches (overlapping text). This fully meets the description for level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 343751,
+    "candidatesTokenCount": 514,
+    "totalTokenCount": 347992,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3455
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 340296
+      }
+    ],
+    "thoughtsTokenCount": 3727,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 353253
+  }
+}

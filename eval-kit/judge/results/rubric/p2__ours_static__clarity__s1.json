@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:50.063Z",
+  "seconds": 80,
+  "result": {
+    "evidence": "0:03: Introduces the solid and bounding planes.\n0:23: Uses a column for a volume element, linking height to the roof equation.\n0:48: Slides the column to find the x-intercept intuitively.\n1:20: Fills the volume with columns to motivate the double integral over region R.\n1:49: Systematically builds R by finding intercepts.\n2:47: Derives the slanted edge by setting z=0.\n3:10: Lays R flat and uses a vertical strip for limits.\n5:01: Rotates 3D to show R's true shape and explains projection.\n7:48: Summarizes limits and sets up the final integral.",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated, builds logically on the previous one, and introduces concepts before using them, allowing a newcomer to easily follow and reconstruct the process.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 161073,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 162368,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 160384
+      }
+    ],
+    "thoughtsTokenCount": 1074,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 169320
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:43.728Z",
+  "seconds": 42,
+  "result": {
+    "evidence": "0:00: Opens with 'How much air hides under a tilted roof?', providing some initial pull.\n0:33-1:26: Visual construction of the shape is clear but slow-paced.\n1:26-2:25: The sweeping slice animation is visually helpful, but watching the numbers change for a minute is repetitive.\n2:25-4:00: Explanations of side views and projections are methodical but static and text-heavy, creating flat stretches.",
+    "score_reason": "The lesson meets Level 4. It has a clear opening with a question that provides some pull, and the visual animations hold attention, but the uniform pace and repetitive segments create several flat stretches. It lacks the pace and variety needed for Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 75624,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 76872,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74976
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "thoughtsTokenCount": 1066,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78089
+  }
+}

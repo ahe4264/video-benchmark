@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:58.844Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:30: Predicts where rays land.\n1:05: Explains what a wall point shows.\n2:11: Predicts which rays reach the wall.\n2:29: Predicts where a ray lands.\n3:23: Predicts effect of closing opening.\n4:05: Hands-on: drags opening to separate patches.\n4:56: Predicts image movement when hole moves.\n5:25: Hands-on: drags pinhole to target.\n6:09: Predicts wedge width.\n6:38: Hands-on: drags wall point to see tree top.\n7:39: Predicts effect of second pinhole.\nFeedback consistently explains why the answer is correct.",
+    "score_reason": "The lesson fully meets the top level. The learner performs key reasoning at every main step through predictions and hands-on exploration. Feedback explains the rationale for the specific answers, and questions target potential misconceptions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 144384,
+    "candidatesTokenCount": 228,
+    "totalTokenCount": 146552,
+    "cachedContentTokenCount": 149946,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 740
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 143644
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 133693
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15904
+      }
+    ],
+    "thoughtsTokenCount": 1940,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 151825
+  }
+}

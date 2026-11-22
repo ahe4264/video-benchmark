@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:23.761Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "0:00-0:40: Dynamic link between knobs, line, and loss gauge. 1:05-1:47: Residuals shown as lines, then literally squared to visualize least-squares loss. 1:48-2:15: 3D bowl sliced into 2D contour map. 2:16-4:38: Dual view links parameter space (contour map) to data space (line fit), animating parameter sweeps.",
+    "score_reason": "Meets the top level. The visuals carry the explanation; a student could follow the core concepts (residuals, loss surface, parameter sweeps) mostly from the graphics alone. They are crisp and consistent throughout.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74421,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 75967,
+    "cachedContentTokenCount": 75398,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73656
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 765
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75051
+      }
+    ],
+    "thoughtsTokenCount": 1379,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 76850
+  }
+}

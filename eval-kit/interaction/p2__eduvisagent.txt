@@ -1,0 +1,161 @@
+Interaction log: 155 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 6 of 155 inputs produced no visible change; 9 raised a page error.
+
+0:17  part 1  ticked a checkbox -> screen changed
+0:19  part 1  ticked a checkbox -> screen changed
+0:20  part 1  ticked a checkbox -> screen changed
+0:22  part 1  ticked a checkbox -> screen changed
+0:24  part 1  ticked a checkbox -> screen changed
+0:26  part 1  ticked a checkbox -> screen changed
+0:28  part 1  ticked a checkbox -> screen changed
+0:29  part 1  dragged a slider (starting at "0.5") through its whole range -> screen changed
+0:44  part 1  dragged a slider (starting at "35") through its whole range -> screen changed
+0:55  part 1  clicked button "Next build step ▸" -> screen changed
+0:57  part 1  clicked button "Next build step ▸" -> screen changed
+0:59  part 1  clicked button "Next build step ▸" -> screen changed
+1:11  part 1  ticked a checkbox -> screen changed
+1:12  part 1  ticked a checkbox -> screen changed
+1:14  part 1  dragged a slider (starting at "2") through its whole range -> screen changed
+1:23  part 1  clicked button "↻ Sweep" -> screen changed
+1:32  part 1  clicked button "▶ Sweep 0→1" -> screen changed
+1:39  part 1  clicked button "Lock in my guess" -> screen changed
+2:10  part 1  typed a written answer into the box "edge value for (1,1)" -> screen changed
+2:15  part 1  typed a written answer into the box "height at (1,1)" -> screen changed
+2:20  part 1  typed a written answer into the box "edge value for (0.8,0.8)" -> screen changed
+2:25  part 1  typed a written answer into the box "height at (0.8,0.8)" -> screen changed
+2:30  part 1  typed a written answer into the box "edge value for (0.25,1.5)" -> screen changed
+2:34  part 1  typed a written answer into the box "height at (0.25,1.5)" -> screen changed
+2:38  part 1  picked an option in a drop-down -> screen changed
+2:40  part 1  picked an option in a drop-down -> screen changed
+2:41  part 1  picked an option in a drop-down -> screen changed
+2:43  part 1  clicked button "Replay the column animation on the stage" -> screen changed
+2:46  part 1  clicked button "Check & plot" -> screen changed
+2:49  part 1  clicked button "Plot example" -> screen changed
+3:00  part 1  typed a written answer into the box "top of strip at x 0" -> screen changed
+3:12  part 1  typed a written answer into the box "top of strip at x 0.25" -> screen changed
+3:51  part 2  ticked a checkbox -> screen changed
+3:53  part 2  ticked a checkbox -> screen changed
+3:54  part 2  ticked a checkbox -> screen changed
+3:56  part 2  ticked a checkbox -> screen changed
+3:57  part 2  ticked a checkbox -> screen changed
+3:59  part 2  dragged a slider (starting at "0.4") through its whole range -> screen changed
+4:13  part 2  clicked button "go to beat" -> screen changed
+4:15  part 2  clicked button "go to beat" -> screen changed
+4:17  part 2  clicked button "▶ Play" -> screen changed
+4:18  part 2  clicked button "go to beat" -> screen changed
+4:22  part 2  clicked button "go to beat" -> screen changed
+4:24  part 2  clicked button "go to beat" -> screen changed
+4:35  part 2  clicked button "go to beat" -> screen changed
+4:37  part 2  clicked button "go to beat" -> screen changed
+4:38  part 2  clicked button "Reveal" -> screen changed
+4:40  part 2  clicked button "Reveal" -> screen changed
+4:51  part 2  ticked a checkbox -> screen changed
+4:52  part 2  ticked a checkbox -> screen changed
+4:54  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+5:06  part 2  dragged a slider (starting at "1") through its whole range -> screen changed
+5:20  part 2  clicked button "Reveal the slice on the figure" -> screen changed
+5:21  part 2  clicked button "Expanded form?" -> screen changed
+5:23  part 2  clicked button "Set" -> screen changed
+5:25  part 2  clicked button "go to beat" -> screen changed
+5:26  part 2  clicked button "go to beat" -> screen changed
+5:28  part 2  clicked button "go to beat" -> screen changed
+5:29  part 2  clicked button "go to beat" -> screen changed
+5:31  part 2  clicked button "go to beat" -> screen changed
+5:52  part 2  clicked button "Reveal the 𝐴 ( 𝑥 ) A(x) graph" -> screen changed
+5:53  part 2  clicked button "Set" -> no visible change
+5:55  part 2  clicked button "Set" -> screen changed
+5:57  part 2  clicked button "Set" -> screen changed
+6:08  part 2  typed a written answer into the box "?" -> screen changed
+6:12  part 2  typed a written answer into the box "?" -> screen changed
+6:17  part 2  typed a written answer into the box "?" -> screen changed
+6:22  part 2  typed a written answer into the box "?" -> screen changed
+6:27  part 2  typed a written answer into the box "lower" -> screen changed
+6:33  part 2  typed a written answer into the box "upper" -> screen changed
+6:44  part 2  typed a written answer into the box "? m³" -> screen changed
+6:50  part 2  typed a written answer into the box "?" -> screen changed
+7:13  part 3  ticked a checkbox -> no visible change
+7:15  part 3  ticked a checkbox -> screen changed
+7:16  part 3  dragged a slider (starting at "0.5") through its whole range -> screen changed
+7:31  part 3  clicked button "3 · 📏 Drag 𝑥 0 x 0 ​" -> screen changed
+7:32  part 3  typed a written answer into the box "Both the strip length and the slice height carry the factor " -> screen changed
+7:36  part 3  clicked button "(A) straight line 4 → 0" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; screen changed
+7:38  part 3  clicked button "(B) drops steeply, then flattens" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; no visible change
+7:39  part 3  clicked button "(C) stays high, then drops suddenly" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; screen changed
+7:50  part 3  typed a written answer into the box "______" -> screen changed
+7:54  part 3  typed a written answer into the box "______" -> screen changed
+7:59  part 3  typed a written answer into the box "z = ..." -> screen changed
+8:03  part 3  typed a written answer into the box "z = ..." -> screen changed
+8:07  part 3  typed a written answer into the box "a curved ribbon / a line" -> screen changed
+8:12  part 3  clicked button "Check" -> screen changed
+8:14  part 3  clicked button "Test on figure" -> screen changed
+8:26  part 3  clicked button "Toggle integrand → 1" -> screen changed
+8:28  part 3  clicked button "Lock & go to view" -> screen changed
+8:32  part 3  clicked button "Lock & go to view" -> screen changed
+8:35  part 3  clicked button "✅ true" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; screen changed
+8:37  part 3  clicked button "❌ false" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; no visible change
+8:39  part 3  clicked button "✅ true" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; screen changed
+8:50  part 3  typed a written answer into the box "y = ..." -> screen changed
+8:54  part 3  typed a written answer into the box "e.g. vertices, edges, R, volume" -> screen changed
+8:58  part 3  clicked button "Lock & go to view" -> screen changed
+9:00  part 3  clicked button "Lock & go to view" -> screen changed
+9:02  part 3  clicked button "Lock & reveal" -> screen changed
+9:04  part 3  clicked button "Check it on the live figure" -> screen changed
+9:05  part 3  clicked button "needed" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; no visible change
+9:07  part 3  clicked button "not needed" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; no visible change
+9:08  part 3  clicked button "needed" -> page error: "Failed to execute 'querySelectorAll' on 'Element': '#' is not a valid selector."; screen changed
+9:19  part 3  typed a written answer into the box "y = ?" -> screen changed
+9:25  part 3  typed a written answer into the box "R is what remains when z is set to 0, so it keeps x and y on" -> screen changed
+9:31  part 3  typed a written answer into the box "V = ? m³" -> screen changed
+10:58  part 4  typed a written answer into the box "…" -> screen changed
+11:03  part 4  typed a written answer into the box "…" -> screen changed
+11:09  part 4  typed a written answer into the box "…" -> screen changed
+11:14  part 4  typed a written answer into the box "?" -> screen changed
+11:19  part 4  typed a written answer into the box "?" -> screen changed
+11:25  part 4  typed a written answer into the box "?" -> screen changed
+11:31  part 4  typed a written answer into the box "( , )" -> screen changed
+11:37  part 4  typed a written answer into the box "( , )" -> screen changed
+11:44  part 4  typed a written answer into the box "( , )" -> screen changed
+11:49  part 4  typed a written answer into the box "x=?" -> screen changed
+11:55  part 4  typed a written answer into the box "y=?" -> screen changed
+12:03  part 4  typed a written answer into the box "y=?" -> screen changed
+12:22  part 4  typed a written answer into the box "y=?" -> screen changed
+12:28  part 4  typed a written answer into the box "y=?" -> screen changed
+12:33  part 4  typed a written answer into the box "?" -> screen changed
+12:40  part 4  typed a written answer into the box "?" -> screen changed
+12:45  part 4  typed a written answer into the box "?" -> screen changed
+12:53  part 4  typed a written answer into the box "more/less" -> screen changed
+12:58  part 4  typed a written answer into the box "…" -> screen changed
+13:04  part 4  picked an option in a drop-down -> screen changed
+13:05  part 4  selected choice "A" -> screen changed
+13:07  part 4  selected choice "a" -> screen changed
+13:08  part 4  clicked button "Reveal next ▸" -> screen changed
+13:10  part 4  clicked button "Reveal next ▸" -> screen changed
+13:22  part 4  typed a written answer into the box "…" -> screen changed
+13:33  part 4  typed a written answer into the box "…" -> screen changed
+13:48  part 4  typed a written answer into the box "…" -> screen changed
+14:23  part 5  typed a written answer into the box "e.g. volume under a surface over a floor region…" -> screen changed
+14:27  part 5  typed a written answer into the box "Same: … Different: …" -> screen changed
+14:32  part 5  typed a written answer into the box "Reuse: … Must re-derive: …" -> screen changed
+14:37  part 5  typed a written answer into the box "e.g. 6" -> screen changed
+14:42  part 5  clicked button "5C · Map old → new 🔒" -> screen changed
+14:43  part 5  clicked button "Save plan & estimate → unlock 5C" -> screen changed
+14:45  part 5  clicked button "5B · Problem" -> screen changed
+14:47  part 5  clicked button "Show me the steps (Tier B)" -> screen changed
+14:48  part 5  clicked button "5D · Solve it 🔒" -> screen changed
+14:50  part 5  clicked button "5E · Verify on the figure 🔒" -> screen changed
+15:15  part 6  clicked button "6C Recognize F→O" -> screen changed
+15:16  part 6  clicked button "6D Region O→P" -> screen changed
+15:18  part 6  clicked button "6E Compute P→S" -> screen changed
+15:19  part 6  clicked button "Card on (hint)" -> screen changed
+15:21  part 6  clicked button "6F Checks S" -> screen changed
+15:23  part 6  clicked button "dots" -> screen changed
+15:24  part 6  clicked button "contours" -> screen changed
+15:25  part 6  clicked button "both" -> screen changed
+15:37  part 6  clicked button "Test my limits" -> screen changed
+15:38  part 6  clicked button "See density as height (3D bridge)" -> screen changed
+15:43  part 6  closed a pop-up (escape) -> pop-up closed
+15:44  part 6  closed a pop-up (close button) -> pop-up closed
+15:55  part 6  typed a written answer into the box "Test the region, not only the number: …" -> screen changed
+16:00  part 6  clicked button "Save & unlock the 6C row" -> screen changed
+16:01  part 6  clicked button "Watch the mirror map ( 𝑥 , 𝑦 ) ↦ ( 2 𝑦 , 𝑥 2 ) (x,y)↦(2y" -> screen changed

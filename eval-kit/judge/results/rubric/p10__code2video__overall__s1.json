@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:38.253Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "0:00 Hook contrasts particle and wave behavior. 0:30 Apparatus setup and wavelength calculation. 1:15 Toggling views connects wave intensity to particle probability. 1:54 Time-lapse demonstrates interference pattern emerging from single electron hits. 2:38 Interactive slider explores the effect of slit separation and particle mass on fringe spacing. 3:47 Summary and prediction challenge reinforce the core concept.",
+    "score_reason": "The lesson is exceptionally clear, visually intuitive, and well-structured, effectively teaching a complex topic step-by-step. It fully meets the criteria for the top level, but the score is compressed slightly inward per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 71741,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 72931,
+    "cachedContentTokenCount": 72704,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71016
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72361
+      }
+    ],
+    "thoughtsTokenCount": 1033,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74100
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:11.428Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:25: Predicts limit. 2:05: Applies trig for height. 2:50: Ranks areas. 3:43: Explores area ratios. 5:04: Explains inequality. 5:40: Calculates area. 6:37: Derives sector fraction. 7:35: Applies inequality rules. 8:16: Concludes limit.",
+    "score_reason": "The learner predicts, applies, explains, or explores at most key steps. Feedback explains the reasoning. Fully meets level 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 154775,
+    "candidatesTokenCount": 141,
+    "totalTokenCount": 157025,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 738
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154037
+      }
+    ],
+    "thoughtsTokenCount": 2109,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 162714
+  }
+}

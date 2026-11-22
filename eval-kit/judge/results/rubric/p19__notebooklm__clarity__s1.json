@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:51.748Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:13: Poses problem: flattening 3D to 2D preserving size.\n0:41: Defines orthographic projection (parallel, orthogonal rays).\n1:11: Step-by-step setup (axes, plane, rays).\n1:39: Applies setup to 3D shape.\n3:24: Contrasts with perspective projection.\n3:55: Translates to math (X,Y,Z -> x,y).\n5:00: Telephoto lens analogy.\n6:01: Final quiz reinforces Z-independence.",
+    "score_reason": "The lesson is highly logical and step-by-step. Every concept is motivated and builds on the previous one. A newcomer could easily follow and reconstruct the argument. It meets the top level, but the score is compressed.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 123230,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 124750,
+    "cachedContentTokenCount": 127969,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 692
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 122538
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114056
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13568
+      }
+    ],
+    "thoughtsTokenCount": 1324,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 129649
+  }
+}

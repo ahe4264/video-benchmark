@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:14.019Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "The lesson offers a highly visual and structured explanation of the simple pendulum. It begins with a practical hook (0:00), reviews necessary prerequisites like SHM and force components (0:36), and constructs the physical model step-by-step (1:17). Simulated demonstrations effectively illustrate the restoring force versus angle (2:09) and how variables like length and gravity affect the period (3:39). The derivation of the equation of motion using the small-angle approximation is logically presented (2:52). An application section on measuring 'g' adds practical value (4:58). The visuals are excellent and perfectly synchronized with the concise text, effectively compensating for the lack of audio narration.",
+    "score_reason": "The lesson is exceptionally clear, correct, and well-made, serving as a model for visual physics instruction. It fully meets the criteria for the top level (Exceptional), but following the instruction to compress extreme scores and avoid the highest possible score, it is awarded a 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 103417,
+    "candidatesTokenCount": 229,
+    "totalTokenCount": 104953,
+    "cachedContentTokenCount": 104980,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102696
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 721
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 104641
+      }
+    ],
+    "thoughtsTokenCount": 1307,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 106616
+  }
+}

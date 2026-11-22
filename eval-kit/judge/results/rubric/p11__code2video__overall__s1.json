@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:28:55.295Z",
+  "seconds": 64,
+  "result": {
+    "evidence": "0:00-0:40: The hook effectively sets up the problem of enzyme specificity using clear visuals and graphs.\n0:40-1:21: The construction phase builds the components, clearly defining the active site and the concept of shape matching.\n1:21-2:11: Toggling between lock-and-key and induced fit models visually demonstrates the difference between rigid and flexible active sites.\n2:11-3:09: The final demonstration uses graphs to show pocket deformation over approach distance, solidifying the concepts.",
+    "score_reason": "The lesson is clear, correct, and well-made, effectively teaching the core idea with strong visuals. It fully meets the 'Strong' level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 50888,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 51650,
+    "cachedContentTokenCount": 51456,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50160
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 728
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51110
+      }
+    ],
+    "thoughtsTokenCount": 589,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 52694
+  }
+}

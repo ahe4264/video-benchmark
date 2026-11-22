@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:34.579Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "The video is structured as an academic presentation about lesson design, not a lesson itself, featuring sections like \"Related Work\" and \"Ablation\" (0:35, 1:43). Although it covers the facts of the experiment (1:22, 3:18), the meta-framing and focus on production settings (2:04, 3:03) are highly distracting for a student.",
+    "score_reason": "The meta-framing makes the content mostly off-topic and highly confusing for a newcomer trying to learn the scientific concept, fitting the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 83944,
+    "candidatesTokenCount": 145,
+    "totalTokenCount": 85371,
+    "cachedContentTokenCount": 82995,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 83221
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73502
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9152
+      }
+    ],
+    "thoughtsTokenCount": 1282,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 88424
+  }
+}

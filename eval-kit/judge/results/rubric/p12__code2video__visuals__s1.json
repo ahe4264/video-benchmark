@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:38.536Z",
+  "seconds": 85,
+  "result": {
+    "evidence": "0:00: Strips a clock to a simple pendulum, showing variables (L, g, m).\n0:36: Clear vector diagrams split weight into components with color coding.\n1:18: Step-by-step construction of the pendulum diagram, linking forces to the restoring force.\n2:10: Dynamic graph traces Restoring Force vs. Angle in real-time as the pendulum swings.\n2:53: Math derivations are animated step-by-step, with color-coded links to the diagram. A graph compares sin(theta) to theta.\n3:40: Interactive sliders change length, mass, amplitude, and gravity, visually demonstrating their effect on the period.",
+    "score_reason": "The visuals carry the explanation, are crisp, consistent, and dynamically show relationships (like the real-time graph and interactive sliders). It fully meets the top level, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 103453,
+    "candidatesTokenCount": 214,
+    "totalTokenCount": 104971,
+    "cachedContentTokenCount": 104980,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102696
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 104641
+      }
+    ],
+    "thoughtsTokenCount": 1304,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 106652
+  }
+}

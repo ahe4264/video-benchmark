@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:05:08.224Z",
+  "seconds": 69,
+  "result": {
+    "evidence": "0:00-1:48: The problem is introduced with a clear breakdown of relevant variables. 1:49-2:34: The choice of axis is visually motivated. 3:17-4:12: The decision to slice horizontally is logically explained based on constant pressure. 5:17-6:50: The transition from discrete strips to an integral is demonstrated step-by-step. 7:11-14:18: The identical logical structure is applied to new scenarios, reinforcing the reconstructable method.",
+    "score_reason": "The lesson is perfectly logical and step-by-step. Every element is motivated, symbols are defined before use, and the explicit roadmap makes the argument easy to reconstruct. It meets the criteria for the top level, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 320393,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 321947,
+    "cachedContentTokenCount": 326101,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 319704
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 325759
+      }
+    ],
+    "thoughtsTokenCount": 1358,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 329346
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "topic": "p10",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:14:34.068Z",
+  "seconds": 86,
+  "result": {
+    "evidence": "The lesson contains multiple instances of unrendered LaTeX code where mathematical formulas should be displayed (e.g., 05:24, 09:20, 15:54, 16:05).",
+    "issues": [
+      {
+        "timestamp": "05:24",
+        "description": "Unrendered LaTeX code is shown instead of formatted math in the Wavelength section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "09:20",
+        "description": "Unrendered LaTeX code is shown in the Fringe spacing section.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "15:54",
+        "description": "Unrendered LaTeX code is shown in Q2.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "16:05",
+        "description": "Unrendered LaTeX code is shown in Q5.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has several major problems consisting of unrendered raw code where content should be.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 348394,
+    "candidatesTokenCount": 276,
+    "totalTokenCount": 350768,
+    "cachedContentTokenCount": 354347,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347424
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354004
+      }
+    ],
+    "thoughtsTokenCount": 2098,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 358260
+  }
+}

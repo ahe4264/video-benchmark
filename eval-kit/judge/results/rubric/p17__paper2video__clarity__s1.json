@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:07.292Z",
+  "seconds": 21,
+  "result": {
+    "evidence": "0:00: Video is a presentation about a lesson plan, not the lesson itself.\n0:35: Assumes knowledge of gradient descent and non-convex losses.\n0:55: Shows loss function equation without breakdown.\n1:32: Mentions partial derivatives without explanation.",
+    "score_reason": "The video is a meta-presentation assuming prior knowledge of the topic. A newcomer would be lost early on, meeting the criteria for the lowest level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 50737,
+    "candidatesTokenCount": 117,
+    "totalTokenCount": 52502,
+    "cachedContentTokenCount": 50055,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50043
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 44204
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 5504
+      }
+    ],
+    "thoughtsTokenCount": 1648,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53621
+  }
+}

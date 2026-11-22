@@ -1,0 +1,76 @@
+{
+  "topic": "p12",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:06.927Z",
+  "seconds": 43,
+  "result": {
+    "evidence": "At 0:56, text overlaps. At multiple points (e.g., 1:06, 3:02, 5:00, 5:19), equations and calculations suffer from severe rendering artifacts, appearing as overlapping or garbled text, making them unreadable.",
+    "issues": [
+      {
+        "timestamp": "0:56",
+        "description": "Text 's = L\\theta (\\theta in rad)' overlaps with 's = 0.26 m'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:06",
+        "description": "Equation 'd^2x/dt^2 = -(k/m)x' has rendering artifacts.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "3:02",
+        "description": "Equation 'mL^2 d^2\\theta/dt^2 = -L mg sin \\theta' is garbled and unreadable.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "5:00",
+        "description": "Equation 'T = 2\\pi\\sqrt(L/g)' is garbled.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "5:19",
+        "description": "Calculation for 'g' is garbled and unreadable.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson contains several major rendering problems that make key formulas and calculations unreadable.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 103662,
+    "candidatesTokenCount": 376,
+    "totalTokenCount": 106319,
+    "cachedContentTokenCount": 104980,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102696
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 966
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 104641
+      }
+    ],
+    "thoughtsTokenCount": 2281,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 107039
+  }
+}

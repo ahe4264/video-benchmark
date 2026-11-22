@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:56.954Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "The lesson is a non-interactive video. It includes several rhetorical questions (e.g., 0:21, 1:46, 3:27, 6:18) but does not contain any interactive checks, quizzes, or prompts that require the learner to input an answer or perform an action.",
+    "score_reason": "The lesson meets level 2 as it relies entirely on rhetorical questions without any genuine checks or active learner participation.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 120965,
+    "candidatesTokenCount": 114,
+    "totalTokenCount": 122381,
+    "cachedContentTokenCount": 125558,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120232
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 111904
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13312
+      }
+    ],
+    "thoughtsTokenCount": 1302,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127272
+  }
+}

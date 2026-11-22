@@ -1,0 +1,69 @@
+{
+  "topic": "p5",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:33.500Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "Observed multiple instances of text overlapping previously drawn text during animations, creating a messy appearance but remaining readable.",
+    "issues": [
+      {
+        "timestamp": "00:44",
+        "description": "Text 'Nee' overlaps previous text.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "01:38",
+        "description": "Text '1 (x)' overlaps previous '0'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:22",
+        "description": "Text 'total: -2' overlaps 'total: 4'.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:42",
+        "description": "New text overlaps faint previous text.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "02:45",
+        "description": "New text overlaps faint previous text.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "03:08",
+        "description": "New text overlaps faint previous text.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson contains many minor text overlap glitches, but content remains readable.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 55089,
+    "candidatesTokenCount": 317,
+    "totalTokenCount": 57588,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54120
+      }
+    ],
+    "thoughtsTokenCount": 2182,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 57179
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:28.670Z",
+  "seconds": 52,
+  "result": {
+    "evidence": "0:00-1:27: Lamp vs sun analogy introduces projection types. 1:28-3:27: Step-by-step build of axes, plane, and object; derives x=X, y=Y. 3:28-4:48: Rotation shows Y remains constant. 4:49-6:33: Pinhole model shows size halves when distance doubles. 6:34-8:35: Introduces perspective formula x=fX/Z. 8:36-9:30: Summarizes orthographic vs perspective with overlapping objects.",
+    "score_reason": "Logical, step-by-step progression. Terms are defined before use. The introduction of the perspective formula is a minor jump, keeping it from the top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 165428,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 167696,
+    "cachedContentTokenCount": 171915,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 692
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164736
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 2077,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173891
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:13.566Z",
+  "seconds": 157,
+  "result": {
+    "evidence": "0:03 introduces polar coordinates. 0:53 explains double integral concept visually. 1:11 defines the region. 1:57 draws curves step-by-step. 2:24 calculates intersection algebraically. 3:04 introduces radial strips. 6:10 explains area element dA. 7:23 constructs the final integral using previously established limits.",
+    "score_reason": "The lesson is highly logical, building step-by-step. Every new element follows from the last, and terms are introduced before use, meeting the criteria for the top levels.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 149234,
+    "candidatesTokenCount": 143,
+    "totalTokenCount": 151403,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148546
+      }
+    ],
+    "thoughtsTokenCount": 2026,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156907
+  }
+}

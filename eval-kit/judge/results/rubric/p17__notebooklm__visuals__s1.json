@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:07.359Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "1:09: Static 3D terrain map for Loss Function. 1:42: Static scatter plot and contour map; narrator describes dynamic changes, but visuals remain static. 2:18: Static drawings of steps (slider, rotating line) while describing dynamic actions. 2:57: Static 2D curve for local minima. 3:36: Static saddle point drawing. 4:51: Static drawing of a bouncing path.",
+    "score_reason": "The visuals are clean and depict key concepts, but they are entirely static and only illustrate the narration rather than dynamically explaining the processes described. This meets Level 3. It misses Level 4 because the visuals do not change to explain steps.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 119828,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 121340,
+    "cachedContentTokenCount": 124359,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119063
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 765
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 110828
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13184
+      }
+    ],
+    "thoughtsTokenCount": 1342,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126072
+  }
+}

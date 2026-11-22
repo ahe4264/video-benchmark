@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:57.914Z",
+  "seconds": 63,
+  "result": {
+    "evidence": "- 0:24: Hook asks how coaxial cables store energy.\n- 1:09-3:07: \"Virtual lab\" visually shows how radius and length affect capacitance.\n- 3:41: Brief repetitive stretch emphasizing geometry.\n- 4:08: Connects visual intuition to the math formula.\n- 4:38: Cell membrane example adds variety and insight about massive electric fields.",
+    "score_reason": "Meets Level 6. Opens with a clear question, maintains good pace with varied examples, and delivers insights. Kept from Level 7 by a brief repetitive stretch and moderate initial curiosity.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 110457,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 112089,
+    "cachedContentTokenCount": 114719,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 109812
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102220
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12160
+      }
+    ],
+    "thoughtsTokenCount": 1478,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 116253
+  }
+}

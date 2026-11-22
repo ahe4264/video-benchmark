@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:39.981Z",
+  "seconds": 135,
+  "result": {
+    "evidence": "0:19: Plum pudding model depicted as a positive sphere with embedded electrons.\n1:09: Experimental setup (source, foil, screen) is built step-by-step.\n2:25: Table contrasts expected and actual trajectories with clear visual paths.\n3:20: Graphic compares thin versus thick foil to explain scattering frequency.\n3:54: Side-by-side model comparison visually explains the cause of the alpha particle bounce.",
+    "score_reason": "The lesson fully meets the top level, as the visuals are crisp, consistent, and carry the explanation well enough that the core concepts could be followed without audio. Due to score compression guidelines, this is mapped to the level below.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 96430,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 98043,
+    "cachedContentTokenCount": 99972,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 95671
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 89039
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 10592
+      }
+    ],
+    "thoughtsTokenCount": 1446,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 101547
+  }
+}

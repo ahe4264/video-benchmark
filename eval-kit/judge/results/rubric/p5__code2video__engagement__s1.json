@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:58.777Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00: Hook asks 'What If Some Roads Pay You Back?'\n0:34-0:48: Demonstrates greedy algorithm failing on negative edges.\n1:19-2:36: Algorithm trace is methodical but slightly repetitive.\n2:33: Insight provided: 'Estimates only go down'.\n2:36: Bar chart introduces visual variety.\n2:49: Engages viewer by asking to predict pass 5 results.",
+    "score_reason": "The lesson fully meets Level 5. The opening poses a clear stake, and the lesson maintains a good pace with visual variety. The algorithm trace creates a minor lull, keeping it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 54768,
+    "candidatesTokenCount": 168,
+    "totalTokenCount": 56364,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54120
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "thoughtsTokenCount": 1428,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 56680
+  }
+}

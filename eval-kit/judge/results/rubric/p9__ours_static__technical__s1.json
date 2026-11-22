@@ -1,0 +1,54 @@
+{
+  "topic": "p9",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:28:28.576Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "Watched the full lesson checking for layout, rendering, interaction, playback, and audio issues. All text, graphics, and animations rendered correctly. Interactive elements responded as expected. Audio was clear and synced with visuals.",
+    "issues": [],
+    "score_reason": "Meets the top level as there are no visible technical problems.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 156167,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 157345,
+    "cachedContentTokenCount": 161978,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155199
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144453
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17184
+      }
+    ],
+    "thoughtsTokenCount": 1093,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 164346
+  }
+}

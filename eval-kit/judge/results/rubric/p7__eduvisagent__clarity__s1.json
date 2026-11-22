@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:09:25.128Z",
+  "seconds": 187,
+  "result": {
+    "evidence": "At 0:14, the lesson introduces a physical scenario (a wrench) and clearly defines all variables (r, F, theta, tau) before moving to abstract math. At 0:35, it motivates the need for the cross product by posing a geometric puzzle. At 2:03, the formal mathematical definition is provided only after building this physical and geometric intuition. At 2:37, the magnitude is explained visually using the area of a parallelogram. From 3:47 onwards, a worked example is broken down into extremely granular, logical steps (e.g., choosing coordinates, predicting, computing), with self-explanation prompts that ensure the motivation for each step is clear.",
+    "score_reason": "The lesson is highly logical and builds step-by-step throughout. Every new element is motivated and follows clearly from the last, with terms introduced before use. A newcomer could easily follow and reconstruct the argument. It fully meets the criteria for the highest level, but the score is compressed as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 370553,
+    "candidatesTokenCount": 230,
+    "totalTokenCount": 372488,
+    "cachedContentTokenCount": 377211,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 369864
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 376869
+      }
+    ],
+    "thoughtsTokenCount": 1705,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 380836
+  }
+}

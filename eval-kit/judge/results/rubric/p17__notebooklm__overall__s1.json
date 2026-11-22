@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:44.803Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "At 0:35, the lesson introduces parameters (slope and intercept). At 1:09, it defines the loss function. At 1:42, a clear visual connects the 2D data plot to the 2D loss surface. At 2:18, it demonstrates how adjusting parameters moves the current state on the loss surface. At 2:57, it explains local minima, and at 4:14, it introduces Stochastic Gradient Descent (SGD) and mini-batches as a way to escape these traps.",
+    "score_reason": "The lesson fully meets the 'Strong' level. It is highly engaging, uses excellent analogies, and connects mathematical concepts to clear visual representations. It is kept from the top level to adhere to the instruction to avoid assigning the highest possible score.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 119792,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 121222,
+    "cachedContentTokenCount": 124359,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119063
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 110828
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13184
+      }
+    ],
+    "thoughtsTokenCount": 1243,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126036
+  }
+}

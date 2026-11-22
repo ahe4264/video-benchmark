@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:25:08.832Z",
+  "seconds": 180,
+  "result": {
+    "evidence": "The lesson uses a 'Two-Dial Explorer' (0:15) to visually connect adjusting a line in data space with navigating a loss surface contour map in parameter space. It employs consistent visual encoding (blue for intercept, orange for slope, red for loss) and a structured F.O.P.S. methodology (1:52). The instruction includes comprehensive self-checks (9:00), near and far transfer tasks (10:28, 15:05), and explicitly addresses common misconceptions (16:44).",
+    "score_reason": "The lesson is an exceptional model of interactive instruction that builds deep intuition by perfectly synchronizing visual representations of data and parameter spaces. The scaffolding, practice, and error-checking are outstanding, fully meeting the criteria for the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 327297,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 328824,
+    "cachedContentTokenCount": 333100,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 326568
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332753
+      }
+    ],
+    "thoughtsTokenCount": 1340,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336432
+  }
+}

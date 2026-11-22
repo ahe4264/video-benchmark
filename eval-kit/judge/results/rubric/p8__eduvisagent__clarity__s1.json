@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:03:05.107Z",
+  "seconds": 54,
+  "result": {
+    "evidence": "0:00-1:30: Starts with a clear 'black box' analogy, establishing inputs and outputs.\n1:30-2:18: Energy release graphs build step-by-step, distinguishing a spark from a steady current.\n11:10: Particle bookkeeping table logically breaks down the stoichiometry.\n11:16: The equation I = 2Fnu is introduced; combining these variables into an invariant ratio is slightly dense.\n15:01-17:21: The far-transfer task explicitly maps the new glucose strip scenario to the fuel cell step-by-step.",
+    "score_reason": "The lesson is logical and step-by-step throughout, with new elements clearly following previous ones. It fully meets Level 6. It misses Level 7 because the introduction of the combined invariant equation is slightly dense and might require a moment's thought to fully reconstruct.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 340458,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 343302,
+    "cachedContentTokenCount": 346546,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 339768
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346203
+      }
+    ],
+    "thoughtsTokenCount": 2631,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 349943
+  }
+}

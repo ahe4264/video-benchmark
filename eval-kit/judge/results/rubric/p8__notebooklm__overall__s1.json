@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:21:10.779Z",
+  "seconds": 67,
+  "result": {
+    "evidence": "0:43 defines molecules. 1:30 introduces fuel cell components. 1:51-2:57 explains the electrochemical process step-by-step. 3:53 discusses the current limitation of hydrogen production.",
+    "score_reason": "The lesson is clear, well-structured, and uses helpful visuals to explain a complex topic effectively. It meets the 'Strong' level, compressed from a higher score as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 82805,
+    "candidatesTokenCount": 110,
+    "totalTokenCount": 84146,
+    "cachedContentTokenCount": 85827,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82080
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 76396
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9088
+      }
+    ],
+    "thoughtsTokenCount": 1231,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 87264
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "topic": "p9",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:28:58.164Z",
+  "seconds": 351,
+  "result": {
+    "evidence": "Watched the full video (0:00-5:31). The presentation features clear text, properly rendered graphics, and smooth animations. Audio is clear and synced with visuals. No layout, rendering, or playback issues observed.",
+    "issues": [],
+    "score_reason": "Meets the top level description as there are no visible technical problems.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 96639,
+    "candidatesTokenCount": 91,
+    "totalTokenCount": 97383,
+    "cachedContentTokenCount": 99972,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 95671
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 89039
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 10592
+      }
+    ],
+    "thoughtsTokenCount": 653,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 101934
+  }
+}

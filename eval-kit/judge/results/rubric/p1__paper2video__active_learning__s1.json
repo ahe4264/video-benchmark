@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:00:51.466Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "The video is a continuous presentation from 0:00 to 3:23. No questions, interactive elements, or prompts to pause and think are directed at the viewer. A 'Consolidation question' is shown on a slide at 2:56, but it is presented as an example of a lesson component rather than an active prompt for the viewer.",
+    "score_reason": "The lesson is entirely passive, as nothing is asked of the learner, fully meeting the criteria for the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59808,
+    "candidatesTokenCount": 123,
+    "totalTokenCount": 60622,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 738
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      }
+    ],
+    "thoughtsTokenCount": 691,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63127
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:41.690Z",
+  "seconds": 256,
+  "result": {
+    "evidence": "0:23: The opening poses a compelling 'what if' scenario about cars producing only water. 1:51: The step-by-step breakdown of the fuel cell process maintains momentum. 2:06: A magnet analogy helps explain electron repulsion. 2:58: The lesson pays off the opening question by illustrating water as the sole byproduct. 3:53: The introduction of the 'catch' regarding current hydrogen production adds a real-world stake.",
+    "score_reason": "The lesson fully meets Level 5. It features an opening that poses a clear question and stake, and it moves at a good pace. The narrator's energy helps maintain attention, though the reliance on mostly static visuals creates a few minor lulls, preventing it from reaching a higher level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 82729,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 84156,
+    "cachedContentTokenCount": 85827,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82080
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 76396
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9088
+      }
+    ],
+    "thoughtsTokenCount": 1243,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 87188
+  }
+}

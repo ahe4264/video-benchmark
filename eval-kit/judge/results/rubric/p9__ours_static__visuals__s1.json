@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:26:40.214Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:13: Plum pudding model shown clearly.\n0:51: Animation shows alpha particle passing through plum pudding model with force arrows.\n1:47: Apparatus built step-by-step visually.\n3:23: Interactive simulation shows particle flashes and tallies dynamically.\n4:58: Zoom-in on foil shows Rutherford model (nucleus, empty space).\n5:28: Animation shows why only head-on particles bounce back.\n7:45: 3D ring detector is 'laid flat' to form a histogram, effectively visualizing the data distribution.",
+    "score_reason": "The visuals carry the explanation, are crisp, consistent, and dynamically change to illustrate the concepts, models, and data. A student could follow much of the lesson from the visuals alone.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 155958,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 157383,
+    "cachedContentTokenCount": 161978,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155199
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144453
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17184
+      }
+    ],
+    "thoughtsTokenCount": 1239,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 163959
+  }
+}

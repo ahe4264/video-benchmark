@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:51:54.270Z",
+  "seconds": 56,
+  "result": {
+    "evidence": "At 0:28, the learner predicts what lenses must do to make the Moon look bigger. At 1:39, they apply knowledge of focal points to place the second lens. At 2:32, they predict the relative size of the output angle. At 3:41, they derive the magnification ratio algebraically. At 4:22, a hands-on task asks them to drag a handle to achieve a specific magnification. At 5:21, they explore the relationship between input and output angles by dragging. At 6:11, they predict light behavior when a lens is moved out of focus. At 7:01, they perform a hands-on task to focus the telescope. At 7:44, they apply the magnification formula to determine how to double it, followed by a hands-on task to achieve a magnification of 10 (7:56). Finally, at 8:34, they calculate the magnification of a real-world telescope. Feedback is provided for all interactions, often explaining the underlying reasoning or math.",
+    "score_reason": "The lesson fully meets the top level by having the learner perform the key reasoning at every main step through predicting, applying, and exploring hands-on. The feedback consistently explains why the specific answers are correct.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 160254,
+    "candidatesTokenCount": 293,
+    "totalTokenCount": 162716,
+    "cachedContentTokenCount": 166493,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 159522
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148488
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17664
+      }
+    ],
+    "thoughtsTokenCount": 2169,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 168458
+  }
+}

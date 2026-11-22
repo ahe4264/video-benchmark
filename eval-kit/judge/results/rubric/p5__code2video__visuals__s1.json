@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:43.649Z",
+  "seconds": 166,
+  "result": {
+    "evidence": "0:00-0:48: A graph with a drone illustrates how a greedy approach fails with negative edges. 0:49-1:18: The graph is initialized with distances (0 and infinity) clearly displayed inside nodes. 1:19-2:35: The algorithm is traced step-by-step. Active edges are highlighted in yellow, distances update dynamically, and predecessor arrows thicken. An edge order tracker at the bottom shows progress. 2:36-3:24: A bar chart summarizes relaxations per pass, and the final shortest path is traced.",
+    "score_reason": "The lesson fully meets the top level. The visuals carry the explanation entirely; a student could follow the algorithm's execution just by watching the dynamic graph updates, highlights, and distance changes. They are crisp and consistent throughout.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 54880,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 55971,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54120
+      }
+    ],
+    "thoughtsTokenCount": 895,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 56792
+  }
+}

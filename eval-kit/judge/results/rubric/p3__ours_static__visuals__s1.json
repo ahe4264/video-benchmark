@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:36.402Z",
+  "seconds": 240,
+  "result": {
+    "evidence": "0:03 introduces polar coordinates visually. 0:19 sweeps angle to show sin(theta). 1:57 dynamically draws cardioid. 3:04 introduces radial strip. 5:20 sweeps strip showing length. 6:10 zooms into a polar box to show dA. 6:26 plots integral share during sweep. 7:23 visually links geometric bounds to integral limits.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation. They dynamically show key objects and relationships, allowing a student to follow much of the idea from the visuals alone.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 149305,
+    "candidatesTokenCount": 147,
+    "totalTokenCount": 150741,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148546
+      }
+    ],
+    "thoughtsTokenCount": 1289,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 156978
+  }
+}

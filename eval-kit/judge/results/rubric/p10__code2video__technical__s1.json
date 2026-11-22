@@ -1,0 +1,56 @@
+{
+  "topic": "p10",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:53.055Z",
+  "seconds": 291,
+  "result": {
+    "evidence": "The lesson plays smoothly from start to finish. Text, formulas, and animations generally render correctly. At 00:22, the label 'Billiard Bill' is partially covered by the barrier graphic, which is a minor layering issue. The interactive elements, such as toggling between wave and particle views (01:15-01:54) and the slit-separation slider (02:38-03:47), function as intended without rendering errors.",
+    "issues": [
+      {
+        "timestamp": "00:22",
+        "description": "The label 'Billiard Bill' is partially obscured by the barrier graphic.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one minor layout glitch where a label is partially covered, but content remains readable and usable, meeting the criteria for the second-highest level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 71986,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 75142,
+    "cachedContentTokenCount": 72704,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71016
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72361
+      }
+    ],
+    "thoughtsTokenCount": 2943,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74523
+  }
+}

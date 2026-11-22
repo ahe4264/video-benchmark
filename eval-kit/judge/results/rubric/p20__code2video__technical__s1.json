@@ -1,0 +1,76 @@
+{
+  "topic": "p20",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:35.644Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "At 0:30, 0:31, and 0:34, text labels overlap the blue lens graphic. At 4:04 and 4:31, text characters overlap and appear garbled during their typing animations before settling into a readable state.",
+    "issues": [
+      {
+        "timestamp": "0:30",
+        "description": "Text 'center ray straight' overlaps the blue lens graphic.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "0:31",
+        "description": "Text 'fδ' overlaps the blue lens graphic.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "0:34",
+        "description": "Text '(small angle, δ in radians)' overlaps the blue lens graphic.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "4:04",
+        "description": "Text characters overlap and are garbled during the appearance animation.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "4:31",
+        "description": "Text characters overlap and are garbled during the appearance animation.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has several minor layout and rendering glitches, but all content remains readable and usable.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 73568,
+    "candidatesTokenCount": 327,
+    "totalTokenCount": 76049,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 2154,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 76147
+  }
+}

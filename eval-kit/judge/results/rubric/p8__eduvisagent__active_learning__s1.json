@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:12:21.614Z",
+  "seconds": 66,
+  "result": {
+    "evidence": "At 0:55, the learner is asked an open-ended prediction question about energy release. At 1:28, a popup provides specific, corrective feedback for an incorrect prediction. At 2:18, the learner commits their mental model via a prediction card. At 11:16, the learner applies concepts to calculate specific values. At 13:38 and 15:00, near and far transfer tasks require applying the learned structure to new scenarios. At 17:22, a dedicated section asks the learner to diagnose and repair specific misconceptions.",
+    "score_reason": "The lesson fully meets the top level. It consistently requires the learner to perform key reasoning (predicting, explaining, applying) at main steps, provides feedback tailored to specific answers, and explicitly places checks where misconceptions arise.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 340502,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 342677,
+    "cachedContentTokenCount": 346546,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 339768
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346203
+      }
+    ],
+    "thoughtsTokenCount": 1982,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 349987
+  }
+}

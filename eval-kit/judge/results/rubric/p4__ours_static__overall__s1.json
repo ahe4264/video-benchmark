@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:16.501Z",
+  "seconds": 314,
+  "result": {
+    "evidence": "The lesson starts with a clear physical analogy of sorting blocks on a shelf (0:00-1:50), then smoothly transitions to a formal array representation (1:51). It walks through the algorithm step-by-step with excellent visual cues like shading and arrows to show comparisons and shifts (2:20-4:51). It then connects these visual steps to code functions and explains the loop invariant (4:52-6:47). Finally, it visualizes the algorithm's performance for different input cases (6:48-8:18). The interactive questions are well-placed to check understanding.",
+    "score_reason": "The lesson is exceptionally clear, correct, and well-structured, building intuition before introducing code. It would normally receive the top score, but following the instruction to compress extreme scores, it is awarded the second-highest level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 144924,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 145969,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144199
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "thoughtsTokenCount": 842,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 152387
+  }
+}

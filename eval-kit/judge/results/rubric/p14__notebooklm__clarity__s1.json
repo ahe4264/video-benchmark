@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:01.325Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "The lesson introduces the U-Net shape (1:25) and breaks down the downsampling path, explaining the halving of resolution and doubling of channels (2:29). Skip connections are clearly explained as bridges (3:38). A sculptor analogy effectively explains the role of time steps (4:13). However, the final section (6:37 onwards) introduces advanced concepts like classifier-free guidance, latent space, and ODEs very rapidly. The mention of converting stochastic updates to ODEs (8:36) is particularly rushed.",
+    "score_reason": "The lesson is highly logical and builds concepts step-by-step with clear analogies. It meets the criteria for a logical explanation, but the rapid introduction of advanced concepts at the end constitutes a briefly rushed step, keeping it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 175539,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 177338,
+    "cachedContentTokenCount": 182448,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 174849
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162745
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19360
+      }
+    ],
+    "thoughtsTokenCount": 1610,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 184492
+  }
+}

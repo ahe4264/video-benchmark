@@ -1,0 +1,38 @@
+{
+  "topic": "p2",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:59:59.791Z",
+  "seconds": 74,
+  "result": {
+    "evidence": "0:00-2:53: The video consists of static slides with synchronized narration. No layout overlaps, unrendered code, or audio glitches are present.",
+    "issues": [],
+    "score_reason": "No technical problems were observed, meeting the top level description.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 51305,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 52522,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50336
+      }
+    ],
+    "thoughtsTokenCount": 1141,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 54382
+  }
+}

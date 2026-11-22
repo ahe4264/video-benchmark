@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:24.954Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:00-1:26: The lesson clearly sets up the problem, constructing the tetrahedron and defining the integration region R.\n1:26-2:25: A strong visual demonstration connects the 2D integration strip in the xy-plane to the 3D cross-sectional slice, making the concept of the inner integral very clear.\n2:25-4:00: Multiple geometric perspectives (side, top, edge-on) and projections further reinforce the relationship between the solid and the integral bounds.\n4:00-4:43: The consolidation phase effectively summarizes the process.\nThe lesson relies entirely on text and visuals without audio narration, which requires more reading effort but is executed clearly.",
+    "score_reason": "The lesson teaches the core idea well with excellent visual aids. It fully meets the 'Good' level. (Score compressed toward the center per instructions).",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 75700,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 76809,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74976
+      }
+    ],
+    "thoughtsTokenCount": 901,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78165
+  }
+}

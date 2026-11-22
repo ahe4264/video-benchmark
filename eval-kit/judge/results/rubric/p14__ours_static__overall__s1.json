@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:02.005Z",
+  "seconds": 52,
+  "result": {
+    "evidence": "0:19-1:32: Visual explanation of receptive fields and the need for downsampling.\n1:33-3:06: Encoder and bottleneck explained with an interactive question.\n3:07-5:31: Decoder and skip connections, including a visual of cutting a connection.\n5:32-7:02: Time embedding visualization.\n7:03-8:31: Self-attention explained visually.\n8:32-9:35: The full sampling loop.",
+    "score_reason": "The lesson is clear, correct, and well-made. It breaks down a complex architecture into intuitive steps with highly effective visuals and interactive elements.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 167188,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 168085,
+    "cachedContentTokenCount": 173719,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 166463
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154944
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18432
+      }
+    ],
+    "thoughtsTokenCount": 730,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 175728
+  }
+}

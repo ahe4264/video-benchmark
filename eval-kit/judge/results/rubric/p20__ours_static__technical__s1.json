@@ -1,0 +1,54 @@
+{
+  "topic": "p20",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:22.677Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "I watched the entire lesson specifically looking for technical issues such as layout problems, rendering errors, broken interactions, playback glitches, or audio sync issues. Throughout the video, all text, math formulas, and graphics rendered correctly without any overlaps, cut-offs, or unrendered code. The interactive elements, including multiple-choice questions and draggable sliders, responded as expected when interacted with. The audio narration remained synchronized with the on-screen visual changes from start to finish.",
+    "issues": [],
+    "score_reason": "top level",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 160490,
+    "candidatesTokenCount": 126,
+    "totalTokenCount": 161447,
+    "cachedContentTokenCount": 166493,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 159522
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148488
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17664
+      }
+    ],
+    "thoughtsTokenCount": 831,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 168872
+  }
+}

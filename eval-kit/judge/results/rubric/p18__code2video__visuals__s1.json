@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:41:02.703Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:26-1:08: Visuals build the pinhole camera, showing colored rays from tree points crossing through the hole to form an inverted image.\n1:09-1:54: A dynamic slider changes aperture size, clearly showing the effect on ray spread, image blur, and brightness.\n1:55-2:39: Moving the pinhole dynamically shifts the image, illustrating the geometric relationship.\n2:40-3:23: Compares a wall point with and without a barrier, using ray diagrams and a bar chart to show light contributions.\nVisuals are clean, uncluttered, and use color effectively to track elements.",
+    "score_reason": "The lesson fully meets the top level, as the crisp, consistent, and dynamic visuals carry the explanation, allowing a student to follow the concept almost entirely from the graphics. Score compressed from 7 to 6 per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 63863,
+    "candidatesTokenCount": 211,
+    "totalTokenCount": 65144,
+    "cachedContentTokenCount": 64640,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 767
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64291
+      }
+    ],
+    "thoughtsTokenCount": 1070,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66012
+  }
+}

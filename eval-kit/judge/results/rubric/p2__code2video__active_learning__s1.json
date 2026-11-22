@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:20.573Z",
+  "seconds": 97,
+  "result": {
+    "evidence": "The lesson relies on animations and text. At 4:01, a prompt asks the learner to 'Predict: strip at x = 0.75'. A 5-second countdown timer appears (4:13-4:18) before the solution is automatically revealed. No interactive questions require learner input.",
+    "score_reason": "Meets Level 2 by providing a 'pause and think' prompt with a countdown timer. It lacks genuine checks that require the learner to submit an answer for feedback, preventing a higher score.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 75709,
+    "candidatesTokenCount": 130,
+    "totalTokenCount": 77920,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74976
+      }
+    ],
+    "thoughtsTokenCount": 2081,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78174
+  }
+}

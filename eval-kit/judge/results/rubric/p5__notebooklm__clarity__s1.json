@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:16.985Z",
+  "seconds": 131,
+  "result": {
+    "evidence": "0:00-2:59: Clear introduction, roadmap, and explanation of negative loops and edge relaxation. 3:00-3:30: Graph initialization is shown clearly. 3:31-4:30: The algorithm trace uses a static image with five small panels. The narration jumps to the results of passes 1 and 2 without showing the individual edge relaxations that produced those values. 4:31-5:01: Pass 3 highlights specific nodes, but still relies on the complex static image, skipping the step-by-step math.",
+    "score_reason": "The lesson follows a sensible order and explains the core concepts well. It fully meets Level 4 because the demonstration of the iterative passes contains rushed steps; it shows the results of entire passes rather than building up the edge relaxations step-by-step, requiring a newcomer to pause and think to follow the logic.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 120622,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 123165,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119933
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "thoughtsTokenCount": 2330,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126916
+  }
+}

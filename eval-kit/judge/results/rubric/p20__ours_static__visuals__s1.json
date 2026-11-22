@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:49:14.543Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "At 0:03, parallel and tilted rays illustrate the Moon's angular size. At 0:47, a telescope slides in, visually widening the ray bundle. At 1:00, Lens 1 bends rays to a focal point; at 1:49, Lens 2 is positioned to make them parallel again. At 3:10, a specific ray is highlighted to visually prove the geometric relationship d = f1*δi = f2*δo. At 4:06, interactive dragging dynamically updates the lens focal lengths, ray paths, and calculations. At 4:43, a graph of output versus input tilt synchronizes perfectly with the physical model above it. At 5:55, moving Lens 2 clearly demonstrates rays spreading or converging instead of remaining parallel.",
+    "score_reason": "The visuals carry the explanation. They are crisp, uncluttered, and consistently dynamic, allowing a student to follow the geometric proofs and physical behaviors primarily through the graphics. The score is compressed from the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 160281,
+    "candidatesTokenCount": 238,
+    "totalTokenCount": 162119,
+    "cachedContentTokenCount": 166493,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 159522
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148488
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17664
+      }
+    ],
+    "thoughtsTokenCount": 1600,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 168485
+  }
+}

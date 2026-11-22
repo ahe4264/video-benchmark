@@ -1,0 +1,49 @@
+{
+  "topic": "p5",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:04:04.670Z",
+  "seconds": 64,
+  "result": {
+    "evidence": "0:18-3:30: The algorithm trace is visually dense, simultaneously updating a graph, ledger, and relaxation cards. 3:30: The transition to code implementation is quick. 4:55+: Transfer tasks (drones, theatre) introduce new contexts and rules rapidly. Overall, the automated playback moves quickly through complex, multi-panel screens.",
+    "score_reason": "Meets level 4. The lesson follows a sensible order, but the fast automated pacing and visually dense screens create rushed steps that require a moment's thought to process.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 323034,
+    "candidatesTokenCount": 137,
+    "totalTokenCount": 324460,
+    "cachedContentTokenCount": 328792,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 322344
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 328449
+      }
+    ],
+    "thoughtsTokenCount": 1289,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332057
+  }
+}

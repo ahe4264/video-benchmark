@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:46.008Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "The video uses rhetorical questions (0:13, 2:09). At 6:01, it poses a 'prediction time' question ('If the box moves away on Z, what happens to the image?'), but the narrator immediately answers it at 6:22 without requiring any learner interaction or providing feedback.",
+    "score_reason": "The lesson relies solely on rhetorical questions and a prediction prompt that is immediately answered, lacking any actual interactive checks or feedback for the learner. This matches Level 2.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 123274,
+    "candidatesTokenCount": 126,
+    "totalTokenCount": 124344,
+    "cachedContentTokenCount": 127969,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 122538
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 736
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114056
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13568
+      }
+    ],
+    "thoughtsTokenCount": 944,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 129693
+  }
+}

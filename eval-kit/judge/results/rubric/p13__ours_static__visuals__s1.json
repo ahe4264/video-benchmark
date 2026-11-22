@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:19.497Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:03: Clear diagram of a coaxial cable with labeled parts.\n0:16: Battery connected; charges visually move to core and shield.\n1:14: Voltage increases; visual dynamically updates charge Q, showing C remains constant.\n1:51: Transitions to a simplified two-cylinder model.\n2:26: -Q charge on the shell visually settles on the inner surface.\n2:34: Electric field E shown as arrows from core to shell.\n3:41: Gaussian surface expands; graph dynamically plots the 1/r electric field.\n4:37: Cross-section view; inner core widens, dynamically showing Q and C increasing.\n6:30: Length stretches; visual shows Q and C increasing proportionally with a graph.\n7:24: Graph of C/l vs R2/R1 introduced; points move along the curve as dimensions change (7:55, 8:30).",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation throughout. They dynamically show objects, quantities, and relationships, allowing a student to follow much of the idea from the visuals alone. It meets the top level, but the score is compressed as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 163470,
+    "candidatesTokenCount": 282,
+    "totalTokenCount": 165020,
+    "cachedContentTokenCount": 169802,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162713
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 151447
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18016
+      }
+    ],
+    "thoughtsTokenCount": 1268,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 171834
+  }
+}

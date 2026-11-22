@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:29.372Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:15: Static 3D tetrahedron and 2D base diagram.\n0:50: Static 2D plot with one red strip.\n1:03: Text describes dragging a strip and 3D highlighting; no visuals shown.\n1:20: Static diagram repeats despite text about rotating.\n1:32: Text mentions toggling 3D/2D panels; no graphics present.",
+    "score_reason": "Features some relevant static diagrams but is highly text-heavy. Described dynamic actions (dragging, rotating) are missing, leaving the core integration concept unshown visually. Meets the second level, adjusted to 3 for scale compression.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 51096,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 53073,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50336
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "thoughtsTokenCount": 1817,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53995
+  }
+}

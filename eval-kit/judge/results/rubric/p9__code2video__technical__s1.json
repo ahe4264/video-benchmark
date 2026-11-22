@@ -1,0 +1,61 @@
+{
+  "topic": "p9",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:39.300Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "Watched full lesson. Layout, interaction, and playback generally work well. Found brief text rendering overlaps during rapid updates in the time-lapse section.",
+    "issues": [
+      {
+        "timestamp": "1:31",
+        "description": "Text for particle counts briefly overlaps during update.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "1:44",
+        "description": "Text for particle counts briefly overlaps during update.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "Meets level 6 due to a couple of minor text rendering glitches (brief overlaps), while content remains readable.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 73568,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 76072,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 2339,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 76147
+  }
+}

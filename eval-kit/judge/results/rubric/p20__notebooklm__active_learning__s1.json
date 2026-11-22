@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:51:19.668Z",
+  "seconds": 19,
+  "result": {
+    "evidence": "The lesson includes several rhetorical questions, such as 'How did two lenses change our universe?' (0:17), 'How exactly do we make far away things... look closer...?' (0:27), 'How did his tool actually work?' (1:36), and 'What other mysteries can geometry solve today?' (6:13). There are no interactive questions, quizzes, or tasks that require the learner to actively participate or provide input.",
+    "score_reason": "The lesson fully meets the second level because it only utilizes rhetorical questions and thought prompts, without asking the learner to actively engage in checks or tasks. It does not reach the third level as there are no genuine checks for recall or recognition.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 114027,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 115069,
+    "cachedContentTokenCount": 118333,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 113295
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105448
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12544
+      }
+    ],
+    "thoughtsTokenCount": 876,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 119998
+  }
+}

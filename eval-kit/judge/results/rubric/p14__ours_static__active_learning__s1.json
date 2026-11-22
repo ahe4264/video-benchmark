@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:51.750Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "0:28: Question asks to predict if 9 pixels can identify noise. 1:07: Calculation question on layers needed. 2:27: Calculation question comparing map sizes. 3:20: Reasoning question on decoder positions. 4:15: Prediction question on 8x8 map contents. 4:57: Prediction question on cutting a skip connection. 5:46: Reasoning question on noise at t=20. 6:23: Hands-on slider exploration. 7:38: Hands-on probe exploration. 7:58: Reasoning question on self-attention resolution. 8:47: Prediction question on image settling. Feedback consistently explains the reasoning.",
+    "score_reason": "The lesson fully meets the top level by requiring the learner to predict, apply, and explore at key steps, with feedback explaining the reasoning for their specific answer. Score compressed per instructions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 167197,
+    "candidatesTokenCount": 216,
+    "totalTokenCount": 168664,
+    "cachedContentTokenCount": 173719,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 166463
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154944
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18432
+      }
+    ],
+    "thoughtsTokenCount": 1251,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 175737
+  }
+}

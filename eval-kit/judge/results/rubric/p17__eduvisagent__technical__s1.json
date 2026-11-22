@@ -1,0 +1,50 @@
+{
+  "topic": "p17",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:32:11.781Z",
+  "seconds": 66,
+  "result": {
+    "evidence": "Observed the full lesson. All interactive components (sliders, text inputs, buttons, checkboxes) function correctly upon interaction by the automated player. Mathematical formatting and tables render properly without displaying raw markup or code. No layout issues such as overlapping or truncated text were found throughout the video.",
+    "issues": [],
+    "score_reason": "The lesson exhibits no visible technical problems, with all elements rendering and responding as intended, meeting the criteria for the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 327542,
+    "candidatesTokenCount": 111,
+    "totalTokenCount": 329645,
+    "cachedContentTokenCount": 333100,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 326568
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 974
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332753
+      }
+    ],
+    "thoughtsTokenCount": 1992,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336855
+  }
+}

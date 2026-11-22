@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:40.705Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:35: The lesson begins by clearly defining machine learning as adjusting parameters like slope and intercept.\n1:09: The 'loss function' is introduced as a measure of mistakes before being used.\n1:42: The 2D loss surface is broken down step-by-step, with the narrator explaining the axes and color coding.\n2:18: A clear, step-by-step visual demonstrates how adjusting the line's slope and intercept moves a marker on the loss surface.\n2:57: Local minima are introduced, explaining why standard gradient descent gets stuck.\n4:14: Stochastic Gradient Descent (SGD) and mini-batches are introduced to solve the local minima problem.\n4:51: A strong visual metaphor (an earthquake) explains how the noise in SGD helps escape traps.",
+    "score_reason": "The lesson is exceptionally logical and builds step-by-step. Every concept is motivated by the previous one, terms are defined before use, and the visual metaphors perfectly support the narration, allowing a newcomer to easily reconstruct the argument. It meets the criteria for the highest level, but the score is compressed slightly below the maximum per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 119757,
+    "candidatesTokenCount": 266,
+    "totalTokenCount": 121104,
+    "cachedContentTokenCount": 124359,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119063
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 110828
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13184
+      }
+    ],
+    "thoughtsTokenCount": 1081,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126001
+  }
+}

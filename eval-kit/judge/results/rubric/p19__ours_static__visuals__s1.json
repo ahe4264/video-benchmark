@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:36.452Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "0:03: 3D staircase, wall, lamp, and 2D shadow plane introduced cleanly.\n0:28: Dynamic sliding shows shadow size changing with distance.\n0:40: Sun replaces lamp, rays become parallel, shadow size changes.\n1:28: Coordinate system and projection plane built step-by-step.\n2:07: Single ray traced, coordinates updated dynamically to show only Z changes.\n3:57: Staircase rotates, projection updates dynamically showing width change but constant height.\n5:45: Pinhole moves back, rays straighten, plot flattens, visually explaining perspective approaching orthographic.\n6:51: Two posts show depth independence in parallel projection.\n9:11: Two staircases overlap perfectly in orthographic projection.",
+    "score_reason": "The visuals carry the explanation, are crisp, consistent, and dynamically show all key concepts and relationships. It fully meets the top level, but the score is compressed away from the extreme.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 165499,
+    "candidatesTokenCount": 232,
+    "totalTokenCount": 167057,
+    "cachedContentTokenCount": 171915,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164736
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 763
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153330
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18240
+      }
+    ],
+    "thoughtsTokenCount": 1326,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173962
+  }
+}

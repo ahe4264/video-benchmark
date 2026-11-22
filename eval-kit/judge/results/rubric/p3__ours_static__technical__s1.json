@@ -1,0 +1,38 @@
+{
+  "topic": "p3",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:08.264Z",
+  "seconds": 55,
+  "result": {
+    "evidence": "Watched the full lesson. All text, math formulas, and graphics render correctly throughout. Animations and audio are synchronized. Interactive elements respond as expected.",
+    "issues": [],
+    "score_reason": "Meets the top level description because there are no visible technical problems.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 149514,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 150315,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148546
+      }
+    ],
+    "thoughtsTokenCount": 728,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 157365
+  }
+}

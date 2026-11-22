@@ -1,0 +1,53 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:14:16.873Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "0:00-0:45: The video introduces meta-topics like 'Learning objective' and 'Related Work' rather than teaching the math.\n0:46-1:33: The proof is briefly outlined on static slides, but framed as a 'Method' for a study.\n1:34-3:13: The presentation covers 'Experimental Method', 'Ablation', and 'Future Research', which are entirely irrelevant to a student learning calculus.",
+    "score_reason": "The video is a research presentation about lesson design, not an actual educational lesson. It is mostly off-topic and fails to teach the mathematical concept to a newcomer, fully meeting the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59800,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 61810,
+    "cachedContentTokenCount": 59015,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 52171
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6496
+      }
+    ],
+    "thoughtsTokenCount": 1846,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63118
+  }
+}

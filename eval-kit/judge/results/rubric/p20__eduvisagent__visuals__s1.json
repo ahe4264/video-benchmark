@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:55:43.228Z",
+  "seconds": 54,
+  "result": {
+    "evidence": "0:18: An interactive diagram displays lenses, rays, focal points, and angles, which update dynamically as sliders are adjusted. 0:52: A graph illustrates the linear relationship between input and output angles. 2:01: The visual derivation highlights specific triangles and line segments in the diagram that correspond to the mathematical steps being presented. 10:03: A new, clean abstract diagram of a bicycle chain is introduced for a transfer task. Consistent color coding (red, green, blue) links text, formulas, and geometric features throughout.",
+    "score_reason": "The lesson fully meets level 6. The visuals are clear, well-made, and change dynamically to show key objects and relationships as the explanation proceeds, with no significant weaknesses. To reach the top level, the visuals would need to carry the explanation even more independently, as some later sections (like the summary) rely heavily on text.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 304095,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 306303,
+    "cachedContentTokenCount": 309422,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 303336
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 309081
+      }
+    ],
+    "thoughtsTokenCount": 2000,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 312614
+  }
+}

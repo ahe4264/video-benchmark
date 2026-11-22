@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:51.682Z",
+  "seconds": 62,
+  "result": {
+    "evidence": "The lesson uses clear text and animations to derive the capacitance of a cylindrical capacitor (1:35-2:34). It includes excellent visual demonstrations of how changing the inner radius (3:10) and length (4:01) affects capacitance, connecting the formula to physical intuition. The lack of audio narration requires constant reading, which is a minor weakness.",
+    "score_reason": "The lesson fully meets the 'Good' level. It teaches the core idea very well with strong visual demonstrations, but the entirely text-based delivery without audio is a noticeable weakness that keeps it from the 'Strong' level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 87841,
+    "candidatesTokenCount": 145,
+    "totalTokenCount": 89104,
+    "cachedContentTokenCount": 89109,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 721
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 87120
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 88770
+      }
+    ],
+    "thoughtsTokenCount": 1118,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 90627
+  }
+}

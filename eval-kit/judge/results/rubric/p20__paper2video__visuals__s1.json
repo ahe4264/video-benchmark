@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:49:07.519Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:21, 1:03, 1:13, and 2:53 feature static diagrams of lenses and rays. 0:44, 1:35, 1:58, 2:16, 3:11, and 3:28 are entirely text bullet points. The presentation relies heavily on text throughout.",
+    "score_reason": "Meets Level 3. The visuals cleanly depict the main objects (lenses, rays) but are entirely static and serve to illustrate the text-heavy slides. It does not meet Level 4 because the visuals do not change or animate to explain steps.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 71460,
+    "candidatesTokenCount": 157,
+    "totalTokenCount": 73100,
+    "cachedContentTokenCount": 70568,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 70701
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 62451
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7776
+      }
+    ],
+    "thoughtsTokenCount": 1483,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75338
+  }
+}

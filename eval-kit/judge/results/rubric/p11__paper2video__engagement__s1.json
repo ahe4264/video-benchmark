@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:09.841Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00-0:15: Opens with a dry title slide and monotone narration. 0:16-1:58: Presents a meta-analysis of a lesson plan ('Scene 1 - Hook') rather than teaching the concept. 1:59-3:04: Concludes with research methodology ('Ablation', 'Future Research'), reading directly from text-heavy slides.",
+    "score_reason": "The video is a presentation about lesson design, not an actual lesson. It is dull, reads directly from slides, and lacks engaging elements for a student. It meets the lowest level, but the score is adjusted per instructions.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 55346,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 56628,
+    "cachedContentTokenCount": 54678,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54694
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 48316
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6016
+      }
+    ],
+    "thoughtsTokenCount": 1127,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 58454
+  }
+}

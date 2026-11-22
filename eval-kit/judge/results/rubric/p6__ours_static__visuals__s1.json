@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:07.912Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "The lesson uses clear, dynamic visuals throughout. It starts with a water column to show pressure (0:03), then a flat plate with uniform pressure arrows (0:25). Tilting the plate (1:00) visually demonstrates varying pressure with depth. The plate is then divided into strips (2:40), and a single strip is magnified to show the rectangular approximation (3:42). The number of strips is increased (5:57), visually demonstrating a Riemann sum converging, which then transitions into a continuous integral curve (6:50). Interactive elements, like lowering the plate (8:40), dynamically update the graphs and values.",
+    "score_reason": "The lesson fully meets the top level. The visuals carry the explanation; a student could follow the progression from basic pressure to a Riemann sum and finally an integral almost entirely through the graphics, which are crisp, uncluttered, and consistently tied to the mathematical concepts.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 170401,
+    "candidatesTokenCount": 214,
+    "totalTokenCount": 171678,
+    "cachedContentTokenCount": 177029,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 169641
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 157903
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18784
+      }
+    ],
+    "thoughtsTokenCount": 1063,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 179095
+  }
+}

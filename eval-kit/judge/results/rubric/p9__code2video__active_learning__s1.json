@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:42.999Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "1:52: Hands-on exploration using a slider to change foil thickness and observe effects. 2:44: Recall quiz to identify apparatus parts, providing right/wrong checkmark feedback. 4:15: Multiple-choice prediction question asking the outcome of doubling foil thickness.",
+    "score_reason": "The lesson meets Level 4 by including recall checks and a prediction question, alongside hands-on exploration. It falls short of Level 5 because the feedback is limited to right/wrong indicators rather than addressing the specific answer chosen.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 73332,
+    "candidatesTokenCount": 130,
+    "totalTokenCount": 75347,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1885,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75733
+  }
+}

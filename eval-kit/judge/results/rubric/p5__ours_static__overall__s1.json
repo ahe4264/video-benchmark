@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:05.101Z",
+  "seconds": 91,
+  "result": {
+    "evidence": "The lesson provides a clear, step-by-step walkthrough of the Bellman-Ford algorithm (0:00-9:09). Interactive questions effectively check understanding of edge relaxation (0:44, 2:45) and negative cycles (8:19). Visuals clearly show updates to distance estimates and the formation of the shortest path tree. It explains the intuition behind V-1 passes (6:22) and includes a Python code snippet (4:05).",
+    "score_reason": "The lesson is clear, correct, and highly engaging with excellent visual aids and interactive elements. It thoroughly explains the algorithm and edge cases. It fully meets the criteria for an exceptional lesson, but the score is compressed from the top level per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159663,
+    "candidatesTokenCount": 177,
+    "totalTokenCount": 160579,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158939
+      }
+    ],
+    "thoughtsTokenCount": 739,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167840
+  }
+}

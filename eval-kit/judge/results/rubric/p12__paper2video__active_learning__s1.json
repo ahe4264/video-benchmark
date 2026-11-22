@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:06.019Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "Throughout the entire video (0:00-3:37), the narrator presents slides without asking any questions, providing prompts to pause and think, or offering any interactive elements for the viewer.",
+    "score_reason": "The lesson is entirely passive, asking nothing of the learner, which corresponds to the lowest level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 64159,
+    "candidatesTokenCount": 83,
+    "totalTokenCount": 64977,
+    "cachedContentTokenCount": 63341,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63429
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56026
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6976
+      }
+    ],
+    "thoughtsTokenCount": 735,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 67687
+  }
+}

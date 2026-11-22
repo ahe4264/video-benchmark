@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:54.620Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "0:41-1:04: Visual definition of intercept and slope is clear. 1:05-1:47: Step-by-step visual construction of the least-squares loss formula. 1:48-2:15: Excellent transition from a 3D loss bowl to a 2D contour map. 2:16-4:03: The dual view perfectly links changes in the data space to movements in the parameter space, especially during single-parameter sweeps. The silent, text-and-animation format is highly effective.",
+    "score_reason": "The lesson is strong, clear, and well-made, building intuition excellently through synchronized visuals and text. It fully meets the 'Strong' level, with only minor potential for explicit narration keeping it from the absolute top score.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74385,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 75653,
+    "cachedContentTokenCount": 75398,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73656
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75051
+      }
+    ],
+    "thoughtsTokenCount": 1078,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 76814
+  }
+}

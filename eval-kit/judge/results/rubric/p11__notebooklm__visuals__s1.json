@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:08.103Z",
+  "seconds": 53,
+  "result": {
+    "evidence": "0:58: Graph illustrates activation energy. 1:22: Step-by-step visual of a catalytic converter. 3:00: Visual of rigid active site for lock-and-key. 3:56: Visual of flexible active site for induced fit. 4:33: Lock vs. glove analogy. 5:06: Animation demonstrating specificity. 2:01, 2:23: Some slides rely heavily on text for definitions.",
+    "score_reason": "Meets Level 5. Visuals are clear, depict key concepts, and change with the explanation. Kept from Level 6 by the inclusion of some text-heavy definition slides and decorative elements.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 121563,
+    "candidatesTokenCount": 168,
+    "totalTokenCount": 122753,
+    "cachedContentTokenCount": 126164,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120799
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 112442
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13376
+      }
+    ],
+    "thoughtsTokenCount": 1022,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127891
+  }
+}

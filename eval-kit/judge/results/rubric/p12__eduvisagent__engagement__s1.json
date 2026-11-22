@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:21:13.248Z",
+  "seconds": 378,
+  "result": {
+    "evidence": "0:05: The lesson opens with a hook question about grandfather clocks. 0:36: An interactive 'Pause & Predict' question engages the viewer. 1:07-2:37: A repetitive sequence involves clicking through individual angles to observe force components. 5:51-9:42: A nearly four-minute, highly repetitive stretch consists of filling out a large grid. The lesson is entirely silent.",
+    "score_reason": "The lesson has an opening that states the topic and provides some pull with a question. However, attention only holds in parts due to several long, flat, and repetitive stretches, particularly the extensive form-filling sections.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 348597,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 350879,
+    "cachedContentTokenCount": 354881,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347952
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354542
+      }
+    ],
+    "thoughtsTokenCount": 2122,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 358299
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:11:11.011Z",
+  "seconds": 291,
+  "result": {
+    "evidence": "0:44 poses a question about settling 't' early, creating a stake. 1:03 provides insight that a longer route is cheaper due to negative weights. 3:10 skips repetitive edge checks to maintain pace. 5:07 shows a vertex dropping twice in one pass. 6:06 visually summarizes the path building. 6:55 uses a line chart to show convergence (insight). 8:33 demonstrates a negative cycle (insight).",
+    "score_reason": "The lesson opens with a clear question that motivates the algorithm. It maintains a good pace, uses varied visuals (graphs, code, charts), and provides multiple moments of insight while avoiding repetition. It fully meets Level 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159587,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 161522,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158939
+      }
+    ],
+    "thoughtsTokenCount": 1764,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167764
+  }
+}

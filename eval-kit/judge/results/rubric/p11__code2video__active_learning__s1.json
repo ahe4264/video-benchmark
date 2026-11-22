@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:13.652Z",
+  "seconds": 86,
+  "result": {
+    "evidence": "A rhetorical question appears at 0:01 ('But what lets only the right substrate bind?'). The lesson demonstrates interactive elements like toggles (1:23) and sliders (2:14) but does not prompt the learner to answer questions, make predictions, or complete tasks.",
+    "score_reason": "The lesson fully meets Level 2 by including a rhetorical question, but it does not reach Level 3 because there are no genuine checks for understanding or active learner prompts.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 50897,
+    "candidatesTokenCount": 118,
+    "totalTokenCount": 52892,
+    "cachedContentTokenCount": 51456,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50160
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51110
+      }
+    ],
+    "thoughtsTokenCount": 1877,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 52703
+  }
+}

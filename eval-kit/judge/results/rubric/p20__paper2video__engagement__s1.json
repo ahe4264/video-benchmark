@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:55.165Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:00: Opens with title slides about lesson design rather than the topic.\n0:21: Mentions a hook question but immediately shifts to discussing pedagogical goals.\n0:44-3:48: The entire video consists of static, text-heavy slides detailing the methodology, experimental setup, and results of a lesson design, rather than teaching the concept to a student.",
+    "score_reason": "The video is a meta-presentation about a lesson rather than an actual lesson. It has a flat opening and consists entirely of static slides, making it dull throughout. It meets the criteria for the lowest level, with the score adjusted slightly toward the center.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 71348,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 72504,
+    "cachedContentTokenCount": 70568,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 70701
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 62451
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7776
+      }
+    ],
+    "thoughtsTokenCount": 1000,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75226
+  }
+}

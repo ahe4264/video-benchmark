@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:41.163Z",
+  "seconds": 56,
+  "result": {
+    "evidence": "1:52: A complex diagram displays force vectors and trigonometric labels before they are explained in the narration. 2:34: The pendulum setup is broken down step-by-step. 4:33: The period equation is presented without derivation, jumping directly from the small angle approximation.",
+    "score_reason": "The lesson follows a sensible order, but the early presentation of an unexplained diagram and the jump to the final equation are small gaps that require a moment's thought. It fully meets Level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 177276,
+    "candidatesTokenCount": 126,
+    "totalTokenCount": 178923,
+    "cachedContentTokenCount": 184250,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 176590
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 164359
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 19552
+      }
+    ],
+    "thoughtsTokenCount": 1521,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 186313
+  }
+}

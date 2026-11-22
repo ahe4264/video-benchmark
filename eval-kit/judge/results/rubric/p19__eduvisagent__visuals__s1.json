@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:54:57.872Z",
+  "seconds": 53,
+  "result": {
+    "evidence": "The lesson relies heavily on clear, interactive visuals to explain the concepts. At 0:28, an interactive ray diagram shows the difference between converging and parallel rays. At 1:07, a dynamic top-down diagram and bar chart illustrate apparent width changes. At 2:38, a color-coded 3D block is introduced alongside a coordinate table. At 3:58, a comprehensive interactive tool allows manipulation of a 3D object and its 2D projection, with sliders for rotation and convergence. Later sections (7:34, 11:43) use similar clear diagrams for transfer tasks. The layout is consistently clean, and text is legible.",
+    "score_reason": "The visuals carry the explanation, are crisp and consistent throughout, and dynamically show the key relationships, fully meeting the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 341059,
+    "candidatesTokenCount": 193,
+    "totalTokenCount": 342026,
+    "cachedContentTokenCount": 347086,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 340296
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 763
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346741
+      }
+    ],
+    "thoughtsTokenCount": 774,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350558
+  }
+}

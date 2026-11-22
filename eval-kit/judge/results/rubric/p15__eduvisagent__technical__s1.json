@@ -1,0 +1,61 @@
+{
+  "topic": "p15",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:24:16.879Z",
+  "seconds": 117,
+  "result": {
+    "evidence": "The lesson plays smoothly overall. However, there are a few instances of unrendered LaTeX. At 00:01, the title displays `\\(L(\\G)\\)`. At 00:16, the Legend panel shows raw LaTeX such as `Unsigned B \\in \\{0, 1\\}^{4 \\times 5}` and `e_1=AB, e_2=AC, e_3=AD, e_4=BC, e_5=CD` instead of formatted math. These are minor rendering issues that do not block the learner from understanding the content.",
+    "issues": [
+      {
+        "timestamp": "00:01",
+        "description": "The title contains unrendered LaTeX `\\(L(\\G)\\)`.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "00:16",
+        "description": "The Legend panel contains unrendered LaTeX strings like `Unsigned B \\in \\{0, 1\\}^{4 \\times 5}` and `e_1=AB...`.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has several minor rendering glitches (unrendered LaTeX), but the content stays readable and usable. It fully meets the description for level 5.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 357369,
+    "candidatesTokenCount": 308,
+    "totalTokenCount": 366017,
+    "cachedContentTokenCount": 363492,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 356400
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 363150
+      }
+    ],
+    "thoughtsTokenCount": 8340,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 367473
+  }
+}

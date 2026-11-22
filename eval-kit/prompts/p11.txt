@@ -1,0 +1,294 @@
+Produce a narrated lesson on this figure compares two competing models of enzyme–
+substrate binding through four sequential diagrams arranged in two panels: panel (a) for
+the lock-and-key model and panel (b) for the induced fit model.
+Source: OpenStax Chemistry 2e, chapter 12 (figure `CNX_Chem_12_07_Enzyme`, chemistry/2d)
+Target length: 5 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand this figure compares two competing models of
+enzyme–substrate binding through four sequential diagrams arranged in two panels: panel
+(a) for the lock-and-key model and panel (b) for the induced fit model.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure compares two competing models of enzyme–substrate binding through four
+sequential diagrams arranged in two panels: panel (a) for the lock-and-key model and
+panel (b) for the induced fit model. In panel (a), the left diagram shows a green enzyme
+with a rigid, pre-formed active site cavity labeled 'Active site is proper shape,' with
+two complementary-shaped purple substrate molecules (labeled 'Substrates') positioned
+above it ready to fit precisely into the cleft; the right diagram shows the resulting
+'Substrate complex formed' with the substrates seated snugly in the geometrically
+unchanged active site. In panel (b), the left diagram shows the enzyme with a more open
+and flexible active site labeled 'Active site changes to fit,' indicating a
+conformational adjustment upon substrate approach; the right diagram shows the
+'Substrate complex formed' after the enzyme has reshaped itself to wrap tightly around
+the substrate. Both models account for substrate specificity — only a structurally
+compatible molecule can bind the active site — but differ in whether that specificity
+arises from a rigid pre-formed pocket or from an adaptive conformational change induced
+by substrate binding. This figure introduces enzyme active-site specificity at the
+molecular level and sets up the comparison of lock-and-key versus induced-fit mechanisms
+as competing explanations for how enzymes selectively bind and catalyze reactions with
+particular substrates.
+3. Demonstration — Toggle between the lock-and-key model (left pair) and the induced-fit
+model (right pair): observe the rigid versus flexible active site as the substrate
+approaches and binds
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Demonstration — Animate substrate binding: show the substrate docking into the active
+site for each model, highlighting the conformational change in the induced-fit case but
+not in the lock-and-key case
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+5. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: Enzyme molecules possess an active site, a part of the molecule with a
+shape that allows it to bond to a specific substrate (a reactant molecule), forming an
+enzyme-substrate complex as a reaction intermediate. There are two models that attempt
+to explain how this active site works. The most simplistic model is referred to as the
+lock-and-key hypothesis, which suggests that the molecular shapes of the active site and
+substrate are complementary, fitting together like a key in a lock. The induced fit
+hypothesis, on the other hand, suggests that the enzyme molecule is flexible and changes
+shape to accommodate a bond with the substrate. This is not to suggest that an enzyme’s
+active site is completely malleable, however. Both the lock-and-key model and the
+induced fit model account for the fact that enzymes can only bind with specific
+substrates, since in general a particular enzyme only catalyzes a particular reaction (
+).
+(a) According to the lock-and-key model, the shape of an enzyme’s active site is a
+perfect fit for the substrate. (b) According to the induced fit model, the active site
+is somewhat flexible, and can change shape in order to bond with the substrate.
+A diagram is shown of two possible interactions of an enzyme and a substrate. In a,
+which is labeled “Lock-and-key,” two diagrams are shown. The first shows a green wedge-
+like shape with two small depressions in the upper surface of similar size, but the
+depression on the left has a curved shape, and the depression on the right has a pointed
+shape. This green shape is labeled “Enzyme.” Just above this shape are two smaller,
+irregular, lavender shapes each with a projection from its lower surface. The lavender
+shape on the left has a curved projection which matches the shape of the depression on
+the left in the green shape below. This projection is shaded orange and has a curved
+arrow extending from in to the matching depression in the green shape below. Similarly,
+the lavender shape on the right has a projection with a pointed tip which matches the
+shape of the depression on the right in the green shape below. This projection is shaded
+orange and has a curved arrow extending from in to the matching depression in the green
+shape below. Two line segments extend from the depressions in the green shape to form an
+inverted V shape above the depressions. Above this and between the lavender shapes is
+the label, “Active site is proper shape.” The label “Substrates” is at the very top of
+the diagram with line segments extending to the two lavender shapes. To the right of
+this diagram is a second diagram showing the lavender shapes positioned next to each
+other, fit snugly into the depressions in the green shape, which is labeled “Enzyme.”
+Above this diagram is the label, “Substrate complex formed.” In b, which is labeled
+“Induced fit,” two diagrams are shown. The first shows a green wedge-like shape with two
+small depressions in the upper surface of similar size, but irregular shape. This green
+shape is labeled “Enzyme.” Just above this shape are two smaller irregular lavender
+shapes each with a projection from its lower surface. The lavender shape on the left has
+a curved projection. This projection is shaded orange and has a curved arrow extending
+from it to the irregular depression just below it in the green shape below. Similarly,
+the lavender shape on the right has a projection with a pointed tip. This projection is
+shaded orange and has a curved arrow extending from it to the irregular depression just
+below it in the green shape below. Two line segments extend from the depressions in the
+green shape to form an inverted V shape above the depressions. Above this and between
+the lavender shapes is the label, “Active site changes to fit.” The label, “Substrates”
+is at the very top of the diagram with line segments extending to the two lavender
+shapes. To the right of this diagram is a second diagram showing the purple shapes
+positioned next to each other, fit snugly into the depressions in the green shape, which
+is labeled “Enzyme.” Above this diagram is the label “Substrate complex formed.” The
+projections from the lavender shapes match the depression shapes in the green shape,
+resulting in a proper fit.
+CONSTRAINTS
+- Render in 2D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.
+=== SOURCE TEXTBOOK PAGE ===
+[Retrieved from https://openstax.org/books/chemistry-2e/pages/12-7-catalysis]
+## 12.7 Catalysis
+### Learning Objectives
+By the end of this section, you will be able to:
+- Explain the function of a catalyst in terms of reaction mechanisms and potential
+energy diagrams
+- List examples of catalysis in natural and industrial processes
+Among the factors affecting chemical reaction rates discussed earlier in this chapter
+was the presence of a catalyst , a substance that can increase the reaction rate without
+being consumed in the reaction. The concepts introduced in the previous section on
+reaction mechanisms provide the basis for understanding how catalysts are able to
+accomplish this very important function.
+Figure 12.19 shows reaction diagrams for a chemical process in the absence and presence
+of a catalyst. Inspection of the diagrams reveals several traits of these reactions.
+Consistent with the fact that the two diagrams represent the same overall reaction, both
+curves begin and end at the same energies (in this case, because products are more
+energetic than reactants, the reaction is endothermic). The reaction mechanisms,
+however, are clearly different. The uncatalyzed reaction proceeds via a one-step
+mechanism (one transition state observed), whereas the catalyzed reaction follows a two-
+step mechanism (two transition states observed) with a notably lesser activation energy
+. This difference illustrates the means by which a catalyst functions to accelerate
+reactions, namely, by providing an alternative reaction mechanism with a lower
+activation energy. Although the catalyzed reaction mechanism for a reaction needn’t
+necessarily involve a different number of steps than the uncatalyzed mechanism, it must
+provide a reaction path whose rate determining step is faster (lower E a ).
+[Figure caption] Figure 12.19 Reaction diagrams for an endothermic process in the
+absence (red curve) and presence (blue curve) of a catalyst. The catalyzed pathway
+involves a two-step mechanism (note the presence of two transition states) and an
+intermediate species (represented by the valley between the two transitions states).
+### Example 12.15
+#### Reaction Diagrams for Catalyzed Reactions
+#### Solution
+The catalyzed reaction is the one with lesser activation energy, in this case
+represented by diagram b.
+#### Check Your Learning
+### Answer:
+For the first step, E a = 80 kJ for (a) and 70 kJ for (b), so diagram (b) depicts the
+catalyzed reaction. Activation energies for the second steps of both mechanisms are the
+same, 20 kJ.
+### Homogeneous Catalysts
+A homogeneous catalyst is present in the same phase as the reactants. It interacts with
+a reactant to form an intermediate substance, which then decomposes or reacts with
+another reactant in one or more steps to regenerate the original catalyst and form
+product.
+As an important illustration of homogeneous catalysis, consider the earth’s ozone layer.
+Ozone in the upper atmosphere, which protects the earth from ultraviolet radiation, is
+formed when oxygen molecules absorb ultraviolet light and undergo the reaction:
+Ozone is a relatively unstable molecule that decomposes to yield diatomic oxygen by the
+reverse of this equation. This decomposition reaction is consistent with the following
+two-step mechanism:
+A number of substances can catalyze the decomposition of ozone. For example, the nitric
+oxide–catalyzed decomposition of ozone is believed to occur via the following three-step
+mechanism:
+As required, the overall reaction is the same for both the two-step uncatalyzed
+mechanism and the three-step NO-catalyzed mechanism:
+Notice that NO is a reactant in the first step of the mechanism and a product in the
+last step. This is another characteristic trait of a catalyst: Though it participates in
+the chemical reaction, it is not consumed by the reaction.
+### Portrait of a Chemist
+#### Mario J. Molina
+The 1995 Nobel Prize in Chemistry was shared by Paul J. Crutzen, Mario J. Molina (
+Figure 12.20 ), and F. Sherwood Rowland “for their work in atmospheric chemistry,
+particularly concerning the formation and decomposition of ozone.” 1 Molina, a Mexican
+citizen, carried out the majority of his work at the Massachusetts Institute of
+Technology (MIT).
+[Figure caption] Figure 12.20 (a) Mexican chemist Mario Molina (1943 – 2020) shared the
+Nobel Prize in Chemistry in 1995 for his research on (b) the Antarctic ozone hole.
+(credit a: courtesy of Mario Molina; credit b: modification of work by NASA)
+In 1974, Molina and Rowland published a paper in the journal Nature detailing the threat
+of chlorofluorocarbon gases to the stability of the ozone layer in earth’s upper
+atmosphere. The ozone layer protects earth from solar radiation by absorbing ultraviolet
+light. As chemical reactions deplete the amount of ozone in the upper atmosphere, a
+measurable “hole” forms above Antarctica, and an increase in the amount of solar
+ultraviolet radiation— strongly linked to the prevalence of skin cancers—reaches earth’s
+surface. The work of Molina and Rowland was instrumental in the adoption of the Montreal
+Protocol, an international treaty signed in 1987 that successfully began phasing out
+production of chemicals linked to ozone destruction.
+Molina and Rowland demonstrated that chlorine atoms from human-made chemicals can
+catalyze ozone destruction in a process similar to that by which NO accelerates the
+depletion of ozone. Chlorine atoms are generated when chlorocarbons or
+chlorofluorocarbons—once widely used as refrigerants and propellants—are photochemically
+decomposed by ultraviolet light or react with hydroxyl radicals. A sample mechanism is
+shown here using methyl chloride:
+Chlorine radicals break down ozone and are regenerated by the following catalytic cycle:
+A single monatomic chlorine can break down thousands of ozone molecules. Luckily, the
+majority of atmospheric chlorine exists as the catalytically inactive forms Cl 2 and
+ClONO 2 .
+After receiving his portion of the Nobel Prize, Molina continued his work in atmospheric
+chemistry at MIT.
+### How Sciences Interconnect
+#### Glucose-6-Phosphate Dehydrogenase Deficiency
+Enzymes in the human body act as catalysts for important chemical reactions in cellular
+metabolism. As such, a deficiency of a particular enzyme can translate to a life-
+threatening disease. G6PD (glucose-6-phosphate dehydrogenase) deficiency, a genetic
+condition that results in a shortage of the enzyme glucose-6-phosphate dehydrogenase, is
+the most common enzyme deficiency in humans. This enzyme, shown in Figure 12.21 , is the
+rate-limiting enzyme for the metabolic pathway that supplies NADPH to cells ( Figure
+12.22 ).
+[Figure caption] Figure 12.21 Glucose-6-phosphate dehydrogenase is a rate-limiting
+enzyme for the metabolic pathway that supplies NADPH to cells.
+A disruption in this pathway can lead to reduced glutathione in red blood cells; once
+all glutathione is consumed, enzymes and other proteins such as hemoglobin are
+susceptible to damage. For example, hemoglobin can be metabolized to bilirubin, which
+leads to jaundice, a condition that can become severe. People who suffer from G6PD
+deficiency must avoid certain foods and medicines containing chemicals that can trigger
+damage their glutathione-deficient red blood cells.
+[Figure caption] Figure 12.22 In the mechanism for the pentose phosphate pathway, G6PD
+catalyzes the reaction that regulates NADPH, a co-enzyme that regulates glutathione, an
+antioxidant that protects red blood cells and other cells from oxidative damage.
+### Heterogeneous Catalysts
+A heterogeneous catalyst is a catalyst that is present in a different phase (usually a
+solid) than the reactants. Such catalysts generally function by furnishing an active
+surface upon which a reaction can occur. Gas and liquid phase reactions catalyzed by
+heterogeneous catalysts occur on the surface of the catalyst rather than within the gas
+or liquid phase.
+Heterogeneous catalysis typically involves the following processes:
+- Adsorption of the reactant(s) onto the surface of the catalyst
+- Activation of the adsorbed reactant(s)
+- Reaction of the adsorbed reactant(s)
+- Desorption of product(s) from the surface of the catalyst
+Figure 12.23 illustrates the steps of a mechanism for the reaction of compounds
+containing a carbon–carbon double bond with hydrogen on a nickel catalyst. Nickel is the
+catalyst used in the hydrogenation of polyunsaturated fats and oils (which contain
+several carbon–carbon double bonds) to produce saturated fats and oils (which contain
+only carbon–carbon single bonds).
+[Figure caption] Figure 12.23 Mechanism for the Ni-catalyzed reaction C 2 H 4 + H 2 ⟶ C
+2 H 6 . C 2 H 4 + H 2 ⟶ C 2 H 6 . (a) Hydrogen is adsorbed on the surface, breaking the
+H–H bonds and forming Ni–H bonds. (b) Ethylene is adsorbed on the surface, breaking the
+C–C π-bond and forming Ni–C bonds. (c) Atoms diffuse across the surface and form new C–H
+bonds when they collide. (d) C 2 H 6 molecules desorb from the Ni surface.
+Many important chemical products are prepared via industrial processes that use
+heterogeneous catalysts, including ammonia, nitric acid, sulfuric acid, and methanol.
+Heterogeneous catalysts are also used in the catalytic converters found on most
+gasoline-powered automobiles ( Figure 12.24 ).
+### Chemistry in Everyday Life
+#### Automobile Catalytic Converters
+Scientists developed catalytic converters to reduce the amount of toxic emissions
+produced by burning gasoline in internal combustion engines. By utilizing a carefully
+selected blend of catalytically active metals, it is possible to effect complete
+combustion of all carbon-containing compounds to carbon dioxide while also reducing the
+output of nitrogen oxides. This is particularly impressive when we consider that one
+step involves adding more oxygen to the molecule and the other involves removing the
+oxygen ( Figure 12.24 ).
+[Figure caption] Figure 12.24 A catalytic converter allows for the combustion of all
+carbon-containing compounds to carbon dioxide, while at the same time reducing the
+output of nitrogen oxide and other pollutants in emissions from gasoline-burning
+engines.
+Most modern, three-way catalytic converters possess a surface impregnated with a
+platinum-rhodium catalyst, which catalyzes the conversion of nitric oxide into
+dinitrogen and oxygen as well as the conversion of carbon monoxide and hydrocarbons such
+as octane into carbon dioxide and water vapor:
+In order to be as efficient as possible, most catalytic converters are preheated by an
+electric heater. This ensures that the metals in the catalyst are fully active even
+before the automobile exhaust is hot enough to maintain appropriate reaction
+temperatures.
+### Link to Learning
+The University of California at Davis’ “ChemWiki” provides a thorough explanation of how
+catalytic converters work.
+#### Enzyme Structure and Function
+The study of enzymes is an important interconnection between biology and chemistry.
+Enzymes are usually proteins (polypeptides) that help to control the rate of chemical
+reactions between biologically important compounds, particularly those that are involved
+in cellular metabolism. Different classes of enzymes perform a variety of functions, as
+shown in Table 12.3 .
+Enzyme molecules possess an active site, a part of the molecule with a shape that allows
+it to bond to a specific substrate (a reactant molecule), forming an enzyme-substrate
+complex as a reaction intermediate. There are two models that attempt to explain how
+this active site works. The most simplistic model is referred to as the lock-and-key
+hypothesis, which suggests that the molecular shapes of the active site and substrate
+are complementary, fitting together like a key in a lock. The induced fit hypothesis, on
+the other hand, suggests that the enzyme molecule is flexible and changes shape to
+accommodate a bond with the substrate. This is not to suggest that an enzyme’s active
+site is completely malleable, however. Both the lock-and-key model and the induced fit
+model account for the fact that enzymes can only bind with specific substrates, since in
+general a particular enzyme only catalyzes a particular reaction ( Figure 12.25 ).
+[Figure caption] Figure 12.25 (a) According to the lock-and-key model, the shape of an
+enzyme’s active site is a perfect fit for the substrate. (b) According to the induced
+fit model, the active site is somewhat flexible, and can change shape in order to bond
+with the substrate.
+The Royal Society of Chemistry provides an excellent introduction to enzymes for
+students and teachers.
+---
+Source: OpenStax, Chemistry 2e. OpenStax CNX. Licensed under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/). Access for free at
+https://openstax.org/books/chemistry-2e
+=== END SOURCE PAGE ===

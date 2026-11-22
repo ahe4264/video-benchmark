@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:42.535Z",
+  "seconds": 115,
+  "result": {
+    "evidence": "0:00-1:33: Explains predicting noise, receptive fields, and the need for many layers.\n1:33-3:06: Introduces downsampling to solve the layer issue; builds the encoder.\n3:06-3:41: Builds the decoder via upsampling.\n3:41-4:02: Introduces skip connections for exact positioning, and time embedding 't'.\n4:03-5:31: Reviews global context vs fine detail, showing a cut skip connection.\n5:32-7:02: Explains 't' as noise level and how the network's task changes.\n7:03-8:31: Introduces self-attention, explaining its use only at low resolutions.\n8:32-9:35: Summarizes the full sampling loop.",
+    "score_reason": "Every step is motivated and builds logically on the last. Terms are introduced before use, and the visual build-up matches the explanation perfectly. A newcomer could reconstruct the main arguments. Fully meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 167153,
+    "candidatesTokenCount": 255,
+    "totalTokenCount": 168583,
+    "cachedContentTokenCount": 173719,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 166463
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154944
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18432
+      }
+    ],
+    "thoughtsTokenCount": 1175,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 175693
+  }
+}

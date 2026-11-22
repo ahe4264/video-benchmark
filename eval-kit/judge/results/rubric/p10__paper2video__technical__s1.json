@@ -1,0 +1,54 @@
+{
+  "topic": "p10",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:12.214Z",
+  "seconds": 316,
+  "result": {
+    "evidence": "Watched the full video (0:00-3:56). All slides, text, equations, and images rendered correctly. Audio was clear and synchronized throughout.",
+    "issues": [],
+    "score_reason": "The lesson has no visible technical problems, fully meeting the top level, but the score is compressed from the maximum.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 69643,
+    "candidatesTokenCount": 87,
+    "totalTokenCount": 70590,
+    "cachedContentTokenCount": 68547,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68673
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60652
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7552
+      }
+    ],
+    "thoughtsTokenCount": 860,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73601
+  }
+}

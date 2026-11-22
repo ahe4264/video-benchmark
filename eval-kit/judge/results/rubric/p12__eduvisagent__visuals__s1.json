@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:12:43.267Z",
+  "seconds": 72,
+  "result": {
+    "evidence": "0:35: Side-by-side visual comparison of pendulums with different masses.\n1:07: Interactive pendulum model with dynamic force vectors (mg, tension, components) that change as it swings.\n3:41: Step-by-step visual construction of a free body diagram.\n10:00: Clear diagrams for far-transfer tasks (skate park, gravity train).",
+    "score_reason": "The lesson fully meets the top level. The interactive visuals and dynamic force vectors carry the explanation, allowing a student to follow the core concepts visually. The layout is crisp and consistent. Score compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 348709,
+    "candidatesTokenCount": 153,
+    "totalTokenCount": 350710,
+    "cachedContentTokenCount": 354881,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347952
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354542
+      }
+    ],
+    "thoughtsTokenCount": 1848,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 358411
+  }
+}

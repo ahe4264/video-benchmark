@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:42.945Z",
+  "seconds": 50,
+  "result": {
+    "evidence": "1:16: The problem is clearly set up with the 3D shape and bounding planes.\n2:58: The process of finding the 2D base by setting z=0 is well explained.\n3:47: The visual demonstration of setting integration limits using a sweeping vertical strip is highly effective.\n5:40: The step-by-step calculation of the double integral is easy to follow, though presented in a somewhat static table format.\n7:00: The lesson concludes with a conceptual question that encourages further thought.",
+    "score_reason": "The lesson teaches the core idea well, providing clear explanations and helpful visuals for setting up the integral bounds. The calculation phase is slightly static, which is a minor weakness. It meets the criteria for a strong lesson.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 133665,
+    "candidatesTokenCount": 183,
+    "totalTokenCount": 135035,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 132941
+      }
+    ],
+    "thoughtsTokenCount": 1187,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 140589
+  }
+}

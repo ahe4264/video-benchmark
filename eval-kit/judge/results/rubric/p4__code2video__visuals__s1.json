@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:04.932Z",
+  "seconds": 34,
+  "result": {
+    "evidence": "0:00-0:35: Cards slide into a sorted hand. 0:36-1:51: Array elements are animated; a key is lifted, larger values shift right, and the key is inserted. 1:52-3:24: Code execution is paired with visual array updates. 3:25-4:17: Arcs visualize shifts for a reversed array.",
+    "score_reason": "The lesson fully meets the top level. The visuals carry the explanation, clearly showing the algorithm's steps, and are crisp and consistent throughout.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 68873,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 70691,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68112
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      }
+    ],
+    "thoughtsTokenCount": 1676,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71156
+  }
+}

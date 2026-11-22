@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:49.539Z",
+  "seconds": 100,
+  "result": {
+    "evidence": "0:55: U-Net topology is presented via a static, complex figure and dense bullet points without step-by-step visual buildup. 1:27: Training target equation introduces variables (beta, x, epsilon) without prior explanation. 1:31: Timestep embedding equation uses unexplained symbols (s, h, b). 2:09: The content shifts to 'Experimental Method: Lesson Design', indicating this is a presentation about a lesson rather than the lesson itself. Slides consistently display too much text at once.",
+    "score_reason": "The main idea is present, but the screen shows too much text at once, key equations use unexplained symbols, and the meta-presentation structure is confusing. It misses the level above because it cannot be easily followed even with effort due to these jumps and dense slides.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 73733,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 75811,
+    "cachedContentTokenCount": 72882,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73043
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64507
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8032
+      }
+    ],
+    "thoughtsTokenCount": 1889,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77730
+  }
+}

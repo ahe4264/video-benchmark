@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:34.609Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "1:03: Unit circle and geometric components are clearly illustrated.\n1:47-3:21: The three geometric shapes (two triangles, one sector) are sequentially highlighted and their areas calculated with clear diagrams.\n3:22: The nesting of the shapes is visually demonstrated to establish the area inequality.\n3:54: Algebraic manipulations are clearly laid out step-by-step.\n5:04: Graphs of the bounding functions visually illustrate the squeeze.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation. A student could follow the geometric proof almost entirely through the graphics. (Score compressed from 7).",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 114914,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 116160,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 765
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114149
+      }
+    ],
+    "thoughtsTokenCount": 1088,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 120928
+  }
+}

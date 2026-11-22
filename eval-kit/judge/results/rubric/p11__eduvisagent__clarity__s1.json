@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:15:09.545Z",
+  "seconds": 127,
+  "result": {
+    "evidence": "The lesson begins by motivating the problem with a concrete analogy of finding a friend in a crowded stadium (0:00). It then introduces a physical 'hand model' to conceptualize rigid vs. flexible binding (1:28). The formal diagrams are constructed one element at a time (1:56-3:30), with vocabulary terms defined exactly when they are introduced visually. The interactive model is subsequently used to test specific hypotheses in a structured way (3:38 onwards). Transfer tasks explicitly outline the rules for applying the learned models to new scenarios (5:23).",
+    "score_reason": "The lesson is highly logical and step-by-step throughout. Every new concept is motivated by the previous one, and terms are clearly defined before use. The progression from analogy to physical model to formal diagram to interactive simulation ensures a newcomer can easily follow the argument.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 308781,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 310703,
+    "cachedContentTokenCount": 314269,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 308088
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 313923
+      }
+    ],
+    "thoughtsTokenCount": 1723,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 317426
+  }
+}

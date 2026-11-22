@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:24.307Z",
+  "seconds": 184,
+  "result": {
+    "evidence": "0:00-0:15: The video introduces itself as a 'lesson plan' and 'deck' rather than a direct lesson. 0:51-1:58: It describes the 'Method' of five scenes (e.g., 'Scene 1 opens with a question') instead of teaching the content to the viewer. 1:59-3:04: The presentation covers 'Experimental Method', 'Results', and 'Ablation', which are pedagogical research topics.",
+    "score_reason": "The video is a meta-presentation about lesson design, making it mostly off-topic and highly confusing for a student trying to learn the biological concepts. It aligns with the lowest level (fails to teach), which maps to a 3 due to scale compression.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 55422,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 57033,
+    "cachedContentTokenCount": 54678,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 728
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54694
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 48316
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6016
+      }
+    ],
+    "thoughtsTokenCount": 1429,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 58530
+  }
+}

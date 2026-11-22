@@ -1,0 +1,49 @@
+{
+  "topic": "p5",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:01:13.164Z",
+  "seconds": 59,
+  "result": {
+    "evidence": "The lesson introduces negative edge weights using a relatable analogy (delivery vans with regenerative braking) and clearly demonstrates why Dijkstra's algorithm fails in this scenario (0:00-1:15). The step-by-step interactive tracing of the Bellman-Ford algorithm, including the implementation of the `relax` function, is highly effective for building intuition (1:15-4:50). Visual aids, such as the graph with amber edges, the d/pi ledger, and the number line, are excellent. The inclusion of near and far transfer tasks (cargo drones, theatre scheduling) deeply tests understanding and application of the core logic (4:55-12:45). The misconception clinic effectively addresses common errors (12:46-13:40).",
+    "score_reason": "The lesson is exceptional, clear, correct, and highly engaging, with excellent interactive elements and transfer tasks. It fully meets the description for the top level. Following instructions to compress extreme scores, it is awarded the level below.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 323069,
+    "candidatesTokenCount": 234,
+    "totalTokenCount": 324036,
+    "cachedContentTokenCount": 328792,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 322344
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 328449
+      }
+    ],
+    "thoughtsTokenCount": 733,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332092
+  }
+}

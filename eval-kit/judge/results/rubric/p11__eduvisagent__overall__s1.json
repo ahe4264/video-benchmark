@@ -1,0 +1,49 @@
+{
+  "topic": "p11",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:11:42.184Z",
+  "seconds": 120,
+  "result": {
+    "evidence": "0:00-1:55: Hook uses a stadium analogy to explain random collisions and specificity, followed by a prediction task.\n1:56-3:37: Step-by-step construction of the enzyme-substrate models with clear visuals and vocabulary.\n3:38-5:23: Interactive demos allow comparing lock-and-key vs induced fit by manipulating sliders.\n5:24-9:08: Near-transfer task applies concepts to a 3-pocket enzyme.\n9:09-10:24: Far-transfer task maps concepts to a factory sorting line.\n10:25-12:15: Misconception clinic addresses common errors.\n12:16-19:26: Summary and reflection solidify learning.",
+    "score_reason": "The lesson is exceptionally clear, interactive, and well-structured, fully meeting the criteria for a model lesson. It builds concepts logically and tests them effectively.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 308816,
+    "candidatesTokenCount": 228,
+    "totalTokenCount": 309813,
+    "cachedContentTokenCount": 314269,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 728
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 308088
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 313923
+      }
+    ],
+    "thoughtsTokenCount": 769,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 317461
+  }
+}

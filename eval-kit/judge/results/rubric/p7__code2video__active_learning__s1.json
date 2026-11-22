@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:02.614Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "0:09: Learner predicts bolt movement direction. 0:14: Visual feedback shows torque vector. 2:46-4:00: Hands-on exploration of how angle and length affect the cross product. 4:54: Learner applies right-hand rule to find direction. 5:01: Visual confirmation provided. Sections on formula (1:22) and anticommutativity (4:01) are passive.",
+    "score_reason": "Meets Level 5 by including prediction, hands-on exploration, and application at some key steps, with feedback showing the result. It misses Level 6 because several core concepts are presented passively.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 82045,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 84454,
+    "cachedContentTokenCount": 83194,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 81312
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82852
+      }
+    ],
+    "thoughtsTokenCount": 2246,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 84677
+  }
+}

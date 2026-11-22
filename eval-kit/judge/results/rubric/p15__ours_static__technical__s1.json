@@ -1,0 +1,54 @@
+{
+  "topic": "p15",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:57.982Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "I watched the entire lesson from start to finish. The layout remained clean with no overlapping or cut-off text or graphics. All content rendered correctly without any raw code or placeholders. The interactive elements, such as the quizzes, responded as expected when clicked. Playback was smooth, and the audio narration was clear and well-synchronized with the on-screen visuals throughout the video.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level description because there are no visible technical problems; everything renders, loads, and responds as intended. The score is compressed from 7 to 6 as per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 139700,
+    "candidatesTokenCount": 146,
+    "totalTokenCount": 140540,
+    "cachedContentTokenCount": 144822,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138731
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 129120
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15360
+      }
+    ],
+    "thoughtsTokenCount": 694,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 147081
+  }
+}

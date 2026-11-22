@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:53.266Z",
+  "seconds": 134,
+  "result": {
+    "evidence": "0:03: Clean animation of molecules drifting around an enzyme.\n0:41: Animation clearly demonstrates specificity by showing non-matching molecules bouncing off and matching ones binding.\n2:09: Interactive drag-and-drop visually confirms the perfect fit of the lock-and-key model.\n3:45: A toggle switch effectively contrasts the shape of the empty active site in both models.\n4:49: A side-by-side animation paired with a dynamic graph clearly illustrates the difference in binding dynamics between the two models.\n7:01: Visuals effectively demonstrate why an incorrect substrate fails to bind in the induced fit model.",
+    "score_reason": "The visuals are crisp, consistent, and directly carry the explanation. A student could understand the core concepts and differences between the models primarily through the graphics and animations. Meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 136885,
+    "candidatesTokenCount": 199,
+    "totalTokenCount": 137936,
+    "cachedContentTokenCount": 142117,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136121
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 126699
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15072
+      }
+    ],
+    "thoughtsTokenCount": 852,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 143962
+  }
+}

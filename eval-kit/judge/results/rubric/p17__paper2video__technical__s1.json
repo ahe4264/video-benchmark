@@ -1,0 +1,54 @@
+{
+  "topic": "p17",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:30.821Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "Watched full video. Slides, text, equations, and figures render correctly. No layout, rendering, or audio issues observed. Audio syncs with slide transitions.",
+    "issues": [],
+    "score_reason": "No visible technical problems; everything renders and plays as intended. Meets top level, compressed to avoid highest score.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 51017,
+    "candidatesTokenCount": 84,
+    "totalTokenCount": 51850,
+    "cachedContentTokenCount": 50055,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50043
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 974
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 44204
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 5504
+      }
+    ],
+    "thoughtsTokenCount": 749,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 54079
+  }
+}

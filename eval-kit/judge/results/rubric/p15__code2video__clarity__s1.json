@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:42.066Z",
+  "seconds": 42,
+  "result": {
+    "evidence": "0:00-0:28: Hook introduces the problem and solution clearly.\n0:28-0:57: Prerequisites (nodes, edges, adjacency, GNN step) are visually defined.\n0:57-1:16: Two rules for building the edge graph are stated.\n1:16-1:56: Step 1 (edges to nodes) is shown one by one.\n1:56-2:48: Step 2 (connecting nodes based on shared vertices) is visually highlighted. The edge counting formula is slightly dense but logical.\n2:48-3:24: Demo reinforces node degrees in the edge graph with a clear formula.\n3:24-3:59: Toggle view summarizes the transformation.\n3:59-4:31: Consolidation and quiz provide a clear wrap-up.",
+    "score_reason": "The lesson is logical and step-by-step throughout. Every element builds on the previous one, and terms are introduced before use. It fully meets level 6, avoiding the top score due to minor density in the edge counting section.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 72497,
+    "candidatesTokenCount": 262,
+    "totalTokenCount": 74041,
+    "cachedContentTokenCount": 73510,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71808
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73168
+      }
+    ],
+    "thoughtsTokenCount": 1282,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74877
+  }
+}

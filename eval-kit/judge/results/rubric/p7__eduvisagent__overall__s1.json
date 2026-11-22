@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:02:22.070Z",
+  "seconds": 116,
+  "result": {
+    "evidence": "The lesson is a comprehensive, interactive module covering the cross product. It starts with a concrete scenario (wrench, 0:02), moves to mathematical abstraction with interactive 3D visualizations (2:51), and includes near and far transfer tasks (8:25, 19:17). It utilizes a structured problem-solving approach (F.O.P.S.) and requires active prediction and self-explanation throughout. A dedicated section addresses common misconceptions (20:21). The text is clear, and the interactive elements directly support the learning objectives.",
+    "score_reason": "The lesson fully meets the description for the Strong level (compressed from Exceptional). It is clear, correct, highly engaging through its interactive elements, and pedagogically sound. It serves as an excellent model for interactive learning, with no significant weaknesses.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 370588,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 371711,
+    "cachedContentTokenCount": 377211,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 369864
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 376869
+      }
+    ],
+    "thoughtsTokenCount": 932,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 380871
+  }
+}

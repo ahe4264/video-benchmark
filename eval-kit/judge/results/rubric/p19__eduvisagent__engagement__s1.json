@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:58:16.609Z",
+  "seconds": 98,
+  "result": {
+    "evidence": "- 0:01: Hook asks how to make 2D picture sizes independent of distance.\n- 0:28, 1:48: Interactive prediction tasks.\n- 1:07, 3:30: Sliders and diagrams show ray behavior.\n- 3:58: 3D interactive models.\n- 8:00-11:00, 12:00-17:00: Long form-filling sections slow momentum.\n- 11:43: New X-ray context is interesting but execution is repetitive.",
+    "score_reason": "The opening poses a clear question and interactive elements provide variety and insights. Extended form-filling creates lulls, preventing a higher score. Meets Level 5.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 340947,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 342583,
+    "cachedContentTokenCount": 347086,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 651
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 340296
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346741
+      }
+    ],
+    "thoughtsTokenCount": 1450,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350446
+  }
+}

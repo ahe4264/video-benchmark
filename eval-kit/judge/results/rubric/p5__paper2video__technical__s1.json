@@ -1,0 +1,59 @@
+{
+  "topic": "p5",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:10.482Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "The video plays smoothly and the audio is clear and well-synced. However, there are multiple instances where LaTeX commands are shown as raw text instead of rendering as mathematical symbols (e.g., at 0:36, 0:56, 1:11, and 1:30).",
+    "issues": [
+      {
+        "timestamp": "0:36",
+        "description": "Unrendered LaTeX command '\\pi' shown in the text 'v.\\pi = u'.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "0:56",
+        "description": "Unrendered LaTeX command '\\pi' shown in the text 'v.\\pi = NIL'.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "1:11",
+        "description": "Unrendered LaTeX commands '\\pi', '\\leftarrow', and '\\delta' shown in the formulas.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "1:30",
+        "description": "Unrendered LaTeX command '\\cdot' shown in the complexity formula 'O(|V| \\cdot |E|)'.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson fully meets level 3 because there are several major problems (raw LaTeX code shown instead of rendered content across multiple slides).",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 57713,
+    "candidatesTokenCount": 332,
+    "totalTokenCount": 60467,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56744
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "thoughtsTokenCount": 2422,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 61098
+  }
+}

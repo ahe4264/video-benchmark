@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:51:00.453Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:17: The opening poses a clear question about how two lenses changed the universe, framing it as a puzzle of 'magic' vs geometry.\n1:01: The historical context of Galileo's discoveries adds narrative interest.\n2:44: The ray tracing explanation is clear but relies on a static image for a stretch, creating a slight lull.\n3:24: Explaining magnification as an increased angle entering the eye provides a good moment of insight.\n4:56: The 'Build Your Own' section is a practical and engaging way to apply the concepts.",
+    "score_reason": "The lesson meets Level 5. It features an opening that poses a clear question and moves at a good pace with a variety of approaches (history, anatomy, math, practical application). The reliance on static images creates a few visual lulls, which keeps it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 113942,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 115606,
+    "cachedContentTokenCount": 118333,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 113295
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105448
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12544
+      }
+    ],
+    "thoughtsTokenCount": 1459,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 119913
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p16",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:41:12.368Z",
+  "seconds": 151,
+  "result": {
+    "evidence": "0:00-1:45: The lesson begins with a meta-narrative about a textbook error and a video generation prompt, which is irrelevant to the chemistry topic.\n1:49: Steric bulk is clearly defined using a crowded room analogy.\n2:20: The chiral center is built step-by-step, explaining wedges and dashes.\n2:53: The visual clearly shows how increasing the R group size increases steric bulk.\n3:43: The animation effectively demonstrates how bulk restricts the nucleophile's attack angle.\n4:14: The backside attack and resulting inversion are clearly visualized.\n4:50: The lesson returns to the meta-narrative.",
+    "score_reason": "The core chemistry explanation is logical and builds step-by-step. However, the extensive meta-narrative acts as a significant distraction and a real jump in logic for a chemistry lesson, requiring effort to focus on the actual educational content. It meets the level of having a sensible order that can be followed, but with significant distracting gaps.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 105885,
+    "candidatesTokenCount": 242,
+    "totalTokenCount": 108066,
+    "cachedContentTokenCount": 109910,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105192
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 97916
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 11648
+      }
+    ],
+    "thoughtsTokenCount": 1939,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 111457
+  }
+}

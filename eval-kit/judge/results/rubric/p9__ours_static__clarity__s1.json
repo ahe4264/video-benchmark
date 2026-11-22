@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:42.489Z",
+  "seconds": 62,
+  "result": {
+    "evidence": "0:03: Introduces the problem (atoms are too small) and the method (throw things at them).\n0:13: Explains the Thomson model before testing it.\n0:51: Shows the expected result based on the Thomson model, explaining the reasoning (charge is spread thin).\n1:07: Introduces the actual, surprising experimental result.\n1:47: Builds the apparatus step-by-step, explaining the function of the lead block, foil, and screen.\n3:23: Clearly defines deflection angles.\n4:58: Introduces the nuclear model to explain the rare bounces.\n5:28: Demonstrates how the nuclear model accounts for all three observed outcomes.\n7:45: Explains the log scale histogram.",
+    "score_reason": "The lesson is exceptionally logical and step-by-step. Every concept is introduced before use, and the progression from hypothesis to experiment to new model is perfectly motivated. A newcomer could easily reconstruct the argument. It fully meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 155887,
+    "candidatesTokenCount": 239,
+    "totalTokenCount": 158179,
+    "cachedContentTokenCount": 161978,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155199
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144453
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17184
+      }
+    ],
+    "thoughtsTokenCount": 2053,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 163888
+  }
+}

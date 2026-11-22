@@ -1,0 +1,1598 @@
+Create a narrated educational video that teaches the textbook figure
+'CNX_Calc_Figure_12_04_013' (calculus volume 3). Target length: 60-120 seconds of
+narrated animation.
+LEARNING OBJECTIVE
+Understand that the cross product of two vectors produces a third vector that is
+perfectly orthogonal to both original vectors. Recognize that reversing the order of the
+cross product yields a vector of the exact same magnitude but pointing in the opposite
+direction.
+SCENE PLAN
+1. Hook — Finding a single direction that is perfectly perpendicular to two different
+intersecting lines is a common challenge in physics and 3D geometry. The cross product
+provides a direct mathematical operation to generate these orthogonal vectors.
+2. Construction — Draw a 3D coordinate system and place two vectors, u and v,
+originating from the origin and lying in a shared horizontal plane. Generate the cross
+product vector u x v pointing straight up, perpendicular to the plane of u and v, and
+then generate the cross product vector v x u pointing straight down, exactly opposite to
+u x v.
+3. Demonstration — Drag vector u to change the angle between the base vectors and watch
+the orthogonal cross product vectors grow or shrink in length. As the angle between u
+and v approaches 90 degrees, the cross product vectors reach their maximum length, and
+as the angle approaches 0 or 180 degrees, the cross product vectors shrink toward a
+length of zero.
+4. Demonstration — Extend the length of vector v to see the u x v and v x u vectors
+stretch proportionally in their respective opposite directions. Increasing the magnitude
+of v directly scales up the magnitude of both cross products, making the upward vector
+taller and the downward vector deeper, while maintaining their perfect 90-degree angles
+to the base plane.
+5. Consolidation — The cross product of any two vectors always creates a new vector
+orthogonal to both, with its magnitude tied to the lengths and angle of the inputs.
+Swapping the order of multiplication from u x v to v x u simply flips the resulting
+orthogonal vector 180 degrees into the opposite direction.
+CONSTRAINTS
+- Render in 2D unless the figure is inherently 3D. Keep every axis, label and symbol
+legible at 720p; no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding.
+- Narration must be synchronised to the visual it describes.
+=== SOURCE TEXTBOOK PAGE ===
+[OpenStax, calculus-volume-3, section 2-4-the-cross-product. Access for free at
+https://openstax.org/books/calculus-volume-3 - CC BY 4.0]
+2.4 The Cross Product - Calculus Volume 3 | OpenStax Skip to Content Go to accessibility
+page Keyboard shortcuts menu Calculus Volume 3 2.4 The Cross Product Calculus Volume 3
+2.4 The Cross Product Contents Highlights Print Search Search Close Search 2.4
+The Cross Product
+Learning Objectives
+2.4.1
+Calculate the cross product of two given vectors.
+2.4.2
+Use determinants to calculate a cross product.
+2.4.3
+Find a vector orthogonal to two given vectors.
+2.4.4
+Determine areas and volumes by using the cross product.
+2.4.5
+Calculate the torque of a given force and position vector.
+Imagine a mechanic turning a wrench to tighten a bolt. The mechanic applies a force at
+the end of the wrench. This creates rotation, or torque, which tightens the bolt. We can
+use vectors to represent the force applied by the mechanic, and the distance (radius)
+from the bolt to the end of the wrench. Then, we can represent torque by a vector
+oriented along the axis of rotation. Note that the torque vector is orthogonal to both
+the force vector and the radius vector.
+In this section, we develop an operation called the cross product, which allows us to
+find a vector orthogonal to two given vectors. Calculating torque is an important
+application of cross products, and we examine torque in more detail later in the
+section. This material uses a 3 × 3 determinant of the form
+| a b c
+d
+e f g
+h i | | a b c
+d
+e f g
+h i | , which expands by minors to
+a | e f
+h
+i | - b | d f
+g
+i | + c | d e
+g
+h | = a ( e i – f h ) –
+b ( d i – f g ) +
+c ( d h – e g ) . a | e f
+h
+i | - b | d f
+g
+i | + c | d e
+g
+h | = a ( e i – f h ) – b ( d i – f g ) + c ( d h – e g ) .
+The Cross Product and Its Properties
+The dot product is a multiplication of two vectors that results in a scalar. In this
+section, we introduce a product of two vectors that generates a third vector orthogonal
+to the first two. Consider how we might find such a vector. Let u = 〈 u 1 , u 2 , u 3 〉
+u = 〈 u 1 , u 2 , u 3 〉
+and v = 〈 v 1 , v 2 , v 3 〉 v = 〈 v 1 , v 2 , v 3 〉
+be nonzero vectors. We want to find a vector w = 〈 w 1 , w 2 , w 3 〉 w = 〈 w 1 , w 2 ,
+w 3 〉 orthogonal to both u u and v v —that is, we want to find w w such that u · w = 0 u
+· w = 0 and v · w = 0 . v · w = 0 . Therefore, w 1 , w 1 , w 2 , w 2 , and w 3 w 3 must
+satisfy
+u 1 w 1 + u 2 w 2 + u 3 w 3 = 0 v 1 w 1 + v 2 w 2 + v 3 w 3 = 0. u 1 w 1 + u 2 w 2 + u 3
+w 3 = 0 v 1 w 1 + v 2 w 2 + v 3 w 3 = 0.
+If we multiply the top equation by v 3 v 3 and the bottom equation by u 3 u 3 and
+subtract, we can eliminate the variable w 3 , w 3 , which gives
+( u 1 v 3 − v 1 u 3 ) w 1 + ( u 2 v 3 − v 2 u 3 ) w 2 = 0 . ( u 1 v 3 − v 1 u 3 ) w 1 +
+( u 2 v 3 − v 2 u 3 ) w 2 = 0 .
+If we select
+w 1 = u 2 v 3 − u 3 v 2 w 2 = − ( u 1 v 3 − u 3 v 1 ) , w 1 = u 2 v 3 − u 3 v 2 w 2 = −
+( u 1 v 3 − u 3 v 1 ) ,
+we get a possible solution vector. Substituting these values back into the original
+equations gives
+w 3 = u 1 v 2 − u 2 v 1 . w 3 = u 1 v 2 − u 2 v 1 .
+That is, vector
+w = 〈 u 2 v 3 − u 3 v 2 , − ( u 1 v 3 − u 3 v 1 ) , u 1 v 2 − u 2 v 1 〉 w = 〈 u 2 v 3
+− u 3 v 2 , − ( u 1 v 3 − u 3 v 1 ) , u 1 v 2 − u 2 v 1 〉
+is orthogonal to both u u and v , v , which leads us to define the following operation,
+called the cross product.
+Definition
+Let u = 〈 u 1 , u 2 , u 3 〉 and v = 〈 v 1 , v 2 , v 3 〉 . u = 〈 u 1 , u 2 , u 3 〉
+and v = 〈 v 1 , v 2 , v 3 〉 . Then, the cross product u × v u × v is vector
+u × v = ( u 2 v 3 − u 3 v 2 ) i − ( u 1 v 3 − u 3 v 1 ) j + ( u 1 v 2 − u 2 v 1 ) k = 〈
+u 2 v 3 − u 3 v 2 , − ( u 1 v 3 − u 3 v 1 ) , u 1 v 2 − u 2 v 1 〉 . u × v = ( u 2 v 3 −
+u 3 v 2 ) i − ( u 1 v 3 − u 3 v 1 ) j + ( u 1 v 2 − u 2 v 1 ) k = 〈 u 2 v 3 − u 3 v 2 ,
+− ( u 1 v 3 − u 3 v 1 ) , u 1 v 2 − u 2 v 1 〉 .
+(2.9)
+From the way we have developed u × v , u × v , it should be clear that the cross product
+is orthogonal to both u u and v . v . However, it never hurts to check. To show that u ×
+v u × v is orthogonal to u , u , we calculate the dot product of u u and u × v . u × v .
+u · ( u × v ) = 〈 u 1 , u 2 , u 3 〉 · 〈 u 2 v 3 − u 3 v 2 , − u 1 v 3 + u 3 v 1 , u 1
+v 2 − u 2 v 1 〉 = u 1 ( u 2 v 3 − u 3 v 2 ) + u 2 ( − u 1 v 3 + u 3 v 1 ) + u 3 ( u 1 v
+2 − u 2 v 1 ) = u 1 u 2 v 3 − u 1 u 3 v 2 − u 1 u 2 v 3 + u 2 u 3 v 1 + u 1 u 3 v 2 − u
+2 u 3 v 1 = ( u 1 u 2 v 3 − u 1 u 2 v 3 ) + ( − u 1 u 3 v 2 + u 1 u 3 v 2 ) + ( u 2 u 3
+v 1 − u 2 u 3 v 1 ) = 0 u · ( u × v ) = 〈 u 1 , u 2 , u 3 〉 · 〈 u 2 v 3 − u 3 v 2 , −
+u 1 v 3 + u 3 v 1 , u 1 v 2 − u 2 v 1 〉 = u 1 ( u 2 v 3 − u 3 v 2 ) + u 2 ( − u 1 v 3 +
+u 3 v 1 ) + u 3 ( u 1 v 2 − u 2 v 1 ) = u 1 u 2 v 3 − u 1 u 3 v 2 − u 1 u 2 v 3 + u 2 u
+3 v 1 + u 1 u 3 v 2 − u 2 u 3 v 1 = ( u 1 u 2 v 3 − u 1 u 2 v 3 ) + ( − u 1 u 3 v 2 + u
+1 u 3 v 2 ) + ( u 2 u 3 v 1 − u 2 u 3 v 1 ) = 0 In a similar manner, we can show that
+the cross product is also orthogonal to v . v .
+Example
+2.31
+Finding a Cross Product
+Let p = 〈 −1 , 2 , 5 〉 and q = 〈 4 , 0 , −3 〉 p = 〈 −1 , 2 , 5 〉 and q = 〈 4 , 0 ,
+−3 〉 ( Figure 2.53 ). Find p × q . p × q .
+.” The second vector is labeled “q = .”">
+.” The second vector is labeled “q = .”" class="image-button-wrapper"> .” The second
+vector is labeled “q = .”" width="501" height="497" loading="lazy" data-original-
+src="/apps/archive/20260604.144757/resources/6aa39c72622a6331d2412588ab0ac12b70ee13e0">
+Figure
+2.53
+Finding a cross product to two given vectors.
+Solution
+Substitute the components of the vectors into Equation 2.9 :
+p
+×
+q
+=
+⟨
+−1
+,
+2
+,
+5
+⟩
+×
+⟨
+4
+,
+0
+,
+−3
+⟩
+=
+⟨
+p
+2
+q
+3
+-
+p
+3
+q
+2
+,
+-
+p
+1
+q
+3
+–
+p
+3
+q
+1
+,
+p
+1
+q
+2
+-
+p
+2
+q
+1
+⟩
+=
+⟨
+p
+2
+q
+3
+−
+p
+3
+q
+2
+,
+p
+3
+q
+1
+−
+p
+1
+q
+3
+,
+p
+1
+q
+2
+−
+p
+2
+q
+1
+⟩
+=
+⟨
+2
+(
+−3
+)
+−
+5
+(
+0
+)
+,
+5
+4
+-
+(
+−1
+)
+(
+−3
+)
+,
+(
+−1
+)
+0
+−
+2
+(
+4
+)
+⟩
+=
+⟨
+−6
+,
+17
+,
+−8
+⟩
+.
+p
+×
+q
+=
+⟨
+−1
+,
+2
+,
+5
+⟩
+×
+⟨
+4
+,
+0
+,
+−3
+⟩
+=
+⟨
+p
+2
+q
+3
+-
+p
+3
+q
+2
+,
+-
+p
+1
+q
+3
+–
+p
+3
+q
+1
+,
+p
+1
+q
+2
+-
+p
+2
+q
+1
+⟩
+=
+⟨
+p
+2
+q
+3
+−
+p
+3
+q
+2
+,
+p
+3
+q
+1
+−
+p
+1
+q
+3
+,
+p
+1
+q
+2
+−
+p
+2
+q
+1
+⟩
+=
+⟨
+2
+(
+−3
+)
+−
+5
+(
+0
+)
+,
+5
+4
+-
+(
+−1
+)
+(
+−3
+)
+,
+(
+−1
+)
+0
+−
+2
+(
+4
+)
+⟩
+=
+⟨
+−6
+,
+17
+,
+−8
+⟩
+.
+Checkpoint
+2.30
+Find p × q p × q for p = 〈 5 , 1 , 2 〉 p = 〈 5 , 1 , 2 〉 and q = 〈 −2 , 0 , 1 〉 . q
+= 〈 −2 , 0 , 1 〉 . Express the answer using standard unit vectors.
+Although it may not be obvious from Equation 2.9 , the direction of u × v u × v is given
+by the right-hand rule. If we hold the right hand out with the fingers pointing in the
+direction of u , u , then curl the fingers toward vector v , v , the thumb points in the
+direction of the cross product, as shown.
+Figure
+2.54
+The direction of u × v u × v is determined by the right-hand rule.
+Notice what this means for the direction of v × u . v × u . If we apply the right-hand
+rule to v × u , v × u , we start with our fingers pointed in the direction of v , v ,
+then curl our fingers toward the vector u . u . In this case, the thumb points in the
+opposite direction of u × v . u × v . (Try it!)
+Example
+2.32
+Anticommutativity of the Cross Product
+Let u = 〈 0 , 2 , 1 〉 u = 〈 0 , 2 , 1 〉 and v = 〈 3 , −1 , 0 〉 . v = 〈 3 , −1 , 0 〉
+. Calculate u × v u × v and v × u v × u and graph them.
+.” The second vector is labeled “v = .”">
+.” The second vector is labeled “v = .”" class="image-button-wrapper"> .” The second
+vector is labeled “v = .”" width="524" height="497" loading="lazy" data-original-
+src="/apps/archive/20260604.144757/resources/e31034844861c1ae03332b9e9f633c5f3d8e3f6b">
+Figure
+2.55
+Solution
+We have
+Are the cross products u × v u × v and v × u v × u in the same direction?
+u
+×
+v
+=
+〈
+(
+0
++
+1
+)
+,
+−
+(
+0
+−
+3
+)
+,
+(
+0
+−
+6
+)
+〉
+=
+〈
+1
+,
+3
+,
+−6
+〉
+v
+×
+u
+=
+〈
+(
+−1
+−
+0
+)
+,
+−
+(
+3
+−
+0
+)
+,
+(
+6
+−
+0
+)
+〉
+=
+〈
+−1
+,
+−3
+,
+6
+〉
+.
+u
+×
+v
+=
+〈
+(
+0
++
+1
+)
+,
+−
+(
+0
+−
+3
+)
+,
+(
+0
+−
+6
+)
+〉
+=
+〈
+1
+,
+3
+,
+−6
+〉
+v
+×
+u
+=
+〈
+(
+−1
+−
+0
+)
+,
+−
+(
+3
+−
+0
+)
+,
+(
+6
+−
+0
+)
+〉
+=
+〈
+−1
+,
+−3
+,
+6
+〉
+.
+We see that, in this case, u × v = − ( v × u ) u × v = − ( v × u ) ( Figure 2.56 ). We
+prove this in general later in this section.
+.” The second vector is labeled “v = .” It also has two vectors that are cross products.
+The first is “u x v = .” The second is “v x u = .”">
+.” The second vector is labeled “v = .” It also has two vectors that are cross products.
+The first is “u x v = .” The second is “v x u = .”" class="image-button-wrapper"> .” The
+second vector is labeled “v = .” It also has two vectors that are cross products. The
+first is “u x v = .” The second is “v x u = .”" width="501" height="672" loading="lazy"
+data-original-
+src="/apps/archive/20260604.144757/resources/3e9ddfb309cad836e4897c4125a5700ee6569aec">
+Figure
+2.56
+The cross products u × v u × v and v × u v × u are both orthogonal to u u and v , v ,
+but in opposite directions.
+Checkpoint
+2.31
+Suppose vectors u u and v v lie in the xy -plane (the z -component of each vector is
+zero). Now suppose the x - and y -components of u u and the y -component of v v are all
+positive, whereas the x -component of v v is negative. Assuming the coordinate axes are
+oriented in the usual positions, in which direction does u × v u × v point?
+The cross products of the standard unit vectors i , j , i , j , and k k can be useful
+for simplifying some calculations, so let’s consider these cross products. A
+straightforward application of the definition shows that
+i × i = j × j = k × k = 0 . i × i = j × j = k × k = 0 .
+(The cross product of two vectors is a vector, so each of these products results in the
+zero vector, not the scalar 0 . ) 0 . ) It’s up to you to verify the calculations on
+your own.
+Furthermore, because the cross product of two vectors is orthogonal to each of these
+vectors, we know that the cross product of i i and j j is parallel to k . k . Similarly,
+the vector product of i i and k k is parallel to j , j , and the vector product of j j
+and k k is parallel to i . i . We can use the right-hand rule to determine the direction
+of each product. Then we have
+i × j = k j × i = − k j × k = i k × j = − i k × i = j i × k = − j . i × j = k j × i = −
+k j × k = i k × j = − i k × i = j i × k = − j .
+These formulas come in handy later.
+Example
+2.33
+Cross Product of Standard Unit Vectors
+Find i × ( j × k ) . i × ( j × k ) .
+Solution
+We know that j × k = i . j × k = i . Therefore, i × ( j × k ) = i × i = 0 . i × ( j × k
+) = i × i = 0 .
+Checkpoint
+2.32
+Find ( i × j ) × ( k × i ) . ( i × j ) × ( k × i ) .
+As we have seen, the dot product is often called the scalar product because it results
+in a scalar. The cross product results in a vector, so it is sometimes called the vector
+product . These operations are both versions of vector multiplication, but they have
+very different properties and applications. Let’s explore some properties of the cross
+product. We prove only a few of them. Proofs of the other properties are left as
+exercises.
+Theorem
+2.6
+Properties of the Cross Product
+Let u , v , u , v , and w w be vectors in space, and let c c be a scalar.
+i. u × v = − ( v × u ) Anticommutative property ii. u × ( v + w ) = u × v + u × w
+Distributive property iii. c ( u × v ) = ( c u ) × v = u × ( c v ) Multiplication by a
+constant iv. u × 0 = 0 × u = 0 Cross product of the zero vector v. v × v = 0 Cross
+product of a vector with itself vi. u · ( v × w ) = ( u × v ) · w Scalar triple product
+i. u × v = − ( v × u ) Anticommutative property ii. u × ( v + w ) = u × v + u × w
+Distributive property iii. c ( u × v ) = ( c u ) × v = u × ( c v ) Multiplication by a
+constant iv. u × 0 = 0 × u = 0 Cross product of the zero vector v. v × v = 0 Cross
+product of a vector with itself vi. u · ( v × w ) = ( u × v ) · w Scalar triple product
+Proof
+For property i ., i ., we want to show u × v = − ( v × u ) . u × v = − ( v × u ) . We
+have
+u × v = 〈 u 1 , u 2 , u 3 〉 × 〈 v 1 , v 2 , v 3 〉 = 〈 u 2 v 3 − u 3 v 2 , − u 1 v 3 +
+u 3 v 1 , u 1 v 2 − u 2 v 1 〉 = − 〈 u 3 v 2 − u 2 v 3 , − u 3 v 1 + u 1 v 3 , u 2 v 1 −
+u 1 v 2 〉 = − 〈 v 1 , v 2 , v 3 〉 × 〈 u 1 , u 2 , u 3 〉 = − ( v × u ) . u × v = 〈 u
+1 , u 2 , u 3 〉 × 〈 v 1 , v 2 , v 3 〉 = 〈 u 2 v 3 − u 3 v 2 , − u 1 v 3 + u 3 v 1 , u
+1 v 2 − u 2 v 1 〉 = − 〈 u 3 v 2 − u 2 v 3 , − u 3 v 1 + u 1 v 3 , u 2 v 1 − u 1 v 2 〉
+= − 〈 v 1 , v 2 , v 3 〉 × 〈 u 1 , u 2 , u 3 〉 = − ( v × u ) .
+Unlike most operations we’ve seen, the cross product is not commutative. This makes
+sense if we think about the right-hand rule.
+For property iv ., iv ., this follows directly from the definition of the cross product.
+We have
+u × 0 = 〈 u 2 ( 0 ) − u 3 ( 0 ) , − ( u 2 ( 0 ) − u 3 ( 0 ) ) , u 1 ( 0 ) − u 2 ( 0 ) 〉
+= 〈 0 , 0 , 0 〉 = 0 . u × 0 = 〈 u 2 ( 0 ) − u 3 ( 0 ) , − ( u 2 ( 0 ) − u 3 ( 0 ) ) ,
+u 1 ( 0 ) − u 2 ( 0 ) 〉 = 〈 0 , 0 , 0 〉 = 0 .
+Then, by property i., 0 × u = 0 0 × u = 0 as well. Remember that the dot product of a
+vector and the zero vector is the scalar 0 , 0 , whereas the cross product of a vector
+with the zero vector is the vector 0 . 0 .
+Property vi . vi . looks like the associative property, but note the change in
+operations:
+u · ( v × w ) = u · 〈 v 2 w 3 − v 3 w 2 , − v 1 w 3 + v 3 w 1 , v 1 w 2 − v 2 w 1 〉 = u
+1 ( v 2 w 3 − v 3 w 2 ) + u 2 ( − v 1 w 3 + v 3 w 1 ) + u 3 ( v 1 w 2 − v 2 w 1 ) = u 1
+v 2 w 3 − u 1 v 3 w 2 − u 2 v 1 w 3 + u 2 v 3 w 1 + u 3 v 1 w 2 − u 3 v 2 w 1 = ( u 2 v
+3 − u 3 v 2 ) w 1 + ( u 3 v 1 − u 1 v 3 ) w 2 + ( u 1 v 2 − u 2 v 1 ) w 3 = 〈 u 2 v 3 −
+u 3 v 2 , u 3 v 1 − u 1 v 3 , u 1 v 2 − u 2 v 1 〉 · 〈 w 1 , w 2 , w 3 〉 = ( u × v ) ·
+w . u · ( v × w ) = u · 〈 v 2 w 3 − v 3 w 2 , − v 1 w 3 + v 3 w 1 , v 1 w 2 − v 2 w 1 〉
+= u 1 ( v 2 w 3 − v 3 w 2 ) + u 2 ( − v 1 w 3 + v 3 w 1 ) + u 3 ( v 1 w 2 − v 2 w 1 ) =
+u 1 v 2 w 3 − u 1 v 3 w 2 − u 2 v 1 w 3 + u 2 v 3 w 1 + u 3 v 1 w 2 − u 3 v 2 w 1 = ( u
+2 v 3 − u 3 v 2 ) w 1 + ( u 3 v 1 − u 1 v 3 ) w 2 + ( u 1 v 2 − u 2 v 1 ) w 3 = 〈 u 2 v
+3 − u 3 v 2 , u 3 v 1 − u 1 v 3 , u 1 v 2 − u 2 v 1 〉 · 〈 w 1 , w 2 , w 3 〉 = ( u × v
+) · w .
+□
+Example
+2.34
+Using the Properties of the Cross Product
+Use the cross product properties to calculate ( 2 i × 3 j ) × j . ( 2 i × 3 j ) × j .
+Solution
+(
+2
+i
+×
+3
+j
+)
+×
+j
+=
+2
+(
+i
+×
+3
+j
+)
+×
+j
+=
+2
+(
+3
+)
+(
+i
+×
+j
+)
+×
+j
+=
+(
+6
+k
+)
+×
+j
+=
+6
+(
+k
+×
+j
+)
+=
+6
+(
+−
+i
+)
+=
+−6
+i
+.
+(
+2
+i
+×
+3
+j
+)
+×
+j
+=
+2
+(
+i
+×
+3
+j
+)
+×
+j
+=
+2
+(
+3
+)
+(
+i
+×
+j
+)
+×
+j
+=
+(
+6
+k
+)
+×
+j
+=
+6
+(
+k
+×
+j
+)
+=
+6
+(
+−
+i
+)
+=
+−6
+i
+.
+Checkpoint
+2.33
+Use the properties of the cross product to calculate ( i × k ) × ( k × j ) . ( i × k ) ×
+( k × j ) .
+So far in this section, we have been concerned with the direction of the vector u × v ,
+u × v , but we have not discussed its magnitude. It turns out there is a simple
+expression for the magnitude of u × v u × v involving the magnitudes of u u and v , v ,
+and the sine of the angle between them.
+Theorem
+2.7
+Magnitude of the Cross Product
+Let u u and v v be vectors, and let θ θ be the angle between them. Then, ‖ u × v ‖ = ‖ u
+‖ · ‖ v ‖ · sin θ . ‖ u × v ‖ = ‖ u ‖ · ‖ v ‖ · sin θ .
+Proof
+Let u = 〈 u 1 , u 2 , u 3 〉 u = 〈 u 1 , u 2 , u 3 〉 and v = 〈 v 1 , v 2 , v 3 〉 v =
+〈 v 1 , v 2 , v 3 〉 be vectors, and let θ θ denote the angle between them. Then
+‖ u × v ‖ 2 = ( u 2 v 3 − u 3 v 2 ) 2 + ( u 3 v 1 − u 1 v 3 ) 2 + ( u 1 v 2 − u 2 v 1 )
+2 = u 2 2 v 3 2 − 2 u 2 u 3 v 2 v 3 + u 3 2 v 2 2 + u 3 2 v 1 2 − 2 u 1 u 3 v 1 v 3 + u
+1 2 v 3 2 + u 1 2 v 2 2 − 2 u 1 u 2 v 1 v 2 + u 2 2 v 1 2 = u 1 2 v 1 2 + u 1 2 v 2 2 +
+u 1 2 v 3 2 + u 2 2 v 1 2 + u 2 2 v 2 2 + u 2 2 v 3 2 + u 3 2 v 1 2 + u 3 2 v 2 2 + u 3
+2 v 3 2 − ( u 1 2 v 1 2 + u 2 2 v 2 2 + u 3 2 v 3 2 + 2 u 1 u 2 v 1 v 2 + 2 u 1 u 3 v 1
+v 3 + 2 u 2 u 3 v 2 v 3 ) = ( u 1 2 + u 2 2 + u 3 2 ) ( v 1 2 + v 2 2 + v 3 2 ) − ( u 1
+v 1 + u 2 v 2 + u 3 v 3 ) 2 = ‖ u ‖ 2 ‖ v ‖ 2 − ( u · v ) 2 = ‖ u ‖ 2 ‖ v ‖ 2 − ‖ u ‖ 2
+‖ v ‖ 2 cos 2 θ = ‖ u ‖ 2 ‖ v ‖ 2 ( 1 − cos 2 θ ) = ‖ u ‖ 2 ‖ v ‖ 2 ( sin 2 θ ) . ‖ u ×
+v ‖ 2 = ( u 2 v 3 − u 3 v 2 ) 2 + ( u 3 v 1 − u 1 v 3 ) 2 + ( u 1 v 2 − u 2 v 1 ) 2 = u
+2 2 v 3 2 − 2 u 2 u 3 v 2 v 3 + u 3 2 v 2 2 + u 3 2 v 1 2 − 2 u 1 u 3 v 1 v 3 + u 1 2 v
+3 2 + u 1 2 v 2 2 − 2 u 1 u 2 v 1 v 2 + u 2 2 v 1 2 = u 1 2 v 1 2 + u 1 2 v 2 2 + u 1 2
+v 3 2 + u 2 2 v 1 2 + u 2 2 v 2 2 + u 2 2 v 3 2 + u 3 2 v 1 2 + u 3 2 v 2 2 + u 3 2 v 3
+2 − ( u 1 2 v 1 2 + u 2 2 v 2 2 + u 3 2 v 3 2 + 2 u 1 u 2 v 1 v 2 + 2 u 1 u 3 v 1 v 3 +
+2 u 2 u 3 v 2 v 3 ) = ( u 1 2 + u 2 2 + u 3 2 ) ( v 1 2 + v 2 2 + v 3 2 ) − ( u 1 v 1 +
+u 2 v 2 + u 3 v 3 ) 2 = ‖ u ‖ 2 ‖ v ‖ 2 − ( u · v ) 2 = ‖ u ‖ 2 ‖ v ‖ 2 − ‖ u ‖ 2 ‖ v ‖
+2 cos 2 θ = ‖ u ‖ 2 ‖ v ‖ 2 ( 1 − cos 2 θ ) = ‖ u ‖ 2 ‖ v ‖ 2 ( sin 2 θ ) .
+Taking square roots and noting that sin 2 θ = sin θ sin 2 θ = sin θ for 0 ≤ θ ≤ 180 ° ,
+0 ≤ θ ≤ 180 ° , we have the desired result:
+‖ u × v ‖ = ‖ u ‖ ‖ v ‖ sin θ . ‖ u × v ‖ = ‖ u ‖ ‖ v ‖ sin θ .
+□
+This definition of the cross product allows us to visualize or interpret the product
+geometrically. It is clear, for example, that the cross product is defined only for
+vectors in three dimensions, not for vectors in two dimensions. In two dimensions, it is
+impossible to generate a vector simultaneously orthogonal to two nonparallel vectors.
+Example
+2.35
+Calculating the Cross Product
+Use Properties of the Cross Product to find the magnitude of the cross product of u = 〈
+0 , 4 , 0 〉 u = 〈 0 , 4 , 0 〉 and v = 〈 0 , 0 , −3 〉 . v = 〈 0 , 0 , −3 〉 .
+Solution
+We have
+‖
+u
+×
+v
+‖
+=
+‖
+u
+‖
+·
+‖
+v
+‖
+·
+sin
+θ
+=
+0
+2
++
+4
+2
++
+0
+2
+·
+0
+2
++
+0
+2
++
+(
+−3
+)
+2
+·
+sin
+π
+2
+=
+4
+(
+3
+)
+(
+1
+)
+=
+12.
+‖
+u
+×
+v
+‖
+=
+‖
+u
+‖
+·
+‖
+v
+‖
+·
+sin
+θ
+=
+0
+2
++
+4
+2
++
+0
+2
+·
+0
+2
++
+0
+2
++
+(
+−3
+)
+2
+·
+sin
+π
+2
+=
+4
+(
+3
+)
+(
+1
+)
+=
+12.
+Checkpoint
+2.34
+Use Properties of the Cross Product to find the magnitude of u × v , u × v , where u = 〈
+−8 , 0 , 0 〉 u = 〈 −8 , 0 , 0 〉 and v = 〈 0 , 2 , 0 〉 . v = 〈 0 , 2 , 0 〉 .
+Determinants and the Cross Product
+Using Equation 2.9 to find the cross product of two vectors is straightforward, and it
+presents the cross product in the useful component form. The formula, however, is
+complicated and difficult to remember. Fortunately, we have an alternative. We can
+calculate the cross product of two vectors using determinant notation.
+A 2 × 2 2 × 2 determinant is defined by
+| a 1 a 2 b 1 b 2 | = a 1 b 2 − b 1 a 2 . | a 1 a 2 b 1 b 2 | = a 1 b 2 − b 1 a 2 .
+For example,
+| 3 −2 5 1 | = 3 ( 1 ) − 5 ( −2 ) = 3 + 10 = 13 . | 3 −2 5 1 | = 3 ( 1 ) − 5 ( −2 ) = 3
++ 10 = 13 .
+A 3 × 3 3 × 3 determinant is defined in terms of 2 × 2 2 × 2 determinants as follows:
+| a 1 a 2 a 3 b 1 b 2 b 3 c 1 c 2 c 3 | = a 1 | b 2 b 3 c 2 c 3 | − a 2 | b 1 b 3 c 1 c
+3 | + a 3 | b 1 b 2 c 1 c 2 | . | a 1 a 2 a 3 b 1 b 2 b 3 c 1 c 2 c 3 | = a 1 | b 2 b 3
+c 2 c 3 | − a 2 | b 1 b 3 c 1 c 3 | + a 3 | b 1 b 2 c 1 c 2 | .
+(2.10)
+Equation 2.10 is referred to as the expansion of the determinant along the first row .
+Notice that the multipliers of each of the 2 × 2 2 × 2 determinants on the right side of
+this expression are the entries in the first row of the 3 × 3 3 × 3 determinant.
+Furthermore, each of the 2 × 2 2 × 2 determinants contains the entries from the 3 × 3 3
+× 3 determinant that would remain if you crossed out the row and column containing the
+multiplier. Thus, for the first term on the right, a 1 a 1 is the multiplier, and the 2
+× 2 2 × 2 determinant contains the entries that remain if you cross out the first row
+and first column of the 3 × 3 3 × 3 determinant. Similarly, for the second term, the
+multiplier is a 2 , a 2 , and the 2 × 2 2 × 2 determinant contains the entries that
+remain if you cross out the first row and second column of the 3 × 3 3 × 3 determinant.
+Notice, however, that the coefficient of the second term is negative. The third term can
+be calculated in similar fashion.
+Example
+2.36
+Using Expansion Along the First Row to Compute a 3 × 3 3 × 3 Determinant
+Evaluate the determinant | 2 5 −1 −1 1 3 −2 3 4 | . | 2 5 −1 −1 1 3 −2 3 4 | .
+Solution
+We have
+|
+2
+5
+−1
+−1
+1
+3
+−2
+3
+4
+|
+= 2 | 1 3 3 4 | − 5 | −1 3 −2 4 | − 1 | −1 1 −2 3 |
+=
+2
+(
+4
+−
+9
+)
+−
+5
+(
+−4
++
+6
+)
+−
+1
+(
+−3
++
+2
+)
+=
+2
+(
+−5
+)
+−
+5
+(
+2
+)
+−
+1
+(
+−1
+)
+=
+−10
+−
+10
++
+1
+=
+−19.
+|
+2
+5
+−1
+−1
+1
+3
+−2
+3
+4
+|
+=
+2
+(
+4
+= 2 | 1 3 3 4 | − 5 | −1 3 −2 4 | − 1 | −1 1 −2 3 |
+−
+9
+)
+−
+5
+(
+−4
++
+6
+)
+−
+1
+(
+−3
++
+2
+)
+=
+2
+(
+−5
+)
+−
+5
+(
+2
+)
+−
+1
+(
+−1
+)
+=
+−10
+−
+10
++
+1
+=
+−19.
+Checkpoint
+2.35
+Evaluate the determinant | 1 −2 −1 3 2 −3 1 5 4 | . | 1 −2 −1 3 2 −3 1 5 4 | .
+Technically, determinants are defined only in terms of arrays of real numbers. However,
+the determinant notation provides a useful mnemonic device for the cross product
+formula.
+Rule: Cross Product Calculated by a Determinant
+Let u = 〈 u 1 , u 2 , u 3 〉 u = 〈 u 1 , u 2 , u 3 〉 and v = 〈 v 1 , v 2 , v 3 〉 v =
+〈 v 1 , v 2 , v 3 〉 be vectors. Then the cross product u × v u × v is given by
+u × v = | i j k u 1 u 2 u 3 v 1 v 2 v 3 | = | u 2 u 3 v 2 v 3 | i − | u 1 u 3 v 1 v 3 |
+j + | u 1 u 2 v 1 v 2 | k . u × v = | i j k u 1 u 2 u 3 v 1 v 2 v 3 | = | u 2 u 3 v 2 v
+3 | i − | u 1 u 3 v 1 v 3 | j + | u 1 u 2 v 1 v 2 | k .
+Example
+2.37
+Using Determinant Notation to find p × q p × q
+Let p = 〈 −1 , 2 , 5 〉 p = 〈 −1 , 2 , 5 〉 and q = 〈 4 , 0 , −3 〉 . q = 〈 4 , 0 , −3
+〉 . Find p × q . p × q .
+Solution
+We set up our determinant by putting the standard unit vectors across the first row, the
+components of u u in the second row, and the components of v v in the third row. Then,
+we have
+p × q =
+| i j k −1 2 5 4 0 −3 | = | 2 5 0 −3 | i − | −1 5 4 −3 | j + | −1 2 4 0 | k
+=
+(
+−6
+−
+0
+)
+i
+−
+(
+3
+−
+20
+)
+j
++
+(
+0
+−
+8
+)
+k
+=
+−6
+i
++
+17
+j
+−
+8
+k
+.
+p × q =
+=
+(
+−6
+−
+0
+)
+i
+| i j k −1 2 5 4 0 −3 | = | 2 5 0 −3 | i − | −1 5 4 −3 | j + | −1 2 4 0 | k
+−
+(
+3
+−
+20
+)
+j
++
+(
+0
+−
+8
+)
+k
+=
+−6
+i
++
+17
+j
+−
+8
+k
+.
+Notice that this answer confirms the calculation of the cross product in Example 2.31 .
+Checkpoint
+2.36
+Use determinant notation to find a × b , a × b , where a = 〈 8 , 2 , 3 〉 a = 〈 8 , 2 ,
+3 〉 and b = 〈 −1 , 0 , 4 〉 . b = 〈 −1 , 0 , 4 〉 .
+Using the Cross Product
+The cross product is very useful for several types of calculations, including finding a
+vector orthogonal to two given vectors, computing areas of triangles and parallelograms,
+and even determining the volume of the three-dimensional geometric shape made of
+parallelograms known as a parallelepiped . The following examples illustrate these
+calculations.
+Example
+2.38
+Finding a Unit Vector Orthogonal to Two Given Vectors
+Let a = 〈 5 , 2 , −1 〉 a = 〈 5 , 2 , −1 〉 and b = 〈 0 , −1 , 4 〉 . b = 〈 0 , −1 , 4
+〉 . Find a unit vector orthogonal to both a a and b . b .
+Solution
+The cross product a × b a × b is orthogonal to both vectors a a and b . b . We can
+calculate it with a determinant:
+a × b =
+| i j k 5 2 −1 0 −1 4 | = | 2 −1 −1 4 | i − | 5 −1 0 4 | j + | 5 2 0 −1 | k
+=
+(
+8
+−
+1
+)
+i
+−
+(
+20
+−
+0
+)
+j
++
+(
+−5
+−
+0
+)
+k
+=
+7
+i
+−
+20
+j
+−
+5
+k
+.
+a × b =
+=
+(
+8
+| i j k 5 2 −1 0 −1 4 | = | 2 −1 −1 4 | i − | 5 −1 0 4 | j + | 5 2 0 −1 | k
+−
+1
+)
+i
+−
+(
+20
+−
+0
+)
+j
++
+(
+−5
+−
+0
+)
+k
+=
+7
+i
+−
+20
+j
+−
+5
+Normalize this vector to find a unit vector in the same direction:
+k
+.
+‖
+a
+×
+b
+‖
+=
+(
+7
+)
+2
++
+(
+−20
+)
+2
++
+(
+−5
+)
+2
+=
+474
+.
+‖
+a
+×
+b
+‖
+=
+(
+7
+)
+2
++
+(
+−20
+)
+2
++
+(
+−5
+)
+2
+=
+474
+.
+Thus, 〈 7 474 , −20 474 , −5 474 〉 〈 7 474 , −20 474 , −5 474 〉 is a unit vector
+orthogonal to a a and b . b .
+Checkpoint
+2.37
+Find a unit vector orthogonal to both a a and b , b , where a = 〈 4 , 0 , 3 〉 a = 〈 4
+, 0 , 3 〉 and b = 〈 1 , 1 , 4 〉 . b = 〈 1 , 1 , 4 〉 .
+To use the cross product for calculating areas, we state and prove the following
+theorem.
+Theorem
+2.8
+Area of a Parallelogram
+If we locate vectors u u and v v such that they form adjacent sides of a parallelogram,
+then the area of the parallelogram is given by ‖ u × v ‖ ‖ u × v ‖ ( Figure 2.57 ).
+Figure
+2.57
+The parallelogram with adjacent sides u u and v v has base ‖ u ‖ ‖ u ‖ and height ‖ v ‖
+sin θ . ‖ v ‖ sin θ .
+Proof
+We show that the magnitude of the cross product is equal to the base times height of the
+parallelogram.
+Area of a parallelogram = base × height = ‖ u ‖ ( ‖ v ‖ sin θ ) = ‖ u × v ‖ Area of a
+parallelogram = base × height = ‖ u ‖ ( ‖ v ‖ sin θ ) = ‖ u × v ‖
+□
+Example
+2.39
+Finding the Area of a Triangle
+Let P = ( 1 , 0 , 0 ) , Q = ( 0 , 1 , 0 ) , and R = ( 0 , 0 , 1 ) P = ( 1 , 0 , 0 ) , Q
+= ( 0 , 1 , 0 ) , and R = ( 0 , 0 , 1 ) be the vertices of a triangle ( Figure 2.58 ).
+Find its area.
+Figure
+2.58
+Finding the area of a triangle by using the cross product.
+Solution
+We have P Q → = 〈 0 − 1 , 1 − 0 , 0 − 0 〉 = 〈 −1 , 1 , 0 〉 P Q → = 〈 0 − 1 , 1 − 0 ,
+0 − 0 〉 = 〈 −1 , 1 , 0 〉 and P R → = 〈 0 − 1 , 0 − 0 , 1 − 0 〉 = 〈 −1 , 0 , 1 〉 . P
+R → = 〈 0 − 1 , 0 − 0 , 1 − 0 〉 = 〈 −1 , 0 , 1 〉 . The area of the parallelogram with
+adjacent sides P Q → P Q → and P R → P R → is given by ‖ P Q → × P R → ‖ : ‖ P Q → × P R
+→ ‖ :
+P
+Q
+→
+×
+P
+R
+→
+=
+| i j k −1 1 0 −1 0 1 |
+=
+(
+1
+−
+0
+)
+i
+−
+(
+−1
+−
+0
+)
+j
++
+(
+0
+−
+(
+−1
+)
+)
+k
+=
+i
++
+j
++
+k
+‖
+P
+Q
+→
+×
+P
+R
+→
+‖
+=
+‖
+〈
+1
+,
+1
+,
+1
+〉
+‖
+=
+1
+2
++
+1
+2
++
+1
+2
+=
+3
+.
+P
+Q
+→
+×
+P
+R
+→
+=
+=
+(
+1
+−
+0
+)
+i
+| i j k −1 1 0 −1 0 1 |
+−
+(
+−1
+−
+0
+)
+j
++
+(
+0
+−
+(
+−1
+)
+)
+k
+=
+i
++
+j
++
+k
+‖
+P
+Q
+→
+×
+P
+R
+→
+‖
+=
+‖
+〈
+1
+,
+1
+,
+1
+〉
+‖
+=
+1
+2
++
+1
+2
++
+1
+2
+=
+3
+.
+The area of Δ P Q R Δ P Q R is half the area of the parallelogram, or 3 / 2 . 3 / 2 .
+Checkpoint
+2.38
+Find the area of the parallelogram P Q R S P Q R S with vertices P ( 1 , 1 , 0 ) , Q ( 7
+, 1 , 0 ) , R ( 9 , 4 , 2 ) , P ( 1 , 1 , 0 ) , Q ( 7 , 1 , 0 ) , R ( 9 , 4 , 2 ) , and
+S ( 3 , 4 , 2 ) . S ( 3 , 4 , 2 ) .
+The Triple Scalar Product
+Because the cross product of two vectors is a vector, it is possible to combine the dot
+product and the cross product. The dot product of a vector with the cross product of two
+other vectors is called the triple scalar product because the result is a scalar.
+Definition
+The triple scalar product of vectors u , u , v , v , and w w is u · ( v × w ) . u · ( v
+× w ) .
+Theorem
+2.9
+Calculating a Triple Scalar Product
+The triple scalar product of vectors u = u 1 i + u 2 j + u 3 k , u = u 1 i + u 2 j + u 3
+k , v = v 1 i + v 2 j + v 3 k , v = v 1 i + v 2 j + v 3 k , and w = w 1 i + w 2 j + w 3
+k w = w 1 i + w 2 j + w 3 k is the determinant of the 3 × 3 3 × 3 matrix formed by the
+components of the vectors:
+u · ( v × w ) = | u 1 u 2 u 3 v 1 v 2 v 3 w 1 w 2 w 3 | . u · ( v × w ) = | u 1 u 2 u 3
+v 1 v 2 v 3 w 1 w 2 w 3 | .
+Proof
+The calculation is straightforward.
+u · ( v × w ) = 〈 u 1 , u 2 , u 3 〉 · 〈 v 2 w 3 − v 3 w 2 , − v 1 w 3 + v 3 w 1 , v 1
+w 2 − v 2 w 1 〉 = u 1 ( v 2 w 3 − v 3 w 2 ) + u 2 ( − v 1 w 3 + v 3 w 1 ) + u 3 ( v 1 w
+2 − v 2 w 1 ) = u 1 ( v 2 w 3 − v 3 w 2 ) − u 2 ( v 1 w 3 − v 3 w 1 ) + u 3 ( v 1 w 2 −
+v 2 w 1 ) = | u 1 u 2 u 3 v 1 v 2 v 3 w 1 w 2 w 3 | u · ( v × w ) = 〈 u 1 , u 2 , u 3 〉
+· 〈 v 2 w 3 − v 3 w 2 , − v 1 w 3 + v 3 w 1 , v 1 w 2 − v 2 w 1 〉 = u 1 ( v 2 w 3 − v 3
+w 2 ) + u 2 ( − v 1 w 3 + v 3 w 1 ) + u 3 ( v 1 w 2 − v 2 w 1 ) = u 1 ( v 2 w 3 − v 3 w
+2 ) − u 2 ( v 1 w 3 − v 3 w 1 ) + u 3 ( v 1 w 2 − v 2 w 1 ) = | u 1 u 2 u 3 v 1 v 2 v 3
+w 1 w 2 w 3 |
+□
+Example
+2.40
+Calculating the Triple Scalar Product
+Let u = 〈 1 , 3 , 5 〉 , v = 〈 2 , −1 , 0 〉 and w = 〈 −3 , 0 , −1 〉 . u = 〈 1 , 3 , 5
+〉 , v = 〈 2 , −1 , 0 〉 and w = 〈 −3 , 0 , −1 〉 . Calculate the triple scalar product
+u · ( v × w ) . u · ( v × w ) .
+Solution
+Apply Calculating a Triple Scalar Product directly:
+u
+·
+(
+v
+×
+w
+)
+=
+=
+(
+1
+| 1 3 5 2 −1 0 −3 0 −1 |
+= 1 | −1 0 0 −1 | − 3 | 2 0 −3 −1 | + 5 | 2 −1 −3 0 |
+−
+0
+)
+−
+3
+(
+−2
+−
+0
+)
++
+5
+(
+0
+−
+3
+)
+=
+1
++
+6
+−
+15
+=
+−8
+.
+u
+·
+(
+v
+×
+w
+)
+=
+=
+(
+1
+| 1 3 5 2 −1 0 −3 0 −1 |
+= 1 | −1 0 0 −1 | − 3 | 2 0 −3 −1 | + 5 | 2 −1 −3 0 |
+−
+0
+)
+−
+3
+(
+−2
+−
+0
+)
++
+5
+(
+0
+−
+3
+)
+=
+1
++
+6
+−
+15
+=
+−8
+.
+Checkpoint
+2.39
+Calculate the triple scalar product a · ( b × c ) , a · ( b × c ) , where a = 〈 2 , −4 ,
+1 〉 , a = 〈 2 , −4 , 1 〉 , b = 〈 0 , 3 , −1 〉 , b = 〈 0 , 3 , −1 〉 , and c = 〈 5 ,
+−3 , 3 〉 . c = 〈 5 , −3 , 3 〉 .
+When we create a matrix from three vectors, we must be careful about the order in which
+we list the vectors. If we list them in a matrix in one order and then rearrange the
+rows, the absolute value of the determinant remains unchanged. However, each time two
+rows switch places, the determinant changes sign:
+| a 1 a 2 a 3 b 1 b 2 b 3 c 1 c 2 c 3 | = d | b 1 b 2 b 3 a 1 a 2 a 3 c 1 c 2 c 3 | = −
+d | b 1 b 2 b 3 c 1 c 2 c 3 a 1 a 2 a 3 | = d | c 1 c 2 c 3 b 1 b 2 b 3 a 1 a 2 a 3 | =
+− d . | a 1 a 2 a 3 b 1 b 2 b 3 c 1 c 2 c 3 | = d | b 1 b 2 b 3 a 1 a 2 a 3 c 1 c 2 c 3
+| = − d | b 1 b 2 b 3 c 1 c 2 c 3 a 1 a 2 a 3 | = d | c 1 c 2 c 3 b 1 b 2 b 3 a 1 a 2 a
+3 | = − d .
+Verifying this fact is straightforward, but rather messy. Let’s take a look at this with
+an example:
+| 1 2 1 −2 0 3 4 1 −1 | = | 0 3 1 −1 | − 2 | −2 3 4 −1 | + | −2
+=== END SOURCE PAGE ===

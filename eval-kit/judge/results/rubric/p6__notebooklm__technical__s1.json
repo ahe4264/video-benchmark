@@ -1,0 +1,65 @@
+{
+  "topic": "p6",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:24:24.205Z",
+  "seconds": 44,
+  "result": {
+    "evidence": "At 1:46, a table intended to define variables shows a rho symbol, but the cells for h(x) and w(x) only contain placeholder-like symbols instead of the variable names the narrator introduces. At 2:45, a screen displaying the system's generation prompt and source textbook page appears for over 20 seconds, rather than a standard lesson slide.",
+    "issues": [
+      {
+        "timestamp": "1:46",
+        "description": "Table cells for variables h(x) and w(x) are missing text, showing only placeholder symbols.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "2:45",
+        "description": "The video displays the system's generation prompt and source textbook page instead of intended lesson content.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson contains one major rendering problem (displaying the prompt) and one minor one (missing text in a table), which fits the description for level 4.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 115406,
+    "candidatesTokenCount": 250,
+    "totalTokenCount": 117506,
+    "cachedContentTokenCount": 119538,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114437
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 106524
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12672
+      }
+    ],
+    "thoughtsTokenCount": 1850,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 121604
+  }
+}

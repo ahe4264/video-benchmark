@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:03.220Z",
+  "seconds": 60,
+  "result": {
+    "evidence": "0:00-0:13: Intro states this is a 'Lesson Design Presentation'. 0:14-3:48: Discusses lesson framework, experimental setting, and ablation studies rather than teaching the algorithm.",
+    "score_reason": "The video is a meta-presentation about lesson design, not a lesson on insertion sort. It fails to teach the topic to a newcomer. Meets the lowest level, compressed toward the center.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 69691,
+    "candidatesTokenCount": 110,
+    "totalTokenCount": 70530,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68966
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "thoughtsTokenCount": 729,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73486
+  }
+}

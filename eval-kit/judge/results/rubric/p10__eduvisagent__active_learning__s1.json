@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:20:54.828Z",
+  "seconds": 291,
+  "result": {
+    "evidence": "0:05: The lesson requires a prediction before showing the result.\n0:46: The learner reflects on their initial prediction.\n0:55: An open-ended question asks the learner to explain an assumption.\n1:58, 3:34: Predictions are required before interacting with sliders.\n4:15: Hands-on slider exploration is paired with an explanation question.\n4:16: The learner practices error analysis.\n5:25+: A near-transfer task requires applying concepts to a new scenario.\n9:27: A Claim-Evidence-Reasoning task asks the learner to construct an argument.\n9:31: A prediction includes a confidence rating and justification.\n9:55+: A far-transfer capstone task applies concepts to molecule interference.\n15:56: A hands-on design trade-off sandbox allows for exploration.\n16:26+: A dedicated misconception clinic and error analysis section.\n19:06+: Retrieval practice at the end of the lesson.",
+    "score_reason": "The lesson fully meets the top level by requiring the learner to do the key reasoning at every main step, including predicting before exploring, applying concepts to near and far transfer tasks, constructing arguments, and explicitly addressing misconceptions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 348158,
+    "candidatesTokenCount": 292,
+    "totalTokenCount": 350028,
+    "cachedContentTokenCount": 354347,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347424
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354004
+      }
+    ],
+    "thoughtsTokenCount": 1578,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 357846
+  }
+}

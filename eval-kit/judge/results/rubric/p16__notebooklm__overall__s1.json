@@ -1,0 +1,53 @@
+{
+  "topic": "p16",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:08.699Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:00-1:45: The lesson begins by discussing a 'source document' and a 'prompt' for creating a video, which is irrelevant to the chemistry topic.\n1:46-2:49: Explains steric bulk using a crowded room analogy and constructs a chiral center.\n2:50-4:10: Demonstrates how increasing the R group's size (methyl to tert-butyl) restricts the nucleophile's attack angle.\n4:11-4:49: Explains the backside attack and the resulting inversion of configuration (S to R) using an umbrella analogy.\n4:50-6:00: Returns to discussing the constraints of the 'prompt' (e.g., keeping labels legible).",
+    "score_reason": "The lesson meets the Competent level. It covers the core ideas of steric bulk and inversion correctly and uses helpful analogies. However, it is kept from a higher level by the bizarre meta-narrative framing; spending significant time discussing a 'prompt' for creating a video is highly distracting and irrelevant for a student trying to learn chemistry.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 105920,
+    "candidatesTokenCount": 255,
+    "totalTokenCount": 107764,
+    "cachedContentTokenCount": 109910,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105192
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 728
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 97916
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 11648
+      }
+    ],
+    "thoughtsTokenCount": 1589,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 111492
+  }
+}

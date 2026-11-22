@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:28:08.577Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "The video is a continuous presentation. It includes rhetorical questions like \"What if cars ran on hydrogen...?\" (0:23) and \"why does all this... matter?\" (3:30). There are no interactive prompts, quizzes, or required learner actions.",
+    "score_reason": "Meets Level 2 by using only rhetorical questions without any genuine checks for understanding or active participation. Fails to meet Level 3 due to the lack of interactive checks and feedback.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 82814,
+    "candidatesTokenCount": 117,
+    "totalTokenCount": 84653,
+    "cachedContentTokenCount": 85827,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82080
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 76396
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9088
+      }
+    ],
+    "thoughtsTokenCount": 1722,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 87273
+  }
+}

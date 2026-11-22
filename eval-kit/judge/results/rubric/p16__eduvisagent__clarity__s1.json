@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:22:41.719Z",
+  "seconds": 54,
+  "result": {
+    "evidence": "0:00-1:27: The lesson starts with a doorway analogy, asks for a prediction, and then provides visual evidence via the R-group sweep. 0:32: The concept of 'open aperture' is clearly visualized before being graphed. 0:41: The inversion mechanism is shown step-by-step. 8:03: Scaffolded practice breaks down the process of assigning R/S after inversion. The overall progression from analogy to evidence to practice to transfer is highly structured.",
+    "score_reason": "The lesson is logical and step-by-step throughout. Each new element follows from the last, with clear visual motivation for the concepts. It fully meets the description for Level 6, but is scored a 5 due to the requested scale compression.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 323829,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 325492,
+    "cachedContentTokenCount": 329602,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323136
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 329256
+      }
+    ],
+    "thoughtsTokenCount": 1479,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332873
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:56.521Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "0:16: Rapidly introduces Bohr's model, classical momentum, and wave interference.\n0:35: Presents de Broglie wavelength, Davisson-Germer, and Heisenberg uncertainty on one slide. Uses h-bar without explanation.\n1:07: Relies on static screenshots to describe a visual model instead of showing the process.\n1:43: Quickly introduces the two-slit relation equation.\n2:37: Shows the Schrodinger equation without introducing the terms.",
+    "score_reason": "The main idea is present, but key steps are skipped and complex concepts are used before being explained. The screen shows too much at once, keeping it from higher levels.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 69363,
+    "candidatesTokenCount": 163,
+    "totalTokenCount": 71588,
+    "cachedContentTokenCount": 68547,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68673
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60652
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7552
+      }
+    ],
+    "thoughtsTokenCount": 2062,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73143
+  }
+}

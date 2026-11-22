@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:28.672Z",
+  "seconds": 41,
+  "result": {
+    "evidence": "0:00-3:23: Passive presentation with no learner interaction. 3:23: A 'Prediction Challenge' is introduced. 3:32: Multiple-choice options (5, 4, 3, 1) appear for the prompt 'Predict: staircase pushed from 4 m to 12 m.' The automated player clicks through options until selecting the correct one (1). 3:36: A brief mathematical explanation appears as feedback.",
+    "score_reason": "The lesson contains a single genuine check that asks the learner to predict, with right/wrong feedback. It falls short of Level 4 because it lacks a broader set of checks (such as recall questions) throughout the lesson, offering only one interaction at the very end.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 60928,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 64086,
+    "cachedContentTokenCount": 61677,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60192
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 736
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61332
+      }
+    ],
+    "thoughtsTokenCount": 2980,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63000
+  }
+}

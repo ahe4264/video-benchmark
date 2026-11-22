@@ -1,0 +1,54 @@
+{
+  "topic": "p16",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:42:25.168Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "Watched the entire video. No layout, rendering, playback, or audio issues were observed. All text and graphics are legible and properly placed. Animations are smooth and sync with narration.",
+    "issues": [],
+    "score_reason": "The lesson has no visible technical problems, meeting the criteria for the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 106165,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 106952,
+    "cachedContentTokenCount": 109910,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 973
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105192
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 97916
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 11648
+      }
+    ],
+    "thoughtsTokenCount": 705,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 111915
+  }
+}

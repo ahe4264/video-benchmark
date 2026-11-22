@@ -1,0 +1,116 @@
+Interaction log: 112 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 10 of 112 inputs produced no visible change; 0 raised a page error.
+
+0:16  part 1  clicked button "Predict 0:15–0:25" -> screen changed
+0:20  part 1  selected choice "faster" -> screen changed
+0:24  part 1  selected choice "even" -> screen changed
+0:28  part 1  selected choice "same" -> screen changed
+0:31  part 1  clicked button "R-group sweep 1:50–3:00" -> screen changed
+0:41  part 1  clicked button "Exit check ≈20 s" -> screen changed
+0:45  part 1  picked an option in a drop-down -> screen changed
+0:48  part 1  selected choice "1" -> screen changed
+0:52  part 1  selected choice "1" -> screen changed
+0:56  part 1  selected choice "1" -> screen changed
+0:59  part 1  clicked button "Check" -> screen changed
+1:03  part 1  clicked button "Submit ratings" -> screen changed
+1:16  part 1  selected choice "2" -> screen changed
+1:20  part 1  selected choice "2" -> screen changed
+1:23  part 1  selected choice "2" -> screen changed
+1:27  part 1  clicked button "· Hook 0:00–0:15" -> screen changed
+1:31  part 1  clicked button "Q1 · Rate" -> screen changed
+1:34  part 1  clicked button "Q2 · Structure" -> screen changed
+1:48  part 1  selected choice "slower" -> screen changed
+1:52  part 1  selected choice "uneven" -> screen changed
+1:55  part 1  selected choice "opposite" -> screen changed
+1:59  part 1  clicked button "Lock in my predictions" -> screen changed
+2:03  part 1  clicked button "· Care + Concrete 0:25–1:10" -> screen changed
+2:06  part 1  clicked button "· Setup · F.O.P.S. 1:10–1:50" -> screen changed
+2:10  part 1  clicked button "· Mechanism 3:00–4:00" -> screen changed
+2:14  part 1  clicked button "Next frame ▸" -> screen changed
+7:45  part 2  ticked a checkbox -> screen changed
+7:48  part 2  ticked a checkbox -> no visible change
+7:52  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+8:03  part 2  clicked button "Explore" -> screen changed
+8:07  part 2  clicked button "Check step" -> screen changed
+8:11  part 2  clicked button "Watch" -> screen changed
+8:14  part 2  clicked button "▶ Play" -> screen changed
+8:24  part 2  clicked button "Show me why it's S" -> screen changed
+8:28  part 2  clicked button "Q1 · RATE" -> screen changed
+8:32  part 2  clicked button "Q2 · STRUCTURE" -> screen changed
+8:47  part 2  clicked button "Next step ▸" -> screen changed
+8:51  part 2  clicked button "Next step ▸" -> screen changed
+8:55  part 2  clicked button "Next step ▸" -> screen changed
+8:59  part 2  clicked button "Next step ▸" -> screen changed
+9:04  part 2  clicked button "Next step ▸" -> screen changed
+9:08  part 2  clicked button "Next step ▸" -> screen changed
+9:12  part 2  clicked button "I Do" -> screen changed
+9:16  part 2  clicked button "We Do" -> screen changed
+9:21  part 2  picked an option in a drop-down -> screen changed
+9:25  part 2  picked an option in a drop-down -> screen changed
+9:29  part 2  picked an option in a drop-down -> screen changed
+9:33  part 2  picked an option in a drop-down -> screen changed
+9:46  part 2  picked an option in a drop-down -> screen changed
+9:50  part 2  picked an option in a drop-down -> screen changed
+9:54  part 2  picked an option in a drop-down -> screen changed
+9:58  part 2  selected choice "a" -> screen changed
+10:21  part 3  picked an option in a drop-down -> no visible change
+10:25  part 3  picked an option in a drop-down -> no visible change
+10:29  part 3  picked an option in a drop-down -> no visible change
+10:32  part 3  picked an option in a drop-down -> screen changed
+10:36  part 3  picked an option in a drop-down -> no visible change
+10:40  part 3  picked an option in a drop-down -> no visible change
+10:43  part 3  picked an option in a drop-down -> no visible change
+10:47  part 3  picked an option in a drop-down -> no visible change
+10:50  part 3  picked an option in a drop-down -> no visible change
+10:54  part 3  picked an option in a drop-down -> screen changed
+10:58  part 3  clicked button "⑦ Check yourself" -> screen changed
+11:02  part 3  clicked button "① Map" -> screen changed
+11:15  part 3  clicked button "Next step →" -> screen changed
+11:19  part 3  clicked button "Next step →" -> screen changed
+11:23  part 3  clicked button "Reveal next line" -> screen changed
+11:26  part 3  clicked button "Reveal next line" -> screen changed
+11:30  part 3  clicked button "Reveal next line" -> screen changed
+11:34  part 3  clicked button "Reveal next line" -> screen changed
+11:38  part 3  clicked button "Reveal next line" -> screen changed
+11:42  part 3  clicked button "② Strategy" -> screen changed
+11:45  part 3  clicked button "Next step →" -> screen changed
+11:49  part 3  clicked button "③ (a) Ranking" -> screen changed
+11:53  part 3  clicked button "④ (b) Label" -> screen changed
+12:06  part 3  clicked button "Place the \\ce 𝐶 𝑁 \\ceCN chip →" -> screen changed
+12:10  part 3  clicked button "Place the \\ce 𝐶 𝑁 \\ceCN chip →" -> screen changed
+12:14  part 3  clicked button "Place the \\ce 𝐶 𝑁 \\ceCN chip →" -> screen changed
+12:17  part 3  clicked button "Place the \\ce 𝐶 𝑁 \\ceCN chip →" -> screen changed
+12:21  part 3  clicked button "Place the \\ce 𝐶 𝑁 \\ceCN chip →" -> screen changed
+12:25  part 3  clicked button "Place the \\ce 𝐶 𝑁 \\ceCN chip →" -> screen changed
+12:29  part 3  clicked button "⑤ (c) Debate" -> screen changed
+12:33  part 3  clicked button "Need a hint?" -> screen changed
+14:56  part 4  clicked button "⑦ Check yourself" -> screen changed
+15:00  part 4  clicked button "Diagnose my answers" -> screen changed
+15:03  part 4  clicked button "Sphere-coverage explorer" -> screen changed
+15:28  part 5  clicked button "Next claim →" -> screen changed
+15:32  part 5  clicked button "Next claim →" -> screen changed
+15:36  part 5  clicked button "Next claim →" -> screen changed
+15:39  part 5  clicked button "Next claim →" -> screen changed
+15:43  part 5  clicked button "Next claim →" -> screen changed
+15:46  part 5  clicked button "Next claim →" -> screen changed
+15:50  part 5  clicked button "" -> screen changed
+15:54  part 5  clicked button "① Routine" -> screen changed
+15:58  part 5  clicked button "② I Do" -> screen changed
+16:02  part 5  typed a written answer into the box "try “heavier”, “can’t react”, “clockwise”, “longer”…" -> screen changed
+16:11  part 5  clicked button "✗ ③ “Gap nearly closed → no reaction.”" -> screen changed
+16:24  part 5  clicked button "Drawing" -> no visible change
+16:34  part 5  clicked button "Show" -> screen changed
+16:38  part 5  clicked button "All" -> screen changed
+16:41  part 5  clicked button "Q1 · Rate" -> screen changed
+16:45  part 5  clicked button "Q2 · Structure" -> screen changed
+19:23  part 6  typed a written answer into the box "What controls how fast SN2 goes?" -> screen changed
+19:30  part 6  typed a written answer into the box "Which way does the molecule turn, and why?" -> screen changed
+19:36  part 6  typed a written answer into the box "How do you get R or S right?" -> screen changed
+19:44  part 6  ticked a checkbox -> screen changed
+19:48  part 6  ticked a checkbox -> screen changed
+19:52  part 6  clicked button "Mark ② + ②b committed" -> screen changed
+19:55  part 6  clicked button "Commit my three lines" -> screen changed
+19:59  part 6  clicked button "Commit and reveal the summary" -> screen changed
+20:03  part 6  clicked button "Student" -> screen changed
+20:07  part 6  clicked button "Producer" -> screen changed

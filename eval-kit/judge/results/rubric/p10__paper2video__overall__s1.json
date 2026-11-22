@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:26:51.794Z",
+  "seconds": 20,
+  "result": {
+    "evidence": "0:00: Title slide indicates a presentation by a 'Lesson Design Team'.\n0:16: Discusses lesson design differentiation rather than teaching the concept.\n0:50-1:43: Describes methods for scenes 1-6 (e.g., 'The Hook', 'Element-by-Element Construction') instead of delivering the content.\n2:00: Shows a table of the 'Scene plan of the narrated lesson'.\n2:53: Discusses 'Ablation: Role of Key Lesson Modules'.",
+    "score_reason": "The video is a presentation about how to design a lesson on the topic, rather than an actual lesson teaching the topic. It is mostly off-topic for a learner, fully meeting the lowest level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 69398,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 70368,
+    "cachedContentTokenCount": 68547,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68673
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60652
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7552
+      }
+    ],
+    "thoughtsTokenCount": 789,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73178
+  }
+}

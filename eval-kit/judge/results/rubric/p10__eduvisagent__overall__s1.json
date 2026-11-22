@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:10:30.569Z",
+  "seconds": 71,
+  "result": {
+    "evidence": "The lesson employs a highly interactive and structured approach to teach wave-particle duality. It begins with a clear hook comparing particle and wave predictions using visual analogies (0:05). It utilizes interactive simulations to demonstrate the effects of changing variables like slit separation (1:57). The concepts are applied to historical data (Davisson-Germer, 5:15) and modern experiments (C60 molecules, 9:56). The lesson includes extensive scaffolded practice, error analysis (16:26), and retrieval exercises (19:06).",
+    "score_reason": "The lesson fully meets the top level. It is an exceptional model of interactive instruction, combining clear explanations, powerful simulations, and rigorous practice that progresses from basic understanding to complex far-transfer tasks.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 348149,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 349797,
+    "cachedContentTokenCount": 354347,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347424
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354004
+      }
+    ],
+    "thoughtsTokenCount": 1466,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 357837
+  }
+}

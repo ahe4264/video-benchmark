@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:49:26.053Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "1:22-2:20: The learner explores the effect of changing focal lengths f1 and f2 on the output angle and magnification.\n2:20-2:58: The learner drags the input angle to see how the output angle changes.\n2:58-3:46: The learner moves Lens 2 to explore the effect of lens separation on the output beam.\n3:46-4:28: A prediction challenge asks the learner to calculate L and the output angle, followed by feedback showing the correct derivation.",
+    "score_reason": "The lesson includes hands-on exploration and prediction at most key steps. It does not reach the top level because the feedback provides the correct derivation rather than addressing the learner's specific answer or misconceptions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 73332,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 74836,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1322,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75733
+  }
+}

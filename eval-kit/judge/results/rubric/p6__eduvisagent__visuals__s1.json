@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:03:59.453Z",
+  "seconds": 119,
+  "result": {
+    "evidence": "The lesson relies heavily on dynamic, interactive visuals. At 0:02, a dual-panel view shows the side profile (depth) and front view (width). At 0:27, pressure arrows appear, visually mapping P = \\rho h. At 1:00, a sweeping level line connects the two panels, showing how pressure and width change simultaneously with depth. At 3:44, the concept of integration is shown by slicing the shape into strips, with the error between the exact shape and rectangular approximation clearly visualized in magenta and teal. At 4:08, a slider increases the number of strips, visually demonstrating the error shrinking to zero. This visual schema is consistently applied to transfer tasks, such as a circular porthole (7:12) and a city district map (10:58).",
+    "score_reason": "The visuals carry the explanation entirely. A student could follow the core concept of slicing, approximating, and summing to a limit almost exclusively through the dynamic graphics. The visuals are crisp, consistent, and directly represent the mathematical relationships.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 320464,
+    "candidatesTokenCount": 244,
+    "totalTokenCount": 322009,
+    "cachedContentTokenCount": 326101,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 319704
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 325759
+      }
+    ],
+    "thoughtsTokenCount": 1301,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 329417
+  }
+}

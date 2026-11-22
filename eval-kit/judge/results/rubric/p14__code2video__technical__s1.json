@@ -1,0 +1,106 @@
+{
+  "topic": "p14",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:21.784Z",
+  "seconds": 94,
+  "result": {
+    "evidence": "Throughout the video, multiple text elements are rendered twice with a slight offset, causing a garbled or bolded appearance. At 03:26, a formula has overlapping text that is unreadable.",
+    "issues": [
+      {
+        "timestamp": "00:30",
+        "description": "Text 'How can one architecture...' is double-rendered and overlapping.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "03:11",
+        "description": "Text 'skips carry...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "03:26",
+        "description": "'sin' and 'cos' overlap unreadably in the formula.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "03:42",
+        "description": "Text 'weights fixed...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "03:50",
+        "description": "Text 'frequency map...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:01",
+        "description": "Text 'one shared network...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:09",
+        "description": "Text 'residual block...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:14",
+        "description": "Text '9 connections...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:24",
+        "description": "Text '256 x 256...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "04:47",
+        "description": "Text 'check consistency...' is double-rendered.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "05:36",
+        "description": "Text 'Text conditioning...' is double-rendered.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson fully meets level 4 because it contains one major problem (an unreadable overlap in a formula) and many minor rendering glitches throughout.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 91522,
+    "candidatesTokenCount": 582,
+    "totalTokenCount": 95986,
+    "cachedContentTokenCount": 92610,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 90552
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 92267
+      }
+    ],
+    "thoughtsTokenCount": 3882,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 94577
+  }
+}

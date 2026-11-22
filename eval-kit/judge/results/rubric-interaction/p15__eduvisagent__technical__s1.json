@@ -1,0 +1,86 @@
+{
+  "topic": "p15",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:07:24.905Z",
+  "seconds": 126,
+  "result": {
+    "evidence": "At 0:01, the title contains unrendered LaTeX delimiters '\\(L(G)\\)'. At 0:16, the Notation panel contains unrendered LaTeX macros like '\\in' and '\\times'. At 0:49, the unrendered LaTeX macro '\\rightleftharpoons' is visible. At 6:06, unrendered LaTeX macros '\\times' and '^\\top' are visible. At 6:29, the unrendered LaTeX macro '\\binom{5}{2}' is visible. At 13:25, the unrendered LaTeX macro '\\binom{deg u}{2}' is visible. At 13:54, the 'Progress routing' dropdown is clicked but does not respond. At 17:01, unrendered LaTeX macros '\\sum' and '\\binom{load(r)}{2}' are visible. At 17:20, the unrendered LaTeX macro '\\simeq' is visible.",
+    "issues": [
+      {
+        "timestamp": "0:01",
+        "description": "The title shows raw LaTeX delimiters '\\(L(G)\\)' instead of rendered math.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "0:16",
+        "description": "The Notation panel shows raw LaTeX code like '\\in' and '\\{0, 1\\}^{4 \\times 5}'.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "0:49",
+        "description": "Raw LaTeX code '\\rightleftharpoons' is shown instead of a symbol.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "6:06",
+        "description": "Raw LaTeX code '\\times' and '^\\top' are shown instead of symbols.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "6:29",
+        "description": "Raw LaTeX code '\\binom{5}{2}' is shown instead of a formatted binomial coefficient.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "13:25",
+        "description": "Raw LaTeX code '\\binom{deg u}{2}' is shown instead of a formatted binomial coefficient.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "13:54",
+        "description": "The 'Progress routing' dropdown is clicked but does not open or respond.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "17:01",
+        "description": "Raw LaTeX code '\\sum' and '\\binom{load(r)}{2}' are shown instead of formatted math.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "17:20",
+        "description": "Raw LaTeX code '\\simeq' is shown instead of a symbol.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has several major rendering problems where raw LaTeX code is displayed instead of formatted math, occurring in multiple places throughout the lesson.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 360398,
+    "candidatesTokenCount": 708,
+    "totalTokenCount": 366964,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 356400
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 3998
+      }
+    ],
+    "thoughtsTokenCount": 5858,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 370327
+  }
+}

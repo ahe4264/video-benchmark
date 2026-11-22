@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:55.650Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:01-0:39: Hook uses simple animations to show shrinking/expanding for different scales.\n0:40-1:18: Pixel grids clearly illustrate convolution receptive fields.\n1:19-1:58: U-Net architecture is built step-by-step, showing dimensions.\n1:59-2:37: Encoder pass visually demonstrates trading spatial resolution for channels using a cat graphic.\n2:38-3:15: Skip connections are shown by zooming into the architecture; visual comparison of output with/without skips.\n3:16-4:05: Timestep sweep uses a slider, showing changing predicted noise and frequency maps.\n4:06-4:59: Self-attention is contrasted with convolution using grid connections and an attention matrix.\n5:00-5:42: Final summary diagram integrates all components.",
+    "score_reason": "The visuals carry the explanation, are crisp, consistent, and dynamically show key relationships. A student could follow much of the idea from the graphics alone. This meets the top level, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 91313,
+    "candidatesTokenCount": 259,
+    "totalTokenCount": 92645,
+    "cachedContentTokenCount": 92610,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 90552
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 92267
+      }
+    ],
+    "thoughtsTokenCount": 1073,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 94190
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p3",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:04:19.090Z",
+  "seconds": 50,
+  "result": {
+    "evidence": "0:02: The lesson opens with a 'prediction sketch' that poses a puzzle and creates pull. 1:20: An interactive slider provides visual variety. 1:53-2:52, 2:53-4:40, and 6:10-7:53: These sections consist of long, repetitive stretches of filling in tables and forms. 4:40: A visual demonstration provides a moment of insight.",
+    "score_reason": "The lesson fully meets Level 4. It has a clear opening with pull and holds attention through interactive elements, but it contains significant flat, repetitive stretches of data entry. It does not move at a good pace to meet Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 150864,
+    "candidatesTokenCount": 171,
+    "totalTokenCount": 152933,
+    "cachedContentTokenCount": 153403,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 150216
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153061
+      }
+    ],
+    "thoughtsTokenCount": 1898,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 155323
+  }
+}

@@ -1,0 +1,27 @@
+
+rubric: 18 calls (6 metrics), 0 already done, running 18
+cache p20/eduvisagent: 309422 tokens
+cache p19/eduvisagent: 347086 tokens
+cache p18/eduvisagent: 336868 tokens
+done p19__eduvisagent__overall__s1.json: 6/7 (341023 in, 347086 cached, 47s)
+done p18__eduvisagent__overall__s1.json: 6/7 (330995 in, 336868 cached, 40s)
+done p20__eduvisagent__overall__s1.json: 6/7 (304059 in, 309422 cached, 96s)
+done p19__eduvisagent__visuals__s1.json: 6/7 (341059 in, 347086 cached, 53s)
+done p18__eduvisagent__visuals__s1.json: 6/7 (331031 in, 336868 cached, 67s)
+done p19__eduvisagent__clarity__s1.json: 5/7 (340988 in, 347086 cached, 35s)
+done p20__eduvisagent__visuals__s1.json: 6/7 (304095 in, 309422 cached, 54s)
+done p19__eduvisagent__technical__s1.json: 3/7 (341268 in, 347086 cached, 65s)
+done p19__eduvisagent__engagement__s1.json: 5/7 (340947 in, 347086 cached, 98s)
+done p19__eduvisagent__active_learning__s1.json: 6/7 (341032 in, 347086 cached, 41s)
+progress: 10/18 attempted, 0 failed
+done p20__eduvisagent__clarity__s1.json: 6/7 (304024 in, 309422 cached, 274s)
+[p18__eduvisagent__clarity__s1.json] TypeError; retry 1 in 5s
+done p20__eduvisagent__technical__s1.json: 7/7 (304304 in, 309422 cached, 99s)
+done p20__eduvisagent__engagement__s1.json: 4/7 (303983 in, 309422 cached, 98s)
+done p18__eduvisagent__clarity__s1.json: 5/7 (330960 in, 336868 cached, 526s)
+done p20__eduvisagent__active_learning__s1.json: 6/7 (304068 in, 309422 cached, 56s)
+progress: 15/18 attempted, 0 failed
+done p18__eduvisagent__technical__s1.json: 6/7 (331240 in, 336868 cached, 91s)
+done p18__eduvisagent__engagement__s1.json: 4/7 (330919 in, 336868 cached, 54s)
+done p18__eduvisagent__active_learning__s1.json: 6/7 (331004 in, 336868 cached, 151s)
+progress: 18/18 attempted, 0 failed

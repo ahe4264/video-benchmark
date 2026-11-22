@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:38.615Z",
+  "seconds": 160,
+  "result": {
+    "evidence": "The lesson covers concepts like the right-hand rule, anti-commutativity, and magnitude well. However, the visuals are mostly static, making the right-hand rule (2:56) harder to follow. The calculation section (5:31) lacks a numerical example, showing only the abstract determinant formula.",
+    "score_reason": "Meets the Competent level. It covers core ideas correctly but has clear weaknesses, such as passive visuals and a thin explanation of the calculation process without a concrete example.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 131635,
+    "candidatesTokenCount": 123,
+    "totalTokenCount": 132886,
+    "cachedContentTokenCount": 136695,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 130911
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 121857
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 14496
+      }
+    ],
+    "thoughtsTokenCount": 1128,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 138453
+  }
+}

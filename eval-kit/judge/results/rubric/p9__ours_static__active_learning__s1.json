@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:45.173Z",
+  "seconds": 96,
+  "result": {
+    "evidence": "0:42: Predicts outcome of firing particle into plum pudding atom.\n1:21: Applies reasoning to place the detector.\n2:28, 2:47: Applies rules to locate flashes on the screen.\n3:38: Predicts distribution of flashes.\n4:16: Calculates percentage of deflected particles.\n5:15: Applies nucleus model to identify which particle bounces back.\n6:01: Predicts effect of doubling foil thickness.\n6:49: Recalls apparatus labels.\n7:08: Applies angle to categorize outcome.\n8:18: Predicts outcome for a smaller sample.\nFeedback consistently explains the reasoning for the specific answers.",
+    "score_reason": "The lesson fully meets the top level by having the learner do the key reasoning (predicting, applying) at all main steps, with explanatory feedback for their specific answers.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 155931,
+    "candidatesTokenCount": 210,
+    "totalTokenCount": 157996,
+    "cachedContentTokenCount": 161978,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155199
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144453
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17184
+      }
+    ],
+    "thoughtsTokenCount": 1855,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 163932
+  }
+}

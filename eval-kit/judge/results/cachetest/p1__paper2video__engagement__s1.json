@@ -1,0 +1,53 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:16:33.190Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "0:00: The title slide is academic and dry. 0:14: The opening poses the mathematical question but immediately shifts to discussing lesson design. 1:34-3:13: The majority of the video covers research methodology (e.g., 'Experimental Method', 'Ablation') rather than teaching the concept to a student. The visuals consist entirely of static slides with text and small diagrams.",
+    "score_reason": "The lesson has a flat opening and consists of long stretches of static content that reads like a conference presentation rather than an engaging lesson. It meets the criteria for the second level, adjusted away from the lowest extreme.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59724,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 61469,
+    "cachedContentTokenCount": 59015,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 654
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 52171
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6496
+      }
+    ],
+    "thoughtsTokenCount": 1591,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63042
+  }
+}

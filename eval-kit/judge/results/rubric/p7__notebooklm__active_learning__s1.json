@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:35.977Z",
+  "seconds": 99,
+  "result": {
+    "evidence": "The lesson is a continuous video presentation. At 3:00, the narrator instructs the viewer to physically hold out their right hand to follow along with the right-hand rule demonstration. However, there are no interactive elements, questions, or quizzes that require the learner to input an answer, predict, explain, or apply the concepts being taught.",
+    "score_reason": "The lesson fully meets Level 1 because it is entirely passive in terms of cognitive checks; no questions or interactive tasks are asked of the learner to assess their understanding.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 131644,
+    "candidatesTokenCount": 127,
+    "totalTokenCount": 132697,
+    "cachedContentTokenCount": 136695,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 130911
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 121857
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 14496
+      }
+    ],
+    "thoughtsTokenCount": 926,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 138462
+  }
+}

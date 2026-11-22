@@ -1,0 +1,314 @@
+Create a narrated educational video that teaches the textbook figure
+'CNX_UPhysics_15_05_SimplePend' (university physics volume 1). Target length: 60-120
+seconds of narrated animation.
+LEARNING OBJECTIVE
+Identify the forces acting on a simple pendulum and describe how the restoring force
+depends on the displacement angle. Determine the period of a simple pendulum and explain
+how it is dictated by the length of the string and the acceleration due to gravity.
+SCENE PLAN
+1. Hook — Have you ever wondered why grandfather clocks keep such precise time
+regardless of how heavy their swinging weights are? The secret lies in the physics of a
+simple pendulum, where the time it takes to complete one swing depends only on its
+length and gravity.
+2. Construction — Draw a fixed pivot point at the top of the screen and suspend a string
+of length L from it. Attach a spherical pendulum bob of mass m to the bottom of the
+string, and draw a dashed vertical line down from the pivot to represent the equilibrium
+position. Displace the bob to the right by an angle theta, drawing the arc length s, the
+downward weight vector mg, the tension vector along the string, and the restoring force
+vector -mg sin(theta) pointing back toward equilibrium.
+3. Demonstration — Drag the pendulum bob to change the initial angle and watch the
+restoring force vector dynamically scale in magnitude. As the angle theta increases from
+0 to 15 degrees, the component of gravity acting along the arc, -mg sin(theta), grows
+larger, providing a stronger restoring force toward the equilibrium position.
+4. Demonstration — Adjust a slider to modify the string length and observe how the
+period of the pendulum's oscillation changes. Increasing the string length L from 0.5
+meters to 2.0 meters causes the period T to increase, as the period is equal to 2 pi
+times the square root of L over g.
+5. Consolidation — The motion of a simple pendulum is driven by a restoring force from
+gravity that scales with the sine of the displacement angle. For small angles, this
+results in simple harmonic motion where the period is completely determined by the
+length of the pendulum and the local acceleration due to gravity.
+CONSTRAINTS
+- Render in 2D unless the figure is inherently 3D. Keep every axis, label and symbol
+legible at 720p; no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding.
+- Narration must be synchronised to the visual it describes.
+=== SOURCE TEXTBOOK PAGE ===
+[OpenStax, university-physics-volume-1, section 15-4-pendulums. Access for free at
+https://openstax.org/books/university-physics-volume-1 - CC BY 4.0]
+15.4 Pendulums - University Physics Volume 1 | OpenStax Skip to Content Go to
+accessibility page Keyboard shortcuts menu University Physics Volume 1 15.4 Pendulums
+University Physics Volume 1 15.4 Pendulums Contents Highlights Print Search Search Close
+Search 15.4
+Pendulums
+Learning Objectives By the end of this section, you will be able to:
+State the forces that act on a simple pendulum
+Determine the angular frequency, frequency, and period of a simple pendulum in terms of
+the length of the pendulum and the acceleration due to gravity
+Define the period for a physical pendulum
+Define the period for a torsional pendulum
+Pendulums are in common usage. Grandfather clocks use a pendulum to keep time and a
+pendulum can be used to measure the acceleration due to gravity. For small
+displacements, a pendulum is a simple harmonic oscillator.
+The Simple Pendulum
+A simple pendulum is defined to have a point mass, also known as the pendulum bob ,
+which is suspended from a string of length L with negligible mass ( Figure 15.20 ).
+Here, the only forces acting on the bob are the force of gravity (i.e., the weight of
+the bob) and tension from the string. The mass of the string is assumed to be negligible
+as compared to the mass of the bob.
+Figure
+15.20
+A simple pendulum has a small-diameter bob and a string that has a very small mass but
+is strong enough not to stretch appreciably. The linear displacement from equilibrium is
+s , the length of the arc. Also shown are the forces on the bob, which result in a net
+force of − m g sin θ − m g sin θ toward the equilibrium position—that is, a restoring
+force.
+Consider the torque on the pendulum. The force providing the restoring torque is the
+component of the weight of the pendulum bob that acts along the arc length. The torque
+is the length of the string L times the component of the net force that is perpendicular
+to the radius of the arc. The minus sign indicates the torque acts in the opposite
+direction of the angular displacement:
+τ = − L ( m g sin θ ) ; I α = − L ( m g sin θ ) ; I d 2 θ d t 2 = − L ( m g sin θ ) ; m
+L 2 d 2 θ d t 2 = − L ( m g sin θ ) ; d 2 θ d t 2 = − g L sin θ . τ = − L ( m g sin θ )
+; I α = − L ( m g sin θ ) ; I d 2 θ d t 2 = − L ( m g sin θ ) ; m L 2 d 2 θ d t 2 = − L
+( m g sin θ ) ; d 2 θ d t 2 = − g L sin θ .
+The solution to this differential equation involves advanced calculus, and is beyond the
+scope of this text. But note that for small angles (less than 15 degrees or about 0.26
+radians), sin θ sin θ and θ θ differ by less than 1%, if θ is measured in radians. We
+can then use the small angle approximation sin θ ≈ θ . sin θ ≈ θ . The angle θ θ
+describes the position of the pendulum. Using the small angle approximation gives an
+approximate solution for small angles,
+d 2 θ d t 2 = − g L θ . d 2 θ d t 2 = − g L θ .
+15.17
+Because this equation has the same form as the equation for SHM, the solution is easy to
+find. The angular frequency is
+ω = g L ω = g L
+15.18
+and the period is
+T = 2 π L g . T = 2 π L g .
+15.19
+The period of a simple pendulum depends on its length and the acceleration due to
+gravity. The period is completely independent of other factors, such as mass and the
+maximum displacement. As with simple harmonic oscillators, the period T for a pendulum
+is nearly independent of amplitude, especially if θ θ is less than about 15 ° . 15 ° .
+Even simple pendulum clocks can be finely adjusted and remain accurate.
+Note the dependence of T on g . If the length of a pendulum is precisely known, it can
+actually be used to measure the acceleration due to gravity, as in the following
+example.
+Example
+15.3
+Measuring Acceleration due to Gravity by the Period of a Pendulum
+What is the acceleration due to gravity in a region where a simple pendulum having a
+length 75.000 cm has a period of 1.7357 s?
+Strategy
+We are asked to find g given the period T and the length L of a pendulum. We can solve T
+= 2 π L g T = 2 π L g for g , assuming only that the angle of deflection is less than 15
+° 15 ° .
+Solution
+Square T = 2 π L g T = 2 π L g and solve for g :
+g = 4 π 2 L T 2 . g = 4 π 2 L T 2 .
+Substitute known values into the new equation:
+g = 4 π 2 0.75000 m ( 1.7357 s ) 2 . g = 4 π 2 0.75000 m ( 1.7357 s ) 2 .
+Calculate to find g :
+g = 9.8281 m/s 2 . g = 9.8281 m/s 2 .
+Significance
+This method for determining g can be very accurate, which is why length and period are
+given to five digits in this example. For the precision of the approximation sin θ ≈ θ
+sin θ ≈ θ to be better than the precision of the pendulum length and period, the maximum
+displacement angle should be kept below about 0.5 ° 0.5 ° .
+Check Your Understanding
+15.4
+An engineer builds two simple pendulums. Both are suspended from small wires secured to
+the ceiling of a room. Each pendulum hovers 2 cm above the floor. Pendulum 1 has a bob
+with a mass of 10 kg. Pendulum 2 has a bob with a mass of 100 kg. Describe how the
+motion of the pendulums will differ if the bobs are both displaced by 12 ° 12 ° .
+Physical Pendulum
+Any object can oscillate like a pendulum. Consider a coffee mug hanging on a hook in the
+pantry. If the mug gets knocked, it oscillates back and forth like a pendulum until the
+oscillations die out. We have described a simple pendulum as a point mass and a string.
+A physical pendulum is any object whose oscillations are similar to those of the simple
+pendulum, but cannot be modeled as a point mass on a string, and the mass distribution
+must be included into the equation of motion.
+As for the simple pendulum, the restoring force of the physical pendulum is the force of
+gravity. With the simple pendulum, the force of gravity acts on the center of the
+pendulum bob. In the case of the physical pendulum, the force of gravity acts on the
+center of mass (CM) of an object. The object oscillates about a point O . Consider an
+object of a generic shape as shown in Figure 15.21 .
+Figure
+15.21
+A physical pendulum is any object that oscillates as a pendulum, but cannot be modeled
+as a point mass on a string. The force of gravity acts on the center of mass (CM) and
+provides the restoring force that causes the object to oscillate. The minus sign on the
+component of the weight that provides the restoring force is present because the force
+acts in the opposite direction of the increasing angle θ θ .
+When a physical pendulum is hanging from a point but is free to rotate, it rotates
+because of the torque applied at the CM, produced by the component of the object’s
+weight that acts tangent to the motion of the CM. Taking the counterclockwise direction
+to be positive, the component of the gravitational force that acts tangent to the motion
+is − m g sin θ − m g sin θ . The minus sign is the result of the restoring force acting
+in the opposite direction of the increasing angle. Recall that the torque is equal to τ
+→ = r → × F → τ → = r → × F → . The magnitude of the torque is equal to the length of
+the radius arm times the tangential component of the force applied, | τ | = r F sin θ |
+τ | = r F sin θ . Here, the length L of the radius arm is the distance between the point
+of rotation and the CM. To analyze the motion, start with the net torque. Like the
+simple pendulum, consider only small angles so that sin θ ≈ θ sin θ ≈ θ . Recall from
+Fixed-Axis Rotation on rotation that the net torque is equal to the moment of inertia I
+= ∫ r 2 d m I = ∫ r 2 d m times the angular acceleration α , α , where α = d 2 θ d t 2 α
+= d 2 θ d t 2 : I α = τ net = L ( − m g ) sin θ . I α = τ net = L ( − m g ) sin θ .
+Using the small angle approximation and rearranging:
+I α = − L ( m g ) θ ; I d 2 θ d t 2 = − L ( m g ) θ ;
+d 2 θ d t 2 = − ( m g L I ) θ . I α = − L ( m g ) θ ; I d 2 θ d t 2 = − L ( m g ) θ ;
+d 2 θ d t 2 = − ( m g L I ) θ .
+Once again, the equation says that the second time derivative of the position (in this
+case, the angle) equals minus a constant ( − m g L I ) ( − m g L I ) times the position.
+The solution is
+θ ( t ) = Θ cos ( ω t + ϕ ) , θ ( t ) = Θ cos ( ω t + ϕ ) ,
+where Θ Θ is the maximum angular displacement. The angular frequency is
+ω = m g L I . ω = m g L I .
+15.20
+The period is therefore
+T = 2 π I m g L . T = 2 π I m g L .
+15.21
+Note that for a simple pendulum, the moment of inertia is I = ∫ r 2 d m = m L 2 I = ∫ r
+2 d m = m L 2 and the period reduces to T = 2 π L g T = 2 π L g .
+Example
+15.4
+Reducing the Swaying of a Skyscraper
+In extreme conditions, skyscrapers can sway up to two meters with a frequency of up to
+20.00 Hz due to high winds or seismic activity. Several companies have developed
+physical pendulums that are placed on the top of the skyscrapers. As the skyscraper
+sways to the right, the pendulum swings to the left, reducing the sway. Assuming the
+oscillations have a frequency of 0.50 Hz, design a pendulum that consists of a long
+beam, of constant density, with a mass of 100 metric tons and a pivot point at one end
+of the beam. What should be the length of the beam?
+Strategy
+We are asked to find the length of the physical pendulum with a known mass. We first
+need to find the moment of inertia of the beam. We can then use the equation for the
+period of a physical pendulum to find the length.
+Solution
+Find the moment of inertia for the CM:
+Use the parallel axis theorem to find the moment of inertia about the point of rotation
+for a rod length L :
+I = I CM + L 4 2 M = 1 12 M L 2 + 1 4 M L 2 = 1 3 M L 2 . I = I CM + L 4 2 M = 1 12 M L
+2 + 1 4 M L 2 = 1 3 M L 2 .
+The period of a physical pendulum with its center of mass a distance l from the pivot
+point has a period of T = 2 π I m g l T = 2 π I m g l . In this problem, L has been
+defined as the total length of the rod, so l = L / 2 l = L / 2 . Use the moment of
+inertia to solve for the length L :
+T
+=
+L
+1 3 M L 2 M g L 2 = 2 π 2 L 3 g ;
+=
+T
+3 T 2 g 8 π 2 = 1.49 m .
+=
+L
+1 3 M L 2 M g L 2 = 2 π 2 L 3 g ;
+=
+3 T 2 g 8 π 2 = 1.49 m .
+Significance
+There are many ways to reduce the oscillations, including modifying the shape of the
+skyscrapers, using multiple physical pendulums, and using tuned-mass dampers.
+Torsional Pendulum
+A torsional pendulum consists of a rigid body suspended by a light wire or spring (
+Figure 15.22 ). When the body is twisted some small maximum angle ( Θ ) ( Θ ) and
+released from rest, the body oscillates between ( θ = + Θ ) ( θ = + Θ ) and ( θ = − Θ )
+( θ = − Θ ) . The restoring torque is supplied by the shearing of the string or wire.
+Figure
+15.22
+A torsional pendulum consists of a rigid body suspended by a string or wire. The rigid
+body oscillates between θ = + Θ θ = + Θ and θ = − Θ θ = − Θ .
+The restoring torque can be modeled as being proportional to the angle:
+τ = − κ θ . τ = − κ θ .
+The variable kappa ( κ ) ( κ ) is known as the torsion constant of the wire or string.
+The minus sign shows that the restoring torque acts in the opposite direction to
+increasing angular displacement. The net torque is equal to the moment of inertia times
+the angular acceleration:
+I d 2 θ d t 2 = − κ θ ;
+d 2 θ d t 2 = − κ I θ . I d 2 θ d t 2 = − κ θ ;
+d 2 θ d t 2 = − κ I θ .
+This equation says that the second time derivative of the position (in this case, the
+angle) equals a negative constant times the position. This looks very similar to the
+equation of motion for the SHM d 2 x d t 2 = − k m x d 2 x d t 2 = − k m x , where the
+period was found to be T = 2 π m k T = 2 π m k . Therefore, the period of the torsional
+pendulum can be found using
+T = 2 π I κ . T = 2 π I κ .
+15.22
+The units for the torsion constant are [ κ ] = N-m = ( kg m s 2 ) m = kg m 2 s 2 [ κ ] =
+N-m = ( kg m s 2 ) m = kg m 2 s 2 and the units for the moment of inertial are [ I ] =
+kg-m 2 , [ I ] = kg-m 2 , which show that the unit for the period is the second.
+Example
+15.5
+Measuring the Torsion Constant of a String
+A rod has a length of L = 0.30 m L = 0.30 m and a mass of 4.00 kg. A string is attached
+to the CM of the rod and the system is hung from the ceiling ( Figure 15.23 ). The rod
+is displaced 10 degrees from the equilibrium position and released from rest. The rod
+oscillates with a period of 0.5 s. What is the torsion constant κ κ ?
+Figure
+15.23
+(a) A rod suspended by a string from the ceiling. (b) Finding the rod’s moment of
+inertia.
+Strategy
+We are asked to find the torsion constant of the string. We first need to find the
+moment of inertia.
+Solution
+Find the moment of inertia for the CM:
+I CM = ∫ x 2 d m = ∫ − L / 2 + L / 2 x 2 λ d x = λ [ x 3 3 ] − L / 2 + L / 2 = λ 2 L 3
+24 = ( M L ) 2 L 3 24 = 1 12 M L 2 . I CM = ∫ x 2 d m = ∫ − L / 2 + L / 2 x 2 λ d x = λ
+[ x 3 3 ] − L / 2 + L / 2 = λ 2 L 3 24 = ( M L ) 2 L 3 24 = 1 12 M L 2 .
+Calculate the torsion constant using the equation for the period:
+T = 2 π I κ ; κ = I ( 2 π T ) 2 = ( 1 12 M L 2 ) ( 2 π T ) 2 ; = ( 1 12 ( 4.00 kg ) (
+0.30 m ) 2 ) ( 2 π 0.50 s ) 2 = 4.73 N · m . T = 2 π I κ ; κ = I ( 2 π T ) 2 = ( 1 12 M
+L 2 ) ( 2 π T ) 2 ; = ( 1 12 ( 4.00 kg ) ( 0.30 m ) 2 ) ( 2 π 0.50 s ) 2 = 4.73 N · m .
+Significance
+Like the force constant of the system of a block and a spring, the larger the torsion
+constant, the shorter the period.
+Previous Next Order a print copy Citation/Attribution
+This book may not be used in the training of large language models or otherwise be
+ingested into large language models or generative AI offerings without OpenStax's
+permission.
+Want to cite, share, or modify this book? This book uses the
+Creative Commons Attribution-NonCommercial-ShareAlike License
+and you must attribute OpenStax.
+Attribution information
+If you are redistributing all or part of this book in a print format,
+then you must include on every physical page the following attribution:
+Access for free at https://openstax.org/books/university-physics-volume-1/pages/1-
+introduction
+If you are redistributing all or part of this book in a digital format,
+then you must include on every digital page view the following attribution:
+Access for free at https://openstax.org/books/university-physics-volume-1/pages/1-
+introduction
+Citation information
+Use the information below to generate a citation. We recommend using a
+citation tool such as
+this one .
+Authors: William Moebs, Samuel J. Ling, Jeff Sanny
+Publisher/website: OpenStax
+Book title: University Physics Volume 1
+Publication date: Sep 19, 2016
+Location: Houston, Texas
+Book URL: https://openstax.org/books/university-physics-volume-1/pages/1-introduction
+Section URL: https://openstax.org/books/university-physics-volume-1/pages/15-4-pendulums
+© Jun 11, 2026 OpenStax. Textbook content produced by OpenStax is licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike License . The OpenStax name,
+OpenStax logo, OpenStax book covers, OpenStax CNX name, and OpenStax CNX logo
+are not subject to the Creative Commons license and may not be reproduced without the
+prior and express written
+consent of Rice University.
+OpenStax’s mission is to make an amazing education accessible for all.
+OpenStax is part of Rice University, which is a 501(c)(3) nonprofit.
+Give today and help us reach more students.
+Help Contact Us Support Center FAQ System Status Keyboard Shortcuts OpenStax Press
+Newsletter Careers Policies Accessibility Statement Terms of Use Licensing Privacy
+Policy
+© 1999-2026, Rice University. Except where otherwise noted, textbooks on this site
+are licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY NC-SA) license .
+Advanced Placement ® and AP ® are trademarks registered and/or owned by the College
+Board,
+which is not affiliated with, and does not endorse, this site.
+=== END SOURCE PAGE ===

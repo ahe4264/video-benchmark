@@ -1,0 +1,53 @@
+{
+  "topic": "p6",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:44.215Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "1:18, 2:45, 3:15: The lesson relies on a static textbook figure to explain the geometric setup and slicing. 1:46: Abstract symbols (ρ, [ ], ↔) are shown instead of the variables h(x) and w(x) being narrated. 3:46: Unrelated icons (magnifying glass, square, ruler) represent the Force = Pressure x Area equation. 4:25, 5:03: Generic drawings (stack of rectangles, messy graph) illustrate the Riemann sum and limit. 5:35: The final integral formula is spoken but never shown on screen; only an integral sign appears.",
+    "score_reason": "The lesson uses a static textbook figure for the main geometry and generic or confusing icons for the mathematical steps. The core mathematical derivation and final formula are never shown visually, relying entirely on narration. This aligns with visuals that are generic and fail to show the key concept visually.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 115197,
+    "candidatesTokenCount": 225,
+    "totalTokenCount": 117475,
+    "cachedContentTokenCount": 119538,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114437
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 106524
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12672
+      }
+    ],
+    "thoughtsTokenCount": 2053,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 121217
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:13:02.071Z",
+  "seconds": 53,
+  "result": {
+    "evidence": "0:01-0:21: Color-coded cross-section of the cable is introduced. 0:47-1:13: A dynamic graph of E vs r is linked to a tracer on the physical cross-section. 1:34-2:08: Voltage is visualized as the shaded area under the E curve, which changes dynamically with a slider. 3:05-6:26: An interactive dashboard updates physical models (cross-section, side view) and multiple graphs simultaneously as parameters are swept. 9:51+: The consistent visual language is applied to new transfer tasks.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation. Dynamic elements clearly show relationships between physical dimensions and abstract quantities like field and voltage. It fully meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 317821,
+    "candidatesTokenCount": 192,
+    "totalTokenCount": 319850,
+    "cachedContentTokenCount": 323408,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 317064
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323069
+      }
+    ],
+    "thoughtsTokenCount": 1837,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 326704
+  }
+}

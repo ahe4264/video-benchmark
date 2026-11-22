@@ -1,0 +1,49 @@
+{
+  "topic": "p13",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:48.577Z",
+  "seconds": 57,
+  "result": {
+    "evidence": "0:00: Hook connects the topic to everyday coaxial cables. 2:14: Visualizes voltage as the area under the E-field curve. 2:34: The mathematical derivation is somewhat slow and text-heavy. 3:11: Engaging visual demonstration of changing the inner radius. 3:54: Insightful connection to the parallel-plate formula. 4:02: Demonstration of changing the cylinder length.",
+    "score_reason": "The lesson features a practical hook and uses varied visual demonstrations that offer moments of insight. However, the slow text reveals and dry mathematical derivations create a few lulls, preventing it from reaching the next level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 87765,
+    "candidatesTokenCount": 160,
+    "totalTokenCount": 89784,
+    "cachedContentTokenCount": 89109,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 87120
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 88770
+      }
+    ],
+    "thoughtsTokenCount": 1859,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 90551
+  }
+}

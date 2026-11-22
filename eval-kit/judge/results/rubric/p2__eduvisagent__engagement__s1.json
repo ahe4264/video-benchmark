@@ -1,0 +1,49 @@
+{
+  "topic": "p2",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:06:59.332Z",
+  "seconds": 124,
+  "result": {
+    "evidence": "The lesson opens with a practical scenario about pouring concrete in a corner (0:02) and asks the learner to make a guess before doing any math (1:02). The interactive 3D models provide visual engagement, such as sweeping the strip across the region (1:33-1:40) and dragging the strip to understand limits (2:52). The 'squash' visualization (8:42) offers a conceptual insight. The lesson maintains momentum through constant interactive tasks and checkpoints (e.g., 2:01, 3:25).",
+    "score_reason": "The lesson fully meets the top level by opening with a question that creates real curiosity, which is paid off at the end. The interactive elements and visual models maintain momentum and provide moments of insight throughout.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 258577,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 259958,
+    "cachedContentTokenCount": 263156,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 257928
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 262813
+      }
+    ],
+    "thoughtsTokenCount": 1193,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 265892
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:15.359Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:00-1:50: Physical analogy (blocks on a shelf) introduces the algorithm step-by-step. 1:51: Array representation introduced, clearly defining index and value. 2:08: Marker 'j' and 'key' introduced with clear visual shading rules. 3:27: Quiz checks understanding of the sorted portion before formally naming the loop invariant (3:52). 4:52: Code section introduces 'compare' and 'shift' functions clearly. 5:45: Code execution visualization is explained (orange ticks, gray marks). 6:58: Summary diagram consolidates the process. 7:22: Best/worst cases explored using established visual language.",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated, builds logically on the previous one, and introduces all terms/symbols before use. The progression from physical analogy to array to code is seamless.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 144889,
+    "candidatesTokenCount": 220,
+    "totalTokenCount": 146110,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144199
+      }
+    ],
+    "thoughtsTokenCount": 1001,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 152352
+  }
+}

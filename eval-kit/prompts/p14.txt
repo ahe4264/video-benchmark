@@ -1,0 +1,377 @@
+Create a narrated educational video that teaches the textbook figure 'DiffusionUNet'
+(deep learning (cs)). Target length: 60-120 seconds of narrated animation.
+LEARNING OBJECTIVE
+Understand how the U-Net architecture processes noisy images and timestep embeddings
+across multiple spatial resolutions to predict and remove noise in diffusion models.
+Analyze the specific roles of downsampling, upsampling, skip connections, and self-
+attention mechanisms in preserving fine details and global context during the denoising
+step.
+SCENE PLAN
+1. Hook — A noisy 256x256 image enters a deep network and emerges perfectly clear, but
+the network itself must simultaneously understand the microscopic pixel noise and the
+macroscopic image structure. The U-Net architecture solves this by systematically
+shrinking and expanding the image while injecting time-awareness at every level.
+2. Construction — Place a 256x256x3 noisy input image on the left and a 256x256x3
+predicted noise tensor on the right. Draw a V-shaped network between them, consisting of
+a descending encoder path on the left, a bottleneck at the bottom, and an ascending
+decoder path on the right. Connect the corresponding spatial resolutions of the encoder
+and decoder with horizontal arrows representing skip connections. The target state
+displays the complete U-Net topology with residual blocks, spatial dimensions labeled
+from 256x256 down to 8x8, and a separate timestep embedding vector positioned above the
+network with routing lines to every block.
+3. Demonstration — Trace the forward pass of a single noisy image through the network,
+illuminating the encoder blocks as the spatial resolution halves from 256x256 to
+128x128, 64x64, 32x32, 16x16, and finally 8x8, while the channel count doubles at each
+step. Proceed up the decoder, illuminating the upsampling blocks as the resolution
+doubles back to 256x256. Pulse the horizontal skip-connection arrows exactly when the
+decoder reaches the corresponding resolution, visually merging the preserved high-
+frequency spatial details from the encoder with the upsampled semantic features. As the
+spatial resolution decreases, the network extracts global structural features, and as it
+increases, the skip connections restore the fine-grained local details required to
+predict the exact noise map.
+4. Demonstration — Drag a slider for timestep t from t=1000 down to t=0, dynamically
+updating the numerical values inside the central time embedding vector. Send glowing
+pulses from this central vector along the routing lines into the scale and shift
+parameters of every residual block in both the encoder and decoder paths. As the
+timestep parameter decreases, the injected embedding shifts the network internal
+activations, transitioning its function from predicting large, low-frequency structural
+noise at high t to predicting subtle, high-frequency pixel variations at low t.
+5. Demonstration — Select a block at the 16x16 resolution level to trigger an expanded
+overlay comparing a standard residual block with a self-attention residual block. In the
+standard block, show a 3x3 convolution kernel operating strictly on local pixel
+neighborhoods, whereas in the self-attention block, display a dense web of connections
+linking every one of the 256 spatial positions to every other position. As the attention
+mechanism is isolated, the network computes global correlations across the entire 16x16
+feature map, allowing distant parts of the image to influence each other directly rather
+than relying solely on local convolutional receptive fields.
+6. Consolidation — The U-Net architecture enables diffusion models to predict noise by
+combining multi-scale spatial processing with temporal conditioning. Downsampling and
+upsampling capture global context, skip connections preserve local details, and time
+embeddings ensure the network adapts its noise prediction to the specific stage of the
+iterative denoising process.
+CONSTRAINTS
+- Render in 2D unless the figure is inherently 3D. Keep every axis, label and symbol
+legible at 720p; no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding.
+- Narration must be synchronised to the visual it describes.
+=== SOURCE TEXTBOOK PAGE ===
+[Understanding Deep Learning (Prince), around p.385; free at udlbook.github.io]
+Notes 369
+Figure
+18.12 Conditional generation using classifier guidance. Image samples
+conditioned on different ImageNet classes. The same model produces high quality
+samples of highly varied image classes. Adapted from Dhariwal & Nichol (2021).
+Figure
+18.13 Conditional generation using text prompts. Synthesized images
+from a cascaded generation framework, conditioned on a text prompt encoded by
+a large language model. The stochastic model can produce many different images
+compatible with the prompt. The model can count objects and incorporate text
+into images. Adapted from Saharia et al. (2022b).
+Draft: please send errata to udlbookmail@gmail.com.
+370 18
+Diffusion models
+of
+writing, the state-of-the-art results for conditional image synthesis have been achieved
+by
+Karras et al. (2022). Surveys of denoising diffusion models can be found in Croitoru et
+al.
+(2022), Cao et al. (2022), Luo (2022), and Yang et al. (2022).
+Applications for images: Applications of diffusion models include text-to-image
+generation
+(Nichol et al., 2022; Ramesh et al., 2022; Saharia et al., 2022b), image-to-image tasks
+such
+as colorization, inpainting, uncropping and restoration (Saharia et al., 2022a), super-
+resolution
+(Saharia et al., 2022c), image editing (Hertz et al., 2022; Meng et al., 2021), removing
+adversarial
+perturbations (Nie et al., 2022), semantic segmentation (Baranchuk et al., 2022), and
+medical
+imaging (Song et al., 2021b; Chung & Ye, 2022; Chung et al., 2022; Peng et al., 2022;
+Xie & Li,
+2022; Luo et al., 2022) where the diffusion model is sometimes used as a prior.
+Different data types: Diffusion models have also been applied to video data (Ho et al.,
+2022b;
+Harvey et al., 2022; Yang et al., 2022; Höppe et al., 2022; Voleti et al., 2022) for
+generation, past
+and future frame prediction, and interpolation. They have been used for 3D shape
+generation
+(Zhou et al., 2021; Luo & Hu, 2021), and recently a technique has been introduced to
+generate
+3D models using only a 2D text-to-image diffusion model (Poole et al., 2023). Austin et
+al.
+(2021) and Hoogeboom et al. (2021) investigated diffusion models for discrete data. Kong
+et al.
+(2021) and Chen et al. (2021d) applied diffusion models to audio data.
+Alternatives to denoising: The diffusion models in this chapter mix noise with the data
+and
+build a model to gradually denoise the result. However, degrading the image using noise
+is not
+necessary. Rissanen et al. (2022) devised a method that progressively blurred the image
+and
+Bansal et al. (2022) showed that the same ideas work with a large family of degradations
+that
+do not have to be stochastic. These include masking, morphing, blurring, and pixelating.
+Comparison to other generative models: Diffusion models synthesize higher quality im-
+ages than other generative models and are simple to train. They can be thought of as a
+special
+case of a hierarchical V AE (Vahdat & Kautz, 2020; Sønderby et al., 2016b) where the
+encoder
+is fixed, and the latent space is the same size as the data. They are probabilistic, but
+in their
+basic form, they can only compute a lower bound on the likelihood of a data point.
+However,
+Kingma et al. (2021) show that this lower bound improves on the exact log-likelihoods
+for test
+data from normalizing flows and autoregressive models. The likelihood for diffusion
+models
+can be computed by converting to an ordinary differential equation (Song et al., 2021c)
+or by
+training a continuous normalizing flow model with a diffusion-based criterion (Lipman et
+al.,
+2022). The main disadvantages of diffusion models are that they are slow and that the
+latent
+space has no semantic interpretation.
+Improving quality: Many techniques have been proposed to improve image quality. These
+include the reparameterization of the network described in section 18.5 and the equal
+weighting
+of the subsequent terms (Ho et al., 2020). Choi et al. (2022) subsequently investigated
+different
+weightings of terms in the loss function.
+Kingma et al. (2021) improved the test log-likelihood of the model by learning the
+denoising
+weightsβt. Conversely, Nichol & Dhariwal (2021) improved performance by learning
+separate
+variances σ2 of the denoising estimate at each time step in addition to the mean. Bao et
+al.
+(2022) show how to learn the variances after training the model.
+Ho et al. (2022a) developed the cascaded method for producing very high-resolution
+images
+(figure 18.11). To prevent artifacts in lower-resolution images from being propagated to
+higher
+resolutions, they introduced noise conditioning augmentation; here, the lower-resolution
+condi-
+tioning image is degraded by adding noise at each training step. This reduces the
+reliance on
+the exact details of the lower-resolution image during training. It is also done during
+inference,
+where the best noise level is chosen by sweeping over different values.
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+Notes 371
+Imp
+roving speed: One of the major drawbacks of diffusion models is that they take a long
+time to train and sample from. Stable diffusion (Rombach et al., 2022) projects the
+original
+data to a smaller latent space using a conventional autoencoder and then runs the
+diffusion
+process in this smaller space. This has the advantages of reducing the dimensionality of
+the
+training data for the diffusion process and allowing other data types (text, graphs,
+etc.) to be
+described by diffusion models. Vahdat et al. (2021) applied a similar approach.
+Song et al. (2021a) showed that an entire family of diffusion processes is compatible
+with the
+training objective. Most of these processes are non-Markovian (i.e., the diffusion step
+does not
+only depend on the results of the previous step). One of these models is the denoising
+diffusion
+implicit model (DDIM), in which the updates are not stochastic (figure 18.10c). This
+model
+is amenable to taking larger steps (figure 18.10e) without inducing large errors. It
+effectively
+converts the model into an ordinary differential equation (ODE) in which the
+trajectories have
+low curvature and allows eﬀicient numerical methods for solving ODEs to be applied.
+Song et al. (2021c) propose converting the underlying stochastic differential equations
+into a
+probability flow ODE which has the same marginal distributions as the original process.
+Vahdat
+et al. (2021), Xiao et al. (2022b), and Karras et al. (2022) all exploit techniques for
+solving ODEs
+to speed up synthesis. Karras et al. (2022) identified the best-performing time
+discretization for
+sampling and evaluated different sampler schedules. The result of these and other
+improvements
+has been a significant drop in steps required during synthesis.
+Sampling is slow because many small diffusion steps are required to ensure that the
+posterior
+distribution q(zt−1|zt) is close to Gaussian (figure 18.5), so the Gaussian distribution
+in the
+decoder is appropriate. If we use a model that describes a more complex distribution at
+each
+denoising step, then we can use fewer diffusion steps in the first place. To this end,
+Xiao et al.
+(2022b) have investigated using conditional GAN models, and Gao et al. (2021)
+investigated
+using conditional energy-based models. Although these models cannot describe the
+original
+data distribution, they suﬀice to predict the (much simpler) reverse diffusion step.
+Salimans & Ho (2022) distilled adjacent steps of the denoising process into a single
+step to speed
+up synthesis. Dockhorn et al. (2022) introduced momentum into the diffusion process.
+This
+makes the trajectories smoother and so more amenable to coarse sampling.
+Conditional generation: Dhariwal & Nichol (2021) introduced classifier guidance, in
+which a
+classifier learns to identify the category of object being synthesized at each step, and
+this is used
+to bias the denoising update toward that class. This works well, but training a separate
+classifier
+is expensive. Classifier-free guidance (Ho & Salimans, 2022) concurrently trains
+conditional and
+unconditional denoising models by dropping the class information some proportion of the
+time
+in a process akin to dropout. This technique allows control of the relative
+contributions of the
+conditional and unconditional components. Over-weighting the conditional component
+causes
+the model to produce more typical and realistic samples.
+The standard technique for conditioning on images is to append the (resized) image to
+the
+different layers of the U-Net. For example, this was used in the cascaded generation
+process
+for super-resolution (Ho et al., 2022a). Choi et al. (2021) provide a method for
+conditioning
+on images in an unconditional diffusion model by matching the latent variables with
+those of
+a conditioning image. The standard technique for conditioning on text is to linearly
+transform
+the text embedding to the same size as the U-Net layer and then add it to the
+representation
+in the same way that the time embedding is introduced (figure 18.9).
+Existing diffusion models can also be fine-tuned to be conditioned on edge maps, joint
+positions,
+segmentation, depth maps, etc., using a neural network structure called a control
+network (Zhang
+& Agrawala, 2023).
+Text-to-image: Before diffusion models, state-of-the-art text-to-image systems were
+based
+on transformers (e.g., Ramesh et al., 2021). GLIDE (Nichol et al., 2022) and Dall·E 2
+(Ramesh
+et al., 2022) are both conditioned on embeddings from the CLIP model (Radford et al.,
+2021),
+Draft: please send errata to udlbookmail@gmail.com.
+372 18
+Diffusion models
+whic
+h generates joint embeddings for text and image data. Imagen (Saharia et al., 2022b)
+showed that text embeddings from a large language model could produce even better
+results
+(see figure 18.13). The same authors introduced a benchmark (DrawBench) which is
+designed
+to evaluate the ability of a model to render colors, numbers of objects, spatial
+relations, and
+other characteristics. Feng et al. (2022) developed a Chinese text-to-image model.
+Connections to other models: This chapter described diffusion models as hierarchical
+vari-
+ational autoencoders because this approach connects most closely with the other parts of
+this
+book. However, diffusion models also have close connections with stochastic differential
+equa-
+tions (consider the paths in figure 18.5) and with score matching (Song & Ermon, 2019,
+2020).
+Song et al. (2021c) presented a framework based on stochastic differential equations
+that en-
+compasses both the denoising and score matching interpretations. Diffusion models also
+have
+close connections to normalizing flows (Zhang & Chen, 2021). Yang et al. (2022) present
+an
+overview of the relationship between diffusion models and other generative approaches.
+Problems
+Problem 18.1 Show that if Cov [xt−1] = I and we use the update:
+xt =
+√
+1−βt· xt−1 +
+√
+βt·ϵt, (18.42)
+then
+Cov[xt] = I, so the variance stays the same.
+Problem 18.2 Consider the variable:
+z =a·ϵ1 +b·ϵ2, (18.43)
+where both ϵ1 and ϵ2 are drawn from independent standard normal distributions with mean
+zero and unit variance. Show that:
+E[z] = 0
+Var[z] = a2 +b2, (18.44)
+so we could equivalently compute z =
+√
+a2 +b2·ϵ whereϵ is
+also drawn from a standard normal
+distribution.
+Problem 18.3 Continue the process in equation 18.5 to show that:
+z3 =
+√
+(1−β3)(1−β2)(1−β1)· x +
+√
+1− (1−β3)(1−β2)(1−β1)·ϵ′, (18.45)
+whereϵ′ is
+a draw from a standard normal distribution.
+Problem 18.4 ∗ Prove the relation:
+Normv [Aw, B]∝ Normw
+[
+(AT B−1A)−1AT B−1v, (AT B−1A)−1
+]
+. (18.46)
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+Notes 373
+Problem
+18.5∗ Prove the relation:
+Normx[a, A]Normx[b, B] ∝ Normx
+[
+]
+(A−1 + B−1)−1(A−1a + B−1b), (A−1 + B−1)−1
+.
+(18.47)
+Problem 18.6 ∗ Derive equation 18.15.
+Problem 18.7 ∗ Derive the third line of equation 18.25 from the second line.
+Problem 18.8 ∗ The KL-divergence between two normal distributions in D dimensions with
+means a and b and covariance matrices A and B is given by:
+DKL
+[
+Normw[a, A]
+⏐⏐⏐⏐Normw[b, B]
+]
+= 1
+2
+(
+tr
+[
+B−1A
+]
+−d +
+(a− b)T B−1(a− b) + log
+[|B|
+|A|
+])
+.
+(18.48)
+Substitute
+the definitions from equation 18.27 into this expression and show that the only term
+that depends on the parameters ϕ is the first term from equation 18.28.
+Problem 18.9 ∗ If αt =∏t
+s=1 1−βs, then show that:
+√ αt
+αt−1
+=
+√
+1−βt. (18.49)
+Problem
+18.10∗ If αt =∏t
+s=1 1−βs, then show that:
+(1−αt−1)(1−βt) +βt
+(1−αt)√1−βt
+= 1√1−βt
+. (18.50)
+Problem
+18.11∗ Prove equation 18.38.
+Problem 18.12 Classifier-free guidance allows us to create more stereotyped “canonical”
+images
+of a given class. When we described transformer decoders, generative adversarial
+networks, and
+the GLOW algorithm, we also discussed methods to reduce the amount of variation and
+produce
+more stereotyped outputs. What were these? Do you think it’s inevitable that we should
+limit
+the output of generative models in this way?
+Draft: please send errata to udlbookmail@gmail.com.
+=== END SOURCE PAGE ===

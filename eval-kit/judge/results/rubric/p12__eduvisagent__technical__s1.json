@@ -1,0 +1,56 @@
+{
+  "topic": "p12",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:14:55.035Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "The lesson functions well overall, with interactive elements responding as expected. However, in Part 2, there is a significant layout issue where text in a table overlaps across multiple columns.",
+    "issues": [
+      {
+        "timestamp": "5:08",
+        "description": "In the 'Script & Spec' tab, text in the 'Narration' column overlaps heavily with the 'Words' and 'wpm' columns, making it hard to read.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson has one major layout problem (overlapping text in a table), meeting the criteria for this level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 348918,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 350885,
+    "cachedContentTokenCount": 354881,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347952
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 966
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354542
+      }
+    ],
+    "thoughtsTokenCount": 1809,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 358798
+  }
+}

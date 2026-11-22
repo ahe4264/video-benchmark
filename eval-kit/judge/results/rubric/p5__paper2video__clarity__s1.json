@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:40.490Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:00: Introduces a presentation about a lesson design, not the lesson itself.\n0:17: Focuses on learning objectives and differentiation.\n0:56-1:48: Displays pseudocode but discusses it in the context of lesson implementation rather than teaching the logic.\n2:18: Presents a table of distance estimates per pass without demonstrating the tracing process on a graph.\n2:35: Covers ablation studies and experimental results.",
+    "score_reason": "The video is a presentation about a lesson, not an instructional lesson on the topic. It assumes prior knowledge and skips the actual tracing steps, meaning a newcomer would be completely lost from the start. This matches the lowest level, compressed toward the center.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 57433,
+    "candidatesTokenCount": 172,
+    "totalTokenCount": 59342,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 56744
+      }
+    ],
+    "thoughtsTokenCount": 1737,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 60640
+  }
+}

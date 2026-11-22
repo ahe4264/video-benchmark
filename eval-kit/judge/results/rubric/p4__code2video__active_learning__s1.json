@@ -1,0 +1,37 @@
+{
+  "topic": "p4",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:14.301Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "1:52: Coding sandbox for hands-on application. 3:38: Prediction question on total shifts.",
+    "score_reason": "Meets Level 5. Includes hands-on coding and prediction. Misses Level 6 as the first half is passive.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 68846,
+    "candidatesTokenCount": 75,
+    "totalTokenCount": 70717,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68112
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "thoughtsTokenCount": 1796,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71129
+  }
+}

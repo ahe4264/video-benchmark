@@ -1,0 +1,54 @@
+{
+  "topic": "p8",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:04.871Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "Watched the entire video from 0:00 to 4:15. The video consists of a slide presentation with narration. No layout issues, rendering errors, playback glitches, or audio sync problems were observed.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level description, as everything renders, loads, and responds as intended with no visible technical problems.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 75184,
+    "candidatesTokenCount": 99,
+    "totalTokenCount": 76017,
+    "cachedContentTokenCount": 74038,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74214
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65535
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8160
+      }
+    ],
+    "thoughtsTokenCount": 734,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 79415
+  }
+}

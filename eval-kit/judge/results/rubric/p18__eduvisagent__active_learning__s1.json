@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:09:08.561Z",
+  "seconds": 151,
+  "result": {
+    "evidence": "2:31: Prediction pause asking why there is no picture on the wall.\n3:34: Interactive model allows hands-on exploration of variables like aperture and pinhole position.\n3:52: Predict-Observe-Explain (POE) sequence requiring predictions on light points.\n5:58 & 9:58: Near and far transfer tasks requiring application of concepts to new scenarios.\n11:11: Misconception clinic utilizing two-tier diagnostics.\n15:21: Extensive two-tier self-checks requiring both answers and underlying reasons.",
+    "score_reason": "The lesson requires the learner to perform key reasoning at every main step through prediction, application, and exploration. Checks are explicitly placed at misconception points, and feedback addresses specific reasoning.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 331004,
+    "candidatesTokenCount": 182,
+    "totalTokenCount": 333134,
+    "cachedContentTokenCount": 336868,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 740
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 330264
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 336519
+      }
+    ],
+    "thoughtsTokenCount": 1948,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 340237
+  }
+}

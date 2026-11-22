@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:49.232Z",
+  "seconds": 54,
+  "result": {
+    "evidence": "0:00: Video is a presentation about a lesson plan, not the lesson itself. 0:37: Integral equation shown without defining variables (l_out, a, p, n). 0:55: Narration describes incremental visual building, but shows a static image. 1:12, 1:29: Describes animations not shown on screen. 2:23: Projection equations introduced without defining variables (f, X, Z, etc.).",
+    "score_reason": "The main idea is present, but key visual steps are skipped (described rather than shown) and multiple mathematical symbols are used without explanation. It falls short of higher levels due to the meta-format and numerous unexplained variables.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 59488,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 61904,
+    "cachedContentTokenCount": 58727,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 696
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58792
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51914
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6464
+      }
+    ],
+    "thoughtsTokenCount": 2246,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62799
+  }
+}

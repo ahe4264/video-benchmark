@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:21.622Z",
+  "seconds": 44,
+  "result": {
+    "evidence": "0:00-0:31: Visualizes polar coordinates and area element dA = r dr dθ.\n0:32-1:43: Step-by-step construction of region R between a circle and cardioid, setting up limits, and evaluating the integral.\n1:44-2:39: Demo changing a cardioid parameter to see the effect on intersection and limits.\n2:40-3:30: Sweeps θ to show integral accumulation.\n3:31-4:12: Summarizes the recipe and predicts new limits.\nThe lesson is silent, relying entirely on text and animations.",
+    "score_reason": "The lesson teaches the core idea well with clear, step-by-step visual constructions and dynamic demonstrations. A minor weakness is the lack of audio, requiring split attention between text and animations. It fully meets the 'Good' level (compressed from Strong).",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 67515,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 69286,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66792
+      }
+    ],
+    "thoughtsTokenCount": 1558,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 69763
+  }
+}

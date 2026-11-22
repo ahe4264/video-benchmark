@@ -1,0 +1,53 @@
+{
+  "topic": "p18",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:19.454Z",
+  "seconds": 47,
+  "result": {
+    "evidence": "0:15 - Light rays scatter from a single point on a tree to a wall.\n0:54 - Rays from multiple points on the tree converge on a single point on the wall.\n1:32 - A 3D perspective is introduced to clarify the spatial setup.\n1:59 - A sheet with a pinhole is added, visually demonstrating how it blocks most light rays.\n2:40 - The visual traces a single ray from a leaf through the pinhole to the wall, showing inversion.\n3:34 - An animation shows how closing a large opening shrinks overlapping patches of light to form a sharp image.\n4:05 - An interactive slider allows the user to adjust the opening size, with the visual updating dynamically.\n5:07 - An animation shows the effect of moving the pinhole on the resulting image.\n6:20 - The visual demonstrates the narrowing angle of light reaching a point as the pinhole shrinks.\n7:15 - A summary diagram clearly shows rays crossing at the pinhole to form an inverted image.",
+    "score_reason": "The visuals are crisp, consistent, and directly carry the explanation. A student could understand the core concept of image formation through a pinhole almost entirely from the dynamic and interactive graphics alone.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 144411,
+    "candidatesTokenCount": 287,
+    "totalTokenCount": 145942,
+    "cachedContentTokenCount": 149946,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 767
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 143644
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 133693
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15904
+      }
+    ],
+    "thoughtsTokenCount": 1244,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 151852
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:52.460Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "0:00-0:16: Clear graph with embeddings shown as bar charts. 0:17-0:31: Dynamic animation of a node gathering embeddings. 1:40-1:56: Edges visually lift out to become nodes, explaining the transformation. 2:45-3:20: 'Building in place' animation clearly shows new edges forming around original nodes. 5:37-6:04: Interactive slider transitions between node and edge views. 6:05-6:23: Colored blobs effectively group nodes to show relationships.",
+    "score_reason": "The visuals carry the explanation, allowing a student to follow the core concepts largely from the graphics alone. They are crisp, consistent, and dynamically change to explain steps. Meets the top level, but scored a 6 to avoid the extreme end of the scale.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 139491,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 141435,
+    "cachedContentTokenCount": 144822,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 138731
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 129120
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15360
+      }
+    ],
+    "thoughtsTokenCount": 1739,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 146694
+  }
+}

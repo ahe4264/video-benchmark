@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:23.075Z",
+  "seconds": 129,
+  "result": {
+    "evidence": "0:40: Visualizes errors as vertical lines turning into squares to represent loss.\n1:31: Maps a line to a single point on a parameter plane.\n2:58: Demonstrates moving the point on the loss surface to minimize loss.\n4:26: Isolates intercept and slope changes, showing U-shaped loss curves.",
+    "score_reason": "The lesson fully meets the top level. It is exceptionally clear, highly visual, and makes abstract concepts intuitive. The score is compressed as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 153607,
+    "candidatesTokenCount": 128,
+    "totalTokenCount": 154886,
+    "cachedContentTokenCount": 159576,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152878
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 142301
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16928
+      }
+    ],
+    "thoughtsTokenCount": 1151,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 161489
+  }
+}

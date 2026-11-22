@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:08.846Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "0:03: Opening question on seeing inside an atom.\n0:42: Prediction task creates engagement.\n1:07: Surprising result introduced.\n3:54: Counting flashes builds anticipation, slight lull.\n4:58: Stacked atoms visual offers insight.\n6:14: Second counting sequence is a brief lull.\n6:41: Final quiz slows momentum.",
+    "score_reason": "Opens with a clear question and interactive stake. Maintains good pace and variety with visuals and questions, offering moments of insight. Brief lulls occur during counting sequences and the final quiz. Meets Level 5 (compressed).",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 155846,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 157878,
+    "cachedContentTokenCount": 161978,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155199
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144453
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17184
+      }
+    ],
+    "thoughtsTokenCount": 1877,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 163847
+  }
+}

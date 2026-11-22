@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:32.775Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "The video uses rhetorical questions (0:22, 2:46, 4:55, 6:25) to introduce topics. There are no interactive elements, quizzes, or prompts for the learner to pause and think or apply concepts.",
+    "score_reason": "The lesson meets level 2. It includes rhetorical questions but does not require any active participation or reasoning from the learner.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 121536,
+    "candidatesTokenCount": 102,
+    "totalTokenCount": 122828,
+    "cachedContentTokenCount": 126164,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120799
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 112442
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13376
+      }
+    ],
+    "thoughtsTokenCount": 1190,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127864
+  }
+}

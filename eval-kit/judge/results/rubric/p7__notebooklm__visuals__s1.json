@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:06.070Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:00-1:41: Slides use text and decorative icons.\n1:42: The wrench torque example relies on text and small icons, missing a visual of the actual vectors.\n2:20: The 3D vector diagram is static, even as the narration describes shifting vectors around.\n2:56: The right-hand rule is illustrated with static hand drawings.\n3:39: Reversing order is shown with basic static arrows.\n5:02: Magnitude is represented by a static bar chart.\n6:01: The determinant calculation is presented as a static, three-step image.",
+    "score_reason": "The visuals are clean, readable, and depict the main objects of the concept. However, they are entirely static and serve to illustrate the narration rather than dynamically explaining the steps or changes. This fully meets Level 3.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 131671,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 133138,
+    "cachedContentTokenCount": 136695,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 130911
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 121857
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 14496
+      }
+    ],
+    "thoughtsTokenCount": 1264,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 138489
+  }
+}

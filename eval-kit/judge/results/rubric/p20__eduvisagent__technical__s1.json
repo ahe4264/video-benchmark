@@ -1,0 +1,50 @@
+{
+  "topic": "p20",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:01:56.157Z",
+  "seconds": 99,
+  "result": {
+    "evidence": "The lesson is a screen recording of an interactive lesson. Throughout the video (0:00-19:08), the layout remains clean with no overlapping text, cut-off formulas, or missing images. All interactive elements, including sliders, text input fields, buttons, and accordions, respond correctly to the automated player's actions. The 'undefined' value shown in the header at 1:14 is explicitly explained in the text below it as an intentional feature when the spacing is not afocal, so it is not a technical error. No raw code or markup is visible.",
+    "issues": [],
+    "score_reason": "No visible technical problems: everything renders, loads and responds as intended.",
+    "score": 7
+  },
+  "usage": {
+    "promptTokenCount": 304304,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 306858,
+    "cachedContentTokenCount": 309422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 303336
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 309081
+      }
+    ],
+    "thoughtsTokenCount": 2388,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 313001
+  }
+}

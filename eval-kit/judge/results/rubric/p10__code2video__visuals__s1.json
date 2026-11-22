@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:24:13.272Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:00-0:30: Animations clearly contrast particle and wave behavior through slits. 0:30-1:15: The apparatus is built visually step-by-step with clear, uncluttered labels. 1:15-1:54: Toggling between wave and particle views visually links probability curves to discrete electron hits. 1:54-2:38: A time-lapse animation effectively demonstrates the interference pattern emerging from single particles over time. 2:38-3:47: A dynamic slider visually explains the relationship between slit separation, wavelength, and fringe spacing.",
+    "score_reason": "The lesson fully meets the top level. The visuals are crisp, consistent, and carry the entire explanation; a student could understand the core concepts of wave-particle duality and interference almost entirely from the graphics alone.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 71777,
+    "candidatesTokenCount": 197,
+    "totalTokenCount": 73241,
+    "cachedContentTokenCount": 72704,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71016
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72361
+      }
+    ],
+    "thoughtsTokenCount": 1267,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74136
+  }
+}

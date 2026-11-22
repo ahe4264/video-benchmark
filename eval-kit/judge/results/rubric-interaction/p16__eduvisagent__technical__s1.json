@@ -1,0 +1,61 @@
+{
+  "topic": "p16",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:08:30.836Z",
+  "seconds": 135,
+  "result": {
+    "evidence": "Observed unrendered LaTeX tags (e.g., \\ce{OH}) starting at 1:27 and recurring frequently throughout the lesson. The interaction log indicates several inputs that produced no visible change, such as a checkbox at 7:48, dropdowns starting at 10:21, and a tab button at 16:24.",
+    "issues": [
+      {
+        "timestamp": "1:27",
+        "description": "Unrendered LaTeX code (\\ce{OH}) appears in the text panel, a rendering issue that recurs throughout the lesson.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "7:48",
+        "description": "A checkbox is clicked but produces no visible change on the screen.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "10:21",
+        "description": "A dropdown option is selected but produces no visible change on the screen.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "16:24",
+        "description": "The 'Drawing' button is clicked but the content below it does not update.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has one widespread major problem (unrendered LaTeX tags) and several minor interaction issues, fully meeting the criteria for the fourth level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 326890,
+    "candidatesTokenCount": 331,
+    "totalTokenCount": 330009,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3754
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323136
+      }
+    ],
+    "thoughtsTokenCount": 2788,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336113
+  }
+}

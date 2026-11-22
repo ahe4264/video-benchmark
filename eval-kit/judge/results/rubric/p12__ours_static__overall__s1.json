@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:06.848Z",
+  "seconds": 51,
+  "result": {
+    "evidence": "0:03-1:07: The lesson introduces the pendulum and demonstrates that mass does not affect the period.\n1:08-2:57: It clearly breaks down the forces acting on the bob and derives the restoring force.\n2:58-4:56: The small-angle approximation is explained effectively using a graph comparing the true force to the linear approximation.\n4:57-6:35: The relationship between length and period is shown visually and interactively.\n6:36-8:25: The lesson summarizes why mass cancels out and introduces the final period equation.",
+    "score_reason": "The lesson is clear, correct, and well-made, effectively teaching the core concepts with strong visuals and interactive elements. It fully meets the description for a strong lesson.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 146945,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 147779,
+    "cachedContentTokenCount": 152645,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 146224
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 721
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136114
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16192
+      }
+    ],
+    "thoughtsTokenCount": 644,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 154505
+  }
+}

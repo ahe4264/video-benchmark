@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:15.456Z",
+  "seconds": 51,
+  "result": {
+    "evidence": "0:48: Predicts where height reaches zero.\n2:16, 2:47: Applies formula to find intercept and bounding line.\n4:04: Identifies strip bounds.\n4:39, 5:38, 6:50: Hands-on exploration (dragging strip, rotating solid, 3D-to-flat slider).\n6:05, 6:36: Predicts viewing angle and projection point.\n7:30: Explains region boundary.\n8:33: Applies logic to find horizontal strip limits.",
+    "score_reason": "The learner performs key reasoning at main steps via prediction, application, and exploration. Feedback explains the reasoning for the answers. It meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 161117,
+    "candidatesTokenCount": 181,
+    "totalTokenCount": 163627,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 160384
+      }
+    ],
+    "thoughtsTokenCount": 2329,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 169364
+  }
+}

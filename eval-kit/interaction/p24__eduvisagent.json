@@ -1,0 +1,1872 @@
+{
+ "lesson": "p24",
+ "offset": 0,
+ "actions": 181,
+ "noVisibleChange": 6,
+ "withPageError": 0,
+ "deadOrError": 6,
+ "loadErrors": 0,
+ "recorderCouldNotUse": 1,
+ "deadByOffset": {
+  "0": 6,
+  "-3": 38,
+  "-2.5": 27,
+  "-2": 25,
+  "-1.5": 21,
+  "-1": 7,
+  "-0.5": 10
+ },
+ "loadErrorMessages": [],
+ "items": [
+  {
+   "t": 14.6,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1609,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 25.6,
+   "part": 1,
+   "kind": "number",
+   "label": "",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 27,
+   "part": 1,
+   "kind": "number",
+   "label": "",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 28.5,
+   "part": 1,
+   "kind": "button",
+   "label": "Isolate block A",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 29.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Isolate block B",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 31.3,
+   "part": 1,
+   "kind": "button",
+   "label": "↗",
+   "change": 0.1104,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 42.5,
+   "part": 1,
+   "kind": "number",
+   "label": "",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 44,
+   "part": 1,
+   "kind": "select",
+   "label": "— choose — N and f N only T nothing",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 45.5,
+   "part": 1,
+   "kind": "select",
+   "label": "— choose — weight w_A none",
+   "change": 0.0139,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 46.8,
+   "part": 1,
+   "kind": "select",
+   "label": "— choose — N and f N only T nothing",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 48.1,
+   "part": 1,
+   "kind": "select",
+   "label": "— choose — N and f N only T nothing",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 49.4,
+   "part": 1,
+   "kind": "range",
+   "label": "3",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 58.3,
+   "part": 1,
+   "kind": "button",
+   "label": "🔒 Lock in prediction",
+   "change": 0.09,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 69.3,
+   "part": 1,
+   "kind": "number",
+   "label": "",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 70.7,
+   "part": 1,
+   "kind": "select",
+   "label": "— choose — weight w_B none",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 72.1,
+   "part": 1,
+   "kind": "select",
+   "label": "— choose — N and f N only T nothing",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 73.4,
+   "part": 1,
+   "kind": "select",
+   "label": "— choose — N and f N only T nothing",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 74.7,
+   "part": 1,
+   "kind": "button",
+   "label": "Check inventory",
+   "change": 0.0905,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 85.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Check answers",
+   "change": 0.0029,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 87.2,
+   "part": 1,
+   "kind": "button",
+   "label": "R",
+   "change": 0.0026,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 88.6,
+   "part": 1,
+   "kind": "button",
+   "label": "I",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 90,
+   "part": 1,
+   "kind": "button",
+   "label": "R",
+   "change": 0.1122,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 101,
+   "part": 1,
+   "kind": "button",
+   "label": "Show both",
+   "change": 0.0038,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 102.4,
+   "part": 1,
+   "kind": "button",
+   "label": "A’s FBD",
+   "change": 0.0579,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 103.7,
+   "part": 1,
+   "kind": "button",
+   "label": "A’s FBD",
+   "change": 0.052,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 105.1,
+   "part": 1,
+   "kind": "button",
+   "label": "A’s FBD",
+   "change": 0.1102,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 115.9,
+   "part": 1,
+   "kind": "range",
+   "label": "4",
+   "change": 0.0049,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 125.2,
+   "part": 1,
+   "kind": "range",
+   "label": "-4",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 134.4,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Sweep",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 136.9,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Sweep",
+   "change": 0.0094,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 140.5,
+   "part": 1,
+   "kind": "button",
+   "label": "◯ Isolate A",
+   "change": 0.0248,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 144.3,
+   "part": 1,
+   "kind": "button",
+   "label": "◯ Isolate B",
+   "change": 0.0105,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 146.4,
+   "part": 1,
+   "kind": "button",
+   "label": "⇄ Highlight contact-force pairs",
+   "change": 0.1349,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 277.9,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0116,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 279.4,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0218,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 280.8,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0205,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 282.1,
+   "part": 2,
+   "kind": "button",
+   "label": "1 · Hook",
+   "change": 0.0064,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 283.5,
+   "part": 2,
+   "kind": "button",
+   "label": "2A · I Do: A",
+   "change": 0.0228,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 285.1,
+   "part": 2,
+   "kind": "button",
+   "label": "2B · We Do: B",
+   "change": 0.1787,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 296,
+   "part": 2,
+   "kind": "number",
+   "label": "Your answer",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 297.5,
+   "part": 2,
+   "kind": "button",
+   "label": "Next scene ▶",
+   "change": 0.0702,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 299.1,
+   "part": 2,
+   "kind": "button",
+   "label": "Check",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 300.7,
+   "part": 2,
+   "kind": "button",
+   "label": "Block A: click to isolate",
+   "change": 0.0224,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 302.1,
+   "part": 2,
+   "kind": "button",
+   "label": "Block B: click to isolate",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 303.4,
+   "part": 2,
+   "kind": "button",
+   "label": "Shift the zero of the number line",
+   "change": 0.0833,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 314.3,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0065,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 318.5,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0093,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 322,
+   "part": 2,
+   "kind": "button",
+   "label": "Next scene ▶",
+   "change": 0.0897,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 323.5,
+   "part": 2,
+   "kind": "button",
+   "label": "Next scene ▶",
+   "change": 0.0869,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 324.9,
+   "part": 2,
+   "kind": "button",
+   "label": "Submit",
+   "change": 0.0053,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 326.3,
+   "part": 2,
+   "kind": "button",
+   "label": "▶ Play cycle",
+   "change": 0.0469,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 327.7,
+   "part": 2,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0178,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 329.1,
+   "part": 2,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0301,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 330.5,
+   "part": 2,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0318,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 331.9,
+   "part": 2,
+   "kind": "button",
+   "label": "Start selecting",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 333.2,
+   "part": 2,
+   "kind": "button",
+   "label": "Show examples",
+   "change": 0.032,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 334.6,
+   "part": 2,
+   "kind": "button",
+   "label": "■ Normal pair",
+   "change": 0.0797,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 345.3,
+   "part": 2,
+   "kind": "button",
+   "label": "Next scene ▶",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 472.7,
+   "part": 3,
+   "kind": "button",
+   "label": "0 · F",
+   "change": 0.1438,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 474.1,
+   "part": 3,
+   "kind": "text",
+   "label": "your reason",
+   "change": 0.0166,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 478.5,
+   "part": 3,
+   "kind": "text",
+   "label": "your reason",
+   "change": 0.0051,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 482.6,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0033,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 484,
+   "part": 3,
+   "kind": "number",
+   "label": "",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 485.5,
+   "part": 3,
+   "kind": "select",
+   "label": "choose… A B neither",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 486.8,
+   "part": 3,
+   "kind": "select",
+   "label": "choose… A B neither",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 488.1,
+   "part": 3,
+   "kind": "select",
+   "label": "choose… F O P S",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 489.5,
+   "part": 3,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 490.8,
+   "part": 3,
+   "kind": "button",
+   "label": "Same",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 492.2,
+   "part": 3,
+   "kind": "button",
+   "label": "Yes",
+   "change": 0.1496,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 503.1,
+   "part": 3,
+   "kind": "radio",
+   "label": "2",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 504.4,
+   "part": 3,
+   "kind": "button",
+   "label": "Check my sort",
+   "change": 0.0781,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 505.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Show the reasons",
+   "change": 0.11,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 507.1,
+   "part": 3,
+   "kind": "button",
+   "label": "Lock in",
+   "change": 0.0568,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 508.5,
+   "part": 3,
+   "kind": "button",
+   "label": "D",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 509.8,
+   "part": 3,
+   "kind": "button",
+   "label": "M",
+   "change": 0.1373,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 520.5,
+   "part": 3,
+   "kind": "button",
+   "label": "I",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 521.9,
+   "part": 3,
+   "kind": "button",
+   "label": "D",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 523.3,
+   "part": 3,
+   "kind": "button",
+   "label": "M",
+   "change": 0.0166,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 538.4,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1366,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 540,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0477,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 541.5,
+   "part": 4,
+   "kind": "button",
+   "label": "2 · O→P→S",
+   "change": 0.0476,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 542.9,
+   "part": 4,
+   "kind": "number",
+   "label": "",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 544.6,
+   "part": 4,
+   "kind": "number",
+   "label": "",
+   "change": 0.0368,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 546.3,
+   "part": 4,
+   "kind": "button",
+   "label": "3 · Check 👤→👥",
+   "change": 0.0367,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 547.7,
+   "part": 4,
+   "kind": "check",
+   "label": "count",
+   "change": 0.009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 549,
+   "part": 4,
+   "kind": "check",
+   "label": "route",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 550.3,
+   "part": 4,
+   "kind": "check",
+   "label": "rel",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 551.7,
+   "part": 4,
+   "kind": "check",
+   "label": "receiver",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 553,
+   "part": 4,
+   "kind": "check",
+   "label": "balance",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 554.4,
+   "part": 4,
+   "kind": "button",
+   "label": "0 · Demo",
+   "change": 0.1631,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 565.3,
+   "part": 4,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 566.7,
+   "part": 4,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 568,
+   "part": 4,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 569.4,
+   "part": 4,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0067,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 570.8,
+   "part": 4,
+   "kind": "button",
+   "label": "→",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 572.1,
+   "part": 4,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0674,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 573.5,
+   "part": 4,
+   "kind": "button",
+   "label": "→",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 574.7,
+   "part": 4,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 576.1,
+   "part": 4,
+   "kind": "button",
+   "label": "→",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 577.4,
+   "part": 4,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 578.7,
+   "part": 4,
+   "kind": "button",
+   "label": "→",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 580.1,
+   "part": 4,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.1336,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 683.6,
+   "part": 4,
+   "kind": "radio",
+   "label": "2",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 685,
+   "part": 4,
+   "kind": "radio",
+   "label": "2",
+   "change": 0.0151,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 686.4,
+   "part": 4,
+   "kind": "radio",
+   "label": "2",
+   "change": 0.0116,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 687.8,
+   "part": 4,
+   "kind": "button",
+   "label": "→",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 689.2,
+   "part": 4,
+   "kind": "button",
+   "label": "Next ▶",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 690.7,
+   "part": 4,
+   "kind": "button",
+   "label": "→",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 692.1,
+   "part": 4,
+   "kind": "button",
+   "label": "Open drawer",
+   "change": 0.0282,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 693.7,
+   "part": 4,
+   "kind": "button",
+   "label": "▶ Play the yank",
+   "change": 0.0685,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 695.2,
+   "part": 4,
+   "kind": "button",
+   "label": "Start 10 s timer",
+   "change": 0.0044,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 699.2,
+   "part": 4,
+   "kind": "button",
+   "label": "🔒 Lock gut check",
+   "change": 0.0061,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 703.1,
+   "part": 4,
+   "kind": "button",
+   "label": "ⓘ",
+   "change": 0.0335,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 706.7,
+   "part": 4,
+   "kind": "button",
+   "label": "Add",
+   "change": 0.1288,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 718,
+   "part": 4,
+   "kind": "radio",
+   "label": "3",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 719.5,
+   "part": 4,
+   "kind": "radio",
+   "label": "3",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 721.1,
+   "part": 4,
+   "kind": "button",
+   "label": "up",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 722.7,
+   "part": 4,
+   "kind": "button",
+   "label": "down",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 724.1,
+   "part": 4,
+   "kind": "button",
+   "label": "neither",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 739.2,
+   "part": 5,
+   "kind": "button",
+   "label": "4 Quick-check",
+   "change": 0.9791,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 743.7,
+   "part": 5,
+   "kind": "close-popup",
+   "label": "escape",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 744.4,
+   "part": 5,
+   "kind": "close-popup",
+   "label": "click outside",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 745.1,
+   "part": 5,
+   "kind": "close-popup",
+   "label": "click outside",
+   "change": 0.9792,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 745.9,
+   "part": 5,
+   "kind": "close-popup",
+   "label": "forced hide",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 745.9,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 747.2,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 748.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 750,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 751.3,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 752.7,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 754.2,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 755.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 757.1,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 758.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 760,
+   "part": 5,
+   "kind": "button",
+   "label": "Arrow 6, labeled T, drawn up the slope, about 30.0 newtons",
+   "change": 0.139,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 770.9,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0042,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 772.2,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0103,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 773.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0046,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 774.9,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0093,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 776.3,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0054,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 777.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0098,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 779,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0051,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 780.4,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 781.7,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0086,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 783.1,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0594,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 784.5,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.0686,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 785.8,
+   "part": 5,
+   "kind": "button",
+   "label": "Next ▸",
+   "change": 0.1348,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 881.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Continue to Stage 2: the gates ▸",
+   "change": 0.1145,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 883,
+   "part": 5,
+   "kind": "select",
+   "label": "Arrow 1: w_B ↓ Arrow 2: N_B ↖ (84.9 N) Arrow 3: f_B ↗ Arrow ",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 884.4,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 885.7,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 887.1,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 888.4,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 889.7,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0155,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 891.1,
+   "part": 5,
+   "kind": "button",
+   "label": "Run through gates ▾",
+   "change": 0.1599,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 903.1,
+   "part": 5,
+   "kind": "button",
+   "label": "Recolor by source",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 904.4,
+   "part": 5,
+   "kind": "button",
+   "label": "◂ Back to the hunt",
+   "change": 0.1318,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 905.7,
+   "part": 5,
+   "kind": "button",
+   "label": "🧑‍🏫 I Do",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 920.5,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0829,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 922.1,
+   "part": 6,
+   "kind": "text",
+   "label": "A rule…",
+   "change": 0.0109,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 925.8,
+   "part": 6,
+   "kind": "text",
+   "label": "A rule…",
+   "change": 0.009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 929.5,
+   "part": 6,
+   "kind": "text",
+   "label": "A rule…",
+   "change": 0.0083,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 933.4,
+   "part": 6,
+   "kind": "button",
+   "label": "1 Rebuild",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 934.7,
+   "part": 6,
+   "kind": "button",
+   "label": "1D Gap check",
+   "change": 0.0481,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 936.1,
+   "part": 6,
+   "kind": "check",
+   "label": "1",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 937.4,
+   "part": 6,
+   "kind": "check",
+   "label": "2",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 938.7,
+   "part": 6,
+   "kind": "check",
+   "label": "3",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 940,
+   "part": 6,
+   "kind": "check",
+   "label": "4",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 941.3,
+   "part": 6,
+   "kind": "check",
+   "label": "5",
+   "change": 0.0155,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 942.7,
+   "part": 6,
+   "kind": "check",
+   "label": "6",
+   "change": 0.1072,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 953.5,
+   "part": 6,
+   "kind": "check",
+   "label": "7",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 954.8,
+   "part": 6,
+   "kind": "check",
+   "label": "8",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 956.1,
+   "part": 6,
+   "kind": "button",
+   "label": "Save my gaps",
+   "change": 0.0921,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 957.5,
+   "part": 6,
+   "kind": "button",
+   "label": "Reveal",
+   "change": 0.12,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 958.9,
+   "part": 6,
+   "kind": "button",
+   "label": "Key ideas",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 960.2,
+   "part": 6,
+   "kind": "button",
+   "label": "Visual sheet",
+   "change": 0.062,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 961.6,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0032,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 963,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0033,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 964.3,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0032,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 965.6,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 967,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0779,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 977.8,
+   "part": 6,
+   "kind": "select",
+   "label": "stage… Concrete Representational Abstract",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 979,
+   "part": 6,
+   "kind": "select",
+   "label": "step… Isolate Inventory Friction direction Third law Sizes E",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 980.3,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 981.7,
+   "part": 6,
+   "kind": "button",
+   "label": "✨ Highlight structure",
+   "change": 0.0535,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

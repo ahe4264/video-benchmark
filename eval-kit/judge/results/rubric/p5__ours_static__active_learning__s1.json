@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:12:33.115Z",
+  "seconds": 82,
+  "result": {
+    "evidence": "0:44: Learner predicts if 't' settles early, addressing a greedy misconception.\n0:53: Learner calculates an alternative path cost.\n2:45, 3:21: Learner applies the relaxation rule; feedback explains the math.\n4:05: Learner writes Python code for the relaxation step.\n4:47, 5:30: Learner predicts vertex values in subsequent passes.\n6:22: Learner deduces the maximum edges in a shortest path.\n7:32: Learner predicts algorithm convergence.\n8:19: Learner predicts behavior with a negative cycle; feedback explains the cycle's cost.",
+    "score_reason": "The lesson requires the learner to perform key reasoning (predicting, applying, coding) at all main conceptual steps. Feedback consistently explains the 'why' behind the answers, and questions are placed to address specific misconceptions. It meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159672,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 162199,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158939
+      }
+    ],
+    "thoughtsTokenCount": 2306,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167849
+  }
+}

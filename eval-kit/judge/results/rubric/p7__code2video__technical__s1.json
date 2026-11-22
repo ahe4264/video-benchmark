@@ -1,0 +1,66 @@
+{
+  "topic": "p7",
+  "system": "code2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:29.121Z",
+  "seconds": 360,
+  "result": {
+    "evidence": "Observed minor rendering issues. At 2:21-2:30, revealed numbers overlap previous question marks. At 3:30 and 3:53, text briefly appears garbled during animation.",
+    "issues": [
+      {
+        "timestamp": "2:21",
+        "description": "Revealed numbers overlap question marks.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:30",
+        "description": "Text briefly garbled.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "3:53",
+        "description": "Equation briefly garbled.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "Contains several minor glitches; content remains readable.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 82281,
+    "candidatesTokenCount": 198,
+    "totalTokenCount": 86147,
+    "cachedContentTokenCount": 83194,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 81312
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82852
+      }
+    ],
+    "thoughtsTokenCount": 3668,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 85091
+  }
+}

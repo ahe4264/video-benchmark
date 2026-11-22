@@ -1,0 +1,49 @@
+{
+  "topic": "p12",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:42.545Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:00: Hook asks why a grandfather clock keeps perfect time. 2:09: Interactive F vs theta plot provides insight into the small-angle approximation. 3:39: Interactive sliders test variables against the period formula. 2:52-3:39: Brief lull during the mathematical derivation.",
+    "score_reason": "Fully meets Level 6 with a real opening question, good variety through interactive demonstrations, moments of insight, and only brief lulls. It lacks the relentless momentum required for Level 7.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 103341,
+    "candidatesTokenCount": 130,
+    "totalTokenCount": 105079,
+    "cachedContentTokenCount": 104980,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 102696
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 645
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 104641
+      }
+    ],
+    "thoughtsTokenCount": 1608,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 106540
+  }
+}

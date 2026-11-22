@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:25:57.010Z",
+  "seconds": 109,
+  "result": {
+    "evidence": "0:00-0:15: The 'crowded doorway' analogy provides a clear opening hook.\n0:15-0:32: Asking the student to commit to predictions creates a stake.\n1:50-3:00: The interactive animation showing the aperture shrinking provides a moment of visual insight.\n3:00-4:00: The 'umbrella flip' animation is engaging and clear.\n5:10-15:15: The scaffolded practice and near-transfer tasks involve repetitive sorting and ranking across multiple similar examples, creating long, flat stretches of content.",
+    "score_reason": "The lesson fully meets Level 4. It features a clear opening with pull (analogy and prediction) and holds attention early on with insightful animations. However, the extensive, repetitive practice sections create significant flat stretches, preventing it from reaching Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 323788,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 325799,
+    "cachedContentTokenCount": 329602,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323136
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 652
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 329256
+      }
+    ],
+    "thoughtsTokenCount": 1805,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332832
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:25:14.462Z",
+  "seconds": 95,
+  "result": {
+    "evidence": "0:16: Engaging hook introducing the particle vs. wave question.\n1:43: Clear introduction of de Broglie's hypothesis.\n2:49: Explanation of the double-slit experiment with electrons.\n3:16: Excellent time-lapse visualization of single electrons building an interference pattern, a key concept for duality.\n4:31: Explicit definition of wave-particle duality.\n5:30: Logical transition to the Heisenberg Uncertainty Principle.\n6:45: Application of these concepts to quantum orbitals and quantum numbers.",
+    "score_reason": "The lesson is strong, clear, and well-structured. It uses excellent visuals to explain complex concepts like the single-electron double-slit experiment. It fully meets the criteria for a strong lesson, with no significant weaknesses.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159374,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 160285,
+    "cachedContentTokenCount": 165592,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158649
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 147681
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17568
+      }
+    ],
+    "thoughtsTokenCount": 725,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167536
+  }
+}

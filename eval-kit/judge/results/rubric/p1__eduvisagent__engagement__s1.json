@@ -1,0 +1,49 @@
+{
+  "topic": "p1",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:06:31.947Z",
+  "seconds": 55,
+  "result": {
+    "evidence": "0:15 The lesson opens with a pendulum clock scenario and an interactive slider comparing arc length to height. 0:28 A table demonstrates the ratio approaching 1, setting up a puzzle. 3:47 An interactive geometric construction builds the three areas for the squeeze. 5:33 A 'far transfer' task applies the learned structure to a new problem. 13:25 The later sections on error detection and rebuilding the proof from memory are extensive and slow the overall momentum.",
+    "score_reason": "The lesson has a strong opening that poses a clear question and uses interactive elements to create curiosity. It offers good variety through sliders, tables, and geometric builds, leading to moments of visual insight. However, the lengthy practice and metacognitive sections in the second half introduce noticeable lulls in momentum, keeping it from a higher level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 333294,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 334744,
+    "cachedContentTokenCount": 339288,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 654
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 338940
+      }
+    ],
+    "thoughtsTokenCount": 1254,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 342590
+  }
+}

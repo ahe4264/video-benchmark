@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:47.841Z",
+  "seconds": 52,
+  "result": {
+    "evidence": "0:00: Hook establishes the need for local and global understanding.\n0:40: Prerequisites define input/output and downsampling's effect on receptive fields.\n1:19: U-Net architecture is built piece by piece.\n1:59: Encoder and decoder passes visually explain spatial/channel trade-offs and skip connections.\n3:16: Time embedding is explained with graphs showing weight shifts per timestep.\n4:06: Self-attention visually demonstrates distant pixel connections.\n5:00: Summary consolidates the four mechanisms.",
+    "score_reason": "The lesson is highly logical and step-by-step. Every element builds on the last, and visuals perfectly support the explanations. It meets the criteria for the highest levels, but the score is compressed to avoid the maximum.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 91242,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 93545,
+    "cachedContentTokenCount": 92610,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 90552
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 92267
+      }
+    ],
+    "thoughtsTokenCount": 2114,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 94119
+  }
+}

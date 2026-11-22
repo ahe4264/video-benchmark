@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:43:31.151Z",
+  "seconds": 50,
+  "result": {
+    "evidence": "01:17-01:55: The learner applies the first rule by clicking original edges to generate new nodes.\n01:56-02:48: The learner applies the second rule by selecting pairs of nodes to connect. An incorrect pairing (02:44) triggers specific feedback ('no shared vertex -> no edge').\n02:49-03:24: The learner explores node degrees interactively.\n03:25-03:59: The learner uses a toggle to explore the relationship between original and edge graphs.\n04:00-04:31: A final quiz asks the learner to apply the rules to a new graph.",
+    "score_reason": "The lesson fully meets Level 6, as the learner applies concepts or explores hands-on at most key steps, receiving relevant feedback. It falls short of Level 7 because it lacks checks specifically designed to address common misconceptions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 72541,
+    "candidatesTokenCount": 222,
+    "totalTokenCount": 75051,
+    "cachedContentTokenCount": 73510,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71808
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73168
+      }
+    ],
+    "thoughtsTokenCount": 2288,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74921
+  }
+}

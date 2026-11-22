@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:12.339Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "0:56: Setup introduced; full slide of text and diagram appear at once.\n1:11: Gauss's law applied; entire derivation appears simultaneously.\n1:27: Potential difference integration shown all at once.\n2:01: Content shifts to meta-discussion about video production, abandoning the physics lesson.",
+    "score_reason": "The main idea is present, but the screen consistently shows too much at once with full slides of dense equations. It meets Level 2, missing Level 3 due to the lack of step-by-step visual buildup and the confusing shift to meta-content. Score compressed toward the center of the scale.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 75756,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 78721,
+    "cachedContentTokenCount": 74901,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66306
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8256
+      }
+    ],
+    "thoughtsTokenCount": 2809,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 79844
+  }
+}

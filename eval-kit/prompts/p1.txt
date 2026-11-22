@@ -1,0 +1,57 @@
+Produce a narrated lesson on the geometric inequality used to prove that lim_{x->0} sin
+x / x = 1 via the Squeezing Theorem.
+Source: Anton, Bivens, and Davis. Calculus, 10th Edition, Figure 1.6.4 (figure `1.6.4`,
+math/2d)
+Target length: 6 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand the geometric inequality used to prove that
+lim_{x->0} sin x / x = 1 via the Squeezing Theorem.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure illustrates the geometric inequality used to prove that lim_{x->0} sin
+x / x = 1 via the Squeezing Theorem. On the left, the unit circle is drawn with three
+labeled points: (1, 0) on the x-axis, (cos x, sin x) on the circle, and (1, tan x) on
+the vertical tangent at x = 1, with angle x at the origin and the base labeled 1. On the
+right, three geometric shapes compare areas side-by-side: a large right triangle with
+height tan x (area tan x / 2), a circular sector of angle x (area x / 2), and a small
+right triangle with height sin x (area sin x / 2), with the inequalities Area of
+triangle >= Area of sector >= Area of triangle written below. The figure establishes the
+sandwiching inequality tan x / 2 >= x / 2 >= sin x / 2 that, after dividing by sin x /
+2, yields cos x <= sin x / x <= 1 / cos x, enabling the Squeezing Theorem to conclude
+the limit equals 1.
+3. Demonstration — Slider for angle x (0 to π/2): update the unit circle diagram and all
+three geometric shapes (outer triangle, sector, inner triangle) simultaneously to show
+how the two triangles bound the sector as x varies
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Demonstration — Toggle to overlay all three area comparisons onto a single panel,
+replacing the three static side-by-side diagrams
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+5. Demonstration — Click each panel label (Area of triangle, Area of sector) to
+highlight the corresponding region and display its formula
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+6. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: 1.6.3 theorem (a) lim x→0 sin x /x = 1 (b) lim x→0 (1 − cos x) / x = 0
+proof (a) In this proof we will interpret x as an angle in radian measure, and we will
+assume to start that 0 <x 0 for 0 <x<x<x< 0 [since replacing x by −x and using the
+identities sin(−x) =− sin x, and cos(−x) = cos x leaves (3) unchanged]. Finally, since
+lim x→0 cos x = 1 and limx→0 1 = 1 the Squeezing Theorem implies that lim x→0 sin x x =
+1
+CONSTRAINTS
+- Render in 2D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.

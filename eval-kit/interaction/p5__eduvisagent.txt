@@ -1,0 +1,224 @@
+Interaction log: 216 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 7 of 216 inputs produced no visible change; 0 raised a page error.
+
+0:12  part 1  picked an option in a drop-down -> no visible change
+0:14  part 1  selected choice "Direct s→t" -> screen changed
+0:16  part 1  ticked a checkbox -> screen changed
+0:18  part 1  dragged a slider (starting at "0") through its whole range -> screen changed
+0:29  part 1  clicked button "Show the road map (4 roads)" -> screen changed
+0:31  part 1  clicked button "▶ Play" -> screen changed
+0:40  part 1  clicked button "▶|" -> screen changed
+0:43  part 1  clicked button "Lock in my answer" -> screen changed
+0:45  part 1  clicked button "▶ Animate" -> screen changed
+0:47  part 1  clicked button "▶ Animate" -> screen changed
+0:51  part 1  clicked button "Trace current π route to z" -> screen changed
+0:53  part 1  clicked button "⏭ pass" -> screen changed
+1:06  part 1  typed a written answer into the box "Optional reflection (stays on this page)" -> screen changed
+1:12  part 1  clicked button "Run greedy dispatcher" -> screen changed
+1:14  part 1  clicked button "Number line" -> screen changed
+1:15  part 1  clicked button "Edge-order strip" -> screen changed
+1:17  part 1  clicked button "Path progress" -> screen changed
+1:29  part 1  clicked button "R" -> screen changed
+1:30  part 1  clicked button "I" -> screen changed
+1:32  part 1  clicked button "Relaxation chart" -> screen changed
+1:43  part 1  clicked button "Build next element" -> screen changed
+1:44  part 1  clicked button "Show complete panel (a)" -> screen changed
+1:46  part 1  clicked button "R" -> screen changed
+1:47  part 1  clicked button "I" -> screen changed
+1:49  part 1  clicked button "▾ d / π Ledger (history never erased)" -> screen changed
+2:09  part 1  typed a written answer into the box "new d[x]" -> screen changed
+2:14  part 1  picked an option in a drop-down -> screen changed
+2:16  part 1  clicked button "Check" -> screen changed
+2:17  part 1  clicked button "Check" -> screen changed
+2:19  part 1  clicked button "Valid" -> screen changed
+2:20  part 1  clicked button "Invalid" -> screen changed
+2:22  part 1  clicked button "Valid" -> screen changed
+2:33  part 1  ticked a checkbox "s" -> screen changed
+2:34  part 1  ticked a checkbox "t" -> screen changed
+2:36  part 1  ticked a checkbox "x" -> screen changed
+2:37  part 1  ticked a checkbox "y" -> screen changed
+2:38  part 1  ticked a checkbox "z" -> screen changed
+2:40  part 1  clicked button "▶ Run my relax()" -> screen changed
+2:41  part 1  clicked button "Show reference" -> screen changed
+2:45  part 1  clicked button "Play next pass & compare" -> screen changed
+3:16  part 1  typed a written answer into the box "…because ___" -> screen changed
+3:40  part 2  typed a written answer into the box "dist[u] + w" -> screen changed
+3:45  part 2  picked an option in a drop-down -> screen changed
+3:46  part 2  picked an option in a drop-down -> screen changed
+3:47  part 2  picked an option in a drop-down -> screen changed
+3:49  part 2  clicked button "check my code" -> screen changed
+3:50  part 2  clicked button "▶| step edge" -> screen changed
+3:51  part 2  clicked button "▶ play" -> screen changed
+3:53  part 2  clicked button "⏭ finish pass" -> screen changed
+4:03  part 2  ticked a checkbox -> screen changed
+4:05  part 2  ticked a checkbox -> screen changed
+4:06  part 2  clicked button "next beat ▶" -> screen changed
+4:08  part 2  clicked button "next beat ▶" -> screen changed
+4:10  part 2  clicked button "next beat ▶" -> screen changed
+4:12  part 2  clicked button "next beat ▶" -> screen changed
+4:14  part 2  clicked button "next beat ▶" -> screen changed
+4:15  part 2  clicked button "next beat ▶" -> screen changed
+4:17  part 2  clicked button "Scene 2 · Construction" -> screen changed
+4:18  part 2  clicked button "Scene 3 · Demonstration" -> screen changed
+4:20  part 2  clicked button "Scene 4 · Consolidation" -> screen changed
+4:21  part 2  typed a number into "" -> screen changed
+4:32  part 2  typed a written answer into the box "because …" -> screen changed
+4:36  part 2  typed a written answer into the box "one-sentence justification" -> screen changed
+4:40  part 2  typed a written answer into the box "" -> the control could not be operated; screen changed
+4:44  part 2  typed a written answer into the box "" -> the control could not be operated; screen changed
+4:47  part 2  picked an option in a drop-down -> screen changed
+4:48  part 2  selected choice "right" -> screen changed
+4:50  part 2  clicked button "▶ Run pass 5 (the check)" -> screen changed
+5:05  part 3  clicked button "F1 Relevance" -> screen changed
+5:06  part 3  picked an option in a drop-down -> screen changed
+5:07  part 3  picked an option in a drop-down -> screen changed
+5:09  part 3  selected choice "R" -> screen changed
+5:10  part 3  selected choice "R" -> screen changed
+5:12  part 3  selected choice "R" -> screen changed
+5:13  part 3  selected choice "R" -> screen changed
+5:16  part 3  selected choice "R" -> screen changed
+5:17  part 3  ticked a checkbox -> screen changed
+5:18  part 3  clicked button "Check my sort" -> screen changed
+5:20  part 3  clicked button "Ledger" -> screen changed
+5:21  part 3  clicked button "Counters" -> screen changed
+5:32  part 3  typed a written answer into the box "e.g. t→z" -> screen changed
+5:36  part 3  typed a written answer into the box "w" -> screen changed
+5:40  part 3  typed a written answer into the box "e.g. t→z" -> screen changed
+5:44  part 3  typed a written answer into the box "w" -> screen changed
+5:49  part 3  typed a written answer into the box "e.g. t→z" -> screen changed
+5:53  part 3  typed a written answer into the box "w" -> screen changed
+5:58  part 3  typed a written answer into the box "e.g. t→z" -> screen changed
+6:02  part 3  typed a written answer into the box "w" -> screen changed
+6:07  part 3  picked an option in a drop-down -> screen changed
+6:08  part 3  picked an option in a drop-down -> screen changed
+6:09  part 3  picked an option in a drop-down -> screen changed
+6:11  part 3  picked an option in a drop-down -> screen changed
+6:22  part 3  typed a written answer into the box "?" -> screen changed
+6:28  part 3  typed a written answer into the box "?" -> screen changed
+6:35  part 3  typed a written answer into the box "?" -> screen changed
+6:44  part 3  typed a written answer into the box "?" -> screen changed
+6:51  part 3  typed a written answer into the box "?" -> screen changed
+6:56  part 3  typed a written answer into the box "?" -> screen changed
+7:01  part 3  selected choice "1" -> screen changed
+7:02  part 3  selected choice "1" -> screen changed
+7:04  part 3  selected choice "1" -> screen changed
+7:05  part 3  selected choice "inf" -> screen changed
+7:06  part 3  typed a written answer into the box "?" -> screen changed
+7:11  part 3  typed a written answer into the box "?" -> screen changed
+7:25  part 3  typed a written answer into the box "Because …" -> screen changed
+7:30  part 3  selected choice "10" -> screen changed
+7:32  part 3  clicked button "Check pass 2" -> screen changed
+7:33  part 3  clicked button "Submit pass 1" -> screen changed
+7:35  part 3  clicked button "check pass" -> screen changed
+7:36  part 3  clicked button "🂠 Hint 1" -> screen changed
+7:37  part 3  clicked button "🂠 Hint 2" -> screen changed
+7:39  part 3  clicked button "🂠 Hint 3" -> screen changed
+7:40  part 3  clicked button "Pass 1, leg 1 (a,c): blank" -> screen changed
+7:42  part 3  typed a written answer into the box "d of u" -> screen changed
+7:46  part 3  typed a written answer into the box "candidate" -> screen changed
+7:50  part 3  typed a written answer into the box "d of v before" -> screen changed
+8:03  part 3  typed a written answer into the box "Reason (one sentence)…" -> screen changed
+8:08  part 3  selected choice "yes" -> screen changed
+8:10  part 3  dragged a slider (starting at "520") through its whole range -> screen changed
+8:19  part 3  clicked button "Run one full pass ▸▸" -> screen changed
+8:22  part 3  clicked button "Sweep all 4 passes + check" -> screen changed
+8:33  part 3  clicked button "Submit checkpoint" -> screen changed
+8:35  part 3  clicked button "pass 2" -> screen changed
+8:36  part 3  clicked button "pass 3" -> screen changed
+8:37  part 3  clicked button "pass 4" -> screen changed
+9:01  part 4  clicked button "Go to the trace →" -> screen changed
+9:03  part 4  ticked a checkbox -> screen changed
+9:14  part 4  typed a written answer into the box "Because edge #5 runs before…" -> screen changed
+9:18  part 4  typed a written answer into the box "It tells me…" -> screen changed
+9:24  part 4  typed a written answer into the box "rules …" -> screen changed
+9:30  part 4  typed a written answer into the box "Because every rule mentions only a …" -> screen changed
+10:34  part 4  dragged a slider (starting at "0") through its whole range -> screen changed
+10:43  part 4  clicked button "Show strip positions" -> screen changed
+10:44  part 4  clicked button "Compare with my amber (π) edges" -> screen changed
+10:46  part 4  clicked button "Base (rules 1–6)" -> screen changed
+10:47  part 4  clicked button "+ Rule 7 (Task 2)" -> screen changed
+10:49  part 4  clicked button "Variant: rule 2 = 0" -> screen changed
+11:00  part 4  clicked button "0" -> screen changed
+11:02  part 4  clicked button "−4" -> screen changed
+11:03  part 4  clicked button "held" -> screen changed
+11:14  part 4  typed a number into "w" -> screen changed
+11:16  part 4  picked an option in a drop-down -> screen changed
+11:17  part 4  picked an option in a drop-down -> screen changed
+11:19  part 4  clicked button "Check & append as #11" -> screen changed
+11:20  part 4  clicked button "Compute from my shifted timetable" -> screen changed
+11:22  part 4  clicked button "Fill the cue sheet" -> screen changed
+11:24  part 4  clicked button "🔔 Deliver the director's message" -> screen changed
+11:35  part 4  typed a number into "" -> screen changed
+11:37  part 4  typed a written answer into the box "Rules … conflict because …" -> screen changed
+11:43  part 4  picked an option in a drop-down -> screen changed
+11:45  part 4  ticked a checkbox -> screen changed
+11:46  part 4  ticked a checkbox -> screen changed
+11:48  part 4  ticked a checkbox -> screen changed
+11:49  part 4  clicked button "Load + Rule 7 and run it" -> screen changed
+11:51  part 4  clicked button "▶ Play" -> screen changed
+11:54  part 4  clicked button "⏩ Run to the end" -> screen changed
+11:55  part 4  clicked button "▸ Relax next edge" -> screen changed
+11:57  part 4  clicked button "⏭ Finish this pass" -> screen changed
+12:09  part 4  clicked button "did not hold" -> screen changed
+12:30  part 4  clicked button "Submit" -> screen changed
+12:32  part 4  clicked button "TRUE" -> screen changed
+12:57  part 5  clicked button "▶ Show healthy" -> screen changed
+12:58  part 5  clicked button "▶ Show healthy" -> no visible change
+13:00  part 5  clicked button "▶ Show healthy" -> no visible change
+13:02  part 5  clicked button "▶ Show healthy" -> screen changed
+13:03  part 5  clicked button "▶" -> no visible change
+13:05  part 5  clicked button "▶▶ Play" -> screen changed
+13:07  part 5  clicked button "▶ Load on bench" -> screen changed
+13:09  part 5  clicked button "▶ Load on bench" -> screen changed
+13:10  part 5  clicked button "Clinic (5A–5C)" -> no visible change
+13:12  part 5  clicked button "Case files (5B)" -> screen changed
+13:13  part 5  typed a written answer into the box "Search…" -> screen changed
+13:21  part 5  picked an option in a drop-down -> screen changed
+13:32  part 5  clicked button "Show only my mistakes" -> screen changed
+13:33  part 5  clicked button "1. (t,x) ✗" -> screen changed
+13:35  part 5  clicked button "1. (t,x) ✗" -> no visible change
+13:36  part 5  clicked button "1. (t,x) ✗" -> no visible change
+13:47  part 6  closed a pop-up (escape) -> pop-up closed
+13:48  part 6  closed a pop-up (close button) -> pop-up closed
+13:49  part 6  closed a pop-up (click outside) -> pop-up closed
+13:50  part 6  closed a pop-up (forced hide) -> pop-up closed
+13:58  part 6  typed a written answer into the box "Write one sentence from memory…" -> screen changed
+14:04  part 6  typed a written answer into the box "Write one sentence from memory…" -> screen changed
+14:10  part 6  clicked button "Frames" -> screen changed
+14:11  part 6  clicked button "My work" -> screen changed
+14:13  part 6  clicked button "K1–K9" -> screen changed
+14:24  part 6  typed a written answer into the box "Claim…" -> screen changed
+14:29  part 6  typed a written answer into the box "Evidence…" -> screen changed
+14:35  part 6  typed a written answer into the box "Property…" -> screen changed
+14:41  part 6  typed a written answer into the box "" -> screen changed
+14:46  part 6  typed a written answer into the box "" -> screen changed
+14:51  part 6  typed a written answer into the box "" -> screen changed
+14:56  part 6  typed a written answer into the box "" -> screen changed
+15:01  part 6  clicked button "Show me the pass-3 freeze" -> screen changed
+15:02  part 6  clicked button "Submit my three strips" -> screen changed
+15:04  part 6  clicked button "I'm stuck — give me the cloze" -> screen changed
+15:15  part 6  picked an option in a drop-down -> screen changed
+15:17  part 6  picked an option in a drop-down -> screen changed
+15:18  part 6  picked an option in a drop-down -> screen changed
+15:20  part 6  picked an option in a drop-down -> screen changed
+15:21  part 6  picked an option in a drop-down -> screen changed
+15:22  part 6  picked an option in a drop-down -> screen changed
+15:24  part 6  picked an option in a drop-down -> screen changed
+15:25  part 6  picked an option in a drop-down -> screen changed
+15:27  part 6  picked an option in a drop-down -> screen changed
+15:28  part 6  picked an option in a drop-down -> screen changed
+15:29  part 6  selected choice "a" -> screen changed
+15:31  part 6  clicked button "Check my cloze" -> screen changed
+15:42  part 6  typed a written answer into the box "your answer…" -> screen changed
+15:53  part 6  typed a written answer into the box "your answer…" -> screen changed
+16:02  part 6  typed a written answer into the box "your answer…" -> screen changed
+16:10  part 6  typed a written answer into the box "your answer…" -> screen changed
+16:18  part 6  typed a written answer into the box "your answer…" -> screen changed
+18:37  part 6  typed a written answer into the box "your answer…" -> screen changed
+18:47  part 6  typed a written answer into the box "your answer…" -> screen changed
+18:57  part 6  typed a written answer into the box "your answer…" -> screen changed
+19:07  part 6  typed a written answer into the box "your answer…" -> screen changed
+19:21  part 6  typed a written answer into the box "your answer…" -> screen changed
+19:30  part 6  typed a written answer into the box "your answer…" -> screen changed
+19:39  part 6  typed a written answer into the box "your answer…" -> screen changed

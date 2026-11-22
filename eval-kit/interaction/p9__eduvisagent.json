@@ -1,0 +1,854 @@
+{
+ "lesson": "p9",
+ "offset": -1.5,
+ "actions": 83,
+ "noVisibleChange": 9,
+ "withPageError": 0,
+ "deadOrError": 9,
+ "loadErrors": 1,
+ "recorderCouldNotUse": 6,
+ "deadByOffset": {
+  "0": 10,
+  "-3": 11,
+  "-2.5": 10,
+  "-2": 10,
+  "-1.5": 9,
+  "-1": 10,
+  "-0.5": 10
+ },
+ "loadErrorMessages": [
+  "missing ) after argument list"
+ ],
+ "items": [
+  {
+   "t": 19.1,
+   "part": 1,
+   "kind": "button",
+   "label": "F · Find",
+   "change": 0.1439,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 22.9,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Fire 20 probes",
+   "change": 0.0313,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 52.4,
+   "part": 1,
+   "kind": "number",
+   "label": "e.g. 0",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 56.7,
+   "part": 1,
+   "kind": "text",
+   "label": "One sentence…",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 65.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Save prediction",
+   "change": 0.064,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 69.3,
+   "part": 1,
+   "kind": "button",
+   "label": "Add next element ▶",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 79.3,
+   "part": 1,
+   "kind": "button",
+   "label": "1 guessing",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 83.3,
+   "part": 1,
+   "kind": "button",
+   "label": "2",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 87.4,
+   "part": 1,
+   "kind": "button",
+   "label": "3",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 111.2,
+   "part": 1,
+   "kind": "text",
+   "label": "Sketch a 150° path first, then answer…",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 118.4,
+   "part": 1,
+   "kind": "text",
+   "label": "N ≈ …",
+   "change": 0.005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 125.4,
+   "part": 1,
+   "kind": "button",
+   "label": "Commit & reveal",
+   "change": 0.0188,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 129.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Commit & reveal",
+   "change": 0.0093,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 142.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Fire 1",
+   "change": 0.0118,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 147.3,
+   "part": 1,
+   "kind": "button",
+   "label": "Fire 100 (live)",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 151.4,
+   "part": 1,
+   "kind": "button",
+   "label": "⏩ Fast-forward to 50,000",
+   "change": 0.0159,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 167,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 195.1,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 202.1,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 258,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0012,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 264.6,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 272.5,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 279.8,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 287,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 294.3,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 301,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 307.8,
+   "part": 2,
+   "kind": "button",
+   "label": "Next cue ▸",
+   "change": 0.0158,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 311.8,
+   "part": 2,
+   "kind": "button",
+   "label": "Next cue ▸",
+   "change": 0.0171,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 315.6,
+   "part": 2,
+   "kind": "button",
+   "label": "Next cue ▸",
+   "change": 0.028,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 319.3,
+   "part": 2,
+   "kind": "button",
+   "label": "Next cue ▸",
+   "change": 0.0615,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 323.2,
+   "part": 2,
+   "kind": "text",
+   "label": "Your prediction…",
+   "change": 0.0043,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 339.7,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 347,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 354.1,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 361.5,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 368.9,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 376.1,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0134,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 383.1,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 389.8,
+   "part": 2,
+   "kind": "text",
+   "label": "",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 576.6,
+   "part": 3,
+   "kind": "button",
+   "label": "Q6 cross-check",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 580.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Q1 classify",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 584.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Q2 reject pudding",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 588.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Q3 locate charge",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 602.3,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 609,
+   "part": 3,
+   "kind": "button",
+   "label": "Same",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 612.8,
+   "part": 3,
+   "kind": "button",
+   "label": "↑",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 616.6,
+   "part": 3,
+   "kind": "button",
+   "label": "↓",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 630.4,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 637.5,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 644.7,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 651.9,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.0205,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 659.3,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 674.4,
+   "part": 3,
+   "kind": "text",
+   "label": "layers for silver foil",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 684.7,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.0207,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 692.1,
+   "part": 3,
+   "kind": "text",
+   "label": "effect…",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 699.8,
+   "part": 3,
+   "kind": "button",
+   "label": "✅ Reveal",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 703.6,
+   "part": 3,
+   "kind": "button",
+   "label": "Same",
+   "change": 0.001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 707.6,
+   "part": 3,
+   "kind": "button",
+   "label": "↑",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 711.5,
+   "part": 3,
+   "kind": "button",
+   "label": "↓",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 975,
+   "part": 4,
+   "kind": "text",
+   "label": "",
+   "change": 0.0075,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 981.7,
+   "part": 4,
+   "kind": "text",
+   "label": "",
+   "change": 0.0124,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 989.4,
+   "part": 4,
+   "kind": "button",
+   "label": "🔒 Commit cold read & reveal",
+   "change": 0.027,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 993.5,
+   "part": 4,
+   "kind": "button",
+   "label": "1",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 997.3,
+   "part": 4,
+   "kind": "button",
+   "label": "2",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1001.2,
+   "part": 4,
+   "kind": "button",
+   "label": "3",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1015,
+   "part": 4,
+   "kind": "button",
+   "label": "4",
+   "change": 0.0124,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1018.9,
+   "part": 4,
+   "kind": "button",
+   "label": "5",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1022.6,
+   "part": 4,
+   "kind": "button",
+   "label": "Yes",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1096.5,
+   "part": 5,
+   "kind": "text",
+   "label": "optional",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1108,
+   "part": 5,
+   "kind": "button",
+   "label": "Go to the audit (5D)",
+   "change": 0.1725,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1111.9,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.034,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1115.7,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0026,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1119.5,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1123.3,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1127.1,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0017,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1130.9,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1319.2,
+   "part": 6,
+   "kind": "button",
+   "label": "Builder",
+   "change": 0.1562,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1329,
+   "part": 6,
+   "kind": "text",
+   "label": "frame timestamp e.g. 04:12",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1334.5,
+   "part": 6,
+   "kind": "text",
+   "label": "initials",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1340.2,
+   "part": 6,
+   "kind": "text",
+   "label": "frame timestamp e.g. 04:12",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1345.8,
+   "part": 6,
+   "kind": "text",
+   "label": "initials",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1351.4,
+   "part": 6,
+   "kind": "button",
+   "label": "Learner",
+   "change": 0.0852,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1365.3,
+   "part": 6,
+   "kind": "text",
+   "label": "Geiger and Rutherford fired …",
+   "change": 0.0063,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

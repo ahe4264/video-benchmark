@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:25:33.930Z",
+  "seconds": 77,
+  "result": {
+    "evidence": "The lesson begins with a text hook at 0:01 ('turn the graph inside out'), which creates some initial interest. However, the remainder of the 22-minute silent lesson consists of dense text and highly repetitive interactive tasks. For example, from 1:05 to 5:30, the user repeatedly types variations of 'My first attempt...' into multiple text boxes. The graph-building process (6:05-13:27) is similarly slow and repetitive, requiring the same sequence of clicks and text entries for every node and edge.",
+    "score_reason": "The lesson has an opening with some pull, but it fails to hold attention due to extensive, highly repetitive stretches of text entry and slow interactive tasks, meeting the criteria for holding attention only in parts.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 357048,
+    "candidatesTokenCount": 183,
+    "totalTokenCount": 359569,
+    "cachedContentTokenCount": 363492,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 356400
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 363150
+      }
+    ],
+    "thoughtsTokenCount": 2338,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 366974
+  }
+}

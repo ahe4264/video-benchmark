@@ -1,0 +1,38 @@
+{
+  "topic": "p4",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:32.147Z",
+  "seconds": 24,
+  "result": {
+    "evidence": "0:00-3:57: The video plays smoothly from start to finish. All slides render correctly without any overlapping text, cut-offs, or raw markup. The audio is clear and perfectly synchronized with the visual transitions.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level description because there are no visible technical problems; everything renders, loads, and responds exactly as intended.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 69936,
+    "candidatesTokenCount": 106,
+    "totalTokenCount": 70830,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68966
+      }
+    ],
+    "thoughtsTokenCount": 788,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73909
+  }
+}

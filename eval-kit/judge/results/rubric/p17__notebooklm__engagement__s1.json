@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:41:02.000Z",
+  "seconds": 36,
+  "result": {
+    "evidence": "0:00: Opening hooks the viewer with a physical journey metaphor for machine learning.\n0:35: Poses the central question: 'How does a machine actually learn?'\n2:18: Moment of insight: animation links adjusting a line's slope/intercept to movement on a 2D loss surface.\n4:51: Moment of insight: visualizes how stochastic gradient descent's 'noise' helps escape local minima.\n6:06: Closes with a thought-provoking question about higher dimensions.",
+    "score_reason": "The lesson fully meets level 6, featuring an opening that poses a real question, good pace and visual variety throughout, and clear moments of insight. It is kept from the top level and compressed to a 5 to adhere to scoring guidelines.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 119716,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 122397,
+    "cachedContentTokenCount": 124359,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119063
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 110828
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13184
+      }
+    ],
+    "thoughtsTokenCount": 2495,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 125960
+  }
+}

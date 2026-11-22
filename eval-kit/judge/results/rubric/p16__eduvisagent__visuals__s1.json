@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:21:47.705Z",
+  "seconds": 64,
+  "result": {
+    "evidence": "At 0:32, the 'R-group sweep' uses 3D models, a 2D 'doorway view' calculating open aperture percentage, and a live bar chart to visualize steric bulk. At 1:27, a 2D animation clearly shows the molecule inverting through a transition state. At 5:04, a summary graphic effectively aligns the molecules, their aperture views, and reaction rates. At 7:32, a video shows simultaneous 3D and 2D views. From 10:08 onwards, practice sections rely heavily on text and UI tables with smaller, static drawings. At 12:42, a 'crowding index' pie chart visualizes bulk in a new context.",
+    "score_reason": "The lesson features clear, well-made visuals that dynamically change to explain the core concepts, with the 3D models and animations effectively carrying the explanation. It meets this level but falls short of the next because the visual experience is uneven; the later practice sections become heavily reliant on text and cluttered UI elements rather than explanatory graphics.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 323900,
+    "candidatesTokenCount": 248,
+    "totalTokenCount": 327100,
+    "cachedContentTokenCount": 329602,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 323136
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 329256
+      }
+    ],
+    "thoughtsTokenCount": 2952,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 332944
+  }
+}

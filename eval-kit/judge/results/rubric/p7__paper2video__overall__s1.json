@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:10.363Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "The video is a presentation about designing an animation to teach the cross product, rather than a lesson on the topic itself. It discusses scene plans (1:34), pedagogical constraints (1:51), and deficiencies (2:40).",
+    "score_reason": "The lesson is off-topic for a student learning the cross product, as it is a meta-presentation about lesson design. It meets the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59495,
+    "candidatesTokenCount": 106,
+    "totalTokenCount": 60296,
+    "cachedContentTokenCount": 58720,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58771
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51914
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6464
+      }
+    ],
+    "thoughtsTokenCount": 695,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62799
+  }
+}

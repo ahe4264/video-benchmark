@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:25:56.643Z",
+  "seconds": 98,
+  "result": {
+    "evidence": "0:26: Opens with a spatial puzzle about finding an orthogonal direction to two lines. 1:42: Uses a wrench and torque example. 2:56: Prompts the viewer to physically use the right-hand rule. 3:44: Uses the hand rule to intuitively explain anticommutativity. 5:02: Shows a dynamic chart linking angle to magnitude. 5:36: The calculation section is procedural but color-coded.",
+    "score_reason": "The lesson fully meets Level 5. It opens with a clear question and maintains a good pace using varied methods (examples, physical exercises, graphs). It falls short of Level 6 because the opening doesn't create a strong, driving curiosity, and the calculation section introduces a lull in momentum.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 131559,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 133962,
+    "cachedContentTokenCount": 136695,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 130911
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 121857
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 14496
+      }
+    ],
+    "thoughtsTokenCount": 2219,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 138377
+  }
+}

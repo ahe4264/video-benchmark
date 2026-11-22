@@ -1,0 +1,61 @@
+{
+  "topic": "p17",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:08:27.864Z",
+  "seconds": 125,
+  "result": {
+    "evidence": "The lesson renders well overall, but Part 4 contains multiple broken interactive elements. At 15:35, the 'Sweep u' and 'Sweep v' buttons do not respond. At 16:09, the 'Check the checklist' button fails to provide feedback. At 16:10, the 'Release ring' and 'Move ring back' buttons do not work, breaking the simulation. At 16:35, 'Hint 2' and 'Hint 3' fail to expand.",
+    "issues": [
+      {
+        "timestamp": "15:35",
+        "description": "The 'Sweep u' and 'Sweep v' buttons do not respond when clicked.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "16:09",
+        "description": "The 'Check the checklist' button does not respond when clicked, providing no feedback for the completed questions.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "16:10",
+        "description": "The 'Release ring' and 'Move ring back' buttons do not respond when clicked, breaking the interactive demonstration.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "16:35",
+        "description": "The 'Hint 2' and 'Hint 3' accordions do not expand when clicked.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson has several major interaction problems in Part 4, where key buttons for checking answers and running the simulation fail to respond.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 330688,
+    "candidatesTokenCount": 378,
+    "totalTokenCount": 335384,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 326568
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 4120
+      }
+    ],
+    "thoughtsTokenCount": 4318,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 339826
+  }
+}

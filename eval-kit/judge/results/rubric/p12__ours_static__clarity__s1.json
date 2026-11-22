@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:06.098Z",
+  "seconds": 29,
+  "result": {
+    "evidence": "1:08: Pendulum parameters (L, m) defined step-by-step.\n1:51: Forces (mg, tension) introduced clearly.\n2:12: Weight components derived visually.\n2:58: Restoring force graph builds logically to small-angle approximation.\n4:57: Period vs length explored empirically.\n5:59: Period formula introduced and linked to observations.\n7:05: Mass independence explained via a = F/m.",
+    "score_reason": "The lesson is logical and step-by-step throughout, with each element building on the last. It fully meets the top level, but is scored a 6 to avoid extreme scores as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 146910,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 148320,
+    "cachedContentTokenCount": 152645,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 146224
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136114
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16192
+      }
+    ],
+    "thoughtsTokenCount": 1240,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 154470
+  }
+}

@@ -1,0 +1,128 @@
+Interaction log: 123 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 2x: "Cannot read properties of null (reading 'addEventListener')"; "Unexpected end of input". Whatever that code was meant to do may be missing or inert.
+Summary: 19 of 123 inputs produced no visible change; 0 raised a page error.
+
+0:14  part 1  clicked button "P Plan the solution" -> screen changed
+0:18  part 1  picked an option in a drop-down -> screen changed
+0:22  part 1  ticked a checkbox -> screen changed
+0:26  part 1  dragged a slider (starting at "0.03") through its whole range -> screen changed
+0:43  part 1  dragged a slider (starting at "1.35") through its whole range -> screen changed
+0:53  part 1  dragged a slider (starting at "100") through its whole range -> screen changed
+1:03  part 1  clicked button "↻ rise / run" -> screen changed
+1:04  part 1  clicked button "▶ Play" -> screen changed
+1:14  part 1  clicked button "start at (0, 0)" -> screen changed
+1:18  part 1  clicked button "Look down on the bowl (2 s)" -> screen changed
+1:23  part 1  clicked button "residuals" -> screen changed
+1:27  part 1  clicked button "↕ pivot arrow" -> screen changed
+2:02  part 1  clicked button "" -> the control could not be operated; screen changed
+2:05  part 1  clicked button "" -> the control could not be operated; no visible change
+2:08  part 1  clicked button "" -> the control could not be operated; screen changed
+7:42  part 2  clicked button "Learner" -> screen changed
+7:44  part 2  ticked a checkbox -> screen changed
+7:45  part 2  ticked a checkbox -> screen changed
+7:46  part 2  ticked a checkbox -> screen changed
+7:48  part 2  clicked button "Production" -> screen changed
+7:49  part 2  clicked button "Review §2.0" -> screen changed
+8:00  part 2  clicked button "F Find · Scene 1" -> screen changed
+8:02  part 2  clicked button "O Organize · Scene 2–3" -> screen changed
+8:03  part 2  dragged a slider (starting at "-2") through its whole range -> screen changed
+8:12  part 2  clicked button "P Plan · Scene 3–5" -> screen changed
+8:23  part 2  clicked button "Scene 4 · intercept sweep" -> screen changed
+8:25  part 2  clicked button "Scene 5 · slope sweep + valley" -> screen changed
+8:26  part 2  typed a number into "" -> screen changed
+8:28  part 2  clicked button "play the walk" -> screen changed
+8:38  part 2  clicked button "Reveal & play the frame" -> screen changed
+8:49  part 2  clicked button "Scene 3 · joint move" -> screen changed
+8:54  part 2  clicked button "Scene 6 · stuck slope & zigzag" -> screen changed
+9:10  part 2  typed a number into "L = ?" -> screen changed
+9:15  part 2  typed a number into "φ₀" -> screen changed
+9:21  part 2  typed a number into "L" -> screen changed
+9:27  part 2  selected choice "a" -> screen changed
+9:32  part 2  ticked a checkbox -> screen changed
+9:37  part 2  ticked a checkbox -> screen changed
+9:41  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+9:52  part 2  clicked button "Check my answers" -> screen changed
+9:54  part 2  clicked button "Scene 3, 48 s → about 20" -> screen changed
+9:58  part 2  dragged a slider (starting at "0.36") through its whole range -> screen changed
+10:38  part 3  clicked button "Reveal the “Why” column (do Stage 4 first)" -> screen changed
+10:39  part 3  clicked button "Learner" -> screen changed
+10:40  part 3  clicked button "Production" -> screen changed
+10:51  part 3  ticked a checkbox -> screen changed
+10:53  part 3  dragged a slider (starting at "1.5") through its whole range -> screen changed
+11:03  part 3  dragged a slider (starting at "1.5") through its whole range -> screen changed
+11:12  part 3  clicked button "▶ Sweep the range" -> screen changed
+11:18  part 3  clicked button "Intercept sweep" -> screen changed
+11:19  part 3  clicked button "Slope sweep" -> screen changed
+11:21  part 3  clicked button "Show notebook (raw rows)" -> screen changed
+11:22  part 3  clicked button "Valley walk" -> screen changed
+11:23  part 3  clicked button "Free" -> screen changed
+11:35  part 3  typed a written answer into the box "Compare x̄, and the form in which the data are given…" -> screen changed
+11:40  part 3  typed a written answer into the box "" -> screen changed
+11:44  part 3  typed a written answer into the box "" -> screen changed
+11:49  part 3  typed a written answer into the box "" -> screen changed
+11:53  part 3  typed a written answer into the box "" -> screen changed
+11:57  part 3  picked an option in a drop-down -> screen changed
+11:58  part 3  picked an option in a drop-down -> screen changed
+12:00  part 3  picked an option in a drop-down -> screen changed
+12:01  part 3  picked an option in a drop-down -> screen changed
+12:02  part 3  picked an option in a drop-down -> screen changed
+12:04  part 3  selected choice "1" -> screen changed
+12:05  part 3  ticked a checkbox -> screen changed
+12:16  part 3  typed a written answer into the box "One reason…" -> screen changed
+12:20  part 3  selected choice "2" -> screen changed
+12:22  part 3  selected choice "intercept" -> screen changed
+12:23  part 3  dragged a slider (starting at "30") through its whole range -> screen changed
+12:32  part 3  clicked button "Check estimates" -> no visible change
+12:33  part 3  clicked button "Overlay truth (after you commit Q0.5)" -> screen changed
+12:35  part 3  clicked button "🔒 Commit prediction" -> screen changed
+15:15  part 4  dragged a slider (starting at "0") through its whole range -> screen changed
+15:23  part 4  dragged a slider (starting at "0") through its whole range -> screen changed
+15:32  part 4  clicked button "O→P · Stage 2 Plan 🔒 12′" -> no visible change
+15:34  part 4  clicked button "P→S · Stage 3 Bridge 🔒 10′" -> no visible change
+15:35  part 4  clicked button "Sweep u" -> no visible change
+15:37  part 4  clicked button "Sweep v" -> no visible change
+15:38  part 4  clicked button "Go to (0, 0)" -> no visible change
+15:39  part 4  clicked button "Learner" -> no visible change
+15:41  part 4  clicked button "Uniform" -> screen changed
+15:42  part 4  clicked button "Traffic ×λ" -> screen changed
+15:53  part 4  typed a written answer into the box "e.g. u, v" -> screen changed
+15:58  part 4  typed a written answer into the box "This looks like ___ because ___" -> screen changed
+16:03  part 4  selected choice "A" -> no visible change
+16:04  part 4  selected choice "one" -> no visible change
+16:06  part 4  selected choice "circ" -> no visible change
+16:07  part 4  selected choice "line" -> no visible change
+16:09  part 4  clicked button "Check the checklist" -> no visible change
+16:10  part 4  clicked button "Release ring" -> no visible change
+16:11  part 4  clicked button "Move ring back" -> no visible change
+16:13  part 4  clicked button "Travel legs" -> screen changed
+16:23  part 4  typed a number into "" -> screen changed
+16:25  part 4  typed a number into "" -> screen changed
+16:26  part 4  typed a number into "" -> screen changed
+16:28  part 4  selected choice "several" -> screen changed
+16:29  part 4  selected choice "up" -> screen changed
+16:31  part 4  selected choice "par" -> no visible change
+16:32  part 4  clicked button "Check" -> screen changed
+16:33  part 4  clicked button "▸ Hint 1" -> screen changed
+16:35  part 4  clicked button "▸ Hint 2" -> no visible change
+16:36  part 4  clicked button "▸ Hint 3 this hint shows the method directly" -> no visible change
+16:38  part 4  clicked button "Best lines" -> no visible change
+16:39  part 4  clicked button "Ghost bowl" -> screen changed
+16:54  part 5  clicked button "O Organize a test case Which landmark lines can test it?" -> screen changed
+16:55  part 5  clicked button "P Plan and predict What does the claim predict there?" -> screen changed
+16:57  part 5  clicked button "S Solve, refute, replace Compute, compare, write the correct" -> screen changed
+16:58  part 5  dragged a slider (starting at "-0.5") through its whole range -> screen changed
+17:07  part 5  dragged a slider (starting at "0.8") through its whole range -> screen changed
+17:16  part 5  clicked button "▶ Scene 3 path (both knobs)" -> screen changed
+19:36  part 6  clicked button "④ Check yourself" -> screen changed
+19:38  part 6  typed a written answer into the box "" -> screen changed
+19:43  part 6  typed a written answer into the box "…" -> screen changed
+19:49  part 6  typed a written answer into the box "…" -> screen changed
+19:53  part 6  typed a written answer into the box "" -> screen changed
+19:57  part 6  typed a written answer into the box "…" -> screen changed
+20:01  part 6  typed a written answer into the box "…" -> screen changed
+20:05  part 6  clicked button "Learner" -> screen changed
+20:06  part 6  clicked button "Production" -> screen changed
+20:08  part 6  clicked button "① Look back" -> screen changed
+20:19  part 6  ticked a checkbox -> screen changed
+20:20  part 6  dragged a slider (starting at "-0.5") through its whole range -> screen changed

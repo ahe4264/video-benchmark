@@ -1,0 +1,882 @@
+{
+ "lesson": "p12",
+ "offset": -0.5,
+ "actions": 84,
+ "noVisibleChange": 1,
+ "withPageError": 0,
+ "deadOrError": 1,
+ "loadErrors": 0,
+ "recorderCouldNotUse": 1,
+ "deadByOffset": {
+  "0": 1,
+  "-3": 18,
+  "-2.5": 7,
+  "-2": 2,
+  "-1.5": 2,
+  "-1": 2,
+  "-0.5": 1
+ },
+ "loadErrorMessages": [],
+ "items": [
+  {
+   "t": 21.1,
+   "part": 1,
+   "kind": "button",
+   "label": "F · Find",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 25.8,
+   "part": 1,
+   "kind": "button",
+   "label": "O · Organize",
+   "change": 0.0203,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 30.3,
+   "part": 1,
+   "kind": "button",
+   "label": "P · Plan",
+   "change": 0.0069,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 44.6,
+   "part": 1,
+   "kind": "radio",
+   "label": "Faster",
+   "change": 0.0121,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 48.9,
+   "part": 1,
+   "kind": "button",
+   "label": "Commit my answer",
+   "change": 0.0563,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 53,
+   "part": 1,
+   "kind": "button",
+   "label": "① Model",
+   "change": 0.0111,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 57.5,
+   "part": 1,
+   "kind": "button",
+   "label": "② Forces",
+   "change": 0.0095,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 62,
+   "part": 1,
+   "kind": "button",
+   "label": "③ Demo 1: θ",
+   "change": 0.0098,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 76.4,
+   "part": 1,
+   "kind": "radio",
+   "label": "2",
+   "change": 0.0057,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 80.8,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0066,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 85.2,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 89.3,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0008,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 93.5,
+   "part": 1,
+   "kind": "check",
+   "label": "restoring",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 98.1,
+   "part": 1,
+   "kind": "check",
+   "label": "centripetal",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 101.9,
+   "part": 1,
+   "kind": "check",
+   "label": "weight",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 105.8,
+   "part": 1,
+   "kind": "range",
+   "label": "1",
+   "change": 0.0054,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 121.4,
+   "part": 1,
+   "kind": "range",
+   "label": "15",
+   "change": 0.0563,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 137.1,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Release",
+   "change": 0.0075,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 147.6,
+   "part": 1,
+   "kind": "button",
+   "label": "θ: 0° → 15° → −15° → 15°",
+   "change": 0.0093,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 152.2,
+   "part": 1,
+   "kind": "button",
+   "label": "L: 0.50 → 2.00 m",
+   "change": 0.0151,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 167.4,
+   "part": 1,
+   "kind": "check",
+   "label": "tension",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 172.3,
+   "part": 1,
+   "kind": "check",
+   "label": "normal",
+   "change": 0.014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 177.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Next step ↓",
+   "change": 0.1208,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 181.8,
+   "part": 1,
+   "kind": "radio",
+   "label": "A",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 186.6,
+   "part": 1,
+   "kind": "button",
+   "label": "Next step ↓",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 191.6,
+   "part": 1,
+   "kind": "button",
+   "label": "Next step ↓",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 197.1,
+   "part": 1,
+   "kind": "button",
+   "label": "Next step ↓",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 202.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Next step ↓",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 234.6,
+   "part": 2,
+   "kind": "button",
+   "label": "",
+   "change": 0.0006,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 249.9,
+   "part": 2,
+   "kind": "button",
+   "label": "④ Check & Practice",
+   "change": 0.0853,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 254.3,
+   "part": 2,
+   "kind": "button",
+   "label": "① Derivation",
+   "change": 0.0868,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 258.4,
+   "part": 2,
+   "kind": "button",
+   "label": "▶ Stage",
+   "change": 0.0029,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 268.3,
+   "part": 2,
+   "kind": "button",
+   "label": "▶ Stage",
+   "change": 0.0184,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 278.3,
+   "part": 2,
+   "kind": "button",
+   "label": "▶ Stage",
+   "change": 0.0163,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 288.1,
+   "part": 2,
+   "kind": "button",
+   "label": "② Numbers & Demos",
+   "change": 0.1443,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 292.3,
+   "part": 2,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0116,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 296.5,
+   "part": 2,
+   "kind": "button",
+   "label": "▶ Sweep 0 → 15°",
+   "change": 0.1655,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 306.9,
+   "part": 2,
+   "kind": "button",
+   "label": "③ Script & Spec",
+   "change": 0.124,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 311.2,
+   "part": 2,
+   "kind": "range",
+   "label": "24",
+   "change": 0.0153,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 364.3,
+   "part": 3,
+   "kind": "text",
+   "label": "A simple pendulum with small-angle SHM. The system, forces a",
+   "change": 0.0051,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 374.4,
+   "part": 3,
+   "kind": "text",
+   "label": "theta zero in radians",
+   "change": 0.0038,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 384.5,
+   "part": 3,
+   "kind": "select",
+   "label": "pick a picture… FBD at release Demo 2 T–L graph Demo 3 mass ",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 388.6,
+   "part": 3,
+   "kind": "select",
+   "label": "pick a picture… FBD at release Demo 2 T–L graph Demo 3 mass ",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 547.3,
+   "part": 3,
+   "kind": "select",
+   "label": "pick a picture… FBD at release Demo 2 T–L graph Demo 3 mass ",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 551,
+   "part": 3,
+   "kind": "select",
+   "label": "pick a picture… FBD at release Demo 2 T–L graph Demo 3 mass ",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 554.7,
+   "part": 3,
+   "kind": "select",
+   "label": "pick a picture… FBD at release Demo 2 T–L graph Demo 3 mass ",
+   "change": 0.0196,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 558.4,
+   "part": 3,
+   "kind": "radio",
+   "label": "above",
+   "change": 0.019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 594.4,
+   "part": 4,
+   "kind": "button",
+   "label": "0 · Protocol ●●●●",
+   "change": 0.1592,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 599,
+   "part": 4,
+   "kind": "button",
+   "label": "A · Half-pipe ●●●○",
+   "change": 0.0574,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 603.6,
+   "part": 4,
+   "kind": "range",
+   "label": "1",
+   "change": 0.0039,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 620.6,
+   "part": 4,
+   "kind": "button",
+   "label": "▶ Play the swing",
+   "change": 0.0031,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 631.1,
+   "part": 4,
+   "kind": "button",
+   "label": "B · Gravity train ●●○○",
+   "change": 0.085,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 646.4,
+   "part": 4,
+   "kind": "text",
+   "label": "",
+   "change": 0.0031,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 659.5,
+   "part": 4,
+   "kind": "text",
+   "label": "",
+   "change": 0.0042,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 678.9,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 685.1,
+   "part": 4,
+   "kind": "range",
+   "label": "1",
+   "change": 0.0192,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 709.9,
+   "part": 4,
+   "kind": "button",
+   "label": "▶ Release both trains",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 721.5,
+   "part": 4,
+   "kind": "button",
+   "label": "Check",
+   "change": 0.0519,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 725.9,
+   "part": 4,
+   "kind": "button",
+   "label": "▤ Organizer drawer",
+   "change": 0.0605,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 739.4,
+   "part": 4,
+   "kind": "close-popup",
+   "label": "escape",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 740.6,
+   "part": 4,
+   "kind": "close-popup",
+   "label": "close button",
+   "change": 0.0595,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 740.9,
+   "part": 4,
+   "kind": "button",
+   "label": "London–Sydney",
+   "change": 0.0637,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 961.6,
+   "part": 5,
+   "kind": "button",
+   "label": "0 · Commit",
+   "change": 0.0001,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 967,
+   "part": 5,
+   "kind": "button",
+   "label": "We do · Freeze frames",
+   "change": 0.0422,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 972.2,
+   "part": 5,
+   "kind": "button",
+   "label": "The small-angle promise",
+   "change": 0.0433,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 977.6,
+   "part": 5,
+   "kind": "range",
+   "label": "15",
+   "change": 0.0018,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 999.7,
+   "part": 5,
+   "kind": "button",
+   "label": "I do · Procedural slips",
+   "change": 0.0515,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1005.3,
+   "part": 5,
+   "kind": "button",
+   "label": "Next thought →",
+   "change": 0.021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1010.6,
+   "part": 5,
+   "kind": "button",
+   "label": "Next thought →",
+   "change": 0.0123,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1016.1,
+   "part": 5,
+   "kind": "button",
+   "label": "Next thought →",
+   "change": 0.0197,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1021.3,
+   "part": 5,
+   "kind": "button",
+   "label": "Next thought →",
+   "change": 0.0022,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1037.1,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0105,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1042.7,
+   "part": 5,
+   "kind": "button",
+   "label": "·M1",
+   "change": 0.0088,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1048,
+   "part": 5,
+   "kind": "button",
+   "label": "·M7",
+   "change": 0.0101,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1053.6,
+   "part": 5,
+   "kind": "button",
+   "label": "·M17",
+   "change": 0.0117,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1069.6,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0113,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1103.9,
+   "part": 6,
+   "kind": "text",
+   "label": "restoring force expression",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1121.3,
+   "part": 6,
+   "kind": "text",
+   "label": "small angle coefficient",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1137.4,
+   "part": 6,
+   "kind": "select",
+   "label": "force … \\(mg\\) (weight) \\(F_T\\) (tension) centrifugal force",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1141.7,
+   "part": 6,
+   "kind": "select",
+   "label": "… Earth the string the air",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1145.6,
+   "part": 6,
+   "kind": "select",
+   "label": "force … \\(mg\\) (weight) \\(F_T\\) (tension) \\(F_r\\) restoring ",
+   "change": 0.0184,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1149.7,
+   "part": 6,
+   "kind": "select",
+   "label": "… Earth the string your hand",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1154,
+   "part": 6,
+   "kind": "select",
+   "label": "… radians degrees",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1158.3,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1163.3,
+   "part": 6,
+   "kind": "button",
+   "label": "0 · Recall",
+   "change": 0.0119,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1168.2,
+   "part": 6,
+   "kind": "button",
+   "label": "Summary",
+   "change": 0.0324,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

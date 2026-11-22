@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:50.977Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:16, 1:06, 1:34: Small, static textbook figures appear alongside text. 0:33, 0:51, 1:47-3:07: Slides are entirely text-based. 1:06, 1:34: The text describes visual animations (building the figure, sweeping substrate position) that are not actually shown on screen.",
+    "score_reason": "The lesson meets Level 3. It includes clean, relevant visuals of the main objects, but they are entirely static and repetitive, serving only to illustrate the very text-heavy slides. It does not reach Level 4 because the visuals do not change or animate to explain the steps as described in the text.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 55458,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 57477,
+    "cachedContentTokenCount": 54678,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 764
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54694
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 48316
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6016
+      }
+    ],
+    "thoughtsTokenCount": 1843,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 58566
+  }
+}

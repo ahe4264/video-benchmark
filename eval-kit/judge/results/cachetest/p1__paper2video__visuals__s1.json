@@ -1,0 +1,53 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:14:42.506Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:00-3:22: The presentation relies almost entirely on text-heavy slides with bullet points and formulas. 0:31, 0:46: Small, static textbook diagrams illustrate the geometric setup but are not dynamically built or animated. 1:00-1:33: The algebraic derivation is presented purely as text. 2:05: A table of numerical values is used to demonstrate the squeeze theorem rather than a visual graph.",
+    "score_reason": "The lesson features some relevant visuals, but they are static, small, and embedded in highly text-heavy slides. It essentially functions as text on screen, meeting the criteria for a lower level, which is adjusted toward the center of the scale per instructions.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 59836,
+    "candidatesTokenCount": 174,
+    "totalTokenCount": 61550,
+    "cachedContentTokenCount": 59015,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 766
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 52171
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6496
+      }
+    ],
+    "thoughtsTokenCount": 1540,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63154
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:28:15.581Z",
+  "seconds": 162,
+  "result": {
+    "evidence": "0:48 - Fill-in-the-blanks dictionary.\n3:38 - Predict dot placement on roads.\n5:47 - Predict-Commit-Check questions.\n6:18 - Predict pairs.\n7:05 - Interactive morph slider.\n10:51 - Animation QA desk (error spotting).\n13:25 - Near transfer task (bike lanes).\n15:27 - Far transfer task (scheduling).\n17:21 - Common mistakes and error log.\n21:57 - Check simulator.",
+    "score_reason": "The lesson requires the learner to predict, apply, and explore at almost every key step, with feedback addressing their answers. It does not reach the top level because feedback for free-text responses relies on reveals rather than dynamically explaining the specific answer.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 357133,
+    "candidatesTokenCount": 196,
+    "totalTokenCount": 359466,
+    "cachedContentTokenCount": 363492,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 356400
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 363150
+      }
+    ],
+    "thoughtsTokenCount": 2137,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 367059
+  }
+}

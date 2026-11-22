@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:28.492Z",
+  "seconds": 91,
+  "result": {
+    "evidence": "0:23: Introduces columns under the roof to represent volume.\n1:49: Builds the base region R by finding axis intersections.\n3:10: Smoothly transitions from 3D to 2D to analyze R.\n3:41: Uses a sliding vertical strip to find inner limits.\n5:01: Uses camera angles to show the true shape of R.\n6:23: Explains projection (shadow) clearly.\n8:33: Shows the alternative horizontal strip method.",
+    "score_reason": "The lesson is clear, correct, and well-made, effectively using 3D to 2D visual transitions and interactive questions to teach the setup of double integrals. It meets the criteria for an exceptional lesson, but is scored slightly lower per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 161108,
+    "candidatesTokenCount": 187,
+    "totalTokenCount": 162187,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 160384
+      }
+    ],
+    "thoughtsTokenCount": 892,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 169355
+  }
+}

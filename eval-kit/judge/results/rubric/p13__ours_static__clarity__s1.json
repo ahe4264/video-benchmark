@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:50.713Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "0:00-1:50: The physical components and basic variables (Q, V, C) are introduced clearly.\n2:48: The application of Gauss's law is brief but explicitly stated.\n3:51: The derivation of voltage from the electric field skips the integration step, jumping directly to the natural log result.\n4:12-9:23: The effects of changing dimensions are explored logically based on the established formula.",
+    "score_reason": "The lesson fully meets Level 5. It is logical and builds step-by-step, but contains one small gap where the natural log is introduced into the voltage formula without showing the underlying math, which keeps it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 163399,
+    "candidatesTokenCount": 170,
+    "totalTokenCount": 165024,
+    "cachedContentTokenCount": 169802,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162713
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 686
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 151447
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18016
+      }
+    ],
+    "thoughtsTokenCount": 1455,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 171763
+  }
+}

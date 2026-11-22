@@ -1,0 +1,49 @@
+{
+  "topic": "p17",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:34:19.652Z",
+  "seconds": 68,
+  "result": {
+    "evidence": "0:15: Hands-on 'Two-Dial Explorer' lets the learner manipulate variables and see effects. 2:12: Predict-observe-explain questions require thinking before revealing answers. 9:00: Quick self-test asks for calculations and comparisons. 11:25: Learner estimates and sketches predictions for a new dataset. 15:44: Structure-recognition checklist applies concepts to a new scenario. 19:09: 'Error Atlas' uses probes to test and correct specific misconceptions.",
+    "score_reason": "The lesson fully meets the top level by requiring the learner to perform key reasoning tasks (predicting, applying, exploring) at all main steps, providing interactive feedback, and explicitly placing checks where misconceptions arise.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 327306,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 329653,
+    "cachedContentTokenCount": 333100,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 326568
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 738
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332753
+      }
+    ],
+    "thoughtsTokenCount": 2169,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336441
+  }
+}

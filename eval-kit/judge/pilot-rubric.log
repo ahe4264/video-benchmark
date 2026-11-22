@@ -1,0 +1,156 @@
+﻿
+rubric: 120 calls (6 metrics), 0 already done, running 120
+done p2__paper2video__overall__s1.json: 2/7 (51060 in, 0 cached, 23s)
+done p1__paper2video__overall__s1.json: 3/7 (59799 in, 0 cached, 24s)
+done p3__paper2video__overall__s1.json: 3/7 (62701 in, 0 cached, 23s)
+done p1__code2video__overall__s1.json: 6/7 (77817 in, 0 cached, 40s)
+done p3__code2video__overall__s1.json: 5/7 (67515 in, 0 cached, 44s)
+done p2__code2video__overall__s1.json: 5/7 (75700 in, 0 cached, 47s)
+done p2__paper2video__visuals__s1.json: 3/7 (51096 in, 0 cached, 30s)
+done p4__code2video__overall__s1.json: 5/7 (68837 in, 0 cached, 48s)
+done p3__paper2video__visuals__s1.json: 3/7 (62737 in, 0 cached, 31s)
+done p3__ours_static__overall__s1.json: 6/7 (149269 in, 0 cached, 39s)
+done p2__notebooklm__overall__s1.json: 5/7 (133665 in, 0 cached, 50s)
+done p1__paper2video__visuals__s1.json: 3/7 (59835 in, 0 cached, 47s)
+done p1__notebooklm__overall__s1.json: 4/7 (114878 in, 0 cached, 74s)
+done p2__code2video__visuals__s1.json: 6/7 (75736 in, 0 cached, 36s)
+done p4__code2video__visuals__s1.json: 6/7 (68873 in, 0 cached, 34s)
+done p3__notebooklm__overall__s1.json: 5/7 (108518 in, 0 cached, 82s)
+done p1__paper2video__clarity__s1.json: 2/7 (59764 in, 0 cached, 28s)
+done p2__notebooklm__visuals__s1.json: 4/7 (133701 in, 0 cached, 40s)
+done p2__code2video__clarity__s1.json: 6/7 (75665 in, 0 cached, 23s)
+done p2__ours_static__overall__s1.json: 6/7 (161108 in, 0 cached, 91s)
+done p4__code2video__clarity__s1.json: 6/7 (68802 in, 0 cached, 25s)
+done p1__notebooklm__visuals__s1.json: 6/7 (114914 in, 0 cached, 36s)
+done p2__paper2video__clarity__s1.json: 2/7 (51025 in, 48972 cached, 76s)
+done p3__paper2video__clarity__s1.json: 3/7 (62666 in, 0 cached, 72s)
+done p3__notebooklm__visuals__s1.json: 3/7 (108554 in, 0 cached, 35s)
+done p2__notebooklm__clarity__s1.json: 4/7 (133630 in, 0 cached, 36s)
+done p2__code2video__technical__s1.json: 4/7 (75945 in, 0 cached, 38s)
+done p3__paper2video__technical__s1.json: 6/7 (62946 in, 0 cached, 21s)
+done p1__ours_static__overall__s1.json: 5/7 (154766 in, 0 cached, 133s)
+done p1__paper2video__technical__s1.json: 6/7 (60044 in, 0 cached, 55s)
+done p1__notebooklm__clarity__s1.json: 4/7 (114843 in, 0 cached, 46s)
+done p3__notebooklm__clarity__s1.json: 4/7 (108483 in, 0 cached, 40s)
+done p2__notebooklm__technical__s1.json: 4/7 (133910 in, 0 cached, 32s)
+done p2__code2video__engagement__s1.json: 4/7 (75624 in, 0 cached, 42s)
+done p3__paper2video__engagement__s1.json: 2/7 (62625 in, 0 cached, 45s)
+done p4__notebooklm__overall__s1.json: 6/7 (129331 in, 0 cached, 187s)
+done p2__paper2video__technical__s1.json: 6/7 (51305 in, 0 cached, 74s)
+done p1__paper2video__engagement__s1.json: 2/7 (59723 in, 0 cached, 60s)
+done p3__notebooklm__technical__s1.json: 4/7 (108763 in, 0 cached, 45s)
+done p2__paper2video__engagement__s1.json: 2/7 (50984 in, 0 cached, 18s)
+done p2__ours_static__visuals__s1.json: 6/7 (161144 in, 0 cached, 121s)
+done p1__ours_static__visuals__s1.json: 6/7 (154802 in, 0 cached, 81s)
+done p4__code2video__technical__s1.json: 4/7 (69082 in, 0 cached, 139s)
+done p1__paper2video__active_learning__s1.json: 2/7 (59808 in, 0 cached, 38s)
+progress: 44/120 attempted, 0 failed
+done p3__code2video__visuals__s1.json: 5/7 (67551 in, 0 cached, 237s)
+done p2__code2video__active_learning__s1.json: 3/7 (75709 in, 0 cached, 97s)
+progress: 46/120 attempted, 0 failed
+done p4__notebooklm__visuals__s1.json: 4/7 (129367 in, 0 cached, 88s)
+done p2__paper2video__active_learning__s1.json: 2/7 (51069 in, 0 cached, 73s)
+progress: 48/120 attempted, 0 failed
+done p3__ours_static__visuals__s1.json: 6/7 (149305 in, 0 cached, 240s)
+done p3__code2video__clarity__s1.json: 6/7 (67480 in, 0 cached, 19s)
+node : [p4__ours_static__overall__s1.json] 503; retry 1 in 5s
+At line:1 char:449
++ ... rkdown())"; node score.js --topics p1,p2,p3,p4,p5 --concurrency 15 *> ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([p4__ours_stati...; retry 1 in 5s:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+done p2__notebooklm__engagement__s1.json: 5/7 (133589 in, 0 cached, 136s)
+done p4__code2video__engagement__s1.json: 4/7 (68761 in, 0 cached, 58s)
+done p2__ours_static__clarity__s1.json: 6/7 (161073 in, 0 cached, 80s)
+done p4__notebooklm__clarity__s1.json: 6/7 (129296 in, 0 cached, 33s)
+done p5__code2video__overall__s1.json: 4/7 (54844 in, 0 cached, 25s)
+done p4__paper2video__overall__s1.json: 2/7 (69691 in, 0 cached, 60s)
+done p1__notebooklm__technical__s1.json: 6/7 (115123 in, 0 cached, 170s)
+done p4__code2video__active_learning__s1.json: 4/7 (68846 in, 0 cached, 26s)
+progress: 58/120 attempted, 0 failed
+done p2__notebooklm__active_learning__s1.json: 3/7 (133674 in, 0 cached, 28s)
+progress: 59/120 attempted, 0 failed
+done p4__ours_static__overall__s1.json: 6/7 (144924 in, 0 cached, 314s)
+done p3__code2video__technical__s1.json: 4/7 (67760 in, 0 cached, 40s)
+[p3__code2video__engagement__s1.json] 429; retry 1 in 5s
+FAILED p1__code2video__visuals__s1.json: fetch failed
+done p5__notebooklm__overall__s1.json: 5/7 (120657 in, 0 cached, 46s)
+[p3__paper2video__active_learning__s1.json] 503; retry 1 in 5s
+[p3__notebooklm__engagement__s1.json] 503; retry 1 in 5s
+[p5__ours_static__overall__s1.json] 429; retry 1 in 5s
+done p1__ours_static__clarity__s1.json: 6/7 (154731 in, 0 cached, 125s)
+done p4__paper2video__visuals__s1.json: 2/7 (69727 in, 0 cached, 37s)
+done p4__ours_static__visuals__s1.json: 6/7 (144960 in, 0 cached, 25s)
+done p5__paper2video__overall__s1.json: 3/7 (57468 in, 0 cached, 21s)
+done p1__notebooklm__engagement__s1.json: 5/7 (114802 in, 0 cached, 44s)
+done p3__code2video__engagement__s1.json: 3/7 (67439 in, 0 cached, 39s)
+done p1__ours_static__technical__s1.json: 6/7 (155011 in, 0 cached, 27s)
+done p3__notebooklm__engagement__s1.json: 5/7 (108442 in, 0 cached, 169s)
+done p5__notebooklm__visuals__s1.json: 3/7 (120693 in, 0 cached, 35s)
+done p1__code2video__clarity__s1.json: 6/7 (77782 in, 0 cached, 47s)
+done p4__paper2video__clarity__s1.json: 3/7 (69656 in, 0 cached, 28s)
+done p4__notebooklm__technical__s1.json: 6/7 (129576 in, 0 cached, 77s)
+done p5__paper2video__visuals__s1.json: 2/7 (57504 in, 0 cached, 29s)
+done p4__ours_static__clarity__s1.json: 6/7 (144889 in, 0 cached, 33s)
+done p3__paper2video__active_learning__s1.json: 2/7 (62710 in, 0 cached, 207s)
+progress: 78/120 attempted, 1 failed
+done p3__code2video__active_learning__s1.json: 3/7 (67524 in, 0 cached, 22s)
+progress: 79/120 attempted, 1 failed
+done p4__paper2video__technical__s1.json: 6/7 (69936 in, 0 cached, 24s)
+done p1__notebooklm__active_learning__s1.json: 3/7 (114887 in, 0 cached, 46s)
+progress: 81/120 attempted, 1 failed
+done p5__paper2video__clarity__s1.json: 3/7 (57433 in, 0 cached, 26s)
+done p2__ours_static__technical__s1.json: 6/7 (161353 in, 0 cached, 118s)
+done p4__paper2video__engagement__s1.json: 3/7 (69615 in, 0 cached, 27s)
+done p4__ours_static__technical__s1.json: 6/7 (145169 in, 0 cached, 48s)
+done p5__ours_static__overall__s1.json: 6/7 (159663 in, 0 cached, 91s)
+done p5__paper2video__technical__s1.json: 3/7 (57713 in, 0 cached, 30s)
+done p3__ours_static__clarity__s1.json: 5/7 (149234 in, 0 cached, 157s)
+done p2__ours_static__engagement__s1.json: 4/7 (161032 in, 0 cached, 36s)
+done p1__ours_static__engagement__s1.json: 6/7 (154690 in, 0 cached, 82s)
+done p3__notebooklm__active_learning__s1.json: 3/7 (108527 in, 0 cached, 85s)
+progress: 91/120 attempted, 1 failed
+done p5__code2video__visuals__s1.json: 6/7 (54880 in, 0 cached, 166s)
+done p5__paper2video__engagement__s1.json: 3/7 (57392 in, 0 cached, 34s)
+done p5__ours_static__visuals__s1.json: 6/7 (159699 in, 0 cached, 42s)
+done p4__ours_static__engagement__s1.json: 4/7 (144848 in, 0 cached, 47s)
+done p4__paper2video__active_learning__s1.json: 2/7 (69700 in, 0 cached, 52s)
+progress: 96/120 attempted, 1 failed
+done p1__code2video__technical__s1.json: 4/7 (78062 in, 0 cached, 114s)
+done p5__code2video__clarity__s1.json: 5/7 (54809 in, 0 cached, 22s)
+done p5__paper2video__active_learning__s1.json: 2/7 (57477 in, 0 cached, 21s)
+progress: 99/120 attempted, 1 failed
+done p4__notebooklm__engagement__s1.json: 4/7 (129255 in, 0 cached, 116s)
+done p3__ours_static__technical__s1.json: 6/7 (149514 in, 0 cached, 55s)
+done p1__ours_static__active_learning__s1.json: 6/7 (154775 in, 0 cached, 47s)
+progress: 102/120 attempted, 1 failed
+done p2__ours_static__active_learning__s1.json: 6/7 (161117 in, 0 cached, 51s)
+progress: 103/120 attempted, 1 failed
+done p5__notebooklm__clarity__s1.json: 4/7 (120622 in, 0 cached, 131s)
+[p5__notebooklm__technical__s1.json] 429; retry 1 in 5s
+[p5__notebooklm__technical__s1.json] 429; retry 2 in 10s
+done p4__ours_static__active_learning__s1.json: 6/7 (144933 in, 0 cached, 42s)
+progress: 105/120 attempted, 1 failed
+done p5__code2video__technical__s1.json: 4/7 (55089 in, 0 cached, 28s)
+done p4__notebooklm__active_learning__s1.json: 3/7 (129340 in, 0 cached, 28s)
+progress: 107/120 attempted, 1 failed
+done p1__code2video__engagement__s1.json: 4/7 (77741 in, 0 cached, 35s)
+done p3__ours_static__engagement__s1.json: 4/7 (149193 in, 0 cached, 33s)
+done p5__ours_static__clarity__s1.json: 6/7 (159628 in, 0 cached, 57s)
+done p5__notebooklm__technical__s1.json: 7/7 (120902 in, 0 cached, 37s)
+done p5__code2video__engagement__s1.json: 5/7 (54768 in, 0 cached, 25s)
+done p1__code2video__active_learning__s1.json: 3/7 (77826 in, 0 cached, 32s)
+progress: 113/120 attempted, 1 failed
+done p3__ours_static__active_learning__s1.json: 6/7 (149278 in, 0 cached, 32s)
+progress: 114/120 attempted, 1 failed
+done p5__ours_static__technical__s1.json: 6/7 (159908 in, 0 cached, 37s)
+done p5__notebooklm__engagement__s1.json: 5/7 (120581 in, 0 cached, 34s)
+done p5__notebooklm__active_learning__s1.json: 3/7 (120666 in, 0 cached, 27s)
+progress: 117/120 attempted, 1 failed
+done p5__code2video__active_learning__s1.json: 5/7 (54853 in, 0 cached, 61s)
+progress: 118/120 attempted, 1 failed
+done p5__ours_static__engagement__s1.json: 6/7 (159587 in, 0 cached, 291s)
+done p5__ours_static__active_learning__s1.json: 6/7 (159672 in, 0 cached, 82s)
+progress: 120/120 attempted, 1 failed
+1 calls failed; rerun the same command to retry them

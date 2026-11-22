@@ -1,0 +1,43 @@
+
+rubric: 20 calls (1 metrics), 0 already done, running 20
+done p2__eduvisagent__technical__s1.json: 2/7 (263003 in, 0 cached, 57s)
+progress: 1/20 attempted, 0 failed
+done p3__eduvisagent__technical__s1.json: 4/7 (153278 in, 0 cached, 64s)
+progress: 2/20 attempted, 0 failed
+done p1__eduvisagent__technical__s1.json: 4/7 (337850 in, 0 cached, 70s)
+progress: 3/20 attempted, 0 failed
+done p12__eduvisagent__technical__s1.json: 5/7 (351102 in, 0 cached, 70s)
+progress: 4/20 attempted, 0 failed
+done p5__eduvisagent__technical__s1.json: 3/7 (328467 in, 0 cached, 77s)
+progress: 5/20 attempted, 0 failed
+[p20__eduvisagent__technical__s1.json] 429; retry 1 in 5s
+done p8__eduvisagent__technical__s1.json: 5/7 (342787 in, 0 cached, 83s)
+progress: 6/20 attempted, 0 failed
+done p7__eduvisagent__technical__s1.json: 3/7 (374203 in, 0 cached, 83s)
+progress: 7/20 attempted, 0 failed
+done p9__eduvisagent__technical__s1.json: 3/7 (438758 in, 0 cached, 92s)
+progress: 8/20 attempted, 0 failed
+done p14__eduvisagent__technical__s1.json: 3/7 (381619 in, 0 cached, 98s)
+progress: 9/20 attempted, 0 failed
+done p10__eduvisagent__technical__s1.json: 2/7 (350075 in, 0 cached, 105s)
+progress: 10/20 attempted, 0 failed
+done p13__eduvisagent__technical__s1.json: 2/7 (320824 in, 0 cached, 107s)
+progress: 11/20 attempted, 0 failed
+done p11__eduvisagent__technical__s1.json: 4/7 (312807 in, 0 cached, 112s)
+progress: 12/20 attempted, 0 failed
+done p6__eduvisagent__technical__s1.json: 5/7 (325447 in, 0 cached, 113s)
+progress: 13/20 attempted, 0 failed
+done p15__eduvisagent__technical__s1.json: 3/7 (360398 in, 0 cached, 126s)
+progress: 14/20 attempted, 0 failed
+done p4__eduvisagent__technical__s1.json: 5/7 (332752 in, 0 cached, 130s)
+progress: 15/20 attempted, 0 failed
+done p20__eduvisagent__technical__s1.json: 6/7 (307398 in, 0 cached, 60s)
+progress: 16/20 attempted, 0 failed
+done p17__eduvisagent__technical__s1.json: 3/7 (330688 in, 0 cached, 125s)
+progress: 17/20 attempted, 0 failed
+done p16__eduvisagent__technical__s1.json: 4/7 (326890 in, 0 cached, 135s)
+progress: 18/20 attempted, 0 failed
+done p19__eduvisagent__technical__s1.json: 4/7 (343751 in, 0 cached, 187s)
+progress: 19/20 attempted, 0 failed
+done p18__eduvisagent__technical__s1.json: 3/7 (334636 in, 0 cached, 212s)
+progress: 20/20 attempted, 0 failed

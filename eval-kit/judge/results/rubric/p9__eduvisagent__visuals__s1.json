@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:10:53.728Z",
+  "seconds": 72,
+  "result": {
+    "evidence": "0:21 (mystery box probes), 0:35 (plum pudding model), 1:33 (step-by-step apparatus build), 1:43 (powers-of-ten scale line), 2:38 (interactive beam firing with real-time histogram), 3:38 (predicted vs observed histogram overlay), 3:55 (building atom schematic from evidence), 18:57 (interactive energy-distance graph).",
+    "score_reason": "The visuals carry the explanation. Interactive simulations, dynamic graphs, and step-by-step schematics clearly show objects, quantities, and relationships. The layout is clean and legible throughout. It fully meets the top level, but the score is compressed as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 436359,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 438020,
+    "cachedContentTokenCount": 444191,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 435600
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 443850
+      }
+    ],
+    "thoughtsTokenCount": 1485,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 448385
+  }
+}

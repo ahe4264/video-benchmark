@@ -1,0 +1,21 @@
+id,subject,topic,lessonagent,coding-agent,notebooklm,paper2video,manimator,code2video,pptagent
+p1,Calculus,Proving lim sin x / x = 1 by squeezing,1,1,1,1,1,1,1
+p2,Calculus,Volume of a tetrahedron by double integration,1,1,1,1,1,1,1
+p3,Calculus,Setting up a polar double integral,1,1,1,1,1,1,1
+p4,Computer science,How insertion sort works; step by step,1,1,1,1,1,1,1
+p5,Computer science,Tracing the Bellman-Ford algorithm,1,1,1,1,1,1,1
+p6,Calculus,Fluid force on a submerged surface,1,1,1,1,1,1,1
+p7,Calculus,The cross product of two vectors,1,1,1,1,1,1,1
+p8,Chemistry,Inside a hydrogen-oxygen fuel cell,1,1,1,1,1,1,1
+p9,Chemistry,The Rutherford gold foil experiment,1,1,1,1,1,1,1
+p10,Chemistry,Electron diffraction and wave-particle duality,1,1,1,1,1,1,1
+p11,Biochemistry,Lock-and-key versus induced fit enzyme binding,1,1,1,1,1,1,1
+p12,Physics,The simple pendulum,1,1,1,1,1,1,1
+p13,Physics,The cylindrical capacitor,1,1,1,1,1,1,1
+p14,Machine learning,The U-Net behind diffusion models,1,1,1,1,1,1,1
+p15,Machine learning,Edge graphs in graph neural networks,1,1,1,1,1,1,1
+p16,Organic chemistry,Steric bulk and inversion in an SN2 reaction,1,1,1,1,1,1,1
+p17,Machine learning,Fitting a line to data: slope; intercept and error,1,1,1,1,1,1,1
+p18,Optics,Why there is no picture on the wall: the pinhole camera,1,1,1,1,1,1,1
+p19,Computer vision,Orthographic projection of a box onto a plane,1,1,0,1,1,1,1
+p20,Optics,Lenses in a telescope,1,1,1,1,1,1,1

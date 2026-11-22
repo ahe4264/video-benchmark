@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:04.621Z",
+  "seconds": 110,
+  "result": {
+    "evidence": "0:44: Static drawing of a billiard ball and wave.\n2:21: Static textbook diagram of the double-slit experiment.\n3:46: Static three-panel image showing electron accumulation, missing an opportunity to animate the process.\n6:16, 6:55: Heavy reliance on text bullet points.\n7:31: Static table for quantum numbers.",
+    "score_reason": "The visuals are clean and depict relevant objects, but they are entirely static slides that illustrate the narration rather than dynamically explaining the concepts. It misses the next level because the graphics do not change or animate to show processes step-by-step.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 159410,
+    "candidatesTokenCount": 156,
+    "totalTokenCount": 161349,
+    "cachedContentTokenCount": 165592,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158649
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 147681
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17568
+      }
+    ],
+    "thoughtsTokenCount": 1783,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167572
+  }
+}

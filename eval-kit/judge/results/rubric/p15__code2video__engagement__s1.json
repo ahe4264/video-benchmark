@@ -1,0 +1,49 @@
+{
+  "topic": "p15",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:42:41.515Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "0:00-0:28: The lesson opens with a real-world scenario (drone network) and a clear question ('How do edges talk to edges?'). 1:16-2:48: The manual, step-by-step construction of the edge graph is highly repetitive, creating a noticeable lull in momentum. 2:48-3:59: The interactive degree calculation and the node/edge toggle view provide engaging visual variety and moments of insight. 3:59-4:31: Concludes with a quick quiz.",
+    "score_reason": "The lesson fully meets level 5. It features an opening with a clear stake, good variety (animations, interactive-style demos, quiz), and moments of insight. It falls short of level 6 because the repetitive graph construction sequence creates lulls that are more than brief.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 72456,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 74573,
+    "cachedContentTokenCount": 73510,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71808
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73168
+      }
+    ],
+    "thoughtsTokenCount": 1917,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74836
+  }
+}

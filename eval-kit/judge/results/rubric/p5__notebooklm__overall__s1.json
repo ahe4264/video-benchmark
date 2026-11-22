@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:02:30.854Z",
+  "seconds": 46,
+  "result": {
+    "evidence": "At 1:43, the lesson clearly explains edge relaxation with a formula and analogy. At 3:00, initialization is well-visualized. However, during the actual trace (4:05-5:01), the lesson relies on a static, dense diagram with multiple panels. The narration describes specific edge updates (e.g., 'routing through y and x'), but these are difficult to see and follow on the small, complex image.",
+    "score_reason": "The lesson teaches the core concepts well and has a clear structure. It fully meets the 'Good' level, but the visually dense and hard-to-follow trace prevents it from being 'Strong'.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 120657,
+    "candidatesTokenCount": 161,
+    "totalTokenCount": 121993,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119933
+      }
+    ],
+    "thoughtsTokenCount": 1175,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126951
+  }
+}

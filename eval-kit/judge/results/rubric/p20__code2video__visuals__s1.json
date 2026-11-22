@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:47:32.981Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:00-0:25: Hook uses clear diagrams of light rays and angles from distant objects. 0:26-1:21: Step-by-step geometric construction of the telescope shows lenses, focal points, and ray paths to derive formulas. 1:22-2:20: Dynamic sliders change focal lengths, instantly updating the ray diagram and magnification values. 2:21-2:58: Interactive dragging of input angle shows the proportional change in output angle, plotted on a graph. 2:59-3:46: Moving the second lens shows the effect on beam convergence and image sharpness.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation entirely, allowing a student to follow the concepts through the dynamic geometric diagrams alone. Meets the highest level, but scored lower per compression instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 73359,
+    "candidatesTokenCount": 200,
+    "totalTokenCount": 74709,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1150,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75760
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:55:33.364Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:00-1:30: Hook introduces perspective vs orthographic using photos. 1:30-3:30: Methodical breakdown of coordinate frames, objects, and rays. 3:30-5:00: Equations introduced clearly alongside interactive sliders demonstrating depth independence. 7:30+: Transfer tasks build logically on established concepts. Terms are consistently defined before use.",
+    "score_reason": "The lesson fully meets the top level, as every step is motivated and builds on the last, nothing is used before it is introduced, and a newcomer could reconstruct the argument afterwards.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 340988,
+    "candidatesTokenCount": 144,
+    "totalTokenCount": 342713,
+    "cachedContentTokenCount": 347086,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 692
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 340296
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346741
+      }
+    ],
+    "thoughtsTokenCount": 1581,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350487
+  }
+}

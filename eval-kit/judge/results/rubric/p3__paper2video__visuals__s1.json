@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "paper2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:57:34.968Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "0:21: A static 2D plot of the region is shown next to text.\n0:55: The same static plot appears with a red radial line added.\n1:09-1:44: Slides consist entirely of text and equations.\n2:00: The initial static plot is shown again.\nThe video relies heavily on text and equations, using only a single, static, and repetitive diagram to illustrate the geometry.",
+    "score_reason": "The lesson meets Level 3 because it uses clean, readable visuals that depict the main objects, but they are completely static and repetitive, illustrating the text rather than explaining the concept. It does not reach Level 4 because the visuals do not change or animate to explain any steps of the idea.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 62737,
+    "candidatesTokenCount": 178,
+    "totalTokenCount": 64517,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 759
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61978
+      }
+    ],
+    "thoughtsTokenCount": 1602,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 66196
+  }
+}

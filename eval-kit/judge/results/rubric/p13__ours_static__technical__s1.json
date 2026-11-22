@@ -1,0 +1,54 @@
+{
+  "topic": "p13",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:38:16.868Z",
+  "seconds": 146,
+  "result": {
+    "evidence": "Watched the entire lesson. No layout, rendering, interaction, playback, or audio issues were observed. All text, formulas, and graphics render correctly, and the audio is synced.",
+    "issues": [],
+    "score_reason": "The lesson has no visible technical problems, fully meeting the top level. The score is compressed as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 163679,
+    "candidatesTokenCount": 87,
+    "totalTokenCount": 165111,
+    "cachedContentTokenCount": 169802,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 162713
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 966
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 151447
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18016
+      }
+    ],
+    "thoughtsTokenCount": 1345,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 172221
+  }
+}

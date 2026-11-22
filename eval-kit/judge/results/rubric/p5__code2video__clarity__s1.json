@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:05:05.199Z",
+  "seconds": 22,
+  "result": {
+    "evidence": "0:00-0:48: The hook clearly explains negative costs and visually demonstrates why a greedy approach fails.\n0:49-1:18: Graph construction, initial state, and the fixed edge order are laid out step-by-step.\n1:19-2:35: The `relax` function is introduced and applied to trace the algorithm. The trace is fast but follows a clear, established pattern.\n2:36-3:24: Consolidation explains the final check and convergence. The reason for V-1 passes is briefly shown on screen (2:43).",
+    "score_reason": "The lesson is logical and step-by-step throughout, with no major gaps. The explanation of why V-1 passes are sufficient is slightly brief, keeping it from the top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 54809,
+    "candidatesTokenCount": 195,
+    "totalTokenCount": 56305,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 54120
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "thoughtsTokenCount": 1301,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 56721
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p19",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:44:45.838Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "0:13: Introduces the problem of flattening 3D to 2D without size change. 0:41: Defines orthographic projection. 1:39: Visualizes projection with a 3D staircase. 3:24: Contrasts with perspective projection. 4:24: Explains the math (x=kX, y=kY). 5:00: Provides a real-world analogy using telephoto lenses.",
+    "score_reason": "The lesson is clear, correct, and well-structured, using strong visuals and analogies to teach the core idea effectively. It meets the criteria for an exceptional lesson, but the score is compressed from the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 123265,
+    "candidatesTokenCount": 166,
+    "totalTokenCount": 124161,
+    "cachedContentTokenCount": 127969,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 122538
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 727
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 114056
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13568
+      }
+    ],
+    "thoughtsTokenCount": 730,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 129684
+  }
+}

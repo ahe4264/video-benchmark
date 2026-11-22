@@ -1,0 +1,49 @@
+{
+  "topic": "p4",
+  "system": "eduvisagent",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:04:43.772Z",
+  "seconds": 96,
+  "result": {
+    "evidence": "0:00-0:14: The lesson introduces a problem-solving schema (F.O.P.S) to set a logical structure.\n0:15: A dense screen with code, a table, and a flowchart is shown briefly before moving to an interactive prediction task.\n1:49-2:22: The step-by-step execution of the array alongside the pseudocode builds up logically.\n3:14: Inversions are introduced visually with arcs, connecting to the shifts observed earlier.\nThroughout: The recording moves through text-heavy screens quickly (e.g., 3:45-4:40), requiring frequent pauses to read.",
+    "score_reason": "The lesson follows a sensible order and builds concepts step-by-step, but dense screens and the fast pace of the recording create several rushed steps that require extra effort to follow.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 327787,
+    "candidatesTokenCount": 206,
+    "totalTokenCount": 329706,
+    "cachedContentTokenCount": 333635,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 691
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 327096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 333291
+      }
+    ],
+    "thoughtsTokenCount": 1713,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336936
+  }
+}

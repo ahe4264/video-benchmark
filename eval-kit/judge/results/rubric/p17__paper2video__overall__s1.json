@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:48.720Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00: Title slide indicates this is a 'Video Plan'. 0:18-1:34: The speaker describes the proposed lesson's approach and methods without actually teaching the concepts. 1:34-2:45: The presentation shifts to experimental settings, research results, and future directions.",
+    "score_reason": "The video is a meta-presentation about a lesson plan rather than the educational lesson itself, making it entirely off-topic for a newcomer trying to learn the subject. It meets the lowest level, compressed per instructions.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 50772,
+    "candidatesTokenCount": 135,
+    "totalTokenCount": 52521,
+    "cachedContentTokenCount": 50055,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 729
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50043
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 44204
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 5504
+      }
+    ],
+    "thoughtsTokenCount": 1614,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53656
+  }
+}

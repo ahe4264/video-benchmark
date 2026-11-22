@@ -1,0 +1,50 @@
+{
+  "topic": "p4",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:06:30.287Z",
+  "seconds": 107,
+  "result": {
+    "evidence": "Watched the entire lesson. No layout, rendering, interaction, playback, or audio issues were observed. All text, math formulas, and interactive elements functioned correctly.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level. No visible technical problems were found; everything renders and responds as intended.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 328067,
+    "candidatesTokenCount": 84,
+    "totalTokenCount": 330849,
+    "cachedContentTokenCount": 333635,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 971
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 327096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 333291
+      }
+    ],
+    "thoughtsTokenCount": 2698,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 337394
+  }
+}

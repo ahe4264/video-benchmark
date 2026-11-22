@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:18.046Z",
+  "seconds": 28,
+  "result": {
+    "evidence": "0:14: Begins with meta-commentary on learning objectives rather than teaching the concept.\n0:31: Discusses 'Related Work' and critiques textbook presentations.\n0:46: Shows a static geometric setup, claiming it is 'built element by element' without actually animating it.\n1:00: States area formulas without showing their geometric derivation.\n1:34-End: Focuses entirely on experimental methods, rendering constraints, and ablation studies.",
+    "score_reason": "The video is a research presentation about a lesson design, not an actual lesson. A student would be lost immediately due to the meta-commentary, skipped mathematical steps, and irrelevant research methodology, fitting the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59764,
+    "candidatesTokenCount": 168,
+    "totalTokenCount": 61583,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 694
+      }
+    ],
+    "thoughtsTokenCount": 1651,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63083
+  }
+}

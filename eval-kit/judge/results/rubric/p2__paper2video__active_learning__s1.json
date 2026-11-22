@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:30.806Z",
+  "seconds": 73,
+  "result": {
+    "evidence": "The video is a continuous presentation (0:00-2:53) describing a lesson design. It contains no questions, prompts, or interactive elements for the viewer.",
+    "score_reason": "Meets Level 1. The lesson is entirely passive and asks nothing of the learner.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 51069,
+    "candidatesTokenCount": 78,
+    "totalTokenCount": 52281,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50336
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ],
+    "thoughtsTokenCount": 1134,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53968
+  }
+}

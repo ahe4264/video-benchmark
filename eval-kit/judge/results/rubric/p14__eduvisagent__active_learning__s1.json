@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:31:34.222Z",
+  "seconds": 455,
+  "result": {
+    "evidence": "0:53: 'Predict first' asks for explanations before solutions. 1:34: Learner calculates dimensions in a table. 3:11: Scaffolded practice requires applying concepts. 7:06: Predicts signal vs noise equality. 12:10: Classifies rows before calculating. 20:55: Misconception check asks for explanations and confidence.",
+    "score_reason": "The lesson requires predicting, applying, and explaining at most key steps, with feedback provided. It goes far beyond recall, though the score is compressed from the top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 378254,
+    "candidatesTokenCount": 143,
+    "totalTokenCount": 380993,
+    "cachedContentTokenCount": 385013,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 377520
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 384670
+      }
+    ],
+    "thoughtsTokenCount": 2596,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 388740
+  }
+}

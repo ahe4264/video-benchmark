@@ -1,0 +1,958 @@
+{
+ "lesson": "p19",
+ "offset": -1.5,
+ "actions": 90,
+ "noVisibleChange": 1,
+ "withPageError": 7,
+ "deadOrError": 8,
+ "loadErrors": 1,
+ "recorderCouldNotUse": 7,
+ "deadByOffset": {
+  "0": 1,
+  "-3": 1,
+  "-2.5": 1,
+  "-2": 1,
+  "-1.5": 1,
+  "-1": 1,
+  "-0.5": 1
+ },
+ "loadErrorMessages": [
+  "Cannot access 'RUNGS' before initialization"
+ ],
+ "items": [
+  {
+   "t": 15.3,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0599,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 19,
+   "part": 1,
+   "kind": "button",
+   "label": "📓 My Notebook",
+   "change": 0.7638,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 25.9,
+   "part": 1,
+   "kind": "close-popup",
+   "label": "escape",
+   "change": 0.0154,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 26.8,
+   "part": 1,
+   "kind": "close-popup",
+   "label": "close button",
+   "change": 0.7653,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 36.4,
+   "part": 1,
+   "kind": "text",
+   "label": "Because…",
+   "change": 0.0045,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 42.9,
+   "part": 1,
+   "kind": "radio",
+   "label": "a",
+   "change": 0.0154,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 46.6,
+   "part": 1,
+   "kind": "radio",
+   "label": "Just guessing",
+   "change": 0.0039,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 50.3,
+   "part": 1,
+   "kind": "button",
+   "label": "Save prediction & reveal the rays",
+   "change": 0.025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 54.1,
+   "part": 1,
+   "kind": "button",
+   "label": "stencil (a) converge",
+   "change": 0.0081,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 57.9,
+   "part": 1,
+   "kind": "button",
+   "label": "stencil (b) parallel",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 61.7,
+   "part": 1,
+   "kind": "button",
+   "label": "stencil (c) diverge",
+   "change": 0.002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 75.3,
+   "part": 1,
+   "kind": "button",
+   "label": "▶ Animate rays",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 85.2,
+   "part": 1,
+   "kind": "button",
+   "label": "Perspective",
+   "change": 0.0001,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 89,
+   "part": 1,
+   "kind": "button",
+   "label": "Orthographic",
+   "change": 0.016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 93,
+   "part": 1,
+   "kind": "button",
+   "label": "Side by side",
+   "change": 0.0946,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 106.6,
+   "part": 1,
+   "kind": "text",
+   "label": "Our discussion…",
+   "change": 0.0047,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 117.7,
+   "part": 1,
+   "kind": "button",
+   "label": "🙈 Cover the table",
+   "change": 0.0244,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 131.9,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0053,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 139.5,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0226,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 146.1,
+   "part": 1,
+   "kind": "text",
+   "label": "",
+   "change": 0.0093,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 153.3,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0133,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 166.6,
+   "part": 1,
+   "kind": "text",
+   "label": "x for corner A",
+   "change": 0.0007,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 173.1,
+   "part": 1,
+   "kind": "text",
+   "label": "y for corner A",
+   "change": 0.0134,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 179.7,
+   "part": 1,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0172,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 193,
+   "part": 1,
+   "kind": "text",
+   "label": "x for corner B",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 199.6,
+   "part": 1,
+   "kind": "text",
+   "label": "y for corner B",
+   "change": 0.0019,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 249.6,
+   "part": 2,
+   "kind": "button",
+   "label": "2 · Construct O",
+   "change": 0.013,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 259.3,
+   "part": 2,
+   "kind": "button",
+   "label": "3 · Rotate O→P",
+   "change": 0.0292,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 263.2,
+   "part": 2,
+   "kind": "number",
+   "label": "",
+   "change": 0.0004,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 266.9,
+   "part": 2,
+   "kind": "radio",
+   "label": "0",
+   "change": 0.0002,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 270.6,
+   "part": 2,
+   "kind": "radio",
+   "label": "0",
+   "change": 0.0137,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 274.2,
+   "part": 2,
+   "kind": "button",
+   "label": "Lock in prediction",
+   "change": 0.0541,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 278.1,
+   "part": 2,
+   "kind": "button",
+   "label": "4 · Blend P",
+   "change": 0.0381,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 282.2,
+   "part": 2,
+   "kind": "button",
+   "label": "5 · Rulers S",
+   "change": 0.0554,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 285.9,
+   "part": 2,
+   "kind": "number",
+   "label": "",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 289.7,
+   "part": 2,
+   "kind": "number",
+   "label": "",
+   "change": 0.0016,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 293.5,
+   "part": 2,
+   "kind": "number",
+   "label": "",
+   "change": 0.0015,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 297.4,
+   "part": 2,
+   "kind": "number",
+   "label": "",
+   "change": 0.0014,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 310.9,
+   "part": 2,
+   "kind": "number",
+   "label": "",
+   "change": 0.0009,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 314.8,
+   "part": 2,
+   "kind": "number",
+   "label": "",
+   "change": 0.0011,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 466.1,
+   "part": 3,
+   "kind": "text",
+   "label": "your match…",
+   "change": 0.003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 473.1,
+   "part": 3,
+   "kind": "text",
+   "label": "your match…",
+   "change": 0.0047,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 479.5,
+   "part": 3,
+   "kind": "text",
+   "label": "your match…",
+   "change": 0.0049,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 486.1,
+   "part": 3,
+   "kind": "text",
+   "label": "your match…",
+   "change": 0.0049,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 491.9,
+   "part": 3,
+   "kind": "text",
+   "label": "your match…",
+   "change": 0.005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 498.4,
+   "part": 3,
+   "kind": "text",
+   "label": "your match…",
+   "change": 0.0046,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 505.8,
+   "part": 3,
+   "kind": "text",
+   "label": "your match…",
+   "change": 0.0228,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 513.8,
+   "part": 3,
+   "kind": "button",
+   "label": "① Before 5′",
+   "change": 0.1575,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 517.9,
+   "part": 3,
+   "kind": "button",
+   "label": "② Solve 20′",
+   "change": 0.0714,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 521.6,
+   "part": 3,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0003,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 525.3,
+   "part": 3,
+   "kind": "button",
+   "label": "③ Consolidate 10′",
+   "change": 0.0801,
+   "responded": true,
+   "errors": [
+    "Cannot access 'OVCASES' before initialization"
+   ],
+   "failed": null
+  },
+  {
+   "t": 538.7,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.1345,
+   "responded": true,
+   "errors": [
+    "Cannot access 'RUNGS' before initialization"
+   ],
+   "failed": null
+  },
+  {
+   "t": 542.4,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0029,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 546,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [
+    "Cannot access 'RUNGS' before initialization"
+   ],
+   "failed": null
+  },
+  {
+   "t": 549.6,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0023,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 553.1,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [
+    "Cannot access 'RUNGS' before initialization"
+   ],
+   "failed": null
+  },
+  {
+   "t": 556.8,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.02,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 560.3,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [
+    "Cannot access 'RUNGS' before initialization"
+   ],
+   "failed": null
+  },
+  {
+   "t": 563.9,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 567.5,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0024,
+   "responded": true,
+   "errors": [
+    "Cannot access 'RUNGS' before initialization"
+   ],
+   "failed": null
+  },
+  {
+   "t": 571.2,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 574.8,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0026,
+   "responded": true,
+   "errors": [
+    "Cannot access 'RUNGS' before initialization"
+   ],
+   "failed": null
+  },
+  {
+   "t": 578.5,
+   "part": 3,
+   "kind": "button",
+   "label": "Go to stage →",
+   "change": 0.0021,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 715.3,
+   "part": 4,
+   "kind": "text",
+   "label": "rays, hospital",
+   "change": 0.0025,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 721.5,
+   "part": 4,
+   "kind": "text",
+   "label": "rays, synchrotron",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 728.6,
+   "part": 4,
+   "kind": "text",
+   "label": "meet, hospital",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 737,
+   "part": 4,
+   "kind": "text",
+   "label": "meet, synchrotron",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 743.9,
+   "part": 4,
+   "kind": "text",
+   "label": "plane, hospital",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 750.2,
+   "part": 4,
+   "kind": "text",
+   "label": "plane, synchrotron",
+   "change": 0.0036,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 756.7,
+   "part": 4,
+   "kind": "text",
+   "label": "Z, hospital",
+   "change": 0.0035,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 764.4,
+   "part": 4,
+   "kind": "text",
+   "label": "Z, synchrotron",
+   "change": 0.0037,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 771.2,
+   "part": 4,
+   "kind": "radio",
+   "label": "1",
+   "change": 0.0138,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 784.4,
+   "part": 4,
+   "kind": "radio",
+   "label": "2",
+   "change": 0.0916,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 788,
+   "part": 4,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0005,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 791.7,
+   "part": 4,
+   "kind": "range",
+   "label": "0",
+   "change": 0.0159,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 803.1,
+   "part": 4,
+   "kind": "range",
+   "label": "0.2",
+   "change": 0.0049,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1062,
+   "part": 5,
+   "kind": "text",
+   "label": "search M-number or topic…",
+   "change": 0.0046,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1070.3,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1514,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1083.6,
+   "part": 5,
+   "kind": "select",
+   "label": "— choose —",
+   "change": 0,
+   "responded": false,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1087.2,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0824,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1092.8,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0773,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1098.4,
+   "part": 5,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0759,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1104.1,
+   "part": 5,
+   "kind": "text",
+   "label": "Zooming multiplies both steps by the same factor, so…",
+   "change": 0.0675,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1109.6,
+   "part": 5,
+   "kind": "button",
+   "label": "🔴",
+   "change": 0.0691,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1115.2,
+   "part": 5,
+   "kind": "button",
+   "label": "🟡",
+   "change": 0.0692,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1120.8,
+   "part": 5,
+   "kind": "button",
+   "label": "🟢",
+   "change": 0.0698,
+   "responded": true,
+   "errors": [],
+   "failed": "locator.click: Timeout 2000ms exceeded."
+  },
+  {
+   "t": 1142.4,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.1099,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1146.1,
+   "part": 6,
+   "kind": "check",
+   "label": "on",
+   "change": 0.0206,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1149.9,
+   "part": 6,
+   "kind": "button",
+   "label": "Check my records are loaded",
+   "change": 0.121,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1153.8,
+   "part": 6,
+   "kind": "text",
+   "label": "enter by hand (paper users)",
+   "change": 0.0054,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1160.5,
+   "part": 6,
+   "kind": "button",
+   "label": "③ §6.3 Predict & reveal",
+   "change": 0.0066,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  },
+  {
+   "t": 1164.2,
+   "part": 6,
+   "kind": "button",
+   "label": "▶ Run queue",
+   "change": 0.0321,
+   "responded": true,
+   "errors": [],
+   "failed": null
+  }
+ ]
+}

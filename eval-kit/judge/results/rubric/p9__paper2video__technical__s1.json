@@ -1,0 +1,60 @@
+{
+  "topic": "p9",
+  "system": "paper2video",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:55.027Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "The audio track is completely mismatched with the visual slides throughout the entire video. At 0:00, the title slide is shown while the narration discusses 'the fifth scene'. At 4:32, the final slide is shown while the introductory narration plays.",
+    "issues": [
+      {
+        "timestamp": "0:00",
+        "description": "Audio narration is completely out of sync with the slides for the entire video.",
+        "severity": "blocking"
+      }
+    ],
+    "score_reason": "The completely mismatched audio and video is a blocking problem that makes the lesson unusable, matching the lowest level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 84189,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 86656,
+    "cachedContentTokenCount": 82995,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 968
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 83221
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73502
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9152
+      }
+    ],
+    "thoughtsTokenCount": 2313,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 88847
+  }
+}

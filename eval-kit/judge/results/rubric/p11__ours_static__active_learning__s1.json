@@ -1,0 +1,53 @@
+{
+  "topic": "p11",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:12.452Z",
+  "seconds": 41,
+  "result": {
+    "evidence": "0:24: Learner predicts which molecules will bind. 2:09: Learner drags a substrate to test its fit. 2:47: Learner observes and explains changes in the active site. 3:45: Learner explores the induced fit model by flipping a switch. 4:21: Learner compares models to identify similarities. 5:03: Learner predicts when the shape change occurs. 6:02: Learner analyzes a graph to compare the models. 6:41: Learner predicts if a wrong shape will fit a flexible site. 7:01: Learner tests this prediction by dragging the wrong shape. Feedback consistently addresses the learner's specific input and actions.",
+    "score_reason": "The lesson requires the learner to do the key reasoning by predicting, applying, and exploring at all main steps. Feedback explains the reasoning for their specific answers, and checks address potential misconceptions. It meets the top level, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 136858,
+    "candidatesTokenCount": 230,
+    "totalTokenCount": 138172,
+    "cachedContentTokenCount": 142117,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136121
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 737
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 126699
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 15072
+      }
+    ],
+    "thoughtsTokenCount": 1084,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 143935
+  }
+}

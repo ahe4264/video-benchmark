@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:59.431Z",
+  "seconds": 20,
+  "result": {
+    "evidence": "The video is a continuous presentation from 0:00 to 3:21. It contains no questions, prompts, or interactive tasks for the viewer.",
+    "score_reason": "The lesson fully meets the first level because it is entirely passive and asks nothing of the learner.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59504,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 60334,
+    "cachedContentTokenCount": 58720,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58771
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 51914
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6464
+      }
+    ],
+    "thoughtsTokenCount": 754,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62808
+  }
+}

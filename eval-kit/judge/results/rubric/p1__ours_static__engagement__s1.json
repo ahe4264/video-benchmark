@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:24.383Z",
+  "seconds": 82,
+  "result": {
+    "evidence": "0:03: Opens with the 0/0 problem for sin(x)/x, creating a clear puzzle.\n1:08: Introduces the Squeezing Theorem as the solution method.\n2:50, 3:43: Interactive questions maintain engagement.\n4:44: Stacking the shapes provides a strong visual moment of insight.\n8:16: The final squeeze visually and algebraically resolves the opening puzzle.",
+    "score_reason": "The lesson opens with a compelling puzzle that creates real curiosity. It maintains momentum through interactive elements and visual proofs, culminating in satisfying moments of insight. It fully meets the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 154690,
+    "candidatesTokenCount": 155,
+    "totalTokenCount": 155744,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154037
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      }
+    ],
+    "thoughtsTokenCount": 899,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 162629
+  }
+}

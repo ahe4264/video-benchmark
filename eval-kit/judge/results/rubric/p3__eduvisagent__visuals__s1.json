@@ -1,0 +1,49 @@
+{
+  "topic": "p3",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:01:01.350Z",
+  "seconds": 52,
+  "result": {
+    "evidence": "0:02: Interactive sketch of a cardioid. 0:30: Step-by-step visual build of the integration region, using consistent color-coding for curves and strips. 0:51: Integral formula is built piece-by-piece, with colors matching the geometric visual. 1:21: Interactive slider dynamically scales the region, visually demonstrating the effect of a parameter change. 4:40: Clear graphs show the contribution curve stretching. 6:10: Clean schematics introduce a new physical scenario.",
+    "score_reason": "The visuals are crisp, consistent, and dynamically change to carry the explanation. Color-coding strongly links formulas to geometry, allowing students to follow the concepts primarily through the visuals. It fully meets the top level, but the score is compressed as requested.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 150976,
+    "candidatesTokenCount": 188,
+    "totalTokenCount": 152576,
+    "cachedContentTokenCount": 153403,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 150216
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 153061
+      }
+    ],
+    "thoughtsTokenCount": 1412,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 155435
+  }
+}

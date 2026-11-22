@@ -1,0 +1,81 @@
+{
+  "topic": "p1",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:05:37.301Z",
+  "seconds": 80,
+  "result": {
+    "evidence": "Unrendered LaTeX code appears briefly at 0:02, and remains visible in Checkpoint 7 (13:05), Mistake catalogue cards (14:51), section 5.5 (18:45), E2 Monitoring table (20:46), and section 16.9 (20:55).",
+    "issues": [
+      {
+        "timestamp": "0:02",
+        "description": "Brief flash of unrendered LaTeX before page loads.",
+        "severity": "minor"
+      },
+      {
+        "timestamp": "13:05",
+        "description": "Unrendered LaTeX in Checkpoint 7.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "14:51",
+        "description": "Unrendered LaTeX in Mistake catalogue.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "18:45",
+        "description": "Unrendered LaTeX in section 5.5.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "20:46",
+        "description": "Unrendered LaTeX in E2 Monitoring table.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "20:55",
+        "description": "Unrendered LaTeX in section 16.9.",
+        "severity": "minor"
+      }
+    ],
+    "score_reason": "The lesson contains several major rendering problems (unrendered LaTeX). This aligns with a lower level, but the score is compressed toward the center of the scale.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 333615,
+    "candidatesTokenCount": 389,
+    "totalTokenCount": 340452,
+    "cachedContentTokenCount": 339288,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 975
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 332640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 338940
+      }
+    ],
+    "thoughtsTokenCount": 6448,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 343089
+  }
+}

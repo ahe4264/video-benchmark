@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:32.388Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "The video is a recorded presentation about a lesson design rather than an interactive lesson. At 0:04, it describes a self-quiz where 'learners then identify the source,' but the viewer cannot interact. At 0:25 and 2:26, it mentions a prediction question ('We then ask whether a plum pudding atom would bounce any alpha particles...'), but immediately provides the answer without prompting the viewer to pause or think. The video consists entirely of a narrator explaining slides.",
+    "score_reason": "The lesson is entirely passive, as it is a presentation describing a lesson rather than an interactive experience. It does not ask the viewer to answer questions, predict, or explore, meeting the criteria for the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 83953,
+    "candidatesTokenCount": 169,
+    "totalTokenCount": 85877,
+    "cachedContentTokenCount": 82995,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 83221
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73502
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9152
+      }
+    ],
+    "thoughtsTokenCount": 1755,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 88433
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "ours_static",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:49:59.288Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "1:00-1:38: Lenses and focal lengths are introduced sequentially.\n2:16-3:09: Input/output tilts and magnification are defined clearly before use.\n3:10-4:05: The derivation of M = f1 / f2 is built step-by-step using center rays and the small angle approximation.\n5:55-7:26: Focusing is explained logically by moving the lens off the shared point.\n7:27: The derived concepts are applied back to the initial telescope context.",
+    "score_reason": "The lesson fully meets the top level. Every step is motivated and builds on the last, with no unexplained jumps or missing prerequisites. The derivation is broken down so clearly that a newcomer could reconstruct it. Score compressed from 7.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 160210,
+    "candidatesTokenCount": 191,
+    "totalTokenCount": 162473,
+    "cachedContentTokenCount": 166493,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 159522
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148488
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17664
+      }
+    ],
+    "thoughtsTokenCount": 2072,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 168414
+  }
+}

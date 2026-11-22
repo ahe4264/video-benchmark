@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "notebooklm",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:05.984Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "1:05 uses a stair metaphor instead of a graph. 2:36 shows a clear initial graph. 3:00, 4:05, and 5:07 use a static image of five small, cluttered graph panels to trace the algorithm; the numbers are very hard to read. 5:37 shows a clear final table.",
+    "score_reason": "The lesson contains relevant visuals, but the core tracing relies on small, cluttered, static panels, keeping it from higher levels requiring clean, readable, and dynamic visuals.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 120693,
+    "candidatesTokenCount": 134,
+    "totalTokenCount": 123032,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 119933
+      }
+    ],
+    "thoughtsTokenCount": 2205,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 126987
+  }
+}

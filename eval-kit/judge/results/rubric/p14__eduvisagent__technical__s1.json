@@ -1,0 +1,50 @@
+{
+  "topic": "p14",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:22:09.145Z",
+  "seconds": 62,
+  "result": {
+    "evidence": "The entire lesson was reviewed. All text, LaTeX formulas, images, and interactive elements render correctly. No overlapping text, unrendered code, or unresponsive controls were observed.",
+    "issues": [],
+    "score_reason": "The lesson fully meets the top level, as there are no visible technical problems. The score is compressed to 6 per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 378490,
+    "candidatesTokenCount": 90,
+    "totalTokenCount": 380740,
+    "cachedContentTokenCount": 385013,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 377520
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 384670
+      }
+    ],
+    "thoughtsTokenCount": 2160,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 389154
+  }
+}

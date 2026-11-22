@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:10.907Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:21: The opening poses a question ('What if the vital data is in the connections?'), creating a stake.\n1:46: Visual analogies (abacus, scale) are used to explain node aggregation, adding some variety.\n3:34: The introduction of the Edge Graph transformation provides a moment of insight to solve the posed challenge.\n4:09: The step-by-step visual construction of the edge graph maintains momentum.\n5:34: The presentation of the update types via a static table creates a flat stretch.",
+    "score_reason": "The lesson meets the level of having a clear opening with pull and holding attention, but flat stretches (like the final table) keep it from the level above.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 120880,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 122384,
+    "cachedContentTokenCount": 125558,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120232
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 111904
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13312
+      }
+    ],
+    "thoughtsTokenCount": 1331,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 127187
+  }
+}

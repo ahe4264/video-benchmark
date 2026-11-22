@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:38.232Z",
+  "seconds": 34,
+  "result": {
+    "evidence": "0:17: Clear motivation presented.\n0:36: Dense equations appear simultaneously; multiple variables are undefined.\n0:56: More unexplained symbols (e.g., H_k, beta_k) are shown all at once.\n1:33: Edge graph construction is clearer but follows confusing math.",
+    "score_reason": "Meets Level 2 (compressed to 3). The main idea is present, but early slides show too much information at once and use unexplained symbols, preventing it from reaching a higher level.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 66445,
+    "candidatesTokenCount": 132,
+    "totalTokenCount": 68038,
+    "cachedContentTokenCount": 65656,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65756
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58082
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7232
+      }
+    ],
+    "thoughtsTokenCount": 1461,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 70085
+  }
+}

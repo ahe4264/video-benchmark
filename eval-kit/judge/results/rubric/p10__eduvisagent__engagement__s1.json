@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:16:04.064Z",
+  "seconds": 90,
+  "result": {
+    "evidence": "0:05 Hook asks \"Two stripes or many?\", creating a puzzle. 1:33 Simulation builds the interference pattern dot-by-dot. 1:55-4:15 Interactive sliders allow exploration of variables. 5:25+ Transitions to varied calculation and application tasks.",
+    "score_reason": "Meets Level 5. The opening poses a clear question, and the interactive format provides good pace and variety. The dense calculation sections create a few lulls, keeping it from Level 6.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 348073,
+    "candidatesTokenCount": 128,
+    "totalTokenCount": 349883,
+    "cachedContentTokenCount": 354347,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 347424
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 354004
+      }
+    ],
+    "thoughtsTokenCount": 1682,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 357761
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:21:28.629Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "0:00-0:34: Hook introduces torque and right-hand rule intuitively.\n0:34-1:21: Reviews prerequisites (dot product, length, height) clearly.\n1:21-1:44: Introduces determinant formula. The algebraic proof of orthogonality (u dot (u x v) = 0) expands terms and cancels them very quickly (1:30-1:35).\n1:44-3:34: Geometric construction and demonstrations (sweeping angle, stretching) build up step-by-step and clearly link visual changes to the formula.\n4:00-4:36: Anticommutativity is shown clearly by swapping determinant rows and visual vectors.",
+    "score_reason": "The lesson is highly logical and builds step-by-step with clear visual demonstrations. It fully meets level 5, but the briefly rushed algebraic cancellation proving orthogonality keeps it from the level above.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 82001,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 84161,
+    "cachedContentTokenCount": 83194,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 81312
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 82852
+      }
+    ],
+    "thoughtsTokenCount": 1939,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 84633
+  }
+}

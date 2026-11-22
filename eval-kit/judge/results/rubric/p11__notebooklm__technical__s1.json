@@ -1,0 +1,54 @@
+{
+  "topic": "p11",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:31:16.169Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "Watched the full lesson. No layout, rendering, playback, or audio issues were observed.",
+    "issues": [],
+    "score_reason": "Top level. No visible technical problems were found.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 121772,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 122783,
+    "cachedContentTokenCount": 126164,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 120799
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 973
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 112442
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 13376
+      }
+    ],
+    "thoughtsTokenCount": 953,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 128278
+  }
+}

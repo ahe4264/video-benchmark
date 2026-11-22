@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:40:37.048Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:00-0:25: Hook explains why walls show a uniform glow. 0:26-1:08: Visual construction of the pinhole model showing how an inverted image forms. 1:09-1:54: Demonstration of aperture size affecting sharpness and brightness. 1:55-2:39: Demonstration showing that moving the pinhole moves the image. 2:40-3:23: Contrasts light received at a single wall point with and without a barrier. 3:24-3:58: Consolidation and prediction of image size changes.",
+    "score_reason": "The lesson teaches the core idea clearly through excellent, logical visual demonstrations. It fully meets the 'Good' level. It is kept from a higher level due to the lack of audio narration, which requires more reading effort, and slightly fast pacing when equations are introduced.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 63827,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 65302,
+    "cachedContentTokenCount": 64640,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 731
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 63096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64291
+      }
+    ],
+    "thoughtsTokenCount": 1266,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 65976
+  }
+}

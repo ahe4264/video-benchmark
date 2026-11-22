@@ -1,0 +1,53 @@
+{
+  "topic": "p14",
+  "system": "paper2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:35:40.648Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "0:00-0:34: Introduces the problem and key idea using bullet points and a static figure. 0:55-1:30: Explains U-Net topology (encoder, bottleneck, decoder, skip connections) with a static diagram. 1:31-2:08: Details timestep embedding and self-attention using equations and text. 2:09-4:11: Discusses experimental design, results, ablation, and future work, which feels more like a paper presentation than a conceptual lesson.",
+    "score_reason": "The lesson covers the core idea correctly and is logically structured, meeting the Competent level. It is kept from a higher score by its heavy reliance on dense text, static diagrams, and a passive, academic presentation style.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 73768,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 74645,
+    "cachedContentTokenCount": 72882,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73043
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 64507
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8032
+      }
+    ],
+    "thoughtsTokenCount": 693,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77765
+  }
+}

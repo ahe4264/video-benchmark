@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "notebooklm",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:07.104Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:20: Introduces Plum Pudding model clearly.\n1:09: Builds experimental setup step-by-step (source, foil, screen).\n1:30: Defines alpha particles before use.\n2:25: Contrasts expected vs actual results clearly with a table.\n3:54: Step-by-step logical deduction of the nucleus from the observations.",
+    "score_reason": "The lesson builds logically step-by-step. Concepts are introduced before use, and the deduction from observation to conclusion is clear. It meets the top level, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 96359,
+    "candidatesTokenCount": 146,
+    "totalTokenCount": 98042,
+    "cachedContentTokenCount": 99972,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 95671
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 89039
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 10592
+      }
+    ],
+    "thoughtsTokenCount": 1537,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 101476
+  }
+}

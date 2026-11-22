@@ -1,0 +1,38 @@
+{
+  "topic": "p5",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:06:20.450Z",
+  "seconds": 37,
+  "result": {
+    "evidence": "Watched the full lesson. No layout, rendering, interaction, playback, or audio issues found. Text, graphics, and animations rendered correctly. Audio was clear and synced.",
+    "issues": [],
+    "score_reason": "Top level. No visible technical problems; everything renders, loads, and responds as intended.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159908,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 162160,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158939
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 969
+      }
+    ],
+    "thoughtsTokenCount": 2170,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 168263
+  }
+}

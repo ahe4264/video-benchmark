@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:23:58.745Z",
+  "seconds": 110,
+  "result": {
+    "evidence": "0:02: Visual hook of noise becoming a shape. 0:53: Prediction questions create curiosity. 1:34-3:48: Long stretch filling a shape table. 3:49-11:54: Part 2 requires more extensive table filling. 11:55-19:34: Part 3 repeats the exact table-filling process for a new model. 19:35-22:21: Part 4 repeats similar calculations again.",
+    "score_reason": "The opening has a clear hook with some pull. However, the lesson relies heavily on repetitive table-filling across multiple sections, creating significant flat stretches that kill momentum, keeping it from a higher level.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 378169,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 380057,
+    "cachedContentTokenCount": 385013,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 377520
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 384670
+      }
+    ],
+    "thoughtsTokenCount": 1712,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 388655
+  }
+}

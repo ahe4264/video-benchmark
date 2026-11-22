@@ -1,0 +1,49 @@
+{
+  "topic": "p20",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:57.605Z",
+  "seconds": 22,
+  "result": {
+    "evidence": "0:00-0:25: The lesson opens with a clear question ('Why Does the Moon Look Bigger Through Two Lenses?') and a visual hook of the moon magnifying. 0:25-1:22: The construction phase builds equations and diagrams, which is somewhat dry. 1:22-2:58: The first two demonstrations sweep through many parameter values (focal lengths and input angles), which becomes repetitive. 2:58-3:46: The third demonstration adds variety by changing lens separation. 3:46-4:34: Concludes with a prediction challenge and a visual payoff.",
+    "score_reason": "The lesson fully meets Level 4. It has a clear opening with pull and generally holds attention, but the long, repetitive parameter sweeps in the middle demonstrations create flat stretches that keep it from Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 73247,
+    "candidatesTokenCount": 203,
+    "totalTokenCount": 74548,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1098,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75648
+  }
+}

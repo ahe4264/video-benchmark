@@ -1,0 +1,53 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:16:51.149Z",
+  "seconds": 18,
+  "result": {
+    "evidence": "0:00-3:23: The video is a continuous narrated slideshow. No questions, interactive elements, or prompts to pause are provided for the viewer.",
+    "score_reason": "The lesson is entirely passive, asking nothing of the learner, which corresponds to the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59809,
+    "candidatesTokenCount": 77,
+    "totalTokenCount": 60660,
+    "cachedContentTokenCount": 59015,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 739
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 52171
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 6496
+      }
+    ],
+    "thoughtsTokenCount": 774,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63127
+  }
+}

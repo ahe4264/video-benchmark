@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:02:11.483Z",
+  "seconds": 60,
+  "result": {
+    "evidence": "Visuals include a black box diagram (0:01), an energy level diagram (0:42), a two-path energy diagram (1:14), an animated power-vs-time graph (1:35), an animated schematic showing particle movement through the cell (11:10), interactive graphs (11:13), and a glucose test strip schematic (15:01). The visuals are clean, abstract, and directly represent the concepts.",
+    "score_reason": "The lesson fully meets level 6. The visuals are clear, well-made, show key objects and relationships, and change as the explanation proceeds. It is kept from the top level because while the visuals are strong, the text remains essential to fully grasp the nuances of the particle interactions and calculations.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 340529,
+    "candidatesTokenCount": 184,
+    "totalTokenCount": 342670,
+    "cachedContentTokenCount": 346546,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 339768
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 346203
+      }
+    ],
+    "thoughtsTokenCount": 1957,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 350014
+  }
+}

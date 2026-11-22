@@ -1,0 +1,141 @@
+Interaction log: 137 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 5 of 137 inputs produced no visible change; 0 raised a page error.
+
+0:13  part 1  selected choice "next" -> screen changed
+0:24  part 1  typed a written answer into the box "" -> screen changed
+0:29  part 1  selected choice "nextprev" -> screen changed
+0:31  part 1  dragged a slider (starting at "3") through its whole range -> screen changed
+0:40  part 1  clicked button "Lock in my prediction" -> screen changed
+0:41  part 1  clicked button "Peel the next notes ▸" -> screen changed
+1:02  part 1  clicked button "▸ Build next element" -> screen changed
+1:04  part 1  clicked button "Show complete figure" -> screen changed
+1:05  part 1  clicked button "next[1] = 5" -> screen changed
+1:06  part 1  clicked button "next[2] = nil" -> screen changed
+1:08  part 1  clicked button "next[3] = 6" -> screen changed
+1:09  part 1  clicked button "next[4] = 8" -> screen changed
+1:11  part 1  clicked button "next[5] = nil" -> screen changed
+1:12  part 1  clicked button "next[6] = 2" -> screen changed
+1:13  part 1  clicked button "next[7] = 1" -> screen changed
+1:15  part 1  clicked button "next[8] = nil" -> screen changed
+1:16  part 1  clicked button "next[9] = 7" -> screen changed
+1:18  part 1  clicked button "next[10] = 4" -> screen changed
+1:29  part 1  picked an option in a drop-down -> no visible change
+1:30  part 1  picked an option in a drop-down -> screen changed
+1:31  part 1  ticked a checkbox -> screen changed
+1:33  part 1  ticked a checkbox -> screen changed
+1:34  part 1  clicked button "next[1] = 5" -> screen changed
+1:35  part 1  clicked button "next[2] = nil" -> screen changed
+1:37  part 1  clicked button "next[3] = 6" -> screen changed
+1:38  part 1  clicked button "next[4] = 8" -> screen changed
+1:39  part 1  clicked button "next[5] = nil" -> screen changed
+1:41  part 1  clicked button "next[6] = 2" -> screen changed
+1:42  part 1  clicked button "next[7] = 1" -> screen changed
+1:44  part 1  clicked button "next[8] = nil" -> screen changed
+5:47  part 2  picked an option in a drop-down -> screen changed
+5:48  part 2  picked an option in a drop-down -> screen changed
+5:50  part 2  picked an option in a drop-down -> screen changed
+5:51  part 2  clicked button "Next cue ▶" -> screen changed
+5:52  part 2  clicked button "2 · Construction" -> screen changed
+5:54  part 2  clicked button "Next cue ▶" -> screen changed
+5:57  part 2  clicked button "Next cue ▶" -> screen changed
+5:58  part 2  clicked button "3 · Trace" -> screen changed
+5:59  part 2  picked an option in a drop-down -> screen changed
+6:01  part 2  picked an option in a drop-down -> screen changed
+6:02  part 2  clicked button "Next cue ▶" -> screen changed
+6:04  part 2  clicked button "⏵ Auto-play" -> screen changed
+6:15  part 2  clicked button "✗" -> screen changed
+6:18  part 2  clicked button "~" -> screen changed
+6:20  part 2  clicked button "Show" -> screen changed
+6:22  part 2  typed a written answer into the box "" -> screen changed
+6:26  part 2  typed a written answer into the box "" -> screen changed
+6:30  part 2  typed a written answer into the box "" -> screen changed
+6:34  part 2  typed a written answer into the box "" -> screen changed
+6:38  part 2  clicked button "Commit answer" -> screen changed
+6:40  part 2  clicked button "✓" -> screen changed
+6:51  part 2  clicked button "✗" -> screen changed
+6:53  part 2  clicked button "~" -> screen changed
+6:54  part 2  clicked button "✓" -> screen changed
+7:04  part 2  clicked button "✗" -> screen changed
+7:06  part 2  clicked button "~" -> screen changed
+7:07  part 2  clicked button "✓" -> screen changed
+7:22  part 3  typed a written answer into the box "n = ?" -> screen changed
+7:26  part 3  typed a written answer into the box "heads?" -> screen changed
+7:30  part 3  typed a written answer into the box "free slot?" -> screen changed
+7:34  part 3  typed a written answer into the box "operation?" -> screen changed
+7:39  part 3  picked an option in a drop-down -> screen changed
+7:40  part 3  picked an option in a drop-down -> screen changed
+7:42  part 3  picked an option in a drop-down -> screen changed
+7:43  part 3  picked an option in a drop-down -> screen changed
+7:44  part 3  picked an option in a drop-down -> screen changed
+7:46  part 3  picked an option in a drop-down -> screen changed
+7:47  part 3  picked an option in a drop-down -> screen changed
+7:48  part 3  picked an option in a drop-down -> screen changed
+9:42  part 3  typed a written answer into the box "" -> screen changed
+9:47  part 3  picked an option in a drop-down -> screen changed
+9:48  part 3  picked an option in a drop-down -> screen changed
+9:49  part 3  picked an option in a drop-down -> screen changed
+9:51  part 3  picked an option in a drop-down -> screen changed
+9:52  part 3  picked an option in a drop-down -> screen changed
+9:53  part 3  picked an option in a drop-down -> screen changed
+9:55  part 3  picked an option in a drop-down -> screen changed
+9:56  part 3  picked an option in a drop-down -> screen changed
+9:57  part 3  picked an option in a drop-down -> screen changed
+9:59  part 3  picked an option in a drop-down -> screen changed
+10:00  part 3  picked an option in a drop-down -> screen changed
+10:11  part 3  picked an option in a drop-down -> screen changed
+10:12  part 3  ticked a checkbox -> screen changed
+10:13  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+10:22  part 3  dragged a slider (starting at "3") through its whole range -> screen changed
+10:47  part 4  ticked a checkbox -> screen changed
+10:48  part 4  clicked button "4.2 Deep structure 3 min" -> screen changed
+10:59  part 4  typed a written answer into the box "" -> screen changed
+11:03  part 4  typed a written answer into the box "seen before: 64 edit records, fixed" -> screen changed
+12:59  part 4  typed a written answer into the box "seen before: One document’s history" -> screen changed
+13:03  part 4  typed a written answer into the box "seen before: Recycling pool" -> screen changed
+13:06  part 4  typed a written answer into the box "seen before: Reuse a record for a new edit" -> screen changed
+13:10  part 4  typed a written answer into the box "seen before: Discard a record" -> screen changed
+13:14  part 4  typed a written answer into the box "seen before: Prune" -> screen changed
+13:18  part 4  typed a written answer into the box "" -> screen changed
+13:22  part 4  dragged a slider (starting at "3") through its whole range -> screen changed
+13:31  part 4  dragged a slider (starting at "3") through its whole range -> screen changed
+13:40  part 4  dragged a slider (starting at "3") through its whole range -> screen changed
+14:05  part 5  typed a written answer into the box "Search the self-check card" -> screen changed
+14:11  part 5  ticked a checkbox -> screen changed
+14:13  part 5  ticked a checkbox -> no visible change
+14:14  part 5  clicked button "① Pre-check" -> screen changed
+14:15  part 5  clicked button "③ Quick-check" -> screen changed
+14:17  part 5  selected choice "0" -> no visible change
+14:18  part 5  dragged a slider (starting at "3") through its whole range -> screen changed
+14:27  part 5  clicked button "Commit item" -> screen changed
+14:28  part 5  clicked button "② Desk Audit" -> screen changed
+14:30  part 5  clicked button "Entry 1 · I do" -> screen changed
+14:31  part 5  clicked button "Entry 2 · We do" -> screen changed
+14:32  part 5  clicked button "Entry 3 · You do" -> screen changed
+14:43  part 5  typed a written answer into the box "" -> screen changed
+14:47  part 5  typed a written answer into the box "" -> screen changed
+14:51  part 5  typed a written answer into the box "" -> screen changed
+14:55  part 5  typed a written answer into the box "" -> screen changed
+14:59  part 5  typed a written answer into the box "" -> screen changed
+15:02  part 5  picked an option in a drop-down -> screen changed
+15:04  part 5  picked an option in a drop-down -> screen changed
+15:05  part 5  clicked button "Entry 4" -> screen changed
+15:06  part 5  typed a written answer into the box "" -> screen changed
+16:44  part 5  typed a written answer into the box "" -> screen changed
+16:48  part 5  typed a written answer into the box "/ for nil" -> screen changed
+16:53  part 5  typed a written answer into the box "" -> screen changed
+17:16  part 6  picked an option in a drop-down -> screen changed
+17:17  part 6  ticked a checkbox -> screen changed
+17:19  part 6  ticked a checkbox -> screen changed
+17:20  part 6  clicked button "⓪ Objective & prediction" -> screen changed
+17:22  part 6  clicked button "① Rebuild summary ★" -> screen changed
+17:23  part 6  clicked button "② Checklist" -> screen changed
+17:25  part 6  clicked button "③ Checks matrix ★" -> screen changed
+17:26  part 6  clicked button "Allocate → head of L1" -> screen changed
+17:27  part 6  clicked button "Allocate → head of L2" -> screen changed
+17:29  part 6  clicked button "▶ Sweep: allocate until full" -> screen changed
+17:31  part 6  clicked button "④ Explain" -> screen changed
+17:32  part 6  clicked button "⑤ EXIT 🔒 ★" -> screen changed
+17:43  part 6  clicked button "free = /" -> no visible change
+17:44  part 6  clicked button "free = /" -> no visible change
+17:46  part 6  clicked button "free = /" -> screen changed

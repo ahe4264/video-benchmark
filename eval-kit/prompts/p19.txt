@@ -1,0 +1,83 @@
+Produce a narrated lesson on orthographic projection of a 3D box onto a 2D projection
+plane within a labeled world coordinate frame with X, Y, and Z axes.
+Source: visionbook/imaging.qmd (figure `orthogonal_projection`, physics/3d)
+Target length: 6 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand orthographic projection of a 3D box onto a 2D
+projection plane within a labeled world coordinate frame with X, Y, and Z axes.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure illustrates orthographic projection of a 3D box onto a 2D projection
+plane within a labeled world coordinate frame with X, Y, and Z axes. The two-step
+staircasesolid, whose faces are color-coded red, green, and cyan, is positioned along
+the Z-axis, and dashed lines parallel to Z connect each corner of the box to the
+projection plane, showing that projection rays travel perpendicular to the plane with no
+angular convergence. The resulting projected shape on the plane preserves the lateral
+dimensions and color-face layout of the box exactly, with no foreshortening based on
+depth. The figure introduces orthographic projection as a distance-independent mapping
+that retains parallelism and metric lengths in the plane perpendicular to the projection
+axis, contrasting it with the depth-scaling behavior of perspective projection.
+3. Demonstration — Rotate the 3D box and show its orthographic projection updating on
+the plane while parallel projection rays remain perpendicular to the image plane
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Demonstration — Slider blending orthographic to perspective projection: compare
+constant-size depth-independent projection against perspective foreshortening as objects
+move along Z
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+5. Demonstration — Toggle depth guides: display equal-length lateral measurements at
+different depths to show why x = X and y = Y under orthographic projection but not under
+perspective projection
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+6. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: Orthographic projection. Projection is done by parallel rays
+orthogonal to the projection plane. In this example, we have $x = X$ and $y = Y$.
+CONSTRAINTS
+- Render in 3D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.
+=== SOURCE TEXTBOOK PAGE ===
+[Extracted from Alex's imaging.qmd (raw Quarto source)]
+### Image Formation by Orthographic Projection
+Perspective projection is not the only feasible projection from 3D
+coordinates of a scene down to the 2D coordinates of the sensor plane.
+Different camera geometries can lead to other projections. One
+alternative to perspective projection is **orthographic projection**.
+@fig-orthographics shows the geometric interpretation of orthographic (or parallel)
+projection.
+![Orthographic projection. Projection is done by parallel rays orthogonal to the
+projection plane. In this example, we have $x = X$ and $y = Y$.]
+(figures/imaging/orthogonal_projection.png){#fig-orthographics width="90%"}
+In this projection, as the rays are orthogonal to the projection plane,
+the size of objects is independent of the distance to the camera. The
+projection equations are generally written as follows:
+$$\begin{aligned}
+x &= k X \nonumber \\
+y &= k Y
+\end{aligned}
+$${#eq-orthographicProj}
+where the constant scaling factor $k$ accounts for
+change of units and is a fixed global image scaling.
+Orthographic projection is a good model for telephoto lenses, where the
+apparent size of objects in the image is roughly independent of their
+distance to the camera. We used this projection when building the simple
+visual system in @sec-simplesystem.
+Orthographic Projection is a correct model when looking at an infinitely far away object
+that is infinitely zoomed in, as discussed in @sec-simplesystem.
+The next section provides another example of a camera producing an
+orthographic projection.
+=== END SOURCE PAGE ===

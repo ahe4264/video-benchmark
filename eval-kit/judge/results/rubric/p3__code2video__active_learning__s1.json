@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:20.331Z",
+  "seconds": 22,
+  "result": {
+    "evidence": "The lesson consists of passive animations and demonstrations from 0:00 to 3:30. At 3:46, a prompt asks the learner to predict the 'Upper theta-limit' and provides a 5-second countdown before revealing the answer. There are no interactive input fields or mechanisms for feedback based on learner responses.",
+    "score_reason": "The lesson fully meets Level 2 because it relies solely on a 'pause and think' prompt (the countdown) without any interactive checks or feedback. It does not meet Level 3 as there are no genuine interactive checks.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 67524,
+    "candidatesTokenCount": 139,
+    "totalTokenCount": 69003,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66792
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "thoughtsTokenCount": 1340,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 69772
+  }
+}

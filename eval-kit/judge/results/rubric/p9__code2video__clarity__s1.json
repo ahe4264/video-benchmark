@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:02.880Z",
+  "seconds": 340,
+  "result": {
+    "evidence": "0:00: Introduces Thomson's model and alpha particles.\n0:31: Apparatus built step-by-step.\n1:19: Experiment runs, deducing 'empty space'.\n1:53: Thickness slider distinguishes slight deflections from backscatter.\n2:44: Quiz reinforces setup.\n3:49: Summary and prediction.",
+    "score_reason": "The lesson fully meets the top level description (mapped to 6 due to scale compression). Every step is motivated and builds logically, introducing terms before use, allowing a newcomer to reconstruct the argument.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 73288,
+    "candidatesTokenCount": 144,
+    "totalTokenCount": 74744,
+    "cachedContentTokenCount": 74316,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73975
+      }
+    ],
+    "thoughtsTokenCount": 1312,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 75689
+  }
+}

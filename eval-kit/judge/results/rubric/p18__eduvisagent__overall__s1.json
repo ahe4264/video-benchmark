@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:54:19.626Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "The lesson employs a highly structured, interactive format. It begins with a clear hook using a 3D model (0:01), systematically builds the concept (3:34), and applies it to near (5:58) and far (9:58) transfer scenarios. It includes a dedicated section for misconceptions (11:11) and a comprehensive summary/self-check (11:58). Interactive elements like sliders and prediction boxes are used effectively to drive active learning.",
+    "score_reason": "The lesson is clear, correct, and exceptionally well-made, guiding the learner deeply through the topic with strong interactive design and transfer tasks. It fully meets the description for the Strong level, providing a highly effective learning experience.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 330995,
+    "candidatesTokenCount": 173,
+    "totalTokenCount": 332484,
+    "cachedContentTokenCount": 336868,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 731
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 330264
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 336519
+      }
+    ],
+    "thoughtsTokenCount": 1316,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 340228
+  }
+}

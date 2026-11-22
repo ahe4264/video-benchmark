@@ -1,0 +1,53 @@
+{
+  "topic": "p15",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:42:35.614Z",
+  "seconds": 40,
+  "result": {
+    "evidence": "0:00: Opening reads title and metadata. 0:17: Motivation poses a question but is a dry bullet point. 0:36-3:42: Entire lesson is static slides with dense text, math, and tables. Narration reads the slides verbatim. 2:00-2:35: Slides describe an animation that is never shown.",
+    "score_reason": "The lesson fully meets Level 1, as it is dull throughout and reads directly from static slides. Score compressed per instructions.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 66404,
+    "candidatesTokenCount": 129,
+    "totalTokenCount": 67710,
+    "cachedContentTokenCount": 65656,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65756
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 58082
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7232
+      }
+    ],
+    "thoughtsTokenCount": 1177,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 70044
+  }
+}

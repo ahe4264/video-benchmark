@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "notebooklm",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:48:57.874Z",
+  "seconds": 54,
+  "result": {
+    "evidence": "0:54: Historical context sets the stage well.\n1:39: Clear introduction of the convex and concave lenses and their focal lengths.\n2:09: The critical alignment of the focal points is explained clearly with good visuals.\n2:44: The visual shows rays spreading out after the second lens, contradicting the text 'diverges rays back to parallel'.\n3:16: Magnification is well-explained conceptually as angular deviation.\n4:27: The derivation of M = f1/f2 is easy to follow.\n4:50: The practical building example effectively reinforces the concepts.",
+    "score_reason": "The lesson teaches the core concepts clearly with excellent structure and pacing, fully meeting the 'Good' level. It is kept from the 'Strong' level by a noticeable visual error at 2:44 where rays are shown diverging instead of parallel, which could confuse a careful learner.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 114018,
+    "candidatesTokenCount": 214,
+    "totalTokenCount": 116287,
+    "cachedContentTokenCount": 118333,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 113295
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 105448
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 12544
+      }
+    ],
+    "thoughtsTokenCount": 2055,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 119989
+  }
+}

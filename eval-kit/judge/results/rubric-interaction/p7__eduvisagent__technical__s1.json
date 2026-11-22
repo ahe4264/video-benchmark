@@ -1,0 +1,66 @@
+{
+  "topic": "p7",
+  "system": "eduvisagent",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "interactionLog": true,
+  "at": "2026-11-17T05:06:41.528Z",
+  "seconds": 83,
+  "result": {
+    "evidence": "I watched the entire lesson and checked the interaction log. The 'no visible change' and 'control could not be operated' log entries correspond to normal behavior, such as interacting with disabled gated content or already-active tabs. However, there are several rendering issues where raw code or unrendered LaTeX is visible to the user. At 0:02, unrendered LaTeX appears in a table. At 3:36 and 10:52, the '\\cdot' command fails to render in equations and units. At 21:28 and 21:34, raw '\\htmlClass' code is visible inside formulas.",
+    "issues": [
+      {
+        "timestamp": "0:02",
+        "description": "Unrendered LaTeX \\(\\Vert\\mathbf{u}\\Vert\\Vert\\mathbf{v}\\Vert\\sin(\\theta)\\) is visible in the 'Plan to solve' row of the strategy table.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "3:36",
+        "description": "Unrendered LaTeX '\\cdot' is visible in the units 'N \\cdot m' and the equations '\\tau \\cdot r = 0' and 'F \\cdot \\tau = 0'.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "10:52",
+        "description": "Unrendered LaTeX '\\cdot' is visible in the equations '\\tau \\cdot r = 0' and 'F \\cdot \\tau = 0'.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "21:28",
+        "description": "Raw code '\\htmlClass' is visible in the formula under 'C7 - pad to 3D first'.",
+        "severity": "major"
+      },
+      {
+        "timestamp": "21:34",
+        "description": "Raw code '\\htmlClass' is visible in the formula under '5.5 Error-hunt practice'.",
+        "severity": "major"
+      }
+    ],
+    "score_reason": "The lesson contains several major problems, specifically multiple instances of unrendered LaTeX and raw code visible in the text.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 374203,
+    "candidatesTokenCount": 506,
+    "totalTokenCount": 379472,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 369864
+      }
+    ],
+    "thoughtsTokenCount": 4763,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 384489
+  }
+}

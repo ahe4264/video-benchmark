@@ -1,0 +1,48 @@
+{
+  "topic": "p2",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:45.494Z",
+  "seconds": 76,
+  "result": {
+    "evidence": "0:15: Slide contains dense text and meta-commentary ('Learning objective') instead of direct instruction. 0:33: Shifts to 'Related Work', discussing pedagogy rather than math. 0:50: Lists steps to build a figure but does not show the visual construction. 1:03: States slice dimensions without derivation. 1:47: Discusses 'Experimental Method', abandoning the math topic.",
+    "score_reason": "The video is a meta-presentation about lesson design, not a lesson. It skips key math steps and includes irrelevant research commentary, leaving a student lost early on. It meets the lowest level, compressed to 2.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 51025,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 53260,
+    "cachedContentTokenCount": 48972,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 50336
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 661
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 48311
+      }
+    ],
+    "thoughtsTokenCount": 2077,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 53924
+  }
+}

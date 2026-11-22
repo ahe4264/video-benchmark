@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:41:01.770Z",
+  "seconds": 39,
+  "result": {
+    "evidence": "(0:40) Visuals show vertical errors turning into squares to represent squared loss. (1:02) Moving the line dynamically updates the error squares and total loss. (1:31) A line on the data plot is mapped to a single point on the parameter plane. (2:17) The loss surface is introduced as a contour map. (4:57) Slicing the parameter space shows a 1D loss curve synchronized with the moving line and point.",
+    "score_reason": "The visuals are crisp, uncluttered, and carry the explanation. The dynamic links between the data plot, parameter space, and loss values allow a student to follow the core concepts almost entirely through the graphics. It fully meets the top level, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 153643,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 155833,
+    "cachedContentTokenCount": 159576,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 765
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152878
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 142301
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16928
+      }
+    ],
+    "thoughtsTokenCount": 2010,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 161525
+  }
+}

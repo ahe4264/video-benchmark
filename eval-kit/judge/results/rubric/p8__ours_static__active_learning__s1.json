@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:59.670Z",
+  "seconds": 37,
+  "result": {
+    "evidence": "The lesson includes numerous interactive checks that require reasoning rather than simple recall. At 0:48, the learner predicts how to make electrons travel through a wire. At 1:22, they reason about how protons reach the oxygen. At 2:18 and 3:04, they apply knowledge to predict outputs and electron flow direction. At 3:53 and 4:27, they use stoichiometry to determine molecule counts and charge balance. At 5:42, 7:21, and 8:16, they predict the effects of changing variables (doubling feed, membrane permeability, closing oxygen valve). The lesson also features hands-on exploration, asking the learner to adjust sliders to achieve specific current levels (6:18, 8:46). Feedback consistently addresses the learner's input and explains the underlying reasoning.",
+    "score_reason": "The lesson fully meets the top level by consistently requiring the learner to perform key reasoning tasks—predicting, applying, and exploring—at almost every main step. The feedback is responsive and explanatory.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 164596,
+    "candidatesTokenCount": 245,
+    "totalTokenCount": 166328,
+    "cachedContentTokenCount": 171010,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 163862
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 734
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152523
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18144
+      }
+    ],
+    "thoughtsTokenCount": 1487,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173010
+  }
+}

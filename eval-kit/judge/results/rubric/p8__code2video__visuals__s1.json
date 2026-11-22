@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:56.797Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "0:10: Simple icons contrast burning vs. fuel cell. 0:33-1:26: Fuel cell built piece-by-piece with clear labels. 1:26-2:12: Step-by-step animation shows H2 splitting, protons crossing membrane, electrons taking wire. 2:12-2:54: Interactive slider links H2 feed rate to current visually via arrow thickness and bar charts. 2:54-3:39: Physical diagram transitions to circuit schematic, showing continuous flow.",
+    "score_reason": "The visuals are crisp, consistent, and carry the explanation entirely; a student could follow the mechanism just by watching the animations. It meets the top level, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 69401,
+    "candidatesTokenCount": 180,
+    "totalTokenCount": 70851,
+    "cachedContentTokenCount": 70283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69940
+      }
+    ],
+    "thoughtsTokenCount": 1270,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71697
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "topic": "p1",
+  "system": "ours_static",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:02.732Z",
+  "seconds": 27,
+  "result": {
+    "evidence": "Watched the full lesson. Text, graphics, and interactive elements rendered correctly. Animations played smoothly. Audio was clear and synchronized with visuals. No layout overlaps, unrendered code, or broken interactions were detected.",
+    "issues": [],
+    "score_reason": "No visible technical problems: everything renders, loads and responds as intended.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 155011,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 156369,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 974
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 154037
+      }
+    ],
+    "thoughtsTokenCount": 1273,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 163128
+  }
+}

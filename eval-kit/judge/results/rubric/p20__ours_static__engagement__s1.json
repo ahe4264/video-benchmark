@@ -1,0 +1,53 @@
+{
+  "topic": "p20",
+  "system": "ours_static",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:50:57.917Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:28: Opening question asks what lenses must do to make the moon look bigger. 1:39, 2:33, 3:41: Multiple-choice questions. 4:22, 5:21, 7:01: Interactive dragging exercises provide variety. 3:10-4:05: Geometric derivation of the magnification formula provides insight. 4:43: Graphing section slows the pace slightly.",
+    "score_reason": "The lesson opens with a clear question and maintains a good pace with high variety through frequent interactive elements. The geometric derivation offers a moment of insight, with only brief lulls like the graphing section. It falls short of the top level as the initial curiosity doesn't fully sustain momentum through the mathematical portions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 160169,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 162898,
+    "cachedContentTokenCount": 166493,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 159522
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 148488
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17664
+      }
+    ],
+    "thoughtsTokenCount": 2543,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 168373
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "topic": "p1",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": false,
+  "at": "2026-11-17T03:13:02.499Z",
+  "seconds": 20,
+  "result": {
+    "evidence": "0:35-1:25: Step-by-step geometric construction of the three areas (inner triangle, sector, outer triangle) with clear color coding.\n1:25-2:09: Dynamic visual showing the angle x sliding, with areas updating and a zoom-in feature near x=0 to illustrate the squeeze.\n2:10-2:53: Overlay of the three regions to visually compare their sizes, followed by a dynamic bar chart illustrating the algebraic squeeze as x changes.\n3:46-4:51: Visual summary showing the geometric figure shrinking and the gaps between bounds approaching zero.",
+    "score_reason": "The visuals carry the explanation, allowing a student to follow the geometric and algebraic squeeze concepts almost entirely through the dynamic graphics. They are crisp, consistent, and highly effective. To avoid extreme scores, this top-level performance is mapped to a 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 77853,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 79011,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 765
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77088
+      }
+    ],
+    "thoughtsTokenCount": 949,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 80374
+  }
+}

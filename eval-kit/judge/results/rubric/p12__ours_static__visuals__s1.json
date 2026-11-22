@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:37.401Z",
+  "seconds": 31,
+  "result": {
+    "evidence": "0:03: Clean 2D pendulums with clear labels and a swing counter.\n1:51-2:25: Crisp vector diagrams build up, showing weight, tension, and components.\n3:11: Dynamic split-screen links the physical pendulum angle to a graph of restoring force.\n3:48: Graph visually demonstrates the small-angle approximation diverging from the true sine curve.\n5:52: Arrows on the length vs. period graph clearly show the square root relationship (4x length = 2x period).\n7:05: Visual division of force by mass shows why accelerations are equal.",
+    "score_reason": "The lesson fully meets the top level. The visuals are crisp, uncluttered, and consistently dynamic. They carry the explanation by directly linking physical models to graphs, vectors, and equations, allowing a student to follow the core concepts through the graphics alone.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 146981,
+    "candidatesTokenCount": 211,
+    "totalTokenCount": 148819,
+    "cachedContentTokenCount": 152645,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 146224
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 757
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136114
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16192
+      }
+    ],
+    "thoughtsTokenCount": 1627,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 154541
+  }
+}

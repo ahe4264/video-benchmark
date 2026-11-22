@@ -1,0 +1,37 @@
+{
+  "topic": "p2",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T02:58:23.212Z",
+  "seconds": 23,
+  "result": {
+    "evidence": "0:00-0:33: Introduces the problem and double integral concept.\n0:33-1:26: Step-by-step construction of the tetrahedron, identifying intercepts, floor region R, and setting up integral limits using a red strip.\n1:26-2:25: Dynamically sweeps the strip, graphing the slice area to visually explain the inner integral.\n3:08-4:00: Explicitly connects the 3D solid to its 2D projection to show where limits and integrand originate.",
+    "score_reason": "The lesson is exceptionally logical, building every step on the previous one without gaps. Visuals perfectly match the explanation, making the double integration process highly transparent. It fully meets the top level description, but the score is compressed per instructions.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 75665,
+    "candidatesTokenCount": 189,
+    "totalTokenCount": 77138,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74976
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 689
+      }
+    ],
+    "thoughtsTokenCount": 1284,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78130
+  }
+}

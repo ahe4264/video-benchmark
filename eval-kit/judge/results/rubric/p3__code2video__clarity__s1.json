@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:01:38.508Z",
+  "seconds": 19,
+  "result": {
+    "evidence": "0:00-0:31: Introduces the polar area element dA visually.\n0:32-1:12: Builds the region by graphing equations and finding intersections algebraically.\n1:13-1:30: Uses a radial strip to clearly identify inner and outer r-limits.\n1:31-1:43: Evaluates the integral step-by-step.\n1:44-3:30: Demonstrations dynamically show how changing parameters affects limits and how the integral sweeps the area.\n3:31-4:12: Summarizes the process into a clear recipe.",
+    "score_reason": "The lesson is highly logical and step-by-step throughout. Every new element builds on the last, and terms are introduced before use, allowing a newcomer to easily follow and reconstruct the argument. It fully meets the top level, but the score is compressed to avoid the extreme.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 67480,
+    "candidatesTokenCount": 215,
+    "totalTokenCount": 68714,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66792
+      }
+    ],
+    "thoughtsTokenCount": 1019,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 69728
+  }
+}

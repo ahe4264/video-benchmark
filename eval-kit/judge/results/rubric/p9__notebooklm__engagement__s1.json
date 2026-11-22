@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "notebooklm",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:29:59.799Z",
+  "seconds": 62,
+  "result": {
+    "evidence": "0:00-1:00: Opening frames the topic as a mystery and questions the accepted model. 1:09-2:20: Explains the setup with dynamic visuals. 2:56: Rutherford's 'naval shell' quote provides insight. 3:54-4:50: Logical deduction of the nucleus keeps momentum.",
+    "score_reason": "The lesson fully meets level 5. The opening poses a clear question about the accepted atomic model. The pace is good, utilizing varied visuals and analogies, with only minor lulls during repetitive explanations.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 96318,
+    "candidatesTokenCount": 142,
+    "totalTokenCount": 98504,
+    "cachedContentTokenCount": 99972,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 95671
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 89039
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 10592
+      }
+    ],
+    "thoughtsTokenCount": 2044,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 101435
+  }
+}

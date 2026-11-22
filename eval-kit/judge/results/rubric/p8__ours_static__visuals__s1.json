@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:23:44.946Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:03: Particle model of H2 and O2.\n0:17: Reaction shown with water forming and heat.\n0:33: Zoom on single reaction showing electron handover.\n1:05: Wall and wire introduced, showing electron flow.\n1:46: Transition to schematic fuel cell diagram.\n3:25: Detailed view of oxidation and water formation.\n5:07: Flow model (Sankey style) introduced for feed rates.\n6:38: Labels removed, relying entirely on visual paths.\n7:38: Short circuit visualized.\n8:29: Oxygen cutoff shown with current dropping.",
+    "score_reason": "The visuals carry the explanation entirely. A student could follow the core concepts just by watching the animations, which are crisp, consistent, and dynamically change to match the text. Meets the top level, compressed to 6.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 164623,
+    "candidatesTokenCount": 209,
+    "totalTokenCount": 165719,
+    "cachedContentTokenCount": 171010,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 761
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 163862
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152523
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 18144
+      }
+    ],
+    "thoughtsTokenCount": 887,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 173037
+  }
+}

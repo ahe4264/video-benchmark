@@ -1,0 +1,49 @@
+{
+  "topic": "p16",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:39:42.077Z",
+  "seconds": 25,
+  "result": {
+    "evidence": "0:00-0:30: Introduces reactive center and crowding with a clear analogy.\n0:31-1:02: Explains 3D geometry and van der Waals radii step-by-step.\n1:03-1:41: Builds substrate and assigns R/S configuration logically.\n1:42-2:55: Sweeps R groups, clearly showing the narrowing backside window.\n2:56-3:35: Demonstrates backside attack and inversion step-by-step.\n3:36-4:24: Summarizes rules and connects to the next topic.",
+    "score_reason": "The lesson is highly logical and step-by-step throughout. Every element builds on the last, and terms are introduced before use. It fully meets the top level description, but due to score compression, it receives a 5.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 70653,
+    "candidatesTokenCount": 208,
+    "totalTokenCount": 71752,
+    "cachedContentTokenCount": 71631,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69960
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 693
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 346
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71285
+      }
+    ],
+    "thoughtsTokenCount": 891,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 72984
+  }
+}

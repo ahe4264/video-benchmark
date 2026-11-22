@@ -1,0 +1,49 @@
+{
+  "topic": "p7",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:06:17.884Z",
+  "seconds": 236,
+  "result": {
+    "evidence": "0:14: Interactive 2D wrench diagram shows a torque vector growing, shrinking, and flipping as the angle changes.\n2:38: Diagram illustrates cross product magnitude as parallelogram area.\n2:52: Interactive 3D lab dynamically links the angle between vectors to the resulting cross product vector and plots its magnitude on a sine curve.\n4:48: An animated sequence transitions from the physical wrench to abstract vectors, showing the parallelogram area and the resulting 3D vector.\n10:10 onwards: The lesson transitions to mostly text, tables, and forms for practice and review.",
+    "score_reason": "The lesson features clear, well-made interactive visuals and animations that effectively show the concept's key objects and relationships, changing as the explanation proceeds. It fully meets Level 5, but is kept from Level 6 because the second half of the lesson becomes very text- and table-heavy, relying much less on visuals.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 370624,
+    "candidatesTokenCount": 217,
+    "totalTokenCount": 372940,
+    "cachedContentTokenCount": 377211,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 369864
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 376869
+      }
+    ],
+    "thoughtsTokenCount": 2099,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 380907
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p12",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:36:54.912Z",
+  "seconds": 60,
+  "result": {
+    "evidence": "0:24: Predicts which bob returns first.\n1:37: Identifies forces.\n2:26: Applies forces to motion.\n3:23: Drags bob to find half force.\n4:08: Predicts curve behavior.\n5:10: Predicts period change with length.\n5:42: Calculates period ratio.\n6:17: Drags to find length for 2s period.\n6:47: Explains why mass doesn't affect period.\n7:43: Applies knowledge to fix a slow clock.\nFeedback consistently explains the reasoning.",
+    "score_reason": "The lesson fully meets the top level. The learner predicts, applies, and explores at every main step, and feedback explains the reasoning.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 146954,
+    "candidatesTokenCount": 186,
+    "totalTokenCount": 148590,
+    "cachedContentTokenCount": 152645,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 146224
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 136114
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16192
+      }
+    ],
+    "thoughtsTokenCount": 1450,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 154514
+  }
+}

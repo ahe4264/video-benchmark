@@ -1,0 +1,62 @@
+Produce a narrated lesson on this figure is part of a worked example asking to find the
+volume of the tetrahedron bounded by the coordinate planes and the plane z = 4 - 4x - 2y
+using a double integral.
+Source: Anton, Bivens, and Davis. Calculus, 10th Edition, Figure 14.2.10 (figure
+`14.2.10`, math/3d)
+Target length: 6 scenes.
+LEARNING OBJECTIVE
+By the end the learner should understand right (inset): the 2D base region R in the xy-
+plane, a right triangle with vertices at (0, 0), (1, 0), and (0, 2), bounded by the x-
+axis, y-axis, and the line y = 2 - 2x; a red vertical strip illustrates the inner
+integration limits from y = 0 to y = 2 - 2x.
+SCENE PLAN
+1. Hook — open on the question this concept answers, not on the finished diagram. Pose
+the problem first and let the need for the construction emerge before any part of the
+figure appears.
+2. Construction — build the figure element by element while narrating. Do not reveal the
+completed figure at once. Target state:
+This figure is part of a worked example asking to find the volume of the
+tetrahedron bounded by the coordinate planes and the plane z = 4 - 4x - 2y using a
+double integral. The figure contains two linked diagrams. Left: a 3D perspective showing
+the tetrahedron in xyz-space with vertices at (0, 0, 4), (1, 0, 0), and (0, 2, 0),
+bounded above by the plane z = 4 - 4x - 2y (labeled on the slanted face) with the base
+region R labeled. Right (inset): the 2D base region R in the xy-plane, a right triangle
+with vertices at (0, 0), (1, 0), and (0, 2), bounded by the x-axis, y-axis, and the line
+y = 2 - 2x; a red vertical strip illustrates the inner integration limits from y = 0 to
+y = 2 - 2x. An arrow connects the two diagrams. The figure establishes the
+correspondence between the 3D tetrahedron and the triangular base R over which the
+iterated double integral is set up.
+3. Demonstration — Drag the red vertical integration strip in the 2D base panel and
+watch the corresponding cross-section highlight on the 3D plane z=4-4x-2y update in real
+time
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+4. Demonstration — Rotate the 3D tetrahedron to view the triangular plane from different
+angles
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+5. Demonstration — Toggle between the 3D and 2D panels to trace how the triangular
+integration region R projects onto the xy-plane
+Narrate what the learner should notice as this parameter is varied, and state the
+invariant or relationship it exposes.
+6. Consolidation — restate the objective, then pose one prediction question the learner
+answers using the demo before the answer is revealed.
+GROUNDING (use these facts; do not contradict the source)
+Source passage: Use a double integral to find the volume of the tetrahedron bounded by
+the coordinate planes and the plane z = 4 − 4x − 2y. Solution. The tetrahedron in
+question is bounded above by the plane z = 4 − 4x − 2y (5) and below by the triangular
+region R shown in Figure 14.2.10. Thus, the volume is given by V = !! R (4 − 4x − 2y) dA
+The region R is bounded by the x-axis, the y-axis, and the line y = 2 − 2x [set z = 0 in
+(5)], so that treating R as a type I region yields V = !! R (4 − 4x − 2y) dA = ! 1 0 !
+2−2x 0 (4 − 4x − 2y) dy dx = ! 1 0 _x001d_ 4y − 4xy − y2_x001e_2−2x y=0 dx = ! 1 0 (4 −
+8x + 4x2 )dx = 4
+CONSTRAINTS
+- Render in 3D. Keep every axis, label and symbol from the description legible at 720p;
+no gratuitous camera motion.
+- Name the physical quantities and their units; keep the geometry quantitatively honest.
+- Each demonstration must actually play out on screen: sweep the parameter through its
+range and show the figure responding. Showing only a static before/after is a failure.
+- Narration must be synchronised to the visual it describes.
+- Where the source figure uses multiple static panels to show a progression, collapse
+them into one live figure driven by the demonstrations rather than reproducing the
+panels side by side.

@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "code2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:06:08.198Z",
+  "seconds": 32,
+  "result": {
+    "evidence": "0:09: Click-to-continue button.\n1:28, 2:11, 2:58: Exploratory interactives (sliders, toggles, hovers) to manipulate the visualization, without specific questions to answer.\n4:21: A 'pause and think' question ('Predict at x = 0.1...') with a countdown timer before revealing the answer, collecting no learner input.",
+    "score_reason": "The lesson features click-to-continue elements, open-ended exploration, and a pause-and-think prompt. It lacks genuine checks where the learner submits an answer and receives feedback, keeping it at the level of rhetorical and passive interactions.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 77826,
+    "candidatesTokenCount": 164,
+    "totalTokenCount": 80153,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 738
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 77088
+      }
+    ],
+    "thoughtsTokenCount": 2163,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 80347
+  }
+}

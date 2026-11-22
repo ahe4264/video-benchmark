@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:32:02.676Z",
+  "seconds": 68,
+  "result": {
+    "evidence": "0:18: A hook question is posed in text, but presented dryly in bullet points. 0:51: The content shifts to a meta-discussion of a 'Lesson Framework'. 1:12-4:30: The remainder consists entirely of static slides, tables, and bullet points describing a lesson's construction rather than teaching the topic.",
+    "score_reason": "The video is dull throughout and reads entirely like a slide presentation. A student would stop watching. It meets the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 83868,
+    "candidatesTokenCount": 126,
+    "totalTokenCount": 85229,
+    "cachedContentTokenCount": 82995,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 647
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 83221
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73502
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9152
+      }
+    ],
+    "thoughtsTokenCount": 1235,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 88348
+  }
+}

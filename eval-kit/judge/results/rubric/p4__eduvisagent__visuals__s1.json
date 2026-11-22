@@ -1,0 +1,49 @@
+{
+  "topic": "p4",
+  "system": "eduvisagent",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:03:07.378Z",
+  "seconds": 57,
+  "result": {
+    "evidence": "The lesson uses a variety of clear visuals to explain the concepts. It starts with a card sorting analogy (0:02). It then uses a dynamic array representation with a 'key box' and a 'hole' to show the algorithm's state, synchronized with code highlighting (1:49). To explain inversions, it uses 'inversion arcs' connecting out-of-order pairs (3:14). Later, it uses a line-up of people (9:21) and crossing lines between ranked lists (13:24) to transfer the concept to new scenarios. These visuals actively change and demonstrate the underlying logic.",
+    "score_reason": "The lesson fully meets level 6. The visuals are clear, well-made, and show the key objects and relationships (like inversions and array states), changing as the explanation proceeds. A minor weakness is that some screens are quite text-heavy, making the overall layout occasionally dense.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 327858,
+    "candidatesTokenCount": 216,
+    "totalTokenCount": 329975,
+    "cachedContentTokenCount": 333635,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 327096
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 762
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 333291
+      }
+    ],
+    "thoughtsTokenCount": 1901,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 337007
+  }
+}

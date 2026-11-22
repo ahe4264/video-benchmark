@@ -1,0 +1,49 @@
+{
+  "topic": "p10",
+  "system": "code2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:28:02.459Z",
+  "seconds": 229,
+  "result": {
+    "evidence": "0:00-0:30: Hook contrasts particles and waves, introducing de Broglie wavelength.\n0:30-1:15: Apparatus is built step-by-step, defining variables (E, lambda, d, L).\n1:15-1:54: Visually connects continuous wave intensity to discrete particle probability.\n1:54-2:38: Time-lapse clearly demonstrates discrete particles forming a wave pattern over time.\n2:38-3:47: Systematically explores the effects of changing variables (d, lambda) on fringe spacing.\n3:47-4:28: Summarizes the core concept and tests understanding with a prediction.",
+    "score_reason": "The lesson is highly logical and step-by-step. Every concept and variable is introduced before use, and the visual build-up perfectly supports the explanation, allowing a newcomer to easily follow the argument. It meets the top level, but the score is compressed per instructions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 71706,
+    "candidatesTokenCount": 230,
+    "totalTokenCount": 73221,
+    "cachedContentTokenCount": 72704,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 71016
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 72361
+      }
+    ],
+    "thoughtsTokenCount": 1285,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 74065
+  }
+}

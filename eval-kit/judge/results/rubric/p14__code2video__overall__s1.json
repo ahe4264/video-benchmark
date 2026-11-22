@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:34:26.095Z",
+  "seconds": 19,
+  "result": {
+    "evidence": "The lesson breaks the U-Net into logical components: encoder, decoder, skip connections, time embedding, and self-attention. Visualizations are highly effective, such as the growing receptive field (1:04-1:18), the encoder trading space for meaning (1:59-2:37), and skip connections restoring detail (3:08-3:15). The time embedding section (3:16-4:05) clearly illustrates adaptation to noise levels, and the self-attention segment (4:06-4:59) explains the computational constraints well. The consolidation (5:00-5:42) ties everything together cohesively.",
+    "score_reason": "The lesson is exceptionally clear, well-structured, and uses outstanding visual demonstrations to explain a complex architecture. It would normally be a top-level model lesson, but is scored a 6 due to scale compression.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 91277,
+    "candidatesTokenCount": 213,
+    "totalTokenCount": 92341,
+    "cachedContentTokenCount": 92610,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 90552
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 92267
+      }
+    ],
+    "thoughtsTokenCount": 851,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 94154
+  }
+}

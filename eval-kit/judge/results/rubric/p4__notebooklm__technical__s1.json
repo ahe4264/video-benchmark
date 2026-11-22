@@ -1,0 +1,38 @@
+{
+  "topic": "p4",
+  "system": "notebooklm",
+  "metric": "technical",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:03:10.566Z",
+  "seconds": 77,
+  "result": {
+    "evidence": "Watched the full video. No layout, rendering, audio, or playback issues observed. All elements display correctly.",
+    "issues": [],
+    "score_reason": "The lesson has no visible technical problems, meeting the criteria for the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 129576,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 130504,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 128606
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 970
+      }
+    ],
+    "thoughtsTokenCount": 860,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 136468
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "p17",
+  "system": "ours_static",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:45:10.651Z",
+  "seconds": 45,
+  "result": {
+    "evidence": "1:02: Adjust line to lower loss. 1:49: Map flat line to point. 2:33: Predict downhill direction. 3:15: Drag point to minimum. 3:50: Predict line movement. 4:44: Predict loss curve. 5:18: Find minimum on slice. 5:54: Apply pinned intercept concept. 6:32: Predict slope change. 7:20: Evaluate slice minimum. 7:45: Predict search path. Feedback explains reasoning.",
+    "score_reason": "The learner predicts, applies, and explores at most key steps, with explanatory feedback. Score compressed from top level.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 153616,
+    "candidatesTokenCount": 167,
+    "totalTokenCount": 155863,
+    "cachedContentTokenCount": 159576,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 738
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 152878
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 142301
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 16928
+      }
+    ],
+    "thoughtsTokenCount": 2080,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 161498
+  }
+}

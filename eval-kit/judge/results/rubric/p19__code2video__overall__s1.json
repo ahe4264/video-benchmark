@@ -1,0 +1,49 @@
+{
+  "topic": "p19",
+  "system": "code2video",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:44:26.759Z",
+  "seconds": 38,
+  "result": {
+    "evidence": "The lesson begins with a hook comparing perspective and orthographic projection (0:00-0:30). It then constructs the orthographic projection, clearly stating the rule 'x=X, y=Y, Drop Z' (0:30-1:09). Three demonstrations follow: rotating a box to show how projected width changes (1:09-1:55), comparing orthographic to perspective projection using a slider (1:55-2:46), and showing that lateral lengths are preserved regardless of depth (2:46-3:23). The lesson concludes with a summary and prediction challenge (3:23-3:47). The visuals are precise and the text is concise.",
+    "score_reason": "The lesson fully meets the 'Strong' level. It is clear, correct, and well-made, effectively using animations to teach the core concepts. It avoids the highest score due to the instruction to compress extreme scores.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 60919,
+    "candidatesTokenCount": 221,
+    "totalTokenCount": 62287,
+    "cachedContentTokenCount": 61677,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60192
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 727
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 345
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 61332
+      }
+    ],
+    "thoughtsTokenCount": 1147,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 62991
+  }
+}

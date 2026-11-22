@@ -1,0 +1,53 @@
+{
+  "topic": "p8",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:21:30.327Z",
+  "seconds": 33,
+  "result": {
+    "evidence": "0:20: Discusses pedagogy instead of the topic.\n1:06: Describes step-by-step construction, but shows a static diagram.\n1:27: Lists reactions as text without visual context.\n1:46: Rapidly introduces complex equations.\n2:27: Shifts to experimental methods.",
+    "score_reason": "The video presents a lesson design, not the lesson itself. It assumes prior knowledge, lacks visual buildup, and includes irrelevant academic content, leaving a newcomer lost. Meets level 1.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 74904,
+    "candidatesTokenCount": 131,
+    "totalTokenCount": 76874,
+    "cachedContentTokenCount": 74038,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 690
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74214
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 65535
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8160
+      }
+    ],
+    "thoughtsTokenCount": 1839,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 78957
+  }
+}

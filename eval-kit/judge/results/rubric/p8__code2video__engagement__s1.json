@@ -1,0 +1,49 @@
+{
+  "topic": "p8",
+  "system": "code2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:22:34.020Z",
+  "seconds": 20,
+  "result": {
+    "evidence": "0:00-0:30: The lesson opens with a hook asking how to get electricity from hydrogen without burning it, comparing gasoline and fuel-cell vehicles. 0:30-1:26: Step-by-step construction of the fuel cell diagram. 1:26-2:12: Animation of a single cycle shows protons and electrons splitting. 2:12-2:54: A slider demonstration adds variety by showing the effect of changing the H2 feed rate. 2:54-3:39: Transitioning from the physical diagram to a clean circuit schematic provides a moment of insight. 3:39-4:19: A summary and a prediction question conclude the lesson.",
+    "score_reason": "The lesson fully meets Level 6. It features an opening that poses a clear question, maintains a good pace with varied visual demonstrations, and includes moments of insight. It falls short of Level 7 because the momentum slows slightly during the initial diagram construction.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 69289,
+    "candidatesTokenCount": 232,
+    "totalTokenCount": 70333,
+    "cachedContentTokenCount": 70283,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68640
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 69940
+      }
+    ],
+    "thoughtsTokenCount": 812,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 71585
+  }
+}

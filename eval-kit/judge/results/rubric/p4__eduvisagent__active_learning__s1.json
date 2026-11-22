@@ -1,0 +1,49 @@
+{
+  "topic": "p4",
+  "system": "eduvisagent",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:10:17.589Z",
+  "seconds": 100,
+  "result": {
+    "evidence": "0:17: Learner predicts shifts and comparisons.\n0:27: Learner types explanations.\n3:24: Error catalogue diagnoses specific misconceptions based on learner input.\n3:27: Far transfer task (books on a cart).\n3:56: Learner explains concepts before reading the text.\n6:58: Parsons problem to build code.\n7:23: Learner traces the algorithm on a new array.\n9:04: Learner diagnoses a classmate's error.\n10:48: Far transfer to a baking contest scenario.\n14:44: 'Reading the Fingerprints' section diagnoses specific slips and misconceptions.\n15:25: Learner votes on beliefs that caused specific symptoms.\n18:38: Learner predicts the output of buggy code.",
+    "score_reason": "The lesson consistently requires the learner to predict, explain, apply, and diagnose at every major step. The system provides highly specific feedback that identifies and addresses underlying misconceptions based on the learner's inputs. It fully meets the criteria for the top level.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 327831,
+    "candidatesTokenCount": 254,
+    "totalTokenCount": 330490,
+    "cachedContentTokenCount": 333635,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 735
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 327096
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 333291
+      }
+    ],
+    "thoughtsTokenCount": 2405,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 336980
+  }
+}

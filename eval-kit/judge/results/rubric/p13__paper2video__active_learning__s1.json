@@ -1,0 +1,53 @@
+{
+  "topic": "p13",
+  "system": "paper2video",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:37:25.119Z",
+  "seconds": 30,
+  "result": {
+    "evidence": "The video consists of a continuous slide presentation from 0:00 to 4:18. There are no questions, interactive elements, or prompts for the viewer to pause and think at any point.",
+    "score_reason": "The lesson fully meets the first level because it is entirely passive, asking nothing of the learner.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 75800,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 76640,
+    "cachedContentTokenCount": 74901,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 730
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75070
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 339
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 66306
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 8256
+      }
+    ],
+    "thoughtsTokenCount": 755,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 79888
+  }
+}

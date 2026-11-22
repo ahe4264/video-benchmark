@@ -1,0 +1,115 @@
+Interaction log: 110 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+While the page loaded (before any input), its code crashed 1x: "Unexpected identifier 's'". Whatever that code was meant to do may be missing or inert.
+Summary: 17 of 110 inputs produced no visible change; 0 raised a page error.
+
+0:14  part 1  ticked a checkbox -> screen changed
+0:15  part 1  clicked button "F" -> screen changed
+0:17  part 1  clicked button "O" -> screen changed
+0:19  part 1  clicked button "P" -> screen changed
+0:31  part 1  selected choice "fewer than 7" -> no visible change
+0:32  part 1  dragged a slider (starting at "3") through its whole range -> screen changed
+0:41  part 1  clicked button "Lock in my guess" -> screen changed
+0:53  part 1  clicked button "Step ▸" -> screen changed
+0:55  part 1  clicked button "Step ▸" -> screen changed
+0:58  part 1  clicked button "Step ▸" -> screen changed
+1:00  part 1  clicked button "Step ▸" -> screen changed
+1:02  part 1  clicked button "Step ▸" -> screen changed
+1:04  part 1  clicked button "Step ▸" -> screen changed
+1:06  part 1  clicked button "Play all" -> screen changed
+1:09  part 1  clicked button "▶ Build it piece by piece" -> screen changed
+1:11  part 1  clicked button "Show finished figure" -> screen changed
+1:23  part 1  ticked a checkbox -> screen changed
+1:24  part 1  clicked button "▶ Sweep every edge" -> screen changed
+1:26  part 1  clicked button "1" -> screen changed
+1:28  part 1  clicked button "1" -> no visible change
+1:30  part 1  clicked button "1" -> screen changed
+1:42  part 1  picked an option in a drop-down -> no visible change
+1:43  part 1  picked an option in a drop-down -> screen changed
+1:45  part 1  clicked button "■ Stop" -> screen changed
+1:47  part 1  clicked button "Probe A: is u–v an edge?" -> screen changed
+1:49  part 1  clicked button "Probe B: list neighbors of u" -> screen changed
+2:02  part 1  typed a written answer into the box "" -> screen changed
+2:07  part 1  typed a written answer into the box "" -> screen changed
+2:12  part 1  typed a written answer into the box "" -> screen changed
+2:17  part 1  typed a written answer into the box "" -> screen changed
+2:22  part 1  typed a written answer into the box "" -> screen changed
+2:26  part 1  typed a written answer into the box "" -> screen changed
+2:31  part 1  selected choice "A" -> screen changed
+4:44  part 2  picked an option in a drop-down -> screen changed
+4:45  part 2  ticked a checkbox -> screen changed
+4:47  part 2  ticked a checkbox -> screen changed
+4:49  part 2  ticked a checkbox -> screen changed
+4:51  part 2  dragged a slider (starting at "0") through its whole range -> screen changed
+5:01  part 2  clicked button "▶ Play" -> screen changed
+5:03  part 2  clicked button "2 Construction" -> screen changed
+5:05  part 2  clicked button "⏭" -> screen changed
+5:09  part 2  clicked button "Interactive" -> screen changed
+5:12  part 2  clicked button "Linear video" -> screen changed
+5:24  part 2  clicked button "1 Hook" -> screen changed
+5:25  part 2  clicked button "3 Edge lookup" -> screen changed
+5:27  part 2  clicked button "▶ Sweep e1 → e7" -> screen changed
+5:29  part 2  clicked button "4 Toggle views" -> screen changed
+5:31  part 2  typed a written answer into the box "e.g. 1, 2" -> screen changed
+5:35  part 2  clicked button "Check" -> screen changed
+5:37  part 2  clicked button "Show me" -> screen changed
+5:39  part 2  clicked button "Reveal on stage ▶" -> screen changed
+5:41  part 2  clicked button "▶ Sweep vertices 1 → 5" -> screen changed
+7:54  part 3  ticked a checkbox -> screen changed
+7:56  part 3  clicked button "⏱ 00:00 ▶" -> screen changed
+8:06  part 3  clicked button "F" -> screen changed
+8:10  part 3  clicked button "O" -> screen changed
+8:13  part 3  clicked button "P" -> screen changed
+8:27  part 3  clicked button "Version A · scaffolded" -> screen changed
+8:30  part 3  clicked button "Version B · independent" -> screen changed
+8:44  part 3  typed a written answer into the box "Adj[1] record 1" -> screen changed
+8:53  part 3  typed a written answer into the box "Adj[1] record 2" -> screen changed
+9:01  part 3  typed a written answer into the box "Adj[1] record 3" -> no visible change
+9:10  part 3  typed a written answer into the box "Adj[2] record 1" -> no visible change
+9:18  part 3  typed a written answer into the box "Adj[2] record 2" -> no visible change
+9:26  part 3  typed a written answer into the box "Adj[2] record 3" -> screen changed
+9:34  part 3  typed a written answer into the box "Adj[3] record 1" -> no visible change
+9:42  part 3  typed a written answer into the box "Adj[3] record 2" -> no visible change
+12:13  part 4  typed a written answer into the box "lesson problem about" -> screen changed
+12:20  part 4  typed a written answer into the box "because" -> screen changed
+12:26  part 4  typed a written answer into the box "Facts I expect to need…" -> screen changed
+12:32  part 4  picked an option in a drop-down -> screen changed
+12:36  part 4  clicked button "Work on this →" -> screen changed
+12:40  part 4  typed a written answer into the box "" -> screen changed
+12:47  part 4  typed a written answer into the box "" -> screen changed
+12:53  part 4  typed a written answer into the box "" -> screen changed
+12:59  part 4  typed a written answer into the box "" -> screen changed
+13:05  part 4  selected choice "A" -> screen changed
+13:09  part 4  clicked button "Work on this →" -> screen changed
+15:12  part 5  clicked button "→" -> screen changed
+15:16  part 5  clicked button "→" -> no visible change
+15:20  part 5  clicked button "→" -> screen changed
+15:23  part 5  clicked button "→" -> no visible change
+15:27  part 5  clicked button "→" -> no visible change
+15:31  part 5  clicked button "→" -> no visible change
+15:34  part 5  clicked button "→" -> no visible change
+15:38  part 5  clicked button "→" -> screen changed
+15:42  part 5  clicked button "→" -> screen changed
+15:46  part 5  clicked button "→" -> screen changed
+15:49  part 5  clicked button "→" -> screen changed
+15:53  part 5  clicked button "→" -> screen changed
+16:06  part 5  picked an option in a drop-down -> no visible change
+16:10  part 5  picked an option in a drop-down -> no visible change
+16:13  part 5  picked an option in a drop-down -> screen changed
+16:17  part 5  ticked a checkbox -> screen changed
+16:20  part 5  clicked button "Run K1→K6" -> screen changed
+18:35  part 6  clicked button "F" -> no visible change
+18:39  part 6  clicked button "O" -> no visible change
+18:43  part 6  clicked button "P" -> screen changed
+18:56  part 6  typed a written answer into the box "first representation" -> screen changed
+19:01  part 6  typed a written answer into the box "second representation" -> screen changed
+19:07  part 6  typed a written answer into the box "how many vertices" -> screen changed
+19:13  part 6  typed a written answer into the box "how many times" -> screen changed
+19:19  part 6  typed a written answer into the box "list space" -> screen changed
+19:24  part 6  typed a written answer into the box "list fast for" -> screen changed
+19:30  part 6  typed a written answer into the box "matrix space" -> screen changed
+19:36  part 6  typed a written answer into the box "matrix fast for" -> screen changed
+19:42  part 6  typed a written answer into the box "density word 1" -> screen changed
+19:48  part 6  typed a written answer into the box "density word 2" -> screen changed
+19:54  part 6  ticked a checkbox -> screen changed
+19:58  part 6  clicked button "Submit & compare" -> screen changed

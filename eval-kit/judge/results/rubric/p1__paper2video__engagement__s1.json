@@ -1,0 +1,37 @@
+{
+  "topic": "p1",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:00:12.972Z",
+  "seconds": 60,
+  "result": {
+    "evidence": "0:00: Title slide introduces the topic.\n0:14: Motivation slide poses the limit question.\n0:31-1:33: Transitions into 'Related Work' and 'Method,' reading bullet points about textbook figures and geometric setups.\n1:34-3:13: Discusses experimental design, rendering constraints, and ablation studies instead of teaching the concept.\nThroughout: Monotone voice reads static slides verbatim.",
+    "score_reason": "The video is a meta-presentation about lesson design rather than an actual lesson. It is dull, reads exactly like slides, and lacks an engaging educational narrative. A student would stop watching. It meets the criteria for the lowest level.",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 59723,
+    "candidatesTokenCount": 165,
+    "totalTokenCount": 61268,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 59070
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 653
+      }
+    ],
+    "thoughtsTokenCount": 1380,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 63042
+  }
+}

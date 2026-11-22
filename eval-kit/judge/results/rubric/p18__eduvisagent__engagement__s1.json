@@ -1,0 +1,49 @@
+{
+  "topic": "p18",
+  "system": "eduvisagent",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T05:06:38.019Z",
+  "seconds": 54,
+  "result": {
+    "evidence": "0:01: The lesson opens with a clear, curiosity-inducing question about why there is no picture on the wall.\n0:02-2:30: The interactive exploration of the scene and ray tracing is engaging and holds attention.\n3:34-5:58: The construction phase slows the pace and feels somewhat repetitive.\n5:58-11:10: Transfer tasks rely heavily on text, further slowing momentum.\n11:58-20:50: The extensive summary and review section is very long and repetitive, creating a major flat stretch.",
+    "score_reason": "The lesson fully meets Level 4. It features a clear opening with pull and holds attention well during the initial interactive segments. However, the text-heavy middle sections and the excessively long, repetitive summary create significant flat stretches, preventing it from reaching Level 5.",
+    "score": 4
+  },
+  "usage": {
+    "promptTokenCount": 330919,
+    "candidatesTokenCount": 205,
+    "totalTokenCount": 332500,
+    "cachedContentTokenCount": 336868,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 655
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 330264
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 336519
+      }
+    ],
+    "thoughtsTokenCount": 1376,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 340152
+  }
+}

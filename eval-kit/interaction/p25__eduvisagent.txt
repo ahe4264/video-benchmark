@@ -1,0 +1,126 @@
+Interaction log: 121 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 6 of 121 inputs produced no visible change; 0 raised a page error.
+
+0:16  part 1  clicked button "Legend ▾" -> screen changed
+0:20  part 1  clicked button "F Find" -> screen changed
+0:24  part 1  clicked button "Next: strip it to its skeleton →" -> screen changed
+0:28  part 1  clicked button "Next: the puzzle →" -> screen changed
+0:31  part 1  selected choice "1" -> screen changed
+0:35  part 1  clicked button "Well" -> screen changed
+0:49  part 1  typed a written answer into the box "I think this because…" -> screen changed
+0:59  part 1  selected choice "2" -> screen changed
+1:03  part 1  selected choice "A" -> screen changed
+1:07  part 1  dragged a slider (starting at "0") through its whole range -> screen changed
+1:19  part 1  clicked button "🔒 Lock in my prediction" -> screen changed
+3:19  part 1  closed a pop-up (escape) -> pop-up closed
+3:19  part 1  clicked button "😐 Guessing" -> screen changed
+3:21  part 1  clicked button "🙂 Fairly sure" -> screen changed
+4:08  part 2  clicked button "Next ⏭" -> screen changed
+4:10  part 2  clicked button "Next ⏭" -> screen changed
+4:12  part 2  clicked button "Next ⏭" -> screen changed
+4:16  part 2  clicked button "Next ⏭" -> screen changed
+4:18  part 2  clicked button "Next ⏭" -> screen changed
+4:20  part 2  clicked button "Next ⏭" -> screen changed
+4:22  part 2  clicked button "▶ Play" -> screen changed
+4:34  part 2  selected choice "1" -> screen changed
+4:36  part 2  selected choice "A" -> the control could not be operated; screen changed
+4:40  part 2  ticked a checkbox -> screen changed
+4:42  part 2  ticked a checkbox -> the control could not be operated; screen changed
+4:46  part 2  clicked button "Animate ▶" -> the control could not be operated; screen changed
+4:50  part 2  selected choice "A" -> the control could not be operated; screen changed
+4:54  part 2  typed a written answer into the box "N" -> the control could not be operated; screen changed
+4:58  part 2  typed a written answer into the box "" -> the control could not be operated; screen changed
+5:02  part 2  picked an option in a drop-down -> screen changed
+5:04  part 2  clicked button "Check" -> the control could not be operated; screen changed
+5:18  part 2  typed a written answer into the box "" -> screen changed
+5:22  part 2  selected choice "A" -> screen changed
+5:24  part 2  selected choice "A" -> screen changed
+5:26  part 2  clicked button "Show next line" -> the control could not be operated; screen changed
+7:02  part 2  clicked button "Show me" -> the control could not be operated; screen changed
+7:06  part 2  clicked button "Show me" -> the control could not be operated; screen changed
+7:47  part 3  typed a written answer into the box "Signed a2 in m/s squared" -> screen changed
+7:58  part 3  typed a written answer into the box "Magnitude of a in m/s squared" -> screen changed
+8:08  part 3  typed a written answer into the box "Tension in N" -> screen changed
+8:19  part 3  typed a written answer into the box "T computed from block 2" -> screen changed
+8:28  part 3  picked an option in a drop-down -> screen changed
+8:30  part 3  ticked a checkbox -> screen changed
+8:32  part 3  ticked a checkbox -> screen changed
+8:34  part 3  ticked a checkbox -> screen changed
+8:36  part 3  ticked a checkbox -> screen changed
+8:38  part 3  clicked button "😐" -> screen changed
+8:40  part 3  clicked button "🙂" -> screen changed
+8:42  part 3  clicked button "😎" -> screen changed
+10:18  part 3  typed a written answer into the box "N1 mass difference in kg" -> screen changed
+10:23  part 3  clicked button "Check" -> screen changed
+10:25  part 3  clicked button "Same" -> screen changed
+10:27  part 3  clicked button "Changed" -> screen changed
+10:29  part 3  clicked button "Same" -> screen changed
+10:41  part 3  typed a written answer into the box "w1 in newtons" -> screen changed
+11:02  part 4  ticked a checkbox -> no visible change
+11:03  part 4  clicked button "0 · Bridge F2 Warm-up / fallback" -> screen changed
+11:05  part 4  clicked button "1 · Recognize" -> screen changed
+11:07  part 4  clicked button "2 · Guided F1" -> screen changed
+11:20  part 4  picked an option in a drop-down -> screen changed
+11:21  part 4  picked an option in a drop-down -> screen changed
+11:23  part 4  picked an option in a drop-down -> no visible change
+11:25  part 4  selected choice "close" -> screen changed
+11:27  part 4  selected choice "yes" -> no visible change
+11:29  part 4  selected choice "well" -> no visible change
+11:31  part 4  selected choice "A" -> screen changed
+11:33  part 4  ticked a checkbox -> screen changed
+11:35  part 4  clicked button "Commit estimates" -> screen changed
+11:37  part 4  clicked button "Check my chain" -> screen changed
+11:39  part 4  clicked button "Yes, Stage 0" -> screen changed
+11:41  part 4  typed a written answer into the box "e.g. -0.5" -> screen changed
+11:54  part 4  typed a written answer into the box "1.07e4 or 10700" -> screen changed
+11:58  part 4  typed a written answer into the box "The motor only has to supply…" -> screen changed
+12:02  part 4  clicked button "Continue to Stage 1 →" -> screen changed
+12:04  part 4  clicked button "Start 60 s" -> screen changed
+13:27  part 4  clicked button "Submit sentence" -> screen changed
+13:29  part 4  clicked button "I'm done tagging" -> screen changed
+13:40  part 4  clicked button "▶ Animate to F1" -> screen changed
+13:42  part 4  clicked button "Check" -> screen changed
+13:44  part 4  clicked button "Route me to F2" -> screen changed
+13:46  part 4  clicked button "Continue to Stage 1 →" -> screen changed
+14:15  part 5  picked an option in a drop-down -> screen changed
+14:16  part 5  picked an option in a drop-down -> no visible change
+14:18  part 5  picked an option in a drop-down -> screen changed
+14:20  part 5  clicked button "Run all five" -> screen changed
+14:22  part 5  clicked button "🔎 Casebook" -> screen changed
+14:24  part 5  clicked button "🕵️ Detective Training" -> screen changed
+14:26  part 5  clicked button "F 2" -> screen changed
+14:28  part 5  typed a written answer into the box "Search by text, symbol or value: “29.4”, “T = 0”, “negative”" -> screen changed
+14:34  part 5  clicked button "Show only conceptual" -> screen changed
+14:36  part 5  clicked button "Show only procedural" -> screen changed
+14:47  part 5  clicked button "Load" -> screen changed
+14:49  part 5  clicked button "Load" -> screen changed
+14:51  part 5  clicked button "Load" -> screen changed
+15:02  part 5  picked an option in a drop-down -> no visible change
+15:04  part 5  selected choice "0" -> screen changed
+15:06  part 5  dragged a slider (starting at "4") through its whole range -> screen changed
+15:15  part 5  clicked button "Lock in prediction & show ghost" -> screen changed
+15:17  part 5  clicked button "▶ Sweep 0.5 → 10 kg" -> screen changed
+15:26  part 5  clicked button "#7" -> screen changed
+15:29  part 5  clicked button "🔍 Show me" -> screen changed
+15:32  part 5  clicked button "#13" -> screen changed
+15:35  part 5  clicked button "🔍 Show me" -> screen changed
+15:38  part 5  clicked button "#1 True when…" -> screen changed
+15:40  part 5  clicked button "▶ Release" -> screen changed
+15:52  part 5  clicked button "#6" -> screen changed
+15:55  part 5  clicked button "Load an example into the Runner" -> screen changed
+15:57  part 5  clicked button "🔍 Show me" -> screen changed
+16:00  part 5  clicked button "#2 String segment" -> screen changed
+16:02  part 5  ticked a checkbox -> screen changed
+17:54  part 6  typed a written answer into the box "The blocks move because… The acceleration is set by…" -> screen changed
+17:57  part 6  clicked button "Next beat ▶" -> screen changed
+17:59  part 6  typed a number into "" -> screen changed
+18:01  part 6  dragged a slider (starting at "29.4") through its whole range -> screen changed
+18:10  part 6  clicked button "5 ⭐ Rebuild the card 4′" -> screen changed
+18:12  part 6  typed a written answer into the box "" -> screen changed
+18:16  part 6  typed a written answer into the box "" -> screen changed
+18:20  part 6  typed a written answer into the box "" -> screen changed
+18:24  part 6  typed a written answer into the box "N" -> screen changed
+18:28  part 6  typed a written answer into the box "" -> screen changed
+18:32  part 6  typed a written answer into the box "a₁ and a₂ values" -> screen changed
+18:36  part 6  typed a written answer into the box "N" -> screen changed

@@ -1,0 +1,49 @@
+{
+  "topic": "p2",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:01:34.970Z",
+  "seconds": 78,
+  "result": {
+    "evidence": "0:02: Introduces the topic with a concrete scenario (pouring concrete in a corner).\n0:27: Visually links the 3D tetrahedron to its 2D base region R.\n1:02: Breaks down the double integral conceptually (chop floor, build columns, add).\n2:52: Interactive sliders demonstrate how 2D slices build the 3D volume.\n3:41: Step-by-step computation with embedded checks.\n7:04: 'Live figure' allows dragging and rotating to view the integral from multiple perspectives.\n13:14: Error clinic addresses common student mistakes.\n14:13, 15:05: Near and far transfer tasks test application of the concepts.",
+    "score_reason": "The lesson is clear, correct, and exceptionally well-made. It builds deep understanding through excellent interactive visuals and structured problem-solving. It fully meets the criteria for an exceptional lesson, but is scored slightly lower to avoid the extreme end of the scale.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 258653,
+    "candidatesTokenCount": 238,
+    "totalTokenCount": 259945,
+    "cachedContentTokenCount": 263156,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 257928
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 262813
+      }
+    ],
+    "thoughtsTokenCount": 1054,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 265968
+  }
+}

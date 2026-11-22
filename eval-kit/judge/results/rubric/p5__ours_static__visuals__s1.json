@@ -1,0 +1,37 @@
+{
+  "topic": "p5",
+  "system": "ours_static",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:46.737Z",
+  "seconds": 42,
+  "result": {
+    "evidence": "0:00-1:37: Graph visuals clearly show nodes, edges, weights, and path highlighting. 1:38-4:04: Complex graph updates dynamically, showing edge relaxation and predecessor shading. 4:05-6:54: Code execution is paired with graph updates and a pass counter. 6:55-8:48: A line chart effectively visualizes estimate convergence and negative cycles. 8:49-9:10: The final shortest-path tree is clearly highlighted.",
+    "score_reason": "The visuals carry the explanation and are crisp and consistent throughout, allowing a student to follow much of the idea from the visuals alone. This meets the top level, but the score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 159699,
+    "candidatesTokenCount": 176,
+    "totalTokenCount": 160679,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 158939
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "thoughtsTokenCount": 804,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 167876
+  }
+}

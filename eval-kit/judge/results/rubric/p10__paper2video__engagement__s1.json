@@ -1,0 +1,53 @@
+{
+  "topic": "p10",
+  "system": "paper2video",
+  "metric": "engagement",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:33:47.594Z",
+  "seconds": 35,
+  "result": {
+    "evidence": "0:00-0:15: Title slide read aloud; no hook. 0:15-3:46: Static slides with bullet points read by a synthetic voice. Content is a meta-description of a lesson plan, not an actual lesson. No variety or momentum.",
+    "score_reason": "Dull throughout, reads like slides, lacks any pull. Meets the lowest level (compressed score).",
+    "score": 2
+  },
+  "usage": {
+    "promptTokenCount": 69322,
+    "candidatesTokenCount": 106,
+    "totalTokenCount": 70455,
+    "cachedContentTokenCount": 68547,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 649
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 68673
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 60652
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 7552
+      }
+    ],
+    "thoughtsTokenCount": 1027,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 73102
+  }
+}

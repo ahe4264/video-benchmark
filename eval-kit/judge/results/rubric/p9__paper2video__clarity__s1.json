@@ -1,0 +1,53 @@
+{
+  "topic": "p9",
+  "system": "paper2video",
+  "metric": "clarity",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:30:16.537Z",
+  "seconds": 370,
+  "result": {
+    "evidence": "0:01: Narration starts discussing the 'fifth scene' over the title slide.\n0:18: Narration covers the 'final scene' while the screen shows 'Motivation'.\n1:12: Narration concludes with 'Thank you' over a 'Method' slide.\n4:32: Narration introduces the lesson ('Welcome...') over the final 'Thank You!' slide.\nAudio and visuals are entirely mismatched and scrambled throughout.",
+    "score_reason": "The lesson is completely disordered with mismatched audio and visuals. A newcomer would be lost immediately. It meets the lowest level, which is compressed toward the center of the scale.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 83909,
+    "candidatesTokenCount": 154,
+    "totalTokenCount": 85565,
+    "cachedContentTokenCount": 82995,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 688
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 83221
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 73502
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 9152
+      }
+    ],
+    "thoughtsTokenCount": 1502,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 88389
+  }
+}

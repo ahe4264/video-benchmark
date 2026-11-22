@@ -1,0 +1,138 @@
+Interaction log: 134 inputs by an automated student. The mouse cursor is NOT visible in the recording, so this log says when and where input was given.
+Each line: time in the video, part (tab) of the lesson, what was done, and what happened. "no visible change" = the screen did not change within a few seconds; "page error" = the lesson's code crashed while handling the input.
+Summary: 21 of 134 inputs produced no visible change; 0 raised a page error.
+
+0:13  part 1  ticked a checkbox -> screen changed
+0:24  part 1  dragged a slider (starting at "130") through its whole range -> screen changed
+0:33  part 1  clicked button "÷100 →" -> screen changed
+0:35  part 1  clicked button "÷100 →" -> screen changed
+0:36  part 1  clicked button "÷100 →" -> screen changed
+0:38  part 1  clicked button "÷100 →" -> screen changed
+0:39  part 1  clicked button "Let go ▶" -> screen changed
+1:02  part 1  typed a written answer into the box "The atoms stop at one distance because…" -> screen changed
+1:06  part 1  clicked button "Step ▸ (−50 pm)" -> screen changed
+1:08  part 1  clicked button "Step ▸ (−50 pm)" -> screen changed
+1:09  part 1  clicked button "Step ▸ (−50 pm)" -> screen changed
+1:11  part 1  clicked button "Step ▸ (−50 pm)" -> screen changed
+1:14  part 1  clicked button "Step ▸ (−50 pm)" -> screen changed
+1:15  part 1  clicked button "Step ▸ (−50 pm)" -> screen changed
+1:17  part 1  clicked button "▶ Play" -> screen changed
+1:36  part 1  typed a written answer into the box "" -> screen changed
+1:40  part 1  typed a written answer into the box "Matches… Breaks down…" -> screen changed
+1:44  part 1  clicked button "Reveal model answer" -> screen changed
+1:45  part 1  clicked button "1" -> screen changed
+1:47  part 1  clicked button "Commit my prediction" -> screen changed
+1:48  part 1  clicked button "2" -> screen changed
+1:49  part 1  clicked button "3" -> screen changed
+2:01  part 1  clicked button "F · Find" -> screen changed
+2:02  part 1  clicked button "O · Organize" -> screen changed
+2:03  part 1  clicked button "P · Plan" -> screen changed
+4:03  part 2  ticked a checkbox -> screen changed
+4:05  part 2  ticked a checkbox -> the control could not be operated; no visible change
+4:08  part 2  clicked button "Next beat →" -> screen changed
+4:10  part 2  clicked button "Next beat →" -> screen changed
+4:11  part 2  clicked button "Next beat →" -> screen changed
+4:13  part 2  clicked button "Next beat →" -> screen changed
+4:14  part 2  clicked button "Construct" -> screen changed
+4:15  part 2  clicked button "Construct" -> screen changed
+4:17  part 2  clicked button "Construct" -> screen changed
+4:18  part 2  clicked button "Construct" -> no visible change
+4:19  part 2  clicked button "Construct" -> screen changed
+4:21  part 2  clicked button "Construct" -> screen changed
+4:36  part 3  ticked a checkbox -> screen changed
+4:37  part 3  ticked a checkbox -> screen changed
+4:39  part 3  ticked a checkbox -> screen changed
+4:40  part 3  ticked a checkbox -> screen changed
+4:42  part 3  ticked a checkbox -> screen changed
+4:43  part 3  ticked a checkbox -> screen changed
+4:44  part 3  dragged a slider (starting at "199") through its whole range -> screen changed
+4:53  part 3  clicked button "▶ Sweep range" -> screen changed
+5:03  part 3  clicked button "Cl₂" -> screen changed
+5:05  part 3  clicked button "H₂" -> screen changed
+5:06  part 3  clicked button "① Map" -> screen changed
+5:17  part 3  typed a written answer into the box "Cl2 axes and units" -> screen changed
+5:22  part 3  typed a written answer into the box "Cl2 zero of energy" -> screen changed
+5:27  part 3  typed a written answer into the box "Cl2 shape" -> screen changed
+7:03  part 3  typed a written answer into the box "Cl2 position of minimum" -> screen changed
+7:08  part 3  typed a written answer into the box "Cl2 depth" -> screen changed
+7:13  part 3  typed a written answer into the box "Cl2 orbitals" -> screen changed
+7:18  part 3  clicked button "Same" -> screen changed
+7:20  part 3  clicked button "Different" -> screen changed
+7:21  part 3  clicked button "Same" -> screen changed
+7:32  part 3  typed a written answer into the box "Cl2 squeeze vs stretch" -> screen changed
+7:37  part 3  typed a written answer into the box "Self-question answer" -> screen changed
+7:41  part 3  clicked button "Start answering →" -> screen changed
+7:43  part 3  typed a written answer into the box "Extra fact needed" -> screen changed
+7:47  part 3  typed a written answer into the box "Q3 meaning" -> screen changed
+7:51  part 3  clicked button "Right →" -> screen changed
+7:53  part 3  clicked button "Right →" -> screen changed
+7:55  part 3  clicked button "Right →" -> screen changed
+7:57  part 3  clicked button "Right →" -> no visible change
+7:59  part 3  clicked button "Right →" -> no visible change
+8:01  part 3  clicked button "Right →" -> no visible change
+8:03  part 3  clicked button "Right →" -> screen changed
+8:14  part 3  typed a written answer into the box "Q4 why" -> screen changed
+8:35  part 4  selected choice "B" -> screen changed
+8:36  part 4  ticked a checkbox -> screen changed
+8:38  part 4  ticked a checkbox -> screen changed
+8:40  part 4  clicked button "Start the problem →" -> screen changed
+8:43  part 4  clicked button "① Choose tier" -> screen changed
+8:46  part 4  clicked button "② Cold attempt" -> screen changed
+8:48  part 4  clicked button "Save sketch" -> screen changed
+10:21  part 4  typed a written answer into the box "or write 'none'" -> screen changed
+10:26  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+10:30  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+10:34  part 4  typed a written answer into the box "" -> the control could not be operated; screen changed
+10:38  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+10:42  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+10:46  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+10:50  part 4  typed a written answer into the box "How do you know it's a minimum?" -> the control could not be operated; screen changed
+10:54  part 4  selected choice "below 100 kg" -> screen changed
+10:56  part 4  clicked button "1" -> screen changed
+10:58  part 4  clicked button "2" -> screen changed
+11:00  part 4  clicked button "3" -> screen changed
+11:11  part 4  typed a written answer into the box "Is it sensible?" -> the control could not be operated; no visible change
+11:16  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+11:20  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+11:24  part 4  typed a written answer into the box "Compare…" -> the control could not be operated; screen changed
+11:28  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+11:32  part 4  typed a written answer into the box "" -> the control could not be operated; no visible change
+11:36  part 4  typed a written answer into the box "Reason" -> the control could not be operated; no visible change
+11:40  part 4  typed a written answer into the box "What matches" -> the control could not be operated; no visible change
+11:44  part 4  selected choice "50 kg costs more extra" -> the control could not be operated; no visible change
+11:48  part 4  selected choice "yes" -> the control could not be operated; screen changed
+11:52  part 4  clicked button "Done on paper" -> screen changed
+12:03  part 4  typed a written answer into the box "At least two things that don't match" -> the control could not be operated; no visible change
+12:08  part 4  selected choice "350 kg costs more extra" -> the control could not be operated; no visible change
+12:12  part 4  selected choice "no" -> the control could not be operated; no visible change
+12:30  part 5  ticked a checkbox -> screen changed
+12:32  part 5  ticked a checkbox -> screen changed
+12:34  part 5  ticked a checkbox -> screen changed
+12:36  part 5  ticked a checkbox -> screen changed
+12:38  part 5  ticked a checkbox -> screen changed
+12:40  part 5  ticked a checkbox -> screen changed
+12:42  part 5  ticked a checkbox -> screen changed
+12:44  part 5  dragged a slider (starting at "74") through its whole range -> screen changed
+14:23  part 5  clicked button "▶ Sweep 20 → 300 pm" -> screen changed
+14:33  part 5  clicked button "…" -> screen changed
+14:34  part 5  clicked button "① Self-scan" -> screen changed
+14:36  part 5  clicked button "② Seven readings" -> screen changed
+14:47  part 5  clicked button "▲▼ Height" -> screen changed
+14:50  part 5  clicked button "∠ Slope" -> screen changed
+14:52  part 5  clicked button "⌒ Shape" -> screen changed
+15:08  part 6  dragged a slider (starting at "260") through its whole range -> screen changed
+15:18  part 6  clicked button "6G Retest" -> screen changed
+15:20  part 6  typed a written answer into the box "" -> screen changed
+15:24  part 6  typed a written answer into the box "" -> screen changed
+15:28  part 6  typed a written answer into the box "" -> screen changed
+17:04  part 6  ticked a checkbox -> screen changed
+17:06  part 6  ticked a checkbox -> screen changed
+17:08  part 6  ticked a checkbox -> screen changed
+17:10  part 6  ticked a checkbox -> screen changed
+17:12  part 6  ticked a checkbox -> screen changed
+17:14  part 6  clicked button "Check my own writing" -> screen changed
+17:16  part 6  clicked button "6F Bridge" -> screen changed
+17:27  part 6  clicked button "Submit question" -> screen changed
+17:30  part 6  clicked button "6H Close the loop" -> screen changed
+17:41  part 6  clicked button "Compile my lesson record" -> screen changed
+17:43  part 6  clicked button "✔ Close the lesson" -> screen changed

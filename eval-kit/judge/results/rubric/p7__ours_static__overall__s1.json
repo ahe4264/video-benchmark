@@ -1,0 +1,53 @@
+{
+  "topic": "p7",
+  "system": "ours_static",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:20:39.649Z",
+  "seconds": 26,
+  "result": {
+    "evidence": "0:03: Introduces cross product via torque on a wrench.\n1:21: Shows algebraic formula and calculates an example.\n2:48: Verifies orthogonality with dot product.\n3:49: Visualizes how angle affects cross product length (sine wave).\n5:24: Connects cross product length to parallelogram area.\n6:56: Explains right-hand rule and anti-commutativity.",
+    "score_reason": "The lesson is clear, correct, and highly engaging. It effectively connects geometric intuition with algebraic formulas using excellent interactive visuals. It fully meets the criteria for a strong/exceptional lesson.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 156214,
+    "candidatesTokenCount": 153,
+    "totalTokenCount": 157114,
+    "cachedContentTokenCount": 162280,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 155490
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 724
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 144722
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 17216
+      }
+    ],
+    "thoughtsTokenCount": 747,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 164229
+  }
+}

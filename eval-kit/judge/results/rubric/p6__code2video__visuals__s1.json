@@ -1,0 +1,49 @@
+{
+  "topic": "p6",
+  "system": "code2video",
+  "metric": "visuals",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T03:27:22.961Z",
+  "seconds": 437,
+  "result": {
+    "evidence": "0:00-0:33: Clear 2D graphics introduce the aquarium window and horizontal pressure strips.\n0:34-1:28: Step-by-step visual construction links the physical window to coordinates, depth h(x), and width w(x).\n1:29-2:14: Visualizes a 4-strip Riemann sum with a dynamic bar chart for force.\n2:15-3:11: Animation shows the limit as strips increase (4 to 64), morphing the sum formula into an integral and showing shrinking error.\n3:12-4:10: Sweeping strip generates a sideways integrand graph, visualizing force distribution.\n4:11-4:40: Visuals adapt to show the effect of lowering the window.",
+    "score_reason": "The lesson fully meets the top level description. The visuals carry the explanation, allowing a student to follow the core concepts (strips, limits, integrals) almost entirely through the crisp, dynamic, and consistent on-screen graphics.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 74944,
+    "candidatesTokenCount": 243,
+    "totalTokenCount": 76587,
+    "cachedContentTokenCount": 75931,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 74184
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 760
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 342
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 75589
+      }
+    ],
+    "thoughtsTokenCount": 1400,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 77387
+  }
+}

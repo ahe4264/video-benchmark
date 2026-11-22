@@ -1,0 +1,37 @@
+{
+  "topic": "p3",
+  "system": "notebooklm",
+  "metric": "active_learning",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "at": "2026-11-17T03:04:30.240Z",
+  "seconds": 85,
+  "result": {
+    "evidence": "From 0:00 to 5:45, the video presents information passively. At 5:46, a 'pause and think' question is posed ('How would the limits change for the second quadrant?'), but there is no mechanism for the learner to answer or receive feedback.",
+    "score_reason": "The lesson includes a 'pause and think' prompt without follow-up, fulfilling the second level. It lacks genuine checks with feedback required for higher levels.",
+    "score": 3
+  },
+  "usage": {
+    "promptTokenCount": 108527,
+    "candidatesTokenCount": 116,
+    "totalTokenCount": 109669,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 107795
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 732
+      }
+    ],
+    "thoughtsTokenCount": 1026,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 114233
+  }
+}

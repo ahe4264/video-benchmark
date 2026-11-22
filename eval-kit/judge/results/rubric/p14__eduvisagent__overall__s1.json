@@ -1,0 +1,49 @@
+{
+  "topic": "p14",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:13:33.170Z",
+  "seconds": 91,
+  "result": {
+    "evidence": "The lesson provides a highly interactive and structured approach to learning the U-Net architecture. It uses a step-by-step method, starting with problem understanding (01:23) and moving to detailed calculations of network dimensions and parameters (01:34). The inclusion of near and far transfer tasks (11:54, 19:35) effectively tests and solidifies the learner's understanding. The interactive tables, sliders, and immediate feedback mechanisms keep the learner actively engaged. The sections on misconceptions (20:55) and metacognitive reflection (22:22) demonstrate strong pedagogical design.",
+    "score_reason": "The lesson fully meets the criteria for an exceptional model, offering deep, active learning through well-designed interactive tasks and comprehensive coverage of the topic. Score compressed per instructions.",
+    "score": 5
+  },
+  "usage": {
+    "promptTokenCount": 378245,
+    "candidatesTokenCount": 190,
+    "totalTokenCount": 379656,
+    "cachedContentTokenCount": 385013,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 377520
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 725
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 343
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 384670
+      }
+    ],
+    "thoughtsTokenCount": 1221,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 388731
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "topic": "p9",
+  "system": "eduvisagent",
+  "metric": "overall",
+  "scale": [
+    1,
+    7
+  ],
+  "sample": 1,
+  "model": "gemini-3.1-pro-preview",
+  "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+  "explicitCache": true,
+  "at": "2026-11-17T04:09:42.129Z",
+  "seconds": 191,
+  "result": {
+    "evidence": "The lesson provides a highly detailed, step-by-step exploration of the Rutherford gold foil experiment. It starts with an intuitive analogy (mystery box, 0:21), introduces the historical context and apparatus (0:35, 1:33), and asks for learner predictions (0:54). It then reveals the actual data (2:38) and guides the learner through the mathematical and physical reasoning to reject the plum pudding model and deduce the nuclear model (3:40 onwards). It includes extensive transfer tasks, applying the logic to different materials (9:26) and even a software latency problem (15:54), followed by a deep dive into common misconceptions (18:06). The interactive elements and clear diagrams strongly support the text.",
+    "score_reason": "The lesson is exceptional, offering a deep, rigorous, and highly interactive learning experience that covers the core concept, mathematical proofs, and transfer applications thoroughly. It fully meets the description of the top level. To comply with the instruction to avoid extreme scores, this score is compressed.",
+    "score": 6
+  },
+  "usage": {
+    "promptTokenCount": 436323,
+    "candidatesTokenCount": 241,
+    "totalTokenCount": 437543,
+    "cachedContentTokenCount": 444191,
+    "promptTokensDetails": [
+      {
+        "modality": "VIDEO",
+        "tokenCount": 435600
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 723
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      },
+      {
+        "modality": "VIDEO",
+        "tokenCount": 443850
+      }
+    ],
+    "thoughtsTokenCount": 979,
+    "serviceTier": "standard",
+    "rawPromptTokenCount": 448349
+  }
+}
